@@ -26,6 +26,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>bambooooooom</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://bambooom.github.io">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>junyu</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.junyu.io/">
