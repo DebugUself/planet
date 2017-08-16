@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Planet DebugUself</title>
+	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
+	<link href="http://planet.du.zoomquiet.us/"/>
+	<id>http://planet.du.zoomquiet.us/atom.xml</id>
+	<updated>2017-08-16T15:45:06+00:00</updated>
+	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">丑照何时曝, 当然变美时 —— 运动follower 招募</title>
+		<link href="http://liguanghe.github.io/2017/08/16/KeepTogether/"/>
+		<id>http://liguanghe.github.io/2017/08/16/KeepTogether/</id>
+		<updated>2017-08-15T21:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;When you are brave enough to show your ugly photo? The time is when you beautiful. &lt;/p&gt;
+&lt;p&gt;I show this picture is not to say how good loo&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-08-16T15:13:45+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Weekend 周末小憩</title>
+		<link href="http://liguanghe.github.io/2017/08/12/DunedinWeekend/"/>
+		<id>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</id>
+		<updated>2017-08-12T11:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;Today I have a Dunedin day. I went to traditional market after programing, there are many local food there, fresh and unique. Musicians p&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-08-16T15:13:45+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">深夜放毒后的嗯哼</title>
+		<link href="http://blog.junyu.io/posts/1003-zq-2th-meetup.html"/>
+		<id>http://blog.junyu.io/posts/1003-zq-2th-meetup.html</id>
+		<updated>2017-08-11T09:19:33+00:00</updated>
+		<content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;Py103 -&amp;gt; Py104，Zoom Quite.again&lt;/blockquote&gt;
+
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;再见到大妈真身，俨然小半年过去了。乡音难改，单口继续，笑声爽朗，收获多多。&lt;/p&gt;
+&lt;h2 id=&quot;ZoomQuiet-offline-refresh&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ZoomQuiet-offline-refresh&quot; class=&quot;headerlink&quot; title=&quot;ZoomQuiet.offline.refresh&quot;&gt;&lt;/a&gt;ZoomQuiet.offline.refresh&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;自带BGM出场的男人&lt;/li&gt;
+&lt;li&gt;全程自带BGM的男人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Python-Python-in-my-eye&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Python-Python-in-my-eye&quot; class=&quot;headerlink&quot; title=&quot;Python != Python in my eye&quot;&gt;&lt;/a&gt;Python != Python in my eye&lt;/h2&gt;&lt;p&gt;大家问了很多问题，刚开始接触编程，太多的不确定性带来的未知的恐惧感渗透在一个又一个问题里。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;编程恐惧&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发展路径是怎样的？&lt;/li&gt;
+&lt;li&gt;好奇你和Python的第一次相遇？&lt;/li&gt;
+&lt;li&gt;……&lt;br /&gt;突破这种心理的最简单的方式是：编程。认真的编程，认真的思考，编程会变成一个又一个具体的问题or挑战，所以其实会变成克服一个又一个挑战的过程。挑战一个又一个的越变越大，越变越复杂，再被不断拆分，不断分解。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Google? Google!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;能不能用Google，你懂的原因&lt;/li&gt;
+&lt;li&gt;是否知道Google的搜索规则&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/#topic=3378866&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方-&amp;gt;使用Google 搜索帮助中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/2466433?hl=zh-Hans&amp;ref_topic=3081620&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方-&amp;gt;优化网页搜索&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20161362&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知乎-&amp;gt;如何用好谷歌等搜索引擎？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube也是Google的一部分呢。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;关键词的调整、搜索套路的调整&lt;/li&gt;
+&lt;li&gt;搜索的韧性，复杂问题大妈需要上百次的搜索尝试，是也乎～&lt;/li&gt;
+&lt;li&gt;更重要的是问题的拆解、定位&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;信息检索和信息品味在阳志平老师的《工作谈》中有提到～试试看Google之。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Extreme Programming.Pair Programming&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;解锁新姿势，做全新尝试&lt;/li&gt;
+&lt;li&gt;立马有了组织线下活动的动力，继续更新我的活动&lt;a href=&quot;https://meetup.junyu.pro/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;记录&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Practise * 10000…. -&amp;gt; expert&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先动手，再提问&lt;/li&gt;
+&lt;li&gt;持续动手，一天不Coding，浑身痒痒&lt;/li&gt;
+&lt;li&gt;代码量上来了，一切都好谈&lt;/li&gt;
+&lt;li&gt;还可以多看代码，看得多了，也就会写了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Docstring &amp;amp; Comment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To do: docstring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以下是开学典礼后深夜放毒夹带的私货……&lt;/p&gt;
+&lt;h2 id=&quot;Error-Http-404&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Error-Http-404&quot; class=&quot;headerlink&quot; title=&quot;Error Http 404&quot;&gt;&lt;/a&gt;Error Http 404&lt;/h2&gt;&lt;p&gt;在去串店的路上，大妈放出了来自互联网远古时代的呐喊，20年收集宫崎骏和久石让动画的心路历程。&lt;br /&gt;信息饥渴 -&amp;gt; 信息存储 -&amp;gt; 信息爆炸 -&amp;gt; 信息质量&lt;/p&gt;
+&lt;p&gt;作为后互联网远古时代的原住民，曾经也有过数百张光盘刻录、硬盘存储的相似经历，不过由于懒，后来放弃了……看到了大妈的&lt;a href=&quot;http://zoomquiet.io/collection.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Collection&lt;/a&gt;，心中的干柴终于遇到了烈火。继续搞起～&lt;/p&gt;
+&lt;h2 id=&quot;Moinmoin&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Moinmoin&quot; class=&quot;headerlink&quot; title=&quot;Moinmoin&quot;&gt;&lt;/a&gt;Moinmoin&lt;/h2&gt;&lt;p&gt;Wiki还是那个wiki，写完&lt;a href=&quot;http://blog.junyu.io/posts/0602-wiki-user-guide.html&quot;&gt;Wiki上车指南&lt;/a&gt;，经历了这几个月的实践，也算是一个有故事的人了，大妈又给了更多的嗯哼：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前期的混乱很正常&lt;/li&gt;
+&lt;li&gt;好好架构&lt;/li&gt;
+&lt;li&gt;内容丰富了会有变化&lt;/li&gt;
+&lt;li&gt;自己写插件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Debug-Uself&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Debug-Uself&quot; class=&quot;headerlink&quot; title=&quot;Debug Uself&quot;&gt;&lt;/a&gt;Debug Uself&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;深以为然&lt;/li&gt;
+&lt;li&gt;兴趣&lt;/li&gt;
+&lt;li&gt;实用+需求出发&lt;/li&gt;
+&lt;li&gt;Keep Moving&lt;br /&gt;这部分纯私货～&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ZhangCici/python/issues/9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ZhangCici的记录&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170811 新建&lt;/p&gt;</content>
+		<author>
+			<name>浚宇</name>
+			<uri>http://blog.junyu.io/</uri>
+		</author>
+		<source>
+			<title type="html">浚宇的博客</title>
+			<subtitle type="html">人工智能、千字文</subtitle>
+			<link rel="self" href="http://blog.junyu.io/atom.xml"/>
+			<id>http://blog.junyu.io/</id>
+			<updated>2017-08-16T15:22:41+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Work Responsibility 负责地工作</title>
+		<link href="http://liguanghe.github.io/2017/08/10/WorkResponsibility/"/>
+		<id>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</id>
+		<updated>2017-08-10T10:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2618067057275643910&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-08-16T15:13:45+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">workExchange 换宿及停止</title>
+		<link href="http://liguanghe.github.io/2017/08/09/QuitWorkExchange/"/>
+		<id>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</id>
+		<updated>2017-08-09T05:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2617628276976195590&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-08-16T15:13:45+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">凡小宇装修日记之五：明确需求</title>
+		<link href="http://blog.junyu.io/posts/0505-home-renovation-005.html"/>
+		<id>http://blog.junyu.io/posts/0505-home-renovation-005.html</id>
+		<updated>2017-08-06T13:37:23+00:00</updated>
+		<content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;理性与感性，实用与快乐&lt;/blockquote&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;之前对我们的居住需求有了一个版本的描述(详情参考：&lt;a href=&quot;http://blog.junyu.io/posts/0503-home-renovation-003.html&quot;&gt;凡小宇装修日记之三：需求，需求，需求
+&lt;/a&gt;)，写的有一些感性，而且自己对需求的理解也不是特别到位。所以基于这个原因重新对需求进行了梳理，有了今天的内容。&lt;/p&gt;
+&lt;h2 id=&quot;需求梳理思路&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#需求梳理思路&quot; class=&quot;headerlink&quot; title=&quot;需求梳理思路&quot;&gt;&lt;/a&gt;需求梳理思路&lt;/h2&gt;&lt;h3 id=&quot;关键词之一：频率与功能&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#关键词之一：频率与功能&quot; class=&quot;headerlink&quot; title=&quot;关键词之一：频率与功能&quot;&gt;&lt;/a&gt;关键词之一：频率与功能&lt;/h3&gt;&lt;p&gt;家是我们天天都要住，要用的地方，优先关注高频需要，之后才是低频需要。一些看似出彩但一年用不到几次的需要和那些天天都要做的吃喝拉撒比起来，后者显得更为重要。&lt;/p&gt;
+&lt;h3 id=&quot;关键词之二：可能与实现&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#关键词之二：可能与实现&quot; class=&quot;headerlink&quot; title=&quot;关键词之二：可能与实现&quot;&gt;&lt;/a&gt;关键词之二：可能与实现&lt;/h3&gt;&lt;p&gt;家不是一层不变，家是灵动的，是可变的，是可以根据需要进行调整的。这种可能性可以是随心而动的，比如说色调变幻的可能。也可能是因地制宜的，家中有了宝宝，又需要老人照顾时对次卧的调整等等。&lt;br /&gt;此次的装修也是可以分阶段的，第一阶段完成必须的功能改造，保留部分空间的变化可能，以后再做调整。&lt;/p&gt;
+&lt;h3 id=&quot;关键词之三：设计与情感&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#关键词之三：设计与情感&quot; class=&quot;headerlink&quot; title=&quot;关键词之三：设计与情感&quot;&gt;&lt;/a&gt;关键词之三：设计与情感&lt;/h3&gt;&lt;p&gt;家是家是简洁的，连接私人情感的器物。家需要被设计，充满了美。&lt;/p&gt;
+&lt;h2 id=&quot;被动设备场景&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#被动设备场景&quot; class=&quot;headerlink&quot; title=&quot;被动设备场景&quot;&gt;&lt;/a&gt;被动设备场景&lt;/h2&gt;&lt;p&gt;为什么先说设备场景？设备是安装好后随时为人服务的，从“可用性”的角度，是随时可用，也是相对最高频的。并且这里提到的设备场景都是自动化的设备，力争做到一次设置，自动使用。&lt;/p&gt;
+&lt;h3 id=&quot;1-01-安防&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-01-安防&quot; class=&quot;headerlink&quot; title=&quot;1.01 安防&quot;&gt;&lt;/a&gt;1.01 安防&lt;/h3&gt;&lt;p&gt;根据了解，近一年内小区进过小偷，有过入户盗窃的案件。所以安防一定要做，门窗打开报警，门口的摄像头，手机通知个人等。安防包括两种场景，家中无人和家中有人，家中无人场景下还需要考虑配电箱的调整，因为一般来说离家特别是出远门会拉闸关电源，这时要保证安防的正常供电（网络供电也需要考虑），能提供电池供电是最好了。有人时的及时响铃提示就可以了。&lt;/p&gt;
+&lt;p&gt;需要注意的是有人和无人场景的切换，如果做的漂亮，无人场景下还可以实现自动的断电拉闸，温度、天然气等各种的监测和报警。&lt;/p&gt;
+&lt;h3 id=&quot;1-02-收纳&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-02-收纳&quot; class=&quot;headerlink&quot; title=&quot;1.02 收纳&quot;&gt;&lt;/a&gt;1.02 收纳&lt;/h3&gt;&lt;p&gt;家庭收纳必不可少，根据《小家，越住越大》提到的思路，具有收纳功能的面积占套内面积不少于12%。所以，我需要设计师帮我单独计算出套内面积、收纳功能占地面积比、收纳功能的总体积和房屋套内的总体积比。&lt;br /&gt;根据这么多年的生活、租房经验，要想有一个整齐的家，收纳空间一定一定一定要留的足够并且方便取用。&lt;/p&gt;
+&lt;p&gt;另外一个问题是收纳物品的整理，特别是厨房，食材、器皿、各类工具特别的多，尽量购置风格一致，简介实用的器皿、餐具等，在软装阶段也需要设计师帮忙参考。&lt;/p&gt;
+&lt;h3 id=&quot;1-03-环境&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-03-环境&quot; class=&quot;headerlink&quot; title=&quot;1.03 环境&quot;&gt;&lt;/a&gt;1.03 环境&lt;/h3&gt;&lt;p&gt;空气、水和光线，生活在地球上必不可少的资源，都需要我们格外的关注。就像我们日常的使用如非刻意，并不会感受到他们的存在一样。提升品质后的洁净空气、干净的水、舒服的光线，也不应该是我们刻意取得。比如说在空气品质很差时自动开启净化装置，空气转好后自动关闭。打开水龙头就是洁净的水源，不需要自己记得还需要手动开启某个按钮。光线也是如此，一楼的采光不好，设计阶段就应该考虑到不同场景的采光需要，在合适的地方，手指自然触碰。一些场景的采光采用感应灯实现（后面详述）。&lt;/p&gt;
+&lt;p&gt;北京的空气质量堪忧，初步的计划是带有过滤功能的新风系统和空气净化器双管齐下。特别要注意的是空气检测较差时可以自动开启新风和空气净化的功能。&lt;br /&gt;一楼的采暖和通风效果并不是特别理想，需要考虑中央空调、壁挂空调、风管机等形式处理。采暖需要单独考虑解决方案。&lt;br /&gt;水处理也需要一整套方案。&lt;br /&gt;采光的设计，特别是客房和次卧，需要仔细规划。洗手间和厨房以及一些暗柜，可以考虑感应灯解决问题。&lt;/p&gt;
+&lt;h3 id=&quot;1-04-窗帘&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-04-窗帘&quot; class=&quot;headerlink&quot; title=&quot;1.04 窗帘&quot;&gt;&lt;/a&gt;1.04 窗帘&lt;/h3&gt;&lt;p&gt;主卧需要想办法实现在工作日根据光线的情况自动拉开窗帘，让第一抹阳光叫醒沉睡的一天。为什么要单独列出，也是因为自己很烦躁每天早上还没睡醒被闹钟滴滴滴之后去拉开窗帘唤醒自己的烦躁，幸福感大大减分。&lt;/p&gt;
+&lt;h3 id=&quot;1-05-感应灯&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-05-感应灯&quot; class=&quot;headerlink&quot; title=&quot;1.05 感应灯&quot;&gt;&lt;/a&gt;1.05 感应灯&lt;/h3&gt;&lt;p&gt;暗柜、厕所、厕所的收纳空间、厨房高低的柜子都会存在光线不足的情况。一个自动亮起的光线算不上什么智能家居，但是会让人心情愉悦许多，还有夜里引导你前行的小夜灯。&lt;/p&gt;
+&lt;h3 id=&quot;1-06-Wifi-amp-NAS&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-06-Wifi-amp-NAS&quot; class=&quot;headerlink&quot; title=&quot;1.06 Wifi &amp; NAS&quot;&gt;&lt;/a&gt;1.06 Wifi &amp;amp; NAS&lt;/h3&gt;&lt;p&gt;一个上网流畅的Wifi配合家庭存储服务，可以自动上传安防视频影响，自动下载电影，存储你需要的资料备份。心情再愉悦不过了。考虑到安全性问题，可以设置两个网络环境，一个是日常家用，密码极其复杂（因为还要照顾各种智能设备的联网安全），另一个在访客来访时开启，密码较为简单，不用时关闭即可。&lt;/p&gt;
+&lt;h2 id=&quot;高频需要&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#高频需要&quot; class=&quot;headerlink&quot; title=&quot;高频需要&quot;&gt;&lt;/a&gt;高频需要&lt;/h2&gt;&lt;h3 id=&quot;2-01-玄关&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-01-玄关&quot; class=&quot;headerlink&quot; title=&quot;2.01 玄关&quot;&gt;&lt;/a&gt;2.01 玄关&lt;/h3&gt;&lt;p&gt;每天几乎都要做的事情就是进进出出，工作日上班时来到门前检查物品，心中默念钱包手机钥匙，穿上鞋拿上外套，需要时带上雨伞，关上门，安心的离开。&lt;br /&gt;晚上回到家，打开门，首先看到的是素雅的玄关，门口放起了随机的音乐。放下包，脱了鞋，到了自己的天地，心情立刻放松下来。&lt;/p&gt;
+&lt;p&gt;玄关是屋子的门脸，是留给自己和客人的第一印象，应该简介大方，同时功能齐全。简单来说两个字：舒服。如果不方便设置玄关，也需要把相应的功能和风格元素拆解到门口附近的空间统一规划实现。&lt;/p&gt;
+&lt;p&gt;玄关需要能够挂外衣，放钥匙等各种小物件。&lt;/p&gt;
+&lt;h3 id=&quot;2-02-浴室&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-02-浴室&quot; class=&quot;headerlink&quot; title=&quot;2.02 浴室&quot;&gt;&lt;/a&gt;2.02 浴室&lt;/h3&gt;&lt;p&gt;我们可以一天不做饭（叫外卖），但是很少一天不去洗手间，无论是洗手、洗漱、如厕还是洗澡。洗手间是绝对的高频场景之一。&lt;br /&gt;家中的洗手间正好比较小，需要设计师确认是否有扩大的可能（和客厅接驳的墙面是否可以外移）。另外，湿漉漉的洗手间不再是现在合适的选择，考虑参考四式分离的方法做调整，马桶上面带有洗手池，可放洗手液，单独隔出一间。洗漱台盆放到客厅连着洗手间的墙体，原来的洗手间就剩下了沐浴和泡澡的功能了。&lt;br /&gt;马桶的墙面也可以考虑一些创意，另外，马桶间和洗手间的门考虑做成隐蔽门，可以保证走廊的风格一致性，方便实现走廊的功能，后面再细说。&lt;/p&gt;
+&lt;p&gt;洗澡时空间规划要注意，之前的老房子装了玻璃门，空间太小，容易撞到胳膊。洗澡是一件身心愉悦的事情，有音乐相伴再好不过了，但是手机经常在浴室里会受潮，需要通过别的方式解决。&lt;/p&gt;
+&lt;p&gt;泡澡的场景不是特别多，一般冬天每个月会有那么几次，但是以后孩子小时候洗澡、甚至初学游泳可能会用到一段时间。泡澡可以考虑永久的浴池或者淘宝的非永久浴池，但是都需要使用简单不繁琐，方便清洗。&lt;/p&gt;
+&lt;h3 id=&quot;2-03-睡眠&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-03-睡眠&quot; class=&quot;headerlink&quot; title=&quot;2.03 睡眠&quot;&gt;&lt;/a&gt;2.03 睡眠&lt;/h3&gt;&lt;p&gt;睡觉是很重要的场景，但是在前面提到的环境舒适的前提下，问题并不是很突出。由于是小户型，缺少一个相对完整的空间，所以考虑壁床在大部分时候作为主卧的大床使用，只有在特殊情况下再合起来使用，保留了完整空间的可能性。另外，在壁床边上可以考虑安装一个类似小米的门窗传感器，万一收起时掉落可以报警提醒。&lt;/p&gt;
+&lt;p&gt;未来会增加的高频睡眠场景是以后有了孩子以后带来的影响以及孩子本身的睡眠。初期婴儿床放在主卧不是问题，以后大了可以单独在次卧休息。&lt;/p&gt;
+&lt;p&gt;如果父母过来照顾，在相当长的一段时期内可以在次卧休息，所以次卧一直都需要一个休息睡觉的场景，哪怕是一个很宽的充气垫和相应的被褥。&lt;/p&gt;
+&lt;p&gt;睡眠场景下有一个起夜的场景，由于房子狭长，主卧到洗手间特别遥远，全程需要感应小夜灯指引，在走廊区域也可以考虑通过常规化的感应式灯光指引。&lt;/p&gt;
+&lt;h3 id=&quot;2-04-工作日起床&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-04-工作日起床&quot; class=&quot;headerlink&quot; title=&quot;2.04 工作日起床&quot;&gt;&lt;/a&gt;2.04 工作日起床&lt;/h3&gt;&lt;p&gt;工作日早上起床到出门（或者不出门）是非常高频的场景，有了前面的自动打开的窗帘以及渐进式闹钟，心情已经好了很多。之后是洗漱，去卫生间（如厕或者洗澡），换衣服。女主人还有化妆的环节（在后面单独描述）。&lt;br /&gt;在这里主要是换衣服的场景，一般内外衣物都可以在衣柜前完成更换，鞋可以到门口更换。衣柜的设计要合理，参考《小家，越住越大》，衣柜内部不需要太复杂的结构，可以靠后期买高质量的（比如Muji）抽屉等补全，保留了变化的可能性，能挂起来的衣服尽量挂起来。这样衣服洗完收下来也可以直接进入衣柜。脏衣篓可以把袋子拿下来也是不错的选择。&lt;br /&gt;男士的衣柜或者其他位置一定要有可以放置穿过了暂时不用洗，但是又需要和洗过的干净衣服分开的位置。也要有内衣裤、袜子分开放置、夏天的短袖、短裤等衣服的分开放置，方便一次定位。&lt;br /&gt;另外，衣柜甚至可以考虑不用打柜子，用一整面墙设计为宜家的艾格特模块，外面加上窗帘即可。以后如果想换，再拆掉重新安装也来得及。&lt;/p&gt;
+&lt;p&gt;女主增补:工作日起床&lt;br /&gt;女士衣柜女士衣柜，准备参考《小家》里边的建议，放弃传统的抽屉，采用更灵活的收纳物品来进行收纳，包括塑料抽屉、无纺布挂饰袋、洗衣篮，统一样式的鞋盒。辅助工具有挂烫机（男士、女士棉麻衣物熨烫），行李箱（方便出差、旅行收拾，缩短动线）。在衣柜1平米的范围内，安置一面穿衣镜，同时考虑穿衣镜的采光。&lt;br /&gt;具体行动有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为自己的家当“瘦身”&lt;br /&gt;过了25岁，成家立业，冲动消费比以前少了很多。但由于从前囤积的家当没有统一清理，新的家当还在一步步添置，导致家里的衣柜中，我的物品占据到2/3。搬进新家之前，一项巨大的工作就是给我的家当“瘦身”。&lt;/li&gt;
+&lt;li&gt;“瘦身”的标准及分类&lt;br /&gt;两年以内没有穿过的衣服都可以处理掉了。内衣裤、袜子，分开存放。外衣按照春秋、夏、冬三季分类，外套另算。什么样的衣服必须挂着放，什么样的衣服可以折起来。折起来的衣服，参考禄薇的建议，立着叠放。省空间而且不易变形。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-05-厨房&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-05-厨房&quot; class=&quot;headerlink&quot; title=&quot;2.05 厨房&quot;&gt;&lt;/a&gt;2.05 厨房&lt;/h3&gt;&lt;p&gt;厨房是爱做饭的天堂，也是非常重要的综合功能区。之所以综合，是因为如果主卧的阳台不能放洗衣机，厨房需要承载之。烟道有问题，可以打掉下面的部分，保留顶部和吊顶齐平，用来走洗手间的抽风烟即可。灶台考虑集成灶，放到厨房的阳台位置，方便烟道从窗户排出。垃圾道可以敲掉，并且彻底封死，防止小强等滋生。&lt;br /&gt;由于是老房子，厨房的储物需要考虑封闭性，尽量防止小强产生的影响。未来会用塑料饭盒、收纳袋、收纳盒等进行收纳。&lt;br /&gt;厨房的设计可以参考《小家，越住越大》的内容，比如抽屉的设置、在橱柜下方的隐蔽补光灯等等，还有黄金区等的设置等等。&lt;br /&gt;另外，由于厨房的灶台距离客厅较远，所以需要考虑如何尽可能少的或者一次性的方便又安全的把饭菜拿过来，并且不会洒落到地上。&lt;/p&gt;
+&lt;h3 id=&quot;2-06-化妆&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-06-化妆&quot; class=&quot;headerlink&quot; title=&quot;2.06 化妆&quot;&gt;&lt;/a&gt;2.06 化妆&lt;/h3&gt;&lt;p&gt;看完《小家》中对化妆费时的控诉，深感共鸣。每天早上因为化妆要周旋在卫生间、化妆台面前N次；晚上因为卸妆、护肤又要周旋N次，实在不堪其扰。这段时间，仅仅做了一个小的变化，把卸妆这个环节从梳妆台搬到了卫生间，效果已然十分明显。如果把整个洗漱化妆的过程换到卫生间呢？想想也是美好。&lt;/p&gt;
+&lt;p&gt;要做到顺利搬迁，根据《小家》，有三个难点是需要考虑的。一是卫生间的收纳空间，护肤品、化妆品的瓶瓶罐罐超多，定做或选购一个合适的镜柜是解决问题的关键；二是镜面和洗手台垂直面的距离400mm是最佳的，远了就看不清了，这个涉及到洗手台的选购，找到一个满足我和王同学都适用的洗手台；三是化妆需要足够的灯光，参考专业化妆室的装修从脸部正前方来的光线比较好，这个可能得具体定做。&lt;br /&gt;因为房间里不再需要化妆的空间，节省下来的空间，又可以规划别的事情了~&lt;/p&gt;
+&lt;h3 id=&quot;2-07-健身&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-07-健身&quot; class=&quot;headerlink&quot; title=&quot;2.07 健身&quot;&gt;&lt;/a&gt;2.07 健身&lt;/h3&gt;&lt;p&gt;好的身体是需要健康的饮食和不断的训练的。先说饮食部分，厨房需要厨房秤，需要区分各种肉类和蔬果，洗蔬果的任务最好能通过机器完成深度清洁，需要凉拌一些蔬果的器皿。收纳工作要跟上。&lt;/p&gt;
+&lt;p&gt;关于运动，每周会有个三到四次，两个人都有需要。除了瑜伽垫之外，作为持续训练，需要的主要有两种东西：空间和器械。如果要保持一定强度的无器械健身，倒立走，猫趴等需要一定的空间，家里略显的局促。器械可以考虑单杠、双杠，引体向上的支撑架，用于RTX的支撑杆等用于固定器械的辅助设施。因为这些器械要承受人体重量，一般都需要和墙体结合。&lt;/p&gt;
+&lt;h3 id=&quot;2-08-学习&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-08-学习&quot; class=&quot;headerlink&quot; title=&quot;2.08 学习&quot;&gt;&lt;/a&gt;2.08 学习&lt;/h3&gt;&lt;p&gt;我把在家里只要是需要动脑子的事情统称为学习。这个场景也需要区分。&lt;/p&gt;
+&lt;p&gt;对于博主，项目经理，挨踢男来说，首先要有一个够逼格的电脑桌和大屏幕才对。桌子要能升降，心情好的时候可以站着或者靠着站椅，保护自己长期坐姿的老腰。桌上一定要可以放下一个iMAC和一台MAC笔记本再加上一个屏幕。桌面要够大，边上会放手机、一两本书。另外，需要一个可以涂涂画画的地方，难免有些想法需要写出来，最好是白板一类的，方便清理。基本上可以按照一个家庭的工作间的模式进行规划。另外，这里要安静，可以不被人打扰，必要的时候可以有一些音乐。&lt;/p&gt;
+&lt;p&gt;家里要有一个大大的书柜，现在家里的书已经放不下了，未来还会有更多的书。&lt;/p&gt;
+&lt;h3 id=&quot;2-10-周末-amp-假期&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-10-周末-amp-假期&quot; class=&quot;headerlink&quot; title=&quot;2.10 周末&amp;假期&quot;&gt;&lt;/a&gt;2.10 周末&amp;amp;假期&lt;/h3&gt;&lt;p&gt;周末和假期一般分为两种状态：在家和不在家。&lt;/p&gt;
+&lt;p&gt;不在家的时候和其他不在家的时候一样，最重要的是安防和室内的安全（水、电等）。&lt;/p&gt;
+&lt;p&gt;在家的时候，场景主要是做饭、休闲、娱乐和学习阅读等。有了更多时间，会打扫卫生，收拾屋子。如果有时间，还会邀请朋友来家里做客。&lt;/p&gt;
+&lt;h3 id=&quot;2-11-工作日晚上休闲娱乐&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-11-工作日晚上休闲娱乐&quot; class=&quot;headerlink&quot; title=&quot;2.11 工作日晚上休闲娱乐&quot;&gt;&lt;/a&gt;2.11 工作日晚上休闲娱乐&lt;/h3&gt;&lt;p&gt;工作日的晚上回家一般是学习，但是工作太过繁忙的时候，需要更多休息的时光。收拾收拾屋子，两个人坐一起聊聊天，看个电影，听个音乐。&lt;br /&gt;家里需要一个不错的投影仪，结合已经设置好的存储，可以直接看电影。&lt;br /&gt;需要注意的是：放音乐会是一个高频的动作，嗯，自带背景音乐出场。&lt;/p&gt;
+&lt;h3 id=&quot;2-12-洗衣服&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-12-洗衣服&quot; class=&quot;headerlink&quot; title=&quot;2.12 洗衣服&quot;&gt;&lt;/a&gt;2.12 洗衣服&lt;/h3&gt;&lt;p&gt;洗衣服的事情每周都要做，特别是夏天。我们都比较爱干净，内衣裤、袜子的更换比较频繁，所以洗衣服的场景主要是换衣服收集脏衣服、洗衣服、晾干（烘干）、收纳的场景。一般外衣在卧室换衣服的时候收纳，内衣在淋浴的时候收纳。洗衣服的时候需要把这两个地方的衣服收集到一起。洗衣服过程比较简单，之后取出，晾晒、收纳是一条线。如果可以的话，也可以考虑烘干、收纳。&lt;/p&gt;
+&lt;p&gt;需要注意的是：一些内衣裤可以在淋浴后顺手洗干净晾晒，淋浴的地方要考虑这个场景提供便利。如果采用四式分离，拿到客厅洗衣服显得有些奇怪。&lt;/p&gt;
+&lt;h3 id=&quot;2-13-听音乐&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-13-听音乐&quot; class=&quot;headerlink&quot; title=&quot;2.13 听音乐&quot;&gt;&lt;/a&gt;2.13 听音乐&lt;/h3&gt;&lt;p&gt;现在听音乐比较方便的方式是打开手机连接蓝牙即可。当然如果长期收听，是否可以考虑NAS里内置对应的模块，如何开启，自动播放？这个还需要考虑。&lt;/p&gt;
+&lt;h3 id=&quot;3-01-泡澡&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-01-泡澡&quot; class=&quot;headerlink&quot; title=&quot;3.01 泡澡&quot;&gt;&lt;/a&gt;3.01 泡澡&lt;/h3&gt;&lt;p&gt;一般会在冬天，可以考虑浴缸或者淘宝上的泡澡的工具，使用频率并不会特别的高。但是有一个在某一阶段高频的动作是给孩子洗澡，需要一个相对比较大的空间，方便一到两位大人给孩子洗澡。&lt;/p&gt;
+&lt;h3 id=&quot;3-02-朋友借宿&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-02-朋友借宿&quot; class=&quot;headerlink&quot; title=&quot;3.02 朋友借宿&quot;&gt;&lt;/a&gt;3.02 朋友借宿&lt;/h3&gt;&lt;p&gt;难免会出现这样的场景，外地的朋友或者亲属来北京短暂停留。&lt;/p&gt;
+&lt;h3 id=&quot;3-03-聚会&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-03-聚会&quot; class=&quot;headerlink&quot; title=&quot;3.03 聚会&quot;&gt;&lt;/a&gt;3.03 聚会&lt;/h3&gt;&lt;p&gt;每个季度会有几次，朋友在家的聚会。&lt;/p&gt;
+&lt;h3 id=&quot;3-04-Airbnb或者沙发客&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-04-Airbnb或者沙发客&quot; class=&quot;headerlink&quot; title=&quot;3.04 Airbnb或者沙发客&quot;&gt;&lt;/a&gt;3.04 Airbnb或者沙发客&lt;/h3&gt;&lt;p&gt;在时间精力等各方面允许的前提下可能会考虑提供沙发或者次卧的空间。&lt;br /&gt;这个场景下需要主要考虑的是安全（外门、室内）、是否可以保证主卧的不进入（如何晾晒衣服）。&lt;/p&gt;
+&lt;h3 id=&quot;3-05-出差、旅行或者回家&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-05-出差、旅行或者回家&quot; class=&quot;headerlink&quot; title=&quot;3.05 出差、旅行或者回家&quot;&gt;&lt;/a&gt;3.05 出差、旅行或者回家&lt;/h3&gt;&lt;p&gt;安防&lt;/p&gt;
+&lt;h3 id=&quot;4-01-有娃模式&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#4-01-有娃模式&quot; class=&quot;headerlink&quot; title=&quot;4.01 有娃模式&quot;&gt;&lt;/a&gt;4.01 有娃模式&lt;/h3&gt;&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;《小家，越住越大》&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170806 增补&lt;br /&gt;170723 新建&lt;/p&gt;</content>
+		<author>
+			<name>浚宇</name>
+			<uri>http://blog.junyu.io/</uri>
+		</author>
+		<source>
+			<title type="html">浚宇的博客</title>
+			<subtitle type="html">人工智能、千字文</subtitle>
+			<link rel="self" href="http://blog.junyu.io/atom.xml"/>
+			<id>http://blog.junyu.io/</id>
+			<updated>2017-08-16T15:22:41+00:00</updated>
+		</source>
+	</entry>
+
+</feed>
