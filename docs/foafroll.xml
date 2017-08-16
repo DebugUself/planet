@@ -13,6 +13,19 @@
 
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Debug Uself grp.</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://du.zoomquiet.io/">
+					<dc:title>自怼圈</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>junyu</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.junyu.io/">
@@ -30,6 +43,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://liguanghe.github.io/">
 					<dc:title>Li Guanghe's blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>zoom.quiet</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://blog.zoomquiet.io/">
+					<dc:title></dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>

@@ -18,6 +18,7 @@
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/1003-zq-2th-meetup.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/10/WorkResponsibility/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/09/QuitWorkExchange/" />
+			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2017-08-08:/pyqt4macos.html" />
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/0505-home-renovation-005.html" />
 		</rdf:Seq>
 	</items>
@@ -129,6 +130,72 @@
 	<link>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</link>
 	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2617628276976195590&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2017-08-09T05:35:32+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.zoomquiet.io/pyqt4macos.html">
+	<title>zoom.quiet: PyQt4 之消失在 Sierra</title>
+	<link>http://blog.zoomquiet.io/pyqt4macos.html</link>
+	<content:encoded>&lt;h3 id=&quot;_1&quot;&gt;背景&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_1&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;最近在折腾 Qt , 因为在 mac 中开发运行在 win10 中,
+用 PyQt 是必然选择哪.&lt;/p&gt;
+&lt;p&gt;只是项目是老坑, 所以,没用 Qt5 技术桟, 还是 Qt4&lt;/p&gt;
+&lt;h2 id=&quot;_2&quot;&gt;嗯哼&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_2&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;这天要折腾 &lt;span class=&quot;caps&quot;&gt;QR&lt;/span&gt; 码识别了&lt;/li&gt;
+&lt;li&gt;运行 &lt;code&gt;brew install zbar&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;然后,各种问题就爆发了,特别是:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;libjpeg.8.dylib&lt;/code&gt; 加载不到&lt;/li&gt;
+&lt;li&gt;PyQt4 镜像丢失&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;重新安装 pyqt 时才发现只有 5.1 系列的 Qt/PyQt 可以安装了…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;_3&quot;&gt;原来&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_3&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;参考:&lt;a href=&quot;https://github.com/cartr/homebrew-qt4&quot;&gt;cartr/homebrew-qt4: Homebrew tap for Qt4 and dependent formulae on Sierra&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spesmilo/electrum/issues/2001&quot;&gt;Build on macOS Sierra 10.12 without pyqt4? · Issue #2001 · spesmilo/electrum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gist.github.com/robdvr/271e34785c8a43b1e093d2ee8e612aee&quot;&gt;How to install &lt;span class=&quot;caps&quot;&gt;QT4&lt;/span&gt;, Poppler, and Cairo on MacOS Sierra 10.12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/36615952/how-can-i-install-pyqt4-for-python-2-7&quot;&gt;osx - How can i install PyQT4 for Python 2.7? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要想继续嗯哼 PyQt4:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tap&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cartr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qt4&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cartr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qt4&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qt&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;@4&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cartr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qt4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyqt&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;@4&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;然后继续的:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;versions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uC2710&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python2&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;༽&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;༄&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;ll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyQt4&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;lrwxr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zoomq&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;staff&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;66&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyQt4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cellar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyqt&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;@4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.12&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python2&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PyQt4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;是的, 要在 pyenv 中使用 brew 安装的 pyqt 得:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在对应版本环境的 site-packages 中使用 &lt;code&gt;ln -s&lt;/code&gt; 关联到系统环境的库&lt;/li&gt;
+&lt;li&gt;就 Qt 而言要链接两个东西:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sip.so -&amp;gt; /usr/local/Cellar/sip/4.19.3_1/lib/python2.7/site-packages/sip.so&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PyQt4 -&amp;gt; /usr/local/Cellar/pyqt@4/4.12_1/lib/python2.7/site-packages/PyQt4/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;PS&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;同理: OpenCV 也一样:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 brew 一致安全稳定的自动化编译安装到系统环境中&lt;/li&gt;
+&lt;li&gt;然后, 手工通过链接形式加载到对应 pyenv 版本环境中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, macOS 本质是 &lt;span class=&quot;caps&quot;&gt;UNIX&lt;/span&gt; 系统,
+用 linux 的环境配置思路是好的,
+但是,又为了易用, macOS 也进行了各种妥协, 好在程序猿界总是能第一时间给出对应的嗯哼&lt;/p&gt;
+&lt;p&gt;只是不通过 google 简直了,不知道何时才能从弥散回来的文章中知道嗯哼…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请上苍保祐能翻墙的人民吧…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;_4&quot;&gt;更新&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_4&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;170809 blogging&lt;/li&gt;
+&lt;li&gt;170808 inti.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-08-07T16:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://blog.junyu.io/posts/0505-home-renovation-005.html">
 	<title>junyu: 凡小宇装修日记之五：明确需求</title>
