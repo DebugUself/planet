@@ -8,11 +8,327 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>junyu: 给博客穿件外套</title>
+	<guid>http://blog.junyu.io/posts/0016-cover-page-config.html</guid>
+	<link>http://blog.junyu.io/posts/0016-cover-page-config.html</link>
+	<description>&lt;blockquote class=&quot;blockquote-center&quot;&gt;你的博客，你的使用手册&lt;/blockquote&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;这是我一直以来想做的一件事情，在博客的外面加上个人主页，我们散落在互联网上的痕迹越来越多，也越来越凌乱。甚至对作者本身搞清楚自己到底有多少网上的“作品”都是很复杂的一件事情。这时候增加一个个人主页显得尤为重要。&lt;/p&gt;
+&lt;p&gt;有趣的事情是在Google学术信息时，现代重要的学术大拿几乎人人都有个人主页，不一定会写博客，但是一定会把自己的作品、联系方式、论文、研究方向等统统放出来，供大家使用。而&lt;a href=&quot;http://zoomquiet.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zoom.Quite&lt;/a&gt;的主页极富一个有趣的极客灵魂感。内容之多也是印象深刻。&lt;/p&gt;
+&lt;p&gt;我之前做过几次尝试，但是效果都不是很理想，也没有找到特别好的办法，今天再次尝试，终于一鼓作气先完成了一个可用的及格版本，写一写，留个纪念。&lt;/p&gt;
+&lt;h2 id=&quot;Github-Pages&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Github-Pages&quot; class=&quot;headerlink&quot; title=&quot;Github Pages&quot;&gt;&lt;/a&gt;Github Pages&lt;/h2&gt;&lt;p&gt;Github Pages 是Github 的一个项目，通过在Github托管代码的方式把静态页面组装成可以展示的页面。&lt;a href=&quot;https://github.com/showcases/github-pages-examples&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;有大量的示例。&lt;br /&gt;&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主页&lt;/a&gt;的视频一目了然，不再赘述。&lt;br /&gt;我的主页就是通过Github Pages生成的，使用的是默认的模版，如果不做过多的定制化，仅仅是在主页修改文字的话，内容非常非常的简单。参考我的&lt;a href=&quot;https://github.com/Wangjunyu/Leon.junyu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;仓库&lt;/a&gt;。对于这个主题，自己现在还是很满意的。&lt;/p&gt;
+&lt;h2 id=&quot;域名设置&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#域名设置&quot; class=&quot;headerlink&quot; title=&quot;域名设置&quot;&gt;&lt;/a&gt;域名设置&lt;/h2&gt;&lt;p&gt;以往二级域名的设置已经驾轻就熟。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以blog.junyu.io的设置为例，在域名服务解析的服务页面修改模式为CNAME，把指向的地址修改为：wangjunyu.gitub.io. ，保存即可。如果还无法连接，回到Github查看设置，一般的做法是增加CNAME文件，修改默认分支为gh-pages。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这一次设置的是一级域名以及开头为www 的跳转，按照之前的方式设置始终无法生效。之后从官方文档的&lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Using a custom domain with GitHub Pages
+&lt;/a&gt;开始一页一页的找，终于在&lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/#apex-domains&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;About supported custom domains
+&lt;/a&gt;找到了端倪：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An apex domain is usually configured with an A, ALIAS, or ANAME record through your DNS provider.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对于一级域名的设置，一般是在填写二级域名的地方写上&lt;code&gt;@&lt;/code&gt;，选择A 或者ALIAS 模式，跳转的地址需要使用ip，在上面提到的文档中有提到。修改之后，还可以用文档中提到的’dig’ 命令进行测试。貌似一级域名的调整需要一些时间，不过一般来说十几分钟也就够了。&lt;/p&gt;
+&lt;p&gt;最后，展示一下我的&lt;a href=&quot;http://junyu.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主页&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain and www subdomain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/#www-subdomains&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;About supported custom domains
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170820 新建&lt;/p&gt;</description>
+	<pubDate>Sun, 20 Aug 2017 12:03:00 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he: 丑照何时曝, 当然变美时 —— 运动follower 招募</title>
 	<guid>http://liguanghe.github.io/2017/08/16/KeepTogether/</guid>
 	<link>http://liguanghe.github.io/2017/08/16/KeepTogether/</link>
 	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2618588406176141318&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【dunedin keep hit together】在线收听&lt;em&gt;李广鹤&lt;/em&gt;荔枝FM&lt;/a&gt;&lt;/p&gt;</description>
 	<pubDate>Tue, 15 Aug 2017 21:35:32 +0000</pubDate>
+</item>
+<item>
+	<title>Debug Uself grp.: Aoi-初始化</title>
+	<guid>http://du.zoomquiet.io/2017-08/aoi-init/</guid>
+	<link>http://du.zoomquiet.io/2017-08/aoi-init/</link>
+	<description>&lt;h1 id=&quot;是也乎&quot;&gt;是也乎,(￣▽￣)&lt;/h1&gt;
+
+&lt;p&gt;就是要折腾…所以,来一台 miniPC 吧&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
+&lt;p&gt;海外主机解决了科学上网的问题,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;但是, 带宽/CPU/内存/硬盘IP/… 什么都要銭,&lt;/li&gt;
+  &lt;li&gt;而且远程登录控制响应也很难受&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以, 想临时测试, 或是部署一些周期性的自动化私人任务总是要有个&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;home server
+家庭服务器
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;来长期运行, 内网使用&lt;/p&gt;
+
+&lt;h2 id=&quot;硬件&quot;&gt;硬件&lt;/h2&gt;
+&lt;p&gt;~ 根据预算暂时选定&lt;/p&gt;
+
+&lt;p&gt;工控机形式, 可以长期在家运行,节能…最后决定采购的是类似以下的配置:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/imgextra/i2/3035203165/TB2aYpfXZtnpuFjSZFvXXbcTpXa_!!3035203165.jpg_q90.jpg&quot; alt=&quot;TB2aYpfXZtnpuFjSZFvXXbcTpXa_!!3035203165.jpg_q90.jpg（JPEG 图像，777x818 像素）&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;系统&quot;&gt;系统&lt;/h2&gt;
+&lt;p&gt;~ 必须是稳健的 Linux 了&lt;/p&gt;
+
+&lt;p&gt;只是以往长期用过 Ubuntu 系统, 而且从用户群看, Ubuntu 支持的硬件范围也最广,
+果然和店家商量, 人家预装的就是 LST 版本的 Ubuntu…&lt;/p&gt;
+
+&lt;h3 id=&quot;bash&quot;&gt;bash&lt;/h3&gt;
+
+&lt;p&gt;拿到手, 用初始管理员帐号进入后, 习惯性的配置顺序是:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;创建自己习惯的帐号&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo su 
+# useradd -s /bin/bash -G sudo,root zoomq
+# chown -R zoomq:zoomq /home/zoomq
+# passwd zoomq
+&amp;lt;-- 新的强力临时口令
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;更换/关闭原先的帐号&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo su 
+# passwd admin
+&amp;lt;-- 新的强力口令
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;配置 /etc/sudoers&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  # Allow members of group sudo to execute any command
+  #%sudo  ALL=(ALL:ALL) ALL
+  %sudo ALL=(ALL) NOPASSWD:ALL
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;接入网络 ~ 使用图形化工具即可&lt;/li&gt;
+  &lt;li&gt;升级系统软件 ~ 得先用图形工具, 选择合适的软件源仓库&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt update
+$ sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;安装常用工具:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install htop vim
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;配置 SSH&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;先安装 SSH 服务:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install openssh-server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;再配置允许 SSH 登录:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo vim /etc/ssh/sshd_config
+...
+
+#Port 22
+Port 9122
+
+...
+
+PermitRootLogin yes
+StrictModes yes
+
+RSAAuthentication yes
+PubkeyAuthentication yes
+...
+
+#PasswordAuthentication yes
+
+$ sudo service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;部署私匙, 进行远程登录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最后部署私人公匙:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ mkdir -p /home/zoomq/.ssh
+$ touch /home/spawnris/.ssh/authorized_keys
+$ chmod 600 /home/spawnris/.ssh/authorized_keys
+从本地 ~/.ssh/id_rsa.pub 复制公匙到 authorized_keys 中
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;从本地 macOS 桌面中,配置 &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.ssh/config&lt;/code&gt; 追加:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host aoi
+    User zoomq
+    port 9122
+    ForwardAgent yes
+    HostName 192.168.1.17
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;然后, 就可以从本地终端中使用如下指令随时登录主机了:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ssh aoi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;配置惯用的 bash 环境
+    &lt;ul&gt;
+      &lt;li&gt;配置 ~/&lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/bash/.inputrc&quot;&gt;.inputrc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;配置 ~/&lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/bash/.bashrc&quot;&gt;.bashrc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;才获得习惯的终端命令行前缀形式/颜色, 以及使用上下键能快速选择对应的历史指令了&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;screen&quot;&gt;screen&lt;/h3&gt;
+&lt;p&gt;~ 但是, 想真正自在的随时进入工作组终端, 还得继续…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install screen
+$ screen -S zoomq # 创建名为 zoomq 的终端组
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;screen….常用操作&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ctrl+a+c 新终端
+Ctrl+a+w 列出所有终端
+Ctrl+a+a 回到前一个终端
+Ctrl+a+d 挂起并后台保持 screen
+
+Ctrl+a+0 进入 id 为 0 的终端
+Ctrl+a+1 进入 id 为 1 的终端
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;现在就可以一键从本地进入远程的终端组了:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ssh -t aoi screen -r zoomq
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;而且, 随时使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl+a+d&lt;/code&gt; 断开连接, 回到本地, 
+却对远程主机中的终端组,以及各个终端中的状态都完成了自动保存,
+任何时候回来都可以继续上次的嗯哼…&lt;/p&gt;
+
+&lt;h2 id=&quot;远程配置&quot;&gt;远程配置&lt;/h2&gt;
+&lt;p&gt;~ 在远程使用 vim 来编辑各种脚本/配置, 还是没有在 mac 中用 sublime text 3 来的嗯哼&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;所以, 要有机制可以在本地编辑, 自动部署到远程主机中&lt;/li&gt;
+  &lt;li&gt;自然的, 想到了版本管理系统&lt;/li&gt;
+  &lt;li&gt;以往折腾过稳定的自动化部署&lt;/li&gt;
+  &lt;li&gt;基于 hg (&lt;a href=&quot;https://www.mercurial-scm.org/&quot;&gt;Mercurial&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;整体文件提交/部署的关系是:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;            +- .hg -&amp;gt; hooks -+
+            |                |
+        + /opt &amp;lt;-------------+ (自动化同步更新工作复本)
+        |   ^
+        V   |
+    [home server]
+        |   |
+        |   |
+    [macOS local]
+        |   ^  $ hg push
+        |   |
+        +- path/2/local/work/path
+            +- .hg &amp;lt;- 本地仓库
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;创建主机上的仓库:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd /opt
+$ hg init .
+$ vim .hg/hgrc
+
+[web]
+push_ssl=False
+[hooks]
+changegroup=/opt/cfg/hg/hooks/autoup-opt-up.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;部署自动更新 hook -&amp;gt; &lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/hg/hooks/autoup-opt-up.sh&quot;&gt;autoup-opt-up.sh&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;创建对应目录 &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/cfg/hg/hooks&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;放置对应脚本&lt;/li&gt;
+  &lt;li&gt;并设置为可执行 &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x autoup-opt-up.sh&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;回到 macOS 本地, 创建合理的本地复本环境:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;配置 ~/&lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/hg/.hgrc&quot;&gt;.hgrc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;注意其中有关配置的来源:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/sjl/mercurial-cli-templates/src&quot;&gt;sjl / mercurial-cli-templates / source / — Bitbucket&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/sjl/hg-prompt/src&quot;&gt;sjl / hg-prompt / source / — Bitbucket&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;效果:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://stevelosh.com/media/images/projects/hg-prompt/prompt.png&quot; alt=&quot;prompt&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;至此, 在本地对应工作目录中创建/修订/增补有关配置/脚本, 通过 hg 命令完成版本记录后&lt;/li&gt;
+  &lt;li&gt;嘦简单的进行 &lt;code class=&quot;highlighter-rouge&quot;&gt;hg pu&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;在远程主机, 就自动化的完成了相同的版本收录, 并更新到对应目录中的文件&lt;/li&gt;
+  &lt;li&gt;节省大量重复性操作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;用时&quot;&gt;用时&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;.5h 开机配置&lt;/li&gt;
+  &lt;li&gt;1.h 系统升级&lt;/li&gt;
+  &lt;li&gt;.5h bash 常用配置&lt;/li&gt;
+  &lt;li&gt;1.h 回忆并部署 hg&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
 </item>
 <item>
 	<title>li guang he: Weekend 周末小憩</title>
@@ -103,152 +419,6 @@
 
 &lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170811 新建&lt;/p&gt;</description>
 	<pubDate>Fri, 11 Aug 2017 09:19:33 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Work Responsibility 负责地工作</title>
-	<guid>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</guid>
-	<link>http://liguanghe.github.io/2017/08/10/WorkResponsibility/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2618067057275643910&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Thu, 10 Aug 2017 10:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: workExchange 换宿及停止</title>
-	<guid>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</guid>
-	<link>http://liguanghe.github.io/2017/08/09/QuitWorkExchange/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2617628276976195590&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Wed, 09 Aug 2017 05:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>zoom.quiet: PyQt4 之消失在 Sierra</title>
-	<guid>http://blog.zoomquiet.io/pyqt4macos.html</guid>
-	<link>http://blog.zoomquiet.io/pyqt4macos.html</link>
-	<description>&lt;h3 id=&quot;_1&quot;&gt;背景&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_1&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;最近在折腾 Qt , 因为在 mac 中开发运行在 win10 中,
-用 PyQt 是必然选择哪.&lt;/p&gt;
-&lt;p&gt;只是项目是老坑, 所以,没用 Qt5 技术桟, 还是 Qt4&lt;/p&gt;
-&lt;h2 id=&quot;_2&quot;&gt;嗯哼&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_2&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;这天要折腾 &lt;span class=&quot;caps&quot;&gt;QR&lt;/span&gt; 码识别了&lt;/li&gt;
-&lt;li&gt;运行 &lt;code&gt;brew install zbar&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;然后,各种问题就爆发了,特别是:&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;libjpeg.8.dylib&lt;/code&gt; 加载不到&lt;/li&gt;
-&lt;li&gt;PyQt4 镜像丢失&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;重新安装 pyqt 时才发现只有 5.1 系列的 Qt/PyQt 可以安装了…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;_3&quot;&gt;原来&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_3&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;参考:&lt;a href=&quot;https://github.com/cartr/homebrew-qt4&quot;&gt;cartr/homebrew-qt4: Homebrew tap for Qt4 and dependent formulae on Sierra&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/spesmilo/electrum/issues/2001&quot;&gt;Build on macOS Sierra 10.12 without pyqt4? · Issue #2001 · spesmilo/electrum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://gist.github.com/robdvr/271e34785c8a43b1e093d2ee8e612aee&quot;&gt;How to install &lt;span class=&quot;caps&quot;&gt;QT4&lt;/span&gt;, Poppler, and Cairo on MacOS Sierra 10.12&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/36615952/how-can-i-install-pyqt4-for-python-2-7&quot;&gt;osx - How can i install PyQT4 for Python 2.7? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;要想继续嗯哼 PyQt4:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tap&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cartr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qt4&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cartr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qt4&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qt&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;@4&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cartr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qt4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyqt&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;@4&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;然后继续的:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;versions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uC2710&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python2&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;༽&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;༄&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;ll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyQt4&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;lrwxr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zoomq&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;staff&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;66&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyQt4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cellar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyqt&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;@4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.12&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python2&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;.7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PyQt4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;是的, 要在 pyenv 中使用 brew 安装的 pyqt 得:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在对应版本环境的 site-packages 中使用 &lt;code&gt;ln -s&lt;/code&gt; 关联到系统环境的库&lt;/li&gt;
-&lt;li&gt;就 Qt 而言要链接两个东西:&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;sip.so -&amp;gt; /usr/local/Cellar/sip/4.19.3_1/lib/python2.7/site-packages/sip.so&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;PyQt4 -&amp;gt; /usr/local/Cellar/pyqt@4/4.12_1/lib/python2.7/site-packages/PyQt4/&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;PS&lt;/span&gt;:&lt;/p&gt;
-&lt;p&gt;同理: OpenCV 也一样:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;通过 brew 一致安全稳定的自动化编译安装到系统环境中&lt;/li&gt;
-&lt;li&gt;然后, 手工通过链接形式加载到对应 pyenv 版本环境中&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;所以, macOS 本质是 &lt;span class=&quot;caps&quot;&gt;UNIX&lt;/span&gt; 系统,
-用 linux 的环境配置思路是好的,
-但是,又为了易用, macOS 也进行了各种妥协, 好在程序猿界总是能第一时间给出对应的嗯哼&lt;/p&gt;
-&lt;p&gt;只是不通过 google 简直了,不知道何时才能从弥散回来的文章中知道嗯哼…&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;请上苍保祐能翻墙的人民吧…&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;_4&quot;&gt;更新&lt;a class=&quot;headerlink&quot; href=&quot;http://blog.zoomquiet.io/feeds/all.atom.xml#_4&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;170809 blogging&lt;/li&gt;
-&lt;li&gt;170808 inti.&lt;/li&gt;
-&lt;/ul&gt;</description>
-	<pubDate>Mon, 07 Aug 2017 16:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>junyu: 凡小宇装修日记之五：明确需求</title>
-	<guid>http://blog.junyu.io/posts/0505-home-renovation-005.html</guid>
-	<link>http://blog.junyu.io/posts/0505-home-renovation-005.html</link>
-	<description>&lt;blockquote class=&quot;blockquote-center&quot;&gt;理性与感性，实用与快乐&lt;/blockquote&gt;
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;之前对我们的居住需求有了一个版本的描述(详情参考：&lt;a href=&quot;http://blog.junyu.io/posts/0503-home-renovation-003.html&quot;&gt;凡小宇装修日记之三：需求，需求，需求
-&lt;/a&gt;)，写的有一些感性，而且自己对需求的理解也不是特别到位。所以基于这个原因重新对需求进行了梳理，有了今天的内容。&lt;/p&gt;
-&lt;h2 id=&quot;需求梳理思路&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#需求梳理思路&quot; class=&quot;headerlink&quot; title=&quot;需求梳理思路&quot;&gt;&lt;/a&gt;需求梳理思路&lt;/h2&gt;&lt;h3 id=&quot;关键词之一：频率与功能&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#关键词之一：频率与功能&quot; class=&quot;headerlink&quot; title=&quot;关键词之一：频率与功能&quot;&gt;&lt;/a&gt;关键词之一：频率与功能&lt;/h3&gt;&lt;p&gt;家是我们天天都要住，要用的地方，优先关注高频需要，之后才是低频需要。一些看似出彩但一年用不到几次的需要和那些天天都要做的吃喝拉撒比起来，后者显得更为重要。&lt;/p&gt;
-&lt;h3 id=&quot;关键词之二：可能与实现&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#关键词之二：可能与实现&quot; class=&quot;headerlink&quot; title=&quot;关键词之二：可能与实现&quot;&gt;&lt;/a&gt;关键词之二：可能与实现&lt;/h3&gt;&lt;p&gt;家不是一层不变，家是灵动的，是可变的，是可以根据需要进行调整的。这种可能性可以是随心而动的，比如说色调变幻的可能。也可能是因地制宜的，家中有了宝宝，又需要老人照顾时对次卧的调整等等。&lt;br /&gt;此次的装修也是可以分阶段的，第一阶段完成必须的功能改造，保留部分空间的变化可能，以后再做调整。&lt;/p&gt;
-&lt;h3 id=&quot;关键词之三：设计与情感&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#关键词之三：设计与情感&quot; class=&quot;headerlink&quot; title=&quot;关键词之三：设计与情感&quot;&gt;&lt;/a&gt;关键词之三：设计与情感&lt;/h3&gt;&lt;p&gt;家是家是简洁的，连接私人情感的器物。家需要被设计，充满了美。&lt;/p&gt;
-&lt;h2 id=&quot;被动设备场景&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#被动设备场景&quot; class=&quot;headerlink&quot; title=&quot;被动设备场景&quot;&gt;&lt;/a&gt;被动设备场景&lt;/h2&gt;&lt;p&gt;为什么先说设备场景？设备是安装好后随时为人服务的，从“可用性”的角度，是随时可用，也是相对最高频的。并且这里提到的设备场景都是自动化的设备，力争做到一次设置，自动使用。&lt;/p&gt;
-&lt;h3 id=&quot;1-01-安防&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-01-安防&quot; class=&quot;headerlink&quot; title=&quot;1.01 安防&quot;&gt;&lt;/a&gt;1.01 安防&lt;/h3&gt;&lt;p&gt;根据了解，近一年内小区进过小偷，有过入户盗窃的案件。所以安防一定要做，门窗打开报警，门口的摄像头，手机通知个人等。安防包括两种场景，家中无人和家中有人，家中无人场景下还需要考虑配电箱的调整，因为一般来说离家特别是出远门会拉闸关电源，这时要保证安防的正常供电（网络供电也需要考虑），能提供电池供电是最好了。有人时的及时响铃提示就可以了。&lt;/p&gt;
-&lt;p&gt;需要注意的是有人和无人场景的切换，如果做的漂亮，无人场景下还可以实现自动的断电拉闸，温度、天然气等各种的监测和报警。&lt;/p&gt;
-&lt;h3 id=&quot;1-02-收纳&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-02-收纳&quot; class=&quot;headerlink&quot; title=&quot;1.02 收纳&quot;&gt;&lt;/a&gt;1.02 收纳&lt;/h3&gt;&lt;p&gt;家庭收纳必不可少，根据《小家，越住越大》提到的思路，具有收纳功能的面积占套内面积不少于12%。所以，我需要设计师帮我单独计算出套内面积、收纳功能占地面积比、收纳功能的总体积和房屋套内的总体积比。&lt;br /&gt;根据这么多年的生活、租房经验，要想有一个整齐的家，收纳空间一定一定一定要留的足够并且方便取用。&lt;/p&gt;
-&lt;p&gt;另外一个问题是收纳物品的整理，特别是厨房，食材、器皿、各类工具特别的多，尽量购置风格一致，简介实用的器皿、餐具等，在软装阶段也需要设计师帮忙参考。&lt;/p&gt;
-&lt;h3 id=&quot;1-03-环境&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-03-环境&quot; class=&quot;headerlink&quot; title=&quot;1.03 环境&quot;&gt;&lt;/a&gt;1.03 环境&lt;/h3&gt;&lt;p&gt;空气、水和光线，生活在地球上必不可少的资源，都需要我们格外的关注。就像我们日常的使用如非刻意，并不会感受到他们的存在一样。提升品质后的洁净空气、干净的水、舒服的光线，也不应该是我们刻意取得。比如说在空气品质很差时自动开启净化装置，空气转好后自动关闭。打开水龙头就是洁净的水源，不需要自己记得还需要手动开启某个按钮。光线也是如此，一楼的采光不好，设计阶段就应该考虑到不同场景的采光需要，在合适的地方，手指自然触碰。一些场景的采光采用感应灯实现（后面详述）。&lt;/p&gt;
-&lt;p&gt;北京的空气质量堪忧，初步的计划是带有过滤功能的新风系统和空气净化器双管齐下。特别要注意的是空气检测较差时可以自动开启新风和空气净化的功能。&lt;br /&gt;一楼的采暖和通风效果并不是特别理想，需要考虑中央空调、壁挂空调、风管机等形式处理。采暖需要单独考虑解决方案。&lt;br /&gt;水处理也需要一整套方案。&lt;br /&gt;采光的设计，特别是客房和次卧，需要仔细规划。洗手间和厨房以及一些暗柜，可以考虑感应灯解决问题。&lt;/p&gt;
-&lt;h3 id=&quot;1-04-窗帘&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-04-窗帘&quot; class=&quot;headerlink&quot; title=&quot;1.04 窗帘&quot;&gt;&lt;/a&gt;1.04 窗帘&lt;/h3&gt;&lt;p&gt;主卧需要想办法实现在工作日根据光线的情况自动拉开窗帘，让第一抹阳光叫醒沉睡的一天。为什么要单独列出，也是因为自己很烦躁每天早上还没睡醒被闹钟滴滴滴之后去拉开窗帘唤醒自己的烦躁，幸福感大大减分。&lt;/p&gt;
-&lt;h3 id=&quot;1-05-感应灯&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-05-感应灯&quot; class=&quot;headerlink&quot; title=&quot;1.05 感应灯&quot;&gt;&lt;/a&gt;1.05 感应灯&lt;/h3&gt;&lt;p&gt;暗柜、厕所、厕所的收纳空间、厨房高低的柜子都会存在光线不足的情况。一个自动亮起的光线算不上什么智能家居，但是会让人心情愉悦许多，还有夜里引导你前行的小夜灯。&lt;/p&gt;
-&lt;h3 id=&quot;1-06-Wifi-amp-NAS&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#1-06-Wifi-amp-NAS&quot; class=&quot;headerlink&quot; title=&quot;1.06 Wifi &amp; NAS&quot;&gt;&lt;/a&gt;1.06 Wifi &amp;amp; NAS&lt;/h3&gt;&lt;p&gt;一个上网流畅的Wifi配合家庭存储服务，可以自动上传安防视频影响，自动下载电影，存储你需要的资料备份。心情再愉悦不过了。考虑到安全性问题，可以设置两个网络环境，一个是日常家用，密码极其复杂（因为还要照顾各种智能设备的联网安全），另一个在访客来访时开启，密码较为简单，不用时关闭即可。&lt;/p&gt;
-&lt;h2 id=&quot;高频需要&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#高频需要&quot; class=&quot;headerlink&quot; title=&quot;高频需要&quot;&gt;&lt;/a&gt;高频需要&lt;/h2&gt;&lt;h3 id=&quot;2-01-玄关&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-01-玄关&quot; class=&quot;headerlink&quot; title=&quot;2.01 玄关&quot;&gt;&lt;/a&gt;2.01 玄关&lt;/h3&gt;&lt;p&gt;每天几乎都要做的事情就是进进出出，工作日上班时来到门前检查物品，心中默念钱包手机钥匙，穿上鞋拿上外套，需要时带上雨伞，关上门，安心的离开。&lt;br /&gt;晚上回到家，打开门，首先看到的是素雅的玄关，门口放起了随机的音乐。放下包，脱了鞋，到了自己的天地，心情立刻放松下来。&lt;/p&gt;
-&lt;p&gt;玄关是屋子的门脸，是留给自己和客人的第一印象，应该简介大方，同时功能齐全。简单来说两个字：舒服。如果不方便设置玄关，也需要把相应的功能和风格元素拆解到门口附近的空间统一规划实现。&lt;/p&gt;
-&lt;p&gt;玄关需要能够挂外衣，放钥匙等各种小物件。&lt;/p&gt;
-&lt;h3 id=&quot;2-02-浴室&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-02-浴室&quot; class=&quot;headerlink&quot; title=&quot;2.02 浴室&quot;&gt;&lt;/a&gt;2.02 浴室&lt;/h3&gt;&lt;p&gt;我们可以一天不做饭（叫外卖），但是很少一天不去洗手间，无论是洗手、洗漱、如厕还是洗澡。洗手间是绝对的高频场景之一。&lt;br /&gt;家中的洗手间正好比较小，需要设计师确认是否有扩大的可能（和客厅接驳的墙面是否可以外移）。另外，湿漉漉的洗手间不再是现在合适的选择，考虑参考四式分离的方法做调整，马桶上面带有洗手池，可放洗手液，单独隔出一间。洗漱台盆放到客厅连着洗手间的墙体，原来的洗手间就剩下了沐浴和泡澡的功能了。&lt;br /&gt;马桶的墙面也可以考虑一些创意，另外，马桶间和洗手间的门考虑做成隐蔽门，可以保证走廊的风格一致性，方便实现走廊的功能，后面再细说。&lt;/p&gt;
-&lt;p&gt;洗澡时空间规划要注意，之前的老房子装了玻璃门，空间太小，容易撞到胳膊。洗澡是一件身心愉悦的事情，有音乐相伴再好不过了，但是手机经常在浴室里会受潮，需要通过别的方式解决。&lt;/p&gt;
-&lt;p&gt;泡澡的场景不是特别多，一般冬天每个月会有那么几次，但是以后孩子小时候洗澡、甚至初学游泳可能会用到一段时间。泡澡可以考虑永久的浴池或者淘宝的非永久浴池，但是都需要使用简单不繁琐，方便清洗。&lt;/p&gt;
-&lt;h3 id=&quot;2-03-睡眠&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-03-睡眠&quot; class=&quot;headerlink&quot; title=&quot;2.03 睡眠&quot;&gt;&lt;/a&gt;2.03 睡眠&lt;/h3&gt;&lt;p&gt;睡觉是很重要的场景，但是在前面提到的环境舒适的前提下，问题并不是很突出。由于是小户型，缺少一个相对完整的空间，所以考虑壁床在大部分时候作为主卧的大床使用，只有在特殊情况下再合起来使用，保留了完整空间的可能性。另外，在壁床边上可以考虑安装一个类似小米的门窗传感器，万一收起时掉落可以报警提醒。&lt;/p&gt;
-&lt;p&gt;未来会增加的高频睡眠场景是以后有了孩子以后带来的影响以及孩子本身的睡眠。初期婴儿床放在主卧不是问题，以后大了可以单独在次卧休息。&lt;/p&gt;
-&lt;p&gt;如果父母过来照顾，在相当长的一段时期内可以在次卧休息，所以次卧一直都需要一个休息睡觉的场景，哪怕是一个很宽的充气垫和相应的被褥。&lt;/p&gt;
-&lt;p&gt;睡眠场景下有一个起夜的场景，由于房子狭长，主卧到洗手间特别遥远，全程需要感应小夜灯指引，在走廊区域也可以考虑通过常规化的感应式灯光指引。&lt;/p&gt;
-&lt;h3 id=&quot;2-04-工作日起床&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-04-工作日起床&quot; class=&quot;headerlink&quot; title=&quot;2.04 工作日起床&quot;&gt;&lt;/a&gt;2.04 工作日起床&lt;/h3&gt;&lt;p&gt;工作日早上起床到出门（或者不出门）是非常高频的场景，有了前面的自动打开的窗帘以及渐进式闹钟，心情已经好了很多。之后是洗漱，去卫生间（如厕或者洗澡），换衣服。女主人还有化妆的环节（在后面单独描述）。&lt;br /&gt;在这里主要是换衣服的场景，一般内外衣物都可以在衣柜前完成更换，鞋可以到门口更换。衣柜的设计要合理，参考《小家，越住越大》，衣柜内部不需要太复杂的结构，可以靠后期买高质量的（比如Muji）抽屉等补全，保留了变化的可能性，能挂起来的衣服尽量挂起来。这样衣服洗完收下来也可以直接进入衣柜。脏衣篓可以把袋子拿下来也是不错的选择。&lt;br /&gt;男士的衣柜或者其他位置一定要有可以放置穿过了暂时不用洗，但是又需要和洗过的干净衣服分开的位置。也要有内衣裤、袜子分开放置、夏天的短袖、短裤等衣服的分开放置，方便一次定位。&lt;br /&gt;另外，衣柜甚至可以考虑不用打柜子，用一整面墙设计为宜家的艾格特模块，外面加上窗帘即可。以后如果想换，再拆掉重新安装也来得及。&lt;/p&gt;
-&lt;p&gt;女主增补:工作日起床&lt;br /&gt;女士衣柜女士衣柜，准备参考《小家》里边的建议，放弃传统的抽屉，采用更灵活的收纳物品来进行收纳，包括塑料抽屉、无纺布挂饰袋、洗衣篮，统一样式的鞋盒。辅助工具有挂烫机（男士、女士棉麻衣物熨烫），行李箱（方便出差、旅行收拾，缩短动线）。在衣柜1平米的范围内，安置一面穿衣镜，同时考虑穿衣镜的采光。&lt;br /&gt;具体行动有：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;为自己的家当“瘦身”&lt;br /&gt;过了25岁，成家立业，冲动消费比以前少了很多。但由于从前囤积的家当没有统一清理，新的家当还在一步步添置，导致家里的衣柜中，我的物品占据到2/3。搬进新家之前，一项巨大的工作就是给我的家当“瘦身”。&lt;/li&gt;
-&lt;li&gt;“瘦身”的标准及分类&lt;br /&gt;两年以内没有穿过的衣服都可以处理掉了。内衣裤、袜子，分开存放。外衣按照春秋、夏、冬三季分类，外套另算。什么样的衣服必须挂着放，什么样的衣服可以折起来。折起来的衣服，参考禄薇的建议，立着叠放。省空间而且不易变形。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;2-05-厨房&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-05-厨房&quot; class=&quot;headerlink&quot; title=&quot;2.05 厨房&quot;&gt;&lt;/a&gt;2.05 厨房&lt;/h3&gt;&lt;p&gt;厨房是爱做饭的天堂，也是非常重要的综合功能区。之所以综合，是因为如果主卧的阳台不能放洗衣机，厨房需要承载之。烟道有问题，可以打掉下面的部分，保留顶部和吊顶齐平，用来走洗手间的抽风烟即可。灶台考虑集成灶，放到厨房的阳台位置，方便烟道从窗户排出。垃圾道可以敲掉，并且彻底封死，防止小强等滋生。&lt;br /&gt;由于是老房子，厨房的储物需要考虑封闭性，尽量防止小强产生的影响。未来会用塑料饭盒、收纳袋、收纳盒等进行收纳。&lt;br /&gt;厨房的设计可以参考《小家，越住越大》的内容，比如抽屉的设置、在橱柜下方的隐蔽补光灯等等，还有黄金区等的设置等等。&lt;br /&gt;另外，由于厨房的灶台距离客厅较远，所以需要考虑如何尽可能少的或者一次性的方便又安全的把饭菜拿过来，并且不会洒落到地上。&lt;/p&gt;
-&lt;h3 id=&quot;2-06-化妆&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-06-化妆&quot; class=&quot;headerlink&quot; title=&quot;2.06 化妆&quot;&gt;&lt;/a&gt;2.06 化妆&lt;/h3&gt;&lt;p&gt;看完《小家》中对化妆费时的控诉，深感共鸣。每天早上因为化妆要周旋在卫生间、化妆台面前N次；晚上因为卸妆、护肤又要周旋N次，实在不堪其扰。这段时间，仅仅做了一个小的变化，把卸妆这个环节从梳妆台搬到了卫生间，效果已然十分明显。如果把整个洗漱化妆的过程换到卫生间呢？想想也是美好。&lt;/p&gt;
-&lt;p&gt;要做到顺利搬迁，根据《小家》，有三个难点是需要考虑的。一是卫生间的收纳空间，护肤品、化妆品的瓶瓶罐罐超多，定做或选购一个合适的镜柜是解决问题的关键；二是镜面和洗手台垂直面的距离400mm是最佳的，远了就看不清了，这个涉及到洗手台的选购，找到一个满足我和王同学都适用的洗手台；三是化妆需要足够的灯光，参考专业化妆室的装修从脸部正前方来的光线比较好，这个可能得具体定做。&lt;br /&gt;因为房间里不再需要化妆的空间，节省下来的空间，又可以规划别的事情了~&lt;/p&gt;
-&lt;h3 id=&quot;2-07-健身&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-07-健身&quot; class=&quot;headerlink&quot; title=&quot;2.07 健身&quot;&gt;&lt;/a&gt;2.07 健身&lt;/h3&gt;&lt;p&gt;好的身体是需要健康的饮食和不断的训练的。先说饮食部分，厨房需要厨房秤，需要区分各种肉类和蔬果，洗蔬果的任务最好能通过机器完成深度清洁，需要凉拌一些蔬果的器皿。收纳工作要跟上。&lt;/p&gt;
-&lt;p&gt;关于运动，每周会有个三到四次，两个人都有需要。除了瑜伽垫之外，作为持续训练，需要的主要有两种东西：空间和器械。如果要保持一定强度的无器械健身，倒立走，猫趴等需要一定的空间，家里略显的局促。器械可以考虑单杠、双杠，引体向上的支撑架，用于RTX的支撑杆等用于固定器械的辅助设施。因为这些器械要承受人体重量，一般都需要和墙体结合。&lt;/p&gt;
-&lt;h3 id=&quot;2-08-学习&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-08-学习&quot; class=&quot;headerlink&quot; title=&quot;2.08 学习&quot;&gt;&lt;/a&gt;2.08 学习&lt;/h3&gt;&lt;p&gt;我把在家里只要是需要动脑子的事情统称为学习。这个场景也需要区分。&lt;/p&gt;
-&lt;p&gt;对于博主，项目经理，挨踢男来说，首先要有一个够逼格的电脑桌和大屏幕才对。桌子要能升降，心情好的时候可以站着或者靠着站椅，保护自己长期坐姿的老腰。桌上一定要可以放下一个iMAC和一台MAC笔记本再加上一个屏幕。桌面要够大，边上会放手机、一两本书。另外，需要一个可以涂涂画画的地方，难免有些想法需要写出来，最好是白板一类的，方便清理。基本上可以按照一个家庭的工作间的模式进行规划。另外，这里要安静，可以不被人打扰，必要的时候可以有一些音乐。&lt;/p&gt;
-&lt;p&gt;家里要有一个大大的书柜，现在家里的书已经放不下了，未来还会有更多的书。&lt;/p&gt;
-&lt;h3 id=&quot;2-10-周末-amp-假期&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-10-周末-amp-假期&quot; class=&quot;headerlink&quot; title=&quot;2.10 周末&amp;假期&quot;&gt;&lt;/a&gt;2.10 周末&amp;amp;假期&lt;/h3&gt;&lt;p&gt;周末和假期一般分为两种状态：在家和不在家。&lt;/p&gt;
-&lt;p&gt;不在家的时候和其他不在家的时候一样，最重要的是安防和室内的安全（水、电等）。&lt;/p&gt;
-&lt;p&gt;在家的时候，场景主要是做饭、休闲、娱乐和学习阅读等。有了更多时间，会打扫卫生，收拾屋子。如果有时间，还会邀请朋友来家里做客。&lt;/p&gt;
-&lt;h3 id=&quot;2-11-工作日晚上休闲娱乐&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-11-工作日晚上休闲娱乐&quot; class=&quot;headerlink&quot; title=&quot;2.11 工作日晚上休闲娱乐&quot;&gt;&lt;/a&gt;2.11 工作日晚上休闲娱乐&lt;/h3&gt;&lt;p&gt;工作日的晚上回家一般是学习，但是工作太过繁忙的时候，需要更多休息的时光。收拾收拾屋子，两个人坐一起聊聊天，看个电影，听个音乐。&lt;br /&gt;家里需要一个不错的投影仪，结合已经设置好的存储，可以直接看电影。&lt;br /&gt;需要注意的是：放音乐会是一个高频的动作，嗯，自带背景音乐出场。&lt;/p&gt;
-&lt;h3 id=&quot;2-12-洗衣服&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-12-洗衣服&quot; class=&quot;headerlink&quot; title=&quot;2.12 洗衣服&quot;&gt;&lt;/a&gt;2.12 洗衣服&lt;/h3&gt;&lt;p&gt;洗衣服的事情每周都要做，特别是夏天。我们都比较爱干净，内衣裤、袜子的更换比较频繁，所以洗衣服的场景主要是换衣服收集脏衣服、洗衣服、晾干（烘干）、收纳的场景。一般外衣在卧室换衣服的时候收纳，内衣在淋浴的时候收纳。洗衣服的时候需要把这两个地方的衣服收集到一起。洗衣服过程比较简单，之后取出，晾晒、收纳是一条线。如果可以的话，也可以考虑烘干、收纳。&lt;/p&gt;
-&lt;p&gt;需要注意的是：一些内衣裤可以在淋浴后顺手洗干净晾晒，淋浴的地方要考虑这个场景提供便利。如果采用四式分离，拿到客厅洗衣服显得有些奇怪。&lt;/p&gt;
-&lt;h3 id=&quot;2-13-听音乐&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#2-13-听音乐&quot; class=&quot;headerlink&quot; title=&quot;2.13 听音乐&quot;&gt;&lt;/a&gt;2.13 听音乐&lt;/h3&gt;&lt;p&gt;现在听音乐比较方便的方式是打开手机连接蓝牙即可。当然如果长期收听，是否可以考虑NAS里内置对应的模块，如何开启，自动播放？这个还需要考虑。&lt;/p&gt;
-&lt;h3 id=&quot;3-01-泡澡&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-01-泡澡&quot; class=&quot;headerlink&quot; title=&quot;3.01 泡澡&quot;&gt;&lt;/a&gt;3.01 泡澡&lt;/h3&gt;&lt;p&gt;一般会在冬天，可以考虑浴缸或者淘宝上的泡澡的工具，使用频率并不会特别的高。但是有一个在某一阶段高频的动作是给孩子洗澡，需要一个相对比较大的空间，方便一到两位大人给孩子洗澡。&lt;/p&gt;
-&lt;h3 id=&quot;3-02-朋友借宿&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-02-朋友借宿&quot; class=&quot;headerlink&quot; title=&quot;3.02 朋友借宿&quot;&gt;&lt;/a&gt;3.02 朋友借宿&lt;/h3&gt;&lt;p&gt;难免会出现这样的场景，外地的朋友或者亲属来北京短暂停留。&lt;/p&gt;
-&lt;h3 id=&quot;3-03-聚会&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-03-聚会&quot; class=&quot;headerlink&quot; title=&quot;3.03 聚会&quot;&gt;&lt;/a&gt;3.03 聚会&lt;/h3&gt;&lt;p&gt;每个季度会有几次，朋友在家的聚会。&lt;/p&gt;
-&lt;h3 id=&quot;3-04-Airbnb或者沙发客&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-04-Airbnb或者沙发客&quot; class=&quot;headerlink&quot; title=&quot;3.04 Airbnb或者沙发客&quot;&gt;&lt;/a&gt;3.04 Airbnb或者沙发客&lt;/h3&gt;&lt;p&gt;在时间精力等各方面允许的前提下可能会考虑提供沙发或者次卧的空间。&lt;br /&gt;这个场景下需要主要考虑的是安全（外门、室内）、是否可以保证主卧的不进入（如何晾晒衣服）。&lt;/p&gt;
-&lt;h3 id=&quot;3-05-出差、旅行或者回家&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#3-05-出差、旅行或者回家&quot; class=&quot;headerlink&quot; title=&quot;3.05 出差、旅行或者回家&quot;&gt;&lt;/a&gt;3.05 出差、旅行或者回家&lt;/h3&gt;&lt;p&gt;安防&lt;/p&gt;
-&lt;h3 id=&quot;4-01-有娃模式&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#4-01-有娃模式&quot; class=&quot;headerlink&quot; title=&quot;4.01 有娃模式&quot;&gt;&lt;/a&gt;4.01 有娃模式&lt;/h3&gt;&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;《小家，越住越大》&lt;/p&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
-
-
-&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170806 增补&lt;br /&gt;170723 新建&lt;/p&gt;</description>
-	<pubDate>Sun, 06 Aug 2017 13:37:23 +0000</pubDate>
 </item>
 
 </channel>
