@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/26/TimeReport5Month/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/" />
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/0016-cover-page-config.html" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-08/aoi-crontab" />
@@ -21,6 +22,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/08/26/TimeReport5Month/">
+	<title>li guang he: 五个月时间账单报告</title>
+	<link>http://liguanghe.github.io/2017/08/26/TimeReport5Month/</link>
+	<content:encoded>&lt;h2 id=&quot;进步计划&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#进步计划&quot; class=&quot;headerlink&quot; title=&quot;进步计划&quot;&gt;&lt;/a&gt;进步计划&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;继续坚持之前的目标&lt;/li&gt;
+&lt;li&gt;开始新项目, 列入 data, career&lt;/li&gt;
+&lt;li&gt;如果，想看&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-08-26T11:35:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/">
 	<title>li guang he: Special Day of Dunedin 但尼丁特色一天</title>
 	<link>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/</link>

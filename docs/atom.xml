@@ -5,8 +5,29 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-08-26T08:42:34+00:00</updated>
+	<updated>2017-08-26T16:42:18+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">五个月时间账单报告</title>
+		<link href="http://liguanghe.github.io/2017/08/26/TimeReport5Month/"/>
+		<id>http://liguanghe.github.io/2017/08/26/TimeReport5Month/</id>
+		<updated>2017-08-26T11:35:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;进步计划&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#进步计划&quot; class=&quot;headerlink&quot; title=&quot;进步计划&quot;&gt;&lt;/a&gt;进步计划&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;继续坚持之前的目标&lt;/li&gt;
+&lt;li&gt;开始新项目, 列入 data, career&lt;/li&gt;
+&lt;li&gt;如果，想看&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-08-26T16:42:11+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Special Day of Dunedin 但尼丁特色一天</title>
@@ -22,7 +43,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-08-26T08:42:27+00:00</updated>
+			<updated>2017-08-26T16:42:11+00:00</updated>
 		</source>
 	</entry>
 
