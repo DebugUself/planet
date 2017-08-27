@@ -23,6 +23,121 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>August 27, 2017</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://blog.junyu.io/" title="浚宇的博客">junyu</a></h3>
+
+
+<div class="entrygroup" id="http://blog.junyu.io/posts/0707-python-env-config.html">
+<h4><a href="http://blog.junyu.io/posts/0707-python-env-config.html">Python环境出坑记</a></h4>
+<div class="entry">
+<div class="content">
+<blockquote class="blockquote-center">祸兮福所倚，福兮祸所伏</blockquote>
+
+<a id="more"></a>
+<p>理想很美好，现实很骨干…..</p>
+<h2 id="坑坑坑"><a href="http://blog.junyu.io/atom.xml#坑坑坑" class="headerlink" title="坑坑坑"></a>坑坑坑</h2><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">Goal : Office PC -&gt; Install Vmware &amp; CentOS -&gt; Pythoner</div><div class="line">But : Settings -&gt; how to root -&gt; how to install git -&gt; how to talk to unblock openssh</div><div class="line">               -&gt; how to use zsh -&gt; how to use oh-my-zsh</div><div class="line">               -&gt; how to use atom -&gt; libsecret error -&gt; still in keng</div><div class="line">               -&gt; how to install pyenv -&gt; how to make it work</div><div class="line">               -&gt; how to make shell work for me -&gt; how to config -&gt; where is shortcut?</div><div class="line">               -&gt; how to blog -&gt; how to use Chinese input</div><div class="line">               -&gt; how to know linux very well -&gt; linux books &amp; shell programming learning</div><div class="line">Crazy But:     -&gt; pyenv install do not work here -&gt; pool internet -&gt; need another way -&gt; mirror</div><div class="line">               -&gt; pip install do not work here too -&gt; pool internet -&gt; need another way -&gt; mirror again</div><div class="line"></div><div class="line">On My MAC -&gt; why there are so many pythons? -&gt; what is anaconda python -&gt; which python am i using</div><div class="line">          -&gt; how to clean them all -&gt; how to make them all works for me as I want?</div><div class="line"></div><div class="line">Jupyter Notebook -&gt; want to use an package -&gt; pyenv installed</div><div class="line">                 -&gt; conda doesn&amp;apost -&gt; cannot use</div></pre></td></tr></table>
+<p>上面每一个箭头都是一段入坑出坑，也许还有没出来的坑。踩坑多了，也就不觉得自己在坑里。今天梳理一下Python 环境相关的问题和坑，作一个经验总结。</p>
+<h2 id="前情提要"><a href="http://blog.junyu.io/atom.xml#前情提要" class="headerlink" title="前情提要"></a>前情提要</h2><p>你有一台MAC 或者Linux 系统，已经安装了zsh 和 Oh-my-zsh ，下一步准备和python 一起愉快的玩耍。你肉身在墙内，由于种种网络环境的限制还不一定能够完全自由的站在墙外。使用的环境主要以python3 为主，但是语言这件事情，总是越自由一些越好不是么？也就是说最好可以对python 的环境进行有效的管理。<br />在你还对python 懵懵懂懂的时候，有人推荐你安装了anaconda，据说这个神器可以一劳永逸的解决环境问题，让你专注在编程本身。你装了Anaconda，但依然没有摆脱折腾环境的命运，后来还折腾过Anaconda3 ，因为原来装的那个python 自带的是2。<br />又过了一段时间，不断的听说pyenv 、pyenv virtualenv 惊闻anaconda 也是一个大大大坑，自己还浑然不知。随着学习的深入，真是举步维艰，每一次都倒在折腾环境上</p>
+<blockquote>
+<p>系统里既有python2 又有python3，不知道如何切换，在pip 安装包时经常混淆。打开jupyter notebook 也是很容易就报错，一查发现还是环境的问题，还不容易搞明白了，安装一个包，结果发现总是连不上pypi，有一种想砸电脑的冲动……<br /><code>pyenv virtualenv -&gt; pyenv -&gt; anaconda python -&gt; zsh/bsh/csh -&gt; internet</code></p>
+</blockquote>
+<p>忍无可忍，无需再忍，把这个事情搞清楚吧～</p>
+<h2 id="基本知识"><a href="http://blog.junyu.io/atom.xml#基本知识" class="headerlink" title="基本知识"></a>基本知识</h2><h3 id="一个系统里可以安装N个python"><a href="http://blog.junyu.io/atom.xml#一个系统里可以安装N个python" class="headerlink" title="一个系统里可以安装N个python"></a>一个系统里可以安装N个python</h3><p>在一台Linux中可以安装多个版本的Python，但是系统默认的一般都只有一个，所以你需要一个可以管理多个版本python的软件来总体管理。如果你对Windows系统比较熟悉，可以类比一台Win下安装了一个虚拟机，在这个虚拟机里，你想怎么搞都行。这个python环境管理的工具就叫：pyenv。</p>
+<h3 id="Linux-如何执行命令"><a href="http://blog.junyu.io/atom.xml#Linux-如何执行命令" class="headerlink" title="Linux 如何执行命令"></a>Linux 如何执行命令</h3><p>我们在终端输入的任何一条命令，Shell 都会去到几个和“环境变量”（$PATH）相关的文件中寻找对应的路径下是否有可以执行的文件。这些可执行的文件里放着的是我们输入的命令和如何执行这些命令的代码说明。只有找到了这个文件，Shell才知道如何执行命令。这个过程可以简化的理解为：<br /><code>输入命令 -&gt; shell 读入命令 -&gt; 查找文件 -&gt; 定位文件中的环境变量 -&gt; 浏览环境变量对应的路径下的文件 -&gt; 在文件里寻找命令和执行方法 -&gt; 找到了，按照要求执行 -&gt; 找不到，输出找不到</code></p>
+<h3 id="如何执行python-的命令"><a href="http://blog.junyu.io/atom.xml#如何执行python-的命令" class="headerlink" title="如何执行python 的命令"></a>如何执行python 的命令</h3><p>有了上面的知识，理解起来就很简单了，python 输入终端后，系统首先会去找到解释这个python 命令的文件，然后执行。由于系统里有多个python，那么调用哪一个python，其实就是看环境变量中哪一个python 环境对应的目录靠前，问题迎刃而解。</p>
+<h3 id="什么是Shell"><a href="http://blog.junyu.io/atom.xml#什么是Shell" class="headerlink" title="什么是Shell"></a>什么是Shell</h3><p>我们要和Linux 交流，要说Linux 能听懂的语言，并且要通过一个方式传递给Linux 系统。这个语言就是Shell 脚本语言，而这个工具，我们看到的是终端，其实终端里用于交互的也可以先成为Shell，可以理解为和Linux 交互的一种工具。Shell 把命令也就是Shell脚本传递给Linux，Linux知道我们的意图后执行返回输出，大概可以这么理解。</p>
+<h3 id="多个不同的Shell-和环境变量"><a href="http://blog.junyu.io/atom.xml#多个不同的Shell-和环境变量" class="headerlink" title="多个不同的Shell 和环境变量"></a>多个不同的Shell 和环境变量</h3><p>除了python的哪些坑，其实shell本身也有一些坑，shell有很多种，Bash，Z-bash等等。我习惯用的是Z-bash，也就是zsh。在启用了zsh之后，原来的一些环境变量需要进行调整，因为最终zshrc会调用一部分其他环境变量，还有一些是在zshrc自己做的配置。环境变量的相关文件语法是shell脚本语言的语法。建议有时间精力可以了及相关知识，会少入很多坑。</p>
+<h2 id="代码实践"><a href="http://blog.junyu.io/atom.xml#代码实践" class="headerlink" title="代码实践"></a>代码实践</h2><p>理论知识再多，不如来看看代码。</p>
+<h3 id="shell常用的和环境变量相关的命令"><a href="http://blog.junyu.io/atom.xml#shell常用的和环境变量相关的命令" class="headerlink" title="shell常用的和环境变量相关的命令"></a>shell常用的和环境变量相关的命令</h3><ul>
+<li><code>$ env</code>和<code>$ printenv</code>用于展示环境变量配置文件的内容。</li>
+<li><code>$ set</code>展示所有的变量</li>
+<li><code>$ export</code>将变量导出到接下来的程序环境中</li>
+<li><code>$ echo</code>输出，如果跟着变量名，会把变量的值输出</li>
+</ul>
+<h3 id="相关的环境变量配置文件"><a href="http://blog.junyu.io/atom.xml#相关的环境变量配置文件" class="headerlink" title="相关的环境变量配置文件"></a>相关的环境变量配置文件</h3><p>涉及到的文件<br /><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/etc/profile</div><div class="line">/etc/bashrc</div><div class="line">/etc/zshrc</div></pre></td></tr></table></p>
+<p>如果是/etc/目录下则是所有用户共享的配置文件<br /><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">~/.profile</div><div class="line">~/.bash_profile</div><div class="line">~/.bashrc</div><div class="line">~/.zshrc</div></pre></td></tr></table></p>
+<p>在自己的目录下则是仅有你这一个用户可用。</p>
+<h3 id="环境变量示例"><a href="http://blog.junyu.io/atom.xml#环境变量示例" class="headerlink" title="环境变量示例"></a>环境变量示例</h3><ul>
+<li><code>export PATH=&quot;/home/leon/.pyenv/bin:/usr/local/bin&quot;</code><br /><code>export</code>表示将变量导出到接下来的程序环境中。冒号是连接符号，这里程序会顺序的逐个去找对应的执行文件。bin文件夹下一般存放的是可执行的二进制文件，当我们输入命令的时候，程序就会逐个文件去找，如果找到了就会执行，找不到，会反馈找不到</li>
+<li><p><code>eval &quot;$(pyenv init -)&quot;</code>这句命令稍微复杂，是理解pyenv和环境变量关系的关键，分为两部分，一部分是shell的命令，一部分是理解pyenv init命令。</p>
+<ul>
+<li>eval：脚本语言中表示将后面的内容按照命令的方式直接执行</li>
+<li>$()的语法表示将命令执行的结果输出后再执行外面的命令，也就是说这一行会先执行 pyenv init - 之后，eval再执行 pyenv init - 的结果。</li>
+<li>关于pyenv init的命令，参考这两个文件，说的非常清楚：</li>
+<li><a href="https://github.com/pyenv/pyenv/blob/master/COMMANDS.md" target="_blank" rel="external">Command Reference</a></li>
+<li><a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">Simple Python Version Management: pyenv</a></li>
+<li>整体解释：首先执行<code>pyenv init -</code>的命令后的输出替换双引号中的内容，然后将双引号中给定的文本作为shell 命令执行。命令说明可以参考<a href="http://www.unix.com/man-page/posix/1posix/eval/" target="_blank" rel="external">eval usage explan</a></li>
+</ul>
+</li>
+<li><p>常用变量：<code>$HOME</code> 和 <code>$PATH</code></p>
+</li>
+</ul>
+<h3 id="最佳实践"><a href="http://blog.junyu.io/atom.xml#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践</h3><ul>
+<li>在自己的程序里跑:which python会发现调用的目录后，再执行 echo $PATH ,可以应证前面的目录或者其父目录一定在$PATH中。</li>
+<li>查看自己的~/.zshrc 文件</li>
+<li>了解anaconda python的路径，争取彻底处理,或者不会对自己现在的环境配置产生不良影响。</li>
+</ul>
+<h2 id="解决办法"><a href="http://blog.junyu.io/atom.xml#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>回到最初的问题，如何处理环境问题呢，整体思路是：如果你不了解如何采用命令行进行 anconda 或者conda 的配置方法时，建议全面放弃该整体环境。通过设置pyenv 插件的方式获得一个自己可控的多python 环境。这整个过程里都会涉及到对环境变量文件的修改，建议真正理解前面的知识点后再执行相关的操作。</p>
+<h3 id="Bye-Anaconda"><a href="http://blog.junyu.io/atom.xml#Bye-Anaconda" class="headerlink" title="Bye Anaconda"></a>Bye Anaconda</h3><ul>
+<li><a href="https://docs.continuum.io/anaconda/user-guide/tasks/integration/python-path" target="_blank" rel="external">找到可执行文件</a></li>
+<li>按照[官方文档](<a href="https://docs.continuum.io/anaconda/install/uninstall" target="_blank" rel="external">https://docs.continuum.io/anaconda/install/uninstall</a> ）进行卸载。需要注意如果是zsh shell的使用者，最后删除环境变量要把bash 和zsh 都删除干净，以免后患。</li>
+</ul>
+<h3 id="配置需要的环境"><a href="http://blog.junyu.io/atom.xml#配置需要的环境" class="headerlink" title="配置需要的环境"></a>配置需要的环境</h3><ul>
+<li>pyenv：参考官方文档<a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">pyenv</a>，注意环境变量的配置和启动后的环境检查。</li>
+<li>ipython 安装：按照官方<a href="https://ipython.org/install.html" target="_blank" rel="external">文档</a>安装，令人发指的简单。</li>
+<li>jupyter notebook 安装：按照官方<a href="http://jupyter.org/install.html" target="_blank" rel="external">文档</a>的介绍，同样是令人发指的简单。</li>
+</ul>
+<p>注意，以上环境安装之前，先确认处于的python 环境是你需要的python 环境。</p>
+<h2 id="回到Anaconda"><a href="http://blog.junyu.io/atom.xml#回到Anaconda" class="headerlink" title="回到Anaconda"></a>回到Anaconda</h2><p>之前我也推荐给小伙伴安装anaconda套件，这样就可以不管各种环境问题了，这是一个初级的处理方案，当你开始对python 有更多了解有更多定制话的需求之后,当初盲目安装的anaconda反而成了“不可承受之重”，因为自己压根不知到anaconda默默的做了哪些系统配置的改动。<br />其实错并不在anaconda 本身，如果你是数据科学工作者，并不希望被环境折腾，利用这样的套件是避免底层环境配置的好办法。但是对于python 的开发者来说，了解python 的生态系统，能够自己动手配置适合自己开发的环境还是很有必要的。更了解底层的机制有利于我们更好的了解计算机本身。这时候的ipython 和jupyter 也更容易被我们所用。</p>
+<h2 id="未解之谜"><a href="http://blog.junyu.io/atom.xml#未解之谜" class="headerlink" title="未解之谜"></a>未解之谜</h2><p>最后其实留了一个小问题：pip 的安装。一个很坑的事情是python的很多一手资源获取的速度非常非常的慢。解决办法有两个，翻出去，或者找一个国内的镜像。<br />动手试试看吧～如果有必要，以后再来增补这一部分的内容。</p>
+<h2 id="私货"><a href="http://blog.junyu.io/atom.xml#私货" class="headerlink" title="私货"></a>私货</h2><p>优先和程序沟通，出了啥问题都先找谷哥是新手的第一阶段，其实程序一般都会提供足够的信息，当自己知道的不够多的时候再找谷哥。怎么和程序沟通，自然是找帮助文档，怎么找帮助文档，shell中主要有两个命令可以参考:<br /><code>XXX -h</code><br /><code>man XXX</code><br />一般来说都会有自己想要的答案。</p>
+<p>其他的命令或者编程中需要查看的，自己应该优先探索，了解清楚一个如何方便调取这些内容的方法和体系，事半功倍。</p>
+<h2 id="Reference"><a href="http://blog.junyu.io/atom.xml#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul>
+<li><a href="https://github.com/pyenv/pyenv-virtualenv" target="_blank" rel="external">pyenv-virtualenv</a></li>
+<li><a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">pyenv</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps" target="_blank" rel="external">Linux enviromental variables intro</a></li>
+<li><a href="https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe" target="_blank" rel="external">diffence between pyenv and pyenv-virtualenv</a></li>
+<li><a href="https://help.ubuntu.com/community/EnvironmentVariables" target="_blank" rel="external">Ubuntu Official Environment Variables Intro</a></li>
+<li><a href="https://book.douban.com/subject/3519360/" target="_blank" rel="external">Shell 脚本学习指南</a></li>
+<li><a href="https://stackoverflow.com/questions/7411455/what-does-export-do-in-shell-programming" target="_blank" rel="external">What does “export” do in shell programming?</a></li>
+<li><a href="http://www.gnu.org/software/bash/manual/bash" target="_blank" rel="external">Bash Reference Manual</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Command_substitution" target="_blank" rel="external">$()的语法解释</a></li>
+<li><a href="https://stackoverflow.com/questions/30034840/what-are-the-differences-between-conda-and-anaconda" target="_blank" rel="external">what are the differences between conda and anaconda</a></li>
+<li><a href="https://stackoverflow.com/questions/20994716/what-is-the-difference-between-pip-and-conda" target="_blank" rel="external">what is the difference between pip and conda </a></li>
+<li><a href="https://conda.io/docs/user-guide/tasks/manage-environments.html" target="_blank" rel="external">Conda manage environments</a></li>
+<li><a href="https://conda.io/docs/user-guide/getting-started.html" target="_blank" rel="external">Conda getting-started</a></li>
+</ul>
+<blockquote class="blockquote-center"><a href="http://blog.junyu.pro" target="_blank" rel="external">完</a></blockquote>
+
+
+<h2 id="ChangeLog"><a href="http://blog.junyu.io/atom.xml#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><p>170827 新建</p></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://blog.junyu.io/posts/0707-python-env-config.html">August 27, 2017 02:15 PM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>August 26, 2017</h2>
 
 <div class="channelgroup">
@@ -297,352 +412,6 @@ $ ls -1
 </div>
 
 </div>
-<div class="daygroup">
-<h2>August 17, 2017</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="http://du.zoomquiet.io/" title="自怼圈">Debug Uself grp.</a></h3>
-
-
-<div class="entrygroup" id="http://du.zoomquiet.io/2017-08/aoi-planet">
-<h4><a href="http://du.zoomquiet.io/2017-08/aoi-planet/">Aoi-planetDUer</a></h4>
-<div class="entry">
-<div class="content">
-<h1 id="planet-是个好同志">Planet 是个好同志</h1>
-
-<p><img src="http://www.planetplanet.org/img/planet_text.png" alt="planet_text" /></p>
-
-<p>13年前用过,那时, 代码就已经不更新了…
-为什么? 实在是一下子就写到完美了!</p>
-
-<!--more-->
-
-<p>毕竟功能异常单纯, 就是将指定的 RSS 之类聚合数据, 按照日期整理为一页 HTML,</p>
-
-<ul>
-  <li><a href="http://planetpython.org/">Planet Python</a></li>
-  <li><a href="http://planet.haskell.org/">Haskell</a></li>
-  <li><a href="http://planet.lisp.org/">Lisp</a></li>
-  <li><a href="http://planet.perl.org/">Perl</a></li>
-  <li><a href="http://www.planetmysql.org/">MySQL</a></li>
-  <li><a href="http://planet.postgresql.org/">PostgreSQL</a></li>
-  <li>…</li>
-</ul>
-
-<p>当然的自怼圈也应该有!</p>
-
-<h2 id="pyenv">pyenv</h2>
-<p>~ 第一个要配置的还是 python 环境了</p>
-
-<p>当然的 ubuntu 内置了 python 环境,
-但是, 必须第一时间将系统 py 运行时和自己的开发环境有效隔离哪…</p>
-
-<p>参考:</p>
-
-<ul>
-  <li><a href="https://github.com/pyenv/pyenv#installation">pyenv/pyenv: Simple Python version management</a>
-    <ul>
-      <li><a href="https://github.com/pyenv/pyenv/wiki">Troubleshooting / FAQ · pyenv/pyenv Wiki</a></li>
-    </ul>
-  </li>
-  <li><a href="https://github.com/pyenv/pyenv-virtualenv">pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)</a></li>
-</ul>
-
-<p>进行快速配置就好…</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo apt install git
-$ cd /opt/repo
-$ git clone https://github.com/pyenv/pyenv.git .pyenv
-$ git clone https://github.com/pyenv/pyenv-virtualenv.git .pyenv/plugins/pyenv-virtualenv
-</code></pre>
-</div>
-
-<p>配置<code class="highlighter-rouge">~/.bash_profile</code></p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>##############################################################################
-#   --&gt; PyEnv
-##############################################################################
-export PYENV_ROOT="/opt/repo/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-
-eval "$(pyenv init -)"
-#   export PYENV_VIRTUALENV_DISABLE_PROMPT=0
-eval "$(pyenv virtualenv-init -)"
-</code></pre>
-</div>
-
-<p>激活加载:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ source ~/.bash_profile
-</code></pre>
-</div>
-
-<p>安装编译工作用 python 环境:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code># 先得安装一堆编译依赖工具/库
-$ sudo apt install -y make build-essential libssl-dev zlib1g-dev \
-    libbz2-dev libreadline-dev libsqlite3-dev \
-    wget curl llvm libncurses5-dev xz-utils tk-dev
-
-$ pyenv install --list
-...
-    可以感叹一下支持的发行版有多丰富
-
-$ pyenv install 3.6.2
-...
-$ pyenv install 2.7.13
-...
-$ pyenv rehash
-
-$ pyenv virtualenv 2.7.13 2713DAMA
-...
-You are using pip version 6.1.1, however version 9.0.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-...
-$ pyenv virtualenv 3.6.2 362CV3
-
-$ pyenv rehash
-
-$ pyenv versions
-* system (set by /opt/repo/.pyenv/version)
-  2.7.13
-  2.7.13/envs/2713DAMA
-  2713DAMA
-  3.6.2
-  3.6.2/envs/362CV3
-  362CV3
-</code></pre>
-</div>
-
-<p>实际使用情景:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>zoomq @ aoi in ~
-$ cd /opt
-zoomq @ aoi in /opt on default
-
-$ pyenv 2712DAMA 
-
-(2712DAMA)
-zoomq @ aoi in /opt on default
-$ cd app
-
-(2712DAMA)
-zoomq @ aoi in /opt/app on default
-$ python
-Python 2.7.12 (default, Nov 19 2016, 06:48:10)
-[GCC 5.4.0 20160609] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
-&gt;&gt;&gt;
-
-zoomq @ aoi in /opt/app on default
-$ cd ../log
-
-zoomq @ aoi in /opt/log on default
-$ pyenv local 362CV3
-
-(362CV3)
-zoomq @ aoi in /opt/app on default
-$ python
-Python 3.6.2 (default, Aug 17 2017, 23:28:25)
-[GCC 5.4.0 20160609] on linux
-Type "help", "copyright", "credits" or
-&gt;&gt;&gt;
-</code></pre>
-</div>
-
-<h2 id="部署-planet">部署 planet</h2>
-<p>~ 情况并没有想象的那么简单…</p>
-
-<p>毕竟是有快10年没有更新的工程了, 使用配置方式没有变,
-快速根据模板完成了配置, 一运行:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ python code/planet.py config/du.ini
-Traceback (most recent call last):
-  File "code/planet.py", line 24, in &lt;module&gt;
-    import planet
-  File "/opt/www/planet/code/planet/__init__.py", line 35, in &lt;module&gt;
-    import dbhash
-  File "/opt/repo/.pyenv/versions/2.7.13/lib/python2.7/dbhash.py", line 7, in &lt;module&gt;
-    import bsddb
-  File "/opt/repo/.pyenv/versions/2.7.13/lib/python2.7/bsddb/__init__.py", line 67, in &lt;module&gt;
-    import _bsddb
-ImportError: No module named _bsddb
-</code></pre>
-</div>
-
-<p>嗯哼, 这事儿听说过,因为版权的问题, 从2.5版本后, 将 bsddb 从内置模块中移除了,
-所以…</p>
-
-<ul>
-  <li><a href="https://stackoverflow.com/questions/28253731/importerror-no-module-named-bsddb-when-opening-shelve-in-docker-container">python - “ImportError: No module named _bsddb” when opening shelve in Docker container - Stack Overflow</a></li>
-  <li><a href="https://stackoverflow.com/questions/16003224/installing-bsddb-package-python">osx - Installing bsddb package - python - Stack Overflow</a></li>
-  <li><a href="http://marc-abramowitz.com/archives/2007/11/28/hacking-os-xs-python-dbhash-and-bsddb-modules-to-work/">Hacking OS X’s Python dbhash and bsddb modules to work | Marc Abramowitz</a></li>
-  <li><a href="https://pypi.python.org/pypi/bsddb3/6.2.4">bsddb3 6.2.4 : Python Package Index</a></li>
-  <li>…</li>
-</ul>
-
-<p>当然,有很多方式可以弥补, 最简单的:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ pip install bsddb3
-Collecting bsddb3
-  Using cached bsddb3-6.2.4.tar.gz
-    Complete output from command python setup.py egg_info:
-    Can't find a local Berkeley DB installation.
-    (suggestion: try the --berkeley-db=/path/to/bsddb option)
-
-    ----------------------------------------
-Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-ST2bF0/bsddb3/
-</code></pre>
-</div>
-
-<blockquote>
-  <p>/path/to/bsddb</p>
-</blockquote>
-
-<p>有独立的 bsddb 产品?</p>
-
-<ul>
-  <li><a href="http://www.linuxfromscratch.org/blfs/view/stable/server/db.html">Berkeley DB-6.2.23</a></li>
-  <li><a href="https://www.jcea.es/programacion/pybsddb.htm">Python “bindings” for Oracle Berkeley DB</a></li>
-  <li>好吧, 忒复杂了…</li>
-</ul>
-
-<p>于是选择相信 Ubuntu 的软件仓库:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ apt search bsddb
-Sorting... Done
-Full Text Search... Done
-python-bsddb3/xenial,now 6.1.0-1build2 amd64 [installed]
-  Python interface for Berkeley DB
-
-python-bsddb3-dbg/xenial 6.1.0-1build2 amd64
-  Python interface for Berkeley DB (debug extension)
-
-python-bsddb3-doc/xenial,xenial 6.1.0-1build2 all
-  Documentation for the python Berkeley DB interface module
-
-python3-bsddb3/xenial 6.1.0-1build2 amd64
-  Python interface for Berkeley DB (Python 3.x)
-
-python3-bsddb3-dbg/xenial 6.1.0-1build2 amd64
-  Python interface for Berkeley DB (debug extension, Python 3.x)
-</code></pre>
-</div>
-
-<p>那就简单了:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo apt install python-bsddb3
-$ pip list
-adium-theme-ubuntu (0.3.4)
-bsddb3 (6.1.0)
-mercurial (3.7.3)
-pip (8.1.1)
-setuptools (20.7.0)
-unity-lens-photos (1.0)
-wheel (0.29.0)
-
-$ python
-Python 2.7.12 (default, Nov 19 2016, 06:48:10)
-[GCC 5.4.0 20160609] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
-&gt;&gt;&gt; import bsddb3
-&gt;&gt;&gt; dir(bsddb3)
-['MutableMapping', '_DBWithCursor', '_DeadlockWrap', '__builtins__', '__doc__', '__file__', '__name__', '__package__', '__path__', '__version__', '_checkflag', '_db', '_iter_mixin', '_openDBEnv', '_pybsddb', 'absolute_import', 'btopen', 'collections', 'db', 'dbutils', 'error', 'hashopen', 'os', 'ref', 'rnopen', 'sys']
-&gt;&gt;&gt;
-</code></pre>
-</div>
-
-<h3 id="in-pyenv-">in pyenv ?</h3>
-<p>只是比较尴尬的, 这样一来, 只能使用系统 python 2.7.12</p>
-
-<p>之前通过 pyenv 安装的 2.7.14/3.6.2 什么的都无法正常驱动 planet 了…</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ python code/planet.py config/du.ini
-DEBUG:planet.runner:Socket timeout set to 20 seconds
-INFO:planet.runner:Loading cached data
-INFO:planet:Updating feed &lt;http://du.zoomquiet.io/atom.xml&gt;
-DEBUG:planet:Last Modified: 2017-08-21T10:00:52+00:00
-DEBUG:planet:Items in Feed: 12
-...
-INFO:planet.runner:Processing template config/index.html.tmpl
-INFO:planet.runner:Writing docs/index.html
-INFO:planet.runner:Processing template config/atom.xml.tmpl
-INFO:planet.runner:Writing docs/atom.xml
-INFO:planet.runner:Processing template config/rss20.xml.tmpl
-INFO:planet.runner:Writing docs/rss20.xml
-INFO:planet.runner:Processing template config/rss10.xml.tmpl
-INFO:planet.runner:Writing docs/rss10.xml
-INFO:planet.runner:Processing template config/opml.xml.tmpl
-INFO:planet.runner:Writing docs/opml.xml
-INFO:planet.runner:Processing template config/foafroll.xml.tmpl
-INFO:planet.runner:Writing docs/foafroll.xml
-</code></pre>
-</div>
-
-<p>不过, 没关系先用起来再说 <code class="highlighter-rouge">(￣▽￣)</code></p>
-
-<p>好在也额外的学到从 shell 脚本中调用 pyenv 环境的技巧:</p>
-
-<ul>
-  <li><a href="https://github.com/pyenv/pyenv/issues/492">Is there a preferred way to use pyenv in a shell script? · Issue #492 · pyenv/pyenv</a></li>
-  <li>pyenv 原作者的分享:
-    <ul>
-      <li>Both PYENV_VERSION and pyenv shell should work even in shell scripts. Latter requires you to add eval “$(pyenv init -)” in your script, though.</li>
-      <li>Personally I like to use PYENV_VERSION since it doesn’t require additional shell setup….</li>
-    </ul>
-  </li>
-</ul>
-
-<p>e.g:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-<span class="c"># Set version to 2.7.10</span>
-<span class="nb">export </span><span class="nv">PYENV_VERSION</span><span class="o">=</span>2.7.10
-
-<span class="c"># DO STUFF</span>
-<span class="c"># python --version # ==&gt; Python 2.7.10</span>
-
-<span class="c"># Reset version</span>
-<span class="nb">unset </span>PYENV_VERSION
-</code></pre>
-</div>
-
-<blockquote>
-  <p>直接使用环境变量来切换就对了</p>
-</blockquote>
-
-<h1 id="用时">用时</h1>
-
-<ul>
-  <li>.5h install pyenv</li>
-  <li>1.5h 各种 py 环境安装/镜像</li>
-  <li>1.h <em>bsddb</em> 问题研究</li>
-  <li>.5h 完成 planet 工作驱动</li>
-</ul></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="http://du.zoomquiet.io/2017-08/aoi-planet/">August 17, 2017 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
 
 
 <div class="sidebar">
@@ -654,7 +423,7 @@ INFO:planet.runner:Writing docs/foafroll.xml
 <a href="http://du.zoomquiet.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://du.zoomquiet.io/" title="自怼圈">Debug Uself grp.</a>
 </li>
 <li>
-<a href="https://bambooom.github.io/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://bambooom.github.io" class="message" title="internal server error">bambooooooom</a>
+<a href="https://bambooom.github.io/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://bambooom.github.io" title="">bambooooooom</a>
 </li>
 <li>
 <a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" title="浚宇的博客">junyu</a>
@@ -672,7 +441,7 @@ INFO:planet.runner:Writing docs/foafroll.xml
 
 <p>
 <strong>Last updated:</strong><br>
-August 27, 2017 08:43 AM<br>
+August 27, 2017 04:42 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
