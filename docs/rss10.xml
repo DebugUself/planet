@@ -17,6 +17,7 @@
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2017-08-27:/dsl-atop-openresty.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/26/TimeReport5Month/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/" />
+			<rdf:li rdf:resource="http://bambooom.github.io/2017/08/25/bday/" />
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/0016-cover-page-config.html" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-08/aoi-crontab" />
 		</rdf:Seq>
@@ -853,6 +854,14 @@ Lua 也不是个好形式, 以及其它现有的所有命令式通用开发语�
 	<link>http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/</link>
 	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2620595165221732870&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2017-08-26T06:35:32+00:00</dc:date>
+</item>
+<item rdf:about="http://bambooom.github.io/2017/08/25/bday/">
+	<title>bambooooooom: 🎂</title>
+	<link>http://bambooom.github.io/2017/08/25/bday/</link>
+	<content:encoded>&lt;p&gt;&lt;img src=&quot;http://7xpew2.com1.z0.glb.clouddn.com/170825bday.jpg&quot; alt=&quot;b-day&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;🖖&lt;/p&gt;</content:encoded>
+	<dc:date>2017-08-25T23:42:31+00:00</dc:date>
 </item>
 <item rdf:about="http://blog.junyu.io/posts/0016-cover-page-config.html">
 	<title>junyu: 给博客穿件外套</title>

@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-01T08:42:25+00:00</updated>
+	<updated>2017-09-01T16:42:12+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -885,6 +885,26 @@ Lua 也不是个好形式, 以及其它现有的所有命令式通用开发语�
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
 			<updated>2017-08-26T16:42:11+00:00</updated>
+		</source>
+	</entry>
+
+	<entry xml:lang="en-us">
+		<title type="html">🎂</title>
+		<link href="http://bambooom.github.io/2017/08/25/bday/"/>
+		<id>http://bambooom.github.io/2017/08/25/bday/</id>
+		<updated>2017-08-25T23:42:31+00:00</updated>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://7xpew2.com1.z0.glb.clouddn.com/170825bday.jpg&quot; alt=&quot;b-day&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;🖖&lt;/p&gt;</content>
+		<author>
+			<name>bambooooooom</name>
+			<uri>http://bambooom.github.io</uri>
+		</author>
+		<source>
+			<title type="html">bambooooooom</title>
+			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
+			<id>https://bambooom.github.io/feed.xml</id>
+			<updated>2017-09-01T16:42:09+00:00</updated>
 		</source>
 	</entry>
 
