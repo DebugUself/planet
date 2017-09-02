@@ -13,17 +13,30 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/pyenv/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/NotePyenvPython/" />
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/0707-python-env-config.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2017-08-27:/dsl-atop-openresty.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/26/TimeReport5Month/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/08/26/DunedinJaffaRace/" />
 			<rdf:li rdf:resource="http://bambooom.github.io/2017/08/25/bday/" />
-			<rdf:li rdf:resource="http://blog.junyu.io/posts/0016-cover-page-config.html" />
-			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-08/aoi-crontab" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/09/02/pyenv/">
+	<title>li guang he: Mac OSx Python 环境配置(操作指南)</title>
+	<link>http://liguanghe.github.io/2017/09/02/pyenv/</link>
+	<content:encoded>&lt;h2 id=&quot;why&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#why&quot; class=&quot;headerlink&quot; title=&quot;why&quot;&gt;&lt;/a&gt;why&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;用 pyenv 管理 python 版本, 而不是用 anaconda. 理由: &lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-09-02T03:35:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2017/09/02/NotePyenvPython/">
+	<title>li guang he: Pyenv 学习线性记录</title>
+	<link>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</link>
+	<content:encoded>&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;&amp;lt;- &lt;/p&gt;</content:encoded>
+	<dc:date>2017-09-02T03:00:32+00:00</dc:date>
+</item>
 <item rdf:about="http://blog.junyu.io/posts/0707-python-env-config.html">
 	<title>junyu: Python环境出坑记</title>
 	<link>http://blog.junyu.io/posts/0707-python-env-config.html</link>
@@ -862,161 +875,6 @@ Lua 也不是个好形式, 以及其它现有的所有命令式通用开发语�
 
 &lt;p&gt;🖖&lt;/p&gt;</content:encoded>
 	<dc:date>2017-08-25T23:42:31+00:00</dc:date>
-</item>
-<item rdf:about="http://blog.junyu.io/posts/0016-cover-page-config.html">
-	<title>junyu: 给博客穿件外套</title>
-	<link>http://blog.junyu.io/posts/0016-cover-page-config.html</link>
-	<content:encoded>&lt;blockquote class=&quot;blockquote-center&quot;&gt;你的博客，你的使用手册&lt;/blockquote&gt;
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;这是我一直以来想做的一件事情，在博客的外面加上个人主页，我们散落在互联网上的痕迹越来越多，也越来越凌乱。甚至对作者本身搞清楚自己到底有多少网上的“作品”都是很复杂的一件事情。这时候增加一个个人主页显得尤为重要。&lt;/p&gt;
-&lt;p&gt;有趣的事情是在Google学术信息时，现代重要的学术大拿几乎人人都有个人主页，不一定会写博客，但是一定会把自己的作品、联系方式、论文、研究方向等统统放出来，供大家使用。而&lt;a href=&quot;http://zoomquiet.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zoom.Quite&lt;/a&gt;的主页极富一个有趣的极客灵魂感。内容之多也是印象深刻。&lt;/p&gt;
-&lt;p&gt;我之前做过几次尝试，但是效果都不是很理想，也没有找到特别好的办法，今天再次尝试，终于一鼓作气先完成了一个可用的及格版本，写一写，留个纪念。&lt;/p&gt;
-&lt;h2 id=&quot;Github-Pages&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Github-Pages&quot; class=&quot;headerlink&quot; title=&quot;Github Pages&quot;&gt;&lt;/a&gt;Github Pages&lt;/h2&gt;&lt;p&gt;Github Pages 是Github 的一个项目，通过在Github托管代码的方式把静态页面组装成可以展示的页面。&lt;a href=&quot;https://github.com/showcases/github-pages-examples&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;有大量的示例。&lt;br /&gt;&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主页&lt;/a&gt;的视频一目了然，不再赘述。&lt;br /&gt;我的主页就是通过Github Pages生成的，使用的是默认的模版，如果不做过多的定制化，仅仅是在主页修改文字的话，内容非常非常的简单。参考我的&lt;a href=&quot;https://github.com/Wangjunyu/Leon.junyu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;仓库&lt;/a&gt;。对于这个主题，自己现在还是很满意的。&lt;/p&gt;
-&lt;h2 id=&quot;域名设置&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#域名设置&quot; class=&quot;headerlink&quot; title=&quot;域名设置&quot;&gt;&lt;/a&gt;域名设置&lt;/h2&gt;&lt;p&gt;以往二级域名的设置已经驾轻就熟。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;以blog.junyu.io的设置为例，在域名服务解析的服务页面修改模式为CNAME，把指向的地址修改为：wangjunyu.gitub.io. ，保存即可。如果还无法连接，回到Github查看设置，一般的做法是增加CNAME文件，修改默认分支为gh-pages。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这一次设置的是一级域名以及开头为www 的跳转，按照之前的方式设置始终无法生效。之后从官方文档的&lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Using a custom domain with GitHub Pages
-&lt;/a&gt;开始一页一页的找，终于在&lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/#apex-domains&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;About supported custom domains
-&lt;/a&gt;找到了端倪：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;An apex domain is usually configured with an A, ALIAS, or ANAME record through your DNS provider.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对于一级域名的设置，一般是在填写二级域名的地方写上&lt;code&gt;@&lt;/code&gt;，选择A 或者ALIAS 模式，跳转的地址需要使用ip，在上面提到的文档中有提到。修改之后，还可以用文档中提到的’dig’ 命令进行测试。貌似一级域名的调整需要一些时间，不过一般来说十几分钟也就够了。&lt;/p&gt;
-&lt;p&gt;最后，展示一下我的&lt;a href=&quot;http://junyu.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主页&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain and www subdomain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/#www-subdomains&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;About supported custom domains
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
-
-
-&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170820 新建&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-20T12:03:00+00:00</dc:date>
-</item>
-<item rdf:about="http://du.zoomquiet.io/2017-08/aoi-crontab/">
-	<title>Debug Uself grp.: Aoi-crontab</title>
-	<link>http://du.zoomquiet.io/2017-08/aoi-crontab/</link>
-	<content:encoded>&lt;h1 id=&quot;crontab-是位好伙伴&quot;&gt;crontab 是位好伙伴&lt;/h1&gt;
-
-&lt;p&gt;planet 很简单粗暴,只是:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;如何免费的发布成网站?&lt;/li&gt;
-  &lt;li&gt;又如何自动的刷新?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;github-pages&quot;&gt;github-pages&lt;/h2&gt;
-&lt;p&gt;~ &lt;a href=&quot;https://help.github.com/articles/user-organization-and-project-pages/&quot;&gt;User, Organization, and Project Pages - User Documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第一时间想到 &lt;code class=&quot;highlighter-rouge&quot;&gt;github-pages&lt;/code&gt; :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;只是记忆中要一个特殊的孤子分支什么的…&lt;/li&gt;
-  &lt;li&gt;结果官方文档一看:
-    &lt;ul&gt;
-      &lt;li&gt;master, gh-pages, or a /docs folder on master&lt;/li&gt;
-      &lt;li&gt;嗯哼?! 可以用约定的一个 master 目录就可以了?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://openmindclub.qiniucdn.com/res/debuguself/github_pages_docs.png&quot; alt=&quot;github_pages_docs.png（PNG 图像，494x548 像素）&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;果然…那就简单了&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;output_dir = docs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;将相关配置文件中, 指定的输出目录变成 &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt;,
-每次 push 到 github 时,就完成了网站的更新.&lt;/p&gt;
-
-&lt;h2 id=&quot;定期的嗯哼&quot;&gt;定期的嗯哼&lt;/h2&gt;
-&lt;p&gt;~ 在所有 UNIX/Linux 环境中, 当前是 crontab&lt;/p&gt;
-
-&lt;p&gt;参考:&lt;a href=&quot;https://help.ubuntu.com/community/CronHowto&quot;&gt;CronHowto - Community Help Wiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;先在用户 crontab 中配置&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# m h  dom mon dow   command
-*/10 *     * * *   /opt/cron/updates.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;每 10 秒调用一次 &lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/sh/cron/updates.sh&quot;&gt;updates.sh&lt;/a&gt; 以便调试&lt;/p&gt;
-
-&lt;p&gt;调试好后, 更新配置为&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# m h  dom mon dow   command
-42 */8     * * *   /opt/cron/updates.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;每8小时的第42分钟,运行一次, 并将日志输出为:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;opt/log/cron on default
-$ ls -1
-170818-planet.log
-170819-planet.log
-170820-planet.log
-170821-planet.log
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这种形式…&lt;/p&gt;
-
-&lt;h2 id=&quot;整体图谱&quot;&gt;整体图谱&lt;/h2&gt;
-&lt;p&gt;~ 所以, 最终通过一台家用服务器, 无值守的完成了一大类静态网站的更新和发布&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                            du.zoomquiet.io/planet/
-                                  ^ 
-                                  |
-                          [[github-pages]]
-{rss} {rss} ... {rss}             ^
-  \     |         /               |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        internet                  ^
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        home wifi                 ^ 
-            |                     |
-            V                     |
-        Ubuntu 16.4               | 
-       /[ miniPC ]                |
-      /     |                     |
-  crontab   |                     |
-    |       V                     +
-    +---&amp;gt;(Planet) --&amp;gt; HTML -&amp;gt; git push
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;todo&quot;&gt;TODO&lt;/h1&gt;
-&lt;p&gt;~ 当然的故事远没有可以结束, 等待继续折腾的有:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;固化 wifi 连接的 ip&lt;/li&gt;
-  &lt;li&gt;在 pyenv 中也能安装使用 baddb&lt;/li&gt;
-  &lt;li&gt;将更新成果 email 给自己,以便知晓&lt;/li&gt;
-  &lt;li&gt;将失败的更新 通过短信/微信/Slcak 等等渠道提醒自己&lt;/li&gt;
-  &lt;li&gt;通过 Slack 或是其它渠道, 可以发布指令给主机进行各种必要的行为&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;用时&quot;&gt;用时&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;.5h 研究 github-pages 文档&lt;/li&gt;
-  &lt;li&gt;1.h 实验明确 docs 效果&lt;/li&gt;
-  &lt;li&gt;1.h 调试 crontab 脚本&lt;/li&gt;
-  &lt;li&gt;.5h 测试全部自动化行为&lt;/li&gt;
-  &lt;li&gt;1.h ASCII 图谱和文档化&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-	<dc:date>2017-08-18T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
