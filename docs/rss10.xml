@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/pyenv/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/NotePyenvPython/" />
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/0707-python-env-config.html" />
@@ -24,6 +25,12 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/">
+	<title>li guang he: To Be Good Driver 但尼丁新增一名好司机</title>
+	<link>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</link>
+	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621376516410964486&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking today(点此&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2017-09-02T09:10:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/09/02/pyenv/">
 	<title>li guang he: Mac OSx Python 环境配置(操作指南)</title>
 	<link>http://liguanghe.github.io/2017/09/02/pyenv/</link>
