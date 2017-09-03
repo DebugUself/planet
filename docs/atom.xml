@@ -5,11 +5,11 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-03T00:42:22+00:00</updated>
+	<updated>2017-09-03T08:43:12+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
-		<title type="html">To Be Good Driver 但尼丁新增一名好司机</title>
+		<title type="html">To Be a Good Driver 但尼丁新增一名好司机</title>
 		<link href="http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/"/>
 		<id>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</id>
 		<updated>2017-09-02T09:10:32+00:00</updated>
@@ -22,7 +22,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-03T00:42:21+00:00</updated>
+			<updated>2017-09-03T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -41,7 +41,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-03T00:42:21+00:00</updated>
+			<updated>2017-09-03T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -59,7 +59,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-03T00:42:21+00:00</updated>
+			<updated>2017-09-03T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -921,7 +921,7 @@ Lua 也不是个好形式, 以及其它现有的所有命令式通用开发语�
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-03T00:42:21+00:00</updated>
+			<updated>2017-09-03T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -939,7 +939,7 @@ Lua 也不是个好形式, 以及其它现有的所有命令式通用开发语�
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-03T00:42:21+00:00</updated>
+			<updated>2017-09-03T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
