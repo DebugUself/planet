@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/" />
@@ -23,6 +24,12 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/">
+	<title>li guang he: Basic Element and Grammer of Coding</title>
+	<link>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</link>
+	<content:encoded>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;you must begin at this page: &lt;/p&gt;</content:encoded>
+	<dc:date>2017-09-10T20:25:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/">
 	<title>li guang he: Single Room in Hostel 七夕搬单间</title>
 	<link>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</link>
