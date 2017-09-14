@@ -13,17 +13,22 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/14/LiveSexSoul/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/pyenv/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/02/NotePyenvPython/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/09/14/LiveSexSoul/">
+	<title>li guang he: 苏</title>
+	<link>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</link>
+	<content:encoded>&lt;h2 id=&quot;广南&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#广南&quot; class=&quot;headerlink&quot; title=&quot;广南&quot;&gt;&lt;/a&gt;广南&lt;/h2&gt;&lt;p&gt;叶卡斯琳娜大帝生性放荡, 但这并不妨碍人们称她大帝. &lt;/p&gt;
+&lt;p&gt;以上或只是传言, 在广南构筑的商业帝国里, 她的事迹却不是, 毕竟整个&lt;/p&gt;</content:encoded>
+	<dc:date>2017-09-13T22:00:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/">
 	<title>li guang he: Basic Element and Grammer of Coding</title>
 	<link>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</link>
@@ -52,25 +57,6 @@
 &lt;li&gt;此分支特征&lt;ul&gt;
 &lt;li&gt;新建时基本空白, 不包含主分支的内容&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content:encoded>
 	<dc:date>2017-09-07T09:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/">
-	<title>li guang he: To Be a Good Driver 但尼丁新增一名好司机</title>
-	<link>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</link>
-	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621376516410964486&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking today(点此&lt;/a&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2017-09-02T09:10:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2017/09/02/pyenv/">
-	<title>li guang he: Mac OSx Python 环境配置(操作指南)</title>
-	<link>http://liguanghe.github.io/2017/09/02/pyenv/</link>
-	<content:encoded>&lt;h2 id=&quot;why&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#why&quot; class=&quot;headerlink&quot; title=&quot;why&quot;&gt;&lt;/a&gt;why&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;用 pyenv 管理 python 版本, 而不是用 anaconda. 理由: &lt;/li&gt;&lt;/ul&gt;</content:encoded>
-	<dc:date>2017-09-02T03:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2017/09/02/NotePyenvPython/">
-	<title>li guang he: Pyenv 学习线性记录</title>
-	<link>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</link>
-	<content:encoded>&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;&amp;lt;- &lt;/p&gt;</content:encoded>
-	<dc:date>2017-09-02T03:00:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>

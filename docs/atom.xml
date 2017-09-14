@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-13T16:43:42+00:00</updated>
+	<updated>2017-09-14T00:42:17+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">苏</title>
+		<link href="http://liguanghe.github.io/2017/09/14/LiveSexSoul/"/>
+		<id>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</id>
+		<updated>2017-09-13T22:00:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;广南&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#广南&quot; class=&quot;headerlink&quot; title=&quot;广南&quot;&gt;&lt;/a&gt;广南&lt;/h2&gt;&lt;p&gt;叶卡斯琳娜大帝生性放荡, 但这并不妨碍人们称她大帝. &lt;/p&gt;
+&lt;p&gt;以上或只是传言, 在广南构筑的商业帝国里, 她的事迹却不是, 毕竟整个&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-14T00:42:16+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Basic Element and Grammer of Coding</title>
@@ -22,7 +41,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
+			<updated>2017-09-14T00:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -40,7 +59,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
+			<updated>2017-09-14T00:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -60,7 +79,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
+			<updated>2017-09-14T00:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -81,62 +100,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">To Be a Good Driver 但尼丁新增一名好司机</title>
-		<link href="http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/"/>
-		<id>http://liguanghe.github.io/2017/09/02/DunedinGoodDriver/</id>
-		<updated>2017-09-02T09:10:32+00:00</updated>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621376516410964486&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking today(点此&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Mac OSx Python 环境配置(操作指南)</title>
-		<link href="http://liguanghe.github.io/2017/09/02/pyenv/"/>
-		<id>http://liguanghe.github.io/2017/09/02/pyenv/</id>
-		<updated>2017-09-02T03:35:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;why&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#why&quot; class=&quot;headerlink&quot; title=&quot;why&quot;&gt;&lt;/a&gt;why&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;用 pyenv 管理 python 版本, 而不是用 anaconda. 理由: &lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Pyenv 学习线性记录</title>
-		<link href="http://liguanghe.github.io/2017/09/02/NotePyenvPython/"/>
-		<id>http://liguanghe.github.io/2017/09/02/NotePyenvPython/</id>
-		<updated>2017-09-02T03:00:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;&amp;lt;- &lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-11T00:42:21+00:00</updated>
+			<updated>2017-09-14T00:42:16+00:00</updated>
 		</source>
 	</entry>
 
