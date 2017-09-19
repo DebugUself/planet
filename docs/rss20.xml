@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>li guang he: Trip Dunedin and Queenstown</title>
+	<guid>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</guid>
+	<link>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624871245400072198&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 18 Sep 2017 21:34:32 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he: Meals 吃了么</title>
 	<guid>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</guid>
 	<link>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</link>
@@ -28,32 +35,6 @@
 	<link>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</link>
 	<description>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;you must begin at this page: &lt;/p&gt;</description>
 	<pubDate>Sun, 10 Sep 2017 20:25:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Single Room in Hostel 七夕搬单间</title>
-	<guid>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</guid>
-	<link>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621708463693096966&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Fri, 08 Sep 2017 06:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Speaking to Writing 在英语环境中提升英语</title>
-	<guid>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</guid>
-	<link>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</link>
-	<description>&lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Thu, 07 Sep 2017 09:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Git 入怼之独立分支</title>
-	<guid>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</guid>
-	<link>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</link>
-	<description>&lt;ul&gt;
-&lt;li&gt;此分支非彼分支, 即不是一个项目中为了完善项目, 从而早晚要合并到主分支的其他分支. 而是永远不会合并到主项目, 仅为方便怼友互看的独立分支. 每个独立分支是一个独立的项目. &lt;/li&gt;
-&lt;li&gt;此分支特征&lt;ul&gt;
-&lt;li&gt;新建时基本空白, 不包含主分支的内容&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Thu, 07 Sep 2017 09:35:32 +0000</pubDate>
 </item>
 
 </channel>

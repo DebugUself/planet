@@ -5,8 +5,26 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-18T16:42:35+00:00</updated>
+	<updated>2017-09-19T00:42:26+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Trip Dunedin and Queenstown</title>
+		<link href="http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/"/>
+		<id>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</id>
+		<updated>2017-09-18T21:34:32+00:00</updated>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624871245400072198&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-19T00:42:20+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Meals 吃了么</title>
@@ -22,7 +40,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-16T08:42:50+00:00</updated>
+			<updated>2017-09-19T00:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -41,7 +59,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-16T08:42:50+00:00</updated>
+			<updated>2017-09-19T00:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -59,66 +77,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-16T08:42:50+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Single Room in Hostel 七夕搬单间</title>
-		<link href="http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/"/>
-		<id>http://liguanghe.github.io/2017/09/08/DunedinSingleRoom/</id>
-		<updated>2017-09-08T06:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2621708463693096966&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-16T08:42:50+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Speaking to Writing 在英语环境中提升英语</title>
-		<link href="http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/"/>
-		<id>http://liguanghe.github.io/2017/09/07/EnglishSpeakingtoWriting/</id>
-		<updated>2017-09-07T09:35:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;开口说&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#开口说&quot; class=&quot;headerlink&quot; title=&quot;开口说&quot;&gt;&lt;/a&gt;开口说&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;里程碑小故事&lt;ul&gt;
-&lt;li&gt;回忆我学英语的过程, 里面有个里程碑的事件: 跟一个美国老绅士Jim持续一年, 每天 sk&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-16T08:42:50+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Git 入怼之独立分支</title>
-		<link href="http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/"/>
-		<id>http://liguanghe.github.io/2017/09/07/HbUsageGithubBranch/</id>
-		<updated>2017-09-07T09:35:32+00:00</updated>
-		<content type="html">&lt;ul&gt;
-&lt;li&gt;此分支非彼分支, 即不是一个项目中为了完善项目, 从而早晚要合并到主分支的其他分支. 而是永远不会合并到主项目, 仅为方便怼友互看的独立分支. 每个独立分支是一个独立的项目. &lt;/li&gt;
-&lt;li&gt;此分支特征&lt;ul&gt;
-&lt;li&gt;新建时基本空白, 不包含主分支的内容&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-16T08:42:50+00:00</updated>
+			<updated>2017-09-19T00:42:20+00:00</updated>
 		</source>
 	</entry>
 
