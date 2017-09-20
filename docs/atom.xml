@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-19T16:42:22+00:00</updated>
+	<updated>2017-09-20T00:42:17+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">源数据 bug, 补一行代码, 中间试好多行</title>
+		<link href="http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/"/>
+		<id>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</id>
+		<updated>2017-09-19T23:35:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;bug&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#bug&quot; class=&quot;headerlink&quot; title=&quot;bug&quot;&gt;&lt;/a&gt;bug&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;(时间账单项目)做折线图时发现异常. set4 应该在0-2 之间, 在10-20区间的都是异常, 尝试找出这两个数据(&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-20T00:42:15+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Trip Dunedin and Queenstown</title>
@@ -22,7 +41,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-19T00:42:20+00:00</updated>
+			<updated>2017-09-20T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -40,7 +59,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-19T00:42:20+00:00</updated>
+			<updated>2017-09-20T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -59,7 +78,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-19T00:42:20+00:00</updated>
+			<updated>2017-09-20T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -77,7 +96,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-19T00:42:20+00:00</updated>
+			<updated>2017-09-20T00:42:15+00:00</updated>
 		</source>
 	</entry>
 

@@ -8,6 +8,14 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>li guang he: 源数据 bug, 补一行代码, 中间试好多行</title>
+	<guid>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</guid>
+	<link>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</link>
+	<description>&lt;h2 id=&quot;bug&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#bug&quot; class=&quot;headerlink&quot; title=&quot;bug&quot;&gt;&lt;/a&gt;bug&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;(时间账单项目)做折线图时发现异常. set4 应该在0-2 之间, 在10-20区间的都是异常, 尝试找出这两个数据(&lt;/li&gt;&lt;/ul&gt;</description>
+	<pubDate>Tue, 19 Sep 2017 23:35:32 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he: Trip Dunedin and Queenstown</title>
 	<guid>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</guid>
 	<link>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</link>
