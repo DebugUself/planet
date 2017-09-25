@@ -5,8 +5,70 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-24T16:42:26+00:00</updated>
+	<updated>2017-09-25T00:42:41+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Three Months in NZ 域外生活三个月</title>
+		<link href="http://liguanghe.github.io/2017/09/25/TimemainTitle0925/"/>
+		<id>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</id>
+		<updated>2017-09-24T20:46:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;MainTitle&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#MainTitle&quot; class=&quot;headerlink&quot; title=&quot;MainTitle&quot;&gt;&lt;/a&gt;MainTitle&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;求见云中小熊, 成为云中小熊, 灵魂伴侣也是云中小熊 (Bear&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-25T00:42:40+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">六个月时间账单报告</title>
+		<link href="http://liguanghe.github.io/2017/09/25/TimeReport0924/"/>
+		<id>http://liguanghe.github.io/2017/09/25/TimeReport0924/</id>
+		<updated>2017-09-24T20:25:32+00:00</updated>
+		<content type="html">&lt;p&gt;9月小结&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;睡眠时间持平 每周 60 h&lt;/li&gt;
+&lt;li&gt;不良娱乐时间 每周 &amp;lt; 5 h&lt;/li&gt;
+&lt;li&gt;运动, 持续每天, 每周 8-11 h&lt;/li&gt;
+&lt;li&gt;编程, 持续每天, 每周 17-31 h&lt;/li&gt;
+&lt;li&gt;总学习时间, 每&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-25T00:42:40+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Part Achievement in Python Project named atl4dama 时间账单项目阶段成果</title>
+		<link href="http://liguanghe.github.io/2017/09/25/lgh8html/"/>
+		<id>http://liguanghe.github.io/2017/09/25/lgh8html/</id>
+		<updated>2017-09-24T19:25:32+00:00</updated>
+		<content type="html">&lt;p&gt;In this month, I’m part of a Python project named atl4dama. Here is the achievements.&lt;/p&gt;
+&lt;h2 id=&quot;Project-Background&quot;&gt;&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-25T00:42:40+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">源数据 bug, 补一行代码, 中间试好多行</title>
@@ -23,7 +85,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-20T00:42:15+00:00</updated>
+			<updated>2017-09-25T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -41,7 +103,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-20T00:42:15+00:00</updated>
+			<updated>2017-09-25T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -59,44 +121,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-20T00:42:15+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">苏</title>
-		<link href="http://liguanghe.github.io/2017/09/14/LiveSexSoul/"/>
-		<id>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</id>
-		<updated>2017-09-13T22:00:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;广南&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#广南&quot; class=&quot;headerlink&quot; title=&quot;广南&quot;&gt;&lt;/a&gt;广南&lt;/h2&gt;&lt;p&gt;叶卡斯琳娜大帝生性放荡, 但这并不妨碍人们称她大帝. &lt;/p&gt;
-&lt;p&gt;以上或只是传言, 在广南构筑的商业帝国里, 她的事迹却不是, 毕竟整个&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-20T00:42:15+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Basic Element and Grammer of Coding</title>
-		<link href="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/"/>
-		<id>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</id>
-		<updated>2017-09-10T20:25:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;you must begin at this page: &lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-20T00:42:15+00:00</updated>
+			<updated>2017-09-25T00:42:40+00:00</updated>
 		</source>
 	</entry>
 

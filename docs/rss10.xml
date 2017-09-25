@@ -13,15 +13,42 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/25/TimemainTitle0925/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/25/TimeReport0924/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/25/lgh8html/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/16/Dunedinfoods/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/14/LiveSexSoul/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/09/25/TimemainTitle0925/">
+	<title>li guang he: Three Months in NZ 域外生活三个月</title>
+	<link>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</link>
+	<content:encoded>&lt;h2 id=&quot;MainTitle&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#MainTitle&quot; class=&quot;headerlink&quot; title=&quot;MainTitle&quot;&gt;&lt;/a&gt;MainTitle&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;求见云中小熊, 成为云中小熊, 灵魂伴侣也是云中小熊 (Bear&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-09-24T20:46:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2017/09/25/TimeReport0924/">
+	<title>li guang he: 六个月时间账单报告</title>
+	<link>http://liguanghe.github.io/2017/09/25/TimeReport0924/</link>
+	<content:encoded>&lt;p&gt;9月小结&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;睡眠时间持平 每周 60 h&lt;/li&gt;
+&lt;li&gt;不良娱乐时间 每周 &amp;lt; 5 h&lt;/li&gt;
+&lt;li&gt;运动, 持续每天, 每周 8-11 h&lt;/li&gt;
+&lt;li&gt;编程, 持续每天, 每周 17-31 h&lt;/li&gt;
+&lt;li&gt;总学习时间, 每&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-09-24T20:25:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2017/09/25/lgh8html/">
+	<title>li guang he: Part Achievement in Python Project named atl4dama 时间账单项目阶段成果</title>
+	<link>http://liguanghe.github.io/2017/09/25/lgh8html/</link>
+	<content:encoded>&lt;p&gt;In this month, I’m part of a Python project named atl4dama. Here is the achievements.&lt;/p&gt;
+&lt;h2 id=&quot;Project-Background&quot;&gt;&lt;/h2&gt;</content:encoded>
+	<dc:date>2017-09-24T19:25:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/">
 	<title>li guang he: 源数据 bug, 补一行代码, 中间试好多行</title>
 	<link>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</link>
@@ -40,19 +67,6 @@
 	<link>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</link>
 	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624175737723394566&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear【dunedin dinner for friendshi&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2017-09-16T05:05:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2017/09/14/LiveSexSoul/">
-	<title>li guang he: 苏</title>
-	<link>http://liguanghe.github.io/2017/09/14/LiveSexSoul/</link>
-	<content:encoded>&lt;h2 id=&quot;广南&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#广南&quot; class=&quot;headerlink&quot; title=&quot;广南&quot;&gt;&lt;/a&gt;广南&lt;/h2&gt;&lt;p&gt;叶卡斯琳娜大帝生性放荡, 但这并不妨碍人们称她大帝. &lt;/p&gt;
-&lt;p&gt;以上或只是传言, 在广南构筑的商业帝国里, 她的事迹却不是, 毕竟整个&lt;/p&gt;</content:encoded>
-	<dc:date>2017-09-13T22:00:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/">
-	<title>li guang he: Basic Element and Grammer of Coding</title>
-	<link>http://liguanghe.github.io/2017/09/11/BasicEementGrammerOfCoding/</link>
-	<content:encoded>&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;you must begin at this page: &lt;/p&gt;</content:encoded>
-	<dc:date>2017-09-10T20:25:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
