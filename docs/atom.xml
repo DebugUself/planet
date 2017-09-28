@@ -5,8 +5,26 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-09-27T16:42:52+00:00</updated>
+	<updated>2017-09-28T00:42:16+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html"></title>
+		<link href="http://liguanghe.github.io/2017/09/25/learningNote/"/>
+		<id>http://liguanghe.github.io/2017/09/25/learningNote/</id>
+		<updated>2017-09-24T21:53:15+00:00</updated>
+		<content type="html">&lt;p&gt;笔记技能: 打字速度 - 文义理解 - 清单记录 - 不同角度整理 - 增加可读性, 从读者角度再不断整理.&lt;br /&gt;案例: &lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-09-28T00:42:15+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Three Months in NZ 域外生活三个月</title>
@@ -23,7 +41,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-25T00:42:40+00:00</updated>
+			<updated>2017-09-28T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -47,7 +65,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-25T00:42:40+00:00</updated>
+			<updated>2017-09-28T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -66,7 +84,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-25T00:42:40+00:00</updated>
+			<updated>2017-09-28T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -85,7 +103,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-25T00:42:40+00:00</updated>
+			<updated>2017-09-28T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -103,7 +121,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-25T00:42:40+00:00</updated>
+			<updated>2017-09-28T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -121,7 +139,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-09-25T00:42:40+00:00</updated>
+			<updated>2017-09-28T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
