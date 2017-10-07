@@ -8,62 +8,20 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
-	<title>li guang he</title>
-	<guid>http://liguanghe.github.io/2017/09/25/learningNote/</guid>
-	<link>http://liguanghe.github.io/2017/09/25/learningNote/</link>
-	<description>&lt;p&gt;笔记技能: 打字速度 - 文义理解 - 清单记录 - 不同角度整理 - 增加可读性, 从读者角度再不断整理.&lt;br /&gt;案例: &lt;/p&gt;</description>
-	<pubDate>Sun, 24 Sep 2017 21:53:15 +0000</pubDate>
+	<title>li guang he: Queenstown 家人来访 之 皇后镇篇</title>
+	<guid>http://liguanghe.github.io/2017/10/07/queenstown/</guid>
+	<link>http://liguanghe.github.io/2017/10/07/queenstown/</link>
+	<description>&lt;h2 id=&quot;去&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#去&quot; class=&quot;headerlink&quot; title=&quot;去&quot;&gt;&lt;/a&gt;去&lt;/h2&gt;&lt;p&gt;“提前进入工作状态是吧? 好, 现在就开始.”&lt;/p&gt;
+&lt;p&gt;这句话之后, 刘欣也打开 Macbook, 跟我一样把头埋了进去.&lt;/p&gt;
+&lt;p&gt;明天&lt;/p&gt;</description>
+	<pubDate>Sat, 07 Oct 2017 07:45:32 +0000</pubDate>
 </item>
 <item>
-	<title>li guang he: Three Months in NZ 域外生活三个月</title>
-	<guid>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</guid>
-	<link>http://liguanghe.github.io/2017/09/25/TimemainTitle0925/</link>
-	<description>&lt;h2 id=&quot;MainTitle&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#MainTitle&quot; class=&quot;headerlink&quot; title=&quot;MainTitle&quot;&gt;&lt;/a&gt;MainTitle&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;求见云中小熊, 成为云中小熊, 灵魂伴侣也是云中小熊 (Bear&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Sun, 24 Sep 2017 20:46:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: 六个月时间账单报告</title>
-	<guid>http://liguanghe.github.io/2017/09/25/TimeReport0924/</guid>
-	<link>http://liguanghe.github.io/2017/09/25/TimeReport0924/</link>
-	<description>&lt;p&gt;9月小结&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;睡眠时间持平 每周 60 h&lt;/li&gt;
-&lt;li&gt;不良娱乐时间 每周 &amp;lt; 5 h&lt;/li&gt;
-&lt;li&gt;运动, 持续每天, 每周 8-11 h&lt;/li&gt;
-&lt;li&gt;编程, 持续每天, 每周 17-31 h&lt;/li&gt;
-&lt;li&gt;总学习时间, 每&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Sun, 24 Sep 2017 20:25:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Part Achievement in Python Project named atl4dama 时间账单项目阶段成果</title>
-	<guid>http://liguanghe.github.io/2017/09/25/lgh8html/</guid>
-	<link>http://liguanghe.github.io/2017/09/25/lgh8html/</link>
-	<description>&lt;p&gt;In this month, I’m part of a Python project named atl4dama. Here is the achievements.&lt;/p&gt;
-&lt;h2 id=&quot;Project-Background&quot;&gt;&lt;/h2&gt;</description>
-	<pubDate>Sun, 24 Sep 2017 19:25:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: 源数据 bug, 补一行代码, 中间试好多行</title>
-	<guid>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</guid>
-	<link>http://liguanghe.github.io/2017/09/20/lgh2DebugSET4data0919/</link>
-	<description>&lt;h2 id=&quot;bug&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#bug&quot; class=&quot;headerlink&quot; title=&quot;bug&quot;&gt;&lt;/a&gt;bug&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;(时间账单项目)做折线图时发现异常. set4 应该在0-2 之间, 在10-20区间的都是异常, 尝试找出这两个数据(&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Tue, 19 Sep 2017 23:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Trip Dunedin and Queenstown</title>
-	<guid>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</guid>
-	<link>http://liguanghe.github.io/2017/09/19/DunedinLiuTrip/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624871245400072198&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear what I was speaking(点此链接听英语语&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Mon, 18 Sep 2017 21:34:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Meals 吃了么</title>
-	<guid>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</guid>
-	<link>http://liguanghe.github.io/2017/09/16/Dunedinfoods/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2624175737723394566&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;click here to hear【dunedin dinner for friendshi&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Sat, 16 Sep 2017 05:05:32 +0000</pubDate>
+	<title>li guang he: When they visit Dunedin 家人朋友来访时 之 但尼丁篇</title>
+	<guid>http://liguanghe.github.io/2017/10/07/friendsFamilies/</guid>
+	<link>http://liguanghe.github.io/2017/10/07/friendsFamilies/</link>
+	<description>&lt;p&gt;New Zealand is famous by its grouses  view, attracts huge number of people to visit. If some of them are your friends and they know that&lt;/p&gt;</description>
+	<pubDate>Sat, 07 Oct 2017 06:14:32 +0000</pubDate>
 </item>
 
 </channel>
