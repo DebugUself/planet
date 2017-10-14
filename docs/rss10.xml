@@ -13,12 +13,24 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/14/Shuangpin/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/07/queenstown/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/07/friendsFamilies/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/10/14/Shuangpin/">
+	<title>li guang he</title>
+	<link>http://liguanghe.github.io/2017/10/14/Shuangpin/</link>
+	<content:encoded>&lt;hr /&gt;
+&lt;p&gt;title: 最快速提升打字速度两倍&lt;br /&gt;date: 2017/10/14 21:35:32&lt;br /&gt;categories: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;WriterEnvironment&lt;br /&gt;tags:&lt;/li&gt;
+&lt;li&gt;双拼&lt;/li&gt;
+&lt;li&gt;affecti&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-10-14T08:33:41+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/10/07/queenstown/">
 	<title>li guang he: Queenstown 家人来访 之 皇后镇篇</title>
 	<link>http://liguanghe.github.io/2017/10/07/queenstown/</link>
