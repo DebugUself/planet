@@ -5,20 +5,19 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-10-14T08:42:41+00:00</updated>
+	<updated>2017-10-14T16:42:27+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
-		<title type="html"></title>
+		<title type="html">最快速提升打字速度两倍</title>
 		<link href="http://liguanghe.github.io/2017/10/14/Shuangpin/"/>
 		<id>http://liguanghe.github.io/2017/10/14/Shuangpin/</id>
-		<updated>2017-10-14T08:33:41+00:00</updated>
-		<content type="html">&lt;hr /&gt;
-&lt;p&gt;title: 最快速提升打字速度两倍&lt;br /&gt;date: 2017/10/14 21:35:32&lt;br /&gt;categories: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;WriterEnvironment&lt;br /&gt;tags:&lt;/li&gt;
-&lt;li&gt;双拼&lt;/li&gt;
-&lt;li&gt;affecti&lt;/li&gt;&lt;/ul&gt;</content>
+		<updated>2017-10-14T08:35:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;技巧&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#技巧&quot; class=&quot;headerlink&quot; title=&quot;技巧&quot;&gt;&lt;/a&gt;技巧&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;自然码双拼. 要记的码最少. &lt;ul&gt;
+&lt;li&gt;找个周六清早: &lt;ul&gt;
+&lt;li&gt;10分钟记住码. &lt;/li&gt;
+&lt;li&gt;立刻将手&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</content>
 		<author>
 			<name>li guang he</name>
 			<uri>http://liguanghe.github.io/</uri>
@@ -27,7 +26,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-14T08:42:36+00:00</updated>
+			<updated>2017-10-14T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -47,7 +46,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-14T08:42:36+00:00</updated>
+			<updated>2017-10-14T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -65,7 +64,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-14T08:42:36+00:00</updated>
+			<updated>2017-10-14T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
