@@ -13,6 +13,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/14/Shuangpin/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/07/queenstown/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/10/07/friendsFamilies/" />
@@ -20,6 +22,22 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/">
+	<title>li guang he: Git One branch to Multiple Repositories</title>
+	<link>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</link>
+	<content:encoded>&lt;p&gt;~如有更好的方法, 欢迎推荐&lt;/p&gt;
+&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;在怼圈半年, 完全熟悉了这里的模式, 希望将我的一切项目都在怼圈的分支中进行. &lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-10-14T20:46:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/">
+	<title>li guang he: Atom Time Report1 时间账单报告自动化1</title>
+	<link>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</link>
+	<content:encoded>&lt;p&gt;Sleep&lt;/p&gt;
+&lt;h2 id=&quot;Achievement&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#Achievement&quot; class=&quot;headerlink&quot; title=&quot;Achievement&quot;&gt;&lt;/a&gt;Achievement&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Base on Atl4dam&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-10-14T19:45:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2017/10/14/Shuangpin/">
 	<title>li guang he: 最快速提升打字速度两倍</title>
 	<link>http://liguanghe.github.io/2017/10/14/Shuangpin/</link>

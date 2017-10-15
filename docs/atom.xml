@@ -5,8 +5,48 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-10-14T16:42:27+00:00</updated>
+	<updated>2017-10-15T16:42:45+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Git One branch to Multiple Repositories</title>
+		<link href="http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/"/>
+		<id>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</id>
+		<updated>2017-10-14T20:46:32+00:00</updated>
+		<content type="html">&lt;p&gt;~如有更好的方法, 欢迎推荐&lt;/p&gt;
+&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;在怼圈半年, 完全熟悉了这里的模式, 希望将我的一切项目都在怼圈的分支中进行. &lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-10-15T16:42:35+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Atom Time Report1 时间账单报告自动化1</title>
+		<link href="http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/"/>
+		<id>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</id>
+		<updated>2017-10-14T19:45:32+00:00</updated>
+		<content type="html">&lt;p&gt;Sleep&lt;/p&gt;
+&lt;h2 id=&quot;Achievement&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#Achievement&quot; class=&quot;headerlink&quot; title=&quot;Achievement&quot;&gt;&lt;/a&gt;Achievement&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Base on Atl4dam&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-10-15T16:42:35+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">最快速提升打字速度两倍</title>
@@ -26,7 +66,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-14T16:42:20+00:00</updated>
+			<updated>2017-10-15T16:42:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -46,7 +86,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-14T16:42:20+00:00</updated>
+			<updated>2017-10-15T16:42:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -64,7 +104,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-14T16:42:20+00:00</updated>
+			<updated>2017-10-15T16:42:35+00:00</updated>
 		</source>
 	</entry>
 
