@@ -23,6 +23,193 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>October 16, 2017</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://du.zoomquiet.io/" title="自怼圈">Debug Uself grp.</a></h3>
+
+
+<div class="entrygroup" id="http://du.zoomquiet.io/2017-10/aoi-wifi-static-ip">
+<h4><a href="http://du.zoomquiet.io/2017-10/aoi-wifi-static-ip/">Aoi-无线网络固定 ip</a></h4>
+<div class="entry">
+<div class="content">
+<h1 id="如何在-wifi-连接下固定-ip-地址">如何在 wifi 连接下固定 IP 地址?</h1>
+
+<p>作为家庭内网服务器的工控机, 预安装的是 Ubuntu,
+很好的默认支持了 wifi.</p>
+
+<p>问题在, 默认的连接是用 <code class="highlighter-rouge">DHIP</code> ~ 即每次重启时, 可能 ip 地址不同.</p>
+
+<p>这令从远程 SSH 连接来工作, 非常不方便….</p>
+
+<p>怎么嗯哼呢?!</p>
+
+<!--more-->
+
+<h2 id="调研">调研</h2>
+<p>快速 google 并查询了以下关键文章:</p>
+
+<ul>
+  <li><a href="https://help.ubuntu.com/stable/ubuntu-help/net-fixed-ip-address.html">使用固定 IP 地址创建连接</a></li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>[How to Set Static IP Address on Ubuntu 13.04 (both Wireless &amp; Wired)</td>
+          <td>UbuntuHandbook](http://ubuntuhandbook.org/index.php/2013/07/set-static-ip-address-ubuntu-13-04/)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="https://askubuntu.com/questions/729200/setting-up-static-ip-address-for-wireless-in-ubuntu-14-04">networking - Setting up Static IP Address for Wireless in Ubuntu 14.04 - Ask Ubuntu</a></li>
+  <li><a href="https://askubuntu.com/questions/530522/setting-a-static-ip-on-ubuntu">wireless - Setting a Static Ip on Ubuntu - Ask Ubuntu</a></li>
+  <li>…</li>
+</ul>
+
+<h2 id="嗯哼">嗯哼</h2>
+
+<p>根据其中使用图形网络控制界面中的提示, 完成了配置,并成功固定了 IP 地址,
+这样, 在本地的 <code class="highlighter-rouge">~/.ssh/config</code> 中就可以固定远程主机的配置, 随时用 ssh 进入来操作了.</p>
+
+<p>关键点:</p>
+
+<ul>
+  <li>address: 192.168.1.200</li>
+  <li>netmask: 255.255.255.0</li>
+  <li>gateway: 192.168.1.1</li>
+  <li>dns-nameservers: 8.8.8.8,8.8.4.4,192.168.1.1</li>
+</ul>
+
+<h1 id="todo">TODO</h1>
+
+<p>其实吧, 通过神器: <a href="https://ngrok.com/">ngrok - secure introspectable tunnels to localhost</a> 可以快速将内网应用发布到外网;</p>
+
+<ul>
+  <li>但是, 更加嗯哼的是通过路由器的配置将指定主机暴露到外部,</li>
+  <li>这时, 内网主机的外部地址是什么, 又是一个新问题了…</li>
+  <li>当然, 至少3+种方法可以嗯哼…</li>
+</ul>
+
+<h1 id="用时">用时</h1>
+
+<ul>
+  <li>.5h blogging</li>
+  <li>1.h 研究并完成配置</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://du.zoomquiet.io/2017-10/aoi-wifi-static-ip/">October 16, 2017 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+
+
+<div class="entrygroup" id="http://du.zoomquiet.io/2017-10/scheme-in-jupyter">
+<h4><a href="http://du.zoomquiet.io/2017-10/scheme-in-jupyter/">在 ipynb 中运行 Scheme</a></h4>
+<div class="entry">
+<div class="content">
+<h1 id="如何在-jupyter-界面中调试-scheme-代码">如何在 Jupyter 界面中调试 Scheme 代码?</h1>
+
+<p>看到视频 <a href="https://www.youtube.com/watch?v=2w-iO701g_w">Scheme Debug Demo in Jupyter, now with Inspector - YouTube</a> 太嗯哼了,</p>
+
+<p>当然要切换过去!</p>
+
+<p>只是没想到…</p>
+
+<!--more-->
+
+<h2 id="调研">调研</h2>
+<p>快速 google 并查询了以下关键文章:</p>
+
+<ul>
+  <li><a href="https://github.com/Calysto/calysto_scheme">Calysto/calysto_scheme: A Scheme kernel for Jupyter that can use Python libraries</a></li>
+  <li><a href="https://github.com/rainyear/A-sketch-of-SICP">rainyear/A-sketch-of-SICP: SICP in IPython Notebook with Scheme kernel.</a></li>
+  <li><a href="http://dev.classmethod.jp/etc/sicp-study-on-jupyter/">JupyterでScheme処理系を動かしてSICPを勉強する ｜ Developers.IO</a></li>
+  <li><a href="https://github.com/Calysto/calysto_scheme/issues/6">No such kernel named calysto_scheme · Issue #6 · Calysto/calysto_scheme</a></li>
+  <li>…</li>
+</ul>
+
+<h2 id="嗯哼">嗯哼</h2>
+
+<ul>
+  <li>pyenv 中安装 3.6.3/3.4.3</li>
+  <li>然后虚拟化出对应的 scm343/scm363</li>
+  <li>尝试部署 ipyn-jupyter-calysto_scheme</li>
+  <li>结果, 启动后, 依然没有见到新 kernel ~ <code class="highlighter-rouge">Calysto Scheme 3</code></li>
+  <li>再搜索对应的 error: <code class="highlighter-rouge">No such kernel named calysto_scheme</code></li>
+  <li>才从官方 Issue 中理解:
+    <ul>
+      <li>这类对于 jupyter 内核的扩展</li>
+      <li>要有一个明确的新内核挂载的指令!</li>
+    </ul>
+  </li>
+</ul>
+
+<p>才嗯哼明白:</p>
+
+<ul>
+  <li>calysto_scheme 已经稳定, 用 pip 安装没有问题</li>
+  <li>calysto_scheme 已经稳定, 和 py3 版本没有直接关系</li>
+  <li>最最要紧的是, 先安装对应模块, 再加载新 kernel 才能在 juypter 界面中看到…</li>
+</ul>
+
+<p>官方文档最核心的正确的操作,要依次执行:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>pip3 install --upgrade calysto-scheme --user
+python3 -m calysto_scheme install --user
+</code></pre>
+</div>
+
+<p>原先以为第二步是相同的作用, 结果, 在第一步成功后, 就没有继续,然后就没有了然后…</p>
+
+<h1 id="todo">TODO</h1>
+
+<p>其实吧, <a href="http://calysto.github.io/">Calysto Project: Libraries and Languages for Python and Jupyter</a> 也是大神器</p>
+
+<ul>
+  <li>通过对 Jupyter 的合法扩展, 已经可以支持近10种其它语言来享受 ipynb 的交互</li>
+  <li>所以, 接下来 mma 怎么也在 ipynb 中嗯哼? 虽然这个非常没有必要…</li>
+</ul>
+
+<h1 id="用时">用时</h1>
+
+<ul>
+  <li>.5h blogging</li>
+  <li>1.h 研究并完成配置</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://du.zoomquiet.io/2017-10/scheme-in-jupyter/">October 16, 2017 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>October 14, 2017</h2>
 
 <div class="channelgroup">
@@ -196,7 +383,7 @@
 
 <p>
 <strong>Last updated:</strong><br>
-October 16, 2017 08:43 AM<br>
+October 16, 2017 04:42 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
