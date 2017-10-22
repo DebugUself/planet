@@ -5,8 +5,30 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-10-21T16:42:15+00:00</updated>
+	<updated>2017-10-22T00:42:15+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">S07TimeReport 7季时间账单报告</title>
+		<link href="http://liguanghe.github.io/2017/10/22/TimeReport1022/"/>
+		<id>http://liguanghe.github.io/2017/10/22/TimeReport1022/</id>
+		<updated>2017-10-21T23:42:32+00:00</updated>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;改版, 逐步改为自动化. &lt;/li&gt;
+&lt;li&gt;横轴为 周(W), 纵轴为 小时 (H)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Output&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#Output&quot; class=&quot;headerlink&quot; title=&quot;Output&quot;&gt;&lt;/a&gt;Outp&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-10-22T00:42:14+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Aoi-无线网络固定 ip</title>
@@ -190,7 +212,7 @@ python3 -m calysto_scheme install --user
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-21T00:42:13+00:00</updated>
+			<updated>2017-10-22T00:42:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -210,7 +232,7 @@ python3 -m calysto_scheme install --user
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-21T00:42:13+00:00</updated>
+			<updated>2017-10-22T00:42:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -232,45 +254,7 @@ python3 -m calysto_scheme install --user
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-21T00:42:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Queenstown 家人来访 之 皇后镇篇</title>
-		<link href="http://liguanghe.github.io/2017/10/07/queenstown/"/>
-		<id>http://liguanghe.github.io/2017/10/07/queenstown/</id>
-		<updated>2017-10-07T07:45:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;去&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#去&quot; class=&quot;headerlink&quot; title=&quot;去&quot;&gt;&lt;/a&gt;去&lt;/h2&gt;&lt;p&gt;“提前进入工作状态是吧? 好, 现在就开始.”&lt;/p&gt;
-&lt;p&gt;这句话之后, 刘欣也打开 Macbook, 跟我一样把头埋了进去.&lt;/p&gt;
-&lt;p&gt;明天&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-21T00:42:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">When they visit Dunedin 家人朋友来访时 之 但尼丁篇</title>
-		<link href="http://liguanghe.github.io/2017/10/07/friendsFamilies/"/>
-		<id>http://liguanghe.github.io/2017/10/07/friendsFamilies/</id>
-		<updated>2017-10-07T06:14:32+00:00</updated>
-		<content type="html">&lt;p&gt;New Zealand is famous by its grouses  view, attracts huge number of people to visit. If some of them are your friends and they know that&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-10-21T00:42:13+00:00</updated>
+			<updated>2017-10-22T00:42:14+00:00</updated>
 		</source>
 	</entry>
 
