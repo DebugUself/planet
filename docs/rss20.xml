@@ -8,6 +8,14 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>li guang he: Two Days Out of Dunedin 南下两小时的两天</title>
+	<guid>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</guid>
+	<link>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</link>
+	<description>&lt;p&gt;After driving 90 minutes towards South, we arrived Catlin. This place is famous for its beaches, light house and the forest. &lt;/p&gt;
+&lt;p&gt;New&lt;/p&gt;</description>
+	<pubDate>Thu, 26 Oct 2017 07:09:32 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he: S07TimeReport 7季时间账单报告</title>
 	<guid>http://liguanghe.github.io/2017/10/22/TimeReport1022/</guid>
 	<link>http://liguanghe.github.io/2017/10/22/TimeReport1022/</link>
@@ -17,179 +25,6 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;Output&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#Output&quot; class=&quot;headerlink&quot; title=&quot;Output&quot;&gt;&lt;/a&gt;Outp&lt;/h2&gt;</description>
 	<pubDate>Sat, 21 Oct 2017 23:42:32 +0000</pubDate>
-</item>
-<item>
-	<title>Debug Uself grp.: Aoi-无线网络固定 ip</title>
-	<guid>http://du.zoomquiet.io/2017-10/aoi-wifi-static-ip/</guid>
-	<link>http://du.zoomquiet.io/2017-10/aoi-wifi-static-ip/</link>
-	<description>&lt;h1 id=&quot;如何在-wifi-连接下固定-ip-地址&quot;&gt;如何在 wifi 连接下固定 IP 地址?&lt;/h1&gt;
-
-&lt;p&gt;作为家庭内网服务器的工控机, 预安装的是 Ubuntu,
-很好的默认支持了 wifi.&lt;/p&gt;
-
-&lt;p&gt;问题在, 默认的连接是用 &lt;code class=&quot;highlighter-rouge&quot;&gt;DHIP&lt;/code&gt; ~ 即每次重启时, 可能 ip 地址不同.&lt;/p&gt;
-
-&lt;p&gt;这令从远程 SSH 连接来工作, 非常不方便….&lt;/p&gt;
-
-&lt;p&gt;怎么嗯哼呢?!&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;调研&quot;&gt;调研&lt;/h2&gt;
-&lt;p&gt;快速 google 并查询了以下关键文章:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/stable/ubuntu-help/net-fixed-ip-address.html&quot;&gt;使用固定 IP 地址创建连接&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;[How to Set Static IP Address on Ubuntu 13.04 (both Wireless &amp;amp; Wired)&lt;/td&gt;
-          &lt;td&gt;UbuntuHandbook](http://ubuntuhandbook.org/index.php/2013/07/set-static-ip-address-ubuntu-13-04/)&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/729200/setting-up-static-ip-address-for-wireless-in-ubuntu-14-04&quot;&gt;networking - Setting up Static IP Address for Wireless in Ubuntu 14.04 - Ask Ubuntu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://askubuntu.com/questions/530522/setting-a-static-ip-on-ubuntu&quot;&gt;wireless - Setting a Static Ip on Ubuntu - Ask Ubuntu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;嗯哼&quot;&gt;嗯哼&lt;/h2&gt;
-
-&lt;p&gt;根据其中使用图形网络控制界面中的提示, 完成了配置,并成功固定了 IP 地址,
-这样, 在本地的 &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.ssh/config&lt;/code&gt; 中就可以固定远程主机的配置, 随时用 ssh 进入来操作了.&lt;/p&gt;
-
-&lt;p&gt;关键点:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;address: 192.168.1.200&lt;/li&gt;
-  &lt;li&gt;netmask: 255.255.255.0&lt;/li&gt;
-  &lt;li&gt;gateway: 192.168.1.1&lt;/li&gt;
-  &lt;li&gt;dns-nameservers: 8.8.8.8,8.8.4.4,192.168.1.1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;todo&quot;&gt;TODO&lt;/h1&gt;
-
-&lt;p&gt;其实吧, 通过神器: &lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok - secure introspectable tunnels to localhost&lt;/a&gt; 可以快速将内网应用发布到外网;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;但是, 更加嗯哼的是通过路由器的配置将指定主机暴露到外部,&lt;/li&gt;
-  &lt;li&gt;这时, 内网主机的外部地址是什么, 又是一个新问题了…&lt;/li&gt;
-  &lt;li&gt;当然, 至少3+种方法可以嗯哼…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;用时&quot;&gt;用时&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;.5h blogging&lt;/li&gt;
-  &lt;li&gt;1.h 研究并完成配置&lt;/li&gt;
-&lt;/ul&gt;</description>
-	<pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Debug Uself grp.: 在 ipynb 中运行 Scheme</title>
-	<guid>http://du.zoomquiet.io/2017-10/scheme-in-jupyter/</guid>
-	<link>http://du.zoomquiet.io/2017-10/scheme-in-jupyter/</link>
-	<description>&lt;h1 id=&quot;如何在-jupyter-界面中调试-scheme-代码&quot;&gt;如何在 Jupyter 界面中调试 Scheme 代码?&lt;/h1&gt;
-
-&lt;p&gt;看到视频 &lt;a href=&quot;https://www.youtube.com/watch?v=2w-iO701g_w&quot;&gt;Scheme Debug Demo in Jupyter, now with Inspector - YouTube&lt;/a&gt; 太嗯哼了,&lt;/p&gt;
-
-&lt;p&gt;当然要切换过去!&lt;/p&gt;
-
-&lt;p&gt;只是没想到…&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;调研&quot;&gt;调研&lt;/h2&gt;
-&lt;p&gt;快速 google 并查询了以下关键文章:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Calysto/calysto_scheme&quot;&gt;Calysto/calysto_scheme: A Scheme kernel for Jupyter that can use Python libraries&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rainyear/A-sketch-of-SICP&quot;&gt;rainyear/A-sketch-of-SICP: SICP in IPython Notebook with Scheme kernel.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://dev.classmethod.jp/etc/sicp-study-on-jupyter/&quot;&gt;JupyterでScheme処理系を動かしてSICPを勉強する ｜ Developers.IO&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Calysto/calysto_scheme/issues/6&quot;&gt;No such kernel named calysto_scheme · Issue #6 · Calysto/calysto_scheme&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;嗯哼&quot;&gt;嗯哼&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pyenv 中安装 3.6.3/3.4.3&lt;/li&gt;
-  &lt;li&gt;然后虚拟化出对应的 scm343/scm363&lt;/li&gt;
-  &lt;li&gt;尝试部署 ipyn-jupyter-calysto_scheme&lt;/li&gt;
-  &lt;li&gt;结果, 启动后, 依然没有见到新 kernel ~ &lt;code class=&quot;highlighter-rouge&quot;&gt;Calysto Scheme 3&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;再搜索对应的 error: &lt;code class=&quot;highlighter-rouge&quot;&gt;No such kernel named calysto_scheme&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;才从官方 Issue 中理解:
-    &lt;ul&gt;
-      &lt;li&gt;这类对于 jupyter 内核的扩展&lt;/li&gt;
-      &lt;li&gt;要有一个明确的新内核挂载的指令!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;才嗯哼明白:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;calysto_scheme 已经稳定, 用 pip 安装没有问题&lt;/li&gt;
-  &lt;li&gt;calysto_scheme 已经稳定, 和 py3 版本没有直接关系&lt;/li&gt;
-  &lt;li&gt;最最要紧的是, 先安装对应模块, 再加载新 kernel 才能在 juypter 界面中看到…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;官方文档最核心的正确的操作,要依次执行:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip3 install --upgrade calysto-scheme --user
-python3 -m calysto_scheme install --user
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;原先以为第二步是相同的作用, 结果, 在第一步成功后, 就没有继续,然后就没有了然后…&lt;/p&gt;
-
-&lt;h1 id=&quot;todo&quot;&gt;TODO&lt;/h1&gt;
-
-&lt;p&gt;其实吧, &lt;a href=&quot;http://calysto.github.io/&quot;&gt;Calysto Project: Libraries and Languages for Python and Jupyter&lt;/a&gt; 也是大神器&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;通过对 Jupyter 的合法扩展, 已经可以支持近10种其它语言来享受 ipynb 的交互&lt;/li&gt;
-  &lt;li&gt;所以, 接下来 mma 怎么也在 ipynb 中嗯哼? 虽然这个非常没有必要…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;用时&quot;&gt;用时&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;.5h blogging&lt;/li&gt;
-  &lt;li&gt;1.h 研究并完成配置&lt;/li&gt;
-&lt;/ul&gt;</description>
-	<pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Git One branch to Multiple Repositories</title>
-	<guid>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</guid>
-	<link>http://liguanghe.github.io/2017/10/15/GitRemoteMultipleRep/</link>
-	<description>&lt;p&gt;~如有更好的方法, 欢迎推荐&lt;/p&gt;
-&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;在怼圈半年, 完全熟悉了这里的模式, 希望将我的一切项目都在怼圈的分支中进行. &lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Sat, 14 Oct 2017 20:46:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Atom Time Report1 时间账单报告自动化1</title>
-	<guid>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</guid>
-	<link>http://liguanghe.github.io/2017/10/15/PythonTimeReportSleep/</link>
-	<description>&lt;p&gt;Sleep&lt;/p&gt;
-&lt;h2 id=&quot;Achievement&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#Achievement&quot; class=&quot;headerlink&quot; title=&quot;Achievement&quot;&gt;&lt;/a&gt;Achievement&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Base on Atl4dam&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Sat, 14 Oct 2017 19:45:32 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: 最快速提升打字速度两倍</title>
-	<guid>http://liguanghe.github.io/2017/10/14/Shuangpin/</guid>
-	<link>http://liguanghe.github.io/2017/10/14/Shuangpin/</link>
-	<description>&lt;h2 id=&quot;技巧&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#技巧&quot; class=&quot;headerlink&quot; title=&quot;技巧&quot;&gt;&lt;/a&gt;技巧&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;自然码双拼. 要记的码最少. &lt;ul&gt;
-&lt;li&gt;找个周六清早: &lt;ul&gt;
-&lt;li&gt;10分钟记住码. &lt;/li&gt;
-&lt;li&gt;立刻将手&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-	<pubDate>Sat, 14 Oct 2017 08:35:32 +0000</pubDate>
 </item>
 
 </channel>
