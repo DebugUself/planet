@@ -8,6 +8,54 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>junyu: Docker快速部署Moinmoin</title>
+	<guid>http://blog.junyu.io/posts/0603-docker-and-moinmoin.html</guid>
+	<link>http://blog.junyu.io/posts/0603-docker-and-moinmoin.html</link>
+	<description>&lt;blockquote class=&quot;blockquote-center&quot;&gt;说再多，不如先启动起来&lt;/blockquote&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;最近公司里在尝试Docker 的应用，Docker像一个容器，封装了程序的细节，对于生产环境的部署、宕机恢复、保持稳定有非常好的效果。个人使用时，可以减少大量的重复性配置工作，在不同的机器上拥有完全一致的开发环境，想一想也是很美呢。&lt;/p&gt;
+&lt;p&gt;而Moinmoin，在&lt;a href=&quot;http://blog.junyu.io/posts/0602-wiki-user-guide.html&quot;&gt; Wiki上车指南 &lt;/a&gt;有过介绍，不再赘述。之前本地使用时比较简单，部署到网络环境并不是多复杂，但是一想到本地调试、远程部署，也是一件需要花相当长时间精力的事情，也就搁置下来了。&lt;/p&gt;
+&lt;p&gt;当Docker遇到Moinmoin，今天自己在尝试docker的基本应用时突然想到试一下moinmoin会如何？结果是：70分钟，完成了Docker基础实验和Moinmoin基于Ngnix的本地环境安装，趟出了一些坑，和大家分享。&lt;/p&gt;
+&lt;h2 id=&quot;Docker，从官方文档开始&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Docker，从官方文档开始&quot; class=&quot;headerlink&quot; title=&quot;Docker，从官方文档开始&quot;&gt;&lt;/a&gt;Docker，从官方文档开始&lt;/h2&gt;&lt;p&gt;建议直接从官方文档的&lt;a href=&quot;https://docs.docker.com/get-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Get Started&lt;/a&gt;开始，有很详细的实验步骤，不再赘述。不过需要注意的是，我在刚开始实验的时候发现【Get Started, Part 2: Containers】中最后执行&lt;code&gt;curl http://localhost:4000&lt;/code&gt;需要等一会，速度有一些慢，原因是什么还没有调查。&lt;br /&gt;官方文档看到【Get Started, Part 2: Containers】最最基本的应用就够了。&lt;/p&gt;
+&lt;h2 id=&quot;DaoCloud&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#DaoCloud&quot; class=&quot;headerlink&quot; title=&quot;DaoCloud&quot;&gt;&lt;/a&gt;DaoCloud&lt;/h2&gt;&lt;p&gt;在【Get Started, Part 3: Service】中执行&lt;code&gt;docker login&lt;/code&gt;时总是报错&lt;code&gt;Timeout exceeded while awaiting headers&lt;/code&gt;搜索后发现了&lt;a href=&quot;https://www.daocloud.io/mirror#accelerator-doc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【DaoCloud 加速器】&lt;/a&gt;做了配置，下载镜像果然快多了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当我写博客时想复线当时登录失败时，不再超时了。如果当时没有遇到这个超时的问题，我还会搜索到加速器，找到daocloud，然后找到moinmoin么？历史不可假设，未来不可预测，或许就是另一篇博客了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Moinmoin镜像&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Moinmoin镜像&quot; class=&quot;headerlink&quot; title=&quot;Moinmoin镜像&quot;&gt;&lt;/a&gt;Moinmoin镜像&lt;/h2&gt;&lt;p&gt;在Docker Hub中有moinmoin的&lt;a href=&quot;https://dashboard.daocloud.io/packages/511d4ef2-efeb-406b-b2a8-7e8bbbbaed6f&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;镜像&lt;/a&gt;直接&lt;code&gt;docker pull olavgg/moinmoin-wiki:1.9.7&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;按照&lt;a href=&quot;https://hub.docker.com/r/olavgg/moinmoin-wiki/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文档&lt;/a&gt;中写到的执行&lt;code&gt;sudo docker run -it -p 443:443 -p 80:80 --name my_wiki olavgg/moinmoin-wiki&lt;/code&gt;然后在浏览器登录【&lt;a href=&quot;http://localhost】，Surprise～，Moinmoin已经可用了！&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost】，Surprise～，Moinmoin已经可用了！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;———-&amp;gt;  我是分割线  &amp;lt;———-&lt;br /&gt;如果你是技术小白，只是想跑一个稳定的本地Moinmoin环境使用，恭喜你，目标已经实现。&lt;br /&gt;但是，如果希望自己在技术上继续折腾，自己做镜像，用最新的Moinmoin版本，发布到公网，修改配置，甚至自制插件，请继续折腾，我也走在继续折腾的路上…&lt;/p&gt;
+&lt;h2 id=&quot;坑点集合&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#坑点集合&quot; class=&quot;headerlink&quot; title=&quot;坑点集合&quot;&gt;&lt;/a&gt;坑点集合&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;DaoCloud 加速器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;待办事项&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#待办事项&quot; class=&quot;headerlink&quot; title=&quot;待办事项&quot;&gt;&lt;/a&gt;待办事项&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;官方文档部分&lt;ul&gt;
+&lt;li&gt;官方实验为什么执行&lt;code&gt;curl http://localhost:4000&lt;/code&gt;比较慢？&lt;/li&gt;
+&lt;li&gt;继续完成官网的实验，继续了解Docker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;现在Docker-Moinmoin服务部分&lt;ul&gt;
+&lt;li&gt;搞清楚现在正在跑的Docker中的Moinmoin如何配置，文件存在那里&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Moinmoin部分&lt;ul&gt;
+&lt;li&gt;自己配置一个Moinmoin的服务版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;外网服务部分&lt;ul&gt;
+&lt;li&gt;把自己配置的版本打一个镜像，发布出去&lt;/li&gt;
+&lt;li&gt;搞一台外网服务器，发布相关的内容&lt;/li&gt;
+&lt;li&gt;研究一下现在各种容器服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;171029 新建&lt;/p&gt;</description>
+	<pubDate>Sun, 29 Oct 2017 11:23:39 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he: Two Days Out of Dunedin 南下两小时的两天</title>
 	<guid>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</guid>
 	<link>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</link>
