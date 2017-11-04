@@ -13,6 +13,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/04/BlogVedio/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/debug-omlalala-summary" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/01/PY104show/" />
 			<rdf:li rdf:resource="http://blog.junyu.io/posts/0603-docker-and-moinmoin.html" />
@@ -21,6 +23,19 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2017/11/04/BlogVedio/">
+	<title>li guang he: Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
+	<link>http://liguanghe.github.io/2017/11/04/BlogVedio/</link>
+	<content:encoded>&lt;p&gt;Put vedio into blog is very easy, just copy the link that Youtube gives you and paste it to you file. &lt;/p&gt;
+&lt;p&gt;在博客里上传视频非常简单.视频网站会提供视频的html&lt;/p&gt;</content:encoded>
+	<dc:date>2017-11-04T03:19:07+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/">
+	<title>li guang he: Boat House</title>
+	<link>http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/</link>
+	<content:encoded>&lt;p&gt;Chinese frien&lt;/p&gt;</content:encoded>
+	<dc:date>2017-11-04T02:35:32+00:00</dc:date>
+</item>
 <item rdf:about="http://du.zoomquiet.io/2017-11/debug-omlalala-summary/">
 	<title>Debug Uself grp.: 怼林外史</title>
 	<link>http://du.zoomquiet.io/2017-11/debug-omlalala-summary/</link>
