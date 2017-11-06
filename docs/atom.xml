@@ -5,8 +5,104 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-11-05T16:42:15+00:00</updated>
+	<updated>2017-11-06T00:42:16+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">自怼圈 MVP</title>
+		<link href="http://du.zoomquiet.io/2017-11/lgh-DebugMvp/"/>
+		<id>http://du.zoomquiet.io/2017-11/lgh-DebugMvp</id>
+		<updated>2017-11-06T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;所谓 MVP, 即最小行动,内含持续, 积少成多.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;月计划 (每四周 60 min)
+    &lt;ul&gt;
+      &lt;li&gt;s0xe51, 持续报告, 互相督促.&lt;/li&gt;
+      &lt;li&gt;持续月计划的好处.
+        &lt;ul&gt;
+          &lt;li&gt;可跟踪进展, 回顾, 改进或换方向.&lt;/li&gt;
+          &lt;li&gt;不忘初心.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;举例: 域外生活录.&lt;/li&gt;
+      &lt;li&gt;举例: 时间账单中可视化是一个月就完成了的.月初定方向, 每天两小时, 完成一个小功能, 有问题及时提, 及时得到解答, 继续下一个.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;怼周会 (每周六 42 min)
+    &lt;ul&gt;
+      &lt;li&gt;按周来, 每四周一个项目进展(跟 python课的结业项目一致)&lt;/li&gt;
+      &lt;li&gt;每周小结
+        &lt;ul&gt;
+          &lt;li&gt;怼的下去, 怼不下去的, 每周回顾一次, 又有动力再战.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;怼友反馈&lt;/li&gt;
+      &lt;li&gt;强调输出
+        &lt;ul&gt;
+          &lt;li&gt;主题分享/项目介绍/心得体会/难点讨论…&lt;/li&gt;
+          &lt;li&gt;限时&lt;/li&gt;
+          &lt;li&gt;往期主题分享举例
+            &lt;ul&gt;
+              &lt;li&gt;小鹤的笔记分享.&lt;/li&gt;
+              &lt;li&gt;小鹤的用 issue 治思维混乱&lt;/li&gt;
+              &lt;li&gt;浚宇的保险业专题&lt;/li&gt;
+              &lt;li&gt;时间账单阶段性成果展示&lt;/li&gt;
+              &lt;li&gt;珍教的AI 音乐展示&lt;/li&gt;
+              &lt;li&gt;珍教的pu request 视频展示&lt;/li&gt;
+              &lt;li&gt;王琛的数据科学手书翻译&lt;/li&gt;
+              &lt;li&gt;明星的找工历险记&lt;/li&gt;
+              &lt;li&gt;…&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;输出接口: 博客/怼周刊&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;issue (每周3-5个)
+    &lt;ul&gt;
+      &lt;li&gt;行动闭环&lt;/li&gt;
+      &lt;li&gt;所有文档的入口/草稿和过程&lt;/li&gt;
+      &lt;li&gt;遇难就问, 开口.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;及时收发通知: email(issue)/slack (每天 10 min)
+    &lt;ul&gt;
+      &lt;li&gt;slack 比微信好的地方&lt;/li&gt;
+      &lt;li&gt;及时收到仓库变动情况&lt;/li&gt;
+      &lt;li&gt;大批量处理信息,跟踪项目, 信息量级的跃迁.&lt;/li&gt;
+      &lt;li&gt;这里 wiki中已有如何设置的指南.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;挖掘怼圈
+    &lt;ul&gt;
+      &lt;li&gt;此圈为宝库&lt;/li&gt;
+      &lt;li&gt;将大妈这个人身上的资源不断的显化&lt;/li&gt;
+      &lt;li&gt;已经显化的部分在 wiki/博客/分支/…&lt;/li&gt;
+      &lt;li&gt;保持好奇, 不断挖掘, 为你所用.&lt;/li&gt;
+      &lt;li&gt;贡献自己的项目/沉淀 wiki/ 组队做项目…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;心&quot;&gt;心&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;写到这里发现, 上面的几个 MVP 都是在推动项目和推动输出的.&lt;/li&gt;
+  &lt;li&gt;以上是小鹤总结出来的怼圈 MVP. 实际上也践行着, 30期怼周会, 周周不落, 即使因为时差, 后来就是凌晨调闹钟起来参会. 月计划已连续发布5期, 让迷茫的自己不再那么没有方向. 没有什么事情是 一个 issue 不能解决的, 如果有, 那就两个. 一次设置好收发通知后, 每天定期看邮件, 及时回复.&lt;/li&gt;
+  &lt;li&gt;关于在怼圈的心得和收获, 在我的博客:  ligdhe.com 中.&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Debug Uself grp.</name>
+			<uri>http://du.zoomquiet.io/</uri>
+		</author>
+		<source>
+			<title type="html">自怼圈</title>
+			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
+			<id>http://du.zoomquiet.io</id>
+			<updated>2017-11-06T00:42:07+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Vedio in blog 在博客里嵌入视频, 原来这么简单.</title>
@@ -23,7 +119,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-04T08:42:18+00:00</updated>
+			<updated>2017-11-06T00:42:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -41,7 +137,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-04T08:42:18+00:00</updated>
+			<updated>2017-11-06T00:42:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -154,7 +250,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2017-11-05T08:42:09+00:00</updated>
+			<updated>2017-11-06T00:42:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -173,7 +269,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-04T08:42:18+00:00</updated>
+			<updated>2017-11-06T00:42:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -234,25 +330,6 @@
 			<link rel="self" href="http://blog.junyu.io/atom.xml"/>
 			<id>http://blog.junyu.io/</id>
 			<updated>2017-10-29T16:42:55+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Two Days Out of Dunedin 南下两小时的两天</title>
-		<link href="http://liguanghe.github.io/2017/10/26/NZOthersBeauty/"/>
-		<id>http://liguanghe.github.io/2017/10/26/NZOthersBeauty/</id>
-		<updated>2017-10-26T07:09:32+00:00</updated>
-		<content type="html">&lt;p&gt;After driving 90 minutes towards South, we arrived Catlin. This place is famous for its beaches, light house and the forest. &lt;/p&gt;
-&lt;p&gt;New&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-04T08:42:18+00:00</updated>
 		</source>
 	</entry>
 
