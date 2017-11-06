@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/ac1-du4new" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/lgh-DebugMvp" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/04/BlogVedio/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/" />
@@ -23,6 +24,144 @@
 	</items>
 </channel>
 
+<item rdf:about="http://du.zoomquiet.io/2017-11/ac1-du4new/">
+	<title>Debug Uself grp.: 关乎社群:1 自怼圈的由来</title>
+	<link>http://du.zoomquiet.io/2017-11/ac1-du4new/</link>
+	<content:encoded>&lt;h2 id=&quot;你是谁&quot;&gt;你是谁?&lt;/h2&gt;
+
+&lt;p&gt;是的又一期 OM101.py 成功结束了,
+世界上又多出一群卡在职业程序猿和计算机爱好者之间的嗯哼来..&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;所以, 自怼圈 叕被强烈要求进入&lt;/li&gt;
+  &lt;li&gt;所以, 得先说清楚, 这圈儿是怎么回子事儿…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zoomquiet.qiniucdn.com/res/du/debuguself-ascii-mapping.png?imageView2/2/w/420&quot; alt=&quot;debuguself-ascii-mapping&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;以上…&lt;/p&gt;
+
+&lt;h2 id=&quot;从哪来&quot;&gt;从哪来?&lt;/h2&gt;
+&lt;p&gt;~ 当然, 看起来这么复杂的东西, 不是直接嗯哼出来的&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;15年前:
+    &lt;ul&gt;
+      &lt;li&gt;毕业快4年的俺
+        &lt;ul&gt;
+          &lt;li&gt;自学了 asp/php/action-script/bash/js/css/python/…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;模糊间好象发觉了一种通用的自学姿势&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;12年前:
+    &lt;ul&gt;
+      &lt;li&gt;和伙伴们联合创建了 CPyUG 社区
+        &lt;ul&gt;
+          &lt;li&gt;并在线下定期组织分享活动&lt;/li&gt;
+          &lt;li&gt;慢慢的积累了一些初学时常见的困惑&lt;/li&gt;
+          &lt;li&gt;于是将所有自学 Python 相关的体验组织为一系列文章&lt;/li&gt;
+          &lt;li&gt;不久就被社区小伙伴推荐到有关出版社&lt;/li&gt;
+          &lt;li&gt;两年后变成原创 Python 图书: 可爱的Python&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;同时也嗯哼明白了如何组织在线社区&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;9年前:
+    &lt;ul&gt;
+      &lt;li&gt;刚刚到珠海
+        &lt;ul&gt;
+          &lt;li&gt;受命在最短时间以内培训一批应届大学生&lt;/li&gt;
+          &lt;li&gt;看是否能转变为 Python 工程师&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;根据以往的直觉设计了 &lt;code class=&quot;highlighter-rouge&quot;&gt;PythoniCamp&lt;/code&gt; ~ 蠎营实训班
+        &lt;ul&gt;
+          &lt;li&gt;通过一系列自主设计的小工程&lt;/li&gt;
+          &lt;li&gt;在8周以内,从0基础一边自学, 一边开发, 直至可用并发布&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;结束时突然意识到, 这是和以往青鸟们培训学校根本性不同的培训姿势&lt;/li&gt;
+      &lt;li&gt;于是,进一步的
+        &lt;ul&gt;
+          &lt;li&gt;在本地大学生中&lt;/li&gt;
+          &lt;li&gt;前后组织了多次 &lt;code class=&quot;highlighter-rouge&quot;&gt;PythoniCamp&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;但是, 效果都没有企业内来的明显&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;3年前:
+    &lt;ul&gt;
+      &lt;li&gt;忽然一次偶然的机会&lt;/li&gt;
+      &lt;li&gt;和开智合作,推行了一次基于 &lt;code class=&quot;highlighter-rouge&quot;&gt;PythoniCamp&lt;/code&gt; 课程设计思想的
+        &lt;ul&gt;
+          &lt;li&gt;全新的线上自学实践课程, 代号 &lt;code class=&quot;highlighter-rouge&quot;&gt;OM101.py&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;简化了课程进入要求&lt;/li&gt;
+          &lt;li&gt;细化了自学路径&lt;/li&gt;
+          &lt;li&gt;将原先8周的项目自研, 压缩到4周&lt;/li&gt;
+          &lt;li&gt;…42项改进&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;勉强安全交付&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;.5年前:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OM101.py&lt;/code&gt; 第3期也结束了&lt;/li&gt;
+      &lt;li&gt;这次俺只是作为顾问&lt;/li&gt;
+      &lt;li&gt;老老实实当了12周吉祥物&lt;/li&gt;
+      &lt;li&gt;学员们意尤未尽, 有不少想继续&lt;/li&gt;
+      &lt;li&gt;官方微信群解散前&lt;/li&gt;
+      &lt;li&gt;突然想到年初注册了 &lt;code class=&quot;highlighter-rouge&quot;&gt;小密圈&lt;/code&gt;:
+        &lt;ul&gt;
+          &lt;li&gt;全新的又一个所谓 &lt;code class=&quot;highlighter-rouge&quot;&gt;知识变现&lt;/code&gt; 的尝试平台&lt;/li&gt;
+          &lt;li&gt;可以发布付费圈&lt;/li&gt;
+          &lt;li&gt;包年的形式来聚集/组织&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;于是:
+        &lt;ul&gt;
+          &lt;li&gt;一冲动,发布了链接&lt;/li&gt;
+          &lt;li&gt;然后,就有了 &lt;code class=&quot;highlighter-rouge&quot;&gt;自怼圈&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;然后,一直然后到了现在&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;到哪去&quot;&gt;到哪去?&lt;/h2&gt;
+&lt;p&gt;~ 已经运营了34周, 一年也就54周, 然后呢?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zoomquiet.qiniucdn.com/res/du/debuguself_150x.png&quot; alt=&quot;debuguself&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;自怼圈&lt;/code&gt; 不是课堂&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;自怼圈&lt;/code&gt; 不是学校&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;自怼圈&lt;/code&gt; 不是…任何给出知识, 成员付费获得的那种嗯哼&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;自怼圈&lt;/code&gt; 只是一群不甘心的积极自学者聚集的场所
+    &lt;ul&gt;
+      &lt;li&gt;在一起相互&lt;code class=&quot;highlighter-rouge&quot;&gt;怂怼&lt;/code&gt;
+        &lt;ul&gt;
+          &lt;li&gt;有趣的好人们聚集在一起&lt;/li&gt;
+          &lt;li&gt;然后产生出什么好玩的事儿&lt;/li&gt;
+          &lt;li&gt;俺也不知道&lt;/li&gt;
+          &lt;li&gt;只是愿意一直在这儿折腾自己想折腾的事儿&lt;/li&gt;
+          &lt;li&gt;如果大家愿意一起来折腾, 那就一起&lt;/li&gt;
+          &lt;li&gt;如果不愿意, 那么折腾自己想折腾的&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;嘦愿意在此&lt;code class=&quot;highlighter-rouge&quot;&gt;怂怼&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-11-06T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://du.zoomquiet.io/2017-11/lgh-DebugMvp/">
 	<title>Debug Uself grp.: 自怼圈 MVP</title>
 	<link>http://du.zoomquiet.io/2017-11/lgh-DebugMvp/</link>
