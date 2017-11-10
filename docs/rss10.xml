@@ -13,17 +13,182 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/bear-duFeelingFish" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/ac1-du4new" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/lgh-DebugMvp" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/04/BlogVedio/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/04/DunedinBoatHouse/" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2017-11/debug-omlalala-summary" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2017/11/01/PY104show/" />
-			<rdf:li rdf:resource="http://blog.junyu.io/posts/0603-docker-and-moinmoin.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://du.zoomquiet.io/2017-11/bear-duFeelingFish/">
+	<title>Debug Uself grp.: 熊本怼圈感受:泽鱼与溪鱼</title>
+	<link>http://du.zoomquiet.io/2017-11/bear-duFeelingFish/</link>
+	<content:encoded>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;渔父词 唐.储光羲
+
+泽鱼好鸣水,溪鱼好上流.
+渔梁不得意,下渚潜垂钩.
+乱荇时碍楫,新芦复隐舟.
+...
+素发随风扬,远心与云游.
+逆浪还极浦,信潮下沧洲.
+非为徇形役,所乐在行休.
+
+注:渔梁为捕鱼工程,古时在上流建木闸,可诱捕进出闸门的鱼.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;怼圈与开智不同,花样繁多.本熊在自怼圈第1期招新时来到自怼圈.第1期怼员大体有3种玩法:
+    &lt;ul&gt;
+      &lt;li&gt;1.立刻启动自己小项目,比如AI作音乐、统计怼员commit次数等作品；&lt;/li&gt;
+      &lt;li&gt;2.尝试参与小组项目&lt;/li&gt;
+      &lt;li&gt;3.参与维护、运营怼圈&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本文记录了本熊加入自怼圈来30w的3个阶段,3个阶段本熊参与的项目各有不同,且角色不同.从摸索git的小白,到参与小队项目,再到参与怼圈维护.&lt;/li&gt;
+  &lt;li&gt;每个角色有各自的乐趣,即使同为怼员,也有泽鱼与溪鱼之分.泽鱼喜好平静湖水,溪鱼喜好热闹溪流.愿大家都能体验怼圈不同角色带来的乐趣.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第一阶段神秘的git&quot;&gt;第一阶段:神秘的Git！&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;本熊的背景
+    &lt;ul&gt;
+      &lt;li&gt;0 ~ 10w&lt;/li&gt;
+      &lt;li&gt;刚加入自怼圈时,还不会使用git,github将本地diff推送到远程库.&lt;/li&gt;
+      &lt;li&gt;进入自怼圈干得第一件大事是,学习用git和github将本地目录与远程库进行ssh配置、连接；学习将本地diff推送到远程库.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的行动
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/e56db1a41713e105c6b950c37ce3b299943fa461/DU2w.md#惨案-难以-push-到-master&quot;&gt;DU2w故事:惨案:难以push到master&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/27&quot;&gt;[ASK]git push origin master报错refusing to merge unrelated histories应该搜索关键词是?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的感受
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;大妈常言:用之弗学&lt;/strong&gt;.在本阶段,花费接近1个月时间,只为学习git push等5行简单基本命令.为何耽误良久？
+        &lt;ul&gt;
+          &lt;li&gt;特殊原因:由于一开始使用Github时,身在特殊部门,网络连接经过特殊设置,导致git push等命令无法执行.后转移至其他网络环境,git push 成功.&lt;/li&gt;
+          &lt;li&gt;常规原因:花费较多时间试图明白ssh和git push原理,而非真正探索 &lt;strong&gt;如何使用git&lt;/strong&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;认知负荷无处不在&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;这种负荷主要来自2方面：一方面是,老怼员已经构建起基本的怼圈规则,而新怼员需要服从于该规则,学习新规则已经导致新怼员的 &lt;strong&gt;认知负荷&lt;/strong&gt; ；&lt;/li&gt;
+          &lt;li&gt;另一方面,老怼员熟悉怼圈规则是因为其创造/撰写了规则(截止目前怼圈已有56篇wiki),而新怼员熟悉怼圈规则却要依靠阅读文档/wiki来熟悉怼圈.老怼员靠 &lt;strong&gt;动手&lt;/strong&gt; 来学习规则,新怼员却要依靠 &lt;strong&gt;看书&lt;/strong&gt; 来学习规则.&lt;strong&gt;动手明显优于看书&lt;/strong&gt; .&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的改变
+    &lt;ul&gt;
+      &lt;li&gt;从试图明白它是什么,转向先不管它是什么,先明白怎么用它?&lt;/li&gt;
+      &lt;li&gt;然而,此阶段,本熊还尚未形成 &lt;strong&gt;记录习惯&lt;/strong&gt;,所以学习git过程中很多细节都没有可以追查的记录&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第二阶段进击的时间账单小队&quot;&gt;第二阶段:进击的时间账单小队&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;本熊的背景
+    &lt;ul&gt;
+      &lt;li&gt;10 ~ 20w&lt;/li&gt;
+      &lt;li&gt;加入自怼圈第1个小队项目,时间账单小队atl4dama&lt;/li&gt;
+      &lt;li&gt;时间账单项目的目标是,通过分析大妈8年的时间记录数据,衡量大妈效能&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的行动
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU13w.md#zsy---熊本-atl4u-见闻录1-从零开始才放心&quot;&gt;DU13w故事:熊本🐻-&amp;gt;atl4dama见闻录1:从零开始才放心&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU14w.md#熊本--atl4dama见闻录2-good-csv可能长啥样上&quot;&gt;DU14w故事:熊本🐻-&amp;gt;atl4dama见闻录2: good csv可能长啥样（上）？&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU14w.md#熊本--atl4dama见闻录2-good-csv可能长啥样下&quot;&gt;DU14w故事:熊本🐻-&amp;gt;atl4dama见闻录2: good csv可能长啥样(下)？&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU15w.md#熊本--atl4dama见闻录4自学-病在哪里&quot;&gt;DU15w故事:熊本🐻-&amp;gt;atl4dama见闻录4:自学, 病在哪里？&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU16w.md#熊本---怼圈放弃录1-5个42分钟&quot;&gt;DU16w故事:熊本🐻-&amp;gt;怼圈放弃录1:5个42分钟&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU17w.md#熊本-atl4dama见闻录5以功能管道为线索拆解代码&quot;&gt;DU17w故事:熊本🐻-&amp;gt;atl4dama见闻录5:以功能/管道为线索拆解代码&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/3f22c0c0cf523d9baff5139563e8371f47c66f20/DU17w_draft.md#熊本-小熊42分钟开发手册之狗六的魔像&quot;&gt;DU17w故事:熊本🐻-&amp;gt;小熊42分钟开发手册之狗六的魔像&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU20w.md#熊本来稿-时间账单效能小队duwk20进展&quot;&gt;DU20w故事:熊🐻本来稿-&amp;gt;时间账单效能小队duwk20进展&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU28w.md#熊本-视而不见1微小的不幸&quot;&gt;DU28w故事:熊本🐻-&amp;gt;atl4dama使用手册1：微小的不幸&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/atl4dama/try/bearManual/atl4dama4UserManual.md&quot;&gt;DU28w成果:atl4dama4UserManual&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/atl4dama/try/bearManual/alt4dama2MakeSET4.md&quot;&gt;DU30w成果:alt4dama2MakeSET4&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的感受
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;一定要对探索过程形成可追查的记录&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;ol&gt;
+              &lt;li&gt;发布issue&lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;ol&gt;
+              &lt;li&gt;怼周会例行怼&lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;ol&gt;
+              &lt;li&gt;怼周刊文章沉淀&lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;记录、控制探索怼圈的成本、风险&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;自怼圈不少探索,是需要付出 &lt;strong&gt;更高的时间、精力成本,以及承担作品很可能失败的风险.&lt;/strong&gt; 倘若只凭着对创造的喜爱,就随意指定目标、处处播散种子,很容易陷入一事无成且自信全无的困局.(参见怼周刊&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU24w.md#熊本-0902怼周会探索之江湖险恶&quot;&gt;DU24w故事:熊本🐻-&amp;gt;0902怼周会:探索之’江湖险恶’&lt;/a&gt;)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的改变
+    &lt;ul&gt;
+      &lt;li&gt;从不记录到,形成了 &lt;strong&gt;记录的习惯&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;将atl4dama探索过程,形成了11篇文档,并投稿怼周刊&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第三阶段最爱的怼周刊&quot;&gt;第三阶段:最爱的怼周刊&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;本熊的背景
+    &lt;ul&gt;
+      &lt;li&gt;20 ~ 30w&lt;/li&gt;
+      &lt;li&gt;编辑、发布5期怼周刊&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的行动
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU26w.md#熊本-怼周刊发布手册&quot;&gt;DU26w成果:熊本🐻-&amp;gt;怼周刊发布手册&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU30w.md#熊本-如何在怼周刊任务成果2个版块形成固定投稿节奏&quot;&gt;DU30w成果:熊本🐻-&amp;gt;如何在怼周刊任务、成果2个版块形成固定投稿节奏？&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的感受
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;自运营&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;自怼圈与开智课程显著区别是 &lt;strong&gt;怼圈具备自运营的性质&lt;/strong&gt; .在开智,课程运营人员会帮助组织多学员对一教练的答疑,而学员的沉淀笔记也往往是由开智运营人员审定发布在开智app里.&lt;strong&gt;使用一个平台与构建一个平台是两种完全不同的体验.&lt;/strong&gt; 在怼圈,怼员自行编辑审定发布怼周刊、自行组织筹办怼周会.由 &lt;strong&gt;使用平台人员升级为构建、维护平台人员, 被赋予更多创造的机会.&lt;/strong&gt; 参与的目标由 &lt;strong&gt;完成任务&lt;/strong&gt; 到 &lt;strong&gt;制定任务&lt;/strong&gt; ,自由性更多,目标也更为多样性.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;写自己个儿的使用手册&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;不要太过在乎老怼员的文档、建议、操作流程,一定要亲身体会、亲手测试.因为
+  老怼员与新怼员之间,&lt;strong&gt;天然存在预期偏差&lt;/strong&gt; :老怼员认为文档中理所应当需要记录的事,可能新怼员从来没有注意过.而新怼员认为老怼员在文档里应该给予的提示,老怼员却认为可有可无.久而久之,怼员会发现,&lt;strong&gt;研究怼圈文档不如自己动手撰写新文档好&lt;/strong&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本熊的改变
+    &lt;ul&gt;
+      &lt;li&gt;从依赖别人的文档企图尽快完成功能,转变至多问别人当时为什么这样写&lt;/li&gt;
+      &lt;li&gt;然后再写一篇基于自己个儿测试体验的新文档(参见&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/DUW/DU28w.md#熊本-视而不见1微小的不幸&quot;&gt;DU28w故事:熊本🐻-&amp;gt;atl4dama使用手册1：微小的不幸&lt;/a&gt;)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2017-11-10T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://du.zoomquiet.io/2017-11/ac1-du4new/">
 	<title>Debug Uself grp.: 关乎社群:1 自怼圈的由来</title>
 	<link>http://du.zoomquiet.io/2017-11/ac1-du4new/</link>
@@ -366,53 +531,6 @@
 	<content:encoded>&lt;p&gt;昨天以时间报告的阶段成果做 PY104的结业路演. 下面将Keynote 奉上. &lt;/p&gt;
 &lt;p&gt;Python 不仅可以实现商业用途, 对于个人生活质量会有很大提升. 昨天跟 Nephew 聊天, 他的工作是图片处理, 因为程序员朋友教了他两行命令行的命令, 每天给他节省了&lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-31T21:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://blog.junyu.io/posts/0603-docker-and-moinmoin.html">
-	<title>junyu: Docker快速部署Moinmoin</title>
-	<link>http://blog.junyu.io/posts/0603-docker-and-moinmoin.html</link>
-	<content:encoded>&lt;blockquote class=&quot;blockquote-center&quot;&gt;说再多，不如先启动起来&lt;/blockquote&gt;
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;最近公司里在尝试Docker 的应用，Docker像一个容器，封装了程序的细节，对于生产环境的部署、宕机恢复、保持稳定有非常好的效果。个人使用时，可以减少大量的重复性配置工作，在不同的机器上拥有完全一致的开发环境，想一想也是很美呢。&lt;/p&gt;
-&lt;p&gt;而Moinmoin，在&lt;a href=&quot;http://blog.junyu.io/posts/0602-wiki-user-guide.html&quot;&gt; Wiki上车指南 &lt;/a&gt;有过介绍，不再赘述。之前本地使用时比较简单，部署到网络环境并不是多复杂，但是一想到本地调试、远程部署，也是一件需要花相当长时间精力的事情，也就搁置下来了。&lt;/p&gt;
-&lt;p&gt;当Docker遇到Moinmoin，今天自己在尝试docker的基本应用时突然想到试一下moinmoin会如何？结果是：70分钟，完成了Docker基础实验和Moinmoin基于Ngnix的本地环境安装，趟出了一些坑，和大家分享。&lt;/p&gt;
-&lt;h2 id=&quot;Docker，从官方文档开始&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Docker，从官方文档开始&quot; class=&quot;headerlink&quot; title=&quot;Docker，从官方文档开始&quot;&gt;&lt;/a&gt;Docker，从官方文档开始&lt;/h2&gt;&lt;p&gt;建议直接从官方文档的&lt;a href=&quot;https://docs.docker.com/get-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Get Started&lt;/a&gt;开始，有很详细的实验步骤，不再赘述。不过需要注意的是，我在刚开始实验的时候发现【Get Started, Part 2: Containers】中最后执行&lt;code&gt;curl http://localhost:4000&lt;/code&gt;需要等一会，速度有一些慢，原因是什么还没有调查。&lt;br /&gt;官方文档看到【Get Started, Part 2: Containers】最最基本的应用就够了。&lt;/p&gt;
-&lt;h2 id=&quot;DaoCloud&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#DaoCloud&quot; class=&quot;headerlink&quot; title=&quot;DaoCloud&quot;&gt;&lt;/a&gt;DaoCloud&lt;/h2&gt;&lt;p&gt;在【Get Started, Part 3: Service】中执行&lt;code&gt;docker login&lt;/code&gt;时总是报错&lt;code&gt;Timeout exceeded while awaiting headers&lt;/code&gt;搜索后发现了&lt;a href=&quot;https://www.daocloud.io/mirror#accelerator-doc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【DaoCloud 加速器】&lt;/a&gt;做了配置，下载镜像果然快多了。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当我写博客时想复线当时登录失败时，不再超时了。如果当时没有遇到这个超时的问题，我还会搜索到加速器，找到daocloud，然后找到moinmoin么？历史不可假设，未来不可预测，或许就是另一篇博客了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;Moinmoin镜像&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Moinmoin镜像&quot; class=&quot;headerlink&quot; title=&quot;Moinmoin镜像&quot;&gt;&lt;/a&gt;Moinmoin镜像&lt;/h2&gt;&lt;p&gt;在Docker Hub中有moinmoin的&lt;a href=&quot;https://dashboard.daocloud.io/packages/511d4ef2-efeb-406b-b2a8-7e8bbbbaed6f&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;镜像&lt;/a&gt;直接&lt;code&gt;docker pull olavgg/moinmoin-wiki:1.9.7&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;按照&lt;a href=&quot;https://hub.docker.com/r/olavgg/moinmoin-wiki/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文档&lt;/a&gt;中写到的执行&lt;code&gt;sudo docker run -it -p 443:443 -p 80:80 --name my_wiki olavgg/moinmoin-wiki&lt;/code&gt;然后在浏览器登录【&lt;a href=&quot;http://localhost】，Surprise～，Moinmoin已经可用了！&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost】，Surprise～，Moinmoin已经可用了！&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;———-&amp;gt;  我是分割线  &amp;lt;———-&lt;br /&gt;如果你是技术小白，只是想跑一个稳定的本地Moinmoin环境使用，恭喜你，目标已经实现。&lt;br /&gt;但是，如果希望自己在技术上继续折腾，自己做镜像，用最新的Moinmoin版本，发布到公网，修改配置，甚至自制插件，请继续折腾，我也走在继续折腾的路上…&lt;/p&gt;
-&lt;h2 id=&quot;坑点集合&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#坑点集合&quot; class=&quot;headerlink&quot; title=&quot;坑点集合&quot;&gt;&lt;/a&gt;坑点集合&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;DaoCloud 加速器&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;待办事项&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#待办事项&quot; class=&quot;headerlink&quot; title=&quot;待办事项&quot;&gt;&lt;/a&gt;待办事项&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;官方文档部分&lt;ul&gt;
-&lt;li&gt;官方实验为什么执行&lt;code&gt;curl http://localhost:4000&lt;/code&gt;比较慢？&lt;/li&gt;
-&lt;li&gt;继续完成官网的实验，继续了解Docker&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;现在Docker-Moinmoin服务部分&lt;ul&gt;
-&lt;li&gt;搞清楚现在正在跑的Docker中的Moinmoin如何配置，文件存在那里&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Moinmoin部分&lt;ul&gt;
-&lt;li&gt;自己配置一个Moinmoin的服务版&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;外网服务部分&lt;ul&gt;
-&lt;li&gt;把自己配置的版本打一个镜像，发布出去&lt;/li&gt;
-&lt;li&gt;搞一台外网服务器，发布相关的内容&lt;/li&gt;
-&lt;li&gt;研究一下现在各种容器服务&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
-
-
-&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;171029 新建&lt;/p&gt;</content:encoded>
-	<dc:date>2017-10-29T11:23:39+00:00</dc:date>
 </item>
 
 </rdf:RDF>
