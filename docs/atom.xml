@@ -5,8 +5,47 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-11-19T00:44:31+00:00</updated>
+	<updated>2017-11-19T08:42:30+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Time Report's Report 时间报告的报告</title>
+		<link href="http://liguanghe.github.io/2017/11/18/PythonTimeReport1/"/>
+		<id>http://liguanghe.github.io/2017/11/18/PythonTimeReport1/</id>
+		<updated>2017-11-18T07:45:32+00:00</updated>
+		<content type="html">&lt;p&gt;完成一份时间账单报告,可以让人立刻看到. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://liguanghe.github.io/2017/11/17/TimeReport/&quot;&gt;Time Report1118&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;每次生成它都非常简单, 只需要:&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-11-19T08:42:28+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">When Your Computer Answer 'Error' 写代码遇到报错怎么办?</title>
+		<link href="http://liguanghe.github.io/2017/11/18/pythonErrorSolution/"/>
+		<id>http://liguanghe.github.io/2017/11/18/pythonErrorSolution/</id>
+		<updated>2017-11-18T03:15:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;问&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#问&quot; class=&quot;headerlink&quot; title=&quot;问&quot;&gt;&lt;/a&gt;问&lt;/h2&gt;&lt;p&gt;反正只要开始编程, 你就会遇到报错, 无数无数多的报错, 每天几个到几十个. &lt;/p&gt;
+&lt;p&gt;遇到一个, 恩, 之前在官方文档好像看过的, 去查查文&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2017-11-19T08:42:28+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html"></title>
@@ -22,7 +61,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-18T00:42:45+00:00</updated>
+			<updated>2017-11-19T08:42:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -40,7 +79,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-18T00:42:45+00:00</updated>
+			<updated>2017-11-19T08:42:28+00:00</updated>
 		</source>
 	</entry>
 
