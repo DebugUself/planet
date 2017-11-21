@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2017-11-21T00:42:17+00:00</updated>
+	<updated>2017-11-21T08:42:17+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -14,7 +14,7 @@
 		<id>http://liguanghe.github.io/2017/11/21/PythonSumType/</id>
 		<updated>2017-11-20T22:45:32+00:00</updated>
 		<content type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这是一篇写给小白的教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始用&lt;/li&gt;&lt;/ul&gt;</content>
+&lt;li&gt;这是一篇写给小白的技术教程. 四个月前, 我还是编程小白, 连 list[1:] 是什么意思都不知道, 在这个项目中, 从0开始&lt;/li&gt;&lt;/ul&gt;</content>
 		<author>
 			<name>li guang he</name>
 			<uri>http://liguanghe.github.io/</uri>
@@ -23,7 +23,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-21T00:42:15+00:00</updated>
+			<updated>2017-11-21T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -43,7 +43,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-21T00:42:15+00:00</updated>
+			<updated>2017-11-21T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -62,7 +62,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-21T00:42:15+00:00</updated>
+			<updated>2017-11-21T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -80,7 +80,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2017-11-21T00:42:15+00:00</updated>
+			<updated>2017-11-21T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
