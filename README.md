@@ -12,4 +12,13 @@ try:
     import bsddb3 as bsddb
 
 
-    
+## usage
+
+部署好足够依赖环境后...
+
+    ༄  python code/planet.py config/du.ini
+
+
+## todo
+
+- febric script for auto gen. and publish
