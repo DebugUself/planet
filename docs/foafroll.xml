@@ -65,6 +65,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>mxclover</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://mxclover.github.io/">
+					<dc:title>mxclover</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>zoom.quiet</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.zoomquiet.io/">
