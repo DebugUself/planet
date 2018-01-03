@@ -29,7 +29,7 @@
 			<foaf:name>bambooooooom</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://bambooom.github.io">
-					<dc:title></dc:title>
+					<dc:title>Bambooom</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>

@@ -8,417 +8,55 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
-	<title>junyu: 给博客穿件外套</title>
-	<guid>http://blog.junyu.io/posts/0016-cover-page-config.html</guid>
-	<link>http://blog.junyu.io/posts/0016-cover-page-config.html</link>
-	<description>&lt;blockquote class=&quot;blockquote-center&quot;&gt;你的博客，你的使用手册&lt;/blockquote&gt;
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;这是我一直以来想做的一件事情，在博客的外面加上个人主页，我们散落在互联网上的痕迹越来越多，也越来越凌乱。甚至对作者本身搞清楚自己到底有多少网上的“作品”都是很复杂的一件事情。这时候增加一个个人主页显得尤为重要。&lt;/p&gt;
-&lt;p&gt;有趣的事情是在Google学术信息时，现代重要的学术大拿几乎人人都有个人主页，不一定会写博客，但是一定会把自己的作品、联系方式、论文、研究方向等统统放出来，供大家使用。而&lt;a href=&quot;http://zoomquiet.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zoom.Quite&lt;/a&gt;的主页极富一个有趣的极客灵魂感。内容之多也是印象深刻。&lt;/p&gt;
-&lt;p&gt;我之前做过几次尝试，但是效果都不是很理想，也没有找到特别好的办法，今天再次尝试，终于一鼓作气先完成了一个可用的及格版本，写一写，留个纪念。&lt;/p&gt;
-&lt;h2 id=&quot;Github-Pages&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Github-Pages&quot; class=&quot;headerlink&quot; title=&quot;Github Pages&quot;&gt;&lt;/a&gt;Github Pages&lt;/h2&gt;&lt;p&gt;Github Pages 是Github 的一个项目，通过在Github托管代码的方式把静态页面组装成可以展示的页面。&lt;a href=&quot;https://github.com/showcases/github-pages-examples&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;有大量的示例。&lt;br /&gt;&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主页&lt;/a&gt;的视频一目了然，不再赘述。&lt;br /&gt;我的主页就是通过Github Pages生成的，使用的是默认的模版，如果不做过多的定制化，仅仅是在主页修改文字的话，内容非常非常的简单。参考我的&lt;a href=&quot;https://github.com/Wangjunyu/Leon.junyu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;仓库&lt;/a&gt;。对于这个主题，自己现在还是很满意的。&lt;/p&gt;
-&lt;h2 id=&quot;域名设置&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#域名设置&quot; class=&quot;headerlink&quot; title=&quot;域名设置&quot;&gt;&lt;/a&gt;域名设置&lt;/h2&gt;&lt;p&gt;以往二级域名的设置已经驾轻就熟。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;以blog.junyu.io的设置为例，在域名服务解析的服务页面修改模式为CNAME，把指向的地址修改为：wangjunyu.gitub.io. ，保存即可。如果还无法连接，回到Github查看设置，一般的做法是增加CNAME文件，修改默认分支为gh-pages。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这一次设置的是一级域名以及开头为www 的跳转，按照之前的方式设置始终无法生效。之后从官方文档的&lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Using a custom domain with GitHub Pages
-&lt;/a&gt;开始一页一页的找，终于在&lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/#apex-domains&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;About supported custom domains
-&lt;/a&gt;找到了端倪：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;An apex domain is usually configured with an A, ALIAS, or ANAME record through your DNS provider.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对于一级域名的设置，一般是在填写二级域名的地方写上&lt;code&gt;@&lt;/code&gt;，选择A 或者ALIAS 模式，跳转的地址需要使用ip，在上面提到的文档中有提到。修改之后，还可以用文档中提到的’dig’ 命令进行测试。貌似一级域名的调整需要一些时间，不过一般来说十几分钟也就够了。&lt;/p&gt;
-&lt;p&gt;最后，展示一下我的&lt;a href=&quot;http://junyu.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主页&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain and www subdomain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/#www-subdomains&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;About supported custom domains
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
-
-
-&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170820 新建&lt;/p&gt;</description>
-	<pubDate>Sun, 20 Aug 2017 12:03:00 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: 丑照何时曝, 当然变美时 —— 运动follower 招募</title>
-	<guid>http://liguanghe.github.io/2017/08/16/KeepTogether/</guid>
-	<link>http://liguanghe.github.io/2017/08/16/KeepTogether/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.lizhi.fm/2040956/2618588406176141318&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【dunedin keep hit together】在线收听&lt;em&gt;李广鹤&lt;/em&gt;荔枝FM&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Tue, 15 Aug 2017 21:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>Debug Uself grp.: Aoi-初始化</title>
-	<guid>http://du.zoomquiet.io/2017-08/aoi-init/</guid>
-	<link>http://du.zoomquiet.io/2017-08/aoi-init/</link>
-	<description>&lt;h1 id=&quot;是也乎&quot;&gt;是也乎,(￣▽￣)&lt;/h1&gt;
-
-&lt;p&gt;就是要折腾…所以,来一台 miniPC 吧&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
-&lt;p&gt;海外主机解决了科学上网的问题,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;但是, 带宽/CPU/内存/硬盘IP/… 什么都要銭,&lt;/li&gt;
-  &lt;li&gt;而且远程登录控制响应也很难受&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;所以, 想临时测试, 或是部署一些周期性的自动化私人任务总是要有个&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;home server
-家庭服务器
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;来长期运行, 内网使用&lt;/p&gt;
-
-&lt;h2 id=&quot;硬件&quot;&gt;硬件&lt;/h2&gt;
-&lt;p&gt;~ 根据预算暂时选定&lt;/p&gt;
-
-&lt;p&gt;工控机形式, 可以长期在家运行,节能…最后决定采购的是类似以下的配置:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img.alicdn.com/imgextra/i2/3035203165/TB2aYpfXZtnpuFjSZFvXXbcTpXa_!!3035203165.jpg_q90.jpg&quot; alt=&quot;TB2aYpfXZtnpuFjSZFvXXbcTpXa_!!3035203165.jpg_q90.jpg（JPEG 图像，777x818 像素）&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;系统&quot;&gt;系统&lt;/h2&gt;
-&lt;p&gt;~ 必须是稳健的 Linux 了&lt;/p&gt;
-
-&lt;p&gt;只是以往长期用过 Ubuntu 系统, 而且从用户群看, Ubuntu 支持的硬件范围也最广,
-果然和店家商量, 人家预装的就是 LST 版本的 Ubuntu…&lt;/p&gt;
-
-&lt;h3 id=&quot;bash&quot;&gt;bash&lt;/h3&gt;
-
-&lt;p&gt;拿到手, 用初始管理员帐号进入后, 习惯性的配置顺序是:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;创建自己习惯的帐号&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo su 
-# useradd -s /bin/bash -G sudo,root zoomq
-# chown -R zoomq:zoomq /home/zoomq
-# passwd zoomq
-&amp;lt;-- 新的强力临时口令
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;更换/关闭原先的帐号&lt;/li&gt;
-&lt;/ul&gt;
+	<title>bambooooooom: 2017 总结</title>
+	<guid>http://bambooom.github.io/2017/12/27/2017-summary/</guid>
+	<link>http://bambooom.github.io/2017/12/27/2017-summary/</link>
+	<description>&lt;p&gt;每年总结已经写到第 7 年了, 今年最重要的事就是实现年初的愿望, 9 月底离开了北京, 10 月底回到了深圳.&lt;/p&gt;
 
-&lt;p&gt;:&lt;/p&gt;
+&lt;p&gt;回想最近 3 年, 从 HK 折腾到深圳, 从深圳折腾到北京, 又从北京折腾回深圳, 实在是好累好累, 但又不得不说每一段都是成长和必不可少的.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo su 
-# passwd admin
-&amp;lt;-- 新的强力口令
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;年初 1 月下旬公司年会那时, 我在北京的冬天里, 已经用两个热水袋熬了将近 4 个月没有暖气的日子, 终于重感冒. 活了 20 多年, 第一次如此严重的重感冒, 带着重感冒回了武汉, 在武汉感冒了一周多, 过完年继续把感冒带回了北京, 似乎 2 月底才完全从感冒的魔掌里逃脱, 并且发誓, 今年一定不要继续再北京过冬天了…… 我知道也许只是因为运气不好, 租的房子没有集中供暖, 只有很弱鸡又很贵的地暖, 室友都不同意使用,  只好热水袋度日. 也许换个有暖气的房子, 我就能感受在房间里穿短袖了. 但那又如何呢, 自从到达北京的那一刻, 就是揣着过客的心态, 即使在北京待了 18 个月也没有变过, 只不过这个心态从 3-6 个月变成了 18 个月而已. 于是在 8 月底到 9 月初, 因为一系列公司同事发生的变故, 在我终于确定能离开北京时, 那种如释负重的轻松感, 年度最佳~&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;配置 /etc/sudoers&lt;/p&gt;
+&lt;p&gt;临走前, 我妈过来帮我整理行李, 顺便陪她再一次去看看故宫和她从未去过的圆明园, 回忆起曾经 08 年底在北京玩的 9 天 9 夜, 才终于又觉得北京的可爱. 一定要问我, 对北京的评价, 我会说有魅力, 但是不适宜人类居住. 整理行李打包时, 扔掉了很多很多东西, 也因为在买它们时就想好了这一天的到来, 也有点理解那种断舍离的感受: 啊 真的很爽, 终于可以将它们全部丢掉的舒爽~&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  # Allow members of group sudo to execute any command
-  #%sudo  ALL=(ALL:ALL) ALL
-  %sudo ALL=(ALL) NOPASSWD:ALL
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;接入网络 ~ 使用图形化工具即可&lt;/li&gt;
-  &lt;li&gt;升级系统软件 ~ 得先用图形工具, 选择合适的软件源仓库&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;9 月底回家后, 在家待了 1 个月, 10 月下旬回到了深圳, 本以为可以 1-2 天内找到租的房子, 结果因为种种原因, 中间还被一个转租的人坑了, 3个星期后才入住新租的房子. 回想这 3 周也过得很神奇, 第一周在深圳华侨城的青旅待了 1 周, 然后又去 HK 安娜塔气的家里蹭了 1 周, 最后又回到深圳一位我爸的朋友家蹭了一周. 其实只带着 1 周的衣服, 颠沛流离了 3 周, 想想又觉得很有意思, 哈哈哈哈~&lt;/p&gt;
 
-&lt;p&gt;:&lt;/p&gt;
+&lt;p&gt;2018 年有什么愿望呢, 好像没有啥具体的了, 大概就是继续技术精进吧! 以及又需要减肥了….😂&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt update
-$ sudo apt upgrade
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;工作&quot;&gt;工作&lt;/h2&gt;
+&lt;p&gt;嗯, 是的, 离开北京, 所以和前公司分了手. 其实今年从 5 月开始就处于有点闲得蛋疼的状态, 偶尔有过新的需求, 但都是很蛋疼的东西不太想做. 直到我 9 月离开, 可以说发生两次花了几周做的新功能, 最后全部回滚, 撤销….. 很是打击积极性, 也慢慢觉得继续留着已经没有成长空间. 直到 8 月底另一个妹子提了离职, 妹子和老板发生些很不愉快的事, 然后过了一周, 另一位也是深圳来的同事离职, 给了我完美的提出离职的机会. 然后和平分手, 唯一需要做的是还有 3 个月需要的时候继续支持部分首尾, 以兼职身份.&lt;/p&gt;
 
-&lt;p&gt;安装常用工具:&lt;/p&gt;
+&lt;p&gt;再以及因为一位贵人介绍, 其实下半年先开始以兼职身份帮一家小创业公司做事. 公司很神奇, 全部人员都是远程工作, 老板和有两个同事在美国, 其他几个在中国, 但也不都在一个城市.有的会去联合办公区域租一个隔间或工位作为 office, 每天正常去通勤, 或者像我一样, 每天窝在家里上班, 自由控制时间. 到深圳稳定后, 就从兼职转为了全职. 于是现在是一枚在家工作于是更加死宅的 SOHO 一族了! 咩哈哈哈哈哈! 虽然我娘还是担心我在家待的时间太长, 交往圈子太小, 连正常的同事交往都太过虚拟, 不太好, 可是我倒是很喜欢. 双 11 那天还去了珠海, 见了一下珠三角的几位同事, 套用同事家属的话, 跟见网友似的 🌝 其实, 就是见网友~~&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install htop vim
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;总结来说, 就是学了新的框架, 基本摸熟了. 以及开始一种新的工作生活方式, 暂时还挺满意的~&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;配置 SSH&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;PS, 为了可以愉快的  home office, 所以这次在深圳租了一间 20 平的主卧, 甚是开心 💃🏻&lt;/p&gt;
 
-&lt;p&gt;先安装 SSH 服务:&lt;/p&gt;
+&lt;h2 id=&quot;即将脱宅の日常&quot;&gt;即将脱宅の日常&lt;/h2&gt;
+&lt;p&gt;因为 bili 上没有了日剧, 再加上今年的新番好些没兴趣的, 导致今年的看剧量骤减. 有印象的就是把古畑任三郎补完了, 第一集中森明菜太好看, 还有世纪巨坑: 顶着红脸盆的男人…..&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install openssh-server
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;上半年看了的日剧里, 大概最出乎意料的是在 命中注定 里终于觉得 山p 看顺眼了(没补 code blue 哈), 其他能记得大概就是四重奏了….&lt;/p&gt;
 
-&lt;p&gt;再配置允许 SSH 登录:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo vim /etc/ssh/sshd_config
-...
+&lt;p&gt;新番是很久没看了, 10 月番好不容易有几部有兴趣的, bili 也买了版权的, 一定要推荐的是 **宝石之国&gt;**, 不多说了, 都是泪..... 😭😭😭😭😭&lt;/p&gt;
 
-#Port 22
-Port 9122
+&lt;p&gt;今年看的电影也很少, 大概最喜欢的是 &lt;strong&gt;Logan&lt;/strong&gt;, 看着英雄迟暮的悲伤, 但又觉得是休叔对这个角色的完美谢幕, 一个人去圆方看的, 在电影院里哭瞎…. 😭&lt;/p&gt;
 
-...
-
-PermitRootLogin yes
-StrictModes yes
-
-RSAAuthentication yes
-PubkeyAuthentication yes
-...
-
-#PasswordAuthentication yes
-
-$ sudo service ssh restart
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;部署私匙, 进行远程登录&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最后部署私人公匙:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ mkdir -p /home/zoomq/.ssh
-$ touch /home/spawnris/.ssh/authorized_keys
-$ chmod 600 /home/spawnris/.ssh/authorized_keys
-从本地 ~/.ssh/id_rsa.pub 复制公匙到 authorized_keys 中
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;从本地 macOS 桌面中,配置 &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.ssh/config&lt;/code&gt; 追加:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host aoi
-    User zoomq
-    port 9122
-    ForwardAgent yes
-    HostName 192.168.1.17
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;然后, 就可以从本地终端中使用如下指令随时登录主机了:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ssh aoi
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;配置惯用的 bash 环境
-    &lt;ul&gt;
-      &lt;li&gt;配置 ~/&lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/bash/.inputrc&quot;&gt;.inputrc&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;配置 ~/&lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/bash/.bashrc&quot;&gt;.bashrc&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;才获得习惯的终端命令行前缀形式/颜色, 以及使用上下键能快速选择对应的历史指令了&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;screen&quot;&gt;screen&lt;/h3&gt;
-&lt;p&gt;~ 但是, 想真正自在的随时进入工作组终端, 还得继续…&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install screen
-$ screen -S zoomq # 创建名为 zoomq 的终端组
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;screen….常用操作&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ctrl+a+c 新终端
-Ctrl+a+w 列出所有终端
-Ctrl+a+a 回到前一个终端
-Ctrl+a+d 挂起并后台保持 screen
-
-Ctrl+a+0 进入 id 为 0 的终端
-Ctrl+a+1 进入 id 为 1 的终端
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;现在就可以一键从本地进入远程的终端组了:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ssh -t aoi screen -r zoomq
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;而且, 随时使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl+a+d&lt;/code&gt; 断开连接, 回到本地, 
-却对远程主机中的终端组,以及各个终端中的状态都完成了自动保存,
-任何时候回来都可以继续上次的嗯哼…&lt;/p&gt;
-
-&lt;h2 id=&quot;远程配置&quot;&gt;远程配置&lt;/h2&gt;
-&lt;p&gt;~ 在远程使用 vim 来编辑各种脚本/配置, 还是没有在 mac 中用 sublime text 3 来的嗯哼&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;所以, 要有机制可以在本地编辑, 自动部署到远程主机中&lt;/li&gt;
-  &lt;li&gt;自然的, 想到了版本管理系统&lt;/li&gt;
-  &lt;li&gt;以往折腾过稳定的自动化部署&lt;/li&gt;
-  &lt;li&gt;基于 hg (&lt;a href=&quot;https://www.mercurial-scm.org/&quot;&gt;Mercurial&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;整体文件提交/部署的关系是:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;            +- .hg -&amp;gt; hooks -+
-            |                |
-        + /opt &amp;lt;-------------+ (自动化同步更新工作复本)
-        |   ^
-        V   |
-    [home server]
-        |   |
-        |   |
-    [macOS local]
-        |   ^  $ hg push
-        |   |
-        +- path/2/local/work/path
-            +- .hg &amp;lt;- 本地仓库
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;创建主机上的仓库:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd /opt
-$ hg init .
-$ vim .hg/hgrc
-
-[web]
-push_ssl=False
-[hooks]
-changegroup=/opt/cfg/hg/hooks/autoup-opt-up.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;部署自动更新 hook -&amp;gt; &lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/hg/hooks/autoup-opt-up.sh&quot;&gt;autoup-opt-up.sh&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;创建对应目录 &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/cfg/hg/hooks&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;放置对应脚本&lt;/li&gt;
-  &lt;li&gt;并设置为可执行 &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x autoup-opt-up.sh&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;回到 macOS 本地, 创建合理的本地复本环境:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;配置 ~/&lt;a href=&quot;https://github.com/zoom-quiet/scm/blob/master/hg/.hgrc&quot;&gt;.hgrc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;注意其中有关配置的来源:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/sjl/mercurial-cli-templates/src&quot;&gt;sjl / mercurial-cli-templates / source / — Bitbucket&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/sjl/hg-prompt/src&quot;&gt;sjl / hg-prompt / source / — Bitbucket&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;效果:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://stevelosh.com/media/images/projects/hg-prompt/prompt.png&quot; alt=&quot;prompt&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;至此, 在本地对应工作目录中创建/修订/增补有关配置/脚本, 通过 hg 命令完成版本记录后&lt;/li&gt;
-  &lt;li&gt;嘦简单的进行 &lt;code class=&quot;highlighter-rouge&quot;&gt;hg pu&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;在远程主机, 就自动化的完成了相同的版本收录, 并更新到对应目录中的文件&lt;/li&gt;
-  &lt;li&gt;节省大量重复性操作&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;用时&quot;&gt;用时&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;.5h 开机配置&lt;/li&gt;
-  &lt;li&gt;1.h 系统升级&lt;/li&gt;
-  &lt;li&gt;.5h bash 常用配置&lt;/li&gt;
-  &lt;li&gt;1.h 回忆并部署 hg&lt;/li&gt;
-&lt;/ul&gt;</description>
-	<pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he: Weekend 周末小憩</title>
-	<guid>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</guid>
-	<link>http://liguanghe.github.io/2017/08/12/DunedinWeekend/</link>
-	<description>&lt;p&gt;Today I have a Dunedin day. I went to traditional market after programing, there are many local food there, fresh and unique. Musicians p&lt;/p&gt;</description>
-	<pubDate>Sat, 12 Aug 2017 11:35:32 +0000</pubDate>
-</item>
-<item>
-	<title>junyu: 深夜放毒后的嗯哼</title>
-	<guid>http://blog.junyu.io/posts/1003-zq-2th-meetup.html</guid>
-	<link>http://blog.junyu.io/posts/1003-zq-2th-meetup.html</link>
-	<description>&lt;blockquote class=&quot;blockquote-center&quot;&gt;Py103 -&amp;gt; Py104，Zoom Quite.again&lt;/blockquote&gt;
-
-
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;再见到大妈真身，俨然小半年过去了。乡音难改，单口继续，笑声爽朗，收获多多。&lt;/p&gt;
-&lt;h2 id=&quot;ZoomQuiet-offline-refresh&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ZoomQuiet-offline-refresh&quot; class=&quot;headerlink&quot; title=&quot;ZoomQuiet.offline.refresh&quot;&gt;&lt;/a&gt;ZoomQuiet.offline.refresh&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;自带BGM出场的男人&lt;/li&gt;
-&lt;li&gt;全程自带BGM的男人&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Python-Python-in-my-eye&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Python-Python-in-my-eye&quot; class=&quot;headerlink&quot; title=&quot;Python != Python in my eye&quot;&gt;&lt;/a&gt;Python != Python in my eye&lt;/h2&gt;&lt;p&gt;大家问了很多问题，刚开始接触编程，太多的不确定性带来的未知的恐惧感渗透在一个又一个问题里。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;编程恐惧&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;发展路径是怎样的？&lt;/li&gt;
-&lt;li&gt;好奇你和Python的第一次相遇？&lt;/li&gt;
-&lt;li&gt;……&lt;br /&gt;突破这种心理的最简单的方式是：编程。认真的编程，认真的思考，编程会变成一个又一个具体的问题or挑战，所以其实会变成克服一个又一个挑战的过程。挑战一个又一个的越变越大，越变越复杂，再被不断拆分，不断分解。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Google? Google!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;能不能用Google，你懂的原因&lt;/li&gt;
-&lt;li&gt;是否知道Google的搜索规则&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/#topic=3378866&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方-&amp;gt;使用Google 搜索帮助中心&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/2466433?hl=zh-Hans&amp;ref_topic=3081620&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方-&amp;gt;优化网页搜索&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20161362&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知乎-&amp;gt;如何用好谷歌等搜索引擎？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Youtube也是Google的一部分呢。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;关键词的调整、搜索套路的调整&lt;/li&gt;
-&lt;li&gt;搜索的韧性，复杂问题大妈需要上百次的搜索尝试，是也乎～&lt;/li&gt;
-&lt;li&gt;更重要的是问题的拆解、定位&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;信息检索和信息品味在阳志平老师的《工作谈》中有提到～试试看Google之。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Extreme Programming.Pair Programming&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;解锁新姿势，做全新尝试&lt;/li&gt;
-&lt;li&gt;立马有了组织线下活动的动力，继续更新我的活动&lt;a href=&quot;https://meetup.junyu.pro/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;记录&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Practise * 10000…. -&amp;gt; expert&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;先动手，再提问&lt;/li&gt;
-&lt;li&gt;持续动手，一天不Coding，浑身痒痒&lt;/li&gt;
-&lt;li&gt;代码量上来了，一切都好谈&lt;/li&gt;
-&lt;li&gt;还可以多看代码，看得多了，也就会写了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Docstring &amp;amp; Comment&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;To do: docstring&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以下是开学典礼后深夜放毒夹带的私货……&lt;/p&gt;
-&lt;h2 id=&quot;Error-Http-404&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Error-Http-404&quot; class=&quot;headerlink&quot; title=&quot;Error Http 404&quot;&gt;&lt;/a&gt;Error Http 404&lt;/h2&gt;&lt;p&gt;在去串店的路上，大妈放出了来自互联网远古时代的呐喊，20年收集宫崎骏和久石让动画的心路历程。&lt;br /&gt;信息饥渴 -&amp;gt; 信息存储 -&amp;gt; 信息爆炸 -&amp;gt; 信息质量&lt;/p&gt;
-&lt;p&gt;作为后互联网远古时代的原住民，曾经也有过数百张光盘刻录、硬盘存储的相似经历，不过由于懒，后来放弃了……看到了大妈的&lt;a href=&quot;http://zoomquiet.io/collection.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Collection&lt;/a&gt;，心中的干柴终于遇到了烈火。继续搞起～&lt;/p&gt;
-&lt;h2 id=&quot;Moinmoin&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Moinmoin&quot; class=&quot;headerlink&quot; title=&quot;Moinmoin&quot;&gt;&lt;/a&gt;Moinmoin&lt;/h2&gt;&lt;p&gt;Wiki还是那个wiki，写完&lt;a href=&quot;http://blog.junyu.io/posts/0602-wiki-user-guide.html&quot;&gt;Wiki上车指南&lt;/a&gt;，经历了这几个月的实践，也算是一个有故事的人了，大妈又给了更多的嗯哼：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;前期的混乱很正常&lt;/li&gt;
-&lt;li&gt;好好架构&lt;/li&gt;
-&lt;li&gt;内容丰富了会有变化&lt;/li&gt;
-&lt;li&gt;自己写插件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Debug-Uself&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Debug-Uself&quot; class=&quot;headerlink&quot; title=&quot;Debug Uself&quot;&gt;&lt;/a&gt;Debug Uself&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;深以为然&lt;/li&gt;
-&lt;li&gt;兴趣&lt;/li&gt;
-&lt;li&gt;实用+需求出发&lt;/li&gt;
-&lt;li&gt;Keep Moving&lt;br /&gt;这部分纯私货～&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ZhangCici/python/issues/9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ZhangCici的记录&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
-
-
-&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;170811 新建&lt;/p&gt;</description>
-	<pubDate>Fri, 11 Aug 2017 09:19:33 +0000</pubDate>
+&lt;p&gt;今年另一个觉得还不错的是 &lt;strong&gt;Blade Runner 2049&lt;/strong&gt;, 其实几年前补 82 年的 Blade Runner 的时候, 看了100多分钟都觉得闷, 不明所以, 虽然画面都很特别, 我直到最后反派在死前说出的那一段名台词才觉得似乎明白了在看什么 (我知道辣, 是有点装 🌚 但是是真心喜欢这段台词的❤️). 这次看完新版, 当然不能说比老版好, 但是单从画面说, 还是很喜欢的, 比如中间 K 去黄色的沙漠中找 Decard, 大概是有废土情结的.&lt;/p&gt;
+
+&lt;p&gt;因为没有了日剧, 于是实在没办法我也看起了综艺, 不过是日综, 暂时有兴趣的也只不过是月曜和交岚. 月曜有意思的点在于总是遇到些很神奇的人, 然后开始疯狂的吐槽, 至少让你知道这世界还有这样的事这样活着的人什么的~ 看交岚最喜欢看食物 Quiz 抢答, 看什么都很好吃的样子, 很好下饭~🤗&lt;/p&gt;
+
+&lt;p&gt;出去玩的话, 今年只有 7 月的&lt;a href=&quot;https://www.douban.com/note/631062396/&quot;&gt;银妈 &amp;amp; 花火主题 之 4 回目关西&lt;/a&gt;, 好了, 自己也真的有点腻味关西了, 下次我一定要去东京!&lt;/p&gt;
+
+&lt;p&gt;啊, 还有要记一笔的是, 圣诞去了 mla 的 live, 时隔上一次已经 4 年多了, 下午花了一点时间回忆寻找了一下, 原来算上今年, &lt;a href=&quot;https://www.douban.com/note/650710129/&quot;&gt;10年间去过 6 次了呢!&lt;/a&gt; 希望以后每年都可以看~&lt;/p&gt;
+
+&lt;p&gt;又想起来要记一笔的是, 今年七夕的时候被表白了, 活了快 30 年以来的人森第一次…哈哈哈哈&lt;/p&gt;
+
+&lt;p&gt;封面是最 💔 的南极石&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.douban.com/note/650747131/&quot;&gt;douban 备份&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;附前几年总结: &lt;a href=&quot;https://www.douban.com/note/600437210/&quot;&gt;2016&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/532445213/&quot;&gt;2015&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/475347560/&quot;&gt;2014&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/329611675/&quot;&gt;2013&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/255202347/&quot;&gt;2012&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/125442027/&quot;&gt;2010&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
 </item>
 
 </channel>
