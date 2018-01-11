@@ -24,4 +24,6 @@ try:
 ## todo
 
 - [x] febric script for auto gen. and publish
-    + 
+    + [ae74145](https://github.com/DebugUself/planet/commit/ae74145635d70ea7109c21a5553878ac989e6401)
+    + `fab pub` 即可在任何本地完成更新和发布过程...
+    + [Aoi\-crontab](http://du.zoomquiet.io/2017-08/aoi-crontab/) 用 miniSrv. 完成了定期更新
