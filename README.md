@@ -1,6 +1,8 @@
 # 自怼星球
 ~ 收集怼员们的各种嗯哼...
 
+=> http://du.zoomquiet.io/planet/
+
 ## install
 
 osx - Installing bsddb package - python - Stack Overflow https://stackoverflow.com/questions/16003224/installing-bsddb-package-python
@@ -21,4 +23,5 @@ try:
 
 ## todo
 
-- febric script for auto gen. and publish
+- [x] febric script for auto gen. and publish
+    + 
