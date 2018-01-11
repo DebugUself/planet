@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-01-11T03:33:26+00:00</updated>
+	<updated>2018-01-11T08:44:09+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -23,7 +23,7 @@
 			<subtitle type="html">My blog</subtitle>
 			<link rel="self" href="http://sumin.ink/feed.xml"/>
 			<id>http://sumin.ink/feed.xml</id>
-			<updated>2018-01-11T03:30:22+00:00</updated>
+			<updated>2018-01-11T08:44:09+00:00</updated>
 		</source>
 	</entry>
 
