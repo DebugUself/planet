@@ -13,11 +13,18 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/15/TimeReport2018/" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/01/08/pythonchangeyourjob.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/01/15/TimeReport2018/">
+	<title>li guang he</title>
+	<link>http://liguanghe.github.io/2018/01/15/TimeReport2018/</link>
+	<content:encoded>Bokeh Plot</content:encoded>
+	<dc:date>2018-01-15T02:15:02+00:00</dc:date>
+</item>
 <item rdf:about="http://sumin.ink/2018/01/08/pythonchangeyourjob.html">
 	<title>sumin: 一门编程课是如何改变一个部门的</title>
 	<link>http://sumin.ink/2018/01/08/pythonchangeyourjob.html</link>
