@@ -5,8 +5,65 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-01-29T00:42:02+00:00</updated>
+	<updated>2018-01-29T08:44:22+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">博客百篇, 以录证时</title>
+		<link href="http://liguanghe.github.io/2018/01/23/thinkTag/"/>
+		<id>http://liguanghe.github.io/2018/01/23/thinkTag/</id>
+		<updated>2018-01-23T09:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;那时阳志平老师给过开智社群的建议, 写100个自己的关键词, 再从中挑出四个, 作为人生主题. 我便存了心, 不如博客写到100篇, 看看 tag 最多的是什么词. 找出前四个来, 理解自己. 刚发布博客时一瞥, 个人介绍那栏里 ‘100’ 跳出来. 再看看标签, 184&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-01-29T08:43:41+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">How to Install XGboost</title>
+		<link href="http://liguanghe.github.io/2018/01/23/pythonSpeedml/"/>
+		<id>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</id>
+		<updated>2018-01-23T07:35:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-01-29T08:43:41+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">自处</title>
+		<link href="http://liguanghe.github.io/2018/01/20/lonely/"/>
+		<id>http://liguanghe.github.io/2018/01/20/lonely/</id>
+		<updated>2018-01-20T05:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;有人喜欢是幸福的, 可惜不是所有的时间都适合爱情. &lt;/p&gt;
+&lt;p&gt;娇弱的花儿不去结果子, 落地成泥太久.&lt;br /&gt;折了夹进书页, 还没干瘪已被遗忘. &lt;/p&gt;
+&lt;p&gt;若只要陪伴, 伴侣是懒得找寻后的底线.&lt;br /&gt;若一同渡过太平洋, 花儿比不得果实厚重压得住船. &lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-01-29T08:43:41+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html"></title>
@@ -22,26 +79,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-01-16T08:43:22+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">一门编程课是如何改变一个部门的</title>
-		<link href="http://sumin.ink/2018/01/08/pythonchangeyourjob.html"/>
-		<id>http://sumin.ink/2018/01/08/pythonchangeyourjob.html</id>
-		<updated>2018-01-07T15:00:00+00:00</updated>
-		<content type="html">一门编程课是如何改变一个部门的第一幕 背景一个叫国产化的部门，在国产化率接近90%的公司里，是没有未来的；一个8人的小部门，在120人大部门里也时常被忽略；许多人都盼望着一份裁员大礼包…十月底，...</content>
-		<author>
-			<name>sumin</name>
-			<uri>http://sumin.ink</uri>
-		</author>
-		<source>
-			<title type="html">Su Min's blog</title>
-			<subtitle type="html">My blog</subtitle>
-			<link rel="self" href="http://sumin.ink/feed.xml"/>
-			<id>http://sumin.ink/feed.xml</id>
-			<updated>2018-01-11T08:44:09+00:00</updated>
+			<updated>2018-01-29T08:43:41+00:00</updated>
 		</source>
 	</entry>
 

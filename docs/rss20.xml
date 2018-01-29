@@ -8,18 +8,35 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>li guang he: 博客百篇, 以录证时</title>
+	<guid>http://liguanghe.github.io/2018/01/23/thinkTag/</guid>
+	<link>http://liguanghe.github.io/2018/01/23/thinkTag/</link>
+	<description>&lt;p&gt;那时阳志平老师给过开智社群的建议, 写100个自己的关键词, 再从中挑出四个, 作为人生主题. 我便存了心, 不如博客写到100篇, 看看 tag 最多的是什么词. 找出前四个来, 理解自己. 刚发布博客时一瞥, 个人介绍那栏里 ‘100’ 跳出来. 再看看标签, 184&lt;/p&gt;</description>
+	<pubDate>Tue, 23 Jan 2018 09:35:32 +0000</pubDate>
+</item>
+<item>
+	<title>li guang he: How to Install XGboost</title>
+	<guid>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</guid>
+	<link>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</link>
+	<description>&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;/li&gt;&lt;/ul&gt;</description>
+	<pubDate>Tue, 23 Jan 2018 07:35:32 +0000</pubDate>
+</item>
+<item>
+	<title>li guang he: 自处</title>
+	<guid>http://liguanghe.github.io/2018/01/20/lonely/</guid>
+	<link>http://liguanghe.github.io/2018/01/20/lonely/</link>
+	<description>&lt;p&gt;有人喜欢是幸福的, 可惜不是所有的时间都适合爱情. &lt;/p&gt;
+&lt;p&gt;娇弱的花儿不去结果子, 落地成泥太久.&lt;br /&gt;折了夹进书页, 还没干瘪已被遗忘. &lt;/p&gt;
+&lt;p&gt;若只要陪伴, 伴侣是懒得找寻后的底线.&lt;br /&gt;若一同渡过太平洋, 花儿比不得果实厚重压得住船. &lt;/p&gt;</description>
+	<pubDate>Sat, 20 Jan 2018 05:35:32 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he</title>
 	<guid>http://liguanghe.github.io/2018/01/15/TimeReport2018/</guid>
 	<link>http://liguanghe.github.io/2018/01/15/TimeReport2018/</link>
 	<description>Bokeh Plot</description>
 	<pubDate>Mon, 15 Jan 2018 02:15:02 +0000</pubDate>
-</item>
-<item>
-	<title>sumin: 一门编程课是如何改变一个部门的</title>
-	<guid>http://sumin.ink/2018/01/08/pythonchangeyourjob.html</guid>
-	<link>http://sumin.ink/2018/01/08/pythonchangeyourjob.html</link>
-	<description>一门编程课是如何改变一个部门的第一幕 背景一个叫国产化的部门，在国产化率接近90%的公司里，是没有未来的；一个8人的小部门，在120人大部门里也时常被忽略；许多人都盼望着一份裁员大礼包…十月底，...</description>
-	<pubDate>Sun, 07 Jan 2018 15:00:00 +0000</pubDate>
 </item>
 
 </channel>
