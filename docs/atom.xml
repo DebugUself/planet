@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-01T16:44:08+00:00</updated>
+	<updated>2018-02-02T00:43:27+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">施耐德电气领导力峰会 D1笔记</title>
+		<link href="http://sumin.ink/2018/02/01/D1LeadershipForum.html"/>
+		<id>http://sumin.ink/2018/02/01/D1LeadershipForum.html</id>
+		<updated>2018-01-31T15:00:00+00:00</updated>
+		<content type="html">施耐德电气领导力峰会 D1笔记1933老场坊，原是工部局宰牲场，2018同一个地点，我拾步而上，仍可感受到八十多年前的风貌，施耐德电气领导力峰会在此召开。见贤思齐，见不贤而自省在SBMLV工作的...</content>
+		<author>
+			<name>sumin</name>
+			<uri>http://sumin.ink</uri>
+		</author>
+		<source>
+			<title type="html">Su Min's blog</title>
+			<subtitle type="html">My blog</subtitle>
+			<link rel="self" href="http://sumin.ink/feed.xml"/>
+			<id>http://sumin.ink/feed.xml</id>
+			<updated>2018-02-02T00:43:27+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">博客百篇, 以录证时</title>
@@ -33,44 +52,6 @@
 		<updated>2018-01-23T07:35:32+00:00</updated>
 		<content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-01-29T16:43:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">自处</title>
-		<link href="http://liguanghe.github.io/2018/01/20/lonely/"/>
-		<id>http://liguanghe.github.io/2018/01/20/lonely/</id>
-		<updated>2018-01-20T05:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;有人喜欢是幸福的, 可惜不是所有的时间都适合爱情. &lt;/p&gt;
-&lt;p&gt;娇弱的花儿不去结果子, 落地成泥太久.&lt;br /&gt;折了夹进书页, 还没干瘪已被遗忘. &lt;/p&gt;
-&lt;p&gt;若只要陪伴, 伴侣是懒得找寻后的底线.&lt;br /&gt;若一同渡过太平洋, 花儿比不得果实厚重压得住船. &lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-01-29T16:43:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html"></title>
-		<link href="http://liguanghe.github.io/2018/01/15/TimeReport2018/"/>
-		<id>http://liguanghe.github.io/2018/01/15/TimeReport2018/</id>
-		<updated>2018-01-15T02:15:02+00:00</updated>
-		<content type="html">Bokeh Plot</content>
 		<author>
 			<name>li guang he</name>
 			<uri>http://liguanghe.github.io/</uri>

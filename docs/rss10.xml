@@ -13,14 +13,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://sumin.ink/2018/02/01/D1LeadershipForum.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/23/thinkTag/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/23/pythonSpeedml/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/20/lonely/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/15/TimeReport2018/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://sumin.ink/2018/02/01/D1LeadershipForum.html">
+	<title>sumin: 施耐德电气领导力峰会 D1笔记</title>
+	<link>http://sumin.ink/2018/02/01/D1LeadershipForum.html</link>
+	<content:encoded>施耐德电气领导力峰会 D1笔记1933老场坊，原是工部局宰牲场，2018同一个地点，我拾步而上，仍可感受到八十多年前的风貌，施耐德电气领导力峰会在此召开。见贤思齐，见不贤而自省在SBMLV工作的...</content:encoded>
+	<dc:date>2018-01-31T15:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/01/23/thinkTag/">
 	<title>li guang he: 博客百篇, 以录证时</title>
 	<link>http://liguanghe.github.io/2018/01/23/thinkTag/</link>
@@ -33,20 +38,6 @@
 	<content:encoded>&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;/li&gt;&lt;/ul&gt;</content:encoded>
 	<dc:date>2018-01-23T07:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/01/20/lonely/">
-	<title>li guang he: 自处</title>
-	<link>http://liguanghe.github.io/2018/01/20/lonely/</link>
-	<content:encoded>&lt;p&gt;有人喜欢是幸福的, 可惜不是所有的时间都适合爱情. &lt;/p&gt;
-&lt;p&gt;娇弱的花儿不去结果子, 落地成泥太久.&lt;br /&gt;折了夹进书页, 还没干瘪已被遗忘. &lt;/p&gt;
-&lt;p&gt;若只要陪伴, 伴侣是懒得找寻后的底线.&lt;br /&gt;若一同渡过太平洋, 花儿比不得果实厚重压得住船. &lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-20T05:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/01/15/TimeReport2018/">
-	<title>li guang he</title>
-	<link>http://liguanghe.github.io/2018/01/15/TimeReport2018/</link>
-	<content:encoded>Bokeh Plot</content:encoded>
-	<dc:date>2018-01-15T02:15:02+00:00</dc:date>
 </item>
 
 </rdf:RDF>
