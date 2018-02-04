@@ -15,6 +15,7 @@
 		<rdf:Seq>
 			<rdf:li rdf:resource="http://bambooom.github.io/2018/02/02/hospital-and-teeth/" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/02/01/D1LeadershipForum.html" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/23/thinkTag/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/23/pythonSpeedml/" />
 		</rdf:Seq>
@@ -87,6 +88,12 @@
 	<link>http://sumin.ink/2018/02/01/D1LeadershipForum.html</link>
 	<content:encoded>施耐德电气领导力峰会 D1笔记1933老场坊，原是工部局宰牲场，2018同一个地点，我拾步而上，仍可感受到八十多年前的风貌，施耐德电气领导力峰会在此召开。见贤思齐，见不贤而自省在SBMLV工作的...</content:encoded>
 	<dc:date>2018-01-31T15:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/">
+	<title>li guang he: Trip wellington and North Island</title>
+	<link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
+	<content:encoded>&lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-01-25T08:34:32+00:00</dc:date>
 </item>
 <item rdf:about="http://liguanghe.github.io/2018/01/23/thinkTag/">
 	<title>li guang he: 博客百篇, 以录证时</title>

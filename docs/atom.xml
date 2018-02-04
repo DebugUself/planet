@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-04T00:43:41+00:00</updated>
+	<updated>2018-02-04T08:43:43+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry xml:lang="en-us">
@@ -103,6 +103,24 @@
 	</entry>
 
 	<entry>
+		<title type="html">Trip wellington and North Island</title>
+		<link href="http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/"/>
+		<id>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</id>
+		<updated>2018-01-25T08:34:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-02-04T08:43:21+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">博客百篇, 以录证时</title>
 		<link href="http://liguanghe.github.io/2018/01/23/thinkTag/"/>
 		<id>http://liguanghe.github.io/2018/01/23/thinkTag/</id>
@@ -116,7 +134,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-01-29T16:43:19+00:00</updated>
+			<updated>2018-02-04T08:43:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -135,7 +153,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-01-29T16:43:19+00:00</updated>
+			<updated>2018-02-04T08:43:21+00:00</updated>
 		</source>
 	</entry>
 
