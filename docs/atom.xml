@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-08T08:43:44+00:00</updated>
+	<updated>2018-02-08T16:43:53+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">一路向北(1)</title>
+		<link href="http://liguanghe.github.io/2018/02/08/NzDunedinOut/"/>
+		<id>http://liguanghe.github.io/2018/02/08/NzDunedinOut/</id>
+		<updated>2018-02-08T08:45:32+00:00</updated>
+		<content type="html">&lt;p&gt;写游记啦写游记啦, 今天第一次独自开高速几个小时, 完成了换城之旅, 很兴奋呀. 以前不是搭大巴, 就是坐副驾看别人开, 美景赏够后昏昏欲睡. 自己开车眼睛盯在路上, 偶尔瞥一眼景色, 朝着天边硕大的蘑菇肉粉云开过去, 又是一番光景. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-02-08T16:43:24+00:00</updated>
+		</source>
+	</entry>
 
 	<entry xml:lang="en-us">
 		<title type="html">住院拔牙记</title>
@@ -99,61 +118,6 @@
 			<link rel="self" href="http://sumin.ink/feed.xml"/>
 			<id>http://sumin.ink/feed.xml</id>
 			<updated>2018-02-02T00:43:27+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Trip wellington and North Island</title>
-		<link href="http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/"/>
-		<id>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</id>
-		<updated>2018-01-25T08:34:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-05T16:43:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">博客百篇, 以录证时</title>
-		<link href="http://liguanghe.github.io/2018/01/23/thinkTag/"/>
-		<id>http://liguanghe.github.io/2018/01/23/thinkTag/</id>
-		<updated>2018-01-23T09:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;那时阳志平老师给过开智社群的建议, 写100个自己的关键词, 再从中挑出四个, 作为人生主题. 我便存了心, 不如博客写到100篇, 看看 tag 最多的是什么词. 找出前四个来, 理解自己. 刚发布博客时一瞥, 个人介绍那栏里 ‘100’ 跳出来. 再看看标签, 184&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-05T16:43:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">How to Install XGboost</title>
-		<link href="http://liguanghe.github.io/2018/01/23/pythonSpeedml/"/>
-		<id>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</id>
-		<updated>2018-01-23T07:35:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-05T16:43:13+00:00</updated>
 		</source>
 	</entry>
 

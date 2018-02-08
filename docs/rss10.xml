@@ -13,15 +13,20 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/08/NzDunedinOut/" />
 			<rdf:li rdf:resource="http://bambooom.github.io/2018/02/02/hospital-and-teeth/" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/02/01/D1LeadershipForum.html" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/23/thinkTag/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/01/23/pythonSpeedml/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/02/08/NzDunedinOut/">
+	<title>li guang he: 一路向北(1)</title>
+	<link>http://liguanghe.github.io/2018/02/08/NzDunedinOut/</link>
+	<content:encoded>&lt;p&gt;写游记啦写游记啦, 今天第一次独自开高速几个小时, 完成了换城之旅, 很兴奋呀. 以前不是搭大巴, 就是坐副驾看别人开, 美景赏够后昏昏欲睡. 自己开车眼睛盯在路上, 偶尔瞥一眼景色, 朝着天边硕大的蘑菇肉粉云开过去, 又是一番光景. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-02-08T08:45:32+00:00</dc:date>
+</item>
 <item rdf:about="http://bambooom.github.io/2018/02/02/hospital-and-teeth/">
 	<title>bambooooooom: 住院拔牙记</title>
 	<link>http://bambooom.github.io/2018/02/02/hospital-and-teeth/</link>
@@ -88,25 +93,6 @@
 	<link>http://sumin.ink/2018/02/01/D1LeadershipForum.html</link>
 	<content:encoded>施耐德电气领导力峰会 D1笔记1933老场坊，原是工部局宰牲场，2018同一个地点，我拾步而上，仍可感受到八十多年前的风貌，施耐德电气领导力峰会在此召开。见贤思齐，见不贤而自省在SBMLV工作的...</content:encoded>
 	<dc:date>2018-01-31T15:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/">
-	<title>li guang he: Trip wellington and North Island</title>
-	<link>http://liguanghe.github.io/2018/01/25/WellingtonLiuTrip/</link>
-	<content:encoded>&lt;h2 id=&quot;行程&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#行程&quot; class=&quot;headerlink&quot; title=&quot;行程&quot;&gt;&lt;/a&gt;行程&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-25T08:34:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/01/23/thinkTag/">
-	<title>li guang he: 博客百篇, 以录证时</title>
-	<link>http://liguanghe.github.io/2018/01/23/thinkTag/</link>
-	<content:encoded>&lt;p&gt;那时阳志平老师给过开智社群的建议, 写100个自己的关键词, 再从中挑出四个, 作为人生主题. 我便存了心, 不如博客写到100篇, 看看 tag 最多的是什么词. 找出前四个来, 理解自己. 刚发布博客时一瞥, 个人介绍那栏里 ‘100’ 跳出来. 再看看标签, 184&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-23T09:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/01/23/pythonSpeedml/">
-	<title>li guang he: How to Install XGboost</title>
-	<link>http://liguanghe.github.io/2018/01/23/pythonSpeedml/</link>
-	<content:encoded>&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;深度学习的 kaggle 平台, Titanic项目 推荐 speedml&lt;/li&gt;&lt;/ul&gt;</content:encoded>
-	<dc:date>2018-01-23T07:35:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
