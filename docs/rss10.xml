@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://du.zoomquiet.io/2018-02/about-bear" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/08/NzDunedinOut/" />
 			<rdf:li rdf:resource="http://bambooom.github.io/2018/02/02/hospital-and-teeth/" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/02/01/D1LeadershipForum.html" />
@@ -20,6 +21,42 @@
 	</items>
 </channel>
 
+<item rdf:about="http://du.zoomquiet.io/2018-02/about-bear/">
+	<title>Debug Uself grp.: 关于熊本</title>
+	<link>http://du.zoomquiet.io/2018-02/about-bear/</link>
+	<content:encoded>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;十岁迷电影
+二十迷美剧
+三十迷修辞
+品味渐次提升
+是为好事
+我，一个缓慢的人
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3 id=&quot;教育&quot;&gt;教育&lt;/h3&gt;
+&lt;p&gt;本科: 暨南大学临床医学&lt;br /&gt;
+硕士: 上海理工大学经济学&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;领域&quot;&gt;领域&lt;/h3&gt;
+&lt;p&gt;区域经济&lt;br /&gt;
+互联网医药&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;兴趣&quot;&gt;兴趣&lt;/h3&gt;
+&lt;p&gt;佐藤信夫&lt;br /&gt;
+村上春树&lt;br /&gt;
+老残游记&lt;br /&gt;
+叶嘉莹说诗&lt;br /&gt;
+蒲松龄聊斋&lt;br /&gt;
+认知科学——有限理性&lt;br /&gt;
+认知科学——工作记忆与任务转换成本&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;联系方式&quot;&gt;联系方式&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/zhangshiyinrunwithcc&quot;&gt;GitHub&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://zhangshiying.in/&quot;&gt;博客:张诗颖的作品积累&lt;/a&gt;&lt;br /&gt;
+邮箱: jenniferzhangshiying@gmail.com&lt;br /&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-02-09T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/02/08/NzDunedinOut/">
 	<title>li guang he: 一路向北(1)</title>
 	<link>http://liguanghe.github.io/2018/02/08/NzDunedinOut/</link>
