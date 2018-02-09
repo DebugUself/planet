@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-09T08:43:30+00:00</updated>
+	<updated>2018-02-09T16:43:08+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -13,13 +13,12 @@
 		<link href="http://du.zoomquiet.io/2018-02/about-bear/"/>
 		<id>http://du.zoomquiet.io/2018-02/about-bear</id>
 		<updated>2018-02-09T00:00:00+00:00</updated>
-		<content type="html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;十岁迷电影
-二十迷美剧
-三十迷修辞
-品味渐次提升
-是为好事
-我，一个缓慢的人
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+		<content type="html">&lt;p&gt;&lt;strong&gt;十岁迷电影&lt;br /&gt;
+二十迷美剧&lt;br /&gt;
+三十迷修辞&lt;br /&gt;
+品味渐次提升&lt;br /&gt;
+是为好事&lt;br /&gt;
+熊本，一只慵懒的熊&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -52,7 +51,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-02-09T08:42:23+00:00</updated>
+			<updated>2018-02-09T16:42:13+00:00</updated>
 		</source>
 	</entry>
 
