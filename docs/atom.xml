@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-10T00:43:57+00:00</updated>
+	<updated>2018-02-10T08:43:51+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">如何筹划旅游? 以新西兰游为例</title>
+		<link href="http://liguanghe.github.io/2018/02/10/PlanTrip/"/>
+		<id>http://liguanghe.github.io/2018/02/10/PlanTrip/</id>
+		<updated>2018-02-10T06:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;以下是筹划自助游的全过程. 以时间先后为序.&lt;/p&gt;
+&lt;h2 id=&quot;预算&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#预算&quot; class=&quot;headerlink&quot; title=&quot;预算&quot;&gt;&lt;/a&gt;预算&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;每个人, 每个家庭的都不一样. 不过, 可以把往年实际花费的旅游费记&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-02-10T08:43:20+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">关于熊本</title>
@@ -70,7 +90,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-08T16:43:24+00:00</updated>
+			<updated>2018-02-10T08:43:20+00:00</updated>
 		</source>
 	</entry>
 
