@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWhanganui/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWaikawa/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/10/PlanTrip/" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2018-02/about-bear" />
@@ -21,6 +22,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/02/17/NzWhanganui/">
+	<title>li guang he: 一路向北(5) 富饶平原</title>
+	<link>http://liguanghe.github.io/2018/02/17/NzWhanganui/</link>
+	<content:encoded>&lt;p&gt;在平原直上折东, 到了 whanganui 城. 这个城所在的地区地处新西兰最长大河的入海口, 离新西兰的粮仓近, 工业发达, 农工产品从港口运输出去都方便. 城市建设华美大气. 颇似金陵南京. &lt;/p&gt;
+&lt;p&gt;平整广阔, 房屋与基督城类似, 平摊出去, 主街维多利亚街头尾&lt;/p&gt;</content:encoded>
+	<dc:date>2018-02-17T08:45:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/02/17/NzWaikawa/">
 	<title>li guang he: 一路向北(4) 海边人家</title>
 	<link>http://liguanghe.github.io/2018/02/17/NzWaikawa/</link>

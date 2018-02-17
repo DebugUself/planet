@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-17T08:42:58+00:00</updated>
+	<updated>2018-02-17T16:43:16+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">一路向北(5) 富饶平原</title>
+		<link href="http://liguanghe.github.io/2018/02/17/NzWhanganui/"/>
+		<id>http://liguanghe.github.io/2018/02/17/NzWhanganui/</id>
+		<updated>2018-02-17T08:45:32+00:00</updated>
+		<content type="html">&lt;p&gt;在平原直上折东, 到了 whanganui 城. 这个城所在的地区地处新西兰最长大河的入海口, 离新西兰的粮仓近, 工业发达, 农工产品从港口运输出去都方便. 城市建设华美大气. 颇似金陵南京. &lt;/p&gt;
+&lt;p&gt;平整广阔, 房屋与基督城类似, 平摊出去, 主街维多利亚街头尾&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-02-17T16:43:04+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">一路向北(4) 海边人家</title>
@@ -23,7 +42,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T00:43:08+00:00</updated>
+			<updated>2018-02-17T16:43:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -43,7 +62,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T00:43:08+00:00</updated>
+			<updated>2018-02-17T16:43:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -109,7 +128,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T00:43:08+00:00</updated>
+			<updated>2018-02-17T16:43:04+00:00</updated>
 		</source>
 	</entry>
 
