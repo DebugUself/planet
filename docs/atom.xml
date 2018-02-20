@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-20T00:42:58+00:00</updated>
+	<updated>2018-02-20T08:43:03+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -23,7 +23,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T16:43:04+00:00</updated>
+			<updated>2018-02-20T08:42:51+00:00</updated>
 		</source>
 	</entry>
 
@@ -42,7 +42,25 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T16:43:04+00:00</updated>
+			<updated>2018-02-20T08:42:51+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">一路向北(2) 城际奔波</title>
+		<link href="http://liguanghe.github.io/2018/02/13/NzChristchurch/"/>
+		<id>http://liguanghe.github.io/2018/02/13/NzChristchurch/</id>
+		<updated>2018-02-13T03:45:32+00:00</updated>
+		<content type="html">&lt;p&gt;这是新西兰第二大城市, 看看跟其他城市有什么不同. 不像北京, 虽说是一环一环往外摊, 但楼同时也高, 好像堆积木堆散了那样. 基督城却是一开始就是平平的, 单只一两层的别墅小楼, 一格一格, 一撮一撮, 很大很大. 这样的格局使得, 路又直又长, 红绿灯却特多. 这样的路&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-02-20T08:42:51+00:00</updated>
 		</source>
 	</entry>
 
@@ -62,7 +80,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T16:43:04+00:00</updated>
+			<updated>2018-02-20T08:42:51+00:00</updated>
 		</source>
 	</entry>
 
@@ -128,7 +146,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-02-17T16:43:04+00:00</updated>
+			<updated>2018-02-20T08:42:51+00:00</updated>
 		</source>
 	</entry>
 

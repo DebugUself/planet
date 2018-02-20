@@ -15,6 +15,7 @@
 		<rdf:Seq>
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWhanganui/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWaikawa/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/13/NzChristchurch/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/10/PlanTrip/" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2018-02/about-bear" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/08/NzDunedinOut/" />
@@ -35,6 +36,12 @@
 	<content:encoded>&lt;p&gt;上次说到青旅的花园就挺好, 毕竟是托大了. 这次刘欣来, 我订的是 Airbnb, 希望能跟当地人家接触. 他们在 airbnb 上的照片很低调, 但每一个宅子, 初见都会惊叹, 拍个不停. 给你看我写这文时坐在哪儿:&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-02-16T18:45:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2018/02/13/NzChristchurch/">
+	<title>li guang he: 一路向北(2) 城际奔波</title>
+	<link>http://liguanghe.github.io/2018/02/13/NzChristchurch/</link>
+	<content:encoded>&lt;p&gt;这是新西兰第二大城市, 看看跟其他城市有什么不同. 不像北京, 虽说是一环一环往外摊, 但楼同时也高, 好像堆积木堆散了那样. 基督城却是一开始就是平平的, 单只一两层的别墅小楼, 一格一格, 一撮一撮, 很大很大. 这样的格局使得, 路又直又长, 红绿灯却特多. 这样的路&lt;/p&gt;</content:encoded>
+	<dc:date>2018-02-13T03:45:32+00:00</dc:date>
 </item>
 <item rdf:about="http://liguanghe.github.io/2018/02/10/PlanTrip/">
 	<title>li guang he: 如何筹划旅游? 以新西兰游为例</title>
