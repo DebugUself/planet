@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://sumin.ink/2018/02/22/MyFileNameRule.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2018-02-20:/180220-book-ai-historic.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWhanganui/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWaikawa/" />
@@ -21,6 +22,12 @@
 	</items>
 </channel>
 
+<item rdf:about="http://sumin.ink/2018/02/22/MyFileNameRule.html">
+	<title>sumin: 个人命名规约</title>
+	<link>http://sumin.ink/2018/02/22/MyFileNameRule.html</link>
+	<content:encoded>个人命名规约曾经我提到文件命名感到很头疼，大妈发来两篇文档，结合自己工作内容，做成命名规则。在Ishanshan的博客里看到  文件命名看似简单，但其实体现你对你的对象在当前体系中的关系/作用的...</content:encoded>
+	<dc:date>2018-02-21T15:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://blog.zoomquiet.io/180220-book-ai-historic.html">
 	<title>zoom.quiet: 内圈梗集锦(人工智能简史)书评</title>
 	<link>http://blog.zoomquiet.io/180220-book-ai-historic.html</link>
