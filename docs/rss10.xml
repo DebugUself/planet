@@ -23,9 +23,9 @@
 </channel>
 
 <item rdf:about="http://sumin.ink/2018/02/23/MyFileNameRule.html">
-	<title>sumin: 个人命名规约</title>
+	<title>sumin: 喵酱的命名规约</title>
 	<link>http://sumin.ink/2018/02/23/MyFileNameRule.html</link>
-	<content:encoded>个人命名规约曾经我提到文件命名感到很头疼，大妈发来两篇文档，结合自己工作内容，做成命名规则。在Ishanshan的博客里看到  文件命名看似简单，但其实体现你对你的对象在当前体系中的关系/作用的...</content:encoded>
+	<content:encoded>喵酱的命名规约17 年底,用 Word 来写需求文档，于是就出现了保存了 N 个 Word 文件的情况，而且我无法快速知道 N 版和 N+1 版区别在哪里。我感到哪里不对，于是问大妈，大妈的回复...</content:encoded>
 	<dc:date>2018-02-22T15:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://blog.zoomquiet.io/180220-book-ai-historic.html">
