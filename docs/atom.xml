@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-02-28T08:43:34+00:00</updated>
+	<updated>2018-02-28T16:43:51+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -13,7 +13,7 @@
 		<link href="http://sumin.ink/2018/02/23/MyFileNameRule.html"/>
 		<id>http://sumin.ink/2018/02/23/MyFileNameRule.html</id>
 		<updated>2018-02-22T15:00:00+00:00</updated>
-		<content type="html">喵酱的命名规约17 年底,用 Word 来写需求文档，于是就出现了保存了 N 个 Word 文件的情况，而且我无法快速知道 N 版和 N+1 版区别在哪里。我感到哪里不对，于是问大妈，大妈的回复...</content>
+		<content type="html">参考资料      Ishanshan博客        开智学堂资源、经验共享库        大妈怼圈大妈博客  喵酱的命名规约17 年底,用 Word 来写需求文档，于是就出现了保存了 N...</content>
 		<author>
 			<name>sumin</name>
 			<uri>http://sumin.ink</uri>
@@ -23,7 +23,7 @@
 			<subtitle type="html">My blog</subtitle>
 			<link rel="self" href="http://sumin.ink/feed.xml"/>
 			<id>http://sumin.ink/feed.xml</id>
-			<updated>2018-02-26T08:43:01+00:00</updated>
+			<updated>2018-02-28T16:43:51+00:00</updated>
 		</source>
 	</entry>
 
