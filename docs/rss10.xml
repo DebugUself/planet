@@ -13,184 +13,23 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://sumin.ink/2018/03/03/WelcomeNewCreator.html" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/02/23/MyFileNameRule.html" />
-			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2018-02-20:/180220-book-ai-historic.html" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWhanganui/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/17/NzWaikawa/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/02/13/NzChristchurch/" />
-			<rdf:li rdf:resource="http://du.zoomquiet.io/2018-02/sharex-qiniu" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://sumin.ink/2018/03/03/WelcomeNewCreator.html">
+	<title>sumin: CH-4 复盘笔记：欢迎你，创造者</title>
+	<link>http://sumin.ink/2018/03/03/WelcomeNewCreator.html</link>
+	<content:encoded>欢迎你，创造者18年1月最后一天，临危受命去出差，在10个小时的往返高铁上，复习“探索开智新世界”卡包，居然没有看完，这可是最基础的卡包啊。其实这个卡包，在17年加入部落时，我都看过了，大部分的...</content:encoded>
+	<dc:date>2018-03-02T15:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://sumin.ink/2018/02/23/MyFileNameRule.html">
 	<title>sumin: 喵酱的命名规约</title>
 	<link>http://sumin.ink/2018/02/23/MyFileNameRule.html</link>
 	<content:encoded>参考资料      Ishanshan博客        开智学堂资源、经验共享库        大妈怼圈大妈博客  喵酱的命名规约17 年底,用 Word 来写需求文档，于是就出现了保存了 N...</content:encoded>
 	<dc:date>2018-02-22T15:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://blog.zoomquiet.io/180220-book-ai-historic.html">
-	<title>zoom.quiet: 内圈梗集锦(人工智能简史)书评</title>
-	<link>http://blog.zoomquiet.io/180220-book-ai-historic.html</link>
-	<content:encoded>&lt;p&gt;版权归作者所有,任何形式转载请联系作者. &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;作者:Zoom.Quiet(来自豆瓣)
-来源:https://book.douban.com/review/9167418/
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;是也乎,(￣▽￣)&lt;/p&gt;
-&lt;p&gt;现在技术类图书有一种不好的倾向:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;书名有简史的
-总是比通史要难写
-但是有趣也有用的多
-关键特别有种 ;-)
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;以往从信息简史开始到人类/未来等诸简史, 其实都有点以史预言将来的意思,&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;AI&lt;/span&gt; 简史, 反而专注陈述过去,&lt;/p&gt;
-&lt;p&gt;全书少了一个关键内容:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;AI历史进展中
-各种路线的时间线
-和关键人物/作品/理论
-的关系图谱
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;另外,和其它技术图书类似(是的,类似流畅的 Python 之类技术人员自己写的图书);
-书中各种小扣儿比正文有趣的多,
-只是, 作者是海外华人, 用的都是中文中精彩的梗, 目测难以翻译为英文挣些更大的名望.&lt;/p&gt;
-&lt;p&gt;作者, 明显是业内人士, 从参考文献列表就可以看出,
-俺看过,这么多技术类图书, 也就暗时间, 能比肩了,
-基本上这本不到300页的小书, 涉及的参考图书数量是俺看过的所有大陆华人写的技术图书参考图书的总合还多…&lt;/p&gt;
-&lt;p&gt;当然, 看下来还是很爽利的,
-特别是最后一章最后一节, 是作者的巅峰之作, 也是全书的精华,
-另外, 作者原创的图灵小传也值得反复嗯哼…&lt;/p&gt;
-&lt;p&gt;简单的说, 这是一部用49城侃大山的精神结构来回顾&lt;span class=&quot;caps&quot;&gt;AI&lt;/span&gt; 这一领域发展过程的仙书.&lt;/p&gt;
-&lt;p&gt;对于准备或是从事 &lt;span class=&quot;caps&quot;&gt;AI&lt;/span&gt; 开发工作的程序猿来说,
-最大的功能就是知道自己袓师爷们的关系,
-以及知道想深入下去, 应该补什么书了. &lt;/p&gt;
-&lt;p&gt;~ &lt;a href=&quot;https://book.douban.com/review/9167418/&quot;&gt;内圈梗集锦(人工智能简史)书评&lt;/a&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2018-02-20T08:42:24+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/02/17/NzWhanganui/">
-	<title>li guang he: 一路向北(5) 富饶平原</title>
-	<link>http://liguanghe.github.io/2018/02/17/NzWhanganui/</link>
-	<content:encoded>&lt;p&gt;在平原直上折东, 到了 whanganui 城. 这个城所在的地区地处新西兰最长大河的入海口, 离新西兰的粮仓近, 工业发达, 农工产品从港口运输出去都方便. 城市建设华美大气. 颇似金陵南京. &lt;/p&gt;
-&lt;p&gt;平整广阔, 房屋与基督城类似, 平摊出去, 主街维多利亚街头尾&lt;/p&gt;</content:encoded>
-	<dc:date>2018-02-17T08:45:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/02/17/NzWaikawa/">
-	<title>li guang he: 一路向北(4) 海边人家</title>
-	<link>http://liguanghe.github.io/2018/02/17/NzWaikawa/</link>
-	<content:encoded>&lt;p&gt;上次说到青旅的花园就挺好, 毕竟是托大了. 这次刘欣来, 我订的是 Airbnb, 希望能跟当地人家接触. 他们在 airbnb 上的照片很低调, 但每一个宅子, 初见都会惊叹, 拍个不停. 给你看我写这文时坐在哪儿:&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2018-02-16T18:45:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/02/13/NzChristchurch/">
-	<title>li guang he: 一路向北(2) 城际奔波</title>
-	<link>http://liguanghe.github.io/2018/02/13/NzChristchurch/</link>
-	<content:encoded>&lt;p&gt;这是新西兰第二大城市, 看看跟其他城市有什么不同. 不像北京, 虽说是一环一环往外摊, 但楼同时也高, 好像堆积木堆散了那样. 基督城却是一开始就是平平的, 单只一两层的别墅小楼, 一格一格, 一撮一撮, 很大很大. 这样的格局使得, 路又直又长, 红绿灯却特多. 这样的路&lt;/p&gt;</content:encoded>
-	<dc:date>2018-02-13T03:45:32+00:00</dc:date>
-</item>
-<item rdf:about="http://du.zoomquiet.io/2018-02/sharex-qiniu/">
-	<title>Debug Uself grp.: 用 ShareX qiniu 一键截图上传</title>
-	<link>http://du.zoomquiet.io/2018-02/sharex-qiniu/</link>
-	<content:encoded>&lt;h1 id=&quot;用-sharex-qiniu-一键截图上传&quot;&gt;用 ShareX qiniu 一键截图上传&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://getsharex.com/&quot;&gt;sharex&lt;/a&gt; 是一个截屏工具&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://portal.qiniu.com/&quot;&gt;qiniu&lt;/a&gt; 七牛云&lt;/p&gt;
-
-&lt;p&gt;以七牛云作图床，截屏后自动上传图片，获得外链地址&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;环境：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;win10&lt;/li&gt;
-  &lt;li&gt;python 3.6.0&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;看图配置-sharex&quot;&gt;看图配置 sharex&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://osloqpukl.bkt.clouddn.com/201717051546-t.png&quot; alt=&quot;sharex_upload_setting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;打开 shareX -&amp;gt; 目的地 -&amp;gt; 目的地设置 -&amp;gt; 自定义上传（最底下）&lt;/p&gt;
-
-&lt;p&gt;图片来源：&lt;a href=&quot;http://ystyle.top/2017/07/05/share-the-use-of-qiniu-file-upload/&quot;&gt;ShareX使用七牛文件上传 东方星痕&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;上传者&quot;&gt;上传者&lt;/h3&gt;
-&lt;p&gt;填入 qiniu，点击添加&lt;/p&gt;
-&lt;h3 id=&quot;请求-url&quot;&gt;请求 URL&lt;/h3&gt;
-&lt;p&gt;进入自己的「对象存储」-&amp;gt; 空间设置 -&amp;gt; 存储区域，查看自己所在地区。根据 &lt;a href=&quot;https://developer.qiniu.com/kodo/manual/1671/region-endpoint&quot;&gt;存储区域 - 七牛开发者中心&lt;/a&gt; 选择自己的地址，我是华南，填入 &lt;code class=&quot;highlighter-rouge&quot;&gt;http://up-z2.qiniup.com&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;url右侧靠下&quot;&gt;URL（右侧靠下）&lt;/h3&gt;
-&lt;p&gt;自己的外链默认域名 + &lt;code class=&quot;highlighter-rouge&quot;&gt;$json:key$&lt;/code&gt; -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;xxxxx.bkt.clouddn.com/$json:key$&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;生成-token&quot;&gt;生成 token&lt;/h3&gt;
-&lt;p&gt;根据&lt;a href=&quot;https://developer.qiniu.com/kodo/manual/1208/upload-token&quot;&gt;上传凭证&lt;/a&gt; 建议使用七牛的 SDK。从示例中选择自己的语言，我用的 python，进入 &lt;a href=&quot;https://github.com/qiniu/python-sdk&quot;&gt;qiniu/python-sdk: Qiniu Resource (Cloud) Storage SDK for Python&lt;/a&gt;，克隆本地后安装&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ (选择一个文件夹)
-$ git clone https://github.com/qiniu/python-sdk.git
-$ cd python-sdk
-$ pip install qiniu
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;再根据 &lt;a href=&quot;https://developer.qiniu.com/kodo/sdk/1242/python#token&quot;&gt;Python SDK_生成上传 token&lt;/a&gt; 拷贝代码，复制到本地，修改相应的 key&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd python-sdk
-$ touch generate_token.py  # 文件名可另取
-$ atom generate_token.py   # 编辑该文件
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;access_key = ''&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;secret_key = ''&lt;/code&gt;，进入七牛 -&amp;gt; 个人中心 -&amp;gt; 密钥管理，复制自己的 AccessKey and SecretKey，填入&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bucket_name = ''&lt;/code&gt; 为自己创建的 bucket 存储空间名，如 &lt;code class=&quot;highlighter-rouge&quot;&gt;bucket_name = 'photo'&lt;/code&gt;，不是 URL&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;key = ''&lt;/code&gt;，我设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;key = None&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;保存文件回终端，运行脚本 &lt;code class=&quot;highlighter-rouge&quot;&gt;python generate_token.py&lt;/code&gt;，即可获得 token&lt;/p&gt;
-
-&lt;h3 id=&quot;参数&quot;&gt;参数&lt;/h3&gt;
-&lt;p&gt;在「参数」下有两个输入空框&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;左框&lt;/th&gt;
-      &lt;th&gt;右框&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;token&lt;/td&gt;
-      &lt;td&gt;上部生成的 token&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;key&lt;/td&gt;
-      &lt;td&gt;%yy%d%h%mi%s.png&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;file&lt;/td&gt;
-      &lt;td&gt;$input$&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;分别输入后点击添加&lt;/p&gt;
-
-&lt;p&gt;key 为上传时用的文件名，&lt;code class=&quot;highlighter-rouge&quot;&gt;%yy%d%h%mi%s.png&lt;/code&gt; 是指年月日小时分钟秒，如  &lt;code class=&quot;highlighter-rouge&quot;&gt;20180213165812.png&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;测试&quot;&gt;测试&lt;/h3&gt;
-&lt;p&gt;都配置完后，点击左侧「图片上传」-「测试」，若测试结果返回一个正常的连接地址那就是配置成功了。&lt;/p&gt;
-
-&lt;p&gt;最后，&lt;strong&gt;sharex -&amp;gt; 目的地 -&amp;gt; 图片上传 -&amp;gt; 自定义图像上传&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;截图后的动作 -&amp;gt; 上传图片&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;参考&quot;&gt;参考&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ystyle.top/2017/07/05/share-the-use-of-qiniu-file-upload/&quot;&gt;ShareX使用七牛文件上传 东方星痕&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://day.liuxuan.net/2017/11/use_sharex_with_qiniu/&quot;&gt;配合使用ShaseX与七牛云 松风起兮&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://segmentfault.com/q/1010000010508965&quot;&gt;七牛返回 key doesn’t match with scope问题出在哪？&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;change-log&quot;&gt;Change-Log&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;查资料，尝试 3h&lt;/li&gt;
-  &lt;li&gt;笔记 .7h&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-	<dc:date>2018-02-13T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
