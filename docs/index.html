@@ -233,6 +233,137 @@
 </div>
 
 
+
+</div>
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://du.zoomquiet.io/" title="自怼圈">Debug Uself grp.</a></h3>
+
+
+<div class="entrygroup" id="http://du.zoomquiet.io/2018-02/sharex-qiniu">
+<h4><a href="http://du.zoomquiet.io/2018-02/sharex-qiniu/">用 ShareX qiniu 一键截图上传</a></h4>
+<div class="entry">
+<div class="content">
+<h1 id="用-sharex-qiniu-一键截图上传">用 ShareX qiniu 一键截图上传</h1>
+<p><a href="https://getsharex.com/">sharex</a> 是一个截屏工具</p>
+
+<p><a href="https://portal.qiniu.com/">qiniu</a> 七牛云</p>
+
+<p>以七牛云作图床，截屏后自动上传图片，获得外链地址</p>
+
+<!--more-->
+
+<p>环境：</p>
+<ul>
+  <li>win10</li>
+  <li>python 3.6.0</li>
+</ul>
+
+<h2 id="看图配置-sharex">看图配置 sharex</h2>
+<p><img src="http://osloqpukl.bkt.clouddn.com/201717051546-t.png" alt="sharex_upload_setting" /></p>
+
+<p>打开 shareX -&gt; 目的地 -&gt; 目的地设置 -&gt; 自定义上传（最底下）</p>
+
+<p>图片来源：<a href="http://ystyle.top/2017/07/05/share-the-use-of-qiniu-file-upload/">ShareX使用七牛文件上传 东方星痕</a></p>
+<h3 id="上传者">上传者</h3>
+<p>填入 qiniu，点击添加</p>
+<h3 id="请求-url">请求 URL</h3>
+<p>进入自己的「对象存储」-&gt; 空间设置 -&gt; 存储区域，查看自己所在地区。根据 <a href="https://developer.qiniu.com/kodo/manual/1671/region-endpoint">存储区域 - 七牛开发者中心</a> 选择自己的地址，我是华南，填入 <code class="highlighter-rouge">http://up-z2.qiniup.com</code></p>
+<h3 id="url右侧靠下">URL（右侧靠下）</h3>
+<p>自己的外链默认域名 + <code class="highlighter-rouge">$json:key$</code> -&gt; <code class="highlighter-rouge">xxxxx.bkt.clouddn.com/$json:key$</code></p>
+<h3 id="生成-token">生成 token</h3>
+<p>根据<a href="https://developer.qiniu.com/kodo/manual/1208/upload-token">上传凭证</a> 建议使用七牛的 SDK。从示例中选择自己的语言，我用的 python，进入 <a href="https://github.com/qiniu/python-sdk">qiniu/python-sdk: Qiniu Resource (Cloud) Storage SDK for Python</a>，克隆本地后安装</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ (选择一个文件夹)
+$ git clone https://github.com/qiniu/python-sdk.git
+$ cd python-sdk
+$ pip install qiniu
+</code></pre></div></div>
+
+<p>再根据 <a href="https://developer.qiniu.com/kodo/sdk/1242/python#token">Python SDK_生成上传 token</a> 拷贝代码，复制到本地，修改相应的 key</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd python-sdk
+$ touch generate_token.py  # 文件名可另取
+$ atom generate_token.py   # 编辑该文件
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">access_key = ''</code>, <code class="highlighter-rouge">secret_key = ''</code>，进入七牛 -&gt; 个人中心 -&gt; 密钥管理，复制自己的 AccessKey and SecretKey，填入</p>
+
+<p><code class="highlighter-rouge">bucket_name = ''</code> 为自己创建的 bucket 存储空间名，如 <code class="highlighter-rouge">bucket_name = 'photo'</code>，不是 URL</p>
+
+<p><code class="highlighter-rouge">key = ''</code>，我设置为 <code class="highlighter-rouge">key = None</code></p>
+
+<p>保存文件回终端，运行脚本 <code class="highlighter-rouge">python generate_token.py</code>，即可获得 token</p>
+
+<h3 id="参数">参数</h3>
+<p>在「参数」下有两个输入空框</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>左框</th>
+      <th>右框</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>token</td>
+      <td>上部生成的 token</td>
+    </tr>
+    <tr>
+      <td>key</td>
+      <td>%yy%d%h%mi%s.png</td>
+    </tr>
+    <tr>
+      <td>file</td>
+      <td>$input$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>分别输入后点击添加</p>
+
+<p>key 为上传时用的文件名，<code class="highlighter-rouge">%yy%d%h%mi%s.png</code> 是指年月日小时分钟秒，如  <code class="highlighter-rouge">20180213165812.png</code></p>
+
+<h3 id="测试">测试</h3>
+<p>都配置完后，点击左侧「图片上传」-「测试」，若测试结果返回一个正常的连接地址那就是配置成功了。</p>
+
+<p>最后，<strong>sharex -&gt; 目的地 -&gt; 图片上传 -&gt; 自定义图像上传</strong></p>
+
+<p><strong>截图后的动作 -&gt; 上传图片</strong></p>
+
+<h3 id="参考">参考</h3>
+<ul>
+  <li><a href="http://ystyle.top/2017/07/05/share-the-use-of-qiniu-file-upload/">ShareX使用七牛文件上传 东方星痕</a></li>
+  <li><a href="http://day.liuxuan.net/2017/11/use_sharex_with_qiniu/">配合使用ShaseX与七牛云 松风起兮</a></li>
+  <li><a href="https://segmentfault.com/q/1010000010508965">七牛返回 key doesn’t match with scope问题出在哪？</a></li>
+</ul>
+
+<h3 id="change-log">Change-Log</h3>
+<ul>
+  <li>查资料，尝试 3h</li>
+  <li>笔记 .7h</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://du.zoomquiet.io/2018-02/sharex-qiniu/">February 13, 2018 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
 </div>
 
 </div>
@@ -250,16 +381,16 @@
 <a href="https://bambooom.github.io/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://bambooom.github.io" title="Bambooom">bambooooooom</a>
 </li>
 <li>
-<a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" title="浚宇的博客">junyu</a>
+<a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" class="message" title="internal server error">junyu</a>
 </li>
 <li>
-<a href="https://liguanghe.github.io/rss2.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://liguanghe.github.io/" class="message" title="internal server error">li guang he</a>
+<a href="https://liguanghe.github.io/rss2.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://liguanghe.github.io/" title="Li Guanghe's blog">li guang he</a>
 </li>
 <li>
 <a href="https://mxclover.github.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://mxclover.github.io/" title="mxclover">mxclover</a>
 </li>
 <li>
-<a href="http://sumin.ink/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://sumin.ink" title="Su Min's blog">sumin</a>
+<a href="http://sumin.ink/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://sumin.ink" class="message" title="internal server error">sumin</a>
 </li>
 <li>
 <a href="http://blog.zoomquiet.io/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.zoomquiet.io/" title="">zoom.quiet</a>
@@ -268,7 +399,7 @@
 
 <p>
 <strong>Last updated:</strong><br>
-March 03, 2018 12:43 AM<br>
+March 03, 2018 08:43 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
