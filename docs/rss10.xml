@@ -13,12 +13,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://sumin.ink/2018/03/04/ThreeBillboards.html" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/03/03/WelcomeNewCreator.html" />
 			<rdf:li rdf:resource="http://sumin.ink/2018/02/23/MyFileNameRule.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://sumin.ink/2018/03/04/ThreeBillboards.html">
+	<title>sumin: 《三块广告牌》感后</title>
+	<link>http://sumin.ink/2018/03/04/ThreeBillboards.html</link>
+	<content:encoded>数据先说一些数据：从猫眼票房数据来看，《三块广告牌》昨天的拍片比是0.8%，然而上座率是53.5%。今天目测，北京 APM 百老汇首场上座率100%，后面的场次票都卖出大半。一部讲述犯罪、创伤的...</content:encoded>
+	<dc:date>2018-03-03T15:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://sumin.ink/2018/03/03/WelcomeNewCreator.html">
 	<title>sumin: CH-4 复盘笔记：欢迎你，创造者</title>
 	<link>http://sumin.ink/2018/03/03/WelcomeNewCreator.html</link>
