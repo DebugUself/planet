@@ -5,8 +5,121 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-03-08T08:43:13+00:00</updated>
+	<updated>2018-03-08T16:43:45+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry xml:lang="en-us">
+		<title type="html">hexo 多语言 blog</title>
+		<link href="http://bambooom.github.io/2018/03/08/hexo-multi-lang/"/>
+		<id>http://bambooom.github.io/2018/03/08/hexo-multi-lang/</id>
+		<updated>2018-03-08T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;虽然自己是个懒惰的 github pages + jekyll user, 连域名都懒得花钱折腾的那种, 但是其他原因折腾了一下 &lt;a href=&quot;https://hexo.io/&quot;&gt;hexo&lt;/a&gt;, 简单说下我认为比较靠谱的多语言 blog 方案.&lt;/p&gt;
+
+&lt;h2 id=&quot;需求&quot;&gt;需求&lt;/h2&gt;
+&lt;p&gt;虽说多语言, 当然先以中英文为例, 主要需求是这样的:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;目录链接等模板 text 肯定是中英文分开, 这个很容易&lt;/li&gt;
+  &lt;li&gt;中英文 posts 分开, 某些文章可能两种语言都有, 某些文章可能只有其中一种&lt;/li&gt;
+  &lt;li&gt;tag/category/archive 都是分开的
+    &lt;ul&gt;
+      &lt;li&gt;因为一开始还尝试过修改 index render 方法, 在 front-matter 里添加一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;lang: cn&lt;/code&gt; 然后在 render 的时候 filter 掉&lt;/li&gt;
+      &lt;li&gt;这样 index page 是没有问题, 但是 tag/category/archive 等地方, 一样会混在一起&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;搜索和尝试&quot;&gt;搜索和尝试&lt;/h2&gt;
+&lt;p&gt;一开始搜索一通之后, 发现&lt;a href=&quot;http://kvh.io/cn/hexo-nginx-multi-lingual.html&quot;&gt;这篇&lt;/a&gt;文章的作者和我的需求比较一致, 也感谢他的折腾, 我节省了尝试 hexo-generator-i18n 和 hexo-multilingual 插件的时间.&lt;/p&gt;
+
+&lt;p&gt;但对于&lt;a href=&quot;https://hexo.io/docs/internationalization.html&quot;&gt;官方国际化机制&lt;/a&gt;也 failed, 我表示有一丝丝怀疑, hexo 自己的网站也是用自己的 dogfood 建出来的, 怎么人家有辣么多种语言呢?&lt;/p&gt;
+
+&lt;p&gt;仔细看了下它&lt;a href=&quot;https://github.com/hexojs/site&quot;&gt;自己网站的代码&lt;/a&gt;和&lt;a href=&quot;https://github.com/hexojs/hexojs.github.io&quot;&gt;编译生成的结果&lt;/a&gt;, 发现它是这样的:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;source&lt;/code&gt; 文件夹下面, 每种语言一个文件夹&lt;/li&gt;
+  &lt;li&gt;这个语言文件夹下, 首先有一个 &lt;a href=&quot;https://github.com/hexojs/site/blob/master/source/zh-cn/index.jade&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;index.jade&lt;/code&gt;&lt;/a&gt; 页面, 按照它网站的设计, 主页只是一个 landing page, 所以没有什么特别的&lt;/li&gt;
+  &lt;li&gt;除此之外就是 &lt;a href=&quot;https://github.com/hexojs/site/tree/master/source/zh-cn&quot;&gt;api 和 docs 两个文件夹&lt;/a&gt; 放着翻译好的 md 文档&lt;/li&gt;
+  &lt;li&gt;按照官网的设计, 只有这两个类别里面的文档需要多语言翻译, 另外三个 menu, 一个是 release news 用的, 一个是展示 plugins 用的, 一个是展示 theme 用的, 都并没有也不需要翻译&lt;/li&gt;
+  &lt;li&gt;另外, 官网的文档也并不使用 tag/category/archive, 因为有一个 algolia 搜索&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以结论很明显: 用官方方案的确不能满足需求.&lt;/p&gt;
+
+&lt;h2 id=&quot;所以用-npm-script-咯&quot;&gt;所以用 npm script 咯&lt;/h2&gt;
+&lt;p&gt;前面&lt;a href=&quot;http://kvh.io/cn/hexo-nginx-multi-lingual.html&quot;&gt;那篇 post&lt;/a&gt; 建两个文件夹再加 nginx 代理的方法, 我觉得是靠谱的, 但是一个问题是, 作者是分开两个仓库进行更新的, 那么会导致如果想要改样式和 layout, 那就需要再两个仓库里分别更新, 这个是绝对很蛋疼的. 
+实际上作者的中英文网站的确在布局上不完全一样.&lt;/p&gt;
+
+&lt;p&gt;我一定希望只有一个仓库, 所以自己尝试了以下方法:&lt;/p&gt;
+
+&lt;h3 id=&quot;_configyml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://yoursite.com/&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/en&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;en&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;public_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;public/en&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;其余的就不说了, 先设置默认的 language 是英文, 生成在 &lt;code class=&quot;highlighter-rouge&quot;&gt;public/en&lt;/code&gt; 路径下&lt;/p&gt;
+
+&lt;h3 id=&quot;_configcnyml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.cn.yml&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;zh-CN&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/cn&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;public_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;public/cn&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;我另外单独创建了一个中文专用的 config 文件, 她可以只有上面几行.&lt;/p&gt;
+
+&lt;h3 id=&quot;文件夹&quot;&gt;文件夹&lt;/h3&gt;
+&lt;p&gt;在根目录下分别创建 &lt;code class=&quot;highlighter-rouge&quot;&gt;en&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;cn&lt;/code&gt; 目录来分别存放中英文 post&lt;/p&gt;
+
+&lt;h3 id=&quot;scripts-上&quot;&gt;scripts 上&lt;/h3&gt;
+&lt;p&gt;其实想法非常简单, 每次 build 的时候, 如果是英文 blog, 则将 &lt;code class=&quot;highlighter-rouge&quot;&gt;en&lt;/code&gt; 下的 posts 复制到 &lt;code class=&quot;highlighter-rouge&quot;&gt;source/_posts&lt;/code&gt; 下,
+也就是正常添加文章的地方, 然后再编译生成.&lt;/p&gt;
+
+&lt;p&gt;简单来说就是:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cp &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; en/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;/_posts &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; hexo generate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这样, 在 public 下生成了 &lt;code class=&quot;highlighter-rouge&quot;&gt;en&lt;/code&gt; 文件夹包含了所有英文 blog.&lt;/p&gt;
+
+&lt;p&gt;中文 blog 类似, 不一样的地方是将 &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.cn.yml&lt;/code&gt; 派上用处咯, 所幸 hexo 提供了一个 &lt;a href=&quot;https://hexo.io/docs/configuration.html#Using-an-Alternate-Config&quot;&gt;alternate config&lt;/a&gt; 的功能.
+也就是说你可以选择当前使用哪一个 config 文件, 或者使用多个 config 文件. 
+这样就可以用 &lt;code class=&quot;highlighter-rouge&quot;&gt;hexo server --config _config.yml,_config.cn.yml&lt;/code&gt; 这种命令来打造中文 blog 所需要的 config.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.cn.yml&lt;/code&gt; 放在后面才能覆盖掉英文 blog 的设置.&lt;/p&gt;
+
+&lt;p&gt;所以中文 blog 的 build 就是:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cp &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; en/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;/_posts &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; hexo generate &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; _config.yml,_config.cn.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这样, 在 public 下就会有 en 和 cn 两个样式一致但内容完全分开的 blog, 直接将 public 丢到 github pages 或者 netlify 之类可以 serve 静态网页
+或者自己的服务器上跑一下 nginx, 就 over 了.&lt;/p&gt;
+
+&lt;p&gt;一个小问题是这样, 如果没有自己的服务器, 就简单丢到 netlify 类型的网站上 serve 的话, 可能必须直接到 &lt;code class=&quot;highlighter-rouge&quot;&gt;http://yoursite.com/en/&lt;/code&gt; 或者 &lt;code class=&quot;highlighter-rouge&quot;&gt;http://yoursite.com/cn/&lt;/code&gt; 才能正常访问.
+这里一个小小的 hack 是这样, 加一个空白的 &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; 在 public 下, 根据浏览器的默认语言选择直接改一下 location redirect 到 &lt;code class=&quot;highlighter-rouge&quot;&gt;/en/&lt;/code&gt;
+或者 &lt;code class=&quot;highlighter-rouge&quot;&gt;/cn/&lt;/code&gt; 上即可.&lt;/p&gt;
+
+&lt;p&gt;最后 npm script 可以设置成这样:&lt;/p&gt;
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s2&quot;&gt;&quot;build:en&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rm -rf source/_posts/* &amp;amp;&amp;amp; cp -r en/* source/_posts &amp;amp;&amp;amp; hexo generate &amp;amp;&amp;amp; rm -rf source/_posts/*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;build:cn&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rm -rf source/_posts/* &amp;amp;&amp;amp; cp -r cn/* source/_posts &amp;amp;&amp;amp; hexo generate --config _config.yml,_config.cn.yml &amp;amp;&amp;amp; rm -rf source/_posts/*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rm -rf public &amp;amp;&amp;amp; npm run build:en &amp;amp;&amp;amp; npm run build:cn &amp;amp;&amp;amp; cp index.html public/&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;当然不用 npm script, 用 Makefile 也同样可以达到目的.
+以及这个方法即使有其他更多语言都可以 hold 住了. 🤟🏻🖖🏻&lt;/p&gt;</content>
+		<author>
+			<name>bambooom</name>
+			<email>zhuzi.mn@gmail.com</email>
+			<uri>http://bambooom.github.io</uri>
+		</author>
+		<source>
+			<title type="html">Bambooom</title>
+			<subtitle type="html">Personal Blog of Bambooom</subtitle>
+			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
+			<id>https://bambooom.github.io/feed.xml</id>
+			<updated>2018-03-08T16:43:04+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">《三块广告牌》感后</title>
@@ -33,25 +146,6 @@
 		<id>http://sumin.ink/2018/03/03/WelcomeNewCreator.html</id>
 		<updated>2018-03-02T15:00:00+00:00</updated>
 		<content type="html">欢迎你，创造者18年1月最后一天，临危受命去出差，在10个小时的往返高铁上，复习“探索开智新世界”卡包，居然没有看完，这可是最基础的卡包啊。其实这个卡包，在17年加入部落时，我都看过了，大部分的...</content>
-		<author>
-			<name>sumin</name>
-			<uri>http://sumin.ink</uri>
-		</author>
-		<source>
-			<title type="html">Su Min's blog</title>
-			<subtitle type="html">My blog</subtitle>
-			<link rel="self" href="http://sumin.ink/feed.xml"/>
-			<id>http://sumin.ink/feed.xml</id>
-			<updated>2018-03-04T16:44:51+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">喵酱的命名规约</title>
-		<link href="http://sumin.ink/2018/02/23/MyFileNameRule.html"/>
-		<id>http://sumin.ink/2018/02/23/MyFileNameRule.html</id>
-		<updated>2018-02-22T15:00:00+00:00</updated>
-		<content type="html">参考资料      Ishanshan博客        开智学堂资源、经验共享库        大妈怼圈大妈博客  喵酱的命名规约17 年底,用 Word 来写需求文档，于是就出现了保存了 N...</content>
 		<author>
 			<name>sumin</name>
 			<uri>http://sumin.ink</uri>
