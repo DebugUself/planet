@@ -39,6 +39,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>duw</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>junyu</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.junyu.io/">
@@ -82,6 +95,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://sumin.ink">
 					<dc:title>Su Min's blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>zoejane</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://localhost:1313/">
+					<dc:title>Zoe Jane</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
