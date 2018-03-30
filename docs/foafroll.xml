@@ -41,8 +41,8 @@
 		<foaf:Agent>
 			<foaf:name>duw</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://duw.netlify.com/">
+					<dc:title>DUW</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
