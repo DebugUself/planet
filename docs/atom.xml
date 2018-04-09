@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-04-09T00:42:21+00:00</updated>
+	<updated>2018-04-09T08:42:28+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">临别小语</title>
+		<link href="http://liguanghe.github.io/2018/04/09/NZending/"/>
+		<id>http://liguanghe.github.io/2018/04/09/NZending/</id>
+		<updated>2018-04-09T05:45:32+00:00</updated>
+		<content type="html">&lt;p&gt;“每个人都有一个家乡, 或许不是你的出生地, 你要去寻找, 那个你愿意住在那里, 死在那里的地方.”&lt;/p&gt;
+&lt;h2 id=&quot;对新西兰的印象&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#对新西兰的印象&quot; class=&quot;headerlink&quot; title=&quot;对新西兰的印象?&quot;&gt;&lt;/a&gt;对新西兰的印&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-04-09T08:42:19+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">站在 1910 年 -《中文的常态与变态》读书笔记</title>
