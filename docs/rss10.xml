@@ -13,13 +13,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/17/TimeReport2018/" />
 			<rdf:li rdf:resource="http://bambooom.github.io/2018/04/11/elementfrompoint-text-element/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/09/NZending/" />
-			<rdf:li rdf:resource="http://sumin.ink/2018/04/05/TranditionalChinese.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/04/17/TimeReport2018/">
+	<title>li guang he</title>
+	<link>http://liguanghe.github.io/2018/04/17/TimeReport2018/</link>
+	<content:encoded>Bokeh Plot</content:encoded>
+	<dc:date>2018-04-17T02:53:41+00:00</dc:date>
+</item>
 <item rdf:about="http://bambooom.github.io/2018/04/11/elementfrompoint-text-element/">
 	<title>bambooooooom: elementFromPoint of text element</title>
 	<link>http://bambooom.github.io/2018/04/11/elementfrompoint-text-element/</link>
@@ -51,12 +57,6 @@
 	<content:encoded>&lt;p&gt;“每个人都有一个家乡, 或许不是你的出生地, 你要去寻找, 那个你愿意住在那里, 死在那里的地方.”&lt;/p&gt;
 &lt;h2 id=&quot;对新西兰的印象&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#对新西兰的印象&quot; class=&quot;headerlink&quot; title=&quot;对新西兰的印象?&quot;&gt;&lt;/a&gt;对新西兰的印&lt;/h2&gt;</content:encoded>
 	<dc:date>2018-04-09T05:45:32+00:00</dc:date>
-</item>
-<item rdf:about="http://sumin.ink/2018/04/05/TranditionalChinese.html">
-	<title>sumin: 站在 1910 年 -《中文的常态与变态》读书笔记</title>
-	<link>http://sumin.ink/2018/04/05/TranditionalChinese.html</link>
-	<content:encoded>此文章为余光中《翻译乃大道》中《中文的常态与变态》一文的读书笔记。让我知道了，我的中文原来这么烂。站在 1910 年前几天，还在和朋友讨论是否部分恢复文言文，而今天读完《中文的常态与变态》，想把...</content:encoded>
-	<dc:date>2018-04-04T15:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
