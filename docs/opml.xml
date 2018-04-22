@@ -2,8 +2,8 @@
 <opml version="1.1">
 	<head>
 		<title>Planet DebugUself</title>
-		<dateCreated>Sun, 22 Apr 2018 08:42:20 +0000</dateCreated>
-		<dateModified>Sun, 22 Apr 2018 08:42:20 +0000</dateModified>
+		<dateCreated>Sun, 22 Apr 2018 16:42:34 +0000</dateCreated>
+		<dateModified>Sun, 22 Apr 2018 16:42:34 +0000</dateModified>
 		<ownerName>Zoom Quiet</ownerName>
 		<ownerEmail>zoo.mquiet@gmail.com</ownerEmail>
 	</head>
@@ -15,7 +15,7 @@
 		<outline text="li guang he" xmlUrl="https://liguanghe.github.io/rss2.xml"/>
 		<outline text="mxclover" xmlUrl="https://mxclover.github.io/atom.xml"/>
 		<outline text="sumin" xmlUrl="http://sumin.ink/feed.xml"/>
-		<outline text="zoejane" xmlUrl="http://zoejane.netlify.com/index.xml"/>
+		<outline text="zoejane" xmlUrl="https://zoejane.netlify.com/index.xml"/>
 		<outline text="zoom.quiet" xmlUrl="http://blog.zoomquiet.io/feeds/all.atom.xml"/>
 	</body>
 </opml>
