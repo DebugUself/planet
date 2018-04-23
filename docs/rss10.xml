@@ -13,6 +13,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZHamilton/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZTaupo/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZseason/" />
 			<rdf:li rdf:resource="http://localhost:1313/post/20180422-magical-should-thinking/" />
 			<rdf:li rdf:resource="http://localhost:1313/post/hello-world/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/17/TimeReport2018/" />
@@ -20,6 +23,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/04/23/NZHamilton/">
+	<title>li guang he: 一路向北(8)汉密尔顿</title>
+	<link>http://liguanghe.github.io/2018/04/23/NZHamilton/</link>
+	<content:encoded>&lt;p&gt;有小伙伴说去汉密尔顿一次, 可以将收藏的新西兰必去清单划去一大半. 我也因此定了在那里两天, 无奈先生不想去淮托默的萤火虫洞, 也不想去霍比特村. 于是这两天我们仍旧是住在 Airbnb, 逛过汉密尔顿花园, 当时拍了很多照片, 现在翻回来去觉得没什么好发布的, 说是各地公&lt;/p&gt;</content:encoded>
+	<dc:date>2018-04-23T07:15:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2018/04/23/NZTaupo/">
+	<title>li guang he: 一路向北(7) 陶波美墅</title>
+	<link>http://liguanghe.github.io/2018/04/23/NZTaupo/</link>
+	<content:encoded>&lt;p&gt;自从识得Airbnb, 与人同行就不再住旅馆, 平摊到个人的住宿费少于青旅, 物美价廉. 尤其是新西兰, 地广人稀, 处处自然风光, 屋主优雅大方, 将房内布置特色且美丽, 开大窗, 阳光和美景就这样映进来, 配合着新鲜的食物和精致的餐具, 学屋主做两天生活家. &lt;/p&gt;</content:encoded>
+	<dc:date>2018-04-23T06:45:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2018/04/23/NZseason/">
+	<title>li guang he: NZ Four Seasons to Me 四季于我</title>
+	<link>http://liguanghe.github.io/2018/04/23/NZseason/</link>
+	<content:encoded>&lt;h2 id=&quot;冬来-Came-in-Winter&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#冬来-Came-in-Winter&quot; class=&quot;headerlink&quot; title=&quot;冬来 Came in Winter&quot;&gt;&lt;/a&gt;冬来 Came in Winter&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-04-23T05:45:32+00:00</dc:date>
+</item>
 <item rdf:about="http://localhost:1313/post/20180422-magical-should-thinking/">
 	<title>zoejane: Learn to Say Goodbye to Magical Should Thinking</title>
 	<link>http://localhost:1313/post/20180422-magical-should-thinking/</link>
