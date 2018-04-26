@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/26/NZAuckland/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZHamilton/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZTaupo/" />
@@ -24,6 +25,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/">
+	<title>li guang he: 巧用调查表单让敲定产品配置更快</title>
+	<link>http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/</link>
+	<content:encoded>&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNc79gy1fqqebsbn49j316e0w27ey.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;背景&quot;&gt;&lt;/h2&gt;</content:encoded>
+	<dc:date>2018-04-26T13:35:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/04/26/NZAuckland/">
 	<title>li guang he: 一路向北(9)奥克兰印象</title>
 	<link>http://liguanghe.github.io/2018/04/26/NZAuckland/</link>
