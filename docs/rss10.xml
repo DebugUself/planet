@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/26/NZAuckland/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZHamilton/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZTaupo/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/23/NZseason/" />
@@ -23,6 +24,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/04/26/NZAuckland/">
+	<title>li guang he: 一路向北(9)奥克兰印象</title>
+	<link>http://liguanghe.github.io/2018/04/26/NZAuckland/</link>
+	<content:encoded>&lt;p&gt;奥克兰市中心很拥挤, 因为预算有限, 没吃到好吃的馆子. 属于奥克兰大区的周边小镇还不错, 有镇中心. 也有海滩.&lt;/p&gt;
+&lt;p&gt;市中心的青旅没有停车位. 有一家有停车位的BBH, 很简陋, 不舒服 at all.&lt;br /&gt;没在这里工作过. 在奥克兰工作的小伙伴蛮多的, 如果&lt;/p&gt;</content:encoded>
+	<dc:date>2018-04-26T02:15:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/04/23/NZHamilton/">
 	<title>li guang he: 一路向北(8)汉密尔顿</title>
 	<link>http://liguanghe.github.io/2018/04/23/NZHamilton/</link>

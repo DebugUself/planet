@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-04-26T00:42:28+00:00</updated>
+	<updated>2018-04-26T08:42:44+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">一路向北(9)奥克兰印象</title>
+		<link href="http://liguanghe.github.io/2018/04/26/NZAuckland/"/>
+		<id>http://liguanghe.github.io/2018/04/26/NZAuckland/</id>
+		<updated>2018-04-26T02:15:32+00:00</updated>
+		<content type="html">&lt;p&gt;奥克兰市中心很拥挤, 因为预算有限, 没吃到好吃的馆子. 属于奥克兰大区的周边小镇还不错, 有镇中心. 也有海滩.&lt;/p&gt;
+&lt;p&gt;市中心的青旅没有停车位. 有一家有停车位的BBH, 很简陋, 不舒服 at all.&lt;br /&gt;没在这里工作过. 在奥克兰工作的小伙伴蛮多的, 如果&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-04-26T08:42:17+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">一路向北(8)汉密尔顿</title>
@@ -22,7 +41,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-23T16:42:18+00:00</updated>
+			<updated>2018-04-26T08:42:17+00:00</updated>
 		</source>
 	</entry>
 
@@ -40,7 +59,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-23T16:42:18+00:00</updated>
+			<updated>2018-04-26T08:42:17+00:00</updated>
 		</source>
 	</entry>
 
@@ -58,7 +77,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-23T16:42:18+00:00</updated>
+			<updated>2018-04-26T08:42:17+00:00</updated>
 		</source>
 	</entry>
 
@@ -150,7 +169,7 @@ I will try to practice more.&lt;/p&gt;
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-23T16:42:18+00:00</updated>
+			<updated>2018-04-26T08:42:17+00:00</updated>
 		</source>
 	</entry>
 
