@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-04-27T08:42:28+00:00</updated>
+	<updated>2018-04-27T16:42:29+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">当自怼成为生活方式</title>
+		<link href="http://liguanghe.github.io/2018/04/27/Review2017/"/>
+		<id>http://liguanghe.github.io/2018/04/27/Review2017/</id>
+		<updated>2018-04-27T12:26:32+00:00</updated>
+		<content type="html">&lt;p&gt;2017年4月1日, 我开始时间记录和加入自怼圈, 那时以为只是参加了一个继续学习编程的项目, 却没想到它与我的生活/思维方式融为一体. 生活中的每个项目, 都有体现. 下面这篇是怼圈快到一周年时, 我的进步小结. &lt;/p&gt;
+&lt;h2 id=&quot;最好的学习方法&quot;&gt;&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-04-27T16:42:16+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">巧用调查表单让敲定产品配置更快</title>
@@ -23,7 +42,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-26T16:42:17+00:00</updated>
+			<updated>2018-04-27T16:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -42,7 +61,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-26T16:42:17+00:00</updated>
+			<updated>2018-04-27T16:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -60,7 +79,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-26T16:42:17+00:00</updated>
+			<updated>2018-04-27T16:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -78,7 +97,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-26T16:42:17+00:00</updated>
+			<updated>2018-04-27T16:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -96,7 +115,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-26T16:42:17+00:00</updated>
+			<updated>2018-04-27T16:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -149,7 +168,7 @@ I will try to practice more.&lt;/p&gt;
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-04-27T08:42:28+00:00</updated>
+			<updated>2018-04-27T16:42:28+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>
@@ -169,26 +188,8 @@ I will try to practice more.&lt;/p&gt;
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-04-27T08:42:28+00:00</updated>
+			<updated>2018-04-27T16:42:28+00:00</updated>
 			<rights type="html">life is wonderful</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html"></title>
-		<link href="http://liguanghe.github.io/2018/04/17/TimeReport2018/"/>
-		<id>http://liguanghe.github.io/2018/04/17/TimeReport2018/</id>
-		<updated>2018-04-17T02:53:41+00:00</updated>
-		<content type="html">Bokeh Plot</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-26T16:42:17+00:00</updated>
 		</source>
 	</entry>
 
