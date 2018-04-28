@@ -5,8 +5,29 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-04-28T00:42:27+00:00</updated>
+	<updated>2018-04-28T08:42:23+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">域外生活录回顾</title>
+		<link href="http://liguanghe.github.io/2018/04/28/ReviewNZS11/"/>
+		<id>http://liguanghe.github.io/2018/04/28/ReviewNZS11/</id>
+		<updated>2018-04-28T03:00:32+00:00</updated>
+		<content type="html">&lt;p&gt;以下是根据过去10个月, S11(每个S是4周), 每月发布的记录, 及最终完成情况的一个线性记录. 根据这个线性记录, 要进行进一步的总结和建议. &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;milestone (仿怼圈 milestone 又 寸 心)&lt;/p&gt;
+&lt;p&gt;域外 新西兰 &lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-04-28T08:42:15+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">当自怼成为生活方式</title>
@@ -23,7 +44,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-27T16:42:16+00:00</updated>
+			<updated>2018-04-28T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -42,7 +63,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-27T16:42:16+00:00</updated>
+			<updated>2018-04-28T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -61,7 +82,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-27T16:42:16+00:00</updated>
+			<updated>2018-04-28T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -79,7 +100,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-27T16:42:16+00:00</updated>
+			<updated>2018-04-28T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -97,7 +118,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-27T16:42:16+00:00</updated>
+			<updated>2018-04-28T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -115,7 +136,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-04-27T16:42:16+00:00</updated>
+			<updated>2018-04-28T08:42:15+00:00</updated>
 		</source>
 	</entry>
 
@@ -168,7 +189,7 @@ I will try to practice more.&lt;/p&gt;
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-04-27T16:42:28+00:00</updated>
+			<updated>2018-04-28T08:42:22+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>
@@ -188,7 +209,7 @@ I will try to practice more.&lt;/p&gt;
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-04-27T16:42:28+00:00</updated>
+			<updated>2018-04-28T08:42:22+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>
