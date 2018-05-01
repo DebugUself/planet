@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/01/LawDivorce/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/28/ReviewNZS11/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/27/Review2017/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/" />
@@ -26,6 +27,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/05/01/LawDivorce/">
+	<title>li guang he: 法律小常识 - 有子女的离婚协议怎么写</title>
+	<link>http://liguanghe.github.io/2018/05/01/LawDivorce/</link>
+	<content:encoded>&lt;p&gt;曾在法院少年庭工作, 有朋友来咨询离婚协议怎么写, 这里给出注意事项和模板. &lt;/p&gt;
+&lt;p&gt;民政局会给&lt;a href=&quot;http://www.66law.cn/laws/89477.aspx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;离婚协议书模板&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-05-01T13:32:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/04/28/ReviewNZS11/">
 	<title>li guang he: 域外生活录回顾</title>
 	<link>http://liguanghe.github.io/2018/04/28/ReviewNZS11/</link>
