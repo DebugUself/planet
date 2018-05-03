@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-05-03T08:42:26+00:00</updated>
+	<updated>2018-05-03T16:42:32+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">一路向北(10) 北面以北</title>
+		<link href="http://liguanghe.github.io/2018/05/03/NzNorth/"/>
+		<id>http://liguanghe.github.io/2018/05/03/NzNorth/</id>
+		<updated>2018-05-03T13:15:32+00:00</updated>
+		<content type="html">&lt;p&gt;送先生在奥克兰机场起飞, 没了每天两小时的开车限令, 路途随意起来, 没有事先订住宿, 到了下一站, 跟房主聊聊哪里好玩, 再看看 Airbnb 的房子有合适的就定下来, 住在哪里就到附近看看. 目标是新西兰最北 - 雷恩加角.&lt;/p&gt;
+&lt;p&gt;奥克兰北面的人口密度或许与南岛&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-05-03T16:42:20+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">法律小常识 - 有子女的离婚协议怎么写</title>
@@ -23,7 +42,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
+			<updated>2018-05-03T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -44,7 +63,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
+			<updated>2018-05-03T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -63,7 +82,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
+			<updated>2018-05-03T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -82,7 +101,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
+			<updated>2018-05-03T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -101,135 +120,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">一路向北(8)汉密尔顿</title>
-		<link href="http://liguanghe.github.io/2018/04/23/NZHamilton/"/>
-		<id>http://liguanghe.github.io/2018/04/23/NZHamilton/</id>
-		<updated>2018-04-23T07:15:32+00:00</updated>
-		<content type="html">&lt;p&gt;有小伙伴说去汉密尔顿一次, 可以将收藏的新西兰必去清单划去一大半. 我也因此定了在那里两天, 无奈先生不想去淮托默的萤火虫洞, 也不想去霍比特村. 于是这两天我们仍旧是住在 Airbnb, 逛过汉密尔顿花园, 当时拍了很多照片, 现在翻回来去觉得没什么好发布的, 说是各地公&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">一路向北(7) 陶波美墅</title>
-		<link href="http://liguanghe.github.io/2018/04/23/NZTaupo/"/>
-		<id>http://liguanghe.github.io/2018/04/23/NZTaupo/</id>
-		<updated>2018-04-23T06:45:32+00:00</updated>
-		<content type="html">&lt;p&gt;自从识得Airbnb, 与人同行就不再住旅馆, 平摊到个人的住宿费少于青旅, 物美价廉. 尤其是新西兰, 地广人稀, 处处自然风光, 屋主优雅大方, 将房内布置特色且美丽, 开大窗, 阳光和美景就这样映进来, 配合着新鲜的食物和精致的餐具, 学屋主做两天生活家. &lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">NZ Four Seasons to Me 四季于我</title>
-		<link href="http://liguanghe.github.io/2018/04/23/NZseason/"/>
-		<id>http://liguanghe.github.io/2018/04/23/NZseason/</id>
-		<updated>2018-04-23T05:45:32+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;冬来-Came-in-Winter&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#冬来-Came-in-Winter&quot; class=&quot;headerlink&quot; title=&quot;冬来 Came in Winter&quot;&gt;&lt;/a&gt;冬来 Came in Winter&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-03T08:42:17+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="en">
-		<title type="html">Learn to Say Goodbye to Magical Should Thinking</title>
-		<link href="http://localhost:1313/post/20180422-magical-should-thinking/"/>
-		<id>http://localhost:1313/post/20180422-magical-should-thinking/</id>
-		<updated>2018-04-22T03:23:18+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;if you constantly tell yourself you should be better, or should be doing more, or should magically know how to do things without practice, then you’re going about it all wrong. I work crazy hard at the things I want to be good at and I don’t expect to be an expert in them without a lot of work, and possibly never in my lifetime. I don’t tell myself I should be better at painting. I just paint, and then figure out how I can do better the next time. Too often though I see people who, despite not investing any time in learning to code, have this unrealistic idea that they should be better at it. They should just know how to code a small project from nothing.
-- &lt;a href=&quot;https://forum.learncodethehardway.com/t/help-wanted-on-showing-up-everyday/60/4&quot;&gt;Zed Shaw&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think the &amp;lsquo;Magical Should Thinking&amp;rsquo; is just what I did for a long time. And that&amp;rsquo;s the reason why I always feel upset when I learning programming or music or just anything else.
-I thought I should do better, I should do more. But actually, I can&amp;rsquo;t make it. I blame myself, I think maybe I could not make it forever, then I just wanna give up.&lt;/p&gt;
-
-&lt;p&gt;So what I could learn from Zed?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just do it, just practice, keep on practicing&lt;/li&gt;
-&lt;li&gt;Focus on how I can do better the next time&lt;/li&gt;
-&lt;li&gt;Even if I make something that&amp;rsquo;s not good, that&amp;rsquo;s ok. I just need more practice. it&amp;rsquo;s just an opportunity that I could improve myself.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What could I practice now?&lt;/p&gt;
-
-&lt;p&gt;Today I try to start to write my English blog now. Even if seems hard to me, but I will try. Try to write down some simple sentences, try to write down my thoughts.
-At first, I could only write down one simple paragraph this morning. But in the evening, I never thought I could write down so many words.
-I even searched for some podcasts to improve my English this afternoon and maybe I will write some notes on learning English, too.&lt;/p&gt;
-
-&lt;p&gt;If I worried about I could not write a good English blog, then I would not try to take the tiny step to write down my first paragraph, then all these things will not happen.
-I am happy to experience that, if I start to do it, I could find more joy and interesting changes that I never thought before.&lt;/p&gt;
-
-&lt;p&gt;I wanna celebrate my first start.
-And I am happy that I could meet Zed Shaw, he gave me a lot of encouragement and inspiration.
-I will try to practice more.&lt;/p&gt;
-
-&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;20180422 zoejane update - 31 mins&lt;/li&gt;
-&lt;li&gt;20180422 zoejane init first paragraph - 20 mins&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>zoejane</name>
-			<uri>http://localhost:1313/</uri>
-		</author>
-		<source>
-			<title type="html">Zoe Jane</title>
-			<subtitle type="html">Recent content on Zoe Jane</subtitle>
-			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
-			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-05-03T08:42:25+00:00</updated>
-			<rights type="html">life is wonderful</rights>
-		</source>
-	</entry>
-
-	<entry xml:lang="en">
-		<title type="html">Hello World</title>
-		<link href="http://localhost:1313/post/hello-world/"/>
-		<id>http://localhost:1313/post/hello-world/</id>
-		<updated>2018-04-22T02:45:48+00:00</updated>
-		<content type="html">&lt;p&gt;Hello world!&lt;/p&gt;</content>
-		<author>
-			<name>zoejane</name>
-			<uri>http://localhost:1313/</uri>
-		</author>
-		<source>
-			<title type="html">Zoe Jane</title>
-			<subtitle type="html">Recent content on Zoe Jane</subtitle>
-			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
-			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-05-03T08:42:25+00:00</updated>
-			<rights type="html">life is wonderful</rights>
+			<updated>2018-05-03T16:42:20+00:00</updated>
 		</source>
 	</entry>
 
