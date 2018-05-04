@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/04/ReviewNZSum/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/03/NzNorth/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/01/LawDivorce/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/28/ReviewNZS11/" />
@@ -23,6 +24,12 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/05/04/ReviewNZSum/">
+	<title>li guang he: 域外生活完成度</title>
+	<link>http://liguanghe.github.io/2018/05/04/ReviewNZSum/</link>
+	<content:encoded>&lt;p&gt;过去10个28天,每个28天开始时都会设立并发布计划, 并跟踪完成程度. 上一篇&lt;a href=&quot;https://liguanghe.github.io/2018/04/28/ReviewNZS11/&quot;&gt;域外生活录回顾 | Li Guanghe’s blog&lt;/a&gt;将这28&lt;/p&gt;</content:encoded>
+	<dc:date>2018-05-04T05:00:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/05/03/NzNorth/">
 	<title>li guang he: 一路向北(10) 北面以北</title>
 	<link>http://liguanghe.github.io/2018/05/03/NzNorth/</link>
