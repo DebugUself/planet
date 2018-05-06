@@ -13,17 +13,35 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/" />
+			<rdf:li rdf:resource="http://blog.zoejane.net/about/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/04/ReviewNZSum/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/03/NzNorth/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/01/LawDivorce/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/28/ReviewNZS11/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/27/Review2017/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/04/26/NZAuckland/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/">
+	<title>li guang he: 周会 -- 组织中最最重要的一环</title>
+	<link>http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/</link>
+	<content:encoded>&lt;p&gt;怼圈是一个线上组织, 每周一次雷打不动的线上会议, 已经一年有余. 在没有工资/没有线下利益的情况下, 全靠成员自发, 能够持续这么久, 够神奇, 足以供其他组织借鉴. &lt;/p&gt;
+&lt;p&gt;一个持续/有效的周会, 代表了这个组织的什么呢? &lt;/p&gt;
+&lt;h2 id=&quot;温度&quot;&gt;&lt;/h2&gt;</content:encoded>
+	<dc:date>2018-05-06T05:02:32+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.zoejane.net/about/">
+	<title>zoejane: 关于</title>
+	<link>http://blog.zoejane.net/about/</link>
+	<content:encoded>&lt;h1 id=&quot;zoe-jane&quot;&gt;Zoe Jane&lt;/h1&gt;
+
+&lt;p&gt;喜欢音乐&lt;br /&gt;
+探索编程&lt;/p&gt;</content:encoded>
+	<dc:date>2018-05-06T04:38:52+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/05/04/ReviewNZSum/">
 	<title>li guang he: 域外生活完成度</title>
 	<link>http://liguanghe.github.io/2018/05/04/ReviewNZSum/</link>
@@ -66,13 +84,6 @@
 	<content:encoded>&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNc79gy1fqqebsbn49j316e0w27ey.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;背景&quot;&gt;&lt;/h2&gt;</content:encoded>
 	<dc:date>2018-04-26T13:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/04/26/NZAuckland/">
-	<title>li guang he: 一路向北(9)奥克兰印象</title>
-	<link>http://liguanghe.github.io/2018/04/26/NZAuckland/</link>
-	<content:encoded>&lt;p&gt;奥克兰市中心很拥挤, 因为预算有限, 没吃到好吃的馆子. 属于奥克兰大区的周边小镇还不错, 有镇中心. 也有海滩.&lt;/p&gt;
-&lt;p&gt;市中心的青旅没有停车位. 有一家有停车位的BBH, 很简陋, 不舒服 at all.&lt;br /&gt;没在这里工作过. 在奥克兰工作的小伙伴蛮多的, 如果&lt;/p&gt;</content:encoded>
-	<dc:date>2018-04-26T02:15:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>

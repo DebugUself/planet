@@ -5,8 +5,51 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-05-06T00:42:21+00:00</updated>
+	<updated>2018-05-06T08:42:23+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">周会 -- 组织中最最重要的一环</title>
+		<link href="http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/"/>
+		<id>http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/</id>
+		<updated>2018-05-06T05:02:32+00:00</updated>
+		<content type="html">&lt;p&gt;怼圈是一个线上组织, 每周一次雷打不动的线上会议, 已经一年有余. 在没有工资/没有线下利益的情况下, 全靠成员自发, 能够持续这么久, 够神奇, 足以供其他组织借鉴. &lt;/p&gt;
+&lt;p&gt;一个持续/有效的周会, 代表了这个组织的什么呢? &lt;/p&gt;
+&lt;h2 id=&quot;温度&quot;&gt;&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-05-06T08:42:16+00:00</updated>
+		</source>
+	</entry>
+
+	<entry xml:lang="zh-cn">
+		<title type="html">关于</title>
+		<link href="http://blog.zoejane.net/about/"/>
+		<id>http://blog.zoejane.net/about/</id>
+		<updated>2018-05-06T04:38:52+00:00</updated>
+		<content type="html">&lt;h1 id=&quot;zoe-jane&quot;&gt;Zoe Jane&lt;/h1&gt;
+
+&lt;p&gt;喜欢音乐&lt;br /&gt;
+探索编程&lt;/p&gt;</content>
+		<author>
+			<name>zoejane</name>
+			<uri>http://blog.zoejane.net/</uri>
+		</author>
+		<source>
+			<title type="html">Zoe Jane</title>
+			<subtitle type="html">Recent content on Zoe Jane</subtitle>
+			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
+			<id>https://zoejane.netlify.com/index.xml</id>
+			<updated>2018-05-06T08:42:23+00:00</updated>
+			<rights type="html">life is wonderful</rights>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">域外生活完成度</title>
@@ -22,7 +65,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
+			<updated>2018-05-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -41,7 +84,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
+			<updated>2018-05-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -60,7 +103,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
+			<updated>2018-05-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -81,7 +124,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
+			<updated>2018-05-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -100,7 +143,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
+			<updated>2018-05-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 
@@ -119,26 +162,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">一路向北(9)奥克兰印象</title>
-		<link href="http://liguanghe.github.io/2018/04/26/NZAuckland/"/>
-		<id>http://liguanghe.github.io/2018/04/26/NZAuckland/</id>
-		<updated>2018-04-26T02:15:32+00:00</updated>
-		<content type="html">&lt;p&gt;奥克兰市中心很拥挤, 因为预算有限, 没吃到好吃的馆子. 属于奥克兰大区的周边小镇还不错, 有镇中心. 也有海滩.&lt;/p&gt;
-&lt;p&gt;市中心的青旅没有停车位. 有一家有停车位的BBH, 很简陋, 不舒服 at all.&lt;br /&gt;没在这里工作过. 在奥克兰工作的小伙伴蛮多的, 如果&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-04T08:42:17+00:00</updated>
+			<updated>2018-05-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 

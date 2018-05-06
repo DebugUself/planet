@@ -93,7 +93,7 @@
 		<foaf:Agent>
 			<foaf:name>zoejane</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://localhost:1313/">
+				<foaf:Document rdf:about="http://blog.zoejane.net/">
 					<dc:title>Zoe Jane</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
