@@ -10,6 +10,7 @@
 	
 	<body>
 		<outline text="Debug Uself grp." xmlUrl="http://du.zoomquiet.io/atom.xml"/>
+		<outline text="Woody" xmlUrl="https://wuhuhu800.github.io/rss2.xml"/>
 		<outline text="bambooooooom" xmlUrl="https://bambooom.github.io/feed.xml"/>
 		<outline text="junyu" xmlUrl="http://blog.junyu.io/atom.xml"/>
 		<outline text="li guang he" xmlUrl="https://liguanghe.github.io/rss2.xml"/>
