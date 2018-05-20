@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-05-20T08:42:21+00:00</updated>
+	<updated>2018-05-20T16:42:54+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -46,7 +46,7 @@
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-05-19T16:42:47+00:00</updated>
+			<updated>2018-05-20T16:42:53+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>
@@ -145,7 +145,7 @@
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-05-19T16:42:47+00:00</updated>
+			<updated>2018-05-20T16:42:53+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>
