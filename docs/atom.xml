@@ -5,157 +5,23 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-05-24T00:42:22+00:00</updated>
+	<updated>2018-05-24T08:42:24+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
-		<title type="html">周会 -- 组织中最最重要的一环</title>
-		<link href="http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/"/>
-		<id>http://liguanghe.github.io/2018/05/06/DUMeetingMeaning/</id>
-		<updated>2018-05-06T05:02:32+00:00</updated>
-		<content type="html">&lt;p&gt;怼圈是一个线上组织, 每周一次雷打不动的线上会议, 已经一年有余. 在没有工资/没有线下利益的情况下, 全靠成员自发, 能够持续这么久, 够神奇, 足以供其他组织借鉴. &lt;/p&gt;
-&lt;p&gt;一个持续/有效的周会, 代表了这个组织的什么呢? &lt;/p&gt;
-&lt;h2 id=&quot;温度&quot;&gt;&lt;/h2&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="zh-cn">
-		<title type="html">关于</title>
-		<link href="http://blog.zoejane.net/about/"/>
-		<id>http://blog.zoejane.net/about/</id>
-		<updated>2018-05-06T04:38:52+00:00</updated>
-		<content type="html">&lt;h1 id=&quot;zoe-jane&quot;&gt;Zoe Jane&lt;/h1&gt;
-
-&lt;p&gt;喜欢音乐&lt;br /&gt;
-探索编程&lt;/p&gt;</content>
-		<author>
-			<name>zoejane</name>
-			<uri>http://blog.zoejane.net/</uri>
-		</author>
-		<source>
-			<title type="html">Zoe Jane</title>
-			<subtitle type="html">Recent content on Zoe Jane</subtitle>
-			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
-			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-05-23T16:42:34+00:00</updated>
-			<rights type="html">life is wonderful</rights>
-		</source>
-	</entry>
-
-	<entry xml:lang="zh-cn">
-		<title type="html">怼周会分享 - 20180505 - 外界环境 , 学术领域 , MVP</title>
-		<link href="http://blog.zoejane.net/post/2018-05-05-du-meeting-enviroment-scholar-mvp/"/>
-		<id>http://blog.zoejane.net/post/2018-05-05-du-meeting-enviroment-scholar-mvp/</id>
-		<updated>2018-05-05T02:45:48+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;link&quot;&gt;Link&lt;/h2&gt;
-
+		<title type="html">英语不是借口 快速读英文的工具</title>
+		<link href="http://liguanghe.github.io/2018/05/24/TLTranslation/"/>
+		<id>http://liguanghe.github.io/2018/05/24/TLTranslation/</id>
+		<updated>2018-05-24T04:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;google 翻译那么厉害, 实在不该以英语为借口, 不开眼看世界. &lt;/p&gt;
+&lt;p&gt;使用英语应该是日常生活才对. &lt;/p&gt;
+&lt;p&gt;常用的英文网站&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/399&quot;&gt;42h[TASK]20180505 怼周会 分享及纪要 · Issue #399 · DebugUself/du4proto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;google&lt;ul&gt;
+&lt;li&gt;设置成英文&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&quot;20180505-zoejane-怼周会分享&quot;&gt;20180505 zoejane 怼周会分享&lt;/h2&gt;
-
-&lt;h3 id=&quot;外界环境能很好地推动自己把一件事情坚持做下来&quot;&gt;外界环境能很好地推动自己把一件事情坚持做下来&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;本周体验, 把一件事情长期做下来, 光靠自己的动力或者意志力, 其实很不稳定. 毕竟人还是有惰性的. 但是如果有一个外界环境的压力, 反倒能帮助自己把这件事情做下来, 进而体会到更多有意思的经历.&lt;/li&gt;
-&lt;li&gt;一个是信息分析课, 因为时间精力真的顾不过来, 本来已经准备退课或者全程打酱油了的. 但是因为后来有安排我当一个小队的队长, 觉得全程打酱油实在是不太好, 硬着头皮上的. 结果实际做下来, 发现其实课程还挺有意思的,自己做得也没有自己想象中的烂.&lt;/li&gt;
-&lt;li&gt;一个是上钢琴课, 上周完全不想练琴, 也是想和老师请假的. 最后是上课前一天抱佛脚练了一天, 没想到老师说能看到我的不断进步. 确实回想这两个月学琴的经历, 比自己练琴要提升了很多.&lt;/li&gt;
-&lt;li&gt;所以要学会给自己创造一个氛围, 寻找一起的小伙伴, 帮助你的老师等等. 这样当自己犯懒的时候, 还是会硬着头皮迈过难关.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;学术领域其实也是一个能和自己的生活和兴趣爱好融合的优质信息源&quot;&gt;学术领域其实也是一个能和自己的生活和兴趣爱好融合的优质信息源&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;以前觉得论文, 文献这种东西和我的生活相隔太远, 完全不会想到主动去寻找这方面的信息.&lt;/li&gt;
-&lt;li&gt;这次上信息分析课程的时候, 才发现自己的信息源实在是惨不忍睹, 每天好像就是刷微信的时间最多. 书看得比较少. 论文工作后基本就没看过了.&lt;/li&gt;
-&lt;li&gt;这次信息分析课程让我自己尝试着第一次在 Google Scholar 里面搜索我感兴趣的 Music Programming 相关的内容, 结果质量真的很高. 也有很多很有意思的项目和信息. 甚至有本书就是专门聊用 Python 做 Music Programming 这个小众领域的.比我之前盲目地在 Google 和 GitHub 上搜索到的讯息要多很多.这个是我之前完全没有想到的.&lt;/li&gt;
-&lt;li&gt;没有想到即使是自己的小众的兴趣爱好,也是可以从学术领域里发现很多好玩的信息的. 这也激发了我读论文的兴趣, 感觉读论文也没有那么可怕了, 反而像是在寻找宝藏了.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;mvp-帮助打破行动障碍&quot;&gt;MVP 帮助打破行动障碍&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;信息分析课程一如既往地信息量很大. 精力也不够, 怎么破?&lt;/li&gt;
-&lt;li&gt;注意力放在先尝试把每周任务完成, 做出一个初始版本来, 后续再慢慢迭代.&lt;/li&gt;
-&lt;li&gt;这让我能有足够的时间做每周任务, 心理压力小很多.&lt;/li&gt;
-&lt;li&gt;听课完全是利用上下班路上的零碎时间听的, 对自己时间占用比较少.&lt;/li&gt;
-&lt;li&gt;因为前面行动的积累, 带着疑问看课程内容, 看同学的笔记, 也更有收获.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;zoomquiet-回复&quot;&gt;@ZoomQuiet 回复&lt;/h2&gt;
-
-&lt;p&gt;@zoejane 是也乎,(￣▽￣)&lt;/p&gt;
-
-&lt;p&gt;老怼的傲娇嗯哼&amp;hellip;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;所谓被动进步, 其实并不是环境本身&lt;/li&gt;
-&lt;li&gt;而是环境的压力给了自己一个努力的借口&lt;/li&gt;
-&lt;li&gt;cover 住自动生成的借口后
-
-&lt;ul&gt;
-&lt;li&gt;真正开始折腾&lt;/li&gt;
-&lt;li&gt;折腾中自然有对应乐趣&lt;/li&gt;
-&lt;li&gt;借口, 这才能自动不生成&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;进一步的, 表现欲这是所有生物基因内置的欲望
-
-&lt;ul&gt;
-&lt;li&gt;不然无法完成基因延续&lt;/li&gt;
-&lt;li&gt;所以, 有对应懂行的观赏人群时&lt;/li&gt;
-&lt;li&gt;一切折腾都有了意义&lt;/li&gt;
-&lt;li&gt;自然也就能坚持了&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;论文也是, 逻辑上论文当然是知识最密集的领域
-
-&lt;ul&gt;
-&lt;li&gt;但是, 为什么很少人去看?&lt;/li&gt;
-&lt;li&gt;难 &amp;lt;&amp;ndash; 是自然的借口&lt;/li&gt;
-&lt;li&gt;问题是, 真的有具体需求后&lt;/li&gt;
-&lt;li&gt;也就发现, 论文其实并没有那么难&lt;/li&gt;
-&lt;li&gt;因为, 难变成了挑战/具体问题&amp;hellip;解决就好&lt;/li&gt;
-&lt;li&gt;目的是解决自己的问题&amp;hellip;&lt;/li&gt;
-&lt;li&gt;那么, 难就不是目的了&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;MVP 的那个 P 其实最关键的是:
-
-&lt;ul&gt;
-&lt;li&gt;Personal &amp;hellip;&lt;/li&gt;
-&lt;li&gt;私人空间/情绪/过程&amp;hellip;&lt;/li&gt;
-&lt;li&gt;更加要命的, 是如何最短时间完成切换工作界面/心态/&amp;hellip;&lt;/li&gt;
-&lt;li&gt;当然, 都有心法的&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>zoejane</name>
-			<uri>http://blog.zoejane.net/</uri>
-		</author>
-		<source>
-			<title type="html">Zoe Jane</title>
-			<subtitle type="html">Recent content on Zoe Jane</subtitle>
-			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
-			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-05-23T16:42:34+00:00</updated>
-			<rights type="html">life is wonderful</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">域外生活完成度</title>
-		<link href="http://liguanghe.github.io/2018/05/04/ReviewNZSum/"/>
-		<id>http://liguanghe.github.io/2018/05/04/ReviewNZSum/</id>
-		<updated>2018-05-04T05:00:32+00:00</updated>
-		<content type="html">&lt;p&gt;过去10个28天,每个28天开始时都会设立并发布计划, 并跟踪完成程度. 上一篇&lt;a href=&quot;https://liguanghe.github.io/2018/04/28/ReviewNZS11/&quot;&gt;域外生活录回顾 | Li Guanghe’s blog&lt;/a&gt;将这28&lt;/p&gt;</content>
+&lt;/li&gt;
+&lt;li&gt;wiki&lt;/li&gt;&lt;/ul&gt;</content>
 		<author>
 			<name>li guang he</name>
 			<uri>http://liguanghe.github.io/</uri>
@@ -164,104 +30,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">一路向北(10) 北面以北</title>
-		<link href="http://liguanghe.github.io/2018/05/03/NzNorth/"/>
-		<id>http://liguanghe.github.io/2018/05/03/NzNorth/</id>
-		<updated>2018-05-03T13:15:32+00:00</updated>
-		<content type="html">&lt;p&gt;送先生在奥克兰机场起飞, 没了每天两小时的开车限令, 路途随意起来, 没有事先订住宿, 到了下一站, 跟房主聊聊哪里好玩, 再看看 Airbnb 的房子有合适的就定下来, 住在哪里就到附近看看. 目标是新西兰最北 - 雷恩加角.&lt;/p&gt;
-&lt;p&gt;奥克兰北面的人口密度或许与南岛&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">法律小常识 - 有子女的离婚协议怎么写</title>
-		<link href="http://liguanghe.github.io/2018/05/01/LawDivorce/"/>
-		<id>http://liguanghe.github.io/2018/05/01/LawDivorce/</id>
-		<updated>2018-05-01T13:32:32+00:00</updated>
-		<content type="html">&lt;p&gt;曾在法院少年庭工作, 有朋友来咨询离婚协议怎么写, 这里给出注意事项和模板. &lt;/p&gt;
-&lt;p&gt;民政局会给&lt;a href=&quot;http://www.66law.cn/laws/89477.aspx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;离婚协议书模板&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">域外生活录回顾</title>
-		<link href="http://liguanghe.github.io/2018/04/28/ReviewNZS11/"/>
-		<id>http://liguanghe.github.io/2018/04/28/ReviewNZS11/</id>
-		<updated>2018-04-28T03:00:32+00:00</updated>
-		<content type="html">&lt;p&gt;以下是根据过去10个月, S11(每个S是4周), 每月发布的记录, 及最终完成情况的一个线性记录. 根据这个线性记录, 要进行进一步的总结和建议. &lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;milestone (仿怼圈 milestone 又 寸 心)&lt;/p&gt;
-&lt;p&gt;域外 新西兰 &lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">当自怼成为生活方式</title>
-		<link href="http://liguanghe.github.io/2018/04/27/Review2017/"/>
-		<id>http://liguanghe.github.io/2018/04/27/Review2017/</id>
-		<updated>2018-04-27T12:26:32+00:00</updated>
-		<content type="html">&lt;p&gt;2017年4月1日, 我开始时间记录和加入自怼圈, 那时以为只是参加了一个继续学习编程的项目, 却没想到它与我的生活/思维方式融为一体. 生活中的每个项目, 都有体现. 下面这篇是怼圈快到一周年时, 我的进步小结. &lt;/p&gt;
-&lt;h2 id=&quot;最好的学习方法&quot;&gt;&lt;/h2&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">巧用调查表单让敲定产品配置更快</title>
-		<link href="http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/"/>
-		<id>http://liguanghe.github.io/2018/04/26/OfficeGoogleForm/</id>
-		<updated>2018-04-26T13:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNc79gy1fqqebsbn49j316e0w27ey.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;背景&quot;&gt;&lt;/h2&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-21T08:42:20+00:00</updated>
+			<updated>2018-05-24T08:42:13+00:00</updated>
 		</source>
 	</entry>
 
