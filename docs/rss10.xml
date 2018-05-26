@@ -13,11 +13,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/26/ReviewUni/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/05/24/TLTranslation/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/05/26/ReviewUni/">
+	<title>li guang he: 重回大学城</title>
+	<link>http://liguanghe.github.io/2018/05/26/ReviewUni/</link>
+	<content:encoded>&lt;p&gt;在大学城本科四年, 硕士三年, 这次回来进行律师岗前培训 8 周. 2005年刚到广州大学城时, 这边才起用一年, 一个大工地, 这次回来已是绿树成荫, 商业发达, 展览活动. 这周在 大学城找到了健身房去练拳击, 到广州美术学院美术馆看毕业展览. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-05-26T13:26:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/05/24/TLTranslation/">
 	<title>li guang he: 英语不是借口 快速读英文的工具</title>
 	<link>http://liguanghe.github.io/2018/05/24/TLTranslation/</link>
