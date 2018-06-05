@@ -5,16 +5,15 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-06-05T08:42:26+00:00</updated>
+	<updated>2018-06-05T16:42:23+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
-		<title type="html">重回大学城</title>
-		<link href="http://liguanghe.github.io/2018/05/26/ReviewUni/"/>
-		<id>http://liguanghe.github.io/2018/05/26/ReviewUni/</id>
-		<updated>2018-05-26T13:26:32+00:00</updated>
-		<content type="html">&lt;p&gt;在大学城本科四年, 硕士三年, 这次回来进行律师岗前培训 8 周. 2005年刚到广州大学城时, 这边才起用一年, 一个大工地, 这次回来已是绿树成荫, 商业发达, 展览活动. 这周在 大学城找到了健身房去练拳击, 到广州美术学院美术馆看毕业展览. &lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</content>
+		<title type="html">一发不可收拾的 AirBnb</title>
+		<link href="http://liguanghe.github.io/2018/06/05/NZAirbnb/"/>
+		<id>http://liguanghe.github.io/2018/06/05/NZAirbnb/</id>
+		<updated>2018-06-05T13:15:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;AirBnb-印象&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#AirBnb-印象&quot; class=&quot;headerlink&quot; title=&quot;AirBnb 印象&quot;&gt;&lt;/a&gt;AirBnb 印象&lt;/h2&gt;&lt;p&gt;在新西兰的前几个月, 一直住在青旅, 对青旅已经很是满意. 直到 2 月, 有先生出&lt;/p&gt;</content>
 		<author>
 			<name>li guang he</name>
 			<uri>http://liguanghe.github.io/</uri>
@@ -23,33 +22,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-29T16:42:26+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">英语不是借口 快速读英文的工具</title>
-		<link href="http://liguanghe.github.io/2018/05/24/TLTranslation/"/>
-		<id>http://liguanghe.github.io/2018/05/24/TLTranslation/</id>
-		<updated>2018-05-24T04:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;google 翻译那么厉害, 实在不该以英语为借口, 不开眼看世界. &lt;/p&gt;
-&lt;p&gt;使用英语应该是日常生活才对. &lt;/p&gt;
-&lt;p&gt;常用的英文网站&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;google&lt;ul&gt;
-&lt;li&gt;设置成英文&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;wiki&lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-05-29T16:42:26+00:00</updated>
+			<updated>2018-06-05T16:42:16+00:00</updated>
 		</source>
 	</entry>
 
