@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-06-06T00:42:23+00:00</updated>
+	<updated>2018-06-06T08:42:22+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">来, 聊一下你之所爱.</title>
+		<link href="http://liguanghe.github.io/2018/06/06/NovelStop/"/>
+		<id>http://liguanghe.github.io/2018/06/06/NovelStop/</id>
+		<updated>2018-06-06T04:00:32+00:00</updated>
+		<content type="html">&lt;p&gt;吾之所爱, 汝之砒霜. 逃避到一个躯壳中, 或是缠满一身的欲望. 在索取的同时, 记得给予. 开心来源于你的付出. &lt;/p&gt;
+&lt;p&gt;怎样说这是最好的安排, 这是谁的安排? 是人性的弱点? 是自我的放逐? 是茫然失索, 还是懂却恐惧? 从现在开始, 可以做的, 不可以做的.&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-06-06T08:42:16+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">一发不可收拾的 AirBnb</title>
@@ -22,7 +41,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-06-05T16:42:16+00:00</updated>
+			<updated>2018-06-06T08:42:16+00:00</updated>
 		</source>
 	</entry>
 
