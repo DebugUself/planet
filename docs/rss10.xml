@@ -13,31 +13,25 @@
 
 	<items>
 		<rdf:Seq>
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/13/SHEffectionLawyer/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/06/NovelStop/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/05/NZAirbnb/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/28/BlogAbbr/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/21/LsConductor/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
-<item rdf:about="http://liguanghe.github.io/2018/06/13/SHEffectionLawyer/">
-	<title>li guang he: 知识管理/效率提升及 Mac 使用</title>
-	<link>http://liguanghe.github.io/2018/06/13/SHEffectionLawyer/</link>
-	<content:encoded>&lt;p&gt;为一起参加律师岗前培训的同学们做了一场 &amp;lt;知识管理/效率提升及 Mac 使用&amp;gt; 的分享. 2 个小时将高效的工具/方法/原理/系统向大家进行了展示, 同时说明为什么 Office 是低效的, 印象笔记等成熟的协作软件也只是中效. 这样做是&lt;strong&gt;希望减少&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2018-06-13T09:35:32+00:00</dc:date>
+<item rdf:about="http://liguanghe.github.io/2018/06/28/BlogAbbr/">
+	<title>li guang he: 小鹤博客命名缩写规约</title>
+	<link>http://liguanghe.github.io/2018/06/28/BlogAbbr/</link>
+	<content:encoded>&lt;p&gt;缩写的目的: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;扁平化文档管理 &lt;/li&gt;&lt;/ol&gt;</content:encoded>
+	<dc:date>2018-06-28T01:35:32+00:00</dc:date>
 </item>
-<item rdf:about="http://liguanghe.github.io/2018/06/06/NovelStop/">
-	<title>li guang he: 来, 聊一下你之所爱.</title>
-	<link>http://liguanghe.github.io/2018/06/06/NovelStop/</link>
-	<content:encoded>&lt;p&gt;吾之所爱, 汝之砒霜. 逃避到一个躯壳中, 或是缠满一身的欲望. 在索取的同时, 记得给予. 开心来源于你的付出. &lt;/p&gt;
-&lt;p&gt;怎样说这是最好的安排, 这是谁的安排? 是人性的弱点? 是自我的放逐? 是茫然失索, 还是懂却恐惧? 从现在开始, 可以做的, 不可以做的.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-06-06T04:00:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/06/05/NZAirbnb/">
-	<title>li guang he: 一发不可收拾的 AirBnb</title>
-	<link>http://liguanghe.github.io/2018/06/05/NZAirbnb/</link>
-	<content:encoded>&lt;h2 id=&quot;AirBnb-印象&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#AirBnb-印象&quot; class=&quot;headerlink&quot; title=&quot;AirBnb 印象&quot;&gt;&lt;/a&gt;AirBnb 印象&lt;/h2&gt;&lt;p&gt;在新西兰的前几个月, 一直住在青旅, 对青旅已经很是满意. 直到 2 月, 有先生出&lt;/p&gt;</content:encoded>
-	<dc:date>2018-06-05T13:15:32+00:00</dc:date>
+<item rdf:about="http://liguanghe.github.io/2018/06/21/LsConductor/">
+	<title>li guang he: 指挥合唱的小白</title>
+	<link>http://liguanghe.github.io/2018/06/21/LsConductor/</link>
+	<content:encoded>&lt;p&gt;上一次指挥是 17 年前, 这次偶尔再当一次指挥, 往常一直觉得自己节奏不好,但其实也是给自己框住. 很多事物其实练练就会了. 原来对指挥是一直有兴趣的, 看以后有没机会加入个合唱团, 练合唱和指挥啦. 指挥是整个合唱团里对全局最熟悉的人, 为合唱的人提供统一的节拍. 可惜&lt;/p&gt;</content:encoded>
+	<dc:date>2018-06-21T01:35:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
