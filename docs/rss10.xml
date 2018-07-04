@@ -13,12 +13,21 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/07/04/NzOffice/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/28/BlogAbbr/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/06/21/LsConductor/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/07/04/NzOffice/">
+	<title>li guang he: 新西兰的工作环境 -- 以联合办公空间为例</title>
+	<link>http://liguanghe.github.io/2018/07/04/NzOffice/</link>
+	<content:encoded>&lt;p&gt;在什么样的地方办公最有幸福感? 或者, 你在什么样的地方工作会很舒心? &lt;/p&gt;
+&lt;p&gt;宽敞的, 明亮的, 充足空间的, 放松身体的, 随时沟通的, 补充能量的…&lt;/p&gt;
+&lt;p&gt;这家在 Stafford St 上名为Petridish的共创空间都能满足你.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-07-04T03:15:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/06/28/BlogAbbr/">
 	<title>li guang he: 小鹤博客命名缩写规约</title>
 	<link>http://liguanghe.github.io/2018/06/28/BlogAbbr/</link>
@@ -26,12 +35,6 @@
 &lt;ol&gt;
 &lt;li&gt;扁平化文档管理 &lt;/li&gt;&lt;/ol&gt;</content:encoded>
 	<dc:date>2018-06-28T01:35:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/06/21/LsConductor/">
-	<title>li guang he: 指挥合唱的小白</title>
-	<link>http://liguanghe.github.io/2018/06/21/LsConductor/</link>
-	<content:encoded>&lt;p&gt;上一次指挥是 17 年前, 这次偶尔再当一次指挥, 往常一直觉得自己节奏不好,但其实也是给自己框住. 很多事物其实练练就会了. 原来对指挥是一直有兴趣的, 看以后有没机会加入个合唱团, 练合唱和指挥啦. 指挥是整个合唱团里对全局最熟悉的人, 为合唱的人提供统一的节拍. 可惜&lt;/p&gt;</content:encoded>
-	<dc:date>2018-06-21T01:35:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
