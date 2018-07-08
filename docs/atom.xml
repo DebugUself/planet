@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-08T08:42:18+00:00</updated>
+	<updated>2018-07-08T16:42:26+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">和深圳的伙伴们喝茶</title>
+		<link href="http://liguanghe.github.io/2018/07/08/MeetSZ20180708/"/>
+		<id>http://liguanghe.github.io/2018/07/08/MeetSZ20180708/</id>
+		<updated>2018-07-08T14:12:32+00:00</updated>
+		<content type="html">&lt;p&gt;到深圳跟开智的小伙伴们聚会. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNc79gy1ft2wa8u7o0j31kw16o4qq.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;怼圈三人深聊&quot;&gt;&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-07-08T16:42:18+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">新西兰的工作环境 -- 以联合办公空间为例</title>
@@ -25,27 +45,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-06T16:42:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">小鹤博客命名缩写规约</title>
-		<link href="http://liguanghe.github.io/2018/06/28/BlogAbbr/"/>
-		<id>http://liguanghe.github.io/2018/06/28/BlogAbbr/</id>
-		<updated>2018-06-28T01:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;缩写的目的: &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;扁平化文档管理 &lt;/li&gt;&lt;/ol&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-06T16:42:35+00:00</updated>
+			<updated>2018-07-08T16:42:18+00:00</updated>
 		</source>
 	</entry>
 
