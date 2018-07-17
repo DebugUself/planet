@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-17T00:42:27+00:00</updated>
+	<updated>2018-07-17T08:42:23+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">我在法律工作的输出合集</title>
+		<link href="http://liguanghe.github.io/2018/07/17/LawPaper/"/>
+		<id>http://liguanghe.github.io/2018/07/17/LawPaper/</id>
+		<updated>2018-07-17T02:32:32+00:00</updated>
+		<content type="html">&lt;p&gt;法律工作这块, 以前在广州市越秀区法院工作时也有输出的, 那时没有个人作品积累到博客的概念, 蛮多文字遗失了, 好在投稿几篇, 在网上还能找得到.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-07-17T08:42:16+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">和深圳的伙伴们喝茶</title>
@@ -24,28 +44,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-09T08:42:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">新西兰的工作环境 -- 以联合办公空间为例</title>
-		<link href="http://liguanghe.github.io/2018/07/04/NzOffice/"/>
-		<id>http://liguanghe.github.io/2018/07/04/NzOffice/</id>
-		<updated>2018-07-04T03:15:32+00:00</updated>
-		<content type="html">&lt;p&gt;在什么样的地方办公最有幸福感? 或者, 你在什么样的地方工作会很舒心? &lt;/p&gt;
-&lt;p&gt;宽敞的, 明亮的, 充足空间的, 放松身体的, 随时沟通的, 补充能量的…&lt;/p&gt;
-&lt;p&gt;这家在 Stafford St 上名为Petridish的共创空间都能满足你.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-09T08:42:31+00:00</updated>
+			<updated>2018-07-17T08:42:16+00:00</updated>
 		</source>
 	</entry>
 

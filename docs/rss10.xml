@@ -13,12 +13,20 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/07/17/LawPaper/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/07/08/MeetSZ20180708/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2018/07/04/NzOffice/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/07/17/LawPaper/">
+	<title>li guang he: 我在法律工作的输出合集</title>
+	<link>http://liguanghe.github.io/2018/07/17/LawPaper/</link>
+	<content:encoded>&lt;p&gt;法律工作这块, 以前在广州市越秀区法院工作时也有输出的, 那时没有个人作品积累到博客的概念, 蛮多文字遗失了, 好在投稿几篇, 在网上还能找得到.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+	<dc:date>2018-07-17T02:32:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/07/08/MeetSZ20180708/">
 	<title>li guang he: 和深圳的伙伴们喝茶</title>
 	<link>http://liguanghe.github.io/2018/07/08/MeetSZ20180708/</link>
@@ -26,15 +34,6 @@
 &lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNc79gy1ft2wa8u7o0j31kw16o4qq.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;怼圈三人深聊&quot;&gt;&lt;/h2&gt;</content:encoded>
 	<dc:date>2018-07-08T14:12:32+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2018/07/04/NzOffice/">
-	<title>li guang he: 新西兰的工作环境 -- 以联合办公空间为例</title>
-	<link>http://liguanghe.github.io/2018/07/04/NzOffice/</link>
-	<content:encoded>&lt;p&gt;在什么样的地方办公最有幸福感? 或者, 你在什么样的地方工作会很舒心? &lt;/p&gt;
-&lt;p&gt;宽敞的, 明亮的, 充足空间的, 放松身体的, 随时沟通的, 补充能量的…&lt;/p&gt;
-&lt;p&gt;这家在 Stafford St 上名为Petridish的共创空间都能满足你.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2018-07-04T03:15:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
