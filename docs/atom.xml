@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-20T00:42:40+00:00</updated>
+	<updated>2018-07-20T08:42:32+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">看见多远的未来(1) 生态经济学的世界系统</title>
+		<link href="http://liguanghe.github.io/2018/07/20/Future1Sh2052/"/>
+		<id>http://liguanghe.github.io/2018/07/20/Future1Sh2052/</id>
+		<updated>2018-07-20T05:21:32+00:00</updated>
+		<content type="html">&lt;p&gt;这会是关于决策和未来观系列文章中的第一篇. &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;科幻小说也是在预测未来的框架下, 讲述个人的现状和命运. 有些是硬科幻, 基于最新的科学研究来做出的预测, 有些成为了现实. 看1968年的2001:太空漫游&gt;, 只预测30年后的事情. &lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-07-20T08:42:22+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">我在法律工作的输出合集</title>
@@ -24,27 +44,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-18T08:42:20+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">和深圳的伙伴们喝茶</title>
-		<link href="http://liguanghe.github.io/2018/07/08/MeetSZ20180708/"/>
-		<id>http://liguanghe.github.io/2018/07/08/MeetSZ20180708/</id>
-		<updated>2018-07-08T14:12:32+00:00</updated>
-		<content type="html">&lt;p&gt;到深圳跟开智的小伙伴们聚会. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNc79gy1ft2wa8u7o0j31kw16o4qq.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;怼圈三人深聊&quot;&gt;&lt;/h2&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-18T08:42:20+00:00</updated>
+			<updated>2018-07-20T08:42:22+00:00</updated>
 		</source>
 	</entry>
 
