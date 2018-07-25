@@ -5,8 +5,80 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-25T00:42:47+00:00</updated>
+	<updated>2018-07-25T08:43:03+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">拔草拔草拔草</title>
+		<link href="http://blog.junyu.io/posts/0101-i-am-back.html"/>
+		<id>http://blog.junyu.io/posts/0101-i-am-back.html</id>
+		<updated>2018-07-25T02:19:44+00:00</updated>
+		<content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;拔拔草,继续写&lt;/blockquote&gt;
+
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;2017年10月后的冬天有点长,寒冬孕育了生命,寂静带来了希望.在没写博客的这段日子里发生了很多事情,生活的,学习的,技术的…每一次想重启,又被一次次打断…好在现在又回来了…&lt;/p&gt;
+&lt;p&gt;这段时间,自己搭建了 wiki, 积攒了一大波技术卡片.&lt;br /&gt;这段时间,我彻底放弃了GTD, 从工具和实际操作中全面的拥抱了输出的内容.&lt;br /&gt;这段时间,工作很忙,接项目,做项目…&lt;/p&gt;
+&lt;p&gt;回来了,拔拔草,继续写…&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;180712 新建&lt;br /&gt;180725 丰富内容,发布&lt;/p&gt;</content>
+		<author>
+			<name>浚宇</name>
+			<uri>http://blog.junyu.io/</uri>
+		</author>
+		<source>
+			<title type="html">浚宇的博客</title>
+			<subtitle type="html">人工智能、千字文</subtitle>
+			<link rel="self" href="http://blog.junyu.io/atom.xml"/>
+			<id>http://blog.junyu.io/</id>
+			<updated>2018-07-25T08:43:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">echo的奇思妙想</title>
+		<link href="http://blog.junyu.io/posts/0604-linux-command-echo.html"/>
+		<id>http://blog.junyu.io/posts/0604-linux-command-echo.html</id>
+		<updated>2018-07-25T01:36:16+00:00</updated>
+		<content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;echo ‘hello world’&lt;/blockquote&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;最近为了优化七牛云图床上传流程,自己研究了 shell 脚本写了一些自动化脚本(稍后会公布出来),已经到了写完脚本沉淀知识的阶段.一个意外的代码实验让我改变了主意,有了这篇文章.&lt;/p&gt;
+&lt;p&gt;当时我想做一个很小的尝试,在mac 的终端把一小段(准确说是两行)代码重定向到文件中,写了 N 多遍,竟然都没有达到我想要的结果,我期待的是利用&lt;code&gt;pwd&lt;/code&gt; 输出当前位置的绝对路径,把这个路径输出出来.这一段代码需要直接从 shell 终端中写进一个叫&lt;code&gt;tempfile&lt;/code&gt;的文件中.&lt;/p&gt;
+&lt;p&gt;第一句&lt;br /&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;echo &amp;quot;my_Path=$(pwd)&amp;quot; &amp;gt; tempfile            #1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo &amp;amp;aposmy_Path=$(pwd)&amp;amp;apos &amp;gt; tempfile            #2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo my_Path=$&amp;#123;pwd&amp;#125; &amp;gt; tempfile              #3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo &amp;quot;my_Path=$&amp;#123;pwd&amp;#125;&amp;quot; &amp;gt; tempfile            #4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo -n &amp;quot;my_Path=\$\&amp;#123;pwd\&amp;#125;&amp;quot; &amp;gt; tempfile      #5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo -n &amp;quot;my_Path=$&amp;#123;pwd&amp;#125;&amp;quot; &amp;gt; tempfile         #6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo -n &amp;quot;my_Path=\$&amp;#123;pwd&amp;#125;&amp;quot; &amp;gt; tempfile        #7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;第二句&lt;br /&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;echo $my_Path &amp;gt;&amp;gt; tempfile                   #8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo -n &amp;quot;echo \$my_Path&amp;quot; &amp;gt;&amp;gt; tempfile        #9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo -n &amp;quot;\$my_Path&amp;quot; &amp;gt;&amp;gt; tempfile             #10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo &amp;quot;$my_Path&amp;quot; &amp;gt;&amp;gt; tempfile                 #11&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;在开始这个小故事前,我知道&lt;code&gt;echo&lt;/code&gt;的基本用法,也大致知道&lt;code&gt;-n&lt;/code&gt; 参数的作用,也知道转义字符的作用.但是在这里的数个细节的叠加下,事情变得微妙起来.&lt;/p&gt;
+&lt;h2 id=&quot;大括号和小括号之争&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#大括号和小括号之争&quot; class=&quot;headerlink&quot; title=&quot;大括号和小括号之争&quot;&gt;&lt;/a&gt;大括号和小括号之争&lt;/h2&gt;&lt;p&gt;第一句的尝试中#3和#4的内容是错误的,{}并不适合用在对命令的边界确认上.需要先执行子命令获取输出再执行外层命令时,应该使用的是$()或者&lt;code&gt;`包裹子命令.
+像&lt;/code&gt;echo “my_Path=${pwd}”`这样的写法会把 pwd 当成一个变量处理.&lt;/p&gt;
+&lt;p&gt;进而#5,#6,#7也不会得到想要的结果.但是在这个过程里,我却误打误撞的明白了转义字符和&lt;code&gt;-n&lt;/code&gt;这个命令参数的作用.&lt;/p&gt;
+&lt;h2 id=&quot;该转义时再转义&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#该转义时再转义&quot; class=&quot;headerlink&quot; title=&quot;该转义时再转义&quot;&gt;&lt;/a&gt;该转义时再转义&lt;/h2&gt;&lt;p&gt;‘{}’并不需要转义,因为在这里并不是特殊字符.在&lt;code&gt;man bash&lt;/code&gt;中的’’’metacharacter’’’ 和’’’control operator’’’中并没有这个符号.&lt;/p&gt;
+&lt;h2 id=&quot;n-和-转义字符搭配&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#n-和-转义字符搭配&quot; class=&quot;headerlink&quot; title=&quot;-n 和 转义字符搭配&quot;&gt;&lt;/a&gt;-n 和 转义字符搭配&lt;/h2&gt;&lt;p&gt;&lt;code&gt;-n&lt;/code&gt; 这个参数的作用就是激活转义字符.&lt;/p&gt;
+&lt;h2 id=&quot;双引号和单引号的区别&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#双引号和单引号的区别&quot; class=&quot;headerlink&quot; title=&quot;双引号和单引号的区别&quot;&gt;&lt;/a&gt;双引号和单引号的区别&lt;/h2&gt;&lt;p&gt;‘’(单引号):又叫硬转义，其内部所有的shell 元字符、通配符都会被关掉。注意，硬转义中不允许出现’(单引号)。&lt;br /&gt;“”(双引号):又叫软转义，其内部只允许出现特定的shell 元字符：$用于参数代换 `用于命令代替&lt;br /&gt;(反斜杠):又叫转义，去除其后紧跟的元字符或通配符的特殊意义。 &lt;/p&gt;
+&lt;p&gt;man bash 英文解释如下：&lt;/p&gt;
+&lt;p&gt;There are three quoting mechanisms: the escape character, single quotes, and double quotes.&lt;/p&gt;
+&lt;h2 id=&quot;正确的方法是…&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#正确的方法是…&quot; class=&quot;headerlink&quot; title=&quot;正确的方法是…&quot;&gt;&lt;/a&gt;正确的方法是…&lt;/h2&gt;&lt;p&gt;我们回到这个语句本身,目的是通过 echo 把希望输出的内容原样写入某一个文件,这个时候,用单引号是最合适不过了.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;echo &amp;amp;aposmy_path=$(pwd)&amp;amp;apos &amp;gt; test&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;echo &amp;amp;aposecho $my_path&amp;amp;apos &amp;gt;&amp;gt; test&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;完美的完成任务~&lt;/p&gt;
+&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://superuser.com/questions/935374/difference-between-and-in-shell-script&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;linux - difference between ${} and $() in shell script - Super User&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/chengmo/archive/2010/10/17/1853344.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux Shell 通配符、元字符、转义符使用实例介绍 - 程默 - 博客园&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://blog.junyu.pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;完&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;h2 id=&quot;ChangeLog&quot;&gt;&lt;a href=&quot;http://blog.junyu.io/atom.xml#ChangeLog&quot; class=&quot;headerlink&quot; title=&quot;ChangeLog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;&lt;p&gt;180720 新建&lt;br /&gt;180725 更新,发布&lt;/p&gt;</content>
+		<author>
+			<name>浚宇</name>
+			<uri>http://blog.junyu.io/</uri>
+		</author>
+		<source>
+			<title type="html">浚宇的博客</title>
+			<subtitle type="html">人工智能、千字文</subtitle>
+			<link rel="self" href="http://blog.junyu.io/atom.xml"/>
+			<id>http://blog.junyu.io/</id>
+			<updated>2018-07-25T08:43:00+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">看见多远的未来(1) 生态经济学的世界系统</title>
