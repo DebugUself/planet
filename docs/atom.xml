@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-27T08:43:15+00:00</updated>
+	<updated>2018-07-27T16:42:35+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -106,7 +106,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-27T08:42:30+00:00</updated>
+			<updated>2018-07-27T16:42:23+00:00</updated>
 		</source>
 	</entry>
 
@@ -115,7 +115,7 @@
 		<link href="http://du.zoomquiet.io/2018-07/into-du/"/>
 		<id>http://du.zoomquiet.io/2018-07/into-du</id>
 		<updated>2018-07-27T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;Into the DebugUself world&lt;/p&gt;
+		<content type="html">&lt;p&gt;Start the journey of DebugUself&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -266,7 +266,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-27T08:42:30+00:00</updated>
+			<updated>2018-07-27T16:42:23+00:00</updated>
 		</source>
 	</entry>
 
@@ -744,7 +744,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-27T08:42:30+00:00</updated>
+			<updated>2018-07-27T16:42:23+00:00</updated>
 		</source>
 	</entry>
 
