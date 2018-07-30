@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-30T08:42:55+00:00</updated>
+	<updated>2018-07-30T16:42:37+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -23,6 +23,196 @@
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
 			<updated>2018-07-30T08:42:37+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">PyENV 简介</title>
+		<link href="http://du.zoomquiet.io/2018-07/pyenv101/"/>
+		<id>http://du.zoomquiet.io/2018-07/pyenv101</id>
+		<updated>2018-07-30T00:00:00+00:00</updated>
+		<content type="html">&lt;h1 id=&quot;python-运行环境到底怎么才能舒服&quot;&gt;Python 运行环境到底怎么才能舒服?&lt;/h1&gt;
+
+&lt;p&gt;~ &lt;a href=&quot;https://jacobian.org/writing/python-environment-2018/&quot;&gt;My Python Development Environment, 2018 Edition « Jacob Kaplan-Moss&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yes and No&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;每年都有好心人在嗯哼, 但是, 都没说到点儿上:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;专发运行时和系统运行时分离&lt;/li&gt;
+  &lt;li&gt;多版本运行时共存&lt;/li&gt;
+  &lt;li&gt;多工程模块依赖桟分离管理&lt;/li&gt;
+  &lt;li&gt;远程主机运行时相同体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上, 才是 Python 长期嗯哼时,最要命的几个需求…&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;开始俺也是盲目的直接安装到系统 Python 运行时系统中&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;当然, 那时还在 windows NT 环境中(05年前)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;然后, 有了 &lt;code class=&quot;highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; , 可是, 这货只是将依赖模块堆放到工程目录中而已,
+无法作到, 不同工程使用相同模块依赖桟;&lt;/p&gt;
+
+&lt;p&gt;终于撞到 &lt;code class=&quot;highlighter-rouge&quot;&gt;PyENV&lt;/code&gt; 才通透了下来&lt;/p&gt;
+
+&lt;h2 id=&quot;pyenv&quot;&gt;PyENV&lt;/h2&gt;
+&lt;p&gt;~ &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;pyenv/pyenv: Simple Python version management&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qiita.com/Kodaira_/items/feadfef9add468e3a85b&quot;&gt;pyenv と pyenv-virtualenv で環境構築&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/pyenv/pyenv-installer&quot;&gt;pyenv/pyenv-installer: This tool is used to install &lt;code class=&quot;highlighter-rouge&quot;&gt;pyenv&lt;/code&gt; and friends.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/pyenv/pyenv-virtualenv&quot;&gt;pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/pyenv/pyenv-virtualenvwrapper&quot;&gt;pyenv/pyenv-virtualenvwrapper: an alternative approach to manage virtualenvs from pyenv.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;引发嗯哼:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;「 Y-北京: 到底为啥要用 pyenv 啊. 要用 Python3 吗? 」
+- - - - - - - - - - - - - - -
+「 Y-北京: 我以为这个只是用来切换 2与3的虚拟机...所以一直就没弄... 」
+- - - - - - - - - - - - - - -
+「 Y-北京: 对, 我就是一直以为只有这个作用啊. 」
+- - - - - - - - - - - - - - -
+「 A-杭州: 大妈说的也是这用法... 」
+- - - - - - - - - - - - - - -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;pyenv 可以集中管理配置主要 5种100多版本的 Python 运行环境
+以及具体任何一个版本环境中和工程匹配的任意模块桟&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;PyENV 真正的妙处:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;这儿的 ENV 是两层意思&lt;/li&gt;
+  &lt;li&gt;祼 PyENV 是版本环境,&lt;/li&gt;
+  &lt;li&gt;然后配合 pyenv-virtualenv 插件&lt;/li&gt;
+  &lt;li&gt;才是项目管理用的哪….&lt;/li&gt;
+  &lt;li&gt;俺一般是先安装一个干净的版本环境&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;然后&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;$ pyenv virtualenv 3.6.3 AI363&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复制出一个 AI363 工程环境.&lt;/li&gt;
+  &lt;li&gt;在工程环境中一但配置好需要的各种大型模块后,&lt;/li&gt;
+  &lt;li&gt;就可以在 任何一个新工程目录中用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ pyenv local AI363&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;绑定上 包含模块的运行时环境 …&lt;/li&gt;
+  &lt;li&gt;而任何时刻都可以用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ pyenv versions&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;来查询自己配置过哪些环境&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;然后&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;$ pyenv local 环境别称&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;瞬间穿越过去, 从而永远不用反复为一个项目安装相同的嗯哼&lt;/p&gt;
+
+&lt;h3 id=&quot;运行时&quot;&gt;运行时&lt;/h3&gt;
+
+&lt;p&gt;因为 &lt;code class=&quot;highlighter-rouge&quot;&gt;PyENV&lt;/code&gt; 利用的是 Linux 类似系统的基础环境变量: &lt;code class=&quot;highlighter-rouge&quot;&gt;env&lt;/code&gt; 的自动配置,
+从而完成瞬间切换当前运行时,&lt;/p&gt;
+
+&lt;p&gt;所以, 在远程主机上各种 shell 脚本也可以利用相同机制从 &lt;code class=&quot;highlighter-rouge&quot;&gt;crontab&lt;/code&gt; 等等环境中加载上依赖桟环境,
+从而, &lt;code class=&quot;highlighter-rouge&quot;&gt;PyENV&lt;/code&gt; 以及朋友们, 基本完成所有运行时环境配置的基本需求.&lt;/p&gt;
+
+&lt;h2 id=&quot;是也乎&quot;&gt;是也乎&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;「 h-东京: brew 在 /usr/local 下，完全没问题；用 virtualenv 每个项目都是独立的，也没问题 」
+- - - - - - - - - - - - - - -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;图样图森破:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;0:  /usr/local 是系统目录, 有复杂的 软链接结构, 权限也有特殊要求
+1: virtualenv 的独立是有空间成本的
+2: PyENV 则通过 env 实时操作将 virtualenv 的虚拟环境真正的集中管理起来, 秒速安装到任何一个工程目录上&lt;/p&gt;
+
+&lt;p&gt;这是没有规模使用 PyENV 时, 无法体验到的&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;「 S: Pipenv +autoenv 1000个项目，咱建1000个环境 」
+- - - - - - - - - - - - - - -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;空间浪费 1000倍哪&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyENV 中的 pip 用 pipenv 来管理是好的&lt;/li&gt;
+  &lt;li&gt;但是, 工程的模块依赖就不应该完全重来了&lt;/li&gt;
+  &lt;li&gt;用 PyENV 随时切换就好&lt;/li&gt;
+  &lt;li&gt;所以, 如果有 1000 个项目, 其中 999个基于相同的第3方模块&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;那么, 管理两个依赖桟, 空间上就只有原先的 0.2% 而已&lt;/p&gt;
+
+    &lt;p&gt;「 Y-北京: 这个 local 和 global 有啥区别? 」&lt;/p&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;文档中有写哪&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;local 是你当前目录&lt;/li&gt;
+  &lt;li&gt;global 就是系统运行时, macOS 自己用的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对手残党推荐:&lt;a href=&quot;https://github.com/pyenv/pyenv-doctor&quot;&gt;pyenv/pyenv-doctor: Verify pyenv installation&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;「 Yixuan-北京: local 相当于, 我 cd 到某个文件夹, 然后 local 一下, 就嗯哼了整个文件夹下的环境? 」
+- - - - - - - - - - - - - - - &amp;gt; 更加简洁:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;0: 你 local 设定一次
+1: 下次 cd 进来就自动完成指定环境的加载
+2: 问题在, 长期不用时, 已经删除的环境尝试绑定就绑定不上了
+3: 其实只是在目录中 .python-version 文件写入个别名, 就象 gh-pages 中的 CNAME 一样原理&lt;/p&gt;</content>
+		<author>
+			<name>Debug Uself grp.</name>
+			<uri>http://du.zoomquiet.io/</uri>
+		</author>
+		<source>
+			<title type="html">自怼圈</title>
+			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
+			<id>http://du.zoomquiet.io</id>
+			<updated>2018-07-30T16:42:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -130,7 +320,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-30T08:42:18+00:00</updated>
+			<updated>2018-07-30T16:42:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -320,7 +510,7 @@ Just Relax and Have Fun!&lt;/p&gt;
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-30T08:42:18+00:00</updated>
+			<updated>2018-07-30T16:42:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -815,7 +1005,7 @@ Just Relax and Have Fun!&lt;/p&gt;
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-30T08:42:18+00:00</updated>
+			<updated>2018-07-30T16:42:21+00:00</updated>
 		</source>
 	</entry>
 

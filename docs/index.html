@@ -54,6 +54,210 @@ Bokeh Plot</div>
 </div>
 
 
+
+</div>
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://du.zoomquiet.io/" title="自怼圈">Debug Uself grp.</a></h3>
+
+
+<div class="entrygroup" id="http://du.zoomquiet.io/2018-07/pyenv101">
+<h4><a href="http://du.zoomquiet.io/2018-07/pyenv101/">PyENV 简介</a></h4>
+<div class="entry">
+<div class="content">
+<h1 id="python-运行环境到底怎么才能舒服">Python 运行环境到底怎么才能舒服?</h1>
+
+<p>~ <a href="https://jacobian.org/writing/python-environment-2018/">My Python Development Environment, 2018 Edition « Jacob Kaplan-Moss</a></p>
+
+<blockquote>
+  <p>Yes and No</p>
+</blockquote>
+
+<p>每年都有好心人在嗯哼, 但是, 都没说到点儿上:</p>
+
+<ul>
+  <li>专发运行时和系统运行时分离</li>
+  <li>多版本运行时共存</li>
+  <li>多工程模块依赖桟分离管理</li>
+  <li>远程主机运行时相同体验</li>
+</ul>
+
+<p>以上, 才是 Python 长期嗯哼时,最要命的几个需求…</p>
+
+<!--more-->
+
+<h2 id="背景">背景</h2>
+
+<p>开始俺也是盲目的直接安装到系统 Python 运行时系统中</p>
+
+<blockquote>
+  <p>当然, 那时还在 windows NT 环境中(05年前)</p>
+</blockquote>
+
+<p>然后, 有了 <code class="highlighter-rouge">virtualenv</code> , 可是, 这货只是将依赖模块堆放到工程目录中而已,
+无法作到, 不同工程使用相同模块依赖桟;</p>
+
+<p>终于撞到 <code class="highlighter-rouge">PyENV</code> 才通透了下来</p>
+
+<h2 id="pyenv">PyENV</h2>
+<p>~ <a href="https://github.com/pyenv/pyenv">pyenv/pyenv: Simple Python version management</a></p>
+
+<ul>
+  <li><a href="https://qiita.com/Kodaira_/items/feadfef9add468e3a85b">pyenv と pyenv-virtualenv で環境構築</a>
+    <ul>
+      <li><a href="https://github.com/pyenv/pyenv-installer">pyenv/pyenv-installer: This tool is used to install <code class="highlighter-rouge">pyenv</code> and friends.</a></li>
+      <li><a href="https://github.com/pyenv/pyenv-virtualenv">pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)</a></li>
+      <li><a href="https://github.com/pyenv/pyenv-virtualenvwrapper">pyenv/pyenv-virtualenvwrapper: an alternative approach to manage virtualenvs from pyenv.</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>引发嗯哼:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>「 Y-北京: 到底为啥要用 pyenv 啊. 要用 Python3 吗? 」
+- - - - - - - - - - - - - - -
+「 Y-北京: 我以为这个只是用来切换 2与3的虚拟机...所以一直就没弄... 」
+- - - - - - - - - - - - - - -
+「 Y-北京: 对, 我就是一直以为只有这个作用啊. 」
+- - - - - - - - - - - - - - -
+「 A-杭州: 大妈说的也是这用法... 」
+- - - - - - - - - - - - - - -
+</code></pre></div></div>
+
+<blockquote>
+  <p>pyenv 可以集中管理配置主要 5种100多版本的 Python 运行环境
+以及具体任何一个版本环境中和工程匹配的任意模块桟</p>
+</blockquote>
+
+<p>PyENV 真正的妙处:</p>
+
+<ul>
+  <li>这儿的 ENV 是两层意思</li>
+  <li>祼 PyENV 是版本环境,</li>
+  <li>然后配合 pyenv-virtualenv 插件</li>
+  <li>才是项目管理用的哪….</li>
+  <li>俺一般是先安装一个干净的版本环境</li>
+</ul>
+
+<p>然后</p>
+<blockquote>
+  <p>$ pyenv virtualenv 3.6.3 AI363</p>
+</blockquote>
+
+<ul>
+  <li>复制出一个 AI363 工程环境.</li>
+  <li>在工程环境中一但配置好需要的各种大型模块后,</li>
+  <li>就可以在 任何一个新工程目录中用</li>
+</ul>
+
+<blockquote>
+  <p>$ pyenv local AI363</p>
+</blockquote>
+
+<ul>
+  <li>绑定上 包含模块的运行时环境 …</li>
+  <li>而任何时刻都可以用</li>
+</ul>
+
+<blockquote>
+  <p>$ pyenv versions</p>
+</blockquote>
+
+<ul>
+  <li>来查询自己配置过哪些环境</li>
+</ul>
+
+<p>然后</p>
+<blockquote>
+  <p>$ pyenv local 环境别称</p>
+</blockquote>
+
+<p>瞬间穿越过去, 从而永远不用反复为一个项目安装相同的嗯哼</p>
+
+<h3 id="运行时">运行时</h3>
+
+<p>因为 <code class="highlighter-rouge">PyENV</code> 利用的是 Linux 类似系统的基础环境变量: <code class="highlighter-rouge">env</code> 的自动配置,
+从而完成瞬间切换当前运行时,</p>
+
+<p>所以, 在远程主机上各种 shell 脚本也可以利用相同机制从 <code class="highlighter-rouge">crontab</code> 等等环境中加载上依赖桟环境,
+从而, <code class="highlighter-rouge">PyENV</code> 以及朋友们, 基本完成所有运行时环境配置的基本需求.</p>
+
+<h2 id="是也乎">是也乎</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>「 h-东京: brew 在 /usr/local 下，完全没问题；用 virtualenv 每个项目都是独立的，也没问题 」
+- - - - - - - - - - - - - - -
+</code></pre></div></div>
+
+<blockquote>
+  <p>图样图森破:</p>
+</blockquote>
+
+<p>0:  /usr/local 是系统目录, 有复杂的 软链接结构, 权限也有特殊要求
+1: virtualenv 的独立是有空间成本的
+2: PyENV 则通过 env 实时操作将 virtualenv 的虚拟环境真正的集中管理起来, 秒速安装到任何一个工程目录上</p>
+
+<p>这是没有规模使用 PyENV 时, 无法体验到的</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>「 S: Pipenv +autoenv 1000个项目，咱建1000个环境 」
+- - - - - - - - - - - - - - -
+</code></pre></div></div>
+
+<blockquote>
+  <p>空间浪费 1000倍哪</p>
+</blockquote>
+
+<ul>
+  <li>PyENV 中的 pip 用 pipenv 来管理是好的</li>
+  <li>但是, 工程的模块依赖就不应该完全重来了</li>
+  <li>用 PyENV 随时切换就好</li>
+  <li>所以, 如果有 1000 个项目, 其中 999个基于相同的第3方模块</li>
+  <li>
+    <p>那么, 管理两个依赖桟, 空间上就只有原先的 0.2% 而已</p>
+
+    <p>「 Y-北京: 这个 local 和 global 有啥区别? 」</p>
+    <hr />
+  </li>
+</ul>
+
+<blockquote>
+  <p>文档中有写哪</p>
+</blockquote>
+
+<ul>
+  <li>local 是你当前目录</li>
+  <li>global 就是系统运行时, macOS 自己用的</li>
+</ul>
+
+<p>对手残党推荐:<a href="https://github.com/pyenv/pyenv-doctor">pyenv/pyenv-doctor: Verify pyenv installation</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>「 Yixuan-北京: local 相当于, 我 cd 到某个文件夹, 然后 local 一下, 就嗯哼了整个文件夹下的环境? 」
+- - - - - - - - - - - - - - - &gt; 更加简洁:
+</code></pre></div></div>
+
+<p>0: 你 local 设定一次
+1: 下次 cd 进来就自动完成指定环境的加载
+2: 问题在, 长期不用时, 已经删除的环境尝试绑定就绑定不上了
+3: 其实只是在目录中 .python-version 文件写入个别名, 就象 gh-pages 中的 CNAME 一样原理</p></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://du.zoomquiet.io/2018-07/pyenv101/">July 30, 2018 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
 </div>
 
 </div>
@@ -1000,7 +1204,7 @@ Just Relax and Have Fun!</p>
 
 <p>
 <strong>Last updated:</strong><br>
-July 30, 2018 08:42 AM<br>
+July 30, 2018 04:42 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
