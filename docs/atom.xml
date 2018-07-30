@@ -5,8 +5,26 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-07-30T00:42:31+00:00</updated>
+	<updated>2018-07-30T08:42:55+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html"></title>
+		<link href="http://liguanghe.github.io/2018/07/30/TimeReport2018/"/>
+		<id>http://liguanghe.github.io/2018/07/30/TimeReport2018/</id>
+		<updated>2018-07-30T02:27:47+00:00</updated>
+		<content type="html">Bokeh Plot</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-07-30T08:42:37+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">不花钱的自怼圈游玩指南</title>
@@ -112,7 +130,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-29T16:42:12+00:00</updated>
+			<updated>2018-07-30T08:42:18+00:00</updated>
 		</source>
 	</entry>
 
@@ -302,7 +320,7 @@ Just Relax and Have Fun!&lt;/p&gt;
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-29T16:42:12+00:00</updated>
+			<updated>2018-07-30T08:42:18+00:00</updated>
 		</source>
 	</entry>
 
@@ -797,7 +815,7 @@ Just Relax and Have Fun!&lt;/p&gt;
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-07-29T16:42:12+00:00</updated>
+			<updated>2018-07-30T08:42:18+00:00</updated>
 		</source>
 	</entry>
 
@@ -870,26 +888,6 @@ Just Relax and Have Fun!&lt;/p&gt;
 			<link rel="self" href="http://blog.junyu.io/atom.xml"/>
 			<id>http://blog.junyu.io/</id>
 			<updated>2018-07-25T08:43:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">看见多远的未来(1) 生态经济学的世界系统</title>
-		<link href="http://liguanghe.github.io/2018/07/20/Future1Sh2052/"/>
-		<id>http://liguanghe.github.io/2018/07/20/Future1Sh2052/</id>
-		<updated>2018-07-20T05:21:32+00:00</updated>
-		<content type="html">&lt;p&gt;这会是关于决策和未来观系列文章中的第一篇. &lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;科幻小说也是在预测未来的框架下, 讲述个人的现状和命运. 有些是硬科幻, 基于最新的科学研究来做出的预测, 有些成为了现实. 看1968年的2001:太空漫游&gt;, 只预测30年后的事情. &lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-07-23T08:43:00+00:00</updated>
 		</source>
 	</entry>
 
