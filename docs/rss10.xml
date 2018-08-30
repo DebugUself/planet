@@ -13,11 +13,18 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/08/30/Re17monthsInDebuguself/" />
 			<rdf:li rdf:resource="http://du.zoomquiet.io/2018-08/bear-CoolerRoomer-version1.0-info" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/08/30/Re17monthsInDebuguself/">
+	<title>li guang he: 17 months in DeBugUself</title>
+	<link>http://liguanghe.github.io/2018/08/30/Re17monthsInDebuguself/</link>
+	<content:encoded>&lt;p&gt;原来, 过去的一年多不断写的issue，其实….是PPT?&lt;br /&gt;原来, 过去的一年多不断怼周会3分钟，是讲PPT?&lt;br /&gt;原来, 过去的一年多不断的鼓励怼友们再做一点，是沟通力?&lt;br /&gt;原来, 过去一年多用git管理文件和思路，是练逻辑?&lt;br /&gt;原来, 过去一年多和大妈平&lt;/p&gt;</content:encoded>
+	<dc:date>2018-08-30T12:00:32+00:00</dc:date>
+</item>
 <item rdf:about="http://du.zoomquiet.io/2018-08/bear-CoolerRoomer-version1.0-info/">
 	<title>Debug Uself grp.: CoolerRoomer 冷静盒子 v1.0 发布</title>
 	<link>http://du.zoomquiet.io/2018-08/bear-CoolerRoomer-version1.0-info/</link>
