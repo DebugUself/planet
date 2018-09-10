@@ -5,15 +5,18 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-09-09T16:42:15+00:00</updated>
+	<updated>2018-09-10T00:42:17+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
-		<title type="html">17 months in DeBugUself</title>
-		<link href="http://liguanghe.github.io/2018/08/30/Re17monthsInDebuguself/"/>
-		<id>http://liguanghe.github.io/2018/08/30/Re17monthsInDebuguself/</id>
-		<updated>2018-08-30T12:00:32+00:00</updated>
-		<content type="html">&lt;p&gt;原来, 过去的一年多不断写的issue，其实….是PPT?&lt;br /&gt;原来, 过去的一年多不断怼周会3分钟，是讲PPT?&lt;br /&gt;原来, 过去的一年多不断的鼓励怼友们再做一点，是沟通力?&lt;br /&gt;原来, 过去一年多用git管理文件和思路，是练逻辑?&lt;br /&gt;原来, 过去一年多和大妈平&lt;/p&gt;</content>
+		<title type="html">换了工作场景后, 时间记录就乱了? 这样分类就不会</title>
+		<link href="http://liguanghe.github.io/2018/09/10/TimeReportinWork/"/>
+		<id>http://liguanghe.github.io/2018/09/10/TimeReportinWork/</id>
+		<updated>2018-09-09T17:12:32+00:00</updated>
+		<content type="html">&lt;p&gt;时间记录经常会出现的问题, 换了工作场景或者工作内容, 记录的类别是不是就乱了? 不知道怎么记和统计了? &lt;/p&gt;
+&lt;p&gt;用怼圈的分类法, 就不会出现这个问题.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</content>
 		<author>
 			<name>li guang he</name>
 			<uri>http://liguanghe.github.io/</uri>
@@ -22,59 +25,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-08-30T16:42:28+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">CoolerRoomer 冷静盒子 v1.0 发布</title>
-		<link href="http://du.zoomquiet.io/2018-08/bear-CoolerRoomer-version1.0-info/"/>
-		<id>http://du.zoomquiet.io/2018-08/bear-CoolerRoomer-version1.0-info</id>
-		<updated>2018-08-23T00:00:00+00:00</updated>
-		<content type="html">&lt;ul&gt;
-  &lt;li&gt;师友&lt;a href=&quot;https://github.com/13space&quot;&gt;十三纬 (13space)&lt;/a&gt;言「环境改变情绪，激发不同心智模式。据&lt;a href=&quot;http://www.psych.uw.edu/psych.php?p=358&amp;person_id=2569&quot;&gt;Yuichi Shoda&lt;/a&gt;研究，所谓性格也只是日常状态下体现，不同状况下有不同性格」。城市環境，可謂動物世界，層層琐屑隨機堆疊，真真又苦又煩。运用主婦智慧—— &lt;strong&gt;检查并丟棄&lt;/strong&gt;，开发 &lt;strong&gt;「CoolerRoomer 冷靜盒子」&lt;/strong&gt; 。希望藉助它的力量，將雜碎念頭 &lt;strong&gt;分類整理，逐步丟棄&lt;/strong&gt;，以保心居潔淨，頭腦清明。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--more--&gt;
-
-&lt;h1 id=&quot;features-产品特点&quot;&gt;Features 产品特点&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;问答一对一&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;问题可自己提前设置，保存在A.txt，再被逐行读取出来。&lt;/li&gt;
-      &lt;li&gt;比喻：類似中古世界的貴族子弟在教堂里擁有專屬教父，随时随地可向其懺悔煩心事，并接受义理的指導。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;答案全记录&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;每个问题后都跟随一个回答框，回答完毕后可跳转到下一问题，所有回答答案被记录在B.txt。&lt;/li&gt;
-      &lt;li&gt;比喻：類似中国古代散文的语录体，可用于门人弟子记录先生和自我的言行。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;示意图&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;img src=&quot;http://p3gjd3dx2.bkt.clouddn.com/2018-08-23-CR-V1.0-TRY1.gif&quot; alt=&quot;CRV1.0&quot; /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;documentation-开发过程&quot;&gt;Documentation 开发过程&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;开发过程遭遇不少问题，皆以ipynb形式记录之。&lt;/li&gt;
-  &lt;li&gt;ipynb地址&lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/zsy/CoolerRoomer/CoolerRommer-try1-questionRead-Userinput.ipynb&quot;&gt;CoolerRommer-try1-questionRead-Userinput.ipynb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;github-repo-代码地址&quot;&gt;Github Repo 代码地址&lt;/h1&gt;
-&lt;p&gt;The code is available at Github Repo &lt;a href=&quot;https://github.com/DebugUself/du4proto/blob/zsy/CoolerRoomer/CP-try1.py&quot;&gt;CoolerRommer version1.0&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>Debug Uself grp.</name>
-			<uri>http://du.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">自怼圈</title>
-			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
-			<id>http://du.zoomquiet.io</id>
-			<updated>2018-09-06T16:42:17+00:00</updated>
+			<updated>2018-09-10T00:42:15+00:00</updated>
 		</source>
 	</entry>
 
