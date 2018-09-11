@@ -13,11 +13,22 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://du.zoomquiet.io/2018-09/chaos42dama-easysteak" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/09/10/TimeReportinWork/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://du.zoomquiet.io/2018-09/chaos42dama-easysteak/">
+	<title>Debug Uself grp.: Easy Steak</title>
+	<link>http://du.zoomquiet.io/2018-09/chaos42dama-easysteak/</link>
+	<content:encoded>&lt;p&gt;&lt;img src=&quot;http://res.pychina.org/ipic/091900.jpg&quot; alt=&quot;chaos42dama&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.pychina.org/ipic/091946.jpg&quot; alt=&quot;chapter004&quot; /&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2018-09-11T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/09/10/TimeReportinWork/">
 	<title>li guang he: 换了工作场景后, 时间记录就乱了? 这样分类就不会</title>
 	<link>http://liguanghe.github.io/2018/09/10/TimeReportinWork/</link>

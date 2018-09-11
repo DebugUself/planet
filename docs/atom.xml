@@ -5,8 +5,30 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-09-11T08:42:43+00:00</updated>
+	<updated>2018-09-11T16:42:25+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Easy Steak</title>
+		<link href="http://du.zoomquiet.io/2018-09/chaos42dama-easysteak/"/>
+		<id>http://du.zoomquiet.io/2018-09/chaos42dama-easysteak</id>
+		<updated>2018-09-11T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://res.pychina.org/ipic/091900.jpg&quot; alt=&quot;chaos42dama&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.pychina.org/ipic/091946.jpg&quot; alt=&quot;chapter004&quot; /&gt;&lt;/p&gt;</content>
+		<author>
+			<name>Debug Uself grp.</name>
+			<uri>http://du.zoomquiet.io/</uri>
+		</author>
+		<source>
+			<title type="html">自怼圈</title>
+			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
+			<id>http://du.zoomquiet.io</id>
+			<updated>2018-09-11T16:42:12+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">换了工作场景后, 时间记录就乱了? 这样分类就不会</title>
