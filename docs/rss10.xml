@@ -20,109 +20,118 @@
 </channel>
 
 <item rdf:about="http://blog.zoejane.net/post/2018-09-23-from-mark-to-solve-problem/">
-	<title>zoejane: 如何从无尽的收藏资料到开始解决问题 - Tips for 印象笔记</title>
+	<title>zoejane: 如何从无尽的收藏资料到开始解决问题</title>
 	<link>http://blog.zoejane.net/post/2018-09-23-from-mark-to-solve-problem/</link>
-	<content:encoded>&lt;h2 id=&quot;问题-陷入无尽的资料收藏&quot;&gt;问题 - 陷入无尽的资料收藏&lt;/h2&gt;
+	<content:encoded>&lt;h2 id=&quot;困境-陷入无尽的资料收藏&quot;&gt;困境 - 陷入无尽的资料收藏&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;常常遇到很多好文章，然后随手丢到印象笔记里，总觉得把它收藏了就觉得很满足， 自己有需要的时候，就可以在自己的资料库里去搜到相关资料了&lt;/li&gt;
-&lt;li&gt;然而，事实上，这些我收藏的资料，基本上不会再打开第二遍了。因为印象笔记里对方的资料实在是太多太乱了，让我无从下手。&lt;/li&gt;
+&lt;li&gt;遇到很多好文章/好资料，我们常常习惯性收藏，总觉得收藏就很安心，总觉得自己以后有需要时，就可以在自己的资料库里去搜到相关资料了。&lt;/li&gt;
+&lt;li&gt;但事实上，很多人会遇到这样的问题，自己收藏了大量的资料，却基本上不会再打开第二遍了。因为收藏的资料实在是太多太乱了，让人无从下手。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;启发-功利性阅读&quot;&gt;启发 - 功利性阅读&lt;/h2&gt;
-
-&lt;p&gt;Youcore 的功利性阅读给了我启发。资料是无穷无尽的，阅读不应该是漫无目的的，而是应该带着想要解决的问题去阅读。读的时候，也应该去阅读和当下问题解决最有关的部分，并马上用起来。&lt;/p&gt;
-
-&lt;h2 id=&quot;新的方案-带着问题去做主题阅读&quot;&gt;新的方案 - 带着问题去做主题阅读&lt;/h2&gt;
+&lt;h2 id=&quot;启发-从想解决的问题入手&quot;&gt;启发 - 从想解决的问题入手&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Step 0 - 思考目的
+&lt;li&gt;资料是无穷无尽的。&lt;/li&gt;
+&lt;li&gt;阅读不应该是漫无目的的，而是应该带着想要解决的问题去阅读。&lt;/li&gt;
+&lt;li&gt;读的时候，也应该去阅读和当下问题解决最有关的部分，并马上用起来。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;方案-带着问题做主题阅读&quot;&gt;方案 - 带着问题做主题阅读&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-0-明确目的&quot;&gt;Step 0 - 明确目的&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从漫无目的到带着问题阅读&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;思考
 
 &lt;ul&gt;
 &lt;li&gt;自己想解决什么问题？&lt;/li&gt;
 &lt;li&gt;自己想解决到什么程度？&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Step 1 - 资料搜索
-
-&lt;ul&gt;
-&lt;li&gt;利用搜索功能，选定和目标解决最相近的关键词，进行资料搜集。&lt;/li&gt;
-&lt;li&gt;比如 Google， 比如微信搜索自己关注的公众号里的文章，建立自己的资料来源。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Step 2 - 资料汇总
-
-&lt;ul&gt;
-&lt;li&gt;把感兴趣的文章都推送到印象笔记中，并建立一个专门的笔记本，用于存放这次主题阅读的所有文章。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Step 3 - 生成目录
-
-&lt;ul&gt;
-&lt;li&gt;利用印象笔记自带的功能，自动生成所有文章的目录。具体步骤，参见&lt;a href=&quot;https://list.yinxiang.com/jinjiejiqiao/27fb9336-480c-477d-b28c-31cb312bf827.php&quot;&gt;印象笔记 - 快速创建目录&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;这样，自己面对的不是一大堆杂乱无章的文章，而是一个可以不断调整的文章目录。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Step 4 - 挑选阅读
-
-&lt;ul&gt;
-&lt;li&gt;根据目录，先挑自己最感兴趣，并且对解决自己问题最相关的文章看。保证自己最先阅读的东西是对自己帮助最大的。&lt;/li&gt;
-&lt;li&gt;不感兴趣的，优先级不高的，可以先都先挪到目录里偏后的位置，等有余力的时候继续往下看。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Step 5 - 解决问题
-
-&lt;ul&gt;
-&lt;li&gt;从自己的问题出发，记录对自己最有启发的点，能给自己一个什么样的解决方案，马上用起来。&lt;/li&gt;
-&lt;li&gt;这样以后不用重新再阅读这些文章，只用看自己的笔记就能快速回忆起重要内容。&lt;/li&gt;
-&lt;li&gt;对笔记进一步优化，转化为能帮助自己的下一步的行动。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;想不明白的时候可以先用写字/画图/列清单/思维导图的方式，协助自己梳理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;案例运用-新岗位业务学习&quot;&gt;案例运用 - 新岗位业务学习&lt;/h2&gt;
+&lt;h3 id=&quot;step-1-资料搜索&quot;&gt;Step 1 - 资料搜索&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从习惯性收藏到主题阅读&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;以前
+&lt;li&gt;利用搜索功能，选定和目标解决最相近的关键词，在对应的领域里进行资料搜集。&lt;/li&gt;
+&lt;li&gt;比如 Google 搜索网络信息，比如 GitHub 搜索开源仓库，比如 Google Scholar 搜索论文信息，比如豆瓣搜索书籍，比如 Kindle 试读文章，比如微信搜索自己关注的公众号等等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-2-资料汇总&quot;&gt;Step 2 - 资料汇总&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从四处堆放的资料到统一入口&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;之前碰到公众号的业务相关的文章，只是习惯性的收藏，但是因为没有应用场景， 所以其实看完也没有什么印象。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;现在
+&lt;li&gt;把感兴趣的资料进行汇总管理，同类型的资料尽量做到统一入口，比如存放到自己的电脑上，比如存放在一些笔记软件，比如利用文献辅助软件进行管理等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-3-快速定位&quot;&gt;Step 3 - 快速定位&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从零散资料到快速定位&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;这次运用主题阅读的方法，先用微信的搜索功能，从我关注的公众号里，把所有相关的内容都转发到了印象笔记。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;以前
+&lt;li&gt;建立一个快速检索的体系，比如利用文章或者文件的标题，比如利用笔记软件自动生成文章目录，比如利用搜索功能，比如建立一个自己的知识管理笔记本，比如利用文献管理软件等，让自己可以方便的浏览和检索大量的资料。&lt;/li&gt;
+&lt;li&gt;这样，自己面对的不是一大堆杂乱无章的资料，而是一个可以进行快速检索和定位的结构。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-4-挑选阅读&quot;&gt;Step 4 - 挑选阅读&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从无尽的阅读清单到有所取舍&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;以前想到要读将近上百篇文章，心里都觉得很害怕，觉得读不完，不知道何时是尽头。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;现在
+&lt;li&gt;根据自己生成的资料的目录/文档的标题/检索定位/&amp;hellip;，先挑自己最感兴趣，并且对解决自己问题最相关的资料看。保证自己最先阅读的东西是对自己帮助最大的。&lt;/li&gt;
+&lt;li&gt;不感兴趣的，优先级不高的，可以先都放一放，等有余力的时候继续往下看。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-5-解决问题&quot;&gt;Step 5 - 解决问题&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从看过就忘到马上能用&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;通过印象笔记生成的目录，我能够通过文章标题，我可以优先阅读我工作中马上能够用到内容，以及我内心有疑惑使用场景又比较高的内容。一些优先级比较低的内容，我可以挪到后面慢慢读。这样能够让自己不至于忧虑时间不够用，因为我可以把时间先分配到更重要的资料上。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;以前
+&lt;li&gt;从自己的问题出发，记录对自己最有启发的点，给自己设计对应的解决方案，马上用起来。&lt;/li&gt;
+&lt;li&gt;这样以后不用重新再阅读这些文章，只用看自己的笔记就能快速回忆起重要内容。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-6-不断迭代&quot;&gt;Step 6 - 不断迭代&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从一次使用到不断迭代&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;习惯把重点内容做高亮标记。但是真正要用的时候，一时还是不知道要怎么下手。事后还是要把以前的文章翻出来看。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;现在
-
-&lt;ul&gt;
-&lt;li&gt;边看资料，我就边整理了工作中可以直接用来搜索的业务笔记 Excel 表，以我的体系重新组织了这些资料，并且后续我需要查相关知识时，只需要搜索我的 Excel 笔记，不用再重新阅读这些文章了。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;以前
-
-&lt;ul&gt;
-&lt;li&gt;看过很多文章，但是也没做笔记，没按自己的思路整理，只是当时记得，过了一段时间又觉得记不清了。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;现在
-
-&lt;ul&gt;
-&lt;li&gt;整理好的业务学习笔记，让我面临新岗位的时候，心里更有底。并且这个笔记每天在工作中就可以用到，还可以不断迭代。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;通过自己的实践经验和后续学习，对笔记进一步优化，不断迭代。&lt;/li&gt;
+&lt;li&gt;将自己的经验与他人分享，通过互动和反馈，不断调整。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;20180923 zoejane add version 2, change to a more common scene&lt;/li&gt;
 &lt;li&gt;20180923 zoejane init&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Issue 讨论 - &lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/477&quot;&gt;4d [WIKI] 如何从无尽的收藏资料到开始解决问题 - 意见征集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wiki - &lt;a href=&quot;https://github.com/DebugUself/du4proto/wiki/How2UseResources&quot;&gt;如何从无尽的收藏资料到开始解决问题 · DebugUself/du4proto Wiki&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2018-09-23T08:01:48+00:00</dc:date>
 </item>
