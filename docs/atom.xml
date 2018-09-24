@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-09-24T08:42:16+00:00</updated>
+	<updated>2018-09-24T16:42:21+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">看展及喜好</title>
+		<link href="http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/"/>
+		<id>http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/</id>
+		<updated>2018-09-24T14:08:32+00:00</updated>
+		<content type="html">&lt;p&gt;如果在北京, 你还会无聊, 那一定是你的问题, 这个城市太丰富有趣了, 出门玩/聊/看, 进门读书/写字/画图. &lt;/p&gt;
+&lt;p&gt;看在设计展上拍的图片, 可以归纳出我的喜好: 简洁, 实用, 轻巧, 柔和, 低调, 新意, 自然. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-09-24T16:42:19+00:00</updated>
+		</source>
+	</entry>
 
 	<entry xml:lang="zh-cn">
 		<title type="html">如何从无尽的收藏资料到开始解决问题</title>
