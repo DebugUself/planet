@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-09-27T00:42:12+00:00</updated>
+	<updated>2018-09-27T08:42:15+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">乱入</title>
+		<link href="http://liguanghe.github.io/2018/09/27/NvKongfu/"/>
+		<id>http://liguanghe.github.io/2018/09/27/NvKongfu/</id>
+		<updated>2018-09-27T03:35:32+00:00</updated>
+		<content type="html">&lt;p&gt;有女, 头大如斗, 脑门方正. 额角漏光, 自觉此为天眼已开, 想做那云中小熊. 熊居云中也食烟火, 少女, 啊不, 老妹儿, 且去那武侠江湖, 攒烟火来. &lt;/p&gt;
+&lt;p&gt;刚进武侠江湖, 就说自己会武功, 会瞬间被打死吧. 猫着, 猫着.&lt;br /&gt;少林寺的烧火丫头是个好差事&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2018-09-27T08:42:11+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">看展及喜好</title>
@@ -24,7 +43,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-09-24T16:42:19+00:00</updated>
+			<updated>2018-09-27T08:42:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -153,7 +172,7 @@
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-09-24T08:42:15+00:00</updated>
+			<updated>2018-09-27T08:42:15+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>
@@ -184,7 +203,7 @@ Restart!&lt;/p&gt;</content>
 			<subtitle type="html">Recent content on Zoe Jane</subtitle>
 			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
 			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-09-24T08:42:15+00:00</updated>
+			<updated>2018-09-27T08:42:15+00:00</updated>
 			<rights type="html">life is wonderful</rights>
 		</source>
 	</entry>

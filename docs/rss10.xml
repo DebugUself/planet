@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2018/09/27/NvKongfu/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/" />
 			<rdf:li rdf:resource="http://blog.zoejane.net/post/2018-09-23-from-mark-to-solve-problem/" />
 			<rdf:li rdf:resource="http://blog.zoejane.net/post/2018-09-23-restart-writing/" />
@@ -20,6 +21,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2018/09/27/NvKongfu/">
+	<title>li guang he: 乱入</title>
+	<link>http://liguanghe.github.io/2018/09/27/NvKongfu/</link>
+	<content:encoded>&lt;p&gt;有女, 头大如斗, 脑门方正. 额角漏光, 自觉此为天眼已开, 想做那云中小熊. 熊居云中也食烟火, 少女, 啊不, 老妹儿, 且去那武侠江湖, 攒烟火来. &lt;/p&gt;
+&lt;p&gt;刚进武侠江湖, 就说自己会武功, 会瞬间被打死吧. 猫着, 猫着.&lt;br /&gt;少林寺的烧火丫头是个好差事&lt;/p&gt;</content:encoded>
+	<dc:date>2018-09-27T03:35:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/">
 	<title>li guang he: 看展及喜好</title>
 	<link>http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/</link>
