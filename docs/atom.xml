@@ -5,8 +5,88 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-10-02T00:42:18+00:00</updated>
+	<updated>2018-10-02T08:42:18+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry xml:lang="en-us">
+		<title type="html">using google cloud python API via proxy</title>
+		<link href="http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/"/>
+		<id>http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/</id>
+		<updated>2018-10-02T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;想试用 google cloud 的 tts 服务, 跟着&lt;a href=&quot;https://cloud.google.com/text-to-speech/docs/quickstart-protocol&quot;&gt;文档&lt;/a&gt;先把前期设置搞完了, credential 获取了, 安装了 python API (&lt;code class=&quot;highlighter-rouge&quot;&gt;pip install google-cloud-texttospeech&lt;/code&gt;), 直接借用&lt;a href=&quot;https://cloud.google.com/text-to-speech/docs/create-audio&quot;&gt;文档&lt;/a&gt;的 python 例子(&lt;code class=&quot;highlighter-rouge&quot;&gt;python example.py&lt;/code&gt;)想试试效果, 结果死也出不来结果…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;想起 iTerm2 不能像 Dropbox 一样可以设置代理, 所以即使用上全局 ss, 也并无卵用.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl ip.cn
+当前 IP：113.87.xxx.xx 来自：广东省深圳市 电信
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;好吧, 自己之前偷懒并没有特意去找如何让 terminal 上也科学上网. 搜了一下怎么在终端上 proxy,
+找了一篇&lt;a href=&quot;http://www.devmeng.com/2016/04/19/shadowsocks_proxychainsNG_iterms2/&quot;&gt;使用 proxychains-ng 配置&lt;/a&gt;,
+然而因为 OSX 的系统升级, 启用了 SIP (&lt;a href=&quot;https://en.wikipedia.org/wiki/System_Integrity_Protection&quot;&gt;System Integrity Protection&lt;/a&gt;),
+于是这个 proxychains 的设置只有一部分情况适用, 除非直接把 SIP 禁用 (Run &lt;code class=&quot;highlighter-rouge&quot;&gt;csrutil disable&lt;/code&gt; in Recovery mode), 具体见&lt;a href=&quot;https://github.com/rofl0r/proxychains-ng/issues/78&quot;&gt;这里&lt;/a&gt;. 赶脚略麻烦, 先放弃之~&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;更简洁的方式直接设置环境变量, 见&lt;a href=&quot;https://github.com/mrdulin/blog/issues/18&quot;&gt;此处&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;all_proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;socks5://127.0.0.1:1087
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;当然是打开 shadowsocks 的情况下, 再试试&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl ip.cn
+当前 IP：103.192.xxx.xx 来自：香港特别行政区 xTom
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;well, 这里终端情况下终于走了代理, 现在估计 &lt;code class=&quot;highlighter-rouge&quot;&gt;brew update&lt;/code&gt; 之类的就会比较顺畅了&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;But, 发现直接跑 python 脚本的话(&lt;code class=&quot;highlighter-rouge&quot;&gt;python example.py&lt;/code&gt;), 仍然有问题…&lt;code class=&quot;highlighter-rouge&quot;&gt;_(:з」∠)_&lt;/code&gt;
+换了下搜索关键字 -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;google cloud python api via proxy&lt;/code&gt;, 还真的&lt;a href=&quot;https://github.com/salrashid123/gcpsamples/tree/master/proxy&quot;&gt;有人讲过&lt;/a&gt;, 这位好心人还分别对 python 和 java 两种情况研究了下.
+简单来说, 就是 google cloud 的 API 有两种传输方式, HTTP and &lt;a href=&quot;https://grpc.io/&quot;&gt;gRPC&lt;/a&gt;, 看具体 product 不同.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;HTTP&lt;/strong&gt;: 使用 HTTP 的 API 的话(authentication 部分就是 HTTP), 设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;https_proxy&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;GRPC&lt;/strong&gt;: 使用 gRPC 的 API 的话(我想用的 text-to-speech 是用的这个), 需要同时设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;http_proxy&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;https_proxy&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;话说我怎么知道 tts 服务是走的 gRPC 的呢, 是因为出错的 backtrace 里有 &lt;code class=&quot;highlighter-rouge&quot;&gt;.../google/api_core/grpc_helpers.py&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;继续前面的设置环境变量, 捣鼓半天还是不行, 明明 &lt;code class=&quot;highlighter-rouge&quot;&gt;curl ip.cn&lt;/code&gt; 的结果是香港.
+最后试了一下把设置的值改了下&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 之前都写成了 socks5://127.0.0.1:1087&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;http_proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://127.0.0.1:1087
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;https_proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://127.0.0.1:1087
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这下终于👌🏻了, &lt;code class=&quot;highlighter-rouge&quot;&gt;python example.py&lt;/code&gt; 终于把 &lt;code class=&quot;highlighter-rouge&quot;&gt;output.mp3&lt;/code&gt; 吐了出来✨&lt;/p&gt;
+
+&lt;p&gt;虽然把能用的方法试出来了, 并不知具体区别在哪里…求赐教😅&lt;/p&gt;</content>
+		<author>
+			<name>bambooom</name>
+			<email>zhuzi.mn@gmail.com</email>
+			<uri>http://bambooom.github.io</uri>
+		</author>
+		<source>
+			<title type="html">Bambooom</title>
+			<subtitle type="html">Personal Blog of Bambooom</subtitle>
+			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
+			<id>https://bambooom.github.io/feed.xml</id>
+			<updated>2018-10-02T08:42:13+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">乱入</title>

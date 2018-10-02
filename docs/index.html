@@ -23,6 +23,102 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>October 02, 2018</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://bambooom.github.io" title="Bambooom">bambooooooom</a></h3>
+
+
+<div class="entrygroup" id="http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/" lang="en-us">
+<h4><a href="http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/">using google cloud python API via proxy</a></h4>
+<div class="entry">
+<div class="content">
+<p>想试用 google cloud 的 tts 服务, 跟着<a href="https://cloud.google.com/text-to-speech/docs/quickstart-protocol">文档</a>先把前期设置搞完了, credential 获取了, 安装了 python API (<code class="highlighter-rouge">pip install google-cloud-texttospeech</code>), 直接借用<a href="https://cloud.google.com/text-to-speech/docs/create-audio">文档</a>的 python 例子(<code class="highlighter-rouge">python example.py</code>)想试试效果, 结果死也出不来结果…</p>
+
+<ul>
+  <li>想起 iTerm2 不能像 Dropbox 一样可以设置代理, 所以即使用上全局 ss, 也并无卵用.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl ip.cn
+当前 IP：113.87.xxx.xx 来自：广东省深圳市 电信
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>好吧, 自己之前偷懒并没有特意去找如何让 terminal 上也科学上网. 搜了一下怎么在终端上 proxy,
+找了一篇<a href="http://www.devmeng.com/2016/04/19/shadowsocks_proxychainsNG_iterms2/">使用 proxychains-ng 配置</a>,
+然而因为 OSX 的系统升级, 启用了 SIP (<a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a>),
+于是这个 proxychains 的设置只有一部分情况适用, 除非直接把 SIP 禁用 (Run <code class="highlighter-rouge">csrutil disable</code> in Recovery mode), 具体见<a href="https://github.com/rofl0r/proxychains-ng/issues/78">这里</a>. 赶脚略麻烦, 先放弃之~</p>
+  </li>
+  <li>
+    <p>更简洁的方式直接设置环境变量, 见<a href="https://github.com/mrdulin/blog/issues/18">此处</a></p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">export </span><span class="nv">all_proxy</span><span class="o">=</span>socks5://127.0.0.1:1087
+</code></pre></div></div>
+
+<p>当然是打开 shadowsocks 的情况下, 再试试</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl ip.cn
+当前 IP：103.192.xxx.xx 来自：香港特别行政区 xTom
+</code></pre></div></div>
+
+<p>well, 这里终端情况下终于走了代理, 现在估计 <code class="highlighter-rouge">brew update</code> 之类的就会比较顺畅了</p>
+
+<ul>
+  <li>
+    <p>But, 发现直接跑 python 脚本的话(<code class="highlighter-rouge">python example.py</code>), 仍然有问题…<code class="highlighter-rouge">_(:з」∠)_</code>
+换了下搜索关键字 -&gt; <code class="highlighter-rouge">google cloud python api via proxy</code>, 还真的<a href="https://github.com/salrashid123/gcpsamples/tree/master/proxy">有人讲过</a>, 这位好心人还分别对 python 和 java 两种情况研究了下.
+简单来说, 就是 google cloud 的 API 有两种传输方式, HTTP and <a href="https://grpc.io/">gRPC</a>, 看具体 product 不同.</p>
+
+    <ul>
+      <li><strong>HTTP</strong>: 使用 HTTP 的 API 的话(authentication 部分就是 HTTP), 设置 <code class="highlighter-rouge">https_proxy</code></li>
+      <li><strong>GRPC</strong>: 使用 gRPC 的 API 的话(我想用的 text-to-speech 是用的这个), 需要同时设置 <code class="highlighter-rouge">http_proxy</code> 和 <code class="highlighter-rouge">https_proxy</code></li>
+    </ul>
+  </li>
+  <li>
+    <p>话说我怎么知道 tts 服务是走的 gRPC 的呢, 是因为出错的 backtrace 里有 <code class="highlighter-rouge">.../google/api_core/grpc_helpers.py</code></p>
+  </li>
+  <li>
+    <p>继续前面的设置环境变量, 捣鼓半天还是不行, 明明 <code class="highlighter-rouge">curl ip.cn</code> 的结果是香港.
+最后试了一下把设置的值改了下</p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 之前都写成了 socks5://127.0.0.1:1087</span>
+<span class="nb">export </span><span class="nv">http_proxy</span><span class="o">=</span>http://127.0.0.1:1087
+<span class="nb">export </span><span class="nv">https_proxy</span><span class="o">=</span>http://127.0.0.1:1087
+</code></pre></div></div>
+
+<p>这下终于👌🏻了, <code class="highlighter-rouge">python example.py</code> 终于把 <code class="highlighter-rouge">output.mp3</code> 吐了出来✨</p>
+
+<p>虽然把能用的方法试出来了, 并不知具体区别在哪里…求赐教😅</p></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/">by bambooom (zhuzi.mn@gmail.com) at October 02, 2018 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>September 27, 2018</h2>
 
 <div class="channelgroup">
@@ -310,7 +406,7 @@ Restart!</p></div>
 
 <p>
 <strong>Last updated:</strong><br>
-October 02, 2018 12:42 AM<br>
+October 02, 2018 08:42 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
