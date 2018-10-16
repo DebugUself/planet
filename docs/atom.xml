@@ -5,385 +5,191 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-10-16T00:42:11+00:00</updated>
+	<updated>2018-10-16T08:42:15+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
-		<title type="html">aTL2 私人故事</title>
-		<link href="http://du.zoomquiet.io/2018-10/atl2tt-story/"/>
-		<id>http://du.zoomquiet.io/2018-10/atl2tt-story</id>
-		<updated>2018-10-02T00:00:00+00:00</updated>
-		<content type="html">&lt;h1 id=&quot;2ldr&quot;&gt;2L;DR&lt;/h1&gt;
-&lt;p&gt;有关时间帐单, 这是一个很长很囧的故事…&lt;/p&gt;
+		<title type="html">私人树洞构筑快记</title>
+		<link href="http://du.zoomquiet.io/2018-10/myhole/"/>
+		<id>http://du.zoomquiet.io/2018-10/myhole</id>
+		<updated>2018-10-16T00:00:00+00:00</updated>
+		<content type="html">&lt;h1 id=&quot;为什么要有树洞&quot;&gt;为什么要有树洞?&lt;/h1&gt;
 
-&lt;p&gt;但是,发现很多朋友其实在反复尝试无效 &lt;code class=&quot;highlighter-rouge&quot;&gt;时间帐单&lt;/code&gt; 记录,
-就知道, 这事儿, 可以嗯哼一下:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/27131763/&quot;&gt;如何有效整理信息 (豆瓣)&lt;/a&gt;
+&lt;img src=&quot;https://img3.doubanio.com/view/subject/l/public/s29535471.jpg&quot; alt=&quot;s29535471&quot; /&gt;&lt;/p&gt;
 
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
-&lt;p&gt;一切当然是从:  &lt;a href=&quot;http://coder.zoomquiet.top/data/20110324145254/index.html&quot;&gt;时间不可管理 | 把时间当作朋友 ~ 李笑来&lt;/a&gt; 开始的,
-从连载文章中知道了:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/1115353/&quot;&gt;&lt;img src=&quot;http://s5.zoomquiet.top/140303-time4km/i/s1093496-stronglife.jpg&quot; alt=&quot;奇特的一生&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;进而知道了 &lt;code class=&quot;highlighter-rouge&quot;&gt;时间帐单&lt;/code&gt; 这种工具,以及对俺非常有吸引力的核心功能:&lt;/p&gt;
+&lt;p&gt;给出了作者独特的手帐世界观, 并在移动互联网大背景下, 
+发现了纸和笔专有优势和对应技术体系…&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;发觉时间黑洞&lt;/li&gt;
-  &lt;li&gt;积累效能经验&lt;/li&gt;
-  &lt;li&gt;恢复生体节拍&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;所以, 几乎是立即就开始了时间帐单的记录以及放弃的反复..&lt;/p&gt;
-
-&lt;h2 id=&quot;流水&quot;&gt;流水&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;08 年开始尝试&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://s5.zoomquiet.top/140303-time4km/i/snap/zq-tilog.jpg&quot; alt=&quot;tilog-0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;先用 柳比 一样的形式:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;每天一页&lt;/li&gt;
-  &lt;li&gt;当天统计&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://s5.zoomquiet.top/140303-time4km/i/snap/zq-talog.jpg&quot; alt=&quot;tilog-1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;后来发觉用 &lt;code class=&quot;highlighter-rouge&quot;&gt;maindmap&lt;/code&gt; 形成来规划+记录更加自在&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;不过, 统计依然得心算&lt;/li&gt;
-  &lt;li&gt;并且要人工录入电脑, 以便进行分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://s5.zoomquiet.top/140303-time4km/i/snap/zq-ti-month-radar-0902.png&quot; alt=&quot;ti-month-radar-0902&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;通过简单的脚本开发, 即可以根据自己的情况, 统计月度行为…&lt;/p&gt;
-
-&lt;p&gt;再后来, 有尝试用 &lt;code class=&quot;highlighter-rouge&quot;&gt;XMind&lt;/code&gt; 进行记录:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;每天一个子树, 规划任务后, 在对应任务后, 追加时间记录&lt;/li&gt;
-  &lt;li&gt;新一天复制前一天的树, 快速修剪任务树,并清除时间记录, 就可以开始新一轮&lt;/li&gt;
-  &lt;li&gt;但是:
+  &lt;li&gt;当然, 是否要启用随身本开始所谓 &lt;code class=&quot;highlighter-rouge&quot;&gt;一元笔记法&lt;/code&gt; 另说,&lt;/li&gt;
+  &lt;li&gt;但是, 这种随时随地能自我倾述的需求是每个人都有的&lt;/li&gt;
+  &lt;li&gt;只是, 无论软件还是移动 app 都很少能有自如吐糟的场景:
     &lt;ul&gt;
-      &lt;li&gt;只有电脑端可以进行操作&lt;/li&gt;
-      &lt;li&gt;总是有任务开始时来不及记录, 只能结束后回想记录&lt;/li&gt;
-      &lt;li&gt;XMind 并没有统计功能, 还得另外定制脚本来统计-&amp;gt;可视化&lt;/li&gt;
+      &lt;li&gt;不象童话里, 随处都有树洞, 头一钻就能嗯哼&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;于是, 又回到纸+笔+定期录入, 断断续续坚持到13年, 发现:&lt;/p&gt;
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;PS:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;纸+笔虽然可以随身&lt;/li&gt;
-  &lt;li&gt;但是, 统计的事务多是工作相关的, 而且变化随机&lt;/li&gt;
-  &lt;li&gt;通勤/回家后, 纸+笔就不一定好用了&lt;/li&gt;
-  &lt;li&gt;更加无法忍受的是不够精确的记录, 以及容易出错的人工录入&lt;/li&gt;
+  &lt;li&gt;当然, 这个小书带货能力非常强&lt;/li&gt;
+  &lt;li&gt;作者推荐40多年里对比选择出来的好的各种文具&lt;/li&gt;
+  &lt;li&gt;一气买了其中7种…&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;问题&quot;&gt;问题&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;13年开始, 固化到 aTimeLogger2 应用&lt;/p&gt;
+  &lt;p&gt;以往有朋友注册 twitter , 专门留个小号, 谁也不关注和follow, 就自己给自己随时嗯哼&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;有了智能手机后, 时间帐单的记录, 就有了全的可能&lt;/li&gt;
-  &lt;li&gt;最先尝试的是有人推荐的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Mr.Timer&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;但是, 结合以往的记录经验, 发现这种每次都要记录事件的工具不值得用&lt;/li&gt;
-  &lt;li&gt;就自行搜索, 找到了 &lt;code class=&quot;highlighter-rouge&quot;&gt;aTimeLogger2&lt;/code&gt; 并开始反复调节记录的事务/类别&lt;/li&gt;
+  &lt;li&gt;可惜, 这种利用现有互联网服务, 打造一个私人树洞的尝试&lt;/li&gt;
+  &lt;li&gt;都无视了很多隐患:
+    &lt;ul&gt;
+      &lt;li&gt;无法阻止意外发现关注&lt;/li&gt;
+      &lt;li&gt;无法阻止搜索引擎的抓取&lt;/li&gt;
+      &lt;li&gt;难以快速有选择性的分享&lt;/li&gt;
+      &lt;li&gt;进一步的, 自动化备份/导出/…潜在数据管理功能, 也都难以追加&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;目标&quot;&gt;目标&lt;/h2&gt;
+
+&lt;p&gt;一个合用的现代私人树洞, 应该有这么几个基础能力:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;多屏兼容, 可以就手在任何一种智能设备上进行嗯哼&lt;/li&gt;
+  &lt;li&gt;跨应用信息拾取:
+    &lt;ul&gt;
+      &lt;li&gt;无视不同的软件/app, 可以快速将中意的片段提取丢到私人树洞中&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;自动备份&lt;/li&gt;
+  &lt;li&gt;空间越大越好, 当然, 也得便宜&lt;/li&gt;
+  &lt;li&gt;可收纳的数据格式不限&lt;/li&gt;
   &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;14年形成自己的时间帐单行为体系&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;并有相关公开分享:&lt;/li&gt;
-  &lt;li&gt;幻灯:&lt;a href=&quot;http://s5.zoomquiet.top/140303-time4km/index.html&quot;&gt;知.时管理～持续的效率进化之旅&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;录音: &lt;a href=&quot;http://0.zoomquiet.top/CPyUG/zq2voice/140307-tm4km-kn.MP3&quot;&gt;140307-tm4km-kn.MP3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;分析&quot;&gt;分析&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;为什么总是难以复现 柳比 大仙的时间记录法?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;因为用过的服务/工具/app/… 很杂,&lt;/p&gt;
 
-&lt;p&gt;看过书就知道, 柳比歇夫根据自己的工作和身体情况坚持了几条规则:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;不承担必须完成的任务
-不接受紧急的任务
-一累马上停止工作休息
-...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;他研究自己工作能力的心理特点,研究最适合自己工作能力的日常生活制度,
-使其一切服从于生物学,凡是无助于此的,一概置之不理.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;时间是最宝贵的财富,不能乱用到怄气上,不能乱用到竞争,角逐和满足虚荣心上&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;可惜, 我们的时间, 并不完全都是由自己全权控制的,&lt;/p&gt;
-
-&lt;p&gt;在工作/生活/学习中, 几乎 80% 的日常时间, 是作好一颗好螺丝钉,
-各种上峰都习惯性的用尽一切可能, 将我们的行程塞爆;&lt;/p&gt;
-
-&lt;p&gt;根本没什么选择任务的权力.&lt;/p&gt;
-
-&lt;p&gt;所以?&lt;/p&gt;
+&lt;p&gt;所以, 根据当前墙后的使用体验, 注意到:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;柳比 大仙以长期规律性任务为基础的:
+  &lt;li&gt;gmail 以及配套的 google groups 非常强大和方便:
     &lt;ul&gt;
-      &lt;li&gt;时间帐单记录/追踪/改进原理&lt;/li&gt;
-      &lt;li&gt;对于俺, 基本难以成立了…&lt;/li&gt;
+      &lt;li&gt;Gdriver 私人100G/月 1.99$ 可以说非常便宜了&lt;/li&gt;
+      &lt;li&gt;而 groups 好象没有空间限制&lt;/li&gt;
+      &lt;li&gt;虽然无法直接访问这两个服务的 web 界面&lt;/li&gt;
+      &lt;li&gt;但是, 通过邮件发送数据到邮箱/列表没有任何问题&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;Slack 目前多屏兼容作的非常好,个人开辟工作环境也没有任何限制&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;那怎么办&quot;&gt;那怎么办?&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;只能合理降维&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;正如, 剑飞对柳比歇夫时间管理法的讲解:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;记录时间
-    → 分析时间
-        → 消除时间浪费
-            → 重新安排自己的时间
-记录→分析→整合→规划
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;等等, 这不就是管理界经典的:&lt;a href=&quot;https://wiki.mbalib.com/wiki/%E6%88%B4%E6%98%8E%E5%BE%AA%E7%8E%AF&quot;&gt;Deming Cycle - MBA智库百科&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://img01.fuhai360.com/gzhr/image/20130928/20130928095255_8707.jpg&quot; alt=&quot;PDCA &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;只是, 俺慢慢发现, &lt;code class=&quot;highlighter-rouge&quot;&gt;时间&lt;/code&gt; 并不是大家日常讨论的那种绝对钢性的数值:&lt;/p&gt;
+&lt;p&gt;那么, 只要解决这两种服务间的双向互传, 就解决了大部分私人树洞需求了:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;宇宙间本质上并没有 &lt;code class=&quot;highlighter-rouge&quot;&gt;时间&lt;/code&gt; 这种事物&lt;/li&gt;
-  &lt;li&gt;只是人类为了协调越来越复杂的社会协作, 而发明的纯数学概念&lt;/li&gt;
-  &lt;li&gt;所以, 相对科学实践中作为计算坐标维度的 &lt;code class=&quot;highlighter-rouge&quot;&gt;时间&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;在个人效能训练上, &lt;code class=&quot;highlighter-rouge&quot;&gt;时间&lt;/code&gt; 应该理解为:
+  &lt;li&gt;任何时刻手机中, 可以通过系统内置的邮件功能, 将有兴趣的内容/片段用邮件发送到私人 groups 中
     &lt;ul&gt;
-      &lt;li&gt;对自己有意义的时刻之间可度量的跨度&lt;/li&gt;
-      &lt;li&gt;而什么时刻对自己有意义?&lt;/li&gt;
-      &lt;li&gt;当然是自己关心的行为了&lt;/li&gt;
-      &lt;li&gt;所以, &lt;code class=&quot;highlighter-rouge&quot;&gt;时间&lt;/code&gt; 就变成了:
-        &lt;ul&gt;
-          &lt;li&gt;自己所关注的行为&lt;/li&gt;
-          &lt;li&gt;开始和结束用时&lt;/li&gt;
-          &lt;li&gt;或是, 两个行为间的用时&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;然后, 通过某种机制, 自动发送到指定 Slack 频道中&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;只有尽可能客观的记录下这种行为事件的用时, 才有分析/统计/改进的意义&lt;/li&gt;
-  &lt;li&gt;这也引发了一个隐藏的时间记录的功能要求:
+  &lt;li&gt;同时, 随手在分享到 Slack 中的信息, 或是自己写的嗯哼
     &lt;ul&gt;
-      &lt;li&gt;本质上自己有意识时的每个行为, 都是有意义的&lt;/li&gt;
-      &lt;li&gt;所以, 不同行为事件应该是连续发生的&lt;/li&gt;
-      &lt;li&gt;时间帐单的记录, 应该是自动的结束前一个, 立即开始又一个&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;aTimeLogger2&lt;/code&gt;(以下简写为 &lt;code class=&quot;highlighter-rouge&quot;&gt;aTL2&lt;/code&gt;) 可以配置记录行为用这种模式 ;-)&lt;/li&gt;
-      &lt;li&gt;这也是俺立即决定坚持使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;aTL2&lt;/code&gt; 的原因之一…
+      &lt;li&gt;也能通过某种机制, 自动发送到 groups 中, 完成备份&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;以及, 这种双工自动化传送, 不应该产相同消息反复互传的死循环现象&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;嗯哼&quot;&gt;嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;大约用了2小时, 就完成了以上部署&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;注册全新的私人 google groups: XXX-zoom@googlegroups.com
+    &lt;ul&gt;
+      &lt;li&gt;将自己常用的邮箱都直接先订阅上&lt;/li&gt;
+      &lt;li&gt;但是, 只有发信权力, 不收列表邮件&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;注册全新 Slack workspace: XXX-zoom.slack.com
+    &lt;ul&gt;
+      &lt;li&gt;构建频道: ggroups&lt;/li&gt;
+      &lt;li&gt;准备专门用以自动回传备份&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;搜索 Slack app 仓库, 找一种服务可以完成设想中的跨平台互传
+    &lt;ul&gt;
+      &lt;li&gt;因为跨平台传送,基于 email ,从邮件分类中果断明确&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://quietzoom.slack.com/apps/A0JUW1X96-mailclark-email-twitter?next_id=0&quot;&gt;MailClark: Email, Twitter - Slack App Directory&lt;/a&gt; 这位老兄可以&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;根据官方文档, 一路配置好, 即可:
+    &lt;ul&gt;
+      &lt;li&gt;groups 中有新邮件, MailClark 自动感知并转发到 Slack 频道中&lt;/li&gt;
+      &lt;li&gt;而在 Slack 中, 无论在哪个屏幕中,嘦是有效马甲嗯哼一下
         &lt;ul&gt;
-          &lt;li&gt;另外, 也非常重要的原因是&lt;/li&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;aTL2&lt;/code&gt; 支持指定区间的记录为 csv 标准数据文件&lt;/li&gt;
-          &lt;li&gt;并通过邮件发送到任何邮箱, 随时可以下载到桌面/主机 进行自动分析&lt;/li&gt;
+          &lt;li&gt;MailClark 都会感知到, 并变成标准邮件发送到 groups&lt;/li&gt;
+          &lt;li&gt;同时, 知道这是自己发送的, 不会当成新邮件再 echo 回 Slack&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;综上, 固化下来的时间帐单记录原则变成:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;记录通用行为类别(几乎不会变化的)
-^   -&amp;gt; 统计发现黑洞/自己行为模式
-|       -&amp;gt; 合理规划改进
-|           -&amp;gt; 坚持执行
-|          /
-+---------+
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;自怼&quot;&gt;自怼&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;DebugUself ~ 自怼圈 的简称, 也是一种自学模式以及社区&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在启动时, 引入时间帐单记录任务, 因为发现:&lt;/p&gt;
+&lt;p&gt;用了一周左右, 发现的确吻合设想, 而且:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;这是一项非常合适的 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP&lt;/code&gt; (Minimum Viable Product)&lt;/li&gt;
-  &lt;li&gt;通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP (praxis)&lt;/code&gt; 最小行为&lt;/li&gt;
-  &lt;li&gt;形成 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP (practice)&lt;/code&gt; 最小习惯&lt;/li&gt;
-  &lt;li&gt;获得 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP (protocol)&lt;/code&gt; 最小原型数据集&lt;/li&gt;
-  &lt;li&gt;树立 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP (process)&lt;/code&gt; 最小行为过程&lt;/li&gt;
-  &lt;li&gt;确立 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP (person)&lt;/code&gt; 最小自我&lt;/li&gt;
-  &lt;li&gt;从而开发 &lt;code class=&quot;highlighter-rouge&quot;&gt;MVP&lt;/code&gt; 最小可用作品:
+  &lt;li&gt;无论 Slack 还是 gmail 中的搜索, 都是非常高效的&lt;/li&gt;
+  &lt;li&gt;另外, Slack workspace 的免费搜索限额是 10K 条消息
     &lt;ul&gt;
-      &lt;li&gt;有指向性的再次分析/统计帐单数据&lt;/li&gt;
+      &lt;li&gt;这足以私人吐糟很长时间了…&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;todo&quot;&gt;TODO&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;将其它常见和谐 SNS 也都纳入到这种私人分布式自动备份通用树洞中&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;twitter&lt;/li&gt;
+  &lt;li&gt;facebook&lt;/li&gt;
+  &lt;li&gt;flickr&lt;/li&gt;
   &lt;li&gt;…&lt;/li&gt;
-  &lt;li&gt;在一周周的 &lt;code class=&quot;highlighter-rouge&quot;&gt;PDCA&lt;/code&gt; 过程中&lt;/li&gt;
-  &lt;li&gt;通过记录下来的客观数据, 重新发现了一个有数据佐证的 &lt;code class=&quot;highlighter-rouge&quot;&gt;自我&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;这种自省过程, 一但确立, 同时也就获得了自主自学一切技能的基础&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;但是, 也遇到一个最核心的问题:&lt;/p&gt;
+&lt;p&gt;简单的说:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;坚持时间帐单的动力问题&lt;/li&gt;
-  &lt;li&gt;因为, 为了立即开展最小心智消耗的记录行为&lt;/li&gt;
-  &lt;li&gt;分类/事件设计的要尽可能小&lt;/li&gt;
-  &lt;li&gt;本质上, 其实只是记录了:
+  &lt;li&gt;以 email 为协议,能简洁的打通各种服务的次元壁&lt;/li&gt;
+  &lt;li&gt;类似 Slack 协同工具, 因为开放接口, 已经形成了无所不包的生态环境
     &lt;ul&gt;
-      &lt;li&gt;生产活动&lt;/li&gt;
-      &lt;li&gt;消耗/费&lt;/li&gt;
-      &lt;li&gt;生存必须&lt;/li&gt;
-      &lt;li&gt;三大类抽象到极致的行为类别时间&lt;/li&gt;
+      &lt;li&gt;0开发成本,而且免费就能达到多信息池飞棱联通&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;那么, 这么粗略的行为事件+用时 数据:
-    &lt;ul&gt;
-      &lt;li&gt;可以分析出什么重要的效能数值&lt;/li&gt;
-      &lt;li&gt;能标识出大家都关注的结论&lt;/li&gt;
-      &lt;li&gt;并能合理响应相关行为的变化?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;set4&quot;&gt;SET4&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;公约(先不需质疑的)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2/8 原理是正确的&lt;/li&gt;
-  &lt;li&gt;时间帐单应用/记录行为 只能纯化为最简单的基础数据: 行为属性+用时&lt;/li&gt;
-  &lt;li&gt;行为效能和行为内容紧密相关:
-    &lt;ul&gt;
-      &lt;li&gt;输入可以碎片化,&lt;/li&gt;
-      &lt;li&gt;但是,复杂输入,比如论文研读等于输出&lt;/li&gt;
-      &lt;li&gt;输出难以碎片化, 或是说, 高价值的输出依赖稳定的足够长的时间段&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;SET4 指数&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-    SET4 (Simple Efficiency Time for DU)指标
-    ~=
-    (TOTa/LOTa)*TBI
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;可以尝试用: &lt;code class=&quot;highlighter-rouge&quot;&gt;输出峰值平均时长&lt;/code&gt; (&lt;strong&gt;TOTa&lt;/strong&gt; ~ Top Output Time average) 为间接效能指标
-    &lt;ul&gt;
-      &lt;li&gt;统计一周内所有输出行为&lt;/li&gt;
-      &lt;li&gt;以每次输出用时排序&lt;/li&gt;
-      &lt;li&gt;取前 20% 为当周有效输出&lt;/li&gt;
-      &lt;li&gt;取平均时长,计为 &lt;code class=&quot;highlighter-rouge&quot;&gt;xx.xTOTa&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;配合对应的: &lt;code class=&quot;highlighter-rouge&quot;&gt;低产峰值平均时长&lt;/code&gt; (&lt;strong&gt;LOTa&lt;/strong&gt; ~ Low Output Time average) 为对比效能指标
-    &lt;ul&gt;
-      &lt;li&gt;统计一周内所有 沟通/输入 行为&lt;/li&gt;
-      &lt;li&gt;以每次用时排序&lt;/li&gt;
-      &lt;li&gt;取前 20% 为当周输出低产峰值总量&lt;/li&gt;
-      &lt;li&gt;取平均时长,计为 &lt;code class=&quot;highlighter-rouge&quot;&gt;xx.xLOTa&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;以及每天的: &lt;code class=&quot;highlighter-rouge&quot;&gt;中断指数&lt;/code&gt; (&lt;strong&gt;TBI&lt;/strong&gt; ~ Totle Broken Index) 为加权
-    &lt;ul&gt;
-      &lt;li&gt;TBT ~ 中断总时长&lt;/li&gt;
-      &lt;li&gt;TBC ~ 中断次数&lt;/li&gt;
-      &lt;li&gt;设每天有效工作时间为8小时&lt;/li&gt;
-      &lt;li&gt;TBT/TBC/8 = TBI&lt;/li&gt;
-      &lt;li&gt;即,每天平均中断时长占有效工作时间的比例, 记为: &lt;code class=&quot;highlighter-rouge&quot;&gt;xx.xTBI&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;在理解,并组织开发统计脚本之后, 怼员们开始了自己的再定制,比如:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://liguanghe.github.io/2018/07/30/TimeReport2018/&quot;&gt;TimeReport2018 Li Guanghe’s blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;~ &lt;a href=&quot;https://liguanghe.github.io/2017/11/18/PyTimeReport1/&quot;&gt;Time Report’s Report 时间报告的报告  Li Guanghe’s blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;反省&quot;&gt;反省&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;纸+笔, 总是最舒心的&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但是, 没有合理的自动录入/电子化工具/界面前,
-最好还是别先大力嗯哼…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://s5.zoomquiet.top/140303-time4km/i/handarw-mindmap.gif&quot; alt=&quot;handarw-mindmap&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;工具包含高密度的工作效率习惯:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;如果没有对应的习惯形成前, 强行上对应工具, 其实非常可能事倍功半&lt;/li&gt;
-  &lt;li&gt;最自然的过程是:
-    &lt;ul&gt;
-      &lt;li&gt;先嗯哼起来&lt;/li&gt;
-      &lt;li&gt;形成习惯过程中&lt;/li&gt;
-      &lt;li&gt;发现自己的习惯是什么&lt;/li&gt;
-      &lt;li&gt;再对应搜索匹配的工具&lt;/li&gt;
-      &lt;li&gt;进一步的, 得注意工具是否有足够可扩展性
-        &lt;ul&gt;
-          &lt;li&gt;以便足够长久的适配自己的习惯发展/进化&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;atl2tt&quot;&gt;aTL2TT&lt;/h2&gt;
-&lt;p&gt;在坚持使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;aTL2&lt;/code&gt; 5年后, 终于意识到可以接触下了这粒好蛋的鸡:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sergei Zaplitny 白俄罗斯程序猿
-    &lt;ul&gt;
-      &lt;li&gt;独立专发了 &lt;code class=&quot;highlighter-rouge&quot;&gt;aTL2&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;以及后续更加高级的 &lt;code class=&quot;highlighter-rouge&quot;&gt;TimeTrack.io&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;在国内小伙伴 &lt;code class=&quot;highlighter-rouge&quot;&gt;涂俊杰&lt;/code&gt; 的帮助下有微信群&lt;/li&gt;
-  &lt;li&gt;进入嗯哼后, 发现, 微信的确不合适进行长期的技术交流&lt;/li&gt;
-  &lt;li&gt;特此创建邮件列表(Mailling-list):
-    &lt;ul&gt;
-      &lt;li&gt;https://groups.google.com/d/forum/atl2tt&lt;/li&gt;
-      &lt;li&gt;订阅: atl2tt+subscribe@googlegroups.com&lt;/li&gt;
-      &lt;li&gt;退订: atl2tt+unsubscribe@googlegroups.com&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;欢迎有完整经验/想法/建议的小伙伴订阅,异步优雅的讨论&lt;/li&gt;
+  &lt;li&gt;能限制我们的, 也只有我们的想象力了..&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;是也乎&quot;&gt;是也乎&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;18.10.2 发布&lt;/li&gt;
-  &lt;li&gt;18.10.1 触发&lt;/li&gt;
-  &lt;li&gt;05.4.1 诱发&lt;/li&gt;
+  &lt;li&gt;181016 loggging&lt;/li&gt;
+  &lt;li&gt;181007 deploy&lt;/li&gt;
+  &lt;li&gt;180927 thinking&lt;/li&gt;
 &lt;/ul&gt;</content>
 		<author>
 			<name>Debug Uself grp.</name>
@@ -393,287 +199,7 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-10-02T16:42:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="en-us">
-		<title type="html">using google cloud python API via proxy</title>
-		<link href="http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/"/>
-		<id>http://bambooom.github.io/2018/10/02/using-google-cloud-api-via-proxy/</id>
-		<updated>2018-10-02T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;想试用 google cloud 的 tts 服务, 跟着&lt;a href=&quot;https://cloud.google.com/text-to-speech/docs/quickstart-protocol&quot;&gt;文档&lt;/a&gt;先把前期设置搞完了, credential 获取了, 安装了 python API (&lt;code class=&quot;highlighter-rouge&quot;&gt;pip install google-cloud-texttospeech&lt;/code&gt;), 直接借用&lt;a href=&quot;https://cloud.google.com/text-to-speech/docs/create-audio&quot;&gt;文档&lt;/a&gt;的 python 例子(&lt;code class=&quot;highlighter-rouge&quot;&gt;python example.py&lt;/code&gt;)想试试效果, 结果死也出不来结果…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;想起 iTerm2 不能像 Dropbox 一样可以设置代理, 所以即使用上全局 ss, 也并无卵用.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl ip.cn
-当前 IP：113.87.xxx.xx 来自：广东省深圳市 电信
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;好吧, 自己之前偷懒并没有特意去找如何让 terminal 上也科学上网. 搜了一下怎么在终端上 proxy,
-找了一篇&lt;a href=&quot;http://www.devmeng.com/2016/04/19/shadowsocks_proxychainsNG_iterms2/&quot;&gt;使用 proxychains-ng 配置&lt;/a&gt;,
-然而因为 OSX 的系统升级, 启用了 SIP (&lt;a href=&quot;https://en.wikipedia.org/wiki/System_Integrity_Protection&quot;&gt;System Integrity Protection&lt;/a&gt;),
-于是这个 proxychains 的设置只有一部分情况适用, 除非直接把 SIP 禁用 (Run &lt;code class=&quot;highlighter-rouge&quot;&gt;csrutil disable&lt;/code&gt; in Recovery mode), 具体见&lt;a href=&quot;https://github.com/rofl0r/proxychains-ng/issues/78&quot;&gt;这里&lt;/a&gt;. 赶脚略麻烦, 先放弃之~&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;更简洁的方式直接设置环境变量, 见&lt;a href=&quot;https://github.com/mrdulin/blog/issues/18&quot;&gt;此处&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;all_proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;socks5://127.0.0.1:1087
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;当然是打开 shadowsocks 的情况下, 再试试&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl ip.cn
-当前 IP：103.192.xxx.xx 来自：香港特别行政区 xTom
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;well, 这里终端情况下终于走了代理, 现在估计 &lt;code class=&quot;highlighter-rouge&quot;&gt;brew update&lt;/code&gt; 之类的就会比较顺畅了&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;But, 发现直接跑 python 脚本的话(&lt;code class=&quot;highlighter-rouge&quot;&gt;python example.py&lt;/code&gt;), 仍然有问题…&lt;code class=&quot;highlighter-rouge&quot;&gt;_(:з」∠)_&lt;/code&gt;
-换了下搜索关键字 -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;google cloud python api via proxy&lt;/code&gt;, 还真的&lt;a href=&quot;https://github.com/salrashid123/gcpsamples/tree/master/proxy&quot;&gt;有人讲过&lt;/a&gt;, 这位好心人还分别对 python 和 java 两种情况研究了下.
-简单来说, 就是 google cloud 的 API 有两种传输方式, HTTP and &lt;a href=&quot;https://grpc.io/&quot;&gt;gRPC&lt;/a&gt;, 看具体 product 不同.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;HTTP&lt;/strong&gt;: 使用 HTTP 的 API 的话(authentication 部分就是 HTTP), 设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;https_proxy&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;GRPC&lt;/strong&gt;: 使用 gRPC 的 API 的话(我想用的 text-to-speech 是用的这个), 需要同时设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;http_proxy&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;https_proxy&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;话说我怎么知道 tts 服务是走的 gRPC 的呢, 是因为出错的 backtrace 里有 &lt;code class=&quot;highlighter-rouge&quot;&gt;.../google/api_core/grpc_helpers.py&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;继续前面的设置环境变量, 捣鼓半天还是不行, 明明 &lt;code class=&quot;highlighter-rouge&quot;&gt;curl ip.cn&lt;/code&gt; 的结果是香港.
-最后试了一下把设置的值改了下&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 之前都写成了 socks5://127.0.0.1:1087&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;http_proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://127.0.0.1:1087
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;https_proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://127.0.0.1:1087
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这下终于👌🏻了, &lt;code class=&quot;highlighter-rouge&quot;&gt;python example.py&lt;/code&gt; 终于把 &lt;code class=&quot;highlighter-rouge&quot;&gt;output.mp3&lt;/code&gt; 吐了出来✨&lt;/p&gt;
-
-&lt;p&gt;虽然把能用的方法试出来了, 并不知具体区别在哪里…求赐教😅&lt;/p&gt;</content>
-		<author>
-			<name>bambooom</name>
-			<email>zhuzi.mn@gmail.com</email>
-			<uri>http://bambooom.github.io</uri>
-		</author>
-		<source>
-			<title type="html">Bambooom</title>
-			<subtitle type="html">Personal Blog of Bambooom</subtitle>
-			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
-			<id>https://bambooom.github.io/feed.xml</id>
-			<updated>2018-10-02T08:42:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">乱入</title>
-		<link href="http://liguanghe.github.io/2018/09/27/NvKongfu/"/>
-		<id>http://liguanghe.github.io/2018/09/27/NvKongfu/</id>
-		<updated>2018-09-27T03:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;有女, 头大如斗, 脑门方正. 额角漏光, 自觉此为天眼已开, 想做那云中小熊. 熊居云中也食烟火, 少女, 啊不, 老妹儿, 且去那武侠江湖, 攒烟火来. &lt;/p&gt;
-&lt;p&gt;刚进武侠江湖, 就说自己会武功, 会瞬间被打死吧. 猫着, 猫着.&lt;br /&gt;少林寺的烧火丫头是个好差事&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-10-13T16:42:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">看展及喜好</title>
-		<link href="http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/"/>
-		<id>http://liguanghe.github.io/2018/09/24/LsBeijingDesignShow/</id>
-		<updated>2018-09-24T14:08:32+00:00</updated>
-		<content type="html">&lt;p&gt;如果在北京, 你还会无聊, 那一定是你的问题, 这个城市太丰富有趣了, 出门玩/聊/看, 进门读书/写字/画图. &lt;/p&gt;
-&lt;p&gt;看在设计展上拍的图片, 可以归纳出我的喜好: 简洁, 实用, 轻巧, 柔和, 低调, 新意, 自然. &lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2018-10-13T16:42:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="zh-cn">
-		<title type="html">如何从无尽的收藏资料到开始解决问题</title>
-		<link href="http://blog.zoejane.net/post/2018-09-23-from-mark-to-solve-problem/"/>
-		<id>http://blog.zoejane.net/post/2018-09-23-from-mark-to-solve-problem/</id>
-		<updated>2018-09-23T08:01:48+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;困境-陷入无尽的资料收藏&quot;&gt;困境 - 陷入无尽的资料收藏&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;遇到很多好文章/好资料，我们常常习惯性收藏，总觉得收藏就很安心，总觉得自己以后有需要时，就可以在自己的资料库里去搜到相关资料了。&lt;/li&gt;
-&lt;li&gt;但事实上，很多人会遇到这样的问题，自己收藏了大量的资料，却基本上不会再打开第二遍了。因为收藏的资料实在是太多太乱了，让人无从下手。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;启发-从想解决的问题入手&quot;&gt;启发 - 从想解决的问题入手&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;资料是无穷无尽的。&lt;/li&gt;
-&lt;li&gt;阅读不应该是漫无目的的，而是应该带着想要解决的问题去阅读。&lt;/li&gt;
-&lt;li&gt;读的时候，也应该去阅读和当下问题解决最有关的部分，并马上用起来。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;方案-带着问题做主题阅读&quot;&gt;方案 - 带着问题做主题阅读&lt;/h2&gt;
-
-&lt;h3 id=&quot;step-0-明确目的&quot;&gt;Step 0 - 明确目的&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从漫无目的到带着问题阅读&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;思考
-
-&lt;ul&gt;
-&lt;li&gt;自己想解决什么问题？&lt;/li&gt;
-&lt;li&gt;自己想解决到什么程度？&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;想不明白的时候可以先用写字/画图/列清单/思维导图的方式，协助自己梳理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-1-资料搜索&quot;&gt;Step 1 - 资料搜索&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从习惯性收藏到主题阅读&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;利用搜索功能，选定和目标解决最相近的关键词，在对应的领域里进行资料搜集。&lt;/li&gt;
-&lt;li&gt;比如 Google 搜索网络信息，比如 GitHub 搜索开源仓库，比如 Google Scholar 搜索论文信息，比如豆瓣搜索书籍，比如 Kindle 试读文章，比如微信搜索自己关注的公众号等等。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-2-资料汇总&quot;&gt;Step 2 - 资料汇总&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从四处堆放的资料到统一入口&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;把感兴趣的资料进行汇总管理，同类型的资料尽量做到统一入口，比如存放到自己的电脑上，比如存放在一些笔记软件，比如利用文献辅助软件进行管理等。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-3-快速定位&quot;&gt;Step 3 - 快速定位&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从零散资料到快速定位&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;建立一个快速检索的体系，比如利用文章或者文件的标题，比如利用笔记软件自动生成文章目录，比如利用搜索功能，比如建立一个自己的知识管理笔记本，比如利用文献管理软件等，让自己可以方便的浏览和检索大量的资料。&lt;/li&gt;
-&lt;li&gt;这样，自己面对的不是一大堆杂乱无章的资料，而是一个可以进行快速检索和定位的结构。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-4-挑选阅读&quot;&gt;Step 4 - 挑选阅读&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从无尽的阅读清单到有所取舍&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;根据自己生成的资料的目录/文档的标题/检索定位/&amp;hellip;，先挑自己最感兴趣，并且对解决自己问题最相关的资料看。保证自己最先阅读的东西是对自己帮助最大的。&lt;/li&gt;
-&lt;li&gt;不感兴趣的，优先级不高的，可以先都放一放，等有余力的时候继续往下看。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-5-解决问题&quot;&gt;Step 5 - 解决问题&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从看过就忘到马上能用&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;从自己的问题出发，记录对自己最有启发的点，给自己设计对应的解决方案，马上用起来。&lt;/li&gt;
-&lt;li&gt;这样以后不用重新再阅读这些文章，只用看自己的笔记就能快速回忆起重要内容。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-6-不断迭代&quot;&gt;Step 6 - 不断迭代&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;从一次使用到不断迭代&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;通过自己的实践经验和后续学习，对笔记进一步优化，不断迭代。&lt;/li&gt;
-&lt;li&gt;将自己的经验与他人分享，通过互动和反馈，不断调整。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;20180923 zoejane add version 2, change to a more common scene&lt;/li&gt;
-&lt;li&gt;20180923 zoejane init&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Issue 讨论 - &lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/477&quot;&gt;4d [WIKI] 如何从无尽的收藏资料到开始解决问题 - 意见征集&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wiki - &lt;a href=&quot;https://github.com/DebugUself/du4proto/wiki/How2UseResources&quot;&gt;如何从无尽的收藏资料到开始解决问题 · DebugUself/du4proto Wiki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>zoejane</name>
-			<uri>http://blog.zoejane.net/</uri>
-		</author>
-		<source>
-			<title type="html">Zoe Jane</title>
-			<subtitle type="html">Recent content on Zoe Jane</subtitle>
-			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
-			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-10-01T08:42:26+00:00</updated>
-			<rights type="html">life is wonderful</rights>
-		</source>
-	</entry>
-
-	<entry xml:lang="zh-cn">
-		<title type="html">重新开始写作啦</title>
-		<link href="http://blog.zoejane.net/post/2018-09-23-restart-writing/"/>
-		<id>http://blog.zoejane.net/post/2018-09-23-restart-writing/</id>
-		<updated>2018-09-23T03:15:48+00:00</updated>
-		<content type="html">&lt;p&gt;重新开始写作啦。这次开始，是希望能够把它当成一个像弹琴一样的爱好，一直做下去。&lt;/p&gt;
-
-&lt;p&gt;太久没有写了，甚至不知道要从何开始。但是我还是希望把这样一个习惯捡起来。&lt;br /&gt;
-想起以前在 Blogbus 写东西的时候， 不也是从最开始的摘录开始， 到慢慢写一些自己的想法么，因此认识了一些人，甚至到后来，还遇到了来自拉脱维亚的惊喜，想想还是挺好玩的。&lt;br /&gt;
-后来一段时间感觉也不太好意思写了，因为觉得自己写得很多也是自己的个人感想，对别人也没有什么太多的帮助，感觉自己是不是在制造噪音。&lt;/p&gt;
-
-&lt;p&gt;不过现在还是想鼓起勇气重新开始吧，哪怕最开始写的不好，也只是一些碎碎念，但是一点点写下去，就会有积累，有成长和改变。要发扬大无畏的厚脸皮精神。&lt;br /&gt;
-最起码，这些文字可以帮我记录我曾经历过的时光，我曾经有过的想法和思考，其实对我来说，也是一份珍贵的礼物。&lt;/p&gt;
-
-&lt;p&gt;这一年，我打算最开始也不考虑什么文笔不文笔，逻辑不逻辑之类的，先养成了写字的习惯，观察的习惯，思考的习惯就很好啦。写得再烂我也要把它继续下去。&lt;br /&gt;
-开始写作，也是我认真思考后，觉得真的值得去做的一件事情。我想就先从我的 Blog 开始练习吧。&lt;br /&gt;
-Restart!&lt;/p&gt;</content>
-		<author>
-			<name>zoejane</name>
-			<uri>http://blog.zoejane.net/</uri>
-		</author>
-		<source>
-			<title type="html">Zoe Jane</title>
-			<subtitle type="html">Recent content on Zoe Jane</subtitle>
-			<link rel="self" href="https://zoejane.netlify.com/index.xml"/>
-			<id>https://zoejane.netlify.com/index.xml</id>
-			<updated>2018-10-01T08:42:26+00:00</updated>
-			<rights type="html">life is wonderful</rights>
+			<updated>2018-10-16T08:42:09+00:00</updated>
 		</source>
 	</entry>
 
