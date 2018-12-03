@@ -5,438 +5,185 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2018-10-31T00:42:23+00:00</updated>
+	<updated>2018-12-03T08:42:52+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
-	<entry xml:lang="en-us">
-		<title type="html">火焰图魔改杂项</title>
-		<link href="http://bambooom.github.io/2018/10/20/flame-graph-customization/"/>
-		<id>http://bambooom.github.io/2018/10/20/flame-graph-customization/</id>
-		<updated>2018-10-20T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;最近帮大佬的&lt;a href=&quot;https://openresty.org/slides/nginx-conf-2018/&quot;&gt;幻灯片&lt;/a&gt;做了点杂事，乱七八糟的东西总结一下，不过可能也没啥卵用。&lt;/p&gt;
-
-&lt;h2 id=&quot;火焰图&quot;&gt;火焰图&lt;/h2&gt;
-&lt;p&gt;用到了很多个火焰图，所以魔改了一通生成火焰图的 &lt;a href=&quot;https://github.com/bambooom/FlameGraph/blob/animated/flamegraph.pl&quot;&gt;perl 脚本&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;主要是：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;从下往上 grow 的动画效果，并且隔 2s 后重复播放动画&lt;/li&gt;
-  &lt;li&gt;地图式 zoom 功能，鼠标滚轮
-    &lt;ul&gt;
-      &lt;li&gt;zoom 的同时，需要把文字逐步显示出来，像 map 一样&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;本来加了个跟随鼠标的 tooltip，不过后来还是去掉了&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;grow-动画&quot;&gt;grow 动画&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flamegraph.pl&lt;/code&gt; 实际上是通过读取数据文件来生成一个单独的 svg document。&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;./flamegraph.pl data.cbt &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; output.svg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;生成的 svg 中主要就是一堆的方块 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;rect&amp;gt;&lt;/code&gt; 和文本 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;text&amp;gt;&lt;/code&gt; 元素的组合，具体怎么计算 rect 的位置大小等都不需要我仔细了解。
-但既然每个方块的位置大小都是直接计算出来，那么 grow 动画的逻辑就很简单了：
-给每个 rect 加一个简单的 fadeIn animation，但根据方块的高度来决定 &lt;code class=&quot;highlighter-rouge&quot;&gt;animation-delay&lt;/code&gt;，效果就足够了。&lt;/p&gt;
-
-&lt;p&gt;至于隔 2s 后重复播放动画，本来我以为需要用上 &lt;code class=&quot;highlighter-rouge&quot;&gt;animation-iteration-count: infinite&lt;/code&gt;，
-但实际上 infinite 似乎没办法在每两次动画中间加上间隔。所以开始想方法手动 trigger 动画重播。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/6268508/restart-animation-in-css3-any-better-way-than-removing-the-element&quot;&gt;SO 上的答案&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reset_animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;el&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'animated'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;el&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;animation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'none'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;el&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;offsetHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* trigger reflow */&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;el&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;animation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;基本的方法就是先把元素的 animation 值去掉，触发 reflow，再把 animation 值还原回去，让动画重播。
-不过在我的实际应用中，答案里的 magic &lt;code class=&quot;highlighter-rouge&quot;&gt;el.offsetHeight;&lt;/code&gt; 没有起到效果，尝试了多次之后，
-我直接在去掉 animation 值之后 &lt;code class=&quot;highlighter-rouge&quot;&gt;setTimeout&lt;/code&gt; 了一小段时间后再赋值回去也正确触发了 reflow，让动画重播，具体是啥原因呢 🤔&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bambooom.github.io/assets/images/flame-graph-grow.svg&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;zoom-功能&quot;&gt;zoom 功能&lt;/h3&gt;
-&lt;p&gt;原本的火焰图自带的 zoom 功能是点击之后放大某一个 rect，依次改变其他相关 rect，大佬表示不满意，想要 Google Map 那种地图式的放大，但不改变初始火焰图整体形态。
-毫无头绪的搜索了一阵后，用上了 d3.js。直接套用自带 zoom 函数就好（特别 nice：&lt;/p&gt;
-
-&lt;p&gt;参考例子：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bl.ocks.org/mbostock/4e3925cdc804db257a86fdef3a032a45&quot;&gt;Pan &amp;amp; Zoom III - bl.ocks.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bl.ocks.org/mbostock/d1f7b58631e71fbf9c568345ee04a60e&quot;&gt;Pan &amp;amp; Zoom I - bl.ocks.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xlink:href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://d3js.org/d3.v4.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/ecmascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CDATA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;outerGroup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;g.outer_g&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rectGroup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;g.func_g&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;outerGroup&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;zoom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scaleExtent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 最大和最小 scale 的值&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;zoom&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zooming&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 正在 zoom&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;end&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zoomed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// zoom 结束&lt;/span&gt;
-
-  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zooming&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// 将 transform 的值添加到每一个方块上&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// 比如: transform=&quot;translate(126.50096885580297,-50.13540780123475) scale(1.3736362334296233)&quot;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;rectGroup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;transform&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zoomed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;d3 selection 其实完全可以理解为类似 jQuery 的元素选择器 &lt;code class=&quot;highlighter-rouge&quot;&gt;$('.class-name')&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;$('span#id')&lt;/code&gt; 之类的。&lt;/p&gt;
-
-&lt;p&gt;还比较 easy 地做到了 zoom 呢~ 然后发现新问题，文字大小也会随着 scale 一起放大…所以文字内容并不会比正常大小的时候变多….emmmmm….&lt;/p&gt;
-
-&lt;p&gt;原本的点击 zoom 处理方法是计算 rect 宽度，以及文字所需要的宽度，然后 JS 里计算可以显示多少 substring。
-所以还是沿用这个方法，只是在 scale 之后，想要正确计算文字的宽度，
-必须改变 &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;，否则怎么计算都是和初始一样。
-改了下 &lt;code class=&quot;highlighter-rouge&quot;&gt;zooming&lt;/code&gt; 函数，在 zooming 时改变文字 &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;， zoom 结束时计算更新文字应该显示的内容。&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseFontSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zooming&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;rectGroup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;transform&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeList&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rectGroup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_groups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;transform&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// get the scale number&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scale&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/scale&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\((&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)\\)&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scale&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;c1&quot;&gt;// lower the font-size by the scale number&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'font-size'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseFontSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'font-size'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseFontSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zoomed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeList&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rectGroup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_groups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodeList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;transform&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;update_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;原本计算如何更新显示的文字的函数长这样：&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// avg width relative to fontsize&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fontWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.59&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;update_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rect&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;width&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\([^&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\)\$&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-  &lt;span class=&quot;c1&quot;&gt;// Smaller than this size won't fit anything&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseFontSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fontWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  
-  &lt;span class=&quot;c1&quot;&gt;// Fit in full text width&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/^ *&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSubStringLength&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSubStringLength&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  
-  &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;原作者定义了一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;fontWidth&lt;/code&gt; 的常量，按我的理解是一个平均 ratio，也就是平均一个字母的宽度相对于它 font-size 的 ratio。就比如说 &lt;code class=&quot;highlighter-rouge&quot;&gt;12px font-size&lt;/code&gt; 的字母平均宽度为 &lt;code class=&quot;highlighter-rouge&quot;&gt;12px * 0.59 = 7.08px&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;这个 ratio 从哪里得来的我没找到。然而这个 ratio 在文字被 scale 放大之后就不太对了。
-按照我前面在放大之后将 font-size 改小来希望可以显示出更多文字来看，如果文字是 12px，scale 是 2，那么放大后文字的 size 被缩小设置为 6px，当然实际看上去的大小并不是。
-那么平均一个字母的宽度就是 &lt;code class=&quot;highlighter-rouge&quot;&gt;6px * 0.59 = 3.54px&lt;/code&gt;，单纯比较这个数字和方块的宽度的话，文字一下就变成全部显示出来了，此时看到的结果就是其实文字都超出 rect 的宽度了。&lt;/p&gt;
-
-&lt;p&gt;前面的一个错误是字母在设置成 6px 之后，实际上计算宽度时应该将 scale 乘回去，也就是 &lt;code class=&quot;highlighter-rouge&quot;&gt;6px * 0.59 * 2 = 7.08px&lt;/code&gt;。所以实际上不管如何 scale，都是希望文字的实际宽度没有大的变化的。觉得文字变大变小了，是因为其他图形的 scale 变化而产生的相对的视觉效果。&lt;/p&gt;
-
-&lt;p&gt;观察和计算了一下不同 scale 时，字母的平均宽度之后，我保守的直接把 &lt;code class=&quot;highlighter-rouge&quot;&gt;fontWidth = 6.7&lt;/code&gt; 了，比前面的 7.08 小一丢丢。&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// avg character width regardless of font-size and scale&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fontWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;6.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;update_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rect&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;transform&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;// get scale number&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scale&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/scale&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\((&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)\\)&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;width&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scale&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;find_child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\([^&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\)\$&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  
-  &lt;span class=&quot;c1&quot;&gt;// Smaller than this size won't fit anything&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fontWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  
-  &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  
-  &lt;span class=&quot;c1&quot;&gt;// Fit in full text width&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/^ *&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fontWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fontWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  
-  &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;tooltip&quot;&gt;tooltip&lt;/h3&gt;
-
-&lt;p&gt;用 d3 加 tooltip 也是很简单的呢：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bl.ocks.org/biovisualize/1016860&quot;&gt;Simple D3 tooltip - bl.ocks.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bl.ocks.org/d3noob/a22c42db65eb00d4e369&quot;&gt;Simple d3.js tooltips - bl.ocks.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;首先准备一个 tooltip 的 div，可以用 d3 创建，也可以直接在 svg 或 html 里添加好。然后用 d3 监听 mouseover/mousemove/mouseout 事件即可控制 tooltip 的样式及位置来显示内容了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bambooom.github.io/assets/images/flame-graph-tooltip.svg&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;outerGroup&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mouseover&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// show the tooltip&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;opacity&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;p&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mousemove&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// tooltip move with the mouse&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pageX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;y&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pageY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mouseout&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// hide the tooltip&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;tooltip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;opacity&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-		<author>
-			<name>bambooom</name>
-			<email>zhuzi.mn@gmail.com</email>
-			<uri>http://bambooom.github.io</uri>
-		</author>
-		<source>
-			<title type="html">Bambooom</title>
-			<subtitle type="html">Personal Blog of Bambooom</subtitle>
-			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
-			<id>https://bambooom.github.io/feed.xml</id>
-			<updated>2018-10-20T08:42:17+00:00</updated>
-		</source>
-	</entry>
-
 	<entry>
-		<title type="html">私人树洞构筑快记</title>
-		<link href="http://du.zoomquiet.io/2018-10/myhole/"/>
-		<id>http://du.zoomquiet.io/2018-10/myhole</id>
-		<updated>2018-10-16T00:00:00+00:00</updated>
-		<content type="html">&lt;h1 id=&quot;为什么要有树洞&quot;&gt;为什么要有树洞?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/27131763/&quot;&gt;如何有效整理信息 (豆瓣)&lt;/a&gt;
-&lt;img src=&quot;https://img3.doubanio.com/view/subject/l/public/s29535471.jpg&quot; alt=&quot;s29535471&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;给出了作者独特的手帐世界观, 并在移动互联网大背景下, 
-发现了纸和笔专有优势和对应技术体系…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;当然, 是否要启用随身本开始所谓 &lt;code class=&quot;highlighter-rouge&quot;&gt;一元笔记法&lt;/code&gt; 另说,&lt;/li&gt;
-  &lt;li&gt;但是, 这种随时随地能自我倾述的需求是每个人都有的&lt;/li&gt;
-  &lt;li&gt;只是, 无论软件还是移动 app 都很少能有自如吐糟的场景:
-    &lt;ul&gt;
-      &lt;li&gt;不象童话里, 随处都有树洞, 头一钻就能嗯哼&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;…&lt;/p&gt;
+		<title type="html">2018.12.1自怼圈招新</title>
+		<link href="http://du.zoomquiet.io/2018-12/recruit-debuggers/"/>
+		<id>http://du.zoomquiet.io/2018-12/recruit-debuggers</id>
+		<updated>2018-12-01T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;2018.12.1自怼圈招新&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;PS:&lt;/p&gt;
+&lt;h2 id=&quot;报名入圈&quot;&gt;报名入圈&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;当然, 这个小书带货能力非常强&lt;/li&gt;
-  &lt;li&gt;作者推荐40多年里对比选择出来的好的各种文具&lt;/li&gt;
-  &lt;li&gt;一气买了其中7种…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;问题&quot;&gt;问题&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;以往有朋友注册 twitter , 专门留个小号, 谁也不关注和follow, 就自己给自己随时嗯哼&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;可惜, 这种利用现有互联网服务, 打造一个私人树洞的尝试&lt;/li&gt;
-  &lt;li&gt;都无视了很多隐患:
+  &lt;li&gt;报名入口
     &lt;ul&gt;
-      &lt;li&gt;无法阻止意外发现关注&lt;/li&gt;
-      &lt;li&gt;无法阻止搜索引擎的抓取&lt;/li&gt;
-      &lt;li&gt;难以快速有选择性的分享&lt;/li&gt;
-      &lt;li&gt;进一步的, 自动化备份/导出/…潜在数据管理功能, 也都难以追加&lt;/li&gt;
+      &lt;li&gt;费用 364.2/人&lt;/li&gt;
+      &lt;li&gt;截止 2018.12.7 23:59, 或报满 16 人
+  &lt;img src=&quot;https://farm5.staticflickr.com/4890/32252839468_6a4295acbd_o.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;帮助
+    &lt;ul&gt;
+      &lt;li&gt;如果你的报名表单不小心写错了, 或者有其他需要帮助和咨询的, 可以发邮件给 &lt;a href=&quot;http://du.zoomquiet.io/jie.jane1030@gmail.com&quot;&gt;qilin&lt;/a&gt;, &lt;a href=&quot;http://du.zoomquiet.io/leilayanhui@gmail.com&quot;&gt;LeilaYanHui&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;目标&quot;&gt;目标&lt;/h2&gt;
+&lt;h2 id=&quot;du101&quot;&gt;DU101&lt;/h2&gt;
 
-&lt;p&gt;一个合用的现代私人树洞, 应该有这么几个基础能力:&lt;/p&gt;
+&lt;p&gt;~ by @ZoomQuiet / &lt;a href=&quot;https://du.zoomquiet.io/2014-02/ac0-zq/&quot;&gt;大妈自述&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;是也乎,(￣▽￣) 俺心中的 &lt;code class=&quot;highlighter-rouge&quot;&gt;DebugUself&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;正如直觉中起的名字: &lt;code class=&quot;highlighter-rouge&quot;&gt;自怼&lt;/code&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;多屏兼容, 可以就手在任何一种智能设备上进行嗯哼&lt;/li&gt;
-  &lt;li&gt;跨应用信息拾取:
-    &lt;ul&gt;
-      &lt;li&gt;无视不同的软件/app, 可以快速将中意的片段提取丢到私人树洞中&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;自动备份&lt;/li&gt;
-  &lt;li&gt;空间越大越好, 当然, 也得便宜&lt;/li&gt;
-  &lt;li&gt;可收纳的数据格式不限&lt;/li&gt;
+  &lt;li&gt;自己怼自己&lt;/li&gt;
+  &lt;li&gt;怼 -&amp;gt; 对心而发声&lt;/li&gt;
+  &lt;li&gt;怼 怨恨的对抗,  但是, 怨的不是天地, 而是自己的无能, 恨的不是不公平, 而是自己的不作为&lt;/li&gt;
+  &lt;li&gt;怼自己的一切不如意&lt;/li&gt;
+  &lt;li&gt;怎么怼?&lt;/li&gt;
+  &lt;li&gt;怼出什么成果?&lt;/li&gt;
   &lt;li&gt;…&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;分析&quot;&gt;分析&lt;/h2&gt;
+&lt;p&gt;这就是这个小圈子的一切秘密了…&lt;/p&gt;
 
-&lt;p&gt;因为用过的服务/工具/app/… 很杂,&lt;/p&gt;
-
-&lt;p&gt;所以, 根据当前墙后的使用体验, 注意到:&lt;/p&gt;
+&lt;h3 id=&quot;自怼圈不是什么&quot;&gt;自怼圈不是什么&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;gmail 以及配套的 google groups 非常强大和方便:
-    &lt;ul&gt;
-      &lt;li&gt;Gdriver 私人100G/月 1.99$ 可以说非常便宜了&lt;/li&gt;
-      &lt;li&gt;而 groups 好象没有空间限制&lt;/li&gt;
-      &lt;li&gt;虽然无法直接访问这两个服务的 web 界面&lt;/li&gt;
-      &lt;li&gt;但是, 通过邮件发送数据到邮箱/列表没有任何问题&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Slack 目前多屏兼容作的非常好,个人开辟工作环境也没有任何限制&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;那么, 只要解决这两种服务间的双向互传, 就解决了大部分私人树洞需求了:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;任何时刻手机中, 可以通过系统内置的邮件功能, 将有兴趣的内容/片段用邮件发送到私人 groups 中
-    &lt;ul&gt;
-      &lt;li&gt;然后, 通过某种机制, 自动发送到指定 Slack 频道中&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;同时, 随手在分享到 Slack 中的信息, 或是自己写的嗯哼
-    &lt;ul&gt;
-      &lt;li&gt;也能通过某种机制, 自动发送到 groups 中, 完成备份&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;以及, 这种双工自动化传送, 不应该产相同消息反复互传的死循环现象&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;嗯哼&quot;&gt;嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;大约用了2小时, 就完成了以上部署&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;注册全新的私人 google groups: XXX-zoom@googlegroups.com
-    &lt;ul&gt;
-      &lt;li&gt;将自己常用的邮箱都直接先订阅上&lt;/li&gt;
-      &lt;li&gt;但是, 只有发信权力, 不收列表邮件&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;注册全新 Slack workspace: XXX-zoom.slack.com
-    &lt;ul&gt;
-      &lt;li&gt;构建频道: ggroups&lt;/li&gt;
-      &lt;li&gt;准备专门用以自动回传备份&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;搜索 Slack app 仓库, 找一种服务可以完成设想中的跨平台互传
-    &lt;ul&gt;
-      &lt;li&gt;因为跨平台传送,基于 email ,从邮件分类中果断明确&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://quietzoom.slack.com/apps/A0JUW1X96-mailclark-email-twitter?next_id=0&quot;&gt;MailClark: Email, Twitter - Slack App Directory&lt;/a&gt; 这位老兄可以&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;根据官方文档, 一路配置好, 即可:
-    &lt;ul&gt;
-      &lt;li&gt;groups 中有新邮件, MailClark 自动感知并转发到 Slack 频道中&lt;/li&gt;
-      &lt;li&gt;而在 Slack 中, 无论在哪个屏幕中,嘦是有效马甲嗯哼一下
-        &lt;ul&gt;
-          &lt;li&gt;MailClark 都会感知到, 并变成标准邮件发送到 groups&lt;/li&gt;
-          &lt;li&gt;同时, 知道这是自己发送的, 不会当成新邮件再 echo 回 Slack&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;用了一周左右, 发现的确吻合设想, 而且:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;无论 Slack 还是 gmail 中的搜索, 都是非常高效的&lt;/li&gt;
-  &lt;li&gt;另外, Slack workspace 的免费搜索限额是 10K 条消息
-    &lt;ul&gt;
-      &lt;li&gt;这足以私人吐糟很长时间了…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;todo&quot;&gt;TODO&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;将其它常见和谐 SNS 也都纳入到这种私人分布式自动备份通用树洞中&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;twitter&lt;/li&gt;
-  &lt;li&gt;facebook&lt;/li&gt;
-  &lt;li&gt;flickr&lt;/li&gt;
+  &lt;li&gt;自怼圈不是网络课程, 没有教材和老师,只有我们自己&lt;/li&gt;
+  &lt;li&gt;自怼圈不是赢利产品, 费用只是决心以及基本系统运营费, 也没有预期的作品, 只有怼员们自己的嗯哼&lt;/li&gt;
+  &lt;li&gt;自怼圈不是技术社区, 涉及的所有技术工具只是因为刚好合用, 同时也没有社区样的管理结构, 只有权力相当的怼友们&lt;/li&gt;
+  &lt;li&gt;自怼圈不是宗教团体, 这里不宣扬真理, 只是愿意直视自己的缺点&lt;/li&gt;
+  &lt;li&gt;自怼圈不是传销组织, 强迫怼员们竭力完成任务的动力是自己内心的嗯哼&lt;/li&gt;
   &lt;li&gt;…&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;简单的说:&lt;/p&gt;
+&lt;p&gt;可以说, 自怼圈不是日常可以接触到的一切类型组织…&lt;/p&gt;
+
+&lt;h3 id=&quot;自怼圈是什么&quot;&gt;自怼圈是什么&lt;/h3&gt;
+
+&lt;p&gt;严格的说自怼圈是什么, 取决于所有怼友们的共同行为倾向.
+如果一定要类比的话, 自怼圈最相似的是:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AA
+Alcoholics Anonymous
+匿名戒酒会
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;以 email 为协议,能简洁的打通各种服务的次元壁&lt;/li&gt;
-  &lt;li&gt;类似 Slack 协同工具, 因为开放接口, 已经形成了无所不包的生态环境
-    &lt;ul&gt;
-      &lt;li&gt;0开发成本,而且免费就能达到多信息池飞棱联通&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;能限制我们的, 也只有我们的想象力了..&lt;/li&gt;
+  &lt;li&gt;固定节奏和形式&lt;/li&gt;
+  &lt;li&gt;固定行为和任务&lt;/li&gt;
+  &lt;li&gt;固定成员和关系&lt;/li&gt;
+  &lt;li&gt;固定目标和承诺&lt;/li&gt;
+  &lt;li&gt;共同对抗 &lt;code class=&quot;highlighter-rouge&quot;&gt;习得性无助&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;是也乎&quot;&gt;是也乎&lt;/h2&gt;
+&lt;h3 id=&quot;自怼圈要作什么&quot;&gt;自怼圈要作什么?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;进入&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;181016 loggging&lt;/li&gt;
-  &lt;li&gt;181007 deploy&lt;/li&gt;
-  &lt;li&gt;180927 thinking&lt;/li&gt;
+  &lt;li&gt;付费, 证明决心&lt;/li&gt;
+  &lt;li&gt;承诺, 未来4个月到一年中, 每周付出至少10小时在圈内任务上&lt;/li&gt;
+  &lt;li&gt;获取, 内圈相关权限&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;进行&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;立即, 开始自学权限相关所有服务/系统/工具的安装/配置/使用&lt;/li&gt;
+  &lt;li&gt;立即, 开始进行时间帐单的记录, 给自己行为变化一份客观证据&lt;/li&gt;
+  &lt;li&gt;立即, 开始接触新老怼员, 通过网络击穿物理隔绝, 将自己提升为广域自在者&lt;/li&gt;
+  &lt;li&gt;立即, 开始恢复自己渴望的那个作品研发/写作/组织/创造/…并实时对内公开详细甘苦…&lt;/li&gt;
+  &lt;li&gt;立即… 开始改变42种即有问题…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;退出&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自怼圈, 每年一个周期, 从新开始&lt;/li&gt;
+  &lt;li&gt;但是, 退出自怼圈, 只代表离开了这一精心运营的在线被动进步空间&lt;/li&gt;
+  &lt;li&gt;不代表放弃自我提升, 综合利用自怼圈中获得的全新体验, 持续嗯哼是正义的&lt;/li&gt;
+  &lt;li&gt;要是愿意将你的体验分享出去, 吸引更多值得嗯哼的好人也进入自怼圈也是正义的&lt;/li&gt;
+  &lt;li&gt;到点依然回到自怼圈, 带动更多的怼员一起来嗯哼自己的作品, 也必然是正义的…&lt;/li&gt;
+  &lt;li&gt;…唯一不仗义的, 应该就是半途退出后, 又四处宣扬怼圈骗钱圈之类…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;嗯哼&quot;&gt;嗯哼&lt;/h3&gt;
+
+&lt;p&gt;相比流水线上, 
+每天除了完成工作之外,
+只有看两段抖音精力的绝大多数人,&lt;/p&gt;
+
+&lt;p&gt;你, 有稳定职位, 有一定零用, 而且不甘心固化当前阶层, 所以, 购买过各种网络课程,&lt;/p&gt;
+
+&lt;p&gt;更加幸运的, 撞入 开智相关的各种课程, 发现世界上自学姿势并不是自己想象的唯一那种.&lt;/p&gt;
+
+&lt;p&gt;问题在, 一离开课程环境, 又回到充满了绝望的世界,
+原先有所起色的节奏也全部丢失,
+怎么办?&lt;/p&gt;
+
+&lt;p&gt;凉办, 或是主动一点点儿, 加入有相同状态的小圈子,
+抱团取暖或是被动进步, 每天, 一点点儿.&lt;/p&gt;
+
+&lt;h3 id=&quot;ps&quot;&gt;PS:&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;互助会的效果和理论依据：
+1）社会支持系统：对于治愈我们的身心疾病而言，有一个团体的人跟你一样历经相似的经历，感同身受，给予你支持和关爱，无形中就为你织起了一张社会支持力量的大网。缓解独自战斗的孤独感。有不少研究压力系统的科研发现社会支持系统对我们应对压力产生积极效果。
+2）实验性质的经历知识：通过成员之间相互交流分享各自的战斗（问题）经验，【类似百度经验】在实际的生活情境中进行传播和尝试。
+3）社会学习理论：成员中成功戒除成瘾的或是摆脱共同困扰问题的，可以作为模仿对象，让更多人效仿学习。（AA中的sponsor的角色就是一对一的指导学习）
+4）助人：助人本身可以提供给成员一种成就感，形成一种良性的互助传递模式。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;自怼圈探索&quot;&gt;自怼圈探索&lt;/h2&gt;
+
+&lt;p&gt;自怼圈并不是纯技术社区, &lt;br /&gt;
+在这里你可以探索任何你想去的方向.&lt;br /&gt;
+Just Relax and Have Fun!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;资源链接
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself&quot;&gt;GitHub 仓库&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://du.zoomquiet.io&quot;&gt;怼小站&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://duw.zoomquiet.io/&quot;&gt;怼周刊&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://du.zoomquiet.io/2018-07/bear-jump-to-du-4free/&quot;&gt;不花钱的自怼圈游玩指南&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;自怼体验
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://du.zoomquiet.io/2018-07/du-progress/&quot;&gt;合辑 - 回顾 2017 年自怼进步&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;20181201 leila copy for recruiting&lt;/li&gt;
+  &lt;li&gt;20180727 zoejane add feedback part&lt;/li&gt;
+  &lt;li&gt;20180727 ZoomQuiet add introduction of DU101&lt;/li&gt;
+  &lt;li&gt;20180727 zoejane init&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;共同增补渠道 - &lt;a href=&quot;https://github.com/DebugUself/debuguself.github.io/blob/master/_posts/2018-07-27-into-du.md&quot;&gt;debuguself.github.io@GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Issue 讨论 - &lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/435&quot;&gt;4d[TASK] 怼圈介绍文案的意见征集 -&amp;gt; 开启自怼圈之旅&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
 		<author>
 			<name>Debug Uself grp.</name>
@@ -446,7 +193,196 @@
 			<title type="html">自怼圈</title>
 			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
 			<id>http://du.zoomquiet.io</id>
-			<updated>2018-10-16T08:42:09+00:00</updated>
+			<updated>2018-12-03T08:42:08+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">It s all Text 重生</title>
+		<link href="http://du.zoomquiet.io/2018-11/its-all-text/"/>
+		<id>http://du.zoomquiet.io/2018-11/its-all-text</id>
+		<updated>2018-11-27T00:00:00+00:00</updated>
+		<content type="html">&lt;h1 id=&quot;难以割舍的扩展-its-all-text&quot;&gt;难以割舍的扩展: It’s all text&lt;/h1&gt;
+
+&lt;p&gt;但是, 参考: &lt;a href=&quot;http://du.zoomquiet.io/2017-11/ff-no-upgrade/&quot;&gt;嫑升级 FireFox 到 56 以上&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://addons.cdn.mozilla.net/user-media/previews/thumbs/11/11568.png?modified=1530208138&quot; alt=&quot;11568&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;为了继续使用这个扩展, 禁止了升级,&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;但是,从个月开始, github 宣布不在支持这种低版本的 FireFox, 几乎立即的,
+在 FF 56 中, gh 各种不对劲儿了…&lt;/p&gt;
+
+&lt;h2 id=&quot;分析&quot;&gt;分析&lt;/h2&gt;
+
+&lt;p&gt;因为用心使用 FireFox 十多年, 早已将 FF 的扩展组合到形成了肌肉记忆,
+而升级速度地球第一的 Chrome 其扩展生态远远没有 FF 自在, 
+而且核心的一组扩展, 用8年也没找到合适的相似插件.&lt;/p&gt;
+
+&lt;p&gt;但是, github 又是另外一个强依赖环境, 也同样配置了不少习惯响应,
+现在, 官方不支持这个版本的 FireFox, 而主要浏览器环境又无法脱离 FF.&lt;/p&gt;
+
+&lt;p&gt;只能将 github 的使用场景从 FF 中迁移到 Chrome 中,&lt;/p&gt;
+
+&lt;p&gt;唯一一个问题就是:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;It's all text&lt;/code&gt; 可以指定任何一个外部编辑器
+    &lt;ul&gt;
+      &lt;li&gt;用快捷键召唤起来, 编辑指定的 textare 内容&lt;/li&gt;
+      &lt;li&gt;以免在 网页中缺少各种现代编辑器的支持.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;必须在 Chrome 中寻求一个对等的扩展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;搜索&quot;&gt;搜索&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://superuser.com/questions/261689/its-all-text-for-chrome&quot;&gt;It’s All Text for Chrome? - Super User&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://superuser.com/questions/488348/edit-any-text-input-shown-by-a-browser-mostly-chrome-with-emacs&quot;&gt;firefox - Edit any text input shown by a browser (mostly Chrome) with Emacs - Super User&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://unix.stackexchange.com/questions/99466/is-there-a-method-for-making-google-chrome-open-textareas-in-vim&quot;&gt;Is there a method for making Google Chrome open textareas in vim? - Unix &amp;amp; Linux Stack Exchange&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mariadb.com/kb/en/meta/editing-content-with-a-text-editor/&quot;&gt;Editing Content with a Text Editor - MariaDB Knowledge Base&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=11022356&quot;&gt;Use Atom to edit in Chrome | Hacker News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://psung.blogspot.com/2010/01/edit-with-emacs-chrome-extension.html&quot;&gt;“Edit with Emacs” Chrome extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://community.brave.com/t/ghosttext-its-all-text-edit-text-area-in-standalone-text-editor-app/10809&quot;&gt;GhostText / It’s All Text! - Edit text area in standalone text editor app - Legacy (Muon) / Extension Requests - Brave Community&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GhostText/GhostText/issues/25&quot;&gt;GhostText as a Chrome alternative to It’s All Text for Firefox · Issue #25 · GhostText/GhostText&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;果然, 有相同问题的人是大大的有…&lt;/p&gt;
+
+&lt;p&gt;而且当然都进行了解决:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;windows only: &lt;a href=&quot;http://www.listary.com/text-editor-anywhere&quot;&gt;Text Editor Anywhere&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;特殊编辑器支持的:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/stsquad/emacs_chrome&quot;&gt;Edit in Emacs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/textaid/ppoadiihggafnhokfkpphojggcdigllp&quot;&gt;TextAid - Chrome 网上应用店&lt;/a&gt; -&amp;gt; Vim&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/danhper/atomic-chrome&quot;&gt;danhper/atomic-chrome: Edit Chrome textareas in Atom&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;通用编辑器支持的:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rocketink.net/2013/05/quickcursor-keyboard-maestro.html&quot;&gt;Keyboard Maestro&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.packal.org/workflow/edit-quickcursor-alternative&quot;&gt;Alfred&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/GhostText/GhostText&quot;&gt;GhostText/GhostText: 👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;方案&quot;&gt;方案&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;快速尝试, 果断使用:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/GhostText/GhostText/master/promo/gt_banner.png&quot; alt=&quot;gt_banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;效果:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/GhostText/GhostText/raw/master/promo/demo.gif&quot; alt=&quot;demo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;支持编辑器也广泛:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/GhostText&quot;&gt;Sublime Text extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GhostText/GhostText-for-Atom&quot;&gt;Atom package&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=tokoph.ghosttext&quot;&gt;VS Code extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/falstro/ghost-text-vim&quot;&gt;Vim script&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/raghur/vim-ghost&quot;&gt;Neovim plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://melpa.org/#/atomic-chrome&quot;&gt;Emacs package&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;同时也兼容主要浏览器:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ghosttext/godiecgffnchndlihlpaajjcplehddca&quot;&gt;Chrome extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/ghosttext/&quot;&gt;Firefox add-on&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.opera.com/en/extensions/details/download-chrome-extension-9/&quot;&gt;opera&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;使用和 &lt;code class=&quot;highlighter-rouge&quot;&gt;It's all text&lt;/code&gt; 有点不同:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;不是通过快捷键&lt;/li&gt;
+  &lt;li&gt;而是先进入对应 TextArea&lt;/li&gt;
+  &lt;li&gt;然后点击扩展图标:
+    &lt;ul&gt;
+      &lt;li&gt;启动一个 websocket 服务&lt;/li&gt;
+      &lt;li&gt;端口是 &lt;code class=&quot;highlighter-rouge&quot;&gt;:4001&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;并自动打开有对应扩展呼应的编辑器&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;到编辑器中自然编辑:
+    &lt;ul&gt;
+      &lt;li&gt;后台自动同步编辑内容到网页中&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;以上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;综上当前浏览器使用状态变成:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FireFox 56 作为主浏览器, 进行主要的浏览和信息管理&lt;/li&gt;
+  &lt;li&gt;Chrome 进行翻越和 gmail&lt;/li&gt;
+  &lt;li&gt;Safari 作为调试器, 配合进行各种了 web app 前端检验环境, 以及云盘等需要口令安全记忆的网站&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ps&quot;&gt;ps:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Package Control Messages
+========================
+
+GhostText
+---------
+
+GhostText for Sublime Text
+==========================
+
+We put a lot of effort to bring you GhostText, an updated experience to write in the browser with Sublime Text.
+
+Don't forget to install the Chrome extension:
+https://chrome.google.com/webstore/detail/ghosttext/godiecgffnchndlihlpaajjcplehddca
+
+Or the Firefox add-on:
+https://addons.mozilla.org/de/firefox/addon/ghosttext-for-firefox/
+
+Usage
+-----
+
+In Chrome or Firefox, when you're in a page with a text field (&amp;lt;textarea&amp;gt;, content editable element, code mirror or ACE editor), click the GhostText button in the upper-right corner to open up Sublime Text. Everything you type in the editor will be instantly updated in the browser (and vice versa).
+
+To close the link, either close the tab in Sublime Text or click on the GhostText button again.
+
+For more specific instructions, read this: https://github.com/Cacodaimon/GhostText-for-SublimeText/blob/master/README.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;是也乎&quot;&gt;是也乎&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;181127 嗯哼到了…&lt;/li&gt;
+  &lt;li&gt;181001 第N次尝试&lt;/li&gt;
+  &lt;li&gt;171122 起念&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Debug Uself grp.</name>
+			<uri>http://du.zoomquiet.io/</uri>
+		</author>
+		<source>
+			<title type="html">自怼圈</title>
+			<link rel="self" href="http://du.zoomquiet.io/atom.xml"/>
+			<id>http://du.zoomquiet.io</id>
+			<updated>2018-12-03T08:42:08+00:00</updated>
 		</source>
 	</entry>
 
