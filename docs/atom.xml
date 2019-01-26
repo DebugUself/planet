@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-01-26T00:42:12+00:00</updated>
+	<updated>2019-01-26T08:42:24+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">天龙群像里, 竟是这两人发生了故事?</title>
+		<link href="http://liguanghe.github.io/2019/01/26/NvCouple/"/>
+		<id>http://liguanghe.github.io/2019/01/26/NvCouple/</id>
+		<updated>2019-01-26T04:35:32+00:00</updated>
+		<content type="html">&lt;hr /&gt;
+&lt;p&gt;之前跟群友讨论, 金庸小说中男主哪一个可以当老公, 我说, &lt;strong&gt;想和萧峰结拜, 当段誉, 和黄老邪结婚.&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;这是没什么才更想要什么了. 段誉拿的是女主的剧本啊, 富家小姐不爱学习, 不想管家业, 四处旅游, 偏科严重,&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2019-01-26T08:42:21+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html"></title>
@@ -22,7 +42,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2019-01-23T16:42:13+00:00</updated>
+			<updated>2019-01-26T08:42:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -41,33 +61,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2019-01-23T16:42:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">史上最容易的商业计划书(让我开心用)</title>
-		<link href="http://liguanghe.github.io/2019/01/15/LsPositive/"/>
-		<id>http://liguanghe.github.io/2019/01/15/LsPositive/</id>
-		<updated>2019-01-15T13:35:32+00:00</updated>
-		<content type="html">&lt;p&gt;产品名称: 积极情绪包&lt;/p&gt;
-&lt;p&gt;目的: 用来娱乐自己, 给自己打气&lt;/p&gt;
-&lt;p&gt;包里的内容: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;巧克力&lt;/li&gt;
-&lt;li&gt;饿了么外卖现成的链接&lt;/li&gt;
-&lt;li&gt;两页正经的书籍&lt;/li&gt;
-&lt;li&gt;一段你很棒的音频&lt;/li&gt;
-&lt;li&gt;发送给朋&lt;/li&gt;&lt;/ul&gt;</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2019-01-23T16:42:13+00:00</updated>
+			<updated>2019-01-26T08:42:21+00:00</updated>
 		</source>
 	</entry>
 
