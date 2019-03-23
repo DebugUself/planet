@@ -23,7 +23,7 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
-<h2>March 06, 2019</h2>
+<h2>March 22, 2019</h2>
 
 <div class="channelgroup">
 
@@ -33,15 +33,44 @@
 
 
 
-<h3><a href="http://liguanghe.github.io/" title="Li Guanghe's blog">li guang he</a></h3>
+<h3><a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a></h3>
 
 
-<div class="entrygroup" id="http://liguanghe.github.io/2019/03/06/EsStart/">
-<h4><a href="http://liguanghe.github.io/2019/03/06/EsStart/">曲折才是它的样子</a></h4>
+<div class="entrygroup" id="tag:blog.zoomquiet.io,2019-03-23:/131023-why0base-indexing-python.html">
+<h4><a href="https://blog.zoomquiet.io/131023-why0base-indexing-python.html">ScrapBook彻查成果</a></h4>
 <div class="entry">
 <div class="content">
-<p>你以为, 事情只有白与黑,<br />只有快乐没悲伤,<br />只有正圆与达成.</p>
-<p>不知越接近完成越完不成,<br />不知笑容是失败的伪装,<br />不知伪装是沮丧的日常,<br />不知日常是起伏的忧伤,<br />不知忧伤是快乐的向往,<br />不知向往是一切的能量.</p></div>
+<p><a href="https://plus.google.com/115212051037621986145/posts/YTUxbXYZyfi">I was asked on Twitter why Python uses 0-based indexing,…</a></p>
+<p>老爹当年也很是积累使用 G+ 的,
+公开回答了很多价值问题… 能看一眼少一眼了…</p>
+<h2 id="_1">背景<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_1" title="Permanent link">¶</a></h2>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Google+ 帐号将于 2019 年 4 月 2 日关停。下载 Google+ 内容可能需要一些时间，因此请在 2019 年 3 月 31 日之前开始下载。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="_2">发现<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_2" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>Guido van Rossum</p>
+<blockquote>
+<p>公开</p>
+<blockquote>
+<p>2013年10月23日</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>I was asked on Twitter why Python uses 0-based indexing, with a link to a new (fascinating) post on the subject (http://exple.tive.org/blarg/2013/10/22/citation-needed/). I recall thinking about it a lot; <span class="caps">ABC</span>, one of Python’s predecessors, used 1-based indexing, while C, the other big influence, used 0-based. My first few programming languages (Algol, Fortran, Pascal) used 1-based or variable-based. I think that one of the issues that helped me decide was slice notation.</p>
+<p>Let’s first look at use cases. Probably the most common use cases for slicing are “get the first n items” and “get the next n items starting at i” (the first is a special case of that for i == the first index). It would be nice if both of these could be expressed as without awkward +1 or -1 compensations.</p>
+<p>Using 0-based indexing, half-open intervals, and suitable defaults (as Python ended up having), they are beautiful: a[:n] and a[i:i+n]; the former is long for a[0:n].</p>
+<p>Using 1-based indexing, if you want a[:n] to mean the first n elements, you either have to use closed intervals or you can use a slice notation that uses start and length as the slice parameters. Using half-open intervals just isn’t very elegant when combined with 1-based indexing. Using closed intervals, you’d have to write a[i:i+n-1] for the n items starting at i. So perhaps using the slice length would be more elegant with 1-based indexing? Then you could write a[i:n]. And this is in fact what <span class="caps">ABC</span> did — it used a different notation so you could write a@i|n.(See http://homepages.cwi.nl/~steven/abc/qr.html#<span class="caps">EXPRESSIONS</span>.)</p>
+<p>But how does the index:length convention work out for other use cases? <span class="caps">TBH</span> this is where my memory gets fuzzy, but I think I was swayed by the elegance of half-open intervals. Especially the invariant that when two slices are adjacent, the first slice’s end index is the second slice’s start index is just too beautiful to ignore. For example, suppose you split a string into three parts at indices i and j — the parts would be a[:i], a[i:j], and a[j:].</p>
+<p>So that’s why Python uses 0-based indexing.</p>
+<h2 id="_3">是也乎<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_3" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>简单说, 就是为了切片时的语义合理性…</p>
+</blockquote></div>
 
 
 
@@ -50,7 +79,7 @@
 
 
 <p class="date">
-<a href="http://liguanghe.github.io/2019/03/06/EsStart/">March 06, 2019 03:35 PM</a>
+<a href="https://blog.zoomquiet.io/131023-why0base-indexing-python.html">by Zoom.Quiet at March 22, 2019 04:00 PM</a>
 </p>
 </div>
 </div>
@@ -85,7 +114,7 @@
 <a href="http://sumin.ink/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://sumin.ink" title="Su Min's blog">sumin</a>
 </li>
 <li>
-<a href="https://zoejane.netlify.com/index.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.zoejane.net/" class="message" title="internal server error">zoejane</a>
+<a href="https://zoejane.netlify.com/index.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.zoejane.net/" title="Zoe Jane">zoejane</a>
 </li>
 <li>
 <a href="https://blog.zoomquiet.io/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a>
@@ -94,7 +123,7 @@
 
 <p>
 <strong>Last updated:</strong><br>
-March 23, 2019 12:43 AM<br>
+March 23, 2019 08:43 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
