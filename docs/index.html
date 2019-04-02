@@ -23,7 +23,7 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
-<h2>October 20, 2018</h2>
+<h2>March 22, 2019</h2>
 
 <div class="channelgroup">
 
@@ -33,241 +33,44 @@
 
 
 
-<h3><a href="http://bambooom.github.io" title="Bambooom">bambooooooom</a></h3>
+<h3><a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a></h3>
 
 
-<div class="entrygroup" id="http://bambooom.github.io/2018/10/20/flame-graph-customization/" lang="en-us">
-<h4><a href="http://bambooom.github.io/2018/10/20/flame-graph-customization/">火焰图魔改杂项</a></h4>
+<div class="entrygroup" id="tag:blog.zoomquiet.io,2019-03-23:/131023-why0base-indexing-python.html">
+<h4><a href="https://blog.zoomquiet.io/131023-why0base-indexing-python.html">ScrapBook彻查成果</a></h4>
 <div class="entry">
 <div class="content">
-<p>最近帮大佬的<a href="https://openresty.org/slides/nginx-conf-2018/">幻灯片</a>做了点杂事，乱七八糟的东西总结一下，不过可能也没啥卵用。</p>
-
-<h2 id="火焰图">火焰图</h2>
-<p>用到了很多个火焰图，所以魔改了一通生成火焰图的 <a href="https://github.com/bambooom/FlameGraph/blob/animated/flamegraph.pl">perl 脚本</a>。</p>
-
-<p>主要是：</p>
-<ul>
-  <li>从下往上 grow 的动画效果，并且隔 2s 后重复播放动画</li>
-  <li>地图式 zoom 功能，鼠标滚轮
-    <ul>
-      <li>zoom 的同时，需要把文字逐步显示出来，像 map 一样</li>
-    </ul>
-  </li>
-  <li>本来加了个跟随鼠标的 tooltip，不过后来还是去掉了</li>
-</ul>
-
-<h3 id="grow-动画">grow 动画</h3>
-<p><code class="highlighter-rouge">flamegraph.pl</code> 实际上是通过读取数据文件来生成一个单独的 svg document。</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>./flamegraph.pl data.cbt <span class="o">&gt;</span> output.svg
-</code></pre></div></div>
-
-<p>生成的 svg 中主要就是一堆的方块 <code class="highlighter-rouge">&lt;rect&gt;</code> 和文本 <code class="highlighter-rouge">&lt;text&gt;</code> 元素的组合，具体怎么计算 rect 的位置大小等都不需要我仔细了解。
-但既然每个方块的位置大小都是直接计算出来，那么 grow 动画的逻辑就很简单了：
-给每个 rect 加一个简单的 fadeIn animation，但根据方块的高度来决定 <code class="highlighter-rouge">animation-delay</code>，效果就足够了。</p>
-
-<p>至于隔 2s 后重复播放动画，本来我以为需要用上 <code class="highlighter-rouge">animation-iteration-count: infinite</code>，
-但实际上 infinite 似乎没办法在每两次动画中间加上间隔。所以开始想方法手动 trigger 动画重播。</p>
-
-<p><a href="https://stackoverflow.com/questions/6268508/restart-animation-in-css3-any-better-way-than-removing-the-element">SO 上的答案</a>:</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">reset_animation</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">el</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'animated'</span><span class="p">);</span>
-  <span class="nx">el</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">animation</span> <span class="o">=</span> <span class="s1">'none'</span><span class="p">;</span>
-  <span class="nx">el</span><span class="p">.</span><span class="nx">offsetHeight</span><span class="p">;</span> <span class="cm">/* trigger reflow */</span>
-  <span class="nx">el</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">animation</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>基本的方法就是先把元素的 animation 值去掉，触发 reflow，再把 animation 值还原回去，让动画重播。
-不过在我的实际应用中，答案里的 magic <code class="highlighter-rouge">el.offsetHeight;</code> 没有起到效果，尝试了多次之后，
-我直接在去掉 animation 值之后 <code class="highlighter-rouge">setTimeout</code> 了一小段时间后再赋值回去也正确触发了 reflow，让动画重播，具体是啥原因呢 🤔</p>
-
-<p><a href="https://bambooom.github.io/assets/images/flame-graph-grow.svg">Demo</a></p>
-
-<h3 id="zoom-功能">zoom 功能</h3>
-<p>原本的火焰图自带的 zoom 功能是点击之后放大某一个 rect，依次改变其他相关 rect，大佬表示不满意，想要 Google Map 那种地图式的放大，但不改变初始火焰图整体形态。
-毫无头绪的搜索了一阵后，用上了 d3.js。直接套用自带 zoom 函数就好（特别 nice：</p>
-
-<p>参考例子：</p>
-<ul>
-  <li><a href="https://bl.ocks.org/mbostock/4e3925cdc804db257a86fdef3a032a45">Pan &amp; Zoom III - bl.ocks.org</a></li>
-  <li><a href="https://bl.ocks.org/mbostock/d1f7b58631e71fbf9c568345ee04a60e">Pan &amp; Zoom I - bl.ocks.org</a></li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">xlink:href=</span><span class="s">"https://d3js.org/d3.v4.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/ecmascript"</span><span class="nt">&gt;</span>
-<span class="o">&lt;!</span><span class="p">[</span><span class="nx">CDATA</span><span class="p">[</span>
-  <span class="kd">var</span> <span class="nx">outerGroup</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">"g.outer_g"</span><span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">rectGroup</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">"g.func_g"</span><span class="p">);</span>
-
-  <span class="nx">outerGroup</span>
-    <span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">d3</span><span class="p">.</span><span class="nx">zoom</span><span class="p">()</span>
-      <span class="p">.</span><span class="nx">scaleExtent</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">])</span> <span class="c1">// 最大和最小 scale 的值</span>
-      <span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">"zoom"</span><span class="p">,</span> <span class="nx">zooming</span><span class="p">)</span> <span class="c1">// 正在 zoom</span>
-      <span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">"end"</span><span class="p">,</span> <span class="nx">zoomed</span><span class="p">));</span> <span class="c1">// zoom 结束</span>
-
-  <span class="kd">function</span> <span class="nx">zooming</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// 将 transform 的值添加到每一个方块上</span>
-    <span class="c1">// 比如: transform="translate(126.50096885580297,-50.13540780123475) scale(1.3736362334296233)"</span>
-    <span class="nx">rectGroup</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">"transform"</span><span class="p">,</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">event</span><span class="p">.</span><span class="nx">transform</span><span class="p">);</span>
-  <span class="p">}</span>
-
-  <span class="kd">function</span> <span class="nx">zoomed</span><span class="p">()</span> <span class="p">{}</span>
-<span class="p">]]</span><span class="o">&gt;</span>
-<span class="nt">&lt;/script&gt;</span>
-</code></pre></div></div>
-
-<p>d3 selection 其实完全可以理解为类似 jQuery 的元素选择器 <code class="highlighter-rouge">$('.class-name')</code> <code class="highlighter-rouge">$('span#id')</code> 之类的。</p>
-
-<p>还比较 easy 地做到了 zoom 呢~ 然后发现新问题，文字大小也会随着 scale 一起放大…所以文字内容并不会比正常大小的时候变多….emmmmm….</p>
-
-<p>原本的点击 zoom 处理方法是计算 rect 宽度，以及文字所需要的宽度，然后 JS 里计算可以显示多少 substring。
-所以还是沿用这个方法，只是在 scale 之后，想要正确计算文字的宽度，
-必须改变 <code class="highlighter-rouge">font-size</code>，否则怎么计算都是和初始一样。
-改了下 <code class="highlighter-rouge">zooming</code> 函数，在 zooming 时改变文字 <code class="highlighter-rouge">font-size</code>， zoom 结束时计算更新文字应该显示的内容。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">baseFontSize</span> <span class="o">=</span> <span class="mi">12</span><span class="p">;</span>
-
-<span class="kd">function</span> <span class="nx">zooming</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nx">rectGroup</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">"transform"</span><span class="p">,</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">event</span><span class="p">.</span><span class="nx">transform</span><span class="p">);</span>
-
-  <span class="kd">var</span> <span class="nx">nodeList</span> <span class="o">=</span> <span class="nx">rectGroup</span><span class="p">.</span><span class="nx">_groups</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
-  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">nodeList</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">g</span> <span class="o">=</span> <span class="nx">nodeList</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
-    <span class="kd">var</span> <span class="nx">transform</span> <span class="o">=</span> <span class="nx">g</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"transform"</span><span class="p">].</span><span class="nx">value</span><span class="p">;</span>
-    <span class="c1">// get the scale number</span>
-    <span class="kd">var</span> <span class="nx">scale</span> <span class="o">=</span> <span class="nb">parseFloat</span><span class="p">(</span><span class="nx">transform</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/scale</span><span class="se">\\((</span><span class="sr">.*</span><span class="se">)\\)</span><span class="sr">/</span><span class="p">)[</span><span class="mi">1</span><span class="p">]);</span>
-    <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">g</span><span class="p">,</span> <span class="s2">"text"</span><span class="p">);</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">scale</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-      <span class="c1">// lower the font-size by the scale number</span>
-      <span class="nx">t</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s1">'font-size'</span><span class="p">].</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">baseFontSize</span> <span class="o">/</span> <span class="nx">scale</span><span class="p">;</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="nx">t</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s1">'font-size'</span><span class="p">].</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">baseFontSize</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="kd">function</span> <span class="nx">zoomed</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">scale</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">nodeList</span> <span class="o">=</span> <span class="nx">rectGroup</span><span class="p">.</span><span class="nx">_groups</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
-  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">nodeList</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">g</span> <span class="o">=</span> <span class="nx">nodeList</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
-    <span class="kd">var</span> <span class="nx">transform</span> <span class="o">=</span> <span class="nx">g</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"transform"</span><span class="p">].</span><span class="nx">value</span><span class="p">;</span>
-    <span class="nx">update_text</span><span class="p">(</span><span class="nx">g</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>原本计算如何更新显示的文字的函数长这样：</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// avg width relative to fontsize</span>
-<span class="kd">var</span> <span class="nx">fontWidth</span> <span class="o">=</span> <span class="mf">0.59</span><span class="p">;</span>
-
-<span class="kd">function</span> <span class="nx">update_text</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">r</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="s2">"rect"</span><span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="s2">"text"</span><span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">w</span> <span class="o">=</span> <span class="nb">parseFloat</span><span class="p">(</span><span class="nx">r</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"width"</span><span class="p">].</span><span class="nx">value</span><span class="p">)</span> <span class="o">-</span><span class="mi">3</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">txt</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">).</span><span class="nx">textContent</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/</span><span class="se">\\([^</span><span class="sr">(</span><span class="se">]</span><span class="sr">*</span><span class="se">\\)\$</span><span class="sr">/</span><span class="p">,</span><span class="s2">""</span><span class="p">);</span>
-  <span class="nx">t</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"x"</span><span class="p">].</span><span class="nx">value</span> <span class="o">=</span> <span class="nb">parseFloat</span><span class="p">(</span><span class="nx">r</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"x"</span><span class="p">].</span><span class="nx">value</span><span class="p">)</span> <span class="o">+</span><span class="mi">3</span><span class="p">;</span>
-
-  <span class="c1">// Smaller than this size won't fit anything</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">w</span> <span class="o">&lt;</span> <span class="mi">2</span> <span class="o">*</span> <span class="nx">baseFontSize</span> <span class="o">*</span> <span class="nx">fontWidth</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
-    <span class="k">return</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">txt</span><span class="p">;</span>
-  
-  <span class="c1">// Fit in full text width</span>
-  <span class="k">if</span> <span class="p">(</span><span class="sr">/^ *</span><span class="se">\$</span><span class="sr">/</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">txt</span><span class="p">)</span> <span class="o">||</span> <span class="nx">t</span><span class="p">.</span><span class="nx">getSubStringLength</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">txt</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nx">w</span><span class="p">)</span>
-    <span class="k">return</span><span class="p">;</span>
-  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">x</span><span class="o">=</span><span class="nx">txt</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">2</span><span class="p">;</span> <span class="nx">x</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">;</span> <span class="nx">x</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">getSubStringLength</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">x</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="nx">w</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">txt</span><span class="p">.</span><span class="nx">substring</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nx">x</span><span class="p">)</span> <span class="o">+</span> <span class="s2">".."</span><span class="p">;</span>
-      <span class="k">return</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-  
-  <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>原作者定义了一个 <code class="highlighter-rouge">fontWidth</code> 的常量，按我的理解是一个平均 ratio，也就是平均一个字母的宽度相对于它 font-size 的 ratio。就比如说 <code class="highlighter-rouge">12px font-size</code> 的字母平均宽度为 <code class="highlighter-rouge">12px * 0.59 = 7.08px</code>。</p>
-
-<p>这个 ratio 从哪里得来的我没找到。然而这个 ratio 在文字被 scale 放大之后就不太对了。
-按照我前面在放大之后将 font-size 改小来希望可以显示出更多文字来看，如果文字是 12px，scale 是 2，那么放大后文字的 size 被缩小设置为 6px，当然实际看上去的大小并不是。
-那么平均一个字母的宽度就是 <code class="highlighter-rouge">6px * 0.59 = 3.54px</code>，单纯比较这个数字和方块的宽度的话，文字一下就变成全部显示出来了，此时看到的结果就是其实文字都超出 rect 的宽度了。</p>
-
-<p>前面的一个错误是字母在设置成 6px 之后，实际上计算宽度时应该将 scale 乘回去，也就是 <code class="highlighter-rouge">6px * 0.59 * 2 = 7.08px</code>。所以实际上不管如何 scale，都是希望文字的实际宽度没有大的变化的。觉得文字变大变小了，是因为其他图形的 scale 变化而产生的相对的视觉效果。</p>
-
-<p>观察和计算了一下不同 scale 时，字母的平均宽度之后，我保守的直接把 <code class="highlighter-rouge">fontWidth = 6.7</code> 了，比前面的 7.08 小一丢丢。</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// avg character width regardless of font-size and scale</span>
-<span class="kd">var</span> <span class="nx">fontWidth</span> <span class="o">=</span> <span class="mf">6.7</span><span class="p">;</span>
-
-<span class="kd">function</span> <span class="nx">update_text</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">r</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="s2">"rect"</span><span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="s2">"text"</span><span class="p">);</span>
-  <span class="kd">var</span> <span class="nx">transform</span> <span class="o">=</span> <span class="nx">e</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"transform"</span><span class="p">].</span><span class="nx">value</span><span class="p">;</span>
-  <span class="c1">// get scale number</span>
-  <span class="kd">var</span> <span class="nx">scale</span> <span class="o">=</span> <span class="nx">transform</span> <span class="p">?</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">transform</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/scale</span><span class="se">\\((</span><span class="sr">.*</span><span class="se">)\\)</span><span class="sr">/</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="p">:</span> <span class="mi">1</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">w</span> <span class="o">=</span> <span class="nb">parseFloat</span><span class="p">(</span><span class="nx">r</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"width"</span><span class="p">].</span><span class="nx">value</span><span class="p">)</span> <span class="o">*</span> <span class="nx">scale</span> <span class="o">-</span><span class="mi">3</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">txt</span> <span class="o">=</span> <span class="nx">find_child</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="s2">"title"</span><span class="p">).</span><span class="nx">textContent</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/</span><span class="se">\\([^</span><span class="sr">(</span><span class="se">]</span><span class="sr">*</span><span class="se">\\)\$</span><span class="sr">/</span><span class="p">,</span><span class="s2">""</span><span class="p">);</span>
-  <span class="nx">t</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"x"</span><span class="p">].</span><span class="nx">value</span> <span class="o">=</span> <span class="nb">parseFloat</span><span class="p">(</span><span class="nx">r</span><span class="p">.</span><span class="nx">attributes</span><span class="p">[</span><span class="s2">"x"</span><span class="p">].</span><span class="nx">value</span><span class="p">)</span> <span class="o">+</span><span class="mi">3</span><span class="p">;</span>
-  
-  <span class="c1">// Smaller than this size won't fit anything</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">w</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="o">*</span> <span class="nx">fontWidth</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
-    <span class="k">return</span><span class="p">;</span>
-  <span class="p">}</span>
-  
-  <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">txt</span><span class="p">;</span>
-  
-  <span class="c1">// Fit in full text width</span>
-  <span class="k">if</span> <span class="p">(</span><span class="sr">/^ *</span><span class="se">\$</span><span class="sr">/</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">txt</span><span class="p">)</span> <span class="o">||</span> <span class="nx">fontWidth</span> <span class="o">*</span> <span class="nx">txt</span><span class="p">.</span><span class="nx">length</span> <span class="o">&lt;</span> <span class="nx">w</span><span class="p">)</span>
-    <span class="k">return</span><span class="p">;</span>
-  
-  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">x</span><span class="o">=</span><span class="nx">txt</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">2</span><span class="p">;</span> <span class="nx">x</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">;</span> <span class="nx">x</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">((</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="nx">fontWidth</span> <span class="o">&lt;</span> <span class="nx">w</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">txt</span><span class="p">.</span><span class="nx">substring</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nx">x</span><span class="p">)</span> <span class="o">+</span> <span class="s2">".."</span><span class="p">;</span>
-      <span class="k">return</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-  
-  <span class="nx">t</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<h3 id="tooltip">tooltip</h3>
-
-<p>用 d3 加 tooltip 也是很简单的呢：</p>
-<ul>
-  <li><a href="http://bl.ocks.org/biovisualize/1016860">Simple D3 tooltip - bl.ocks.org</a></li>
-  <li><a href="http://bl.ocks.org/d3noob/a22c42db65eb00d4e369">Simple d3.js tooltips - bl.ocks.org</a></li>
-</ul>
-
-<p>首先准备一个 tooltip 的 div，可以用 d3 创建，也可以直接在 svg 或 html 里添加好。然后用 d3 监听 mouseover/mousemove/mouseout 事件即可控制 tooltip 的样式及位置来显示内容了。</p>
-
-<p><a href="https://bambooom.github.io/assets/images/flame-graph-tooltip.svg">Demo</a></p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">outerGroup</span>
-  <span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">"mouseover"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">target</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">text</span> <span class="o">=</span> <span class="nx">get_text</span><span class="p">(</span><span class="nx">target</span><span class="p">);</span>
-    <span class="c1">// show the tooltip</span>
-    <span class="nx">tooltip</span><span class="p">.</span><span class="nx">style</span><span class="p">(</span><span class="s2">"opacity"</span><span class="p">,</span> <span class="p">.</span><span class="mi">9</span><span class="p">);</span>
-    <span class="nx">tooltip</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">"p"</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">text</span><span class="p">);</span>
-  <span class="p">})</span>
-  <span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">"mousemove"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// tooltip move with the mouse</span>
-    <span class="nx">tooltip</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">"x"</span><span class="p">,</span> <span class="nx">event</span><span class="p">.</span><span class="nx">pageX</span> <span class="o">-</span> <span class="mi">10</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">"y"</span><span class="p">,</span> <span class="nx">event</span><span class="p">.</span><span class="nx">pageY</span> <span class="o">+</span> <span class="mi">10</span><span class="p">);</span>
-  <span class="p">})</span>
-  <span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">"mouseout"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// hide the tooltip</span>
-    <span class="nx">tooltip</span><span class="p">.</span><span class="nx">style</span><span class="p">(</span><span class="s2">"opacity"</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
-  <span class="p">});</span>
-</code></pre></div></div></div>
+<p><a href="https://plus.google.com/115212051037621986145/posts/YTUxbXYZyfi">I was asked on Twitter why Python uses 0-based indexing,…</a></p>
+<p>老爹当年也很是积累使用 G+ 的,
+公开回答了很多价值问题… 能看一眼少一眼了…</p>
+<h2 id="_1">背景<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_1" title="Permanent link">¶</a></h2>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Google+ 帐号将于 2019 年 4 月 2 日关停。下载 Google+ 内容可能需要一些时间，因此请在 2019 年 3 月 31 日之前开始下载。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="_2">发现<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_2" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>Guido van Rossum</p>
+<blockquote>
+<p>公开</p>
+<blockquote>
+<p>2013年10月23日</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>I was asked on Twitter why Python uses 0-based indexing, with a link to a new (fascinating) post on the subject (http://exple.tive.org/blarg/2013/10/22/citation-needed/). I recall thinking about it a lot; <span class="caps">ABC</span>, one of Python’s predecessors, used 1-based indexing, while C, the other big influence, used 0-based. My first few programming languages (Algol, Fortran, Pascal) used 1-based or variable-based. I think that one of the issues that helped me decide was slice notation.</p>
+<p>Let’s first look at use cases. Probably the most common use cases for slicing are “get the first n items” and “get the next n items starting at i” (the first is a special case of that for i == the first index). It would be nice if both of these could be expressed as without awkward +1 or -1 compensations.</p>
+<p>Using 0-based indexing, half-open intervals, and suitable defaults (as Python ended up having), they are beautiful: a[:n] and a[i:i+n]; the former is long for a[0:n].</p>
+<p>Using 1-based indexing, if you want a[:n] to mean the first n elements, you either have to use closed intervals or you can use a slice notation that uses start and length as the slice parameters. Using half-open intervals just isn’t very elegant when combined with 1-based indexing. Using closed intervals, you’d have to write a[i:i+n-1] for the n items starting at i. So perhaps using the slice length would be more elegant with 1-based indexing? Then you could write a[i:n]. And this is in fact what <span class="caps">ABC</span> did — it used a different notation so you could write a@i|n.(See http://homepages.cwi.nl/~steven/abc/qr.html#<span class="caps">EXPRESSIONS</span>.)</p>
+<p>But how does the index:length convention work out for other use cases? <span class="caps">TBH</span> this is where my memory gets fuzzy, but I think I was swayed by the elegance of half-open intervals. Especially the invariant that when two slices are adjacent, the first slice’s end index is the second slice’s start index is just too beautiful to ignore. For example, suppose you split a string into three parts at indices i and j — the parts would be a[:i], a[i:j], and a[j:].</p>
+<p>So that’s why Python uses 0-based indexing.</p>
+<h2 id="_3">是也乎<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_3" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>简单说, 就是为了切片时的语义合理性…</p>
+</blockquote></div>
 
 
 
@@ -276,220 +79,7 @@
 
 
 <p class="date">
-<a href="http://bambooom.github.io/2018/10/20/flame-graph-customization/">by bambooom (zhuzi.mn@gmail.com) at October 20, 2018 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>October 16, 2018</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="http://du.zoomquiet.io/" title="自怼圈">Debug Uself grp.</a></h3>
-
-
-<div class="entrygroup" id="http://du.zoomquiet.io/2018-10/myhole">
-<h4><a href="http://du.zoomquiet.io/2018-10/myhole/">私人树洞构筑快记</a></h4>
-<div class="entry">
-<div class="content">
-<h1 id="为什么要有树洞">为什么要有树洞?</h1>
-
-<p><a href="https://book.douban.com/subject/27131763/">如何有效整理信息 (豆瓣)</a>
-<img src="https://img3.doubanio.com/view/subject/l/public/s29535471.jpg" alt="s29535471" /></p>
-
-<p>给出了作者独特的手帐世界观, 并在移动互联网大背景下, 
-发现了纸和笔专有优势和对应技术体系…</p>
-
-<ul>
-  <li>当然, 是否要启用随身本开始所谓 <code class="highlighter-rouge">一元笔记法</code> 另说,</li>
-  <li>但是, 这种随时随地能自我倾述的需求是每个人都有的</li>
-  <li>只是, 无论软件还是移动 app 都很少能有自如吐糟的场景:
-    <ul>
-      <li>不象童话里, 随处都有树洞, 头一钻就能嗯哼</li>
-    </ul>
-  </li>
-</ul>
-
-<p>…</p>
-
-<!--more-->
-
-<p>PS:</p>
-
-<ul>
-  <li>当然, 这个小书带货能力非常强</li>
-  <li>作者推荐40多年里对比选择出来的好的各种文具</li>
-  <li>一气买了其中7种…</li>
-</ul>
-
-<h2 id="问题">问题</h2>
-<blockquote>
-  <p>以往有朋友注册 twitter , 专门留个小号, 谁也不关注和follow, 就自己给自己随时嗯哼</p>
-</blockquote>
-
-<ul>
-  <li>可惜, 这种利用现有互联网服务, 打造一个私人树洞的尝试</li>
-  <li>都无视了很多隐患:
-    <ul>
-      <li>无法阻止意外发现关注</li>
-      <li>无法阻止搜索引擎的抓取</li>
-      <li>难以快速有选择性的分享</li>
-      <li>进一步的, 自动化备份/导出/…潜在数据管理功能, 也都难以追加</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="目标">目标</h2>
-
-<p>一个合用的现代私人树洞, 应该有这么几个基础能力:</p>
-
-<ul>
-  <li>多屏兼容, 可以就手在任何一种智能设备上进行嗯哼</li>
-  <li>跨应用信息拾取:
-    <ul>
-      <li>无视不同的软件/app, 可以快速将中意的片段提取丢到私人树洞中</li>
-    </ul>
-  </li>
-  <li>自动备份</li>
-  <li>空间越大越好, 当然, 也得便宜</li>
-  <li>可收纳的数据格式不限</li>
-  <li>…</li>
-</ul>
-
-<h2 id="分析">分析</h2>
-
-<p>因为用过的服务/工具/app/… 很杂,</p>
-
-<p>所以, 根据当前墙后的使用体验, 注意到:</p>
-
-<ul>
-  <li>gmail 以及配套的 google groups 非常强大和方便:
-    <ul>
-      <li>Gdriver 私人100G/月 1.99$ 可以说非常便宜了</li>
-      <li>而 groups 好象没有空间限制</li>
-      <li>虽然无法直接访问这两个服务的 web 界面</li>
-      <li>但是, 通过邮件发送数据到邮箱/列表没有任何问题</li>
-    </ul>
-  </li>
-  <li>Slack 目前多屏兼容作的非常好,个人开辟工作环境也没有任何限制</li>
-</ul>
-
-<p>那么, 只要解决这两种服务间的双向互传, 就解决了大部分私人树洞需求了:</p>
-
-<ul>
-  <li>任何时刻手机中, 可以通过系统内置的邮件功能, 将有兴趣的内容/片段用邮件发送到私人 groups 中
-    <ul>
-      <li>然后, 通过某种机制, 自动发送到指定 Slack 频道中</li>
-    </ul>
-  </li>
-  <li>同时, 随手在分享到 Slack 中的信息, 或是自己写的嗯哼
-    <ul>
-      <li>也能通过某种机制, 自动发送到 groups 中, 完成备份</li>
-    </ul>
-  </li>
-  <li>以及, 这种双工自动化传送, 不应该产相同消息反复互传的死循环现象</li>
-</ul>
-
-<h2 id="嗯哼">嗯哼</h2>
-<blockquote>
-  <p>大约用了2小时, 就完成了以上部署</p>
-</blockquote>
-
-<ul>
-  <li>注册全新的私人 google groups: XXX-zoom@googlegroups.com
-    <ul>
-      <li>将自己常用的邮箱都直接先订阅上</li>
-      <li>但是, 只有发信权力, 不收列表邮件</li>
-    </ul>
-  </li>
-  <li>注册全新 Slack workspace: XXX-zoom.slack.com
-    <ul>
-      <li>构建频道: ggroups</li>
-      <li>准备专门用以自动回传备份</li>
-    </ul>
-  </li>
-  <li>搜索 Slack app 仓库, 找一种服务可以完成设想中的跨平台互传
-    <ul>
-      <li>因为跨平台传送,基于 email ,从邮件分类中果断明确</li>
-      <li><a href="https://quietzoom.slack.com/apps/A0JUW1X96-mailclark-email-twitter?next_id=0">MailClark: Email, Twitter - Slack App Directory</a> 这位老兄可以</li>
-    </ul>
-  </li>
-  <li>根据官方文档, 一路配置好, 即可:
-    <ul>
-      <li>groups 中有新邮件, MailClark 自动感知并转发到 Slack 频道中</li>
-      <li>而在 Slack 中, 无论在哪个屏幕中,嘦是有效马甲嗯哼一下
-        <ul>
-          <li>MailClark 都会感知到, 并变成标准邮件发送到 groups</li>
-          <li>同时, 知道这是自己发送的, 不会当成新邮件再 echo 回 Slack</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>用了一周左右, 发现的确吻合设想, 而且:</p>
-
-<ul>
-  <li>无论 Slack 还是 gmail 中的搜索, 都是非常高效的</li>
-  <li>另外, Slack workspace 的免费搜索限额是 10K 条消息
-    <ul>
-      <li>这足以私人吐糟很长时间了…</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="todo">TODO</h2>
-
-<blockquote>
-  <p>将其它常见和谐 SNS 也都纳入到这种私人分布式自动备份通用树洞中</p>
-</blockquote>
-
-<ul>
-  <li>twitter</li>
-  <li>facebook</li>
-  <li>flickr</li>
-  <li>…</li>
-</ul>
-
-<p>简单的说:</p>
-
-<ul>
-  <li>以 email 为协议,能简洁的打通各种服务的次元壁</li>
-  <li>类似 Slack 协同工具, 因为开放接口, 已经形成了无所不包的生态环境
-    <ul>
-      <li>0开发成本,而且免费就能达到多信息池飞棱联通</li>
-    </ul>
-  </li>
-  <li>能限制我们的, 也只有我们的想象力了..</li>
-</ul>
-
-<h2 id="是也乎">是也乎</h2>
-
-<ul>
-  <li>181016 loggging</li>
-  <li>181007 deploy</li>
-  <li>180927 thinking</li>
-</ul></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="http://du.zoomquiet.io/2018-10/myhole/">October 16, 2018 12:00 AM</a>
+<a href="https://blog.zoomquiet.io/131023-why0base-indexing-python.html">by Zoom.Quiet at March 22, 2019 04:00 PM</a>
 </p>
 </div>
 </div>
@@ -512,7 +102,7 @@
 <a href="https://bambooom.github.io/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://bambooom.github.io" title="Bambooom">bambooooooom</a>
 </li>
 <li>
-<a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" title="浚宇的博客">junyu</a>
+<a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" class="message" title="404: not found">junyu</a>
 </li>
 <li>
 <a href="https://liguanghe.github.io/rss2.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://liguanghe.github.io/" title="Li Guanghe's blog">li guang he</a>
@@ -527,13 +117,13 @@
 <a href="https://zoejane.netlify.com/index.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.zoejane.net/" title="Zoe Jane">zoejane</a>
 </li>
 <li>
-<a href="http://blog.zoomquiet.io/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.zoomquiet.io/" title="">zoom.quiet</a>
+<a href="https://blog.zoomquiet.io/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a>
 </li>
 </ul>
 
 <p>
 <strong>Last updated:</strong><br>
-October 30, 2018 12:42 AM<br>
+April 02, 2019 12:42 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>

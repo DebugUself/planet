@@ -106,7 +106,7 @@
 		<foaf:Agent>
 			<foaf:name>zoom.quiet</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://blog.zoomquiet.io/">
+				<foaf:Document rdf:about="https://blog.zoomquiet.io/">
 					<dc:title></dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
