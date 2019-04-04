@@ -23,6 +23,501 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>April 04, 2019</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
+
+
+<div class="entrygroup" id="tag:weekly.pychina.org,2019-04-04:/pgweekly/pgw-229.html">
+<h4><a href="http://weekly.pychina.org/pgweekly/pgw-229.html">Postgres Weekly : Issue 229</a></h4>
+<div class="entry">
+<div class="content">
+<p>原文: <a href="https://postgresweekly.com/issues/299">Postgres Weekly Issue 299: April 3, 2019</a></p>
+<p><img alt="" src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg" /></p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61543/web">Postgres 获得 'Generated Column' 支持</a><ul>
+<li>Peter Eisentraut</li>
+</ul>
+</li>
+</ul>
+<p>It's always great to see Postgres gaining support for an SQL-standard feature and this commit begins with a simple example of how one type of generated column will work in the future. MySQL 5.7 introduced a similar feature and SQL Server calls them computed columns.</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61546/web">用 pg_dump / pg_restore 进行 Postgres 升级 </a><ul>
+<li>Jobin Augustine, Vallarapu, et al.</li>
+</ul>
+</li>
+</ul>
+<p>Last time they looked at using pg_dumpall, now it’s pg_dump and pg_restore’s turn under the spotlight.</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61548/web">在 PostgreSQL 数据库中监控的度量标准</a><ul>
+<li>InfluxData </li>
+<li>sponsor</li>
+</ul>
+</li>
+</ul>
+<p>There are several key metrics you’ll want to keep track of when it comes to database performance, and they’re not all database-specific.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="" src="https://copm.s3.amazonaws.com/2e860b79.jpg" /></p>
+<p>这种很搭的赞助商才对味儿</p>
+<p>)</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61549/web">2019 年 PostgreSQL 趋势报告</a><ul>
+<li>ScaleGrid</li>
+</ul>
+</li>
+</ul>
+<p>A multi-cloud DBaaS provider surveyed users at last month’s PostgresConf and shares the results here. AWS comes in as the most popular cloud platform to host Postgres on and cost is the biggest reason to choose Postgres.</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61550/web">就等 PostgreSQL 12: REINDEX CONCURRENTLY</a><ul>
+<li>Hubert depesz Lubaczewski</li>
+</ul>
+</li>
+</ul>
+<p>In Postgres 12, the REINDEX command (which rebuilds an index from a table’s current data) gains an option to have it build the index in the background and switch it into play upon completion.</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61552/web">用 TimescaleDB 为 PostgreSQL 的 Azure 数据库就物联网和时间序列工作负载提供动力</a><ul>
+<li>Sunil Kamath (Microsoft)</li>
+</ul>
+</li>
+</ul>
+<p>A new partnership with Timescale that introduces support for TimescaleDB (a Postgres extension that focuses on time-series support) on Azure for customers building IoT and time-series workloads.</p>
+<ul>
+<li>
+<p><a href="https://postgresweekly.com/link/61553/web">如何将大规模并行 Postgres 数据库迁移进 Kubernetes </a></p>
+<ul>
+<li>Oz Basarir (Pivotal)</li>
+</ul>
+</li>
+<li>
+<p><a href="https://postgresweekly.com/link/61554/web">Pgpool-II 4.1 中的语句级负载平衡</a></p>
+<ul>
+<li>PgPool</li>
+</ul>
+</li>
+<li>
+<p><a href="https://postgresweekly.com/link/61556/web">Migra: Like diff But For Postgres Schemas</a></p>
+<ul>
+<li>Robert Lechte</li>
+</ul>
+</li>
+</ul>
+<p>Written in Python and can be used from your own Python scripts or the command line.</p>
+<p>(<code>是也乎:</code></p>
+<p>哈, Python 喜欢干的事儿...</p>
+<p>)</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61557/web">ActiveRecordExtended 1.0: Adds Additional Postgres Functionality to Ruby's Active Record</a><ul>
+<li>George Protacio-Karaszi</li>
+</ul>
+</li>
+</ul>
+<p>Active Record, as commonly used in Ruby on Rails apps to interact with databases, is naturally database agnostic but Postgres has so many extra querying features it’s a shame not to be able to use them. This gem adds things like array and JSON querying, CTEs, and unions to the mix.</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61559/web">repmgr 4.3 发布</a><ul>
+<li>2ndQuadrant </li>
+</ul>
+</li>
+</ul>
+<p>A popular tool for replication and failover management that includes several usability improvements in this release.</p>
+<h2>社区/活动</h2>
+<blockquote>
+<p>🗓 Upcoming Postgres Events</p>
+</blockquote>
+<ul>
+<li><a href="https://postgresweekly.com/link/61560/web">pgconf.de 2019 (May 10 in Leipzig, Germany)</a><ul>
+<li>德国 (May 10 in Leipzig, Germany)</li>
+</ul>
+</li>
+</ul>
+<p>The latest edition of the highly successful German-speaking PostgreSQL conference.</p>
+<ul>
+<li>
+<p><a href="https://postgresweekly.com/link/61561/web">PGDay.IT 2019 (May 16 in Bologna, Italy)</a></p>
+<ul>
+<li>意大利 (May 16 in Bologna, Italy)</li>
+</ul>
+</li>
+<li>
+<p><a href="https://postgresweekly.com/link/61562/web">PGCon 2019 (May 28 in Ottawa, Canada)</a></p>
+<ul>
+<li>加拿大 (May 28 in Ottawa, Canada) </li>
+</ul>
+</li>
+</ul>
+<p>An annual conference for users and developers to meet and discuss all things Postgres.</p>
+<ul>
+<li><a href="https://postgresweekly.com/link/61563/web">Postgres Vision 2019 (June 24 in Boston, MA)</a><ul>
+<li>USA (June 24 in Boston, MA)</li>
+</ul>
+</li>
+</ul>
+<h2>是也乎</h2>
+<ul>
+<li>190404 <a href="http://zoomquiet.org/">Zoom.Quiet</a> 用时 13 分钟 完成快译.</li>
+<li>190404 <a href="http://zoomquiet.org/">Zoom.Quiet</a> 用时 3 分钟 完成格式转抄.</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://weekly.pychina.org/pgweekly/pgw-229.html">by Zoom.Quiet at April 04, 2019 07:32 AM</a>
+</p>
+</div>
+</div>
+
+
+
+
+<div class="entrygroup" id="tag:weekly.pychina.org,2019-04-04:/issue/issue-362.html">
+<h4><a href="http://weekly.pychina.org/issue/issue-362.html">Issue 362</a></h4>
+<div class="entry">
+<div class="content">
+<p>原文: <a href="https://pycoders.com/issues/362">PyCoder's Weekly - Issue #362</a></p>
+<p><img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb" /></p>
+<hr />
+<ul>
+<li><a href="https://pycoders.com/link/1377/web">如何在 Python 编码面试中脱颖而出</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>Take your Python coding interview skills to the next level and use Python's built-in functions and modules to solve problems faster and more easily.</p>
+<p>(<code>是也乎:</code></p>
+<p>面经在国外也是显学哪...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1363/web">看看 Python, 参数化</a><ul>
+<li>LUKE PLANT </li>
+<li>• Shared by Luke Plant</li>
+</ul>
+</li>
+</ul>
+<p>Detailed article that explores the application of parameterization in Python and how it relates to mainstream design patterns such as dependency injection, strategy, template method, and others.</p>
+<ul>
+<li><a href="https://pycoders.com/link/1344/web">Django 教程:建立自己项目组合网站</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>In this step-by-step tutorial, you'll learn the basics of creating powerful web applications with Django, a Python web framework. You'll build a portfolio application to showcase your web development projects, complete with a fully functioning blog.</p>
+<ul>
+<li><a href="https://pycoders.com/link/1364/web">Django 2.2 LTS 发布</a><ul>
+<li>DJANGOPROJECT.COM</li>
+</ul>
+</li>
+</ul>
+<p>What's new? HttpRequest.headers to easily access request headers, database-level constraints on models, improved runserver performance when watching large project folders. Also, this is a long-term support (LTS) release, which means that security and data loss fixes will be applied for at least the next three years.</p>
+<p>(<code>是也乎:</code></p>
+<p>LTS &lt;== Ubuntu 制造出来的品牌...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1380/web">有关过度使用 Comprehensions 以及 Generator Expressions</a><ul>
+<li>TREY HUNNER </li>
+<li>• Shared by Ricky White</li>
+</ul>
+</li>
+</ul>
+<p>Comprehensions are lovely, but they can easily be overused. In this article Trey shows you helpful examples and tips on sensible comprehension use in your own code.</p>
+<p>(<code>是也乎:</code></p>
+<p>代码简洁可读, 永远是代码第一原则.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1355/web">六种简便方法在云中运行 Jupyter 笔记本</a><ul>
+<li>KEVIN MARKHAM</li>
+</ul>
+</li>
+</ul>
+<p>A comparison of free services for running an interactive Jupyter Notebook in the cloud: Binder, Kaggle Kernels, Google Colab, Azure Notebooks, CoCalc, Datalore.</p>
+<p>(<code>是也乎:</code></p>
+<blockquote>
+<p>Binder, Kaggle, Google, Microsoft, CoCalc, and Datalore...</p>
+</blockquote>
+<p>简单的说, 简单但述求不同, 对于墙内的,
+抱 M$ 的粗腿吧...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1343/web">Python 超越 JavaScript 成为 Stack Overflow 上最受关注的语言</a><ul>
+<li>GLOBALAPPTESTING.COM</li>
+</ul>
+</li>
+</ul>
+<p>"Either Python is fast becoming the most popular programming language, or Python just has a bigger proportion of new coders compared to other languages"</p>
+<p>(<code>是也乎:</code></p>
+<p>感谢党, 感谢人民 以及 Google 和 NASA 们...</p>
+<p>)</p>
+<h2>讨论</h2>
+<blockquote>
+<p>Discussions</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/1373/web">那些自学 Python 的人都是怎么做到的?</a><ul>
+<li>REDDIT</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<blockquote>
+<p>I have found that the best way to learn a thing is by doing a thing. Program something you need or want. Learn what you need as you go.</p>
+<p>Every language I have learned was project driven.</p>
+<blockquote>
+<p>Since coding drives literally everything IT can do, you only need to think about what you wished you could do better, faster, easier.
+...</p>
+</blockquote>
+</blockquote>
+<p>几乎所有高度认同的经验, 都是 MVP 驱动的...</p>
+<p>问题在, 为什么还是有那么多培训班/MOOC 还在教 语言本身, 而不是编程?</p>
+<p><a href="https://py.101.camp/">蟒营 Python 入门班</a></p>
+<blockquote>
+<p>Reactivate Joy by Self-study with You</p>
+</blockquote>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/1354/web">学习Rust and Go:远离Python</a></p>
+<ul>
+<li>HACKER NEWS</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/1348/web">Python 中的私有方法 ;-)</a></p>
+<ul>
+<li>TWITTER.COM/REALPYTHON</li>
+</ul>
+</li>
+</ul>
+<h2>文章,教程和嗯哼</h2>
+<blockquote>
+<p>Articles, Tutorials and Talks</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/1356/web">Python 虚拟环境简介</a><ul>
+<li>JAMES SPURIN</li>
+</ul>
+</li>
+</ul>
+<p>What Python Virtual Environments are and how to use them effectively in your Python programming endeavours.</p>
+<p>(<code>是也乎:</code></p>
+<p>虚拟环境非常有用, 但是, 看目的...
+开发/测试/生产 所要求的点都不同,
+现在看还没有统一的解决方案, 
+就私人体验, 生产上, 有类似 conda 预编译的集成肥环境, 那就用</p>
+<p><img alt="" src="https://spurin.com/images/pasted-19.png" /></p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1371/web">最大限度减少 Django 隐式数据库查询引起的性能问题</a><ul>
+<li>JAMIE MATTHEWS</li>
+</ul>
+</li>
+</ul>
+<p>The author proposes a simple library called django-zen-queries that gives you control over which parts of your code are allowed to run queries, and which aren't.</p>
+<ul>
+<li><a href="https://pycoders.com/link/1337/web">Datadog APM 和分布式跟踪监控 Python 应用程序</a><ul>
+<li>DATADOG</li>
+<li>sponsor</li>
+</ul>
+</li>
+</ul>
+<p>Visualize every layer of your Python stack in minutes. Use Datadog's Trace Search to filter and analyze trace events across any customer or dimension that matters to your business. Start optimizing your Python applications with a free 14-day trial of Datadog →</p>
+<ul>
+<li><a href="https://pycoders.com/link/1361/web">Python 中的猴补丁:实例解释</a><ul>
+<li>SHYAMA SANKAR</li>
+</ul>
+</li>
+</ul>
+<p>In this post, you'll learn about monkey patching, that is, how to dynamically update code behavior at runtime. Also includes some useful examples of monkey patching in Python.</p>
+<p>(<code>是也乎:</code></p>
+<p>几年没提猴补丁, 叕开始嗯哼了?</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1357/web">在 Python 中使用 JSON 数据</a><ul>
+<li>REAL PYTHON video</li>
+</ul>
+</li>
+</ul>
+<p>Learn how to work with Python's built-in json module to serialize the data in your programs into JSON format. Then, you'll deserialize some JSON from an online API and convert it into Python objects.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="" src="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg&w=960&sig=997701f47dbef585b55d0d74d1acdd6b0647d253" /></p>
+<p>简单说, 别给人写 JSON 就好
+)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1365/web">2019 年有用的 Django 包</a><ul>
+<li>VLADISLAV SUPALOV </li>
+<li>• Shared by Vladislav Supalov</li>
+</ul>
+</li>
+</ul>
+<p>Django packages which will make your project more fun to work on, take care of common tasks, and help you to get more done. Nice list!</p>
+<ul>
+<li><a href="https://pycoders.com/link/1372/web">Super Potato Bruh (用PyGame制作)获得重大更新</a><ul>
+<li>REDDIT</li>
+</ul>
+</li>
+</ul>
+<p>A hilarious platformer game made entirely with Python and PyGame! Each copy of the game comes with full source code.</p>
+<ul>
+<li><a href="https://pycoders.com/link/1366/web">给 Python 程序猿的 Go</a><ul>
+<li>JASON MCVETTA</li>
+</ul>
+</li>
+</ul>
+<p>An introduction to the Go language for experienced Python programmers.</p>
+<p>(<code>是也乎:</code></p>
+<p>叕一则诱惑 Pythoneer 去当 gopher 的嗯哼</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1351/web">Python 的排序算法</a><ul>
+<li>MARCUS SANATAN</li>
+</ul>
+</li>
+</ul>
+<p>A look at popular sorting algorithms, how they work, and how they can be coded in Python.</p>
+<ul>
+<li><a href="https://pycoders.com/link/1342/web">多阶段 Dockerfiles 和 Python Virtualenvs</a><ul>
+<li>PAUL MCLANAHAN</li>
+</ul>
+</li>
+</ul>
+<p>How to make smaller and more secure Docker images for production using Docker's multi-stage build feature and Python virtual environments.</p>
+<ul>
+<li><a href="https://pycoders.com/link/1378/web">用 Python 显示你实时血糖水平</a><ul>
+<li>SCOTT HANSELMAN </li>
+<li>• Shared by Ricky White</li>
+</ul>
+</li>
+</ul>
+<p>Scott Hanselman on programming a PyPortal with Circuit Python to display his blood glucose levels from his REST API.</p>
+<h2>好物</h2>
+<blockquote>
+<p>Interesting Projects, Tools and Libraries</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/1360/web">doccano: ML 的开源文本注释工具</a></p>
+<ul>
+<li>GITHUB.COM/CHAKKI-WORKS </li>
+<li>• Shared by Hironsan</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/1347/web">autohooks: 用于管理 Git Hooks 的库</a></p>
+<ul>
+<li>GITHUB.COM/GREENBONE </li>
+<li>• Shared by Björn Ricks</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/1382/web">pyCAIR: 内容感知图像大小调整</a></p>
+<ul>
+<li>GITHUB.COM/AVIDLEARNERINPROGRESS </li>
+<li>• Shared by Chirag Shah</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/1358/web">Dramatiq: 简单的任务处理</a></p>
+<ul>
+<li>DRAMATIQ.IO</li>
+</ul>
+</li>
+</ul>
+<p>A distributed task processing library for Python with a focus on simplicity, reliability and performance.</p>
+<p>(<code>是也乎:</code></p>
+<p>在 OTP 面前都是渣...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1381/web">sphinx-contrib/spelling: Sphinx Docs 拼写检查器</a><ul>
+<li>GITHUB.COM/SPHINX-CONTRIB</li>
+</ul>
+</li>
+</ul>
+<p>A spelling checker for Sphinx-based documentation. It uses PyEnchant to produce a report showing misspelled words.</p>
+<h2>📆🐍 活动/大会</h2>
+<blockquote>
+<p>Events</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/1374/web">⋅ Python Toulouse: Decorators and Iterators in the Wild</a><ul>
+<li>法国 April 11, 2019 in Toulouse, France</li>
+</ul>
+</li>
+<li><a href="https://pycoders.com/link/1375/web">⋅ Canberra Python Meetup</a><ul>
+<li>堪培拉 April 4, 2019</li>
+</ul>
+</li>
+<li><a href="https://pycoders.com/link/1352/web">⋅ Moscow Python Conf++ 2019</a><ul>
+<li>俄国咯.. April 5 to April 6, 2019</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>30+ talks
+1 English + 3 Russian tracks
+300+ developes</p>
+<p>...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/1362/web">⋅ TuPLE (Tucson Python Language Enthusiasts)</a><ul>
+<li>亚利桑那州 April 9, 2019</li>
+</ul>
+</li>
+<li><a href="https://pycoders.com/link/1346/web">⋅ Edmonton.py: The Edmonton Python User Group</a><ul>
+<li>Canada 的 April 9, 2019</li>
+</ul>
+</li>
+<li><a href="https://pycoders.com/link/1376/web">⋅ DjangoCon Europe 2019</a> <ul>
+<li>April 10 to April 15, 2019</li>
+</ul>
+</li>
+</ul>
+<h2>DAMA</h2>
+<blockquote>
+<p>❤️ Happy Pythonic!</p>
+</blockquote>
+<p>(<code>大妈私人无责任播报</code>)</p>
+<ul>
+<li><a href="https://snarky.ca/deconstructing-xkcd-com-1987/">Deconstructing xkcd.com/1987/</a><ul>
+<li>嫑怕, 嫑怕, 嫑怕...</li>
+</ul>
+</li>
+<li><a href="https://py.101.camp/">蟒营 Python 入门班</a><ul>
+<li>嗯哼...</li>
+</ul>
+</li>
+</ul>
+<h1>是也乎</h1>
+<ul>
+<li>190404 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
+<li>190404 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 17 分钟 完成格式转抄.</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://weekly.pychina.org/issue/issue-362.html">by Zoom.Quiet at April 04, 2019 07:15 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>April 03, 2019</h2>
 
 <div class="channelgroup">
@@ -229,8 +724,8 @@
 <h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
 
 
-<div class="entrygroup" id="tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-361.html">
-<h4><a href="http://weekly.pychina.org/elixirweekly/elixirweekly-361.html">Issue #142</a></h4>
+<div class="entrygroup" id="tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-142.html">
+<h4><a href="http://weekly.pychina.org/elixirweekly/elixirweekly-142.html">Issue #142</a></h4>
 <div class="entry">
 <div class="content">
 <p>原文: <a href="https://elixirweekly.net/issues/142">ElixirWeekly - Elixir Community Newsletter, one email every Thursday.</a></p>
@@ -382,7 +877,7 @@
 </ul>
 <h1>是也乎</h1>
 <ul>
-<li>19032? <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
+<li>190329 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
 <li>190328 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 17 分钟 完成格式转抄.</li>
 </ul></div>
 
@@ -393,7 +888,238 @@
 
 
 <p class="date">
-<a href="http://weekly.pychina.org/elixirweekly/elixirweekly-361.html">by Zoom.Quiet at March 28, 2019 01:42 PM</a>
+<a href="http://weekly.pychina.org/elixirweekly/elixirweekly-142.html">by Zoom.Quiet at March 28, 2019 01:42 PM</a>
+</p>
+</div>
+</div>
+
+
+
+
+<div class="entrygroup" id="tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-143.html">
+<h4><a href="http://weekly.pychina.org/elixirweekly/elixirweekly-143.html">Issue #143</a></h4>
+<div class="entry">
+<div class="content">
+<p>原文: <a href="https://elixirweekly.net/issues/143">ElixirWeekly - Elixir Community Newsletter, one email every Thursday.</a></p>
+<p><img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png" /></p>
+<hr />
+<blockquote>
+<blockquote>
+<p>Every Thursday: No frills, no click-through, no spam.
+</p>
+</blockquote>
+</blockquote>
+<h2>当周 不老药</h2>
+<blockquote>
+<p>This week in Elixir</p>
+</blockquote>
+<ul>
+<li><a href="https://phoenix-liveview-ant-farm.herokuapp.com/">Phoenix LiveView 蚂蚁农场</a><ul>
+<li>..</li>
+</ul>
+</li>
+</ul>
+<p>Holy cow! Ricardo created this small experiment consisting of a bunch of old school ants running around (using Phoenix LiveView).</p>
+<ul>
+<li><a href="https://www.elviovicosa.com/2019/03/29/5-reasons-elixir-competitive-advantage.html">5 个原因 Elixir 可成就您的竞争优势</a><ul>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<p>Inspired by a recent discussion about the topic, Elvio wrote a blog post with some of the reasons that might make Elixir your competitive advantage.</p>
+<p>(<code>是也乎:</code></p>
+<p>不老, 万能, 炼金, OTP, FP </p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/bencheeorg/benchee">benchee 1.0 终于来了</a><ul>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<p>Congrats to Tobias, Devon and everbody who helped to make 1.0 happen! 🎉</p>
+<p>(<code>是也乎:</code></p>
+<p>压力测试工具...</p>
+<p>)</p>
+<ul>
+<li><a href="https://coletiv.com/blog/scrapping-data-elixir-otp/">如何使用 OTP 进行多源数据废弃和聚合</a><ul>
+<li>..</li>
+</ul>
+</li>
+</ul>
+<p>Just like in the documentary series “Big, Bigger, Biggest” we are going to show the different versions we developed on a real project, alongside the pitfalls and breakthroughs of each version.</p>
+<ul>
+<li><a href="https://10consulting.com/2019/03/29/event-sourcing-in-practice/">Event Sourcing in Practice Screencast</a><ul>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<p>In this Event sourcing in practice screencast Ben demonstrates how you can apply event sourcing to an Elixir application.</p>
+<ul>
+<li><a href="https://eng.heetch.com/our-experience-writing-elixir-microservices-53c2a37d06c2?gi=5b4a338aedfc">编写 Elixir 微服务的经验</a><ul>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<p>Jean-Phillipe just published our blog post about writing Elixir microservices in their polyglot environment.</p>
+<p>(<code>是也乎:</code></p>
+<p>不同其它语言纷纷回到巨型应用守护,</p>
+<p>Elixir 基于 OTP -&gt; 天然万能巨型守护,</p>
+<p>微服务可能是 Elixir 开发原有体验的最先进描述.</p>
+<p>)</p>
+<ul>
+<li><a href="https://www.poeticoding.com/elixir-stream-and-large-http-responses-processing-text/">Elixir Streams 和大型 HTTP 响应: 处理文本</a><ul>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<p>This is a second part of the article of last week. This time we are going to process on the fly a 30 million lines remote file, summing the numbers of each line.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="" src="https://1o6jjh24p1t92lcqci49qg8a-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/rev_lines.png" /></p>
+<p>简单说, 就是切切切切切切切...切到合适的嗯哼</p>
+<p>)</p>
+<h2>📆🐍 社区</h2>
+<blockquote>
+<p>Even more from around the Elixir community</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://podcast.smartlogic.io/season-1-hunleth">Frank Hunleth - 生产中的 Elixir</a></p>
+<ul>
+<li>Podcast</li>
+</ul>
+</li>
+<li>
+<p><a href="https://devchat.tv/elixir-mix/emx-045-where-the-wild-things-are-with-johnny-winn/">ElixirMix Podcast 045 - 和 Johnny Winn 一起狂野的事情</a></p>
+<ul>
+<li>Podcast</li>
+</ul>
+</li>
+<li>
+<p><a href="https://elixircasts.io/phoenix-live-view">Getting Started with Phoenix LiveView</a></p>
+<ul>
+<li>LiveView Video</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.codemy.net/posts/elixir-gracefully-shutting-down-genserver-process-026/sets/elixir-foundation">Elixir: 优雅的关闭 GenServer Process</a></p>
+<ul>
+<li>Video</li>
+</ul>
+</li>
+<li>
+<p><a href="https://medium.com/@TehBrofessor/the-poison-pill-process-f027415dafe4">The Poison Pill Process</a></p>
+<ul>
+<li>Blog post</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>毒丸进程...</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://www.theguild.nl/real-world-phoenix-of-groter-dan-a-liveview-dashboard/">Real World Phoenix |&gt; A LiveView Dashboard</a></p>
+<ul>
+<li>Blog post</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.welcometothejungle.co/fr/articles/invalid-file-path-error">探寻 invalid_file_path 错误背后真正的嗯哼</a></p>
+<ul>
+<li>Blog post</li>
+</ul>
+</li>
+<li>
+<p><a href="https://frank.kumro.io/building-a-gitlab-ci-light-using-nerves-hardware/">用 Elixir / Nerves 构建 Gitlab CI 警告灯 - Hardware</a></p>
+<ul>
+<li>
+<ul>
+<li>Hardware Blog post</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>这种现实降临最有感觉了~最好通电到对应提交人椅子上...</p>
+<p><img alt="" src="https://frank.kumro.io/content/images/2019/03/light-cycle-1.gif" /></p>
+<p>)</p>
+<ul>
+<li><a href="https://medium.com/@derek.kraan2/why-should-every-process-be-supervised-4fbd39c495c6">为什么每个过程都应该受到监督 ?</a><ul>
+<li>Blog post</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>这个还要嗯哼? 应该是基本习惯了,</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="http://nts.strzibny.name/basic-http-authentication-in-elixir-phoenix/">基本HTTP身份验证 Elixir/Phoenix</a></p>
+<ul>
+<li>Blog post</li>
+</ul>
+</li>
+<li>
+<p><a href="https://samuelmullen.com/articles/elixir-protocols/">Elixir Protocols</a></p>
+<ul>
+<li>Blog post</li>
+</ul>
+</li>
+<li>
+<p><a href="https://coletiv.com/blog/handling-elixir-processes-dynamicsupervisor/">From 0 to DynamicSupervisor — Handling Processes in Elixir</a> </p>
+<ul>
+<li>Blog post</li>
+</ul>
+</li>
+</ul>
+<h2>好物</h2>
+<blockquote>
+<p>Interesting Projects, Tools and Libraries</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/mirego/elixir-boilerplate">Open-source Elixir Boilerplate App</a><ul>
+<li>Project update</li>
+</ul>
+</li>
+<li><a href="https://github.com/madeinussr/exop_data">ExopData 0.1.5</a> <ul>
+<li>Project update</li>
+</ul>
+</li>
+<li><a href="https://github.com/madeinussr/exop">Exop 1.2.4</a> <ul>
+<li>Project update</li>
+</ul>
+</li>
+</ul>
+<h2>DAMA</h2>
+<blockquote>
+<p>❤️ Happy Pythonic!</p>
+</blockquote>
+<p>(<code>大妈私人无责任播报</code>)</p>
+<ul>
+<li><a href="https://medium.com/@tylerpachal/creating-an-http-server-using-pure-otp-c600fb41c972">Creating an HTTP Server using pure OTP – Tyler Pachal – Medium</a><ul>
+<li>OTP</li>
+</ul>
+</li>
+<li><a href="https://py.101.camp/">蟒营 Python 入门班</a><ul>
+<li>嗯哼...</li>
+</ul>
+</li>
+</ul>
+<h1>是也乎</h1>
+<ul>
+<li>190404 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
+<li>190404 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 17 分钟 完成格式转抄.</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://weekly.pychina.org/elixirweekly/elixirweekly-143.html">by Zoom.Quiet at March 28, 2019 01:42 PM</a>
 </p>
 </div>
 </div>
@@ -414,7 +1140,7 @@
 </ul>
 </li>
 </ul>
-<p>In this intermediate-level tutorial, you’ll learn how to use threading in your Python programs. You’ll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.</p>
+<p>In this intermediate-level tutorial, you'll learn how to use threading in your Python programs. You'll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.</p>
 <p>(<code>是也乎:</code></p>
 <p>真蟒, 系列插图, 真香...</p>
 <p><img alt="" src="https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg" /></p>
@@ -425,7 +1151,7 @@
 </ul>
 </li>
 </ul>
-<p>A great explanation of Python’s argument-passing semantics.</p>
+<p>A great explanation of Python's argument-passing semantics.</p>
 <p>(<code>是也乎:</code></p>
 <p>参数传递的一次嗯哼...</p>
 <p><img alt="" src="https://robertheaton.com/images/PBORReassign.jpg" /></p>
@@ -439,23 +1165,23 @@
 </ul>
 </li>
 </ul>
-<p>Step by step post about how the author used Python’s decorator feature to change a piece of user facing functionality without breaking existing user code that uses it.</p>
+<p>Step by step post about how the author used Python's decorator feature to change a piece of user facing functionality without breaking existing user code that uses it.</p>
 <p>(<code>是也乎:</code></p>
 <p>非常实用以及血泪经验了..</p>
 <p>)</p>
 <ul>
-<li><a href="https://pycoders.com/link/1322/web">解构xkcd＃1987（Python环境）</a><ul>
+<li><a href="https://pycoders.com/link/1322/web">解构xkcd＃1987(Python环境)</a><ul>
 <li>BRETT CANNON</li>
 </ul>
 </li>
 </ul>
-<p>Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to try an de-mystify what has happened to the artist’s laptop. Fun read!</p>
+<p>Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to try an de-mystify what has happened to the artist's laptop. Fun read!</p>
 <p>(<code>是也乎:</code></p>
 <p><img alt="" src="https://imgs.xkcd.com/comics/python_environment.png" /></p>
 <p>对 1987 号漫画的详细解析...痛泪满面...</p>
 <p>)</p>
 <ul>
-<li><a href="https://pycoders.com/link/1324/web">Python中面向对象编程（OOP）简介</a><ul>
+<li><a href="https://pycoders.com/link/1324/web">Python中面向对象编程(OOP)简介</a><ul>
 <li>REAL PYTHON video</li>
 </ul>
 </li>
@@ -466,7 +1192,7 @@
 <p>)</p>
 <ul>
 <li>
-<p><a href="https://pycoders.com/link/1305/web">为什么计算浮动列表的平均值如此之难？</a></p>
+<p><a href="https://pycoders.com/link/1305/web">为什么计算浮动列表的平均值如此之难?</a></p>
 <ul>
 <li>DAVID R. MACIVER</li>
 </ul>
@@ -548,14 +1274,14 @@
 <p>Docker 也没办法一把解决 Python 运行时环境问题...
 )</p>
 <ul>
-<li><a href="https://pycoders.com/link/1310/web">用于逆向工程的Python 1：ELF二进制文件</a><ul>
+<li><a href="https://pycoders.com/link/1310/web">用于逆向工程的Python 1:ELF二进制文件</a><ul>
 <li>ICYPHOX.SH</li>
 </ul>
 </li>
 </ul>
-<p>“Building your own disassembly tooling for fun and profit.”</p>
+<p>"Building your own disassembly tooling for fun and profit."</p>
 <ul>
-<li><a href="https://pycoders.com/link/1304/web">Monolith vs Microservices: 来自 Python “规模”故事</a><ul>
+<li><a href="https://pycoders.com/link/1304/web">Monolith vs Microservices: 来自 Python "规模"故事</a><ul>
 <li>JAMES LIM</li>
 </ul>
 </li>
@@ -565,7 +1291,7 @@
 <p>没有银弾...没有银弾...没有银弾...</p>
 <p>)</p>
 <ul>
-<li><a href="https://pycoders.com/link/1297/web">Python’s “else” 条件循环</a><ul>
+<li><a href="https://pycoders.com/link/1297/web">Python's "else" 条件循环</a><ul>
 <li>REUVEN LERNER</li>
 </ul>
 </li>
@@ -591,7 +1317,7 @@
 </ul>
 </li>
 </ul>
-<p>Microsoft launched a static type checker for Python, written in TypeScript. They claim that “Pyright is typically 5x or more faster than mypy and other type checkers that are written in Python.”</p>
+<p>Microsoft launched a static type checker for Python, written in TypeScript. They claim that "Pyright is typically 5x or more faster than mypy and other type checkers that are written in Python."</p>
 <p>(<code>是也乎:</code></p>
 <p>已经被刷屏的 M$ 家 PEP8 作品.
 )</p>
@@ -755,7 +1481,7 @@
 
 <p>
 <strong>Last updated:</strong><br>
-April 04, 2019 08:42 AM<br>
+April 04, 2019 04:44 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
