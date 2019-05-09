@@ -13,16 +13,235 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-09:/elixirweekly/elixirweekly-148.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-08:/issue/issue-367.html" />
 			<rdf:li rdf:resource="http://blog.zoejane.net/post/2019-05-03-wiki-rebuild-journey/" />
 			<rdf:li rdf:resource="https://du.101.camp/2019-05/wiki-rebuild-journey" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-02:/issue/issue-366.html" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2019/04/29/TimeReport2019/" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2019/04/28/EsWasteTime/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://weekly.pychina.org/elixirweekly/elixirweekly-148.html">
+	<title>蠎周刊: Elixir Weekly #148</title>
+	<link>http://weekly.pychina.org/elixirweekly/elixirweekly-148.html</link>
+	<content:encoded>&lt;p&gt;原文: &lt;a href=&quot;https://elixirweekly.net/issues/148&quot;&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;elixirweekly&quot; src=&quot;https://elixirweekly.net/images/envelope.png&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every Thursday: No frills, no click-through, no spam.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;当周 不老药&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This week in Elixir&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jackmarchant.com/the-problem-with-elixir-umbrella-apps/&quot;&gt;伞形应用的问题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jack's makes the point that umbrella projects/apps are hard to maintain and shouldn’t be used unless you’re deploying the child apps individually.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;和微服务一样, 某一架构泛滥时,总是撞到不合适的场景&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://shift.infinite.red/phoenix-liveview-round-up-the-story-so-far-3cbb1648e940&quot;&gt;Phoenix LiveView Round-Up: 迄今为止的故事&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Darin wrote a blog post showing off some of the fantastic work that folks are doing with Phoenix LiveView.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@leandrocesquini/phoenix-liveview-collection-8259f35ff2b0&quot;&gt;Phoenix LiveView 集锦&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another amazing collection of demos and experiments that people are building with Phoenix LiveView by Leandro.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Phoenix LiveView 杂耍&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@derek.kraan2/whats-new-in-horde-0-5-0-f5a282bc8814&quot;&gt;Horde 0.5.0 有什么新东西 ?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Horde 0.5.0 just got released and it’s a big one! Derek wrote about some of the highlights in this post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://10consulting.com/2019/05/03/telemetry-for-elixir-applications/&quot;&gt;Telemetry 之于 Elixir 应用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn how to produce and report on telemetry metrics for your Elixir application in this post by Ben.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@ItizAdz/ecto-cast-ing-sugar-31bddbc62cd7&quot;&gt;Ecto - Cast-ing Sugar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Adam wrote a blog post introducing his library EctoMorph!&lt;/p&gt;
+&lt;h2&gt;📆🐍 社区&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Even more from around the Elixir community&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://devchat.tv/elixir-mix/emx-050-elixir-origin-story-with-jose-valim/&quot;&gt;ElixirMix Podcast 050 - Elixir Origin Story with José Valim&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8mXqxBBvNdk&quot;&gt;Evadne Wu -  有效利用 ETS&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ElixirConf EU 2019 &lt;/li&gt;
+&lt;li&gt;Video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Dzi52dTOxT4&quot;&gt;Wolfgang Loder - Elixir 的功能概念&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ElixirConf EU 2019 &lt;/li&gt;
+&lt;li&gt;Video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=sV5ValgY4ck&amp;feature=youtu.be&quot;&gt;Ju Liu 用 Scenic 现场编程生成 Escher 绘画&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ElixirConf EU 2019 &lt;/li&gt;
+&lt;li&gt;Video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@adolfont/elixir-brasil-2019-and-other-elixir-news-939bf52dfea9&quot;&gt;Elixir Brasil 2019 以及其它 Elixir 新闻&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://luizdamim.com/blog/tracking-changes-with-context/&quot;&gt;追踪 Context 变化&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/erlang-battleground/property-based-testing-erlang-elixir-de72ad24966b?source=friends_link&amp;sk=6443f60d501b537dd18099b76b6ad7d0&quot;&gt;对 Erlang &amp;amp; Elixir 基于属性的测试&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://big-elephants.com/2019-05/gun/&quot;&gt;Gun. 强大的 Erlang HTTP 客户端t&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;和 golang 类似, 所有基础模块, 还在 PK 中...&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;                                       &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;
+                                       &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Insights  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;CostData  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;CostData  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;+---&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Producer  &lt;span class=&quot;o&quot;&gt;&amp;lt;----+&lt;/span&gt;Producer  &lt;span class=&quot;o&quot;&gt;&amp;lt;----+&lt;/span&gt;Consumer  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Consumer  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;+------------+&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;+-----------+&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Campaigns   &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Campaigns  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Insights  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;CostData  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;CostData  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;--|&lt;/span&gt;Producer    &lt;span class=&quot;o&quot;&gt;&amp;lt;-----+&lt;/span&gt;Consumer   &lt;span class=&quot;o&quot;&gt;+--&amp;gt;&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Producer  &lt;span class=&quot;o&quot;&gt;&amp;lt;----+&lt;/span&gt;Producer  &lt;span class=&quot;o&quot;&gt;&amp;lt;----+&lt;/span&gt;Consumer  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;            &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Supervisor &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Consumer  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;+------------+&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;+-----------+&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Insights  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;CostData  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;CostData  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                 &lt;span class=&quot;o&quot;&gt;+---&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Producer  &lt;span class=&quot;o&quot;&gt;&amp;lt;----+&lt;/span&gt;Producer  &lt;span class=&quot;o&quot;&gt;&amp;lt;----+&lt;/span&gt;Consumer  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                       &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;Consumer  &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+                                       &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;+----------+&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/niku/how-to-write-bits-as-read-on-elixir-2abf&quot;&gt;如何在 Elixir 中读写 bit 为 0001 1101&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.poeticoding.com/dealing-with-long-running-http-requests-and-timeouts-in-phoenix/&quot;&gt;在 Phoenix 中处理长时间运行的 HTTP 请求和超时&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.botsquad.com/2019/05/06/atom-safe-elixir-parser/&quot;&gt;Making the Elixir Parser Atom-safe&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/CrowdHailer/raxx/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22&quot;&gt;Raxx Ecosystem 1.0 路线图&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project update&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/alfredbaudisch/GodotPhoenixChannels&quot;&gt;GDScript and Godot Client for Real-time Phoenix Framework Channels&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project update&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://hex.pm/packages/interceptor&quot;&gt;Interceptor 现在允许您访问截获的函数参数&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project update&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Questions &amp;amp; Answers&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;俺能提交信息并发布到下一期周刊嘛 ?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然, 简单的发布到 &lt;a href=&quot;http://elixirstatus.com/&quot;&gt;ElixirStatus&lt;/a&gt; 
+就等于落入编辑视野中.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://elixirstatus.com/&quot;&gt;ElixirStatus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是纯 Elixir 开发的...值得拿来借鉴&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;俺的邮箱地址安全嘛?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;必须的, 编辑都是好银, 难道你不是?&lt;/p&gt;
+&lt;p&gt;当然, 编辑是 开源Elixir社区 的活跃成员，也是 &lt;a href=&quot;https://github.com/rrrene/credo&quot;&gt;Credo&lt;/a&gt; 和 &lt;a href=&quot;http://elixirstatus.com/&quot;&gt;ElixirStatus&lt;/a&gt; 的维护者。 
+不会通过将您的数据出售给第三方来破坏我的声誉。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;那为毛要确认俺提交的邮箱地址?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那什么, 这是所有新闻组必须的礼节,
+双方确认, 以便检验邮箱的确是你本人使用,
+否则, 我们也不想无意间变成那什么;
+而且, 你也可以在开始接收周刊前明确订阅是安全的.&lt;/p&gt;
+&lt;p&gt;I just believe that requiring double opt-in to subscribe to any email-based system is a win for both parties: You are safe from unintentionally subscribing and I can be confident that you actually own the email address and want to receive the newsletter I send you :)&lt;/p&gt;
+&lt;h3&gt;Contact&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;反馈? 问题? 或是其它?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;请直接吼: René Föhring (&lt;a href=&quot;http://trivelop.de/imprint&quot;&gt;email&lt;/a&gt; or tweet &lt;a href=&quot;https://twitter.com/rrrene&quot;&gt;@rrrene&lt;/a&gt; 开展快速交流). &lt;/p&gt;
+&lt;p&gt;PS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有关中文版本快译的问题&lt;/li&gt;
+&lt;li&gt;可以直接在每一页底部点评中反馈&lt;/li&gt;
+&lt;li&gt;实在想直接吼人? -&amp;gt; &lt;code&gt;zoomquiet+exs(at)gmail.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.yuque.com/zengzhi/elixir-weekly-report/tdyp8f&quot;&gt;5-6 第6期简讯 #issue6 · 语雀&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;190509 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;190509 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2019-05-09T11:42:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-367.html">
 	<title>蠎周刊: Issue 367</title>
 	<link>http://weekly.pychina.org/issue/issue-367.html</link>
@@ -984,19 +1203,6 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 &lt;li&gt;190502 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2019-05-02T01:15:00+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2019/04/29/TimeReport2019/">
-	<title>li guang he</title>
-	<link>http://liguanghe.github.io/2019/04/29/TimeReport2019/</link>
-	<content:encoded>Bokeh Plot</content:encoded>
-	<dc:date>2019-04-29T04:38:21+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2019/04/28/EsWasteTime/">
-	<title>li guang he: 将逝去的时间埋葬, 向平凡的苦难低头</title>
-	<link>http://liguanghe.github.io/2019/04/28/EsWasteTime/</link>
-	<content:encoded>&lt;p&gt;写作来源于痛苦,&lt;br /&gt;有些痛苦无病呻吟&lt;br /&gt;有些痛苦不值一提&lt;/p&gt;
-&lt;p&gt;那些大家的传世作品有种又遥远又能感同身受的奇异感, 历史感或者伟大感. 这样的感觉让人觉得可以抽离出来, 不会跟自己身边的感受相同, 切身之通. 又能在伟大的痛苦的不可地块亦或作者的给出的控制感&lt;/p&gt;</content:encoded>
-	<dc:date>2019-04-28T10:35:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
