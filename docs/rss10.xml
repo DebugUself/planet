@@ -13,15 +13,359 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-15:/issue/issue-368.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-09:/elixirweekly/elixirweekly-148.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-08:/issue/issue-367.html" />
-			<rdf:li rdf:resource="http://blog.zoejane.net/post/2019-05-03-wiki-rebuild-journey/" />
-			<rdf:li rdf:resource="https://du.101.camp/2019-05/wiki-rebuild-journey" />
-			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-05-02:/issue/issue-366.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://weekly.pychina.org/issue/issue-368.html">
+	<title>蠎周刊: Issue 368</title>
+	<link>http://weekly.pychina.org/issue/issue-368.html</link>
+	<content:encoded>&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/368&quot;&gt;PyCoder's Weekly - Issue #368&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;realpython&quot; src=&quot;https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1604/web&quot;&gt;CPython 3.8.0a4 已可测试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Among the new major new features and changes so far: Assignment expressions (PEP 572), Positional-only arguments (PEP 570), multiprocessing can now use shared memory to avoid pickling, typed_ast is back.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1593/web&quot;&gt;用 Python 播放和录制声音&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial, you’ll learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You’ll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Sound&quot; src=&quot;https://files.realpython.com/media/Playing-and-Recording-Sound-in-Python_Watermarked.e9aac7628df3.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;总之有太多模块可以使用,
+但是, 没有完美解决所有问题的...
+所以, 要组合来嗯哼...&lt;/p&gt;
+&lt;p&gt;推荐外部专用软件来嗯哼, python 就进行管理就好.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1615/web&quot;&gt;Dropbox 客户端如何用 Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ANVILVENTURES.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“This blog post talks about reverse engineering the Dropbox client, breaking its obfuscation mechanisms, de-compiling it to Python code as well as modifying the client in order to use debug features which are normally hidden from view.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;litb_tracing&quot; src=&quot;https://anvilventures.com/blog/images/litb_tracing.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;终于有人站出来分析靠谱的 py 客户端技巧了...&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;litb_debugging&quot; src=&quot;https://anvilventures.com/blog/images/litb_debugging.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;虽然有麻烦, 但是, 都能嗯哼掉&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1606/web&quot;&gt;Python GIL 是否已 Slain?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ANTHONY SHAW&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A discussion of PEP554 (subinterpreters) and how it relates to the global interpreter lock (GIL) in CPython.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;有关 PEP 的讨论越来越公开了...&lt;/p&gt;
+&lt;p&gt;毕竟, BDLF 退位了, 大家终于能愉快的吵架了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1607/web&quot;&gt;PEP 554 将终结 GIL 嘛?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON BYTES podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another discussion of subinterpreters (PEP 554) and how they will allow true in-process parallelism.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1592/web&quot;&gt;可能不会在 Python 3 中使用的, 但, 应该&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;VINKO KODŽOMAN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一则鼓动使用 py3 新特性的文章...&lt;/p&gt;
+&lt;p&gt;问题是, 用 py2 的经验来写 py3 并无太大不同哪...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1619/web&quot;&gt;Epic Medieval Painting of GvR&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;IMGUR.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It was auctioned off at PyCon 2019.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1616/web&quot;&gt;“Controversial Random Thought on OOP in Python”&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;RAYMOND HETTINGER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Inheritance vs Composition&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;OOP 早已证明不是银弹, 为毛一直在讨论?&lt;/p&gt;
+&lt;p&gt;嗯哼, JAVA 在努力续命...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1600/web&quot;&gt;Python 应用的最佳 Docker 基础映像&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ITAMAR TURNER-TRAURING&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Which Docker image should you use for your Python app? There are many choices, and it may not be obvious which is the best for your situation. This article gives you a good overview of the current options available.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;嫑用&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Alpine&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Linux&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;嫑用&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Alpine&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Linux&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;嫑用&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Alpine&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Linux&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1622/web&quot;&gt;用 PyLint 编写更干净的 Python 代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this video series you’ll see how to install and set up the PyLint code linter tool. You’ll learn why you should use code linters like PyLint, Flake8, PyFlakes, or other static analysis tools—and how they can help you write cleaner and more Pythonic code.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyLint&quot; src=&quot;https://files.realpython.com/media/Intermediate_Watermarked.9f8c0a24bde7.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼, 这次插图就不搭调了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1590/web&quot;&gt;用 Python 查找最便宜的多程旅行航班&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NVBN.GITHUB.IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“I was able to find the cheapest flights with the minimal duration and the resulting prices were almost the same as on Google Flights.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1621/web&quot;&gt;Python 3.8 中的 F字符串调试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TIRKARTHI.GITHUB.IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;F-Strings will get a = format specifier that expands like a macro into  =  to serve as a debugging aid.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1603/web&quot;&gt;让 Google 知道您 Django 网站中的其他语言&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;HAKI BENITA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have a public facing Django site in multiple languages, you probably want to let Google and other search engines know about it. This article shows you the minimal setup necessary to support this use case.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1620/web&quot;&gt;Pandas 输出风格化&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CHRIS MOFFITT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pandas has a relatively new API for styling output. This article shows examples of using the style API.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1614/web&quot;&gt;Django 搜索教程&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;WILLIAM VINCENT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to add basic search functionality to any Django website.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1610/web&quot;&gt;Python Dicts 和内存使用&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;REUVEN LERNER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1602/web&quot;&gt;在 Python 中用 Altair 进行大部分可视化的原因&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FERNANDO IRARRÁZAVAL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个声明式数据可视化库,&lt;/p&gt;
+&lt;p&gt;但是, 和 Bokeh 相比, 都少了一个 HTML 输出能力&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1591/web&quot;&gt;Pint: 定义，操作和操纵物理量&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PINT.READTHEDOCS.IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;专注各种物理量之间的转化...
+嗯哼, 反正时间是最麻烦的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1613/web&quot;&gt;plotnine: Python 图形语法，基于ggplot2&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/HAS2K1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1611/web&quot;&gt;machine-learning-course: 用 Python 进行 Machine Learning 课程&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/MACHINELEARNINGMINDSET&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;supervised&quot; src=&quot;https://github.com/machinelearningmindset/machine-learning-course/raw/master/_img/supervised.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;叕一系列开源 AI 课程, &lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1618/web&quot;&gt;cloudmarker: 云监控工具和框架&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/CLOUDMARKER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1599/web&quot;&gt;pishot: 用 Raspberry Pi 相机捕获高速频闪图像&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/REVALO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;所以, pi 开始的项目, 都不念 &lt;code&gt;屁&lt;/code&gt; -&amp;gt; 应该是 &lt;code&gt;派&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1601/web&quot;&gt;open-spelling-bee: Terminal-Based Python Clone of New York Times’ Puzzle Game “Spelling Bee”&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/PHILSHEM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;Type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;help&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Playing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;puzzle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letters&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; 
+            &lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;
+           &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;     \
+          &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;       \
+    &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;----&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;----&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+   &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;      &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;      \
+  &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;        &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;        \
+  &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;H&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+   &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;       &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;----&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;   &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;----&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+   &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;      &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;      \
+  &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;        &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;        \
+  &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;G&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+   &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;       &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;----&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;----&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+          &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+           &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;Max&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;88&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Total&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;37&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GROUND&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;非常经典的拼写游戏了...
+RMS 在 emcase 中经常玩...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1595/web&quot;&gt;django-restql: Dynamically Select Only a Subset of Fields Per DRF Resource&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/YEZYILOMO &lt;/li&gt;
+&lt;li&gt;• Shared by Yezy Ilomo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1597/web&quot;&gt;⋅ PyCon Africa Still Accepting Talk Proposals&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;非洲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1605/web&quot;&gt;⋅ EuroPython 2019 Early-Bird Ticket Sales Open&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;July 8 – 14 in Basel, &lt;/li&gt;
+&lt;li&gt;Switzerland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1609/web&quot;&gt;⋅ Python Northwest&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May 16, 2019&lt;/li&gt;
+&lt;li&gt;UK 西北偏北&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1596/web&quot;&gt;⋅ Karlsruhe Python User Group (KaPy)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;德国&lt;/li&gt;
+&lt;li&gt;May 17, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/firefox/comments/6sw9t1/im_desperately_searching_a_good_and_equivalent/&quot;&gt;I'm desperately searching a good (and equivalent feature-wise) for COLT, anyone have found one ? : firefox&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;FireFox&lt;/li&gt;
+&lt;li&gt;57+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;FF 自己作死, 闷杀了以往杀出重围的利器 -&amp;gt; 扩展生态&lt;/p&gt;
+&lt;p&gt;参考: &lt;a href=&quot;https://du.101.camp/2017-11/ff-no-upgrade/&quot;&gt;嫑升级 FireFox 到 56 以上&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;前几天又故意关闭了扩展认证...以至老版本 FF 中可用 扩展 也全部失效...&lt;/p&gt;
+&lt;p&gt;依赖的一系列精选生产力扩展无法使用, 只能全部迁移到 WaterFox 中;&lt;/p&gt;
+&lt;p&gt;这才恢复 ScrapBook 的的所有体验;&lt;/p&gt;
+&lt;p&gt;CoLT 也有一半功能失常, 今天又根据分享, 用 FormatLink 完成替代...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://legacycollector.org/firefox-addons/&quot;&gt;Legacy Firefox extensions - index&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是收集过往传奇扩展并支持下载的非官方网站...&lt;/p&gt;
+&lt;p&gt;现在就差 &lt;a href=&quot;https://github.com/docwhat/itsalltext&quot;&gt;docwhat/itsalltext: It's All Text! - Edit textareas in your browser with your favorite editor!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;的完美替代了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;已开班, 进入 ch05&lt;/li&gt;
+&lt;li&gt;下期可能 7月中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Jobs:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;北京文因互动诚招 Pythonner:&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;190515 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;190515 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2019-05-15T03:42:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/elixirweekly/elixirweekly-148.html">
 	<title>蠎周刊: Elixir Weekly #148</title>
 	<link>http://weekly.pychina.org/elixirweekly/elixirweekly-148.html</link>
@@ -631,578 +975,6 @@
 &lt;li&gt;190508 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2019-05-08T01:42:00+00:00</dc:date>
-</item>
-<item rdf:about="http://blog.zoejane.net/post/2019-05-03-wiki-rebuild-journey/">
-	<title>zoejane: WIKI 重建的旅程 - 从误解到改变</title>
-	<link>http://blog.zoejane.net/post/2019-05-03-wiki-rebuild-journey/</link>
-	<content:encoded>&lt;h2 id=&quot;误解&quot;&gt;误解&lt;/h2&gt;
-
-&lt;p&gt;我用 wiki 很少。&lt;br /&gt;
-Issue 和 wiki 之间，我更偏爱用 issue。发布 issue 顺手又简单，又能得到反馈。而 wiki 却总感觉无人问津，孤独的写作，石沉大海悄无声息，只是用来备份一份查阅而已。&lt;br /&gt;
-这是我曾有过的误解。&lt;/p&gt;
-
-&lt;h2 id=&quot;转变&quot;&gt;转变&lt;/h2&gt;
-
-&lt;p&gt;近期收到开智课程仓库要被删除的消息，当我整理课程仓库的时候，重新翻起了那些代码和文字，一页又一页，凝聚了回忆的代码和文档，issue里曾有过的精彩讨论，wiki 里沉淀的大家的经验与智慧。&lt;br /&gt;
-在这个时候才发现，issue 中曾有过的感触和讨论，常常随着时间而快速消散，甚至只是过去了几周，几个月，却已被人遗忘，难以备份、管理、回顾。而 wiki 却能非常方便的查阅、复用、修补、保存。&lt;br /&gt;
-当那些记忆快要消散时，我忽然好希望，如果那些记录曾经被保留在了 Wiki 里，该有多好。如果曾有过的那些充满闪光点的讨论，被放在 Wiki 里，反复查阅和修订，而不是一遍遍的被遗忘，该有多好。&lt;br /&gt;
-我这时才发觉，我一直低估了 Wiki，我一直未曾意识到它的价值。&lt;/p&gt;
-
-&lt;h2 id=&quot;决定&quot;&gt;决定&lt;/h2&gt;
-
-&lt;p&gt;是的，我错了。&lt;br /&gt;
-我意识到，没有迭代和反复增订，就缺乏真正的积累和成长。&lt;br /&gt;
-哪怕当时我记录下了课程笔记和感悟，哪怕当时我认真写下了会议纪要，哪怕我曾和小伙伴有过热烈的讨论，但是，再过几天，我又会再次把它们遗忘。&lt;br /&gt;
-我想要去改变。&lt;br /&gt;
-发起了 wiki 重建计划，我想要重新打造一个我们会喜欢用的 wiki.&lt;/p&gt;
-
-&lt;h2 id=&quot;挫折&quot;&gt;挫折&lt;/h2&gt;
-
-&lt;p&gt;不得不说，我打开自怼圈的 wiki 页面的时候，我又没了整理的欲望。我深深怀疑，wiki 真的有人看吗？&lt;br /&gt;
-长长的 Sidebar索引栏，各种混杂的信息，让人一下子找不到头绪，看着望而生畏。Sidebar 里包含了所有的 wiki 文章链接 ，因为不然根本就没人知道还有这样一篇文章。然而，所有的文章都一样重要，其实就代表了所有文章都一样不重要，不是吗？&lt;br /&gt;
-我尝试了重新排列相关栏位，尝试添加了 TOC 目录快速跳转，尝试了用 HTML 代码添加折叠效果…&lt;br /&gt;
-然而，这样一遍遍的整理没有用，我发现这样的 wiki 我还是没有任何阅读的欲望，因为还没开始读，我觉得脑子已经乱了。wiki 如果让人没有阅读的欲望，是没有生命力的。&lt;br /&gt;
-也许最好的办法，是推倒，重来。&lt;br /&gt;
-即使，这并不容易。&lt;/p&gt;
-
-&lt;h2 id=&quot;重建&quot;&gt;重建&lt;/h2&gt;
-
-&lt;p&gt;我想要一个什么样的 wiki？&lt;br /&gt;
-我思考着小伙伴们和我自己体验到的在自怼圈感觉不顺手的地方。比如常常有小伙伴说刚进怼圈迷失在了信息的海洋里，不知道自己每天要做什么，比如怼圈有些什么可以参与的项目，比如怼圈累积的那些资料都放在了哪里，比如怼周会、怼周刊和招新要怎么做，比如怼圈有哪些对外的公开渠道，比如很多人都不知道有 playground 仓库，等等。&lt;br /&gt;
-我希望每当我不知道我要做什么的时候，打开 wiki时，它能给人带来清晰的指引和内心的宁静，可以没有压力的开启自怼圈的旅途。&lt;br /&gt;
-从 20190501 - 0503 这三天里，我重新写了Sidebar，添加了节奏版块，把之前一些容易被忽视的地方增加到了 wiki 里，重新汇总了活动/作品/指南/参考版块, 对于 Sidebar 里链接到的 wiki 和对应仓库的 Readme ，全部进行了新建或者修订。&lt;/p&gt;
-
-&lt;h2 id=&quot;启程&quot;&gt;启程&lt;/h2&gt;
-
-&lt;p&gt;第一轮的 wiki 重建计划，已经初步完成。&lt;br /&gt;
-希望经过这一轮， wiki 的改变，能让你们也感受到 wiki 的方便和好用，能慢慢开始用 wiki 沉淀和积累我们的经验与故事，发掘 wiki 的价值。 @DebugUself/du4all&lt;/p&gt;
-
-&lt;h3 id=&quot;tips-for-wiki-重建&quot;&gt;Tips for Wiki 重建&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;勾勒 wiki 雏形
-
-&lt;ul&gt;
-&lt;li&gt;你想要一个什么样的 wiki，什么样的 wiki 你觉得好用？&lt;/li&gt;
-&lt;li&gt;你做某件事的时候，觉得缺少了什么相关资源吗？&lt;/li&gt;
-&lt;li&gt;现在的 wiki 有什么你觉得不顺手的地方？&lt;/li&gt;
-&lt;li&gt;有什么重要的信息在 wiki 里难以找到吗？&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;结构精简/重组/合并
-
-&lt;ul&gt;
-&lt;li&gt;哪些信息是最重要的，需要突出，方便查阅？&lt;/li&gt;
-&lt;li&gt;哪些信息是相关的，可以合并的？&lt;/li&gt;
-&lt;li&gt;哪些信息看上去比较混乱，需要调整&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;条目整理
-
-&lt;ul&gt;
-&lt;li&gt;结构是否清楚，逻辑是否清晰？&lt;/li&gt;
-&lt;li&gt;是否有错误内容、冗余信息，失效链接？&lt;/li&gt;
-&lt;li&gt;是否有重要的相关信息和链接可以加入？&lt;/li&gt;
-&lt;li&gt;是否需要添加相关条目或者 Readme？&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Post
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://du.101.camp/2019-05/wiki-rebuild-journey/&quot;&gt;WIKI 重建的旅程 - 从误解到改变 ~ DebugUself with DAMA ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Issues
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/661&quot;&gt;4w[TASK] WIKI 重建计划 · Issue #661 · DebugUself/du4proto&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/667&quot;&gt;3d [WIKI][LOG] WIKI 重建的旅程 - 从误解到改变&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/659&quot;&gt;2w[TASK]开智回忆共建计划 OpenMindMemory · Issue #659 · DebugUself/du4proto&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Wiki
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/wiki/HbWikiBuild&quot;&gt;Wiki 重建指南 · DebugUself/du4proto Wiki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;20190503 zoejane init&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-	<dc:date>2019-05-03T06:28:48+00:00</dc:date>
-</item>
-<item rdf:about="https://du.101.camp/2019-05/wiki-rebuild-journey/">
-	<title>自怼圈: WIKI 重建的旅程 - 从误解到改变</title>
-	<link>https://du.101.camp/2019-05/wiki-rebuild-journey/</link>
-	<content:encoded>&lt;h2 id=&quot;误解&quot;&gt;误解&lt;/h2&gt;
-
-&lt;p&gt;我用 wiki 很少。&lt;br /&gt;
-Issue 和 wiki 之间，我更偏爱用 issue。发布 issue 顺手又简单，又能得到反馈。而 wiki 却总感觉无人问津，孤独的写作，石沉大海悄无声息，只是用来备份一份查阅而已。&lt;br /&gt;
-这是我曾有过的误解。&lt;/p&gt;
-
-&lt;h2 id=&quot;转变&quot;&gt;转变&lt;/h2&gt;
-
-&lt;p&gt;近期收到开智课程仓库要被删除的消息，当我整理课程仓库的时候，重新翻起了那些代码和文字，一页又一页，凝聚了回忆的代码和文档，issue里曾有过的精彩讨论，wiki 里沉淀的大家的经验与智慧。&lt;br /&gt;
-在这个时候才发现，issue 中曾有过的感触和讨论，常常随着时间而快速消散，甚至只是过去了几周，几个月，却已被人遗忘，难以备份、管理、回顾。而 wiki 却能非常方便的查阅、复用、修补、保存。&lt;br /&gt;
-当那些记忆快要消散时，我忽然好希望，如果那些记录曾经被保留在了 Wiki 里，该有多好。如果曾有过的那些充满闪光点的讨论，被放在 Wiki 里，反复查阅和修订，而不是一遍遍的被遗忘，该有多好。&lt;br /&gt;
-我这时才发觉，我一直低估了 Wiki，我一直未曾意识到它的价值。&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;决定&quot;&gt;决定&lt;/h2&gt;
-
-&lt;p&gt;是的，我错了。&lt;br /&gt;
-我意识到，没有迭代和反复增订，就缺乏真正的积累和成长。&lt;br /&gt;
-哪怕当时我记录下了课程笔记和感悟，哪怕当时我认真写下了会议纪要，哪怕我曾和小伙伴有过热烈的讨论，但是，再过几天，我又会再次把它们遗忘。&lt;br /&gt;
-我想要去改变。&lt;br /&gt;
-发起了 wiki 重建计划，我想要重新打造一个我们会喜欢用的 wiki.&lt;/p&gt;
-
-&lt;h2 id=&quot;挫折&quot;&gt;挫折&lt;/h2&gt;
-
-&lt;p&gt;不得不说，我打开自怼圈的 wiki 页面的时候，我又没了整理的欲望。我深深怀疑，wiki 真的有人看吗？&lt;br /&gt;
-长长的 Sidebar索引栏，各种混杂的信息，让人一下子找不到头绪，看着望而生畏。Sidebar 里包含了所有的 wiki 文章链接 ，因为不然根本就没人知道还有这样一篇文章。然而，所有的文章都一样重要，其实就代表了所有文章都一样不重要，不是吗？ &lt;br /&gt;
-我尝试了重新排列相关栏位，尝试添加了 TOC 目录快速跳转，尝试了用 HTML 代码添加折叠效果… &lt;br /&gt;
-然而，这样一遍遍的整理没有用，我发现这样的 wiki 我还是没有任何阅读的欲望，因为还没开始读，我觉得脑子已经乱了。wiki 如果让人没有阅读的欲望，是没有生命力的。&lt;br /&gt;
-也许最好的办法，是推倒，重来。&lt;br /&gt;
-即使，这并不容易。&lt;/p&gt;
-
-&lt;h2 id=&quot;重建&quot;&gt;重建&lt;/h2&gt;
-
-&lt;p&gt;我想要一个什么样的 wiki？ &lt;br /&gt;
-我思考着小伙伴们和我自己体验到的在自怼圈感觉不顺手的地方。比如常常有小伙伴说刚进怼圈迷失在了信息的海洋里，不知道自己每天要做什么，比如怼圈有些什么可以参与的项目，比如怼圈累积的那些资料都放在了哪里，比如怼周会、怼周刊和招新要怎么做，比如怼圈有哪些对外的公开渠道，比如很多人都不知道有 playground 仓库，等等。&lt;br /&gt;
-我希望每当我不知道我要做什么的时候，打开 wiki时，它能给人带来清晰的指引和内心的宁静，可以没有压力的开启自怼圈的旅途。&lt;br /&gt;
-从 20190501 - 0503 这三天里，我重新写了Sidebar，添加了节奏版块，把之前一些容易被忽视的地方增加到了 wiki 里，重新汇总了活动/作品/指南/参考版块, 对于 Sidebar 里链接到的 wiki 和对应仓库的 Readme ，全部进行了新建或者修订。&lt;/p&gt;
-
-&lt;h2 id=&quot;启程&quot;&gt;启程&lt;/h2&gt;
-
-&lt;p&gt;第一轮的 wiki 重建计划，已经初步完成。&lt;br /&gt;
-希望经过这一轮， wiki 的改变，能让你们也感受到 wiki 的方便和好用，能慢慢开始用 wiki 沉淀和积累我们的经验与故事，发掘 wiki 的价值。 @DebugUself/du4all&lt;/p&gt;
-
-&lt;h3 id=&quot;tips-for-wiki-重建&quot;&gt;Tips for Wiki 重建&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;勾勒 wiki 雏形
-    &lt;ul&gt;
-      &lt;li&gt;你想要一个什么样的 wiki，什么样的 wiki 你觉得好用？&lt;/li&gt;
-      &lt;li&gt;你做某件事的时候，觉得缺少了什么相关资源吗？&lt;/li&gt;
-      &lt;li&gt;现在的 wiki 有什么你觉得不顺手的地方？&lt;/li&gt;
-      &lt;li&gt;有什么重要的信息在 wiki 里难以找到吗？&lt;/li&gt;
-      &lt;li&gt;…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;结构精简/重组/合并
-    &lt;ul&gt;
-      &lt;li&gt;哪些信息是最重要的，需要突出，方便查阅？&lt;/li&gt;
-      &lt;li&gt;哪些信息是相关的，可以合并的？&lt;/li&gt;
-      &lt;li&gt;哪些信息看上去比较混乱，需要调整&lt;/li&gt;
-      &lt;li&gt;…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;条目整理
-    &lt;ul&gt;
-      &lt;li&gt;结构是否清楚，逻辑是否清晰？&lt;/li&gt;
-      &lt;li&gt;是否有错误内容、冗余信息，失效链接？&lt;/li&gt;
-      &lt;li&gt;是否有重要的相关信息和链接可以加入？&lt;/li&gt;
-      &lt;li&gt;是否需要添加相关条目或者 Readme？&lt;/li&gt;
-      &lt;li&gt;…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/661&quot;&gt;4w[TASK] WIKI 重建计划 · Issue #661 · DebugUself/du4proto&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/wiki/HbWikiBuild&quot;&gt;Wiki 重建指南 · DebugUself/du4proto Wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/667&quot;&gt;3d [WIKI][LOG] WIKI 重建的旅程 - 从误解到改变&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself/du4proto/issues/659&quot;&gt;2w[TASK]开智回忆共建计划 OpenMindMemory · Issue #659 · DebugUself/du4proto&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;20190503 zoejane init&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-	<dc:date>2019-05-03T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://weekly.pychina.org/issue/issue-366.html">
-	<title>蠎周刊: Issue 366</title>
-	<link>http://weekly.pychina.org/issue/issue-366.html</link>
-	<content:encoded>&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/366&quot;&gt;PyCoder's Weekly - Issue #366&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;realpython&quot; src=&quot;https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1537/web&quot;&gt;如何充分利用 PyCon&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;PyCon is about to kick off! Whether you’re a first-timer or a seasoned attendee, this guide will help you get ready to have a great PyCon.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;简单说, 不一定要到现场, 认真复习一切就好&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1505/web&quot;&gt;在 PyCharm PyCon Booth 上结识 Python 内容创建者&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PAUL EVERITT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you’re at PyCon this week come and meet yours truly, along with Michael Kennedy from the Talk Python podcast, Brian Okken from Test &amp;amp; Code, Miguel Grinberg, Chris Medina, PyBites, and the Real Python Team. Be sure to stop by and say hi :)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1503/web&quot;&gt;用 PyGame Zero 教孩子编码&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MATT LAYMAN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How can you excite a kid about computers? In this article the author shares his experience teaching his six year old son some programming using PyGame Zero.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;一样是游戏创作, PyGame 比 Scratch 要靠谱的多...&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;logo&quot; src=&quot;https://pygame-zero.readthedocs.io/en/stable/_static/logo.svg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1511/web&quot;&gt;用计算机视觉检测帕金森病&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ADRIAN ROSEBROCK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to use OpenCV and machine learning to automatically detect Parkinson’s disease in hand-drawn images of spirals and waves.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;玩具级别...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1513/web&quot;&gt;Mac Adware, à la Python&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;OBJECTIVE-SEE.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;An examination of a malicious piece of macOS software (adware) which leverages Python and various levels of obfuscation to hinder analysis.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1527/web&quot;&gt;使用 Django 和 GeoDjango 制作基于位置的 Web 应用程序&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to use Django and GeoDjango to build a location-based web application from scratch. You’ll be building a simple nearby shops application that lists the shops closest to a user’s location, powered by PostgreSQL and PostGIS.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;GeoDjango ~ Django 的特化道路将不会停止,
-本质上已经从框架厂商, 变成方案厂商了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1508/web&quot;&gt;repeatfunc() Itertools Recipe&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;RAYMOND HETTINGER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For example, repeatfunc(random, 10) would be a shortcut for (random() for i in range(10))&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1526/web&quot;&gt;为毛这能出现在官方 Python 文档中?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REDDIT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Lame Lame Lame, DO NOT USE THIS!!!”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.python.org/3/library/winreg.html#winreg.QueryValue&quot;&gt;winreg — Windows registry access — Python 3.7.3 documentation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;官方已经修正...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1536/web&quot;&gt;2019 PSF 年度报告&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Our first Annual Report shows you just a few ways the generous support from our partners and friends helps us support our mission”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1515/web&quot;&gt;使用 AST 在 Python 代码中检测 SQL 注入&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ARTEM GOLUBIN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Python has a built-in ast module that lets you inspect, parse and edit Python code. This article shows a real-world example of how you can use this module to detect SQL injection vulnerabilities in Python code.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1541/web&quot;&gt;Join a Community of 3.5 Million Developers on DigitalOcean&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;DIGITALOCEAN&lt;/li&gt;
-&lt;li&gt;sponsor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Discover why Python developers love self-hosting their apps on DigitalOcean, the simplest cloud platform. Get started with a $100 credit for new users →&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;DigitalOcean&quot; src=&quot;https://cdn.pycoders.com/e1d72d198a8c5248e85e07bf02eb7663&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;这个广告愿意放...&lt;/p&gt;
-&lt;p&gt;DigitalOcean 的文档是除 Heroku 之外最友好的了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1518/web&quot;&gt;Python 在 Netflix&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;AMJITH RAMANUJAM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A sampling of how Python is used at Netflix: “We use Python through the full content lifecycle, from deciding which content to fund all the way to operating the CDN that serves the final video to 148 million members.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;所以, Netflix 已经是比 豆瓣更大的单体 Python 应用了?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1502/web&quot;&gt;分发与发布: 为什么 Python 包很难嗯哼&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ALEX BECKER &lt;/li&gt;
-&lt;li&gt;• Shared by Alex Becker&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Why Python packaging is hard: just because you both installed v1.2.3, doesn’t mean you installed the same thing…&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;好问题...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1514/web&quot;&gt;了解 Python 3.7&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CASEY FAIST&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Short &amp;amp; sweet article that covers some of the new features and improvements available in Python 3.7: data classes, async/await, and more.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一则 3.7 宣传文, 但是, 已经令和..不是, 马上 3.8 了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1506/web&quot;&gt;Python 在 Visual Studio Code: April 2019 Release&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MICROSOFT.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Python interactive now comes with a built-in variable explorer, debugging is easier to configure, and improvements to the Python Language Server have been made.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;VariableExplorer&quot; src=&quot;https://devblogs.microsoft.com/python/wp-content/uploads/sites/12/2019/04/April2019-VariableExplorer.gif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;VSCode 终于完成了 IDE 化...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1543/web&quot;&gt;Python KeyError 异常以及如何处理它们&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to handle Python KeyError exceptions. They are often caused by a bad key lookup in a dictionary, but there are a few other situations when a KeyError can be raised as well.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1525/web&quot;&gt;Mercurial 版本控制入门&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MOSHE ZADKA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Super short article to show you the basics of Mercurial, a distributed version control system written in Python.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;可怜的 Hg, 明明是 Python 官方推荐的哪...
-可惜没有 github 类似明星平台...
-虽然自己构建发布一个非常简单,
-但是, 没了 社会化代码社交场景, VCS 就比较容宅寂了&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1540/web&quot;&gt;Top 3 Python Libraries for GraphQL&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;OBERT MATYSZEWSKI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A summary of the best Python libraries for the GraphQL query language.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;现在问题不在客户端吧...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1512/web&quot;&gt;用 Python-Powered Discord Bot 提供 GIF&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MAX ONG ZONG BAO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一则 gif 生成工具,
-discord 插件...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1528/web&quot;&gt;用 Python 创建自己的时序上下文管理器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;FLORIAN DAHLITZ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Covers various ways to write a Python context manager that measures execution time.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1509/web&quot;&gt;Python dis 模块和常量折叠&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHONTIPS.COM &lt;/li&gt;
-&lt;li&gt;• Shared by Jim Anderson&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Why is pow(3, 89) slower than 3 ** 89? Quick article looking at the dis module and when CPython’s constant folding kicks in.&lt;/p&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1532/web&quot;&gt;typed-json-dataclass: 增强型数据类&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/ABATILO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Enhances dataclasses to perform basic type checking and makes the dataclass JSON serializable.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1519/web&quot;&gt;Python 反编译器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON-DECOMPILER.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This free online tool can decompile Python bytecode (.pyc) back into equivalent Python source code.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;反正加密 Python 代码是个技术活&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1520/web&quot;&gt;pyflame: A ptrace -ing Profiler for Python&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/UBER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;pyflame&quot; src=&quot;https://cloud.githubusercontent.com/assets/2734/17949703/8ef7d08c-6a0b-11e6-8bbd-41f82086d862.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;没什么可说的: 神器&lt;/p&gt;
-&lt;p&gt;uber 开源...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1534/web&quot;&gt;pydockenv: Python 虚拟环境，但由Docker支持&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/SE7ENTYSE7EN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;嗯哼, 从以往几十M , 要变成几百M 了?
-真的是 SSD 时代思路了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1538/web&quot;&gt;pydantic: 使用 Python 类型提示进行数据验证和设置管理&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;HELPMANUAL.IO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一种类型嗯哼的方案, 反正怎么用都是个累...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/1521/web&quot;&gt;stackprinter: 可调试友好跟踪&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/CKND&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;出时时, 调用桟更加可用的嗯哼...&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;demo.py&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;somelist&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;, &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;]
-    9         anotherlist = &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'5'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;]
---&amp;gt; 10        dangerous_function(somelist + anotherlist)
-    11    except:
-    ..................................................
-     somelist = &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;, &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;]
-     anotherlist = &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'5'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;]
-    ..................................................
-
-File demo.py, line 4, in dangerous_function
-    3     def dangerous_function(blub):
---&amp;gt; 4         return sorted(blub, key=lambda xs: sum(xs))
-    ..................................................
-     blub = &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;, &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;, &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'5'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;]
-    ..................................................
-
-File demo.py, line 4, in &lt;span class=&quot;nt&quot;&gt;&amp;lt;lambda&amp;gt;&lt;/span&gt;
-    2
-    3     def dangerous_function(blub):
---&amp;gt; 4         return sorted(blub, key=lambda xs: sum(xs))
-    5
-    ..................................................
-     xs = &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'5'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;
-    ..................................................
-
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1510/web&quot;&gt;⋅ PyCon US 2019&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;May 1 to May 10, 2019. &lt;/li&gt;
-&lt;li&gt;10天...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1507/web&quot;&gt;⋅ Reunión Python Valencia&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;May 2, 2019&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1523/web&quot;&gt;⋅ Canberra Python Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;堪培拉&lt;/li&gt;
-&lt;li&gt;May 2, 2019&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1517/web&quot;&gt;⋅ Sydney Python User Group (SyPy)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;澳洲&lt;/li&gt;
-&lt;li&gt;May 2, 2019&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1522/web&quot;&gt;⋅ PyDays Vienna&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;奥地利&lt;/li&gt;
-&lt;li&gt;May 3 to May 5, 2019&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/1529/web&quot;&gt;⋅ Python Atlanta Meetup&lt;/a&gt; &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;USA&lt;/li&gt;
-&lt;li&gt;May 9, 2019&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;已开班, 进入 ch03&lt;/li&gt;
-&lt;li&gt;下期可能 7月中&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/5BWZYUvc5HXnvaqiawKBVA&quot;&gt;突发】Trio 作者质疑 Requests 作者 Kenneth Reitz 存在不当行为&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Jobs:&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1&gt;是也乎&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;190505 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;190502 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-	<dc:date>2019-05-02T01:15:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
