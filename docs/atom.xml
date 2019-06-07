@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-06-07T00:42:18+00:00</updated>
+	<updated>2019-06-07T08:44:03+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -457,7 +457,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-06-05T08:43:51+00:00</updated>
+			<updated>2019-06-07T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -842,7 +842,7 @@ Py web-GUI 框架...&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-06-05T08:43:51+00:00</updated>
+			<updated>2019-06-07T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
