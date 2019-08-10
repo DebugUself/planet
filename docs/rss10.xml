@@ -13,12 +13,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2019/08/08/ReStartSmartCourt/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-08-07:/issue/issue-380.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-08-01:/issue/issue-379.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2019/08/08/ReStartSmartCourt/">
+	<title>li guang he: 工作中寻找母题</title>
+	<link>http://liguanghe.github.io/2019/08/08/ReStartSmartCourt/</link>
+	<content:encoded>&lt;h2 id=&quot;写在之前&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#写在之前&quot; class=&quot;headerlink&quot; title=&quot;写在之前&quot;&gt;&lt;/a&gt;写在之前&lt;/h2&gt;&lt;p&gt;博客沉寂了一段时间, 倒不是写的少, 而是工作起来之后, 很多输出涉及工作独创部分, 不便公开. 而且个人定位期间, 很多在&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-08T10:00:32+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-380.html">
 	<title>蠎周刊: Issue 380</title>
 	<link>http://weekly.pychina.org/issue/issue-380.html</link>
