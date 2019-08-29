@@ -23,6 +23,154 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>August 29, 2019</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://bambooom.github.io" title="Bambooom">bambooooooom</a></h3>
+
+
+<div class="entrygroup" id="http://bambooom.github.io/2019/08/29/read-folder-to-object-using-webpack/" lang="en-us">
+<h4><a href="http://bambooom.github.io/2019/08/29/read-folder-to-object-using-webpack/">read folder to object using webpack</a></h4>
+<div class="entry">
+<div class="content">
+<p>一个小需求, 把某一个文件夹中的所有文件在 Vue 组件里读为 string, 保持文件夹的层级顺序.
+根据同事提醒的方法, 稍微淆习了一下, 用 <a href="https://webpack.js.org/loaders/raw-loader/">raw-loader</a> 以及 <a href="https://webpack.js.org/guides/dependency-management/#requirecontext"><code class="highlighter-rouge">require.context</code></a></p>
+
+<p>假设有一个文件夹 <code class="highlighter-rouge">test</code> 里的层级是这个样子, 几个 txt 都是一些简单的文本:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>test
+|____t2
+| |____ee.txt
+| |____dd.txt
+|____t1
+| |____hehe.txt
+| |____other
+| | |____cc.txt
+| |____some
+| | |____aa.txt
+| | |____bb.txt
+</code></pre></div></div>
+
+<h2 id="配置-webpack">配置 webpack</h2>
+
+<p>将文件读入成 string, 不需要做其他操作, 使用 raw-loader 简单配置一下就好:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// webpack.config.js</span>
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">module</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">rules</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">txt$/i</span><span class="p">,</span>
+        <span class="na">use</span><span class="p">:</span> <span class="s1">'raw-loader'</span><span class="p">,</span>
+      <span class="p">},</span>
+    <span class="p">],</span>
+  <span class="p">},</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<h2 id="helper-function">helper function</h2>
+
+<p>在 <code class="highlighter-rouge">test</code> 文件夹相同层级加个 <code class="highlighter-rouge">index.js</code> 写个 helper 函数:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// index.js</span>
+
+<span class="kd">function</span> <span class="nx">readAll</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span> <span class="nx">cache</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">context</span><span class="p">.</span><span class="nx">keys</span><span class="p">().</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">key</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// key example: "./t1/other/cc.txt"</span>
+    <span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">key</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">'/'</span><span class="p">);</span> <span class="c1">// eg: [".", "t1", "other", "cc.txt"]</span>
+    <span class="kd">let</span> <span class="nx">index</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">sub</span> <span class="o">=</span> <span class="nx">cache</span><span class="p">;</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="nx">index</span> <span class="o">&lt;</span> <span class="nx">path</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="nx">f</span> <span class="o">=</span> <span class="nx">path</span><span class="p">[</span><span class="nx">index</span><span class="p">];</span> <span class="c1">// folder or file name</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">index</span> <span class="o">==</span> <span class="nx">path</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// last one is file name</span>
+        <span class="nx">sub</span><span class="p">[</span><span class="nx">f</span><span class="p">]</span> <span class="o">=</span> <span class="nx">context</span><span class="p">(</span><span class="nx">key</span><span class="p">).</span><span class="k">default</span><span class="p">;</span> <span class="c1">// get content of the file as string</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="nx">f</span> <span class="k">in</span> <span class="nx">sub</span><span class="p">))</span> <span class="p">{</span>
+          <span class="nx">sub</span><span class="p">[</span><span class="nx">f</span><span class="p">]</span> <span class="o">=</span> <span class="p">{};</span>
+        <span class="p">}</span>
+        <span class="nx">sub</span> <span class="o">=</span> <span class="nx">sub</span><span class="p">[</span><span class="nx">f</span><span class="p">];</span>
+      <span class="p">}</span>
+      <span class="nx">index</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">test</span> <span class="o">=</span> <span class="p">{};</span>
+<span class="nx">readAll</span><span class="p">(</span><span class="nx">require</span><span class="p">.</span><span class="nx">context</span><span class="p">(</span><span class="s1">'./test'</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">txt$/</span><span class="p">),</span> <span class="nx">test</span><span class="p">);</span>
+
+<span class="k">export</span> <span class="p">{</span><span class="nx">test</span><span class="p">};</span>
+
+<span class="c1">// console.log(test);</span>
+<span class="c1">// output:</span>
+<span class="c1">// {</span>
+<span class="c1">//   "t1": {</span>
+<span class="c1">//     "hehe.txt": "test hehe.txt\n\nhehehehehehehehe\n",</span>
+<span class="c1">//     "other": {</span>
+<span class="c1">//       "cc.txt": "test cc.txt\nhello cc\n"</span>
+<span class="c1">//     },</span>
+<span class="c1">//     "some": {</span>
+<span class="c1">//       "aa.txt": "test aa.txt\nhello aa\n",</span>
+<span class="c1">//       "bb.txt": "test bb.txt\nhello bb\n"</span>
+<span class="c1">//     }</span>
+<span class="c1">//   },</span>
+<span class="c1">//   "t2": {</span>
+<span class="c1">//     "dd.txt": "test dd.txt\nhello dd\n",</span>
+<span class="c1">//     "ee.txt": "test ee.txt\nhello world\n"</span>
+<span class="c1">//   }</span>
+<span class="c1">// }</span>
+</code></pre></div></div>
+
+<p>这样在其他 <code class="highlighter-rouge">.vue</code> 或者其他 <code class="highlighter-rouge">.js</code> 文件里都可以直接 <code class="highlighter-rouge">import</code> 即可得到与文件夹层级对应的 object, 以及文件对应的文件名和内容.
+<code class="highlighter-rouge">test</code> 中的文件夹或文本文件内容都可以自由更改.</p>
+
+<h2 id="简单说明">简单说明</h2>
+
+<p><code class="highlighter-rouge">require.context</code> 是 webpack 提供的一个功能, 简单来说就是在编译时让 webpack 动态地加载并 resolve 某些你需要的 modules.</p>
+
+<blockquote>
+  <p>require.context is a special feature supported by webpack’s compiler that allows you to get all matching modules starting from some base directory. The intention is to tell webpack at compile time to transform that expression into a dynamic list of all the possible matching module requests that it can resolve, in turn adding them as build dependencies and allowing you to require them at runtime.</p>
+</blockquote>
+
+<p>from <a href="https://stackoverflow.com/questions/54059179/what-is-require-context">webpack - What is `require.context` - Stack Overflow</a></p>
+
+<p>语法见文档:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">require</span><span class="p">.</span><span class="nx">context</span><span class="p">(</span><span class="nx">directory</span><span class="p">,</span> <span class="nx">useSubdirectories</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">regExp</span> <span class="o">=</span> <span class="sr">/^</span><span class="se">\.\/</span><span class="sr">/</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>这个函数返回的是 <code class="highlighter-rouge">context</code>, 它可以像 <code class="highlighter-rouge">require</code> 一样使用:</p>
+<ul>
+  <li><code class="highlighter-rouge">context.keys()</code>: 返回一个 array 包括了所有找到的符合 regex 的文件路径</li>
+  <li><code class="highlighter-rouge">context(key)</code>: like <code class="highlighter-rouge">require("path/to/file")</code>, 而又因为设置了 raw-loader, 所以它返回的是一个 <code class="highlighter-rouge">Module</code>, <code class="highlighter-rouge">Module.default</code> 就得到了文件本身的内容 as string.</li>
+</ul>
+
+<p>最后得到的 object 的结构, 可根据需求调整.</p></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://bambooom.github.io/2019/08/29/read-folder-to-object-using-webpack/">by bambooom (zhuzi.mn@gmail.com) at August 29, 2019 04:42 PM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>August 28, 2019</h2>
 
 <div class="channelgroup">
@@ -1138,7 +1286,7 @@ P3 各个版本又没太大区分,
 
 <p>
 <strong>Last updated:</strong><br>
-August 29, 2019 08:42 AM<br>
+August 29, 2019 04:42 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
