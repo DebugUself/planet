@@ -5,8 +5,450 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-09-11T00:42:13+00:00</updated>
+	<updated>2019-09-11T08:43:06+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Issue 385</title>
+		<link href="http://weekly.pychina.org/issue/issue-385.html"/>
+		<id>tag:weekly.pychina.org,2019-09-11:/issue/issue-385.html</id>
+		<updated>2019-09-11T03:42:00+00:00</updated>
+		<content type="html">&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/385&quot;&gt;PyCoder's Weekly - Issue #385&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;realpython&quot; src=&quot;https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2456/web&quot;&gt;Python 登顶 “IEEE Top Programming Languages of 2019” 排名&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;IEEE.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python’s growth in popularity has been incredible. This list is interesting because it allows you to adjust the weights for the various factors that determine the ranking.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;国内早已大吼了...&lt;/p&gt;
+&lt;p&gt;实在是其它语言, 对快速变化的混乱数据一直并没什么关注,
+反而一直在一线和各种混乱共处的 Python 长期积累出来一堆神器.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2481/web&quot;&gt;MATLAB vs Python: 为什么以及如何进行切换&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn about MATLAB vs Python, why you should switch from MATLAB to Python, the packages you’ll need to make a smooth transition, and the bumps you’ll most likely encounter along the way.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://ipic.zoomquiet.top/2019-09-11-ScreenShot%202019-09-11%2011.55.30.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;其实很友好咯...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2468/web&quot;&gt;我们的类型之旅: 检验4百万行 Python 代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;DROPBOX.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Dropbox has been one of the first companies to adopt Python static type checking at this scale. These days thousands of projects use mypy, and things are quite battle tested.” Related discussion on Hacker News.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Dropbox 实锤,为什么值得上类型系统...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2454/web&quot;&gt;跟踪自然语言处理的进展&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NLPPROGRESS.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2472/web&quot;&gt;Python &lt;em&gt;args 和 &lt;/em&gt;*kwargs : 揭秘&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step tutorial, you’ll learn how to use args and kwargs in Python to add more flexibility to your functions. You’ll also take a closer look at the single and double-asterisk unpacking operators, which you can use to unpack any iterable object in Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://ipic.zoomquiet.top/2019-09-11-ScreenShot%202019-09-11%2011.53.10.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;这个插画很传神...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2470/web&quot;&gt;落日背影 Python 2&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PSF notes about the end of support for Python 2.x. 
+&lt;a href=&quot;https://pycoders.com/link/2467/web&quot;&gt;Related discussion on Hacker News.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2482/web&quot;&gt;Django 3.0 Alpha 1 发布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;DJANGOPROJECT.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2459/web&quot;&gt;Changelog here.&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2457/web&quot;&gt;Python 是如何爬树的 ;-)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TWITTER.COM/KLATUBARADANIKO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2463/web&quot;&gt;f&quot;Bring Out Your {Dead}&quot; ;-)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;REDDIT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;今日最佳:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://ipic.zoomquiet.top/2019-09-11-RIP-Py2.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2469/web&quot;&gt;Python 中的绝对与相对导入&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’ve worked on a Python project that has more than one file, chances are you’ve had to use an import statement before. In this course, you’ll not only cover the pros and cons of absolute and relative imports but also learn about the best practices for writing import statements.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;import 在 Python 中是个迷宫, 
+XKCD 都嗯哼了好几次...
+&lt;a href=&quot;https://xkcd.com/1987/&quot;&gt;xkcd: Python Environment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;python_environment&quot; src=&quot;https://imgs.xkcd.com/comics/python_environment.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2465/web&quot;&gt;Django View Logging 是 Back-To-Front&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ANDY BULKA &lt;/li&gt;
+&lt;li&gt;• Shared by Andy Bulka&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Have you ever looked through your Django log files and console messages, felt something was out of order and didn’t make sense, but couldn’t quite put your finger on it? Let’s look at the log file…”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;简单说, admin 叕升级了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2442/web&quot;&gt;Python 示例展示 Async/Await 基础&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;LORIS CRO &lt;/li&gt;
+&lt;li&gt;• Shared by Loris Cro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Async/Await helps speeding up applications that do a lot of I/O, but sprinkling some keywords around the code won’t magically make everything faster, you need to do a bit more.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;XXX With Python Examples&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这也是人气非常高的系列嗯哼,&lt;/p&gt;
+&lt;p&gt;因为, 直接提供了可以立即使用的框架代码, 
+这比官方文档, 嗯哼半天不知道具体怎么用要来的直接...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2453/web&quot;&gt;测试 Mypy 的 Stubs, Plugins, and Types&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NIKITA SOBOLEV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“pytest-mypy-plugins is an absolute must for people who work a lot with types or Mypy plugins in Python. It simplifies the process of refactoring and distributing types.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2452/web&quot;&gt;Multiprocessing vs Threading in Python: 每个数据科学家需要了解的内容&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SUMIT GHOSH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn more about Python parallelization libraries (multiprocessing and threading) and understand which to use when for different data science problem sets.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;数据科学家需要明白的系统细节...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2477/web&quot;&gt;用 Python 通过 SecureDrop 保护举报者&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PODCAST.&lt;strong&gt;INIT&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An interview about the SecureDrop platform that enables whistleblowers to share information safely and anonymously, without fear of tracking or identification.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;等等, 之前的 Tor 呢?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2449/web&quot;&gt;用仓库徽章传达构建和测试信息&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;DUSTIN MENDOZA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use Python and the anybadge package to generate your own badges and covey project health and status in your online repositories.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;dashboard.webp (WEBP Image, 1000 × 431 pixels)&quot; src=&quot;https://tryexceptpass.org/images/conveying-info-with-repository-badges/dashboard.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;扫盲, github 中各种项目成熟度的自动嗯哼;&lt;/p&gt;
+&lt;p&gt;也是 github 生态中最受欢迎的周边&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2447/web&quot;&gt;如何对大数据计数: 概率数据结构和算法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ANDRII GAKHOV &lt;/li&gt;
+&lt;li&gt;• Shared by Andrii Gakhov&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How probabilistic data structures and algorithms can be used for cardinality estimation in Big Data streams.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这可是 Google 立命之本..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2476/web&quot;&gt;探索 PyGame: 运动和碰撞&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;HUMBERTO ROCHA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn how to move the objects on the screen and write you first collision detection with PyGame.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;当然, 现在有将 Scratch 结合的技术,
+所以, PyGame 可能...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2458/web&quot;&gt;Django 数据库迁移概述&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;DAMIAN HITES&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn how Django’s ORM manages Django database migrations.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;PyCon19China 大会中, 有对应主题分享, 
+推荐参与讨论&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2446/web&quot;&gt;PEG 解析器的元语法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GUIDO VAN ROSSUM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Part 7 of Guido’s series on PEG parsers.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;感觉老爹是想挑战 google 老同事们, 
+将 Python 提升到 Golang 之上...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/jAUDpw2tq27beOBMxFfWeA&quot;&gt;Python 之父的解析器系列之五：左递归 PEG 语法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;已有同步翻译...良心系列...不明觉厉&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2478/web&quot;&gt;60+ Pandas 技巧和片段&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;KEVIN MARKHAM &lt;/li&gt;
+&lt;li&gt;• Shared by Kevin Markham&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;今天 Panda 大爆炸, 一堆相关推荐....
+看来无论什么 AI , 都要 Panda 来帮忙完成数据清洗...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2443/web&quot;&gt;如何用 Docker 将 Django 项目部署到 Heroku&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;MICHAEL YIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;4366781.original.jpg (JPEG Image, 395 × 395 pixels)&quot; src=&quot;https://www.accordbox.com/upload/images/4366781.original.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;作者...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2448/web&quot;&gt;Python 中的3D地形建模&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GEODOSE.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2474/web&quot;&gt;如何在 Pandas 中移动一列&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VINAY BABU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;所以说: &quot;Excel 中每一个功能, 都值得变成一个创业项目&quot;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2445/web&quot;&gt;如何使用 Pandas 在 Python 中读写 SPSS 文件&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ERIK MARSJA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2450/web&quot;&gt;应该知道的 Python 专家主题&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LIBRENEITOR.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2480/web&quot;&gt;awesome-flask: Flask 相关内容精选列表&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/MJHEA0 &lt;/li&gt;
+&lt;li&gt;• Shared by Michael Herman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2466/web&quot;&gt;numpy-ml: 机器学习，在 NumPy&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/DDBOURGIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;大集锦, 将各种库的 AI 模型都用 ipynb 整理了出来:&lt;/p&gt;
+&lt;p&gt;(TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines. &lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2471/web&quot;&gt;data-science-ipython-notebooks: 适用于各种场景的数据科学 ipynb 集锦&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/DONNEMARTIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2451/web&quot;&gt;tiler: 用图像构建图像&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/NUNO-FARIA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;github_logo_at&quot; src=&quot;https://github.com/nuno-faria/tiler/raw/master/images/github_logo_at.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;进一步的风格合成...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2479/web&quot;&gt;methodfinder: 找到一个你可能已经知道的方法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/BILLSIX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼? 模糊搜索?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2444/web&quot;&gt;Pytranslate: Maxima to Python Translator&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/LAKSHYAAAGRAWAL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2464/web&quot;&gt;tauthon: Python2.7 的分支, 使用从Python 3 反向移植的新语法/内置函数和库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/NAFTALIHARRIS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这才是社区真汉子&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2455/web&quot;&gt;Open3D: 一个用于3D数据处理的现代图书馆&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;OPEN3D.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2441/web&quot;&gt;⋅ Python Atlanta Meetup&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 12, 2019&lt;/li&gt;
+&lt;li&gt;USA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2432/web&quot;&gt;⋅ Python Miami&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 14 to September 15, 2019&lt;/li&gt;
+&lt;li&gt;USA &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2440/web&quot;&gt;⋅ AfroPython&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 14 to September 15, 2019&lt;/li&gt;
+&lt;li&gt;非洲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2438/web&quot;&gt;⋅ PyDelhi User Group Meetup&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 14, 2019&lt;/li&gt;
+&lt;li&gt;印度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2436/web&quot;&gt;⋅ PyCon TW 2019&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 20 to September 23, 2019&lt;/li&gt;
+&lt;li&gt;台湾省&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;第3期&lt;/li&gt;
+&lt;li&gt;101camp3py&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第3期已经上线, 为期6周&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;190919&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;190922&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;191103&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.tfug.world/2019-09/et-tf-all-around-summary/&quot;&gt;首次 TensorFlow All Around 小结 . TFUG Livin ZhuHai Life;-)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TFUG 珠海&lt;/li&gt;
+&lt;li&gt;极简汇率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;没想到触发出一个 &lt;code&gt;DoIs&lt;/code&gt; ~ 真正实用的 AI 落地方向:
+辅助识别野外白海豚...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;190911 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;190911 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 3767&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+		<author>
+			<name>Zoom.Quiet</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2019-09-11T08:42:47+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 384</title>
@@ -29,7 +471,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in Python has a lot of built-in capabilities and is becoming increasingly popular for processing and analyzing data in NLP.&lt;/p&gt;
+&lt;p&gt;In this step-by-step tutorial, you'll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in Python has a lot of built-in capabilities and is becoming increasingly popular for processing and analyzing data in NLP.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://res.pychina.up.zoomquiet.top/2019-09-05-ScreenShot%202019-09-05%2011.25.31.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;没听说过哪...嗯哼, 不支持中文...&lt;/p&gt;
@@ -41,7 +483,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“In this research, we provide a comprehensive empirical summary of the Python Package Repository, PyPI, including both package metadata and source code covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156,816,750 import statements.”&lt;/p&gt;
+&lt;p&gt;&quot;In this research, we provide a comprehensive empirical summary of the Python Package Repository, PyPI, including both package metadata and source code covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156,816,750 import statements.&quot;&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;叕一则老 FM 节目...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
@@ -52,7 +494,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“So in conclusion, Python may not be a Gopher Snake but for this task it does rather eat Go for breakfast.”&lt;/p&gt;
+&lt;p&gt;&quot;So in conclusion, Python may not be a Gopher Snake but for this task it does rather eat Go for breakfast.&quot;&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;扎心了老铁...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
@@ -62,7 +504,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Part 6 of Guido’s series on PEG parsers.&lt;/p&gt;
+&lt;p&gt;Part 6 of Guido's series on PEG parsers.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;老爹公开发话系列...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
@@ -87,7 +529,7 @@
 &lt;p&gt;玄学...
 )&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2405/web&quot;&gt;“当Python 2.7在年底到期时，有些人想举办派对…”&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2405/web&quot;&gt;&quot;当Python 2.7在年底到期时,有些人想举办派对... &quot;&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;RAYMOND HETTINGER&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -106,14 +548,14 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cover the important characteristics of lists and tuples in Python 3. You’ll learn how to define them and how to manipulate them. When you’re finished, you’ll have a good feel for when and how to use these data structures in a Python program.&lt;/p&gt;
+&lt;p&gt;Cover the important characteristics of lists and tuples in Python 3. You'll learn how to define them and how to manipulate them. When you're finished, you'll have a good feel for when and how to use these data structures in a Python program.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2418/web&quot;&gt;NLP 和 Python: 用 Facebook FastText 库&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;USMAN MALIK&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“In this article, we are going to study FastText which is another extremely useful module for word embedding and text classification. FastText has been developed by Facebook and has shown excellent results on many NLP problems, such as semantic similarity detection and text classification.”&lt;/p&gt;
+&lt;p&gt;&quot;In this article, we are going to study FastText which is another extremely useful module for word embedding and text classification. FastText has been developed by Facebook and has shown excellent results on many NLP problems, such as semantic similarity detection and text classification.&quot;&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;NLP 原先是 IBM 几十年积累来的高...
 现在 Fb 几年产生的语料就完全碾压了&lt;/p&gt;
@@ -124,7 +566,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;SAT is often described as the “mother of all NP-complete problems.” This post goes over what SAT is and why it is considered to be so important. A simple SAT solver is implemented using Python in the process.&lt;/p&gt;
+&lt;p&gt;SAT is often described as the &quot;mother of all NP-complete problems.&quot; This post goes over what SAT is and why it is considered to be so important. A simple SAT solver is implemented using Python in the process.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;SAT -&amp;gt; 母题...没毛病&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
@@ -135,7 +577,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“Pandas recently contucted a user survey to help guide future development. Thanks to everyone who participated! This post presents the high-level results.”&lt;/p&gt;
+&lt;p&gt;&quot;Pandas recently contucted a user survey to help guide future development. Thanks to everyone who participated! This post presents the high-level results.&quot;&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://dev.pandas.io/pandas-blog/images/2019_files/2019_13_0.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;这个比较有趣了...可以说, conda 公司找到了一个专有市场.&lt;/p&gt;
@@ -414,579 +856,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-09-05T08:42:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="en-us">
-		<title type="html">read folder to object using webpack</title>
-		<link href="http://bambooom.github.io/2019/08/29/read-folder-to-object-using-webpack/"/>
-		<id>http://bambooom.github.io/2019/08/29/read-folder-to-object-using-webpack/</id>
-		<updated>2019-08-29T16:42:19+00:00</updated>
-		<content type="html">&lt;p&gt;一个小需求, 把某一个文件夹中的所有文件在 Vue 组件里读为 string, 保持文件夹的层级顺序.
-根据同事提醒的方法, 稍微淆习了一下, 用 &lt;a href=&quot;https://webpack.js.org/loaders/raw-loader/&quot;&gt;raw-loader&lt;/a&gt; 以及 &lt;a href=&quot;https://webpack.js.org/guides/dependency-management/#requirecontext&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;require.context&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;假设有一个文件夹 &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; 里的层级是这个样子, 几个 txt 都是一些简单的文本:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;test
-|____t2
-| |____ee.txt
-| |____dd.txt
-|____t1
-| |____hehe.txt
-| |____other
-| | |____cc.txt
-| |____some
-| | |____aa.txt
-| | |____bb.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;配置-webpack&quot;&gt;配置 webpack&lt;/h2&gt;
-
-&lt;p&gt;将文件读入成 string, 不需要做其他操作, 使用 raw-loader 简单配置一下就好:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// webpack.config.js&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\.&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;txt$/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'raw-loader'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;helper-function&quot;&gt;helper function&lt;/h2&gt;
-
-&lt;p&gt;在 &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; 文件夹相同层级加个 &lt;code class=&quot;highlighter-rouge&quot;&gt;index.js&lt;/code&gt; 写个 helper 函数:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// index.js&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;readAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cache&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// key example: &quot;./t1/other/cc.txt&quot;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// eg: [&quot;.&quot;, &quot;t1&quot;, &quot;other&quot;, &quot;cc.txt&quot;]&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cache&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// folder or file name&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// last one is file name&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// get content of the file as string&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-          &lt;span class=&quot;nx&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;readAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'./test'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\.&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;txt$/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// console.log(test);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// output:&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// {&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//   &quot;t1&quot;: {&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     &quot;hehe.txt&quot;: &quot;test hehe.txt\n\nhehehehehehehehe\n&quot;,&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     &quot;other&quot;: {&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//       &quot;cc.txt&quot;: &quot;test cc.txt\nhello cc\n&quot;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     },&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     &quot;some&quot;: {&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//       &quot;aa.txt&quot;: &quot;test aa.txt\nhello aa\n&quot;,&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//       &quot;bb.txt&quot;: &quot;test bb.txt\nhello bb\n&quot;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     }&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//   },&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//   &quot;t2&quot;: {&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     &quot;dd.txt&quot;: &quot;test dd.txt\nhello dd\n&quot;,&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//     &quot;ee.txt&quot;: &quot;test ee.txt\nhello world\n&quot;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//   }&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// }&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这样在其他 &lt;code class=&quot;highlighter-rouge&quot;&gt;.vue&lt;/code&gt; 或者其他 &lt;code class=&quot;highlighter-rouge&quot;&gt;.js&lt;/code&gt; 文件里都可以直接 &lt;code class=&quot;highlighter-rouge&quot;&gt;import&lt;/code&gt; 即可得到与文件夹层级对应的 object, 以及文件对应的文件名和内容.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; 中的文件夹或文本文件内容都可以自由更改.&lt;/p&gt;
-
-&lt;h2 id=&quot;简单说明&quot;&gt;简单说明&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;require.context&lt;/code&gt; 是 webpack 提供的一个功能, 简单来说就是在编译时让 webpack 动态地加载并 resolve 某些你需要的 modules.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;require.context is a special feature supported by webpack’s compiler that allows you to get all matching modules starting from some base directory. The intention is to tell webpack at compile time to transform that expression into a dynamic list of all the possible matching module requests that it can resolve, in turn adding them as build dependencies and allowing you to require them at runtime.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://stackoverflow.com/questions/54059179/what-is-require-context&quot;&gt;webpack - What is `require.context` - Stack Overflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;语法见文档:&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useSubdirectories&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;regExp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\.\/&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这个函数返回的是 &lt;code class=&quot;highlighter-rouge&quot;&gt;context&lt;/code&gt;, 它可以像 &lt;code class=&quot;highlighter-rouge&quot;&gt;require&lt;/code&gt; 一样使用:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;context.keys()&lt;/code&gt;: 返回一个 array 包括了所有找到的符合 regex 的文件路径&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;context(key)&lt;/code&gt;: like &lt;code class=&quot;highlighter-rouge&quot;&gt;require(&quot;path/to/file&quot;)&lt;/code&gt;, 而又因为设置了 raw-loader, 所以它返回的是一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;Module&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Module.default&lt;/code&gt; 就得到了文件本身的内容 as string.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最后得到的 object 的结构, 可根据需求调整.&lt;/p&gt;</content>
-		<author>
-			<name>bambooom</name>
-			<email>zhuzi.mn@gmail.com</email>
-			<uri>http://bambooom.github.io</uri>
-		</author>
-		<source>
-			<title type="html">Bambooom</title>
-			<subtitle type="html">Personal Blog of Bambooom</subtitle>
-			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
-			<id>https://bambooom.github.io/feed.xml</id>
-			<updated>2019-08-29T16:42:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Issue 383</title>
-		<link href="http://weekly.pychina.org/issue/issue-383.html"/>
-		<id>tag:weekly.pychina.org,2019-08-28:/issue/issue-383.html</id>
-		<updated>2019-08-28T03:42:00+00:00</updated>
-		<content type="html">&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/383&quot;&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;realpython&quot; src=&quot;https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2341/web&quot;&gt;您的 CPython 源代码指南&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this detailed Python tutorial, you’ll explore the CPython source code. By following this step-by-step walkthrough, you’ll take a deep dive into how the CPython compiler works and how your Python code gets executed.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;大图...&quot; src=&quot;https://files.realpython.com/media/Screen_Shot_2019-03-12_at_2.31.16_pm.f36c3e99b8b4.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;结合多年前的源代码鉴赏就知道,
-源代码, 想看一定能看懂, 
-就好比, 建筑师通过复杂计算/设计/思考/施工, 完成的建筑,
-虽然无法简单的透视一切,
-但是, 依然可以通过各种行为, 快速理解真正的设计点是什么...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2346/web&quot;&gt;函式重构为多个退出点&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MARTIJN FAASSEN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“It’s sometimes claimed that not only should a function have a single entry point, but that it should also have a single exit. One could argue such from sense of mathematical purity. But unless you work in a programming language that combines mathematical purity with convenience […] that point seems moot to me.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;良心经验,
-多退出点,
-也是俺写代码时, 经常干的事儿,
-但是, 从没完备思考过, 为什么, 以及有什么问题和好处...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2345/web&quot;&gt;Python 3 自动更新&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PY3READINESS.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is an automated Python 3 support table for the most popular packages. 360 out of the 360 most downloaded packages on PyPI now support Python 3.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;不是俺敏感哪, 这批包和 360 真的没什么关联嘛?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2366/web&quot;&gt;到时候摆脱 Python 2&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NCSC.GOV.UK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Don’t constrict yourself, Python 2 slithers off into the sunset in 2020.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;放心, 有的场景中, Python 1.* 都在用呢&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2358/web&quot;&gt;Onelinerizer: 将Python 代码重写为单行程序&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ONELINERIZER.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Fun!&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;说是任何程序哈...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2364/web&quot;&gt;你自动化的最重要的事情是什么?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REDDIT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;除了自动赚钱, 其它真心不值得自豪吧?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2356/web&quot;&gt;为什么 Python 没有在浏览器中击败 JavaScript?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REDDIT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;讨论一点也不激烈...&lt;/p&gt;
-&lt;p&gt;想想也是, 如果 Python 基金会认同这点的话,
-早就去开发自己的浏览器了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2360/web&quot;&gt;如何用 Python Lambda 函式&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn about Python lambda functions and see how they compare with regular functions and how you can use them in accordance with best practices.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;其实, 最好是别用&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2354/web&quot;&gt;Starlette ~ 又快又脏的模拟服务&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MATT LAYMAN &lt;/li&gt;
-&lt;li&gt;• Shared by Matt Layman&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Have you ever needed to mock out a third party service for use in a large testing environment? I recently did, and I used Starlette, a new async Python web framework, to do it. See what Starlette offers!”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2342/web&quot;&gt;用 Python 实现可视化 insider trading&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JAN L. SCHROEDER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“We use Python to visualize insider trading as reporting in SEC Form 4 filings. Our goal is find patterns to create signals for buy/sell decisions and general risk monitoring of investment portfolios.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2353/web&quot;&gt;用 openpyxl 在 Python 中编辑 Excel 电子表格&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to handle spreadsheets in Python using the openpyxl package. You’ll see how to manipulate Excel spreadsheets, extract information from spreadsheets, create simple or more complex spreadsheets, including adding styles, charts, and so on.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;openpyxl&quot; src=&quot;https://ipic.zoomquiet.top/2019-08-28-ScreenShot%202019-08-28%2015.32.01.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;被迫用 Excel 的人都是折翼天使...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2361/web&quot;&gt;用 Python 的 SMOTE 处理不平衡的数据集&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JUAN DE DIOS SANTOS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Use SMOTE and the Python package, imbalanced-learn, to bring harmony to an imbalanced dataset.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2348/web&quot;&gt;使用VP-Trees和OpenCV构建图像哈希搜索引擎&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ADRIAN ROSEBROCK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to build a scalable image hashing search engine using OpenCV, Python, and VP-Trees.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2365/web&quot;&gt;Gunicorn WSGI 服务如何工作?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REBECA SARAI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;An overview of how the Gunicorn WSGI HTTP server works internally.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Gunicorn 实在是 WSGI 首选服务容器&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2370/web&quot;&gt;左递归 PEG 语法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GUIDO VAN ROSSUM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Part 5 of Guido’s series on PEG parsers.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2347/web&quot;&gt;用 Docker 和 GitLab 对 Django 应用通过持续部署到 DigitalOcean&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MICHAEL HERMAN &lt;/li&gt;
-&lt;li&gt;• Shared by Michael Herman&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;感觉首次见 gitlab 的软文...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2371/web&quot;&gt;面向数据的机器学习入门算法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NATHAN PICCINI &lt;/li&gt;
-&lt;li&gt;• Shared by Blair Heckel&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;等等, 数据科学不包含 ML 的?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2344/web&quot;&gt;用 Python 进行 Alpha-Beta 修剪的 Minimax&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MINA KRIVOKUĆA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2343/web&quot;&gt;类型检查 Django 和 DRF&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;NIKITA SOBOLEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;除了情怀还能说什么?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2363/web&quot;&gt;rapidtables: 控制台的快速表格渲染&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/ALTTCH&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;专注将字典对象, 变成表格
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2369/web&quot;&gt;aiomixcloud: 适用于 Python 和 Async IO 的 Mixcloud API 包装器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/AMIKROP • Shared by Aristotelis Mikropoulos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;刚需, 混合云, 不如说 AWS 最小功能集,
-为无缝迁移到其它云提前准备.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2350/web&quot;&gt;drf-pretty-update: Django REST框架（DRF）可写嵌套字段&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/YEZYILOMO &lt;/li&gt;
-&lt;li&gt;• Shared by Yezileli Ilomo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕是嵌套字段...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2362/web&quot;&gt;vermin: 检测运行代码所需的最小 Python 版本&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/NETROMDK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Why not 类型工具,
-反正, Py2 是不应该判定出来的,
-P3 各个版本又没太大区分,
-其它 PyPy/Cython 之类又没可以判定标准...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2367/web&quot;&gt;cloud-detect: 猜测主机的云提供商&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/DGZLOPES&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;云太多了, 以至可以自动判别了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2374/web&quot;&gt;supersqlite: 用于Python的Supercharged SQLite库&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/PLASTICITYAI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;高速将字典变成 md/rst 等等结构化文本中的表格&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2372/web&quot;&gt;darglint: 检查 Docstring 描述是否与定义匹配的 Linter&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/TERRENCEPREILLY&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;良心之作 -&amp;gt; 自动检验文档字串中的声明和实际代码是否对等.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2351/web&quot;&gt;portray: Python 实现无配置文档网络生成器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TIMOTHYCROSLEY.GITHUB.IO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个 SSG, 并不真的无配置, 而且 theme 也不多...&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;example&quot; src=&quot;https://raw.githubusercontent.com/timothycrosley/portray/master/art/example.gif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/readevalprint/mini-django&quot;&gt;readevalprint/mini-django: 单文件 Django 项目&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/READEVALPRINT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;GCP only,
-只是将 所有依赖的封装在 Docker 中,
-暴露出一个控制注册脚本而已,&lt;/p&gt;
-&lt;p&gt;但是, 创意不错.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2349/web&quot;&gt;TypedDjango: Type-Checking Stubs for Django&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;立志义务为 Django 框架追加类型检查能力的组织....&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2336/web&quot;&gt;⋅ PyCon Latam 2019&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;August 29 to September 1, 2019&lt;/li&gt;
-&lt;li&gt;墨西歌&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2339/web&quot;&gt;⋅ EuroSciPy 2019&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;September 2 to September 7, 2019&lt;/li&gt;
-&lt;li&gt;Bilbao, &lt;/li&gt;
-&lt;li&gt;Spain&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2340/web&quot;&gt;⋅ Melbourne Python Users Group, Australia&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Australia &lt;/li&gt;
-&lt;li&gt;September 2, 2019&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2337/web&quot;&gt;⋅ Dominican Republic Python User Group&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;September 3, 2019&lt;/li&gt;
-&lt;li&gt;非洲&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2338/web&quot;&gt;⋅ Heidelberg Python Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;September 4, 2019&lt;/li&gt;
-&lt;li&gt;德国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;第3期&lt;/li&gt;
-&lt;li&gt;101camp3py&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;第3期已经上线, 为期6周, 190918 报名截止&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/TensorFlow-User-Group-Zhuhai/events/264053619/&quot;&gt;TensorFlow All-Around 珠海 | Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TFUG 珠海&lt;/li&gt;
-&lt;li&gt;极简汇率&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://realpython.com/what-can-i-do-with-python/&quot;&gt;What Can I Do With Python? – Real Python&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;FAQ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Do With Py&quot; src=&quot;https://ipic.zoomquiet.top/2019-05-25-ScreenShot%202019-05-25%2010.27.25.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;总是永远有人问这个问题...
-当然, 这个问题任何一个技术社区都有人在问...&lt;/p&gt;
-&lt;p&gt;其实, 本质上并不是对应技术是否有什么能力,
-而是相反...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h3&gt;Jobs:&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;必须 Pythonic 相关&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;...&lt;/p&gt;
-&lt;h1&gt;是也乎&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;190828 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;190828 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 3753&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-		<author>
-			<name>Zoom.Quiet</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2019-09-05T08:42:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="en-us">
-		<title type="html">🧙🏻‍‍ 成为了魔法师</title>
-		<link href="http://bambooom.github.io/2019/08/25/bday/"/>
-		<id>http://bambooom.github.io/2019/08/25/bday/</id>
-		<updated>2019-08-25T23:42:31+00:00</updated>
-		<content type="html">&lt;p&gt;一不小心成为了魔法师……&lt;/p&gt;
-
-&lt;p&gt;但什么也没发生, 什么都做不到.&lt;/p&gt;
-
-&lt;p&gt;不过还有朋友对我说「买了🍰等你, 你不来我们就自己吃掉了哦~」已经很知足了 🥰&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://bambooom.github.io/assets/images/190825bday1.jpg&quot; alt=&quot;b-day&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;⤵️基佬紫蜡烛长得出奇哈哈哈哈哈哈!
-&lt;img src=&quot;https://bambooom.github.io/assets/images/190825bday2.jpg&quot; alt=&quot;b-day&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;以及 bilibili 的开屏贺图还是挺好看der~
-&lt;img src=&quot;https://bambooom.github.io/assets/images/190825bday3.png&quot; alt=&quot;b-day&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And 土鳖第一次知道任天堂会送生日🎁 虽然只是壁纸, 银币以及 7 日 online 体验券
-&lt;img src=&quot;https://bambooom.github.io/assets/images/190825bday4.png&quot; alt=&quot;b-day&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;🖖🏻&lt;/p&gt;</content>
-		<author>
-			<name>bambooom</name>
-			<email>zhuzi.mn@gmail.com</email>
-			<uri>http://bambooom.github.io</uri>
-		</author>
-		<source>
-			<title type="html">Bambooom</title>
-			<subtitle type="html">Personal Blog of Bambooom</subtitle>
-			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
-			<id>https://bambooom.github.io/feed.xml</id>
-			<updated>2019-08-29T16:42:19+00:00</updated>
+			<updated>2019-09-11T08:42:47+00:00</updated>
 		</source>
 	</entry>
 
