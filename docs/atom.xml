@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-09-12T00:42:14+00:00</updated>
+	<updated>2019-09-12T08:43:06+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -238,6 +238,7 @@ XKCD 都嗯哼了好几次...
 将 Python 提升到 Golang 之上...&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/jAUDpw2tq27beOBMxFfWeA&quot;&gt;Python 之父的解析器系列之五：左递归 PEG 语法&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;已有同步翻译...良心系列...不明觉厉&lt;/p&gt;
+&lt;p&gt;翻译项目在 -&amp;gt; &lt;a href=&quot;https://github.com/chinesehuazhou/guido_blog_translation&quot;&gt;chinesehuazhou/guido_blog_translation: 翻译 Guido 的解析器系列文章&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2478/web&quot;&gt;60+ Pandas 技巧和片段&lt;/a&gt;&lt;ul&gt;
@@ -450,7 +451,7 @@ XKCD 都嗯哼了好几次...
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-09-11T16:44:37+00:00</updated>
+			<updated>2019-09-12T08:42:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -860,7 +861,7 @@ XKCD 都嗯哼了好几次...
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-09-11T16:44:37+00:00</updated>
+			<updated>2019-09-12T08:42:46+00:00</updated>
 		</source>
 	</entry>
 
