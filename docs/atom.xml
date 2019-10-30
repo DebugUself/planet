@@ -5,8 +5,336 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-10-30T00:42:32+00:00</updated>
+	<updated>2019-10-30T08:43:46+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Issue 392</title>
+		<link href="http://weekly.pychina.org/issue/issue-392.html"/>
+		<id>tag:weekly.pychina.org,2019-10-30:/issue/issue-392.html</id>
+		<updated>2019-10-30T03:42:00+00:00</updated>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;可期仙器 -&amp;gt;removestar -&amp;gt;自动替换*导入为显式导入&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/392&quot;&gt;PyCoder's Weekly - Issue #392&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;191030 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;191030 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2771/web&quot;&gt;Black 19.10b0 发布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/PSF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ve been using Black to automatically format most of my Python code since it came out last year, and it’s been an incredibly helpful tool. Stable release coming soon. More about how to use Black here.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;不妥协的...何时 VSCode 们, 内置了 Black 才算得果位哪.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2768/web&quot;&gt;Python 和 PyQt: 构建GUI桌面计算器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step tutorial, you’ll learn how to create Graphical User Interface (GUI) applications with Python and PyQt. Once you’ve covered the basics, you’ll build a fully-functional desktop calculator that can respond to user events with concrete actions.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyQt&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2019-10-30-ScreenShot%202019-10-30%2010.33.05.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;真正上手就会发现, QtDesigner 生成的代码不如手工写的...&lt;/p&gt;
+&lt;p&gt;以及, 问题在 GUI 软件现在基本都向 WAP 转化了...
+Electorn 面前, 以及 Flutter 的目标, 都是没 Qt 什么事儿的哪...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2781/web&quot;&gt;Python 3.8 中 System V式 共享内存性能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;VENKATESH-PRASAD RANGANATH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“To evaluate the performance gains from shared memory, I ran the following simple test—create a list of integers and double each integer in the list in parallel by chunking the list and processing each chunk in parallel.” Surprising results!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2779/web&quot;&gt;何时切换为 Python 3.8&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHONSPEED.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A quick rundown of the problems you might encounter when switching major Python versions.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;迁移不是问题, 问题是不兼容...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2765/web&quot;&gt;考虑使用 memoryview 和 bytearray 进行有字节零复制交互&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BRETT SLATKIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2767/web&quot;&gt;用 Python 处理 TTF 字体文件&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;READEVALPRINT.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;NIL&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2780/web&quot;&gt;Python 类型检查入门&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Write better code with this step-by-step intro to Python type checking. Traditionally, types have been handled by the Python interpreter in a flexible but implicit way. Recent versions of Python allow you to specify explicit type hints that can be used by different tools to help you develop your code more efficiently.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Type chk&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2019-10-30-ScreenShot%202019-10-30%2010.29.56.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;可以说诚意了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2766/web&quot;&gt;用 TensorFlow 2.0 创建 Keras 模型的3种姿势&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ADRIAN ROSEBROCK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Keras and TensorFlow 2.0 provide you with three methods to implement your own neural network architectures:, Sequential API, Functional API, and Model subclassing. Inside of this tutorial you’ll learn how to utilize each of these methods, including how to choose the right API for the job.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2749/web&quot;&gt;直接在 Git工作流 中进行自动 Python 代码评论&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CODACY&lt;/li&gt;
+&lt;li&gt;sponsor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Codacy lets developers spend more time shipping code and less time fixing it. Set custom standards and automatically track quality measures like coverage, duplication, complexity and errors. Integrates with GitHub, GitLab and Bitbucket, and works with 28 different languages. Get started today for free →&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这个广告吃的舒心...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2772/web&quot;&gt;Python 社区专访 Al Sweigart&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Al Sweigart is an accomplished developer, conference speaker, teacher, and origamist. But some may know him best for his numerous Python programming books, such as Automate the Boring Stuff with Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Interview&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2019-10-30-ScreenShot%202019-10-30%2010.27.24.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;采访...经常不爆料..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2770/web&quot;&gt;调试 TensorFlow 覆盖率&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NED BATCHELDER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“It started with a coverage.py issue: Coverage not working for TensorFlow Model call function. A line in the code is executing, but coverage.py marks it as unexecuted. How could that be?”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;有点儿象发动小说中人物来检查场景卫生一般...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2769/web&quot;&gt;用 Pandas 清理货币数据&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CHRIS MOFFITT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tips on how to clean up messy currency data in Pandas so that you may convert the data to numeric formats for further analysis.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;数据清洗用 Pandas 本身, 有点累的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2757/web&quot;&gt;用以科学可视化的 Python &amp;amp; OpenGL&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NICOLAS P. ROUGIER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An open-source book about Python and OpenGL for Scientific Visualization.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;开源图书, 完备阐述 GL 进行数据可视化时, Python 的嗯哼...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2758/web&quot;&gt;用 Postgres,Gunicorn 和 Nginx 对 Flask 进行 Docker化&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;MICHAEL HERMAN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Dockerizing -&amp;gt; Docker 化? 这个化字真的好用...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2759/web&quot;&gt;可以做的怪事儿，但最好嫑在 Python 里搞&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;WILL CIPRIANO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;python_int_cache&quot; src=&quot;https://thoughts.willcipriano.com/content/images/2019/10/python_int_cache-1.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;这个演示动画非常有爱了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2776/web&quot;&gt;Napari: Python 的快速 N维图像 查看器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ILOVESYMPOSIA.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2761/web&quot;&gt;用 Python 为 Linux 创建 Keylogger&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DOTWEAK.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2777/web&quot;&gt;Obfuscating Python 代码&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/SHAKNA-ISRAEL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;混淆器...有一定作用, 但是和 golang 们编译出来的二进制发行包相比...聊胜于无了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/2775/web&quot;&gt;removestar: 自动替换*导入为显式导入&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ASMEURER.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这可是救命般的好工具...
+只是...这得分析每行代码, 找到任性引用的变量并合理完成针对性声明?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2762/web&quot;&gt;safe-assert: 安全且可组合的断言&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/SOBOLEVN &lt;/li&gt;
+&lt;li&gt;• Shared by Nikita Sobolev&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2778/web&quot;&gt;pydantic: 用 Python 类型提示进行数据解析和验证&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/SAMUELCOLVIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2763/web&quot;&gt;pythonfuzz: 适用于 Python 的模糊覆盖测试&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/FUZZITDEV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;fuzz 测试, 很久没见相关工具出没了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2760/web&quot;&gt;pygeos: 在 NumPy ufuncs 中包装 GEOS 几何函数&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/PYGEOS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2764/web&quot;&gt;ipynb-quicklook: 适用于 Jupyter/IPython notebook 的 macOS QuickLook 生成器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/TUXU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2751/web&quot;&gt;⋅ PyCon Sweden 2019&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;October 31 to November 2, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2752/web&quot;&gt;⋅ PyCon France 2019&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;October 31 to November 4, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2754/web&quot;&gt;⋅ PiterPy 2019&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November 1 to November 2, 2019&lt;/li&gt;
+&lt;li&gt;俄国&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2755/web&quot;&gt;⋅ Django Girls Groningen&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November 2 to November 3, 2019&lt;/li&gt;
+&lt;li&gt;荷兰&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/2756/web&quot;&gt;⋅ PyCon Canada 2019&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November 16 to November 19, 2019 &lt;/li&gt;
+&lt;li&gt;in Toronto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;怪不得一直感觉 C 国亲切呢...年会也非常中国时段...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;第3期&lt;/li&gt;
+&lt;li&gt;101camp3py&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第3期已开课, 为期6周;
+&lt;strong&gt;191103&lt;/strong&gt; 按时结束, 
+届时启动 4py ;-)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kaiyuanshe.cn/activity/summit/coscon-2019/&quot;&gt;2019 中国开源年会（COSCon'19）&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;教育分场&lt;/li&gt;
+&lt;li&gt;大妈有约&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 3816&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-392.html&quot;&gt;Issue 392 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-392.md&quot;&gt;issue-392.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2019-10-30T08:42:49+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 420</title>
@@ -226,7 +554,7 @@ PyCon 2020 又要来啦！卑微的我2019的都还没参加（PS：国内的慢
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-10-29T16:42:51+00:00</updated>
+			<updated>2019-10-30T08:42:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -504,13 +832,13 @@ PyCon 2020 又要来啦！卑微的我2019的都还没参加（PS：国内的慢
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;google 出品,果断大气,
 一上来就支持一堆语言:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Dart&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Java&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;JavaScript&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Lua&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Objective&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;C&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Objective&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -609,7 +937,7 @@ PyCon 2020 又要来啦！卑微的我2019的都还没参加（PS：国内的慢
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-10-29T16:42:51+00:00</updated>
+			<updated>2019-10-30T08:42:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -844,7 +1172,7 @@ PyCon 2020 又要来啦！卑微的我2019的都还没参加（PS：国内的慢
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2019-10-29T16:42:51+00:00</updated>
+			<updated>2019-10-30T08:42:49+00:00</updated>
 		</source>
 	</entry>
 
