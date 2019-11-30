@@ -8,6 +8,43 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bambooooooom: 巴别塔</title>
+	<guid>http://bambooom.github.io/2019/11/30/tower-of-babel/</guid>
+	<link>http://bambooom.github.io/2019/11/30/tower-of-babel/</link>
+	<description>&lt;h2 id=&quot;起因&quot;&gt;起因&lt;/h2&gt;
+
+&lt;p&gt;https://www.douban.com/people/rainbowmimi/status/2711261768/&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bambooom.github.io/assets/images/babel-tower-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;初衷&quot;&gt;初衷&lt;/h2&gt;
+
+&lt;p&gt;猪头小队长这个友邻是豆瓣的工程师或者 PM，我在参与内测发现 bug 的时候，他和我主动联系解决了问题。
+另外，我关注了他的这段时间，我个人看法他本人就是普通的豆瓣用户，说话也没有任何让人不舒服的地方。
+之前笔记功能出现特别好笑的随机图片 bug 的时候，他还会去主动回复告知 “bug 修好啦~” 这样。
+他并没有关注我，我猜他只是给所有转发了那条发现 bug 的 post 的人回复告知 bug 已经修复。
+经常还会看到他的某些广播很明显是豆瓣工程师们在做测试，比如某个没人用的小组，里面全是测试 post，
+胡乱发的内容那种，想想还觉得有点可爱。&lt;/p&gt;
+
+&lt;p&gt;所以纯粹想帮小队长解释一下，他说的话明显只是抖机灵的吐槽，想象一下银酱的口气：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“喂喂喂！这么多事这么多需求哪里还招得来 PM 啊喂！岂可修！！”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这不是很可爱的吐槽么😂 可惜这位原 po 真的完全 get 不到，甚至觉得生气。。。哎，真的&lt;em&gt;不在一个次元&lt;/em&gt; 🤦🏻‍♀️&lt;/p&gt;
+
+&lt;h2 id=&quot;然后我被教育了-&quot;&gt;然后、我被教育了 🙃&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bambooom.github.io/assets/images/babel-tower-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然和朋友说了之后，一位朋友说，这个人就是装逼啦，中英夹在好讨厌的感觉。我一直对这种说话方式没有太介意，
+我看这位原 po 住在美帝湾区，会有这种说话方式也许是正常的吧。我是个怂人，所以我闭嘴了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;人类真的无法互相理解。&lt;/strong&gt;&lt;/p&gt;</description>
+	<pubDate>Sat, 30 Nov 2019 08:42:25 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he: 米洛娃</title>
 	<guid>http://liguanghe.github.io/2019/11/27/NvMiLowa/</guid>
 	<link>http://liguanghe.github.io/2019/11/27/NvMiLowa/</link>
@@ -616,237 +653,6 @@ But that are a growing number of people who are using Python in many fields. “
 &lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-396.md&quot;&gt;issue-396.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Wed, 27 Nov 2019 06:42:00 +0000</pubDate>
-</item>
-<item>
-	<title>蠎周刊: pythonista-weekly : Pyw 423</title>
-	<guid>http://weekly.pychina.org/python-weekly/pyw-423.html</guid>
-	<link>http://weekly.pychina.org/python-weekly/pyw-423.html</link>
-	<description>&lt;h3&gt;欢迎阅读《pythonista周刊》第423期。Let us start!&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-423&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-423&lt;/a&gt;&lt;br /&gt;
-翻译：Dustyposa&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;来自赞助商:&lt;/h3&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.vettery.com/tech?utm_source=newsletter&amp;utm_medium=pythonweekly&amp;utm_term=tech&amp;utm_content=grouped&amp;utm_campaign=ad-77579&quot;&gt;python开发者都需要的Vettery&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！&lt;/p&gt;
-&lt;h2&gt;新闻&lt;/h2&gt;
-&lt;h4&gt;&lt;a href=&quot;https://octoverse.github.com/&quot;&gt;Python 超越 Java 成为 GitHub 上第二受欢迎的语言 (by repository contributors).&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;尽管&lt;code&gt;Github&lt;/code&gt;传统上是软件开发者的家，但是世界的代码正在演化。&lt;code&gt;Python&lt;/code&gt;发展的背后是一个高速发展的数据科学工作者和爱好者社区——以及他们每天使用的工具和框架。包括了很多&lt;code&gt;Python&lt;/code&gt;制作的核心数据科学包，它们既能降低数据科学工作的门槛也能为学术界和工业界项目提供基础。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;何以解忧，唯有&lt;strong&gt;Python&lt;/strong&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://pyfound.blogspot.com/2019/11/seeking-developers-for-paid-contract.html&quot;&gt;寻找开发者有偿升级pip&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;Pthon软件基金会 Packaging 工作组&lt;/code&gt;正在接受资助，用于设计、实现和推出&lt;code&gt;pip&lt;/code&gt;的下一代依赖解决方案。他们准备雇佣两个承包商，一名高级开发人员和一名中级开发人员进行开发、测试、构建测试基础、代码审查、bug分类以及协助推出必要的功能。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;心动不如心动！&lt;/p&gt;
-&lt;p&gt;官方出手，最为致命。希望能解决这个令人头痛的问题！&lt;/p&gt;
-&lt;p&gt;不过话说回来，现在&lt;code&gt;poetry、pyflow&lt;/code&gt;好像比较火。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://blog.jupyter.org/jupyter-community-workshops-call-for-proposals-for-jan-aug-2020-710f687e30f4&quot;&gt;Jupyter 社区研讨会: 2020年1-8月征集提案  2020年1-8月征集提案 &lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Jupyter 社区研讨会将会聚集一些Jupyter社区成员和核心贡献者小组，以进行有影响力的战略性工作，并就重点主题进行社区讨论。 我们希望这一轮有资助的活动将在2020年8月之前举行。 &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;为社区做贡献，也是一件很有自豪感的事。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;文章、教程与话题&lt;/h2&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=P5nOGKVLIYo&quot;&gt;MicroPython  温暖我的家&lt;/a&gt;  &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(42 min)&lt;/h4&gt;
-&lt;p&gt;2018年，我从美国搬到了爱尔兰，尽管有配备联网功能的暖气控制器，但是我租的房子还是非常冷。在这个视频中，我想告诉你我是如何“debugged”这个问题并且我在之后是如何使用几个运行&lt;code&gt;MicroPython&lt;/code&gt;的微型控制器来改善供暖的，所有这些操作都无需对我不拥有的房屋进行任何修改。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;哪里不爽，动手用&lt;code&gt;Python&lt;/code&gt;改哪里！So,cool!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/QnBi3m7S1Z&quot;&gt;Python中Dijkstra最短路径算法&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;从GPS导航到网络链路路由，Dijkstra的算法在一些最被视为理所当然的现代服务中大放异彩。利用一些基本的数据结构，让我们了解它是做什么的，它是如何实现目标的，然后如何在&lt;code&gt;Python&lt;/code&gt;中实现（从最简单到良好的运行~）。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;熟悉的算法来了！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eyKwPyOqMg4&quot;&gt;理解卷积神经网络:制作手写数字计算器&lt;/a&gt;  &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;（22min）&lt;/h4&gt;
-&lt;p&gt;在本视频，我使用卷积神经网络——在用&lt;code&gt;Python&lt;/code&gt;基于&lt;code&gt;Tensorflow和Keras&lt;/code&gt;编写的——去制作了一个手写数字计算器。在此过程中，我深入研究了卷积神经网络是如何工作的。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;识别不够，计算来凑。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://djangostars.com/blog/rest-apis-django-development/&quot;&gt;如何使用Django REST框架开发APIS&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Mastering the basics means mastering the craft. 一步一步教你如何成功构建API。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;似曾相识~？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://zainrizvi.io/blog/jupyter-notebooks-best-practices-use-virtual-environments/&quot;&gt;Jupyter Notebooks 最佳实践: 使用虚拟环境&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;将Python社区公认的最佳实践应用到你的&lt;code&gt;Jupyter Notebooks&lt;/code&gt;中。你可以为&lt;code&gt;Jupyter Lab&lt;/code&gt;增加虚拟环境，给每个&lt;code&gt;notebook&lt;/code&gt;建立专用的虚拟环境。本篇文章详尽地解释了你如何在&lt;code&gt;Google Cloud's AI Platform Notebooks&lt;/code&gt;上为你个人的&lt;code&gt;notebooks&lt;/code&gt;增加虚拟环境。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;云上环境管理也是很重要的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/POY5bshIPf&quot;&gt;Django基于视图的权限管理&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;这篇文章解释（使用一个很简单的例子）了我们如何使用&lt;code&gt;Django和Django REST Framework&lt;/code&gt;实现了一个基于视图的权限管理系统，并试着解释我们为什么选择这样做。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;权限api，get！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/Q0Raies7D4&quot;&gt;使用Elasticsearch &amp;amp; fscrawler构建一个基础搜索引擎&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;这篇文章展示了如何使用&lt;code&gt;fscrawler,Elasticsearch,Python和Flask&lt;/code&gt;在你本机上运行一个快速并dirty（没找到合适的词，，）的搜索引擎。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;想到什么做什么~快速提升办公效率&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MgBgMyYROTE&quot;&gt;剖析Python: 了解你的代码资源占用情况的一份介绍&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(22min)&lt;/h4&gt;
-&lt;p&gt;发现你代码中的性能瓶颈并不是一直都很简单。这篇指南将会给你介绍可用于代码分析和度量程序优化效果的工具。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;性能分析，进阶必备！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.brighttalk.com/webcast/17563/377927?utm_source=python-weekly&amp;utm_medium=sponsored&amp;utm_campaign=377927&quot;&gt;网上研讨会-提升预测准确性:调整超参数和管道&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Register now for this hands-on code webinar with Dr. Mark Fenner - Data Scientist and Book Author of Machine Learning with Python for Everyone - and Domino Data Lab. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;来自赞助商~有名人参与的网络研讨会。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.deploymachinelearning.com/&quot;&gt;用Django 部署机器学习模型&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;该教程提供了几个如何用&lt;code&gt;REST API&lt;/code&gt;构建你的ML系统代码示例。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;机器学习部署来了！快全覆盖了！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/ZziDy4xCm7&quot;&gt;使用Python的矩阵分解技术概述&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;用于在线推荐系统引擎的集中不同类型的矩阵分解技术和缩放机制。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;推荐系统与矩阵分解~&lt;/p&gt;
-&lt;p&gt;不过最近 Attention 比较流行。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/UmPtJnyQZh&quot;&gt;用Flask处理表单的端到端指南&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;学习如何使用&lt;code&gt;Flask-WTForms&lt;/code&gt;在&lt;code&gt;Flask&lt;/code&gt;中创建表单逻辑和模版。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;全套教程应该都有了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://jacobian.org/2019/nov/11/python-environment-2020/&quot;&gt;我的Python开发环境，2020版&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Jacob Kaplan-Moss 解释他的&lt;code&gt;Python&lt;/code&gt;环境设置. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;环境有困扰？可以瞅一瞅。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.pyimagesearch.com/2019/11/11/detecting-natural-disasters-with-keras-and-deep-learning/&quot;&gt;用Keras and Deep Learning发现自然灾害&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;在本教程，你将学习到如何使用&lt;code&gt;Keras,CV and 深度学习&lt;/code&gt;自动发现自然灾害（地震、洪水、山火、旋风/飓风）超过95%的准确率。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;科技造福人类。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://deepsource.io/blog/new-python-web-frameworks/&quot;&gt;11个新Python web frameworks&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;在你的下一个网站项目中试试新的血液吧~&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;框架不要怕~文档在手，天下我有。&lt;/p&gt;
-&lt;p&gt;看了一下大部分都脸熟，最近打算玩玩&lt;code&gt;fastapi&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/Cur6Zc94Ja&quot;&gt;不被阻挡的艺术&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;我如何使用Selenium和Python抓取Facebook和Tiktok。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;数据抓取方面感觉国外有点慢~？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/FbfkPpcheR&quot;&gt; 我们如何构建Bytebase —第一部分:使用网络套接字实时聊天 &lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;这是我们关于我们如何构建&lt;code&gt;Bytebase&lt;/code&gt;系列文章中的第一篇。本系列改编于我们在圣地亚哥举行的 2019 US DjangoCon 大会上介绍的Django实时聊天教程，我们也根据需求增加了主题。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;追追追！很明显很有趣！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.sitepoint.com/keras-face-detection-recognition/&quot;&gt;用Keras实现人脸检测和识别&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;本教程展示了如何在&lt;code&gt;Keras&lt;/code&gt;中使用&lt;code&gt;MTCNN模型&lt;/code&gt;检测图片中的人脸，以及如何使用&lt;code&gt;VGGFace2算法&lt;/code&gt;提取人脸特征并在不同图片中匹配他们。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;升级的人脸识别项目~&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://articles.life4web.ru/python/contracts/&quot;&gt;Contract-Driven开发&lt;/a&gt;&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;契约驱动~微服务大展拳脚？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://t.co/hZy1K6g8Jq&quot;&gt;通过使用Python自动执行SSH和SCP任务来节省时间&lt;/a&gt;&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;SSH,SCP  自動達成する &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://jjmalina.github.io/posts/laziness-and-streams-pt-2/&quot;&gt;Python中的惰性和流&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;&lt;a href=&quot;https://lethain.com//creating-slack-app-python/&quot;&gt;在GCP上用Python创建一个Slack应用&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;&lt;a href=&quot;https://asthasr.github.io/posts/parsing-in-python/&quot;&gt;“Parsing” in Python&lt;/a&gt;&lt;/h4&gt;
-&lt;h2&gt;有趣的项目、工具和库&lt;/h2&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/minimaxir/stylecloud&quot;&gt;stylecloud&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Python包+命令行界面生成风格化的单词云，包括渐变和图标形状！&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;wordcloud 升级版~有词云需求可以看看，使用也很简单。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/open-mmlab/mmfashion&quot;&gt;MMFashion&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;基于PyTorch的用于视觉时尚分析的开源工具箱 &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;时尚分析谁来做！&lt;/p&gt;
-&lt;p&gt;来自香港中文大学的多媒体实验室开发的！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/HasnainRaz/Fast-SRGAN&quot;&gt;Fast-SRGAN&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;一个快速深度学习模型，以30fps的速度将低分辨率的视频提升到高分辨率。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;重制神器呀！&lt;/p&gt;
-&lt;p&gt;之前有一个 anime 4k升级，这个不限定于anime，可以 try one try。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/vinayak-mehta/conrad&quot;&gt;conrad&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;在终端上跟踪会议和聚会！ &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;主要是查看订阅：  公开征集提案（CFP）的事件 &lt;/p&gt;
-&lt;p&gt;当然有需求可以改成自己需要的版本~爬虫部分可定制机。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/kadnan/ScrapeGen&quot;&gt;ScrapeGen&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;一个简单的&lt;code&gt;Python&lt;/code&gt;工具，可以生成一个基于 &lt;code&gt;requests/bs4&lt;/code&gt;的爬虫。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原理很简单，可以参考一下设计思路~&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/dovpanda-dev/dovpanda&quot;&gt;dovpanda&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;在分析环境中和&lt;code&gt;Pandas&lt;/code&gt;叠加使用。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;pandas辅助来了！
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/kubapilch/PygameUI&quot;&gt;PygameUI&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;这是一个小的基础UI组件的实现，加速你的游戏项目构建。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;懒惰，使程序员变强！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://github.com/evilsocket/pwnagotchi-plugins-contrib&quot;&gt;pwnagotchi-plugins-contrib&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;用户贡献的&lt;code&gt;Pwnagotchi&lt;/code&gt; 插件。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;谨慎使用。 &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;活动和网络研讨会日程&lt;/h2&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.meetup.com/bostonpython/events/265373222/&quot;&gt;Four data-themed talks - Boston, MA&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;将会有以下话题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;D-Tale&lt;/li&gt;
-&lt;li&gt;Twitter  情感分析&lt;/li&gt;
-&lt;li&gt;在没有服务器的情况下，在网上提供深度学习模型。&lt;/li&gt;
-&lt;li&gt;用自定义数据类型处理&lt;code&gt;DataFranes&lt;/code&gt;以外的数据。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;种类依旧丰富～&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.meetup.com/dcpython/events/265096630/&quot;&gt;DC Python Meetup November 2019 - Arlington, VA&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;用 &lt;code&gt;AWS and Lambda&lt;/code&gt;实现模型服务。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;咦，承接上面的 serverless？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.meetup.com/tripython/events/265549119/&quot;&gt;Surviving without Python - Raleigh, NC&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Python是如此受欢迎的语言是有原因的:它的原则很强大。然而，如果Python是“所有语言中第二好的语言”，那就意味着常常选择第一好的语言。噢,不!如果没有我们喜欢的语言，&lt;code&gt;Pythonistas&lt;/code&gt;怎么能在一个项目或工作场所生存下来呢?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我也这么想的！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.meetup.com/python-14/events/ndcfkryzpbzb/&quot;&gt;PyHou Meetup November 2019 - Houston, TX&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;设计一个&lt;code&gt;Pythonic API&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-MTL/events/266258888/&quot;&gt;PyData Montreal Meetup November 2019 - Montreal, QC&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;将会有以下话题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;目标检测和定位的弱监督方法&lt;/li&gt;
-&lt;li&gt;用scikit-image和Dash进行交互式图像处理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;看来Dash还是很受欢迎的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.meetup.com/PyDataChi/events/266300442/&quot;&gt;Interpretable Neural Networks for Text Classification - Chicago, IL&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;将会讨论全局和局部两者可解释性的不同之处；这些概念在文本分类中意味着什么；如何使用显著性和遮挡这两种特殊的局部可解释性方法来打开神经网络的黑盒子。我们也会降到多层注意力网络，一个利用文本分类的神经网络模型，具有注意力形式的内置局部可解释性。&lt;/p&gt;
-&lt;h4&gt;&lt;a href=&quot;https://www.meetup.com/Ljubljana-Python-Group/events/265920194/&quot;&gt;LjPyMeetup November 2019 - Ljubljana, Slovenia&lt;/a&gt;&lt;/h4&gt;
-&lt;h2&gt;Posa：&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)&lt;br /&gt;
-残念，暂无。:(&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;----- 分割线 -----&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-423.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#423.md&quot;&gt;issue-423.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-	<pubDate>Tue, 19 Nov 2019 07:16:00 +0000</pubDate>
 </item>
 
 </channel>
