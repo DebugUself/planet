@@ -13,6 +13,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Remove-History.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Pull-Request.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-remove-branch.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-11:/issue/issue-398.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-08:/python-weekly/pyw-426.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-04:/python-weekly/pyw-425.html" />
@@ -21,6 +24,24 @@
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/GIT-Remove-History.html">
+	<title>bemself: Git - 删除 Git Commit 历史记录</title>
+	<link>https://bemself.github.io/python/GIT-Remove-History.html</link>
+	<content:encoded>绕开这个问题好久了, 一直对删除心有余悸, 至今其实也不能完全应对, 但至少进步了点, 稍微理解了点 [git reset](https://git-scm.com/docs/git-reset), [git revert](https://git-scm.com/docs/git-reset)</content:encoded>
+	<dc:date>2019-12-14T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/GIT-Pull-Request.html">
+	<title>bemself: Git - 在 Forked 仓库 如何提交 Pull Request</title>
+	<link>https://bemself.github.io/python/GIT-Pull-Request.html</link>
+	<content:encoded>第一次战战兢兢的成功提 Pull Request 后, 开心没两天便发现开头就错了...</content:encoded>
+	<dc:date>2019-12-14T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/GIT-remove-branch.html">
+	<title>bemself: Git - 删除分支(本地和远程)</title>
+	<link>https://bemself.github.io/python/GIT-remove-branch.html</link>
+	<content:encoded>遇到问题的时候才知道原来我还不会删除分支; 原来本地和远程分支是要分别删除的.</content:encoded>
+	<dc:date>2019-12-12T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-398.html">
 	<title>蠎周刊: Issue 398</title>
 	<link>http://weekly.pychina.org/issue/issue-398.html</link>

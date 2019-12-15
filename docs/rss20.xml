@@ -8,6 +8,27 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Git - 删除 Git Commit 历史记录</title>
+	<guid>https://bemself.github.io/python/GIT-Remove-History.html</guid>
+	<link>https://bemself.github.io/python/GIT-Remove-History.html</link>
+	<description>绕开这个问题好久了, 一直对删除心有余悸, 至今其实也不能完全应对, 但至少进步了点, 稍微理解了点 [git reset](https://git-scm.com/docs/git-reset), [git revert](https://git-scm.com/docs/git-reset)</description>
+	<pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: Git - 在 Forked 仓库 如何提交 Pull Request</title>
+	<guid>https://bemself.github.io/python/GIT-Pull-Request.html</guid>
+	<link>https://bemself.github.io/python/GIT-Pull-Request.html</link>
+	<description>第一次战战兢兢的成功提 Pull Request 后, 开心没两天便发现开头就错了...</description>
+	<pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: Git - 删除分支(本地和远程)</title>
+	<guid>https://bemself.github.io/python/GIT-remove-branch.html</guid>
+	<link>https://bemself.github.io/python/GIT-remove-branch.html</link>
+	<description>遇到问题的时候才知道原来我还不会删除分支; 原来本地和远程分支是要分别删除的.</description>
+	<pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: Issue 398</title>
 	<guid>http://weekly.pychina.org/issue/issue-398.html</guid>
 	<link>http://weekly.pychina.org/issue/issue-398.html</link>

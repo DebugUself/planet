@@ -5,8 +5,68 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-12-15T00:42:20+00:00</updated>
+	<updated>2019-12-15T08:42:55+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Git - 删除 Git Commit 历史记录</title>
+		<link href="https://bemself.github.io/python/GIT-Remove-History.html"/>
+		<id>https://bemself.github.io/python/GIT-Remove-History.html</id>
+		<updated>2019-12-14T00:00:00+00:00</updated>
+		<content type="html">绕开这个问题好久了, 一直对删除心有余悸, 至今其实也不能完全应对, 但至少进步了点, 稍微理解了点 [git reset](https://git-scm.com/docs/git-reset), [git revert](https://git-scm.com/docs/git-reset)</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-15T08:42:55+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Git - 在 Forked 仓库 如何提交 Pull Request</title>
+		<link href="https://bemself.github.io/python/GIT-Pull-Request.html"/>
+		<id>https://bemself.github.io/python/GIT-Pull-Request.html</id>
+		<updated>2019-12-14T00:00:00+00:00</updated>
+		<content type="html">第一次战战兢兢的成功提 Pull Request 后, 开心没两天便发现开头就错了...</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-15T08:42:55+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Git - 删除分支(本地和远程)</title>
+		<link href="https://bemself.github.io/python/GIT-remove-branch.html"/>
+		<id>https://bemself.github.io/python/GIT-remove-branch.html</id>
+		<updated>2019-12-12T00:00:00+00:00</updated>
+		<content type="html">遇到问题的时候才知道原来我还不会删除分支; 原来本地和远程分支是要分别删除的.</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-15T08:42:55+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 398</title>
