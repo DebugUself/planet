@@ -14,6 +14,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-18:/issue/issue-399.html" />
+			<rdf:li rdf:resource="https://du.101.camp/2019-12/recruit-debuggers" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-14:/python-weekly/pyw-427.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Remove-History.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Pull-Request.html" />
@@ -364,6 +365,180 @@
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-399.md&quot;&gt;issue-399.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2019-12-18T03:42:00+00:00</dc:date>
+</item>
+<item rdf:about="https://du.101.camp/2019-12/recruit-debuggers/">
+	<title>自怼圈: 自怼圈 2019 圣诞招新:在调试中提高效能</title>
+	<link>https://du.101.camp/2019-12/recruit-debuggers/</link>
+	<content:encoded>&lt;h2 id=&quot;why-自怼&quot;&gt;Why 自怼?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;没效能
+    &lt;ul&gt;
+      &lt;li&gt;上级汇报下级管理,频繁出差脚不沾地.&lt;/li&gt;
+      &lt;li&gt;虽然很努力,但就是没有生产力?&lt;/li&gt;
+      &lt;li&gt;精力身体时常困倦,无力掌握恐惧焦虑.&lt;/li&gt;
+      &lt;li&gt;更糟心的是,没有志同道合的朋友答疑解惑.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;久而久之,效能渐低.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;为什么?
+    &lt;ul&gt;
+      &lt;li&gt;俗话说,「月到中秋分外明,闷上心来瞌睡多.」&lt;/li&gt;
+      &lt;li&gt;效能渐低,也许在于「喜事」.&lt;/li&gt;
+      &lt;li&gt;何谓「喜事」?自己真正擅长的事.&lt;/li&gt;
+      &lt;li&gt;切换一个方向看, 自己不逼自己, 作最想作的事儿?&lt;/li&gt;
+      &lt;li&gt;自怼, 就是加速 debug 的迭代.&lt;/li&gt;
+      &lt;li&gt;自己调试的越多越容易发现自己真正的长处.&lt;/li&gt;
+      &lt;li&gt;甚至于, 原先短处, 也在调试过程中训练出来了.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;效能,也在调试的积累中,逐步增长.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;怎么办?
+    &lt;ul&gt;
+      &lt;li&gt;怼圈能为自我调试提供什么样的帮助?&lt;/li&gt;
+      &lt;li&gt;良好的工程环境,帮助适应固定时段的学习.&lt;/li&gt;
+      &lt;li&gt;志同道合的怼友,帮助长期反馈规律的陪伴.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;共培被动节奏外的韵律,持久表达成作品.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;whats-自怼圈&quot;&gt;What’s 自怼圈?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;什么是自怼圈?&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;通俗得说,&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;就是学习如何和自己自处,&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;并融合在一个专注进步的社区中,&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;持续/稳定/有目标/有节奏的完成即定目标;&lt;/li&gt;
+      &lt;li&gt;一句话,&lt;/li&gt;
+      &lt;li&gt;学习如何学习,&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;掌握被动节奏外韵律.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;什么是怼域?
+    &lt;ul&gt;
+      &lt;li&gt;承载自怼圈事务/活动的场所,&lt;/li&gt;
+      &lt;li&gt;根据用途/频率权限/临时-永久性的不同需求,&lt;/li&gt;
+      &lt;li&gt;配置了有不同渠道,比如 Github/Slack/Zoom/邮件列表等.&lt;/li&gt;
+      &lt;li&gt;渠道搭配使用,保证怼圈环境的私密与有效.&lt;/li&gt;
+      &lt;li&gt;其私密在于,&lt;/li&gt;
+      &lt;li&gt;进入 github 私密仓库为核心的社区线上环境.&lt;/li&gt;
+      &lt;li&gt;其有效在于,&lt;/li&gt;
+      &lt;li&gt;强调任何有效自学,必须有工作证据 -&amp;gt; URI.&lt;/li&gt;
+      &lt;li&gt;以固化节奏构建有序和效率习惯,&lt;/li&gt;
+      &lt;li&gt;每周一发布, 四周为一季.&lt;/li&gt;
+      &lt;li&gt;以 github 为核心的知识协作环境,&lt;/li&gt;
+      &lt;li&gt;训练 MVP 的自学模式.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;社区气质
+    &lt;ul&gt;
+      &lt;li&gt;理想的社区成员将具备如下气质:
+        &lt;ul&gt;
+          &lt;li&gt;对自学的环境有强烈定制的愿望.&lt;/li&gt;
+          &lt;li&gt;有将自学过程完备记录,并保存证据链习惯.&lt;/li&gt;
+          &lt;li&gt;在证据链基础上,使用维基构建知识仓库.&lt;/li&gt;
+          &lt;li&gt;在仓库构建中,持续保持 MVP 的怼节奏.&lt;/li&gt;
+          &lt;li&gt;在长期怼节奏中,向社区分享自怼故事.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;想了解更多自怼圈?
+    &lt;ul&gt;
+      &lt;li&gt;请参见下文怼圈历史故事:
+        &lt;ul&gt;
+          &lt;li&gt;17年11月03日 @OMlalala &lt;a href=&quot;https://du.101.camp/2017-11/debug-omlalala-summary/&quot;&gt;怼林外史&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;17年11月06日 @zoomquiet &lt;a href=&quot;https://du.101.camp/2017-11/ac1-du4new/&quot;&gt;关乎社群:1 自怼圈的由来&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;17年11月06日 @lgh &lt;a href=&quot;https://du.101.camp/2017-11/lgh-DebugMvp/&quot;&gt;自怼圈 MVP&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;17年11月10日 @熊本 &lt;a href=&quot;https://du.101.camp/2017-11/bear-duFeelingFish/&quot;&gt;熊本怼圈感受:泽鱼与溪鱼&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;18年07月07日 @lgh &lt;a href=&quot;https://jinshuju.net/f/ohQ12F&quot;&gt;问卷:进自怼圈一起怼么&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;18年07月27日 @all Durs &lt;a href=&quot;https://du.101.camp/2018-07/du-progress/&quot;&gt;合辑 - 回顾 2017 年自怼进步&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;18年07月27日 @zoomquiet @zoejane &lt;a href=&quot;https://du.101.camp/2018-07/into-du/&quot;&gt;开启自怼圈之旅&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;19年02月14日 @zoomquiet &lt;a href=&quot;https://du.101.camp/2019-03/re-self-debuggers/&quot;&gt;自怼圈 2019 叒招新++FAQ&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;19年06月23日 @熊本 &lt;a href=&quot;https://du.101.camp/duw/#/115w#stories-%E6%95%85%E4%BA%8B&quot;&gt;端正与美丽&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;19年7月22日 @熊本 &lt;a href=&quot;https://du.101.camp/duw/#/118w#stories-%E6%95%85%E4%BA%8B&quot;&gt;最带劲的怼周会 Best Of Du Meeting&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;想更近距离认识自怼圈?
+    &lt;ul&gt;
+      &lt;li&gt;请参见下文资源链接:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/DebugUself&quot;&gt;GitHub 仓库&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://du.101.camp&quot;&gt;怼小站&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://du.101.camp/duw&quot;&gt;怼周刊&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-can-获得&quot;&gt;What can 获得?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;14 周持续&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;自怼&lt;/code&gt;服务:
+    &lt;ul&gt;
+      &lt;li&gt;每周定制直播交流&lt;/li&gt;
+      &lt;li&gt;完备保密工程环境&lt;/li&gt;
+      &lt;li&gt;准实时回复所有问题&lt;/li&gt;
+      &lt;li&gt;优雅多种异步讨论渠道&lt;/li&gt;
+      &lt;li&gt;自动提醒社区所有变化&lt;/li&gt;
+      &lt;li&gt;…&lt;/li&gt;
+      &lt;li&gt;以及在几乎所有专业方向上, 都有专家来分享经验和针对性指导&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;3大方向10多个固定社区项目可以自由加入&lt;/li&gt;
+  &lt;li&gt;又或是几十个怼员发起作品项目也可以参与&lt;/li&gt;
+  &lt;li&gt;最期待是自带项目进入:
+    &lt;ul&gt;
+      &lt;li&gt;主动吸引有兴趣的怼友&lt;/li&gt;
+      &lt;li&gt;组成团队固定节奏持续推进:
+        &lt;ul&gt;
+          &lt;li&gt;每周一个 MVP 小版本&lt;/li&gt;
+          &lt;li&gt;每四周一次版本发布&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how2-入怼&quot;&gt;How2 入怼?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自怼圈 1912 圣诞限时报名:
+    &lt;ul&gt;
+      &lt;li&gt;截止 191224 2042&lt;/li&gt;
+      &lt;li&gt;或报满 21 人&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/12/18/hLOvaJUiywfIEZM.jpg&quot; alt=&quot;2019-12-DuInvite.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;帮助
+    &lt;ul&gt;
+      &lt;li&gt;如果报名单不小心写错了,&lt;/li&gt;
+      &lt;li&gt;或者有其他需要帮助和咨询的,&lt;/li&gt;
+      &lt;li&gt;可以发邮件给:&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;du4intra@googlegroups.com&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;191218 bear init&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2019-12-18T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://weekly.pychina.org/python-weekly/pyw-427.html">
 	<title>蠎周刊: pythonista-weekly : Pyw 427</title>
