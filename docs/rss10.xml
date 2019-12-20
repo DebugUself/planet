@@ -13,9 +13,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-18:/issue/issue-399.html" />
 			<rdf:li rdf:resource="https://du.101.camp/2019-12/recruit-debuggers" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-14:/python-weekly/pyw-427.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Common-Issues.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Remove-History.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Pull-Request.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-remove-branch.html" />
@@ -24,6 +26,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html">
+	<title>bemself: 开发供应商和用户：解决问题？发现问题？</title>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</link>
+	<content:encoded>最近连续两件事体会到“用”起来的感觉，用了才知道你做的东西究竟能派上多大用场， 才知道原来还有那么多没想到~</content:encoded>
+	<dc:date>2019-12-20T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-399.html">
 	<title>蠎周刊: Issue 399</title>
 	<link>http://weekly.pychina.org/issue/issue-399.html</link>
@@ -710,6 +718,12 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 &lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#427.md&quot;&gt;issue-427.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2019-12-14T07:16:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/GIT-Common-Issues.html">
+	<title>bemself: Git - Git 操作问题罗列</title>
+	<link>https://bemself.github.io/python/GIT-Common-Issues.html</link>
+	<content:encoded>持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</content:encoded>
+	<dc:date>2019-12-14T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://bemself.github.io/python/GIT-Remove-History.html">
 	<title>bemself: Git - 删除 Git Commit 历史记录</title>

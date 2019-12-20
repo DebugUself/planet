@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-12-20T08:44:15+00:00</updated>
+	<updated>2019-12-20T16:43:24+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">开发供应商和用户：解决问题？发现问题？</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</id>
+		<updated>2019-12-20T00:00:00+00:00</updated>
+		<content type="html">最近连续两件事体会到“用”起来的感觉，用了才知道你做的东西究竟能派上多大用场， 才知道原来还有那么多没想到~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-20T16:43:23+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 399</title>
@@ -732,6 +752,26 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 	</entry>
 
 	<entry>
+		<title type="html">Git - Git 操作问题罗列</title>
+		<link href="https://bemself.github.io/python/GIT-Common-Issues.html"/>
+		<id>https://bemself.github.io/python/GIT-Common-Issues.html</id>
+		<updated>2019-12-14T00:00:00+00:00</updated>
+		<content type="html">持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-20T16:43:23+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Git - 删除 Git Commit 历史记录</title>
 		<link href="https://bemself.github.io/python/GIT-Remove-History.html"/>
 		<id>https://bemself.github.io/python/GIT-Remove-History.html</id>
@@ -747,7 +787,7 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-17T16:42:42+00:00</updated>
+			<updated>2019-12-20T16:43:23+00:00</updated>
 		</source>
 	</entry>
 
@@ -767,7 +807,7 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-17T16:42:42+00:00</updated>
+			<updated>2019-12-20T16:43:23+00:00</updated>
 		</source>
 	</entry>
 
@@ -787,7 +827,7 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-17T16:42:42+00:00</updated>
+			<updated>2019-12-20T16:43:23+00:00</updated>
 		</source>
 	</entry>
 
