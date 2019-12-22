@@ -13,6 +13,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Tuple.html" />
+			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-20:/python-weekly/pyw-428.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-18:/issue/issue-399.html" />
 			<rdf:li rdf:resource="https://du.101.camp/2019-12/recruit-debuggers" />
@@ -20,12 +22,160 @@
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Common-Issues.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Remove-History.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-Pull-Request.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/python/GIT-remove-branch.html" />
-			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-11:/issue/issue-398.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/Python-Tuple.html">
+	<title>bemself: Python - Tuple 怎么用，为什么有 tuple 这种设计？</title>
+	<link>https://bemself.github.io/python/Python-Tuple.html</link>
+	<content:encoded>Python tuple 什么时候用？</content:encoded>
+	<dc:date>2019-12-22T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://weekly.pychina.org/python-weekly/pyw-428.html">
+	<title>蠎周刊: pythonista-weekly : Pyw 428</title>
+	<link>http://weekly.pychina.org/python-weekly/pyw-428.html</link>
+	<content:encoded>&lt;h3&gt;欢迎阅读《pythonista周刊》第428期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-428&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-428&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;来自赞助商（PS：原文的赞助商）:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vettery.com/tech?utm_source=newsletter&amp;utm_medium=pythonweekly&amp;utm_term=tech&amp;utm_content=grouped&amp;utm_campaign=ad-77579&quot;&gt;python开发者都需要的Vettery&lt;/a&gt;&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！&lt;/p&gt;
+&lt;h2&gt;新闻&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.scipy2020.scipy.org/&quot;&gt;SciPy 2020 意见征集&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;征求建议书截止到2020年2月11日。&lt;/p&gt;
+&lt;h2&gt;文章、教程与话题&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.pyimagesearch.com/2019/12/16/training-a-custom-dlib-shape-predictor/&quot;&gt;训练自定义dlib形状预测器&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在本篇教程中，你将学习如何训练你自己的自定义&lt;code&gt;dlib&lt;/code&gt;形状预测器&lt;em&gt;(shape predictor)&lt;/em&gt;。然后你将学习如何拿到的经过训练的&lt;code&gt;dlib&lt;/code&gt;形状预测器，并使用它去预测输入的图像和实时视频流的坐标。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;微妙的五官捕捉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SRYBDmJlIck&quot;&gt;如何使用Django 框架做密码校验&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;*(15min)&lt;/strong&gt;*&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Django&lt;/code&gt;有内置的密码校验功能。这个视频演示了如何开启并配置校验，自定义校验设置，编写你自己的校验器，并将验证集成到你自己的接口或者&lt;code&gt;API&lt;/code&gt;中。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Django 内置了很多工具，来瞅一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/sVcObePjlO&quot;&gt;用数据科学的方法计算出一辆二手车的合理价格&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;使用&lt;code&gt;DS&lt;/code&gt;&lt;em&gt;（译者注：应该是&lt;code&gt;data science&lt;/code&gt;的缩写。。）&lt;/em&gt;方法计算二手车公平价格的整个过程。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;似曾相识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/807218/7589bd420fa9cfbe/&quot;&gt;100万对任何人来说都应该足够了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;编程语言在其操作的各种方面通常都会有些显示或者隐式的限制。比如标识符&lt;em&gt;(identifier)&lt;/em&gt;的最大长度或者一个变量可以存储的值的范围等明显的例子，但是还有其他的，其中许多不是语言设计者指定的，但是来自语言的各种实现。这种模棱两可会出现问题，所以在&lt;code&gt;Python&lt;/code&gt;中确定各种各样的限制是当前在&lt;code&gt;python-dev&lt;/code&gt;邮件列表中持续讨论的目标。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;左右两难&lt;/p&gt;
+&lt;p&gt;不过巧了，最新的 捕蛇者说 (Ep09) 有提到这个问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://typenil.com/hijacking-default-django-through-tables/&quot;&gt;劫持(hijacking)Django 默认的'Through' Tables&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;去年有几次我遇到了需要向一个&lt;code&gt;Django&lt;/code&gt;多对多关系中添加一些元数据。默认情况下，没有明确的模型可以添加字段，但是如果你在开发一个灵活的项目-在默认的&lt;code&gt;through&lt;/code&gt;表中存在一些数据，你并不想丢失这些数据。所以，如果你不想创建一个新的表并迁移数据该怎么解决呢？让我们劫持一个！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不够打补丁。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://powerfulpython.com/newsletter/?utm_source=pythonweekly&amp;utm_medium=newsletter&amp;utm_campaign=2019-12-19&quot;&gt;为什么人们喜欢这个强大的Python新闻邮件?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&quot;非常感谢精彩的新闻邮件！我期待着你的邮件。&quot;“Python needs tougher treatment than what's out there. Keep going, don’t ever stop.“针对中级的&lt;code&gt;Python&lt;/code&gt;。现在就免费订阅吧！SPONSOR&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/LGeDuqINzt&quot;&gt;我如何用旅行推销员问题拯救圣诞节&lt;/a&gt;&lt;/strong&gt; 
+圣诞老人最佳行程的可视化。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;圣诞老人选择路线的最优解。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://codesource.io/build-a-crud-application-vue-and-django/&quot;&gt;用Vue和Django构建一个CRUD应用&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇教程向你展示了如何用&lt;code&gt;Django REST Framework&lt;/code&gt;构建一个&lt;code&gt;API&lt;/code&gt;并用&lt;code&gt;Vue.js&lt;/code&gt;构建一个&lt;code&gt;SPA&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;熟悉的CRUD&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.scrapingbee.com/blog/web-scraping-with-scrapy/&quot;&gt;使用Scrapy轻松抓取网页&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Scrapy&lt;/code&gt;是&lt;code&gt;Python&lt;/code&gt;中最受欢迎的爬虫框架。在本篇教程中，我们将会看到如何用&lt;code&gt;Scrapy&lt;/code&gt;从&lt;code&gt;scratch&lt;/code&gt;中抓取一个电商网站。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;久违的爬虫教程。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/coolreader18/6dbe0be2ae2192e90e1a809f1624c694&quot;&gt;让CPython出现段错误的5行代码 &lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;太过自由？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://aroberge.blogspot.com/2019/12/a-tiny-python-exception-oddity.html&quot;&gt;一个极小的 Python Exception 怪事&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;版本的一致性不，还是比较让人困扰的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://pbpython.com/natural-breaks.html&quot;&gt;用Fisher-Jenks算法查找数据的自然断点&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.marc-richter.info/using-pyenv-to-manage-your-python-interpreters/&quot;&gt;使用pyenv管理你的Python解释器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.anishathalye.com/2019/12/12/constraint-based-graphic-design/&quot;&gt;基于约束的图形设计实验&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pythonspeed.com/articles/numpy-memory-footprint/&quot;&gt;通过无损压缩减少NumPy内存的使用&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;有趣的项目、工具和库&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/delvelabs/batea&quot;&gt;Batea&lt;/a&gt;&lt;/strong&gt;
+基于上下文检测的网络设备排名框架。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/BMW-InnovationLab&quot;&gt;BMW InnovationLab&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;宝马已宣布发布其用于生产的人工智能算法，供任何感兴趣的人使用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;宝马！原来还有这种操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/MTrajK/coding-problems&quot;&gt;coding-problems&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;各种各样的编程/算法问题的解答，并有很多有用的资源用来学习算法和数据结构。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/rapidsai/jupyterlab-nvdashboard&quot;&gt;NVDashboard&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用于显示GPU使用情况的一个&lt;code&gt;JupyterLab插件&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GPU 监听中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/onelivesleft/PrettyErrors/&quot;&gt;PrettyErrors&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美化&lt;code&gt;Python&lt;/code&gt;错误输出，让其更清晰。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;的确美多了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/darrenburns/ward&quot;&gt;ward&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个现代的Python测试框架，旨在帮助你发现并修复缺陷。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;待观察。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/A3M4/YouTube-Report&quot;&gt;YouTube-Report&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;生成你的个人&lt;code&gt;YouTube&lt;/code&gt;报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/splunk/attack_range&quot;&gt;attack_range&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个允许您创建易受攻击的本地或云环境的工具，以模拟针对的攻击并将数据收集到&lt;code&gt;Splunk&lt;/code&gt;中。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自攻自守&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/minimaxir/twcloud&quot;&gt;twcloud&lt;/a&gt;&lt;/strong&gt;
+Python 包 + CLI 来生成Twitter推特词云图。 &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;实战开启？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/alexdredmon/cuteuid&quot;&gt;CuteUID&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;生成可爱的&lt;code&gt;uid&lt;/code&gt;，即在外观上与&lt;code&gt;uuid&lt;/code&gt;相似的唯一标识符(ish)。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;见名知意，看了一下，相当可爱。。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/snap-stanford/ogb&quot;&gt;ogb&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Pytouch&lt;/code&gt;中图机器学习的开源基准测试库。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/den4uk/andriller&quot;&gt;Andriller&lt;/a&gt;&lt;/strong&gt; 
+带有智能手机取证工具集合的软件实用程序。它从安卓设备上执行只读、法医学声音、无损采集。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;扩展业务面!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Neuraxio/Neuraxle&quot;&gt;Neuraxle&lt;/a&gt;&lt;/strong&gt;
+&lt;code&gt;Neuraxle&lt;/code&gt;是一个机器学习(ML)库，用于构建整洁的管道，提供正确的抽象来简化您的ML应用程序的研究、开发和部署。&lt;/p&gt;
+&lt;h2&gt;最近更新&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.djangoproject.com/weblog/2019/dec/18/security-releases/&quot;&gt;Django security releases issued: 3.0.1, 2.2.9, and 1.11.27&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://python-poetry.org/blog/announcing-poetry-1-0-0.html&quot;&gt;Poetry 1.0.0&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;它它它来了！管理工具一把手？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;活动和网络研讨会日程&lt;/h2&gt;
+&lt;p&gt;Nai&lt;/p&gt;
+&lt;h2&gt;Posa：&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-428.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#428.md&quot;&gt;issue-428.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2019-12-20T07:16:00+00:00</dc:date>
+</item>
 <item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html">
 	<title>bemself: 开发供应商和用户：解决问题？发现问题？</title>
 	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</link>
@@ -36,7 +186,7 @@
 	<title>蠎周刊: Issue 399</title>
 	<link>http://weekly.pychina.org/issue/issue-399.html</link>
 	<content:encoded>&lt;blockquote&gt;
-&lt;p&gt;是什么令 Python 成为伟大的开发语言?&lt;/p&gt;
+&lt;p&gt;什么造就了 Python 成为伟大的开发语言?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/399&quot;&gt;PyCoder's Weekly - Issue #399&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
@@ -353,13 +503,13 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;第4期已开始, 为期6周;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;当前&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch2&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;当前&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch2&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;200203&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200203&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -736,382 +886,6 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 	<link>https://bemself.github.io/python/GIT-Pull-Request.html</link>
 	<content:encoded>第一次战战兢兢的成功提 Pull Request 后, 开心没两天便发现开头就错了...</content:encoded>
 	<dc:date>2019-12-14T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/python/GIT-remove-branch.html">
-	<title>bemself: Git - 删除分支(本地和远程)</title>
-	<link>https://bemself.github.io/python/GIT-remove-branch.html</link>
-	<content:encoded>遇到问题的时候才知道原来我还不会删除分支; 原来本地和远程分支是要分别删除的.</content:encoded>
-	<dc:date>2019-12-12T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://weekly.pychina.org/issue/issue-398.html">
-	<title>蠎周刊: Issue 398</title>
-	<link>http://weekly.pychina.org/issue/issue-398.html</link>
-	<content:encoded>&lt;blockquote&gt;
-&lt;p&gt;MicroPython 物联网编程没问题&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/398&quot;&gt;PyCoder's Weekly - Issue #398&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;191211 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;191211 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3053/web&quot;&gt;MicroPython: Python编程硬件简介&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Are you interested in the Internet of Things, home automation, and connected devices? In this tutorial, you’ll learn about MicroPython and the world of electronics hardware. You’ll set up your board, write your code, and deploy a MicroPython project to your own device.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;MicroPython&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2019-12-11-ScreenShot%202019-12-11%2011.44.48.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;参考: &lt;a href=&quot;http://blog.pychina.org/events/pycon2019china-nn.html&quot;&gt;PyCon19China 南宁场私人回顾 blog.PyChina.org | 蠎中国社区 blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;国内资深玩家的有关分享...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3060/web&quot;&gt;PEP 591: 在 typing 中添加最终的限定词&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This PEP proposes a final qualifier to be added to the typing module—in the form of a final decorator and a Final type annotation—to serve three related purposes: Declaring that a method should not be overridden, declaring that a class should not be subclassed, declaring that a variable or attribute should not be reassigned.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3055/web&quot;&gt;正确进行 Python 配置&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MICHAEL WHALEN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Let’s talk about configuring Python applications, specifically the kind that might live in multiple environments – dev, stage, production, etc.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;充分利用内置能力, 精心规划好开发/测试/运营环境参数,
-综合使用环境变量, 以及自动加载机制...&lt;/p&gt;
-&lt;p&gt;当然, 俺推荐 Borg 类.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3064/web&quot;&gt;8 个超棒 pytest 插件&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;OPENSOURCE.COM &lt;/li&gt;
-&lt;li&gt;• Shared by Python Bytes FM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“One of the best aspects of the popular Python testing tool is its robust ecosystem. Here are eight of the best pytest plugins available.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3057/web&quot;&gt;两个恶意 Python 库盗用 SSH 和 GPG 密钥&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;LUKAS MARTINI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Also see the related discussion on Hacker News.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3051/web&quot;&gt;Instagram 取消 Python 垃圾收集&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;INSTAGRAM ENGINEERING BLOG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How Instagram’s Django backend runs with GC disabled and gets a 10% performance gain.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;大厂商都必须有能力根本自己业务特点来定制运行时环境.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3065/web&quot;&gt;Python 代码风格和 Pythonic 习语/惯用法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON-GUIDE.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A review of general concepts, language idioms, and Pythonic coding conventions.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;已有中译: &lt;a href=&quot;https://pythonguidecn.readthedocs.io/zh/latest/writing/style.html#idiom&quot;&gt;代码风格 — The Hitchhiker's Guide to Python&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;来自:
-&lt;img alt=&quot;pythonguidecn&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2019-12-11-ScreenShot%202019-12-11%2011.41.27.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Python 宇宙搭车客指南&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3070/web&quot;&gt;Monads 没您想像的那么难&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;YING WANG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Monads explained with Python code examples.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;不是那个神人 王垠;
-用 Py 来喷 Haskell...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3044/web&quot;&gt;CPython 3.8.1rc1 可用于测试&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3067/web&quot;&gt;膨胀常数因素以及 Python 比 C++ 更快的原因 (PDF)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MEHRDAD NIKNAMI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Why constant-factor differences in algorithm complexity do matter in practice.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;每隔几年都被挖出来嗯哼一下哪...沈游侠将有专门课程演示这一事实...
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3071/web&quot;&gt;Beautiful Soup: 用 Python 构建网络抓取工具&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll walk through the main steps of the web scraping process. You’ll learn how to write a script that uses Python’s requests library to scrape data from a website. You’ll also use Beautiful Soup to extract the specific pieces of information that you’re interested in.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Beautiful&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2019-12-11-ScreenShot%202019-12-11%2010.51.33.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;美汤还活着哪...就象 jQuery 一样上古神器了...&lt;/p&gt;
-&lt;p&gt;以及, 还是对 Ajax 们没办法
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3061/web&quot;&gt;Python 中多线程与多进程处理&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;AMINE BAATOUT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A discussion of misconceptions about multithreading in Python.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;简单的多, 能用多进程, 绝对嫑尝试多线程&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3045/web&quot;&gt;Python 中的变量&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how every item of data in a Python program can be described by the abstract term “object,” and how to manipulate objects using symbolic names called “variables.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3073/web&quot;&gt;3 个用 Python 构建的拼写检查器软件包&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;THEAUTOMATIC.NET&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Learn what packages can work as a spell checker in Python. We’ll discuss pyspellchecker, TextBlob, and autocorrect for performing this task.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3054/web&quot;&gt;用 Python 和 Tesseract, OpenCV 以及 Pytesseract 实现 OCR&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;FILIP ZELIC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Get started with Tesseract and OpenCV for OCR in Python: preprocessing, deep learning OCR, text extraction and limitations.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;OCR&quot; src=&quot;https://nanonets.com/blog/content/images/2019/11/OCR.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3050/web&quot;&gt;用机器学习来学习如何压缩&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;VKS.AI &lt;/li&gt;
-&lt;li&gt;• Shared by Pascal van Kooten&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;shrynk is a Python package that uses machine learning to compress your Pandas DataFrame (or Python dictionaries).&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;.ai 的域名开始流行, 猜猜哪家公司注册的最多?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3059/web&quot;&gt;在 Python 中安装和更新软件包&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ERIK MARSJA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to install, use, and update Python packages using pip, conda, and Anaconda Navigator.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;pip/conda 是好的, 但是, GUI 的 Anaconda Navigator 就比较坑了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3074/web&quot;&gt;Python 字符串和字符数据(交互式测验)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Test your understanding of Python strings and character data.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;简单的问卷来检验自己对字符以及字符串这两个基础对象的理解&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3048/web&quot;&gt;DeepMind MuZero 伪代码演练&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DAVID FOSTER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3058/web&quot;&gt;可能很有用的 Python Snippets&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MARTIN HEINZ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3056/web&quot;&gt;用 Python 创建用于 Childhood Memories 电子邮件服务&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ROBIN WILSON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3069/web&quot;&gt;Metaflow: Netflix 的Python数据科学框架&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;METAFLOW.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;以及早年的 Disney 们, 都有自己的 Python 框架/平台来管理海量硬件以及数据....&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3046/web&quot;&gt;GoCheese: 专用Python软件包存储库和缓存代理&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CYPHERPUNKS.RU&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3052/web&quot;&gt;parse: 用 format() 语法解析字符串&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PYPI.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3049/web&quot;&gt;py27hash: Python 2.7 Hashing and Iteration in Python 3+&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/DAVIDMEZZETTI &lt;/li&gt;
-&lt;li&gt;• Shared by David Mezzetti&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;永远的 Py2.7 ...&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..性能不是此程序包的目标&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;只是海量 Py 2.7 代码想直接运行在 Py 3 中, 还要海量的工具支持&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3047/web&quot;&gt;rotvpn: 用Python在云中运行自己的VPN&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/JAR-O &lt;/li&gt;
-&lt;li&gt;• Shared by James Robson&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;VPN 产品哪, 还是 go 来的方便,,,关键能提供预编译成品
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3075/web&quot;&gt;schemathesis: 开放API模式下 基于属性的测试&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/KIWICOM &lt;/li&gt;
-&lt;li&gt;• Shared by Dmitry Dygalo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3043/web&quot;&gt;⋅ Python Miami&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 14 to December 15, 2019&lt;/li&gt;
-&lt;li&gt;USA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3031/web&quot;&gt;⋅ DFW Pythoneers 2nd Saturday Teaching Meeting&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 14, 2019&lt;/li&gt;
-&lt;li&gt;TX,USA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3036/web&quot;&gt;⋅ Inland Empire Python Users Group Monthly Meeting&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 17, 2019&lt;/li&gt;
-&lt;li&gt;英国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3033/web&quot;&gt;⋅ Heidelberg Python Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 18, 2019&lt;/li&gt;
-&lt;li&gt;德国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3034/web&quot;&gt;⋅ PiterPy Breakfast&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 18, 2019&lt;/li&gt;
-&lt;li&gt;404 了...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3032/web&quot;&gt;⋅ PyData Bristol Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 19, 2019&lt;/li&gt;
-&lt;li&gt;英国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3038/web&quot;&gt;⋅ Python Northwest&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 19, 2019&lt;/li&gt;
-&lt;li&gt;英国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3035/web&quot;&gt;⋅ PyLadies Dublin&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;December 19, 2019&lt;/li&gt;
-&lt;li&gt;Ireland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;4py :-}&lt;/li&gt;
-&lt;li&gt;5py ;-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;第4期已开始, 为期6周;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;当前&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch2&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;200203&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;h1&gt;是也乎&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 3858&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-398.html&quot;&gt;Issue 398 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-398.md&quot;&gt;issue-398.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-	<dc:date>2019-12-11T03:42:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
