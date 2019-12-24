@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Java - 一次从屎稿到成稿的发布</title>
+	<guid>https://bemself.github.io/java/Java-handle-different-envrionement.html</guid>
+	<link>https://bemself.github.io/java/Java-handle-different-envrionement.html</link>
+	<description>从仓促应对的屎稿，到优化的成稿，源于经验不足。</description>
+	<pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>bemself: Python - Tuple 怎么用，为什么有 tuple 这种设计？</title>
 	<guid>https://bemself.github.io/python/Python-Tuple.html</guid>
 	<link>https://bemself.github.io/python/Python-Tuple.html</link>
@@ -855,27 +862,6 @@ Slack代理和Slack bot框架。&lt;/p&gt;
 &lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#427.md&quot;&gt;issue-427.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Sat, 14 Dec 2019 07:16:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: Git - Git 操作问题罗列</title>
-	<guid>https://bemself.github.io/python/GIT-Common-Issues.html</guid>
-	<link>https://bemself.github.io/python/GIT-Common-Issues.html</link>
-	<description>持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</description>
-	<pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: Git - 删除 Git Commit 历史记录</title>
-	<guid>https://bemself.github.io/python/GIT-Remove-History.html</guid>
-	<link>https://bemself.github.io/python/GIT-Remove-History.html</link>
-	<description>绕开这个问题好久了, 一直对删除心有余悸, 至今其实也不能完全应对, 但至少进步了点, 稍微理解了点 [git reset](https://git-scm.com/docs/git-reset), [git revert](https://git-scm.com/docs/git-reset)</description>
-	<pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: Git - 在 Forked 仓库 如何提交 Pull Request</title>
-	<guid>https://bemself.github.io/python/GIT-Pull-Request.html</guid>
-	<link>https://bemself.github.io/python/GIT-Pull-Request.html</link>
-	<description>第一次战战兢兢的成功提 Pull Request 后, 开心没两天便发现开头就错了...</description>
-	<pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
 </item>
 
 </channel>
