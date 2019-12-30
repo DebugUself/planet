@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: 180 度平摊控</title>
+	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</guid>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</link>
+	<description>现在买书买本有点不管是否需要，第一感觉看是否 180 度平摊了~</description>
+	<pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: pythonista-weekly : Pyw 429</title>
 	<guid>http://weekly.pychina.org/python-weekly/pyw-429.html</guid>
 	<link>http://weekly.pychina.org/python-weekly/pyw-429.html</link>
@@ -686,13 +693,6 @@ Python 包 + CLI 来生成Twitter推特词云图。 &lt;/p&gt;
 &lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#428.md&quot;&gt;issue-428.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Fri, 20 Dec 2019 07:16:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: 开发供应商和用户：解决问题？发现问题？</title>
-	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</guid>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</link>
-	<description>最近连续两件事体会到“用”起来的感觉，用了才知道你做的东西究竟能派上多大用场， 才知道原来还有那么多没想到~</description>
-	<pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
 </item>
 
 </channel>

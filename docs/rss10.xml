@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-28:/python-weekly/pyw-429.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Java-Abstract.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-25:/issue/issue-400.html" />
@@ -21,11 +22,16 @@
 			<rdf:li rdf:resource="https://bemself.github.io/java/Java-handle-different-envrionement.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Tuple.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2019-12-20:/python-weekly/pyw-428.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html">
+	<title>bemself: 180 度平摊控</title>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</link>
+	<content:encoded>现在买书买本有点不管是否需要，第一感觉看是否 180 度平摊了~</content:encoded>
+	<dc:date>2019-12-30T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/python-weekly/pyw-429.html">
 	<title>蠎周刊: pythonista-weekly : Pyw 429</title>
 	<link>http://weekly.pychina.org/python-weekly/pyw-429.html</link>
@@ -697,12 +703,6 @@ Python 包 + CLI 来生成Twitter推特词云图。 &lt;/p&gt;
 &lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#428.md&quot;&gt;issue-428.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2019-12-20T07:16:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html">
-	<title>bemself: 开发供应商和用户：解决问题？发现问题？</title>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</link>
-	<content:encoded>最近连续两件事体会到“用”起来的感觉，用了才知道你做的东西究竟能派上多大用场， 才知道原来还有那么多没想到~</content:encoded>
-	<dc:date>2019-12-20T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>

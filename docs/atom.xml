@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-12-30T08:42:51+00:00</updated>
+	<updated>2019-12-30T16:42:41+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">180 度平摊控</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</id>
+		<updated>2019-12-30T00:00:00+00:00</updated>
+		<content type="html">现在买书买本有点不管是否需要，第一感觉看是否 180 度平摊了~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-30T16:42:40+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 429</title>
@@ -148,7 +168,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-28T16:50:16+00:00</updated>
+			<updated>2019-12-30T16:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -566,7 +586,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-28T16:50:16+00:00</updated>
+			<updated>2019-12-30T16:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -586,7 +606,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-28T16:50:16+00:00</updated>
+			<updated>2019-12-30T16:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -606,7 +626,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-28T16:50:16+00:00</updated>
+			<updated>2019-12-30T16:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -626,7 +646,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-28T16:50:16+00:00</updated>
+			<updated>2019-12-30T16:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -783,26 +803,6 @@ Python 包 + CLI 来生成Twitter推特词云图。 &lt;/p&gt;
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
 			<updated>2019-12-29T16:45:25+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">开发供应商和用户：解决问题？发现问题？</title>
-		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html"/>
-		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/Learn-from-using.html</id>
-		<updated>2019-12-20T00:00:00+00:00</updated>
-		<content type="html">最近连续两件事体会到“用”起来的感觉，用了才知道你做的东西究竟能派上多大用场， 才知道原来还有那么多没想到~</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-28T16:50:16+00:00</updated>
 		</source>
 	</entry>
 
