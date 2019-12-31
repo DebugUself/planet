@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2019-12-31T08:42:44+00:00</updated>
+	<updated>2019-12-31T16:42:27+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">2019 的尾巴</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html</id>
+		<updated>2019-12-31T00:00:00+00:00</updated>
+		<content type="html">过去的已去，未来的未来。抓着 2019 的尾巴，记一下过去。</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2019-12-31T16:42:27+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">180 度平摊控</title>
@@ -24,7 +44,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-30T16:42:40+00:00</updated>
+			<updated>2019-12-31T16:42:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -168,7 +188,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-30T16:42:40+00:00</updated>
+			<updated>2019-12-31T16:42:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -586,7 +606,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-30T16:42:40+00:00</updated>
+			<updated>2019-12-31T16:42:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -606,7 +626,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-30T16:42:40+00:00</updated>
+			<updated>2019-12-31T16:42:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -626,7 +646,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-30T16:42:40+00:00</updated>
+			<updated>2019-12-31T16:42:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -646,163 +666,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-30T16:42:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">pythonista-weekly : Pyw 428</title>
-		<link href="http://weekly.pychina.org/python-weekly/pyw-428.html"/>
-		<id>tag:weekly.pychina.org,2019-12-20:/python-weekly/pyw-428.html</id>
-		<updated>2019-12-20T07:16:00+00:00</updated>
-		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第428期。Let us start!&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-428&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-428&lt;/a&gt;&lt;br /&gt;
-翻译：Dustyposa&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;来自赞助商（PS：原文的赞助商）:&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vettery.com/tech?utm_source=newsletter&amp;utm_medium=pythonweekly&amp;utm_term=tech&amp;utm_content=grouped&amp;utm_campaign=ad-77579&quot;&gt;python开发者都需要的Vettery&lt;/a&gt;&lt;/strong&gt;  &lt;/p&gt;
-&lt;p&gt;Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！&lt;/p&gt;
-&lt;h2&gt;新闻&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.scipy2020.scipy.org/&quot;&gt;SciPy 2020 意见征集&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;征求建议书截止到2020年2月11日。&lt;/p&gt;
-&lt;h2&gt;文章、教程与话题&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.pyimagesearch.com/2019/12/16/training-a-custom-dlib-shape-predictor/&quot;&gt;训练自定义dlib形状预测器&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在本篇教程中，你将学习如何训练你自己的自定义&lt;code&gt;dlib&lt;/code&gt;形状预测器&lt;em&gt;(shape predictor)&lt;/em&gt;。然后你将学习如何拿到的经过训练的&lt;code&gt;dlib&lt;/code&gt;形状预测器，并使用它去预测输入的图像和实时视频流的坐标。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;微妙的五官捕捉。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SRYBDmJlIck&quot;&gt;如何使用Django 框架做密码校验&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;*(15min)&lt;/strong&gt;*&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Django&lt;/code&gt;有内置的密码校验功能。这个视频演示了如何开启并配置校验，自定义校验设置，编写你自己的校验器，并将验证集成到你自己的接口或者&lt;code&gt;API&lt;/code&gt;中。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Django 内置了很多工具，来瞅一下。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/sVcObePjlO&quot;&gt;用数据科学的方法计算出一辆二手车的合理价格&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;使用&lt;code&gt;DS&lt;/code&gt;&lt;em&gt;（译者注：应该是&lt;code&gt;data science&lt;/code&gt;的缩写。。）&lt;/em&gt;方法计算二手车公平价格的整个过程。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;似曾相识。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/807218/7589bd420fa9cfbe/&quot;&gt;100万对任何人来说都应该足够了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;编程语言在其操作的各种方面通常都会有些显示或者隐式的限制。比如标识符&lt;em&gt;(identifier)&lt;/em&gt;的最大长度或者一个变量可以存储的值的范围等明显的例子，但是还有其他的，其中许多不是语言设计者指定的，但是来自语言的各种实现。这种模棱两可会出现问题，所以在&lt;code&gt;Python&lt;/code&gt;中确定各种各样的限制是当前在&lt;code&gt;python-dev&lt;/code&gt;邮件列表中持续讨论的目标。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;左右两难&lt;/p&gt;
-&lt;p&gt;不过巧了，最新的 捕蛇者说 (Ep09) 有提到这个问题。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://typenil.com/hijacking-default-django-through-tables/&quot;&gt;劫持(hijacking)Django 默认的'Through' Tables&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;去年有几次我遇到了需要向一个&lt;code&gt;Django&lt;/code&gt;多对多关系中添加一些元数据。默认情况下，没有明确的模型可以添加字段，但是如果你在开发一个灵活的项目-在默认的&lt;code&gt;through&lt;/code&gt;表中存在一些数据，你并不想丢失这些数据。所以，如果你不想创建一个新的表并迁移数据该怎么解决呢？让我们劫持一个！&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不够打补丁。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://powerfulpython.com/newsletter/?utm_source=pythonweekly&amp;utm_medium=newsletter&amp;utm_campaign=2019-12-19&quot;&gt;为什么人们喜欢这个强大的Python新闻邮件?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&quot;非常感谢精彩的新闻邮件！我期待着你的邮件。&quot;“Python needs tougher treatment than what's out there. Keep going, don’t ever stop.“针对中级的&lt;code&gt;Python&lt;/code&gt;。现在就免费订阅吧！SPONSOR&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/LGeDuqINzt&quot;&gt;我如何用旅行推销员问题拯救圣诞节&lt;/a&gt;&lt;/strong&gt; 
-圣诞老人最佳行程的可视化。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;圣诞老人选择路线的最优解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://codesource.io/build-a-crud-application-vue-and-django/&quot;&gt;用Vue和Django构建一个CRUD应用&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这篇教程向你展示了如何用&lt;code&gt;Django REST Framework&lt;/code&gt;构建一个&lt;code&gt;API&lt;/code&gt;并用&lt;code&gt;Vue.js&lt;/code&gt;构建一个&lt;code&gt;SPA&lt;/code&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;熟悉的CRUD&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.scrapingbee.com/blog/web-scraping-with-scrapy/&quot;&gt;使用Scrapy轻松抓取网页&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Scrapy&lt;/code&gt;是&lt;code&gt;Python&lt;/code&gt;中最受欢迎的爬虫框架。在本篇教程中，我们将会看到如何用&lt;code&gt;Scrapy&lt;/code&gt;从&lt;code&gt;scratch&lt;/code&gt;中抓取一个电商网站。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;久违的爬虫教程。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/coolreader18/6dbe0be2ae2192e90e1a809f1624c694&quot;&gt;让CPython出现段错误的5行代码 &lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;太过自由？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://aroberge.blogspot.com/2019/12/a-tiny-python-exception-oddity.html&quot;&gt;一个极小的 Python Exception 怪事&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;版本的一致性不，还是比较让人困扰的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://pbpython.com/natural-breaks.html&quot;&gt;用Fisher-Jenks算法查找数据的自然断点&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.marc-richter.info/using-pyenv-to-manage-your-python-interpreters/&quot;&gt;使用pyenv管理你的Python解释器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.anishathalye.com/2019/12/12/constraint-based-graphic-design/&quot;&gt;基于约束的图形设计实验&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pythonspeed.com/articles/numpy-memory-footprint/&quot;&gt;通过无损压缩减少NumPy内存的使用&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;有趣的项目、工具和库&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/delvelabs/batea&quot;&gt;Batea&lt;/a&gt;&lt;/strong&gt;
-基于上下文检测的网络设备排名框架。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/BMW-InnovationLab&quot;&gt;BMW InnovationLab&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;宝马已宣布发布其用于生产的人工智能算法，供任何感兴趣的人使用。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;宝马！原来还有这种操作。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/MTrajK/coding-problems&quot;&gt;coding-problems&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;各种各样的编程/算法问题的解答，并有很多有用的资源用来学习算法和数据结构。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/rapidsai/jupyterlab-nvdashboard&quot;&gt;NVDashboard&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用于显示GPU使用情况的一个&lt;code&gt;JupyterLab插件&lt;/code&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GPU 监听中。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/onelivesleft/PrettyErrors/&quot;&gt;PrettyErrors&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;美化&lt;code&gt;Python&lt;/code&gt;错误输出，让其更清晰。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;的确美多了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/darrenburns/ward&quot;&gt;ward&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一个现代的Python测试框架，旨在帮助你发现并修复缺陷。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;待观察。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/A3M4/YouTube-Report&quot;&gt;YouTube-Report&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;生成你的个人&lt;code&gt;YouTube&lt;/code&gt;报告。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/splunk/attack_range&quot;&gt;attack_range&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一个允许您创建易受攻击的本地或云环境的工具，以模拟针对的攻击并将数据收集到&lt;code&gt;Splunk&lt;/code&gt;中。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;自攻自守&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/minimaxir/twcloud&quot;&gt;twcloud&lt;/a&gt;&lt;/strong&gt;
-Python 包 + CLI 来生成Twitter推特词云图。 &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;实战开启？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/alexdredmon/cuteuid&quot;&gt;CuteUID&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;生成可爱的&lt;code&gt;uid&lt;/code&gt;，即在外观上与&lt;code&gt;uuid&lt;/code&gt;相似的唯一标识符(ish)。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;见名知意，看了一下，相当可爱。。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/snap-stanford/ogb&quot;&gt;ogb&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Pytouch&lt;/code&gt;中图机器学习的开源基准测试库。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/den4uk/andriller&quot;&gt;Andriller&lt;/a&gt;&lt;/strong&gt; 
-带有智能手机取证工具集合的软件实用程序。它从安卓设备上执行只读、法医学声音、无损采集。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;扩展业务面!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Neuraxio/Neuraxle&quot;&gt;Neuraxle&lt;/a&gt;&lt;/strong&gt;
-&lt;code&gt;Neuraxle&lt;/code&gt;是一个机器学习(ML)库，用于构建整洁的管道，提供正确的抽象来简化您的ML应用程序的研究、开发和部署。&lt;/p&gt;
-&lt;h2&gt;最近更新&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.djangoproject.com/weblog/2019/dec/18/security-releases/&quot;&gt;Django security releases issued: 3.0.1, 2.2.9, and 1.11.27&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://python-poetry.org/blog/announcing-poetry-1-0-0.html&quot;&gt;Poetry 1.0.0&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;它它它来了！管理工具一把手？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;活动和网络研讨会日程&lt;/h2&gt;
-&lt;p&gt;Nai&lt;/p&gt;
-&lt;h2&gt;Posa：&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;----- 分割线 -----&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-428.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#428.md&quot;&gt;issue-428.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2019-12-29T16:45:25+00:00</updated>
+			<updated>2019-12-31T16:42:27+00:00</updated>
 		</source>
 	</entry>
 
