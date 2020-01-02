@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-01:/issue/issue-401.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html" />
@@ -26,6 +27,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html">
+	<title>bemself: Python 统计基础</title>
+	<link>https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html</link>
+	<content:encoded>几个统计相关的 python 模块工具，以及可视化。</content:encoded>
+	<dc:date>2020-01-02T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-401.html">
 	<title>蠎周刊: Issue 401</title>
 	<link>http://weekly.pychina.org/issue/issue-401.html</link>

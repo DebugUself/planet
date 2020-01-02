@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Python 统计基础</title>
+	<guid>https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html</guid>
+	<link>https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html</link>
+	<description>几个统计相关的 python 模块工具，以及可视化。</description>
+	<pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: Issue 401</title>
 	<guid>http://weekly.pychina.org/issue/issue-401.html</guid>
 	<link>http://weekly.pychina.org/issue/issue-401.html</link>

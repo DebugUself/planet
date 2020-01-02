@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-02T08:42:30+00:00</updated>
+	<updated>2020-01-02T16:43:06+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Python 统计基础</title>
+		<link href="https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html"/>
+		<id>https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html</id>
+		<updated>2020-01-02T00:00:00+00:00</updated>
+		<content type="html">几个统计相关的 python 模块工具，以及可视化。</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-02T16:43:06+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 401</title>
@@ -429,7 +449,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-31T16:42:27+00:00</updated>
+			<updated>2020-01-02T16:43:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -449,7 +469,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-31T16:42:27+00:00</updated>
+			<updated>2020-01-02T16:43:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -593,7 +613,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-31T16:42:27+00:00</updated>
+			<updated>2020-01-02T16:43:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1011,7 +1031,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-31T16:42:27+00:00</updated>
+			<updated>2020-01-02T16:43:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1031,7 +1051,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-31T16:42:27+00:00</updated>
+			<updated>2020-01-02T16:43:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1051,7 +1071,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2019-12-31T16:42:27+00:00</updated>
+			<updated>2020-01-02T16:43:06+00:00</updated>
 		</source>
 	</entry>
 
