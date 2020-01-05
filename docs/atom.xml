@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-04T16:43:19+00:00</updated>
+	<updated>2020-01-05T00:42:41+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Python 线性回归（Linear Regression) - 到底什么是 regression？</title>
+		<link href="https://bemself.github.io/python/Python-Linear-Regression-Concept.html"/>
+		<id>https://bemself.github.io/python/Python-Linear-Regression-Concept.html</id>
+		<updated>2020-01-03T00:00:00+00:00</updated>
+		<content type="html">了解线性回归前，先看看 Regression 的由来</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-05T00:42:40+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">怼圈年会:珠海小聚, 开启你的 2020</title>
@@ -107,7 +127,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-02T16:43:06+00:00</updated>
+			<updated>2020-01-05T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -532,7 +552,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-02T16:43:06+00:00</updated>
+			<updated>2020-01-05T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -552,7 +572,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-02T16:43:06+00:00</updated>
+			<updated>2020-01-05T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -696,7 +716,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-02T16:43:06+00:00</updated>
+			<updated>2020-01-05T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1114,7 +1134,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-02T16:43:06+00:00</updated>
+			<updated>2020-01-05T00:42:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1134,7 +1154,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-02T16:43:06+00:00</updated>
+			<updated>2020-01-05T00:42:40+00:00</updated>
 		</source>
 	</entry>
 

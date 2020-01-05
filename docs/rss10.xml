@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-Concept.html" />
 			<rdf:li rdf:resource="https://du.101.camp/2020-01/ZH4DUmeeting2020" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-01:/issue/issue-401.html" />
@@ -27,6 +28,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/Python-Linear-Regression-Concept.html">
+	<title>bemself: Python 线性回归（Linear Regression) - 到底什么是 regression？</title>
+	<link>https://bemself.github.io/python/Python-Linear-Regression-Concept.html</link>
+	<content:encoded>了解线性回归前，先看看 Regression 的由来</content:encoded>
+	<dc:date>2020-01-03T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://du.101.camp/2020-01/ZH4DUmeeting2020/">
 	<title>自怼圈: 怼圈年会:珠海小聚, 开启你的 2020</title>
 	<link>https://du.101.camp/2020-01/ZH4DUmeeting2020/</link>
