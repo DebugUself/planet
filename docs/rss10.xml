@@ -13,6 +13,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Log.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-04:/python-weekly/pyw-430.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-Concept.html" />
 			<rdf:li rdf:resource="https://du.101.camp/2020-01/ZH4DUmeeting2020" />
@@ -25,6 +27,18 @@
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/Python-Log.html">
+	<title>bemself: 写代码 Log 也要认真点么?</title>
+	<link>https://bemself.github.io/python/Python-Log.html</link>
+	<content:encoded>Log自然是需要的, 尤其是正式的产品; 但如果只是自己或内部用用的小工具, 也需要认真点吗?</content:encoded>
+	<dc:date>2020-01-05T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html">
+	<title>bemself: My Struggle - 我的自怼周刊 2020 00w</title>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html</link>
+	<content:encoded>周结，看看能坚持多久~</content:encoded>
+	<dc:date>2020-01-05T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/python-weekly/pyw-430.html">
 	<title>蠎周刊: pythonista-weekly : Pyw 430</title>
 	<link>http://weekly.pychina.org/python-weekly/pyw-430.html</link>

@@ -5,8 +5,48 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-05T08:44:58+00:00</updated>
+	<updated>2020-01-05T16:43:03+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">写代码 Log 也要认真点么?</title>
+		<link href="https://bemself.github.io/python/Python-Log.html"/>
+		<id>https://bemself.github.io/python/Python-Log.html</id>
+		<updated>2020-01-05T00:00:00+00:00</updated>
+		<content type="html">Log自然是需要的, 尤其是正式的产品; 但如果只是自己或内部用用的小工具, 也需要认真点吗?</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-05T16:43:02+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">My Struggle - 我的自怼周刊 2020 00w</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html</id>
+		<updated>2020-01-05T00:00:00+00:00</updated>
+		<content type="html">周结，看看能坚持多久~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-05T16:43:02+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 430</title>
@@ -165,7 +205,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T00:42:40+00:00</updated>
+			<updated>2020-01-05T16:43:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -268,7 +308,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T00:42:40+00:00</updated>
+			<updated>2020-01-05T16:43:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -288,7 +328,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T00:42:40+00:00</updated>
+			<updated>2020-01-05T16:43:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -308,7 +348,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T00:42:40+00:00</updated>
+			<updated>2020-01-05T16:43:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -452,7 +492,7 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T00:42:40+00:00</updated>
+			<updated>2020-01-05T16:43:02+00:00</updated>
 		</source>
 	</entry>
 
