@@ -14,6 +14,8 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-08:/issue/issue-402.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-basics.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/General-silly-issues.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Log.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-04:/python-weekly/pyw-430.html" />
@@ -454,6 +456,18 @@
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-402.md&quot;&gt;issue-402.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2020-01-08T04:42:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/Python-Linear-Regression-basics.html">
+	<title>bemself: Python 线性回归（Linear Regression) 基本理解</title>
+	<link>https://bemself.github.io/python/Python-Linear-Regression-basics.html</link>
+	<content:encoded>大概回顾了下线性回归是什么，做什么，怎么做~</content:encoded>
+	<dc:date>2020-01-08T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/General-silly-issues.html">
+	<title>bemself: 记几个很傻的错误和思虑不周</title>
+	<link>https://bemself.github.io/python/General-silly-issues.html</link>
+	<content:encoded>连着犯了好几个错误，sigh</content:encoded>
+	<dc:date>2020-01-06T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://bemself.github.io/python/Python-Log.html">
 	<title>bemself: 写代码 Log 也要认真点么?</title>

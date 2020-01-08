@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-08T08:45:56+00:00</updated>
+	<updated>2020-01-08T16:42:56+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -449,6 +449,46 @@
 	</entry>
 
 	<entry>
+		<title type="html">Python 线性回归（Linear Regression) 基本理解</title>
+		<link href="https://bemself.github.io/python/Python-Linear-Regression-basics.html"/>
+		<id>https://bemself.github.io/python/Python-Linear-Regression-basics.html</id>
+		<updated>2020-01-08T00:00:00+00:00</updated>
+		<content type="html">大概回顾了下线性回归是什么，做什么，怎么做~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-08T16:42:55+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">记几个很傻的错误和思虑不周</title>
+		<link href="https://bemself.github.io/python/General-silly-issues.html"/>
+		<id>https://bemself.github.io/python/General-silly-issues.html</id>
+		<updated>2020-01-06T00:00:00+00:00</updated>
+		<content type="html">连着犯了好几个错误，sigh</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-08T16:42:55+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">写代码 Log 也要认真点么?</title>
 		<link href="https://bemself.github.io/python/Python-Log.html"/>
 		<id>https://bemself.github.io/python/Python-Log.html</id>
@@ -464,7 +504,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T16:43:02+00:00</updated>
+			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -484,7 +524,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T16:43:02+00:00</updated>
+			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -645,7 +685,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T16:43:02+00:00</updated>
+			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -748,7 +788,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T16:43:02+00:00</updated>
+			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1173,7 +1213,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T16:43:02+00:00</updated>
+			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1193,7 +1233,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-05T16:43:02+00:00</updated>
+			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 

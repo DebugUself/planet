@@ -437,6 +437,20 @@
 	<pubDate>Wed, 08 Jan 2020 04:42:00 +0000</pubDate>
 </item>
 <item>
+	<title>bemself: Python 线性回归（Linear Regression) 基本理解</title>
+	<guid>https://bemself.github.io/python/Python-Linear-Regression-basics.html</guid>
+	<link>https://bemself.github.io/python/Python-Linear-Regression-basics.html</link>
+	<description>大概回顾了下线性回归是什么，做什么，怎么做~</description>
+	<pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: 记几个很傻的错误和思虑不周</title>
+	<guid>https://bemself.github.io/python/General-silly-issues.html</guid>
+	<link>https://bemself.github.io/python/General-silly-issues.html</link>
+	<description>连着犯了好几个错误，sigh</description>
+	<pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>bemself: 写代码 Log 也要认真点么?</title>
 	<guid>https://bemself.github.io/python/Python-Log.html</guid>
 	<link>https://bemself.github.io/python/Python-Log.html</link>
