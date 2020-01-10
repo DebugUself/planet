@@ -8,6 +8,20 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Map, Filter, Reduce</title>
+	<guid>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</guid>
+	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
+	<description>最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</description>
+	<pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: Git - 从历史中真正删除文件</title>
+	<guid>https://bemself.github.io/git/Git-Remove-Files-From-History.html</guid>
+	<link>https://bemself.github.io/git/Git-Remove-Files-From-History.html</link>
+	<description>也算是历史遗留问题了，今天终于似乎搞定了，记录一下~</description>
+	<pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: Issue 402</title>
 	<guid>http://weekly.pychina.org/issue/issue-402.html</guid>
 	<link>http://weekly.pychina.org/issue/issue-402.html</link>
@@ -614,17 +628,17 @@
 	<pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
 </item>
 <item>
+	<title>bemself: My Struggle - 我的自怼周报 2020 00w</title>
+	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html</guid>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html</link>
+	<description>周结，看看能坚持多久~</description>
+	<pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>bemself: 写代码 Log 也要认真点么?</title>
 	<guid>https://bemself.github.io/python/Python-Log.html</guid>
 	<link>https://bemself.github.io/python/Python-Log.html</link>
 	<description>Log自然是需要的, 尤其是正式的产品; 但如果只是自己或内部用用的小工具, 也需要认真点吗?</description>
-	<pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: My Struggle - 我的自怼周刊 2020 00w</title>
-	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html</guid>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html</link>
-	<description>周结，看看能坚持多久~</description>
 	<pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
 </item>
 <item>
@@ -1236,20 +1250,6 @@ Interesting Gift&lt;/p&gt;
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-401.md&quot;&gt;issue-401.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Wed, 01 Jan 2020 09:42:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: 2019 的尾巴</title>
-	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html</guid>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html</link>
-	<description>过去的已去，未来的未来。抓着 2019 的尾巴，记一下过去。</description>
-	<pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: 180 度平摊控</title>
-	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</guid>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</link>
-	<description>现在买书买本有点不管是否需要，第一感觉看是否 180 度平摊了~</description>
-	<pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
 </item>
 
 </channel>

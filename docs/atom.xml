@@ -5,8 +5,48 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-10T08:42:47+00:00</updated>
+	<updated>2020-01-10T16:43:27+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Map, Filter, Reduce</title>
+		<link href="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html"/>
+		<id>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</id>
+		<updated>2020-01-10T00:00:00+00:00</updated>
+		<content type="html">最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-10T16:43:27+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Git - 从历史中真正删除文件</title>
+		<link href="https://bemself.github.io/git/Git-Remove-Files-From-History.html"/>
+		<id>https://bemself.github.io/git/Git-Remove-Files-From-History.html</id>
+		<updated>2020-01-10T00:00:00+00:00</updated>
+		<content type="html">也算是历史遗留问题了，今天终于似乎搞定了，记录一下~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-10T16:43:27+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 402</title>
@@ -464,7 +504,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
+			<updated>2020-01-10T16:43:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -658,7 +698,27 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
+			<updated>2020-01-10T16:43:27+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">My Struggle - 我的自怼周报 2020 00w</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html</id>
+		<updated>2020-01-05T00:00:00+00:00</updated>
+		<content type="html">周结，看看能坚持多久~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-10T16:43:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -678,27 +738,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">My Struggle - 我的自怼周刊 2020 00w</title>
-		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html"/>
-		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html</id>
-		<updated>2020-01-05T00:00:00+00:00</updated>
-		<content type="html">周结，看看能坚持多久~</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
+			<updated>2020-01-10T16:43:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -859,7 +899,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
+			<updated>2020-01-10T16:43:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -962,7 +1002,7 @@ Interesting Gift&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
+			<updated>2020-01-10T16:43:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -1368,46 +1408,6 @@ Interesting Gift&lt;/p&gt;
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
 			<updated>2020-01-08T08:44:57+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">2019 的尾巴</title>
-		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html"/>
-		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html</id>
-		<updated>2019-12-31T00:00:00+00:00</updated>
-		<content type="html">过去的已去，未来的未来。抓着 2019 的尾巴，记一下过去。</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">180 度平摊控</title>
-		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html"/>
-		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</id>
-		<updated>2019-12-30T00:00:00+00:00</updated>
-		<content type="html">现在买书买本有点不管是否需要，第一感觉看是否 180 度平摊了~</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-08T16:42:55+00:00</updated>
 		</source>
 	</entry>
 

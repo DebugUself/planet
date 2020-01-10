@@ -13,23 +13,35 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/git/Git-Remove-Files-From-History.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-08:/issue/issue-402.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-basics.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-01-08:/200108-ex-map-enum.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/General-silly-issues.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Log.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-04:/python-weekly/pyw-430.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-Concept.html" />
 			<rdf:li rdf:resource="https://du.101.camp/2020-01/ZH4DUmeeting2020" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-%E7%BB%9F%E8%AE%A1%E5%9F%BA%E7%A1%80.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-01:/issue/issue-401.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html">
+	<title>bemself: Map, Filter, Reduce</title>
+	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
+	<content:encoded>最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</content:encoded>
+	<dc:date>2020-01-10T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/git/Git-Remove-Files-From-History.html">
+	<title>bemself: Git - 从历史中真正删除文件</title>
+	<link>https://bemself.github.io/git/Git-Remove-Files-From-History.html</link>
+	<content:encoded>也算是历史遗留问题了，今天终于似乎搞定了，记录一下~</content:encoded>
+	<dc:date>2020-01-10T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-402.html">
 	<title>蠎周刊: Issue 402</title>
 	<link>http://weekly.pychina.org/issue/issue-402.html</link>
@@ -632,16 +644,16 @@
 	<content:encoded>连着犯了好几个错误，sigh</content:encoded>
 	<dc:date>2020-01-06T00:00:00+00:00</dc:date>
 </item>
+<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html">
+	<title>bemself: My Struggle - 我的自怼周报 2020 00w</title>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-00W.html</link>
+	<content:encoded>周结，看看能坚持多久~</content:encoded>
+	<dc:date>2020-01-05T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://bemself.github.io/python/Python-Log.html">
 	<title>bemself: 写代码 Log 也要认真点么?</title>
 	<link>https://bemself.github.io/python/Python-Log.html</link>
 	<content:encoded>Log自然是需要的, 尤其是正式的产品; 但如果只是自己或内部用用的小工具, 也需要认真点吗?</content:encoded>
-	<dc:date>2020-01-05T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html">
-	<title>bemself: My Struggle - 我的自怼周刊 2020 00w</title>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/DM-Weekly-00W.html</link>
-	<content:encoded>周结，看看能坚持多久~</content:encoded>
 	<dc:date>2020-01-05T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://weekly.pychina.org/python-weekly/pyw-430.html">
@@ -1248,18 +1260,6 @@ Interesting Gift&lt;/p&gt;
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-401.md&quot;&gt;issue-401.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2020-01-01T09:42:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html">
-	<title>bemself: 2019 的尾巴</title>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/2019-summary.html</link>
-	<content:encoded>过去的已去，未来的未来。抓着 2019 的尾巴，记一下过去。</content:encoded>
-	<dc:date>2019-12-31T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html">
-	<title>bemself: 180 度平摊控</title>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF/180-fans.html</link>
-	<content:encoded>现在买书买本有点不管是否需要，第一感觉看是否 180 度平摊了~</content:encoded>
-	<dc:date>2019-12-30T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
