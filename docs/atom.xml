@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-13T16:43:54+00:00</updated>
+	<updated>2020-01-14T00:45:29+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -24,7 +24,153 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">pythonista-weekly : Pyw 431</title>
+		<link href="http://weekly.pychina.org/python-weekly/pyw-431.html"/>
+		<id>tag:weekly.pychina.org,2020-01-11:/python-weekly/pyw-431.html</id>
+		<updated>2020-01-11T07:16:00+00:00</updated>
+		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第431期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-431&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-431&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.vettery.com/tech?utm_source=newsletter&amp;utm_medium=pythonweekly&amp;utm_term=tech&amp;utm_content=grouped&amp;utm_campaign=ad-77579&quot;&gt;python开发者都需要的Vettery&lt;/a&gt;&lt;br /&gt;
+Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！&lt;/p&gt;
+&lt;h2&gt;文章、教程与话题&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/zGlFseuoLG&quot;&gt;30个Python最好的练习、提示和技巧&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;用这30个&lt;code&gt;Python&lt;/code&gt;最好的练习、提示和技巧提高你的&lt;code&gt;Python&lt;/code&gt;技能。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;gogogo&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/rJvjoUo4pf&quot;&gt;在Linux内核中运行Python&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章讨论了一个很酷的项目——一个完整的&lt;code&gt;Python&lt;/code&gt;解释器运行在&lt;code&gt;Linux&lt;/code&gt;内核中。作者分享了这个想法来在哪里，实现想法的挑战是什么，等等&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;省资源必备？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.dataquest.io/blog/regular-expressions-data-scientists/&quot;&gt;指南: 用于数据科学的Python Regex（正则表达式)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在这个&lt;code&gt;Python&lt;/code&gt;正则指南中，学习如何在数据分析中使用正则表达式以及&lt;code&gt;pandas&lt;/code&gt;库去管理大型数据集。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所有指南都有了？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://heartbeat.fritz.ai/a-practical-guide-to-feature-engineering-in-python-8326e40747c8&quot;&gt;Python特征工程实用指南&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;学习在&lt;code&gt;Python&lt;/code&gt;中进行有效特征工程的基础技术和工具。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.integralist.co.uk/posts/python-generators/&quot;&gt;Python 101: iterators, generators, coroutines&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章讨论了生成器是什么以及如何与协程比较，但是为了解这两个概念（生成器和协程），我们需要后退一步，了解&lt;code&gt;Iterator&lt;/code&gt;的概念。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;迭代的真谛。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://liuchengxu.org/posts/speed-up-vim-python-plugin-using-rust/&quot;&gt;使用Rust使Vim Python插件快10倍&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章本质上是探讨使用&lt;code&gt;Y&lt;/code&gt;比&lt;code&gt;X&lt;/code&gt;快了10倍，所以很明显X和Y必须做同样的事情，否则谈论速度是毫无意义的。其背后的诀窍非常简单，就是用另一种编译语言重新编写脚本程序。 在这种情况下，我们实际上通过在Rust中重写Python函数将其速度提高了10倍。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ruthon出现！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://powerfulpython.com/newsletter/?utm_source=pythonweekly&amp;utm_medium=newsletter&amp;utm_campaign=2019-01-09&quot;&gt;为什么人们喜欢这个强大的Python新闻邮件?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&quot;非常感谢精彩的新闻邮件！我期待着你的邮件。&quot;“Python needs tougher treatment than what's out there. Keep going, don’t ever stop.“针对中级的&lt;code&gt;Python&lt;/code&gt;。现在就免费订阅吧！SPONSOR&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.esciencecenter.nl/parallel-programming-in-python-7fd62c90217d&quot;&gt;Python并发编程&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第一节：干掉&lt;code&gt;GIL&lt;/code&gt;,结合&lt;code&gt;Dask&lt;/code&gt;和&lt;code&gt;Numba&lt;/code&gt;在&lt;code&gt;Python&lt;/code&gt;中进行并行的数字运算。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;改造第一步，就在...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://opensource.com/article/20/1/python-web-api-pyramid-cornice&quot;&gt;如何用Pyramid and Cornice 编写一个Python web API &lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;用&lt;code&gt;Pyramid and Cornice&lt;/code&gt;构建和文档可伸缩的&lt;code&gt;RESTful web&lt;/code&gt;服务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://datascienceplus.com/understanding-customer-attrition-using-categorical-features-in-python/&quot;&gt;使用Python中的分类功能了解客户流失情况&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章展示了用&lt;code&gt;Python&lt;/code&gt;为客户流失探索性数据分析准备的分类功能的应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://julien.danjou.info/atomic-lock-free-counters-in-python/&quot;&gt;Python中的原子无锁计数器&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原生实现的原子！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/YytjAeBzrz&quot;&gt;将代码从完全异步的Node.js移植到多线程Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=B38aDwUpcFc&quot;&gt;初学者的Django REST Framework 全教程&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;&lt;em&gt;(2h22min)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.b-list.org/weblog/2020/jan/05/packaging/&quot;&gt;A Python Packaging Carol&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vinta.com.br/blog/2020/counting-queries-basic-performance-testing-in-django/&quot;&gt;查询计数:Django中的基本性能测试&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;书籍&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.slitherintopython.com/&quot;&gt;Slither Into Python&lt;/a&gt;&lt;/strong&gt;
+&lt;code&gt;Slither into Python&lt;/code&gt;是&lt;code&gt;Python&lt;/code&gt;编程语言的入门教程，适合初学者。不需要有编程经验或计算机科学背景。这本书可以免费在线阅读!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;终于有书拉！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;有趣的项目、工具和库&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/AdnanHodzic/auto-cpufreq&quot;&gt;auto-cpufreq&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用于&lt;code&gt;Linux&lt;/code&gt;的自动&lt;code&gt;CPU&lt;/code&gt;加速&amp;amp;优化。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;增加计算机寿命&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/PaulMcInnis/JobFunnel&quot;&gt;JobFunnel&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;抓取工作网站的工具，还可以筛选和查看工作列表。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;看来外国也有这个需求！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/JerBouma/ThePassiveInvestor&quot;&gt;ThePassiveInvestor&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;被动投资者&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;投资决策工具！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://soshnikov.com/mPyPl/&quot;&gt;mPyPl&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mPyPl&lt;/code&gt;是一个简化&lt;code&gt;Python&lt;/code&gt;中所有数据处理任务的库, 通过引入功能管道概念。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/signatrix/efficientdet&quot;&gt;efficientdet&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;EfficientDet&lt;/code&gt;：可扩展和高效的对象检测实现。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/charlesdong1991/py-roughviz&quot;&gt;py-roughviz&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Python&lt;/code&gt;实现的&lt;code&gt;JavaScript&lt;/code&gt;库&lt;code&gt;RoughViz&lt;/code&gt;来创建交互式图表。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;JS不够Python来凑！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/joegasewicz/Flask-File-Upload&quot;&gt;flask-file-upload&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用于&lt;code&gt;Flask&lt;/code&gt;的简单的文件上传。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/faustomorales/keras-ocr&quot;&gt;keras-ocr&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个封装了灵活的&lt;code&gt;CRAFT&lt;/code&gt;文本识别器版本和&lt;code&gt;Keras CRNN&lt;/code&gt;识别库。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/karlicoss/cachew&quot;&gt;Cachew&lt;/a&gt;&lt;/strong&gt;
+类型提示支持的持久缓存/序列化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/benedekrozemberczki/karateclub&quot;&gt;karateclub&lt;/a&gt;&lt;/strong&gt;
+一个通用的社区检测和网络嵌入库，用于&lt;code&gt;NetworkX&lt;/code&gt;上的研究。&lt;/p&gt;
+&lt;h2&gt;更新&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2020-release/&quot;&gt;Python in Visual Studio Code – January 2020 Release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在最近更新的版本中修复了59个&lt;code&gt;issues&lt;/code&gt;，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jupyter Notebooks  Kernel 的选择&lt;/li&gt;
+&lt;li&gt;Jupyter Notebook 编辑器的性能提升&lt;/li&gt;
+&lt;li&gt;终端负载环境的自动激活&lt;/li&gt;
+&lt;li&gt;修复了在保存和启动时重建ctags的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.djangoproject.com/weblog/2020/jan/02/django-bugfix-release-302/&quot;&gt;Django bugfix release: 3.0.2&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;活动和网络研讨会日程&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Cleveland-Area-Python-Interest-Group/events/wrwphqybccbrb/&quot;&gt;Cleveland Python Meetup January 2020 - Cleveland , OH&lt;/a&gt;
+将有一个演讲，从音频数据收集见解。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-Triangle/events/267006605/&quot;&gt;PyData Triangle January 2020 Meetup - Morrisville, NC&lt;/a&gt;
+将会有以下的话题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Computational Graphs&lt;/li&gt;
+&lt;li&gt;Spark还有意义吗? 多节点CPU和单节点GPU工作负载与Spark, Dask和RAPIDS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/startupedmonton/events/dtflxjybccbrb/&quot;&gt;Edmonton Python Meetup January 2020 - Edmonton, AB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/BoulderPython/events/vcmckrybccbsb/&quot;&gt;Boulder Python Meetup January 2020 - Boulder, CO&lt;/a&gt;Posa：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;热腾腾的协程翻译: &lt;strong&gt;&lt;a href=&quot;https://github.com/Dustyposa/goSpider/blob/master/python_advance/%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/%E5%BC%82%E6%AD%A5%E7%88%AC%E8%99%AB&quot;&gt;异步爬虫&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;初次翻译，多多指教，发现问题请提提提出来！！谢谢各位大佬了。&lt;/p&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-431.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#431.md&quot;&gt;issue-431.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2020-01-14T00:44:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -44,7 +190,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -64,7 +210,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -254,17 +400,17 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;俺来看看前10都是什么&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;无穷散列数字中有个&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;π&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;236&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;有没有更优雅的表达方式（&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;和&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛在&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;循环中可以用列表索引作为索引变量&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;92&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;等于&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nanj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;93&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛带&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;字符串的&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{{{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;74&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;与&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;74&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'相同&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;88&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为列表时&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;可以&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;而&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;不行&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;75&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;从末尾索引列表时是从&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;而不是&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;开始&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;79&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为什么&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TensorFlow&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;比&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TensorFlow&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;慢得多&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;104&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;的随机性&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;为毛&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;允许序列使用超出范围的切片索引&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;72&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;: 为毛 &lt;span class=&quot;nv&quot;&gt;Python&lt;/span&gt; 无穷散列数字中有个 π? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; [&lt;span class=&quot;mi&quot;&gt;236&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;: 有没有更优雅的表达方式（&lt;span class=&quot;ss&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt; 和 &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;))&lt;/span&gt;?
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;: 为毛在 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; 循环中可以用列表索引作为索引变量? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;[&lt;span class=&quot;mi&quot;&gt;92&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;: 为毛 &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;inf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; 等于 &lt;span class=&quot;nv&quot;&gt;inf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nanj&lt;/span&gt;? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; [&lt;span class=&quot;mi&quot;&gt;93&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;: 为毛带 &lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;字符串的 &lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{{{74}}}&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt; 与 &lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{{74}}&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;相同? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;[&lt;span class=&quot;mi&quot;&gt;88&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;: 为毛 &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt; 为列表时 &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;,&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt; 可以, 而 &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;,&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt; 不行? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; [&lt;span class=&quot;mi&quot;&gt;75&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;: 为毛 &lt;span class=&quot;nv&quot;&gt;Python&lt;/span&gt; 从末尾索引列表时是从 &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;而不是&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;开始? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;[&lt;span class=&quot;mi&quot;&gt;79&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;: 为什么 &lt;span class=&quot;nv&quot;&gt;TensorFlow&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; 比 &lt;span class=&quot;nv&quot;&gt;TensorFlow&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; 慢得多? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;[&lt;span class=&quot;mi&quot;&gt;104&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;: &lt;span class=&quot;nv&quot;&gt;Python&lt;/span&gt; 的随机性 &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;[&lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;]
+&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;: 为毛 &lt;span class=&quot;nv&quot;&gt;Python&lt;/span&gt;允许序列使用超出范围的切片索引? &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;[&lt;span class=&quot;mi&quot;&gt;72&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;]
+...
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -364,23 +510,23 @@
 &lt;p&gt;from codetiming import Timer&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;As a class:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;class&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;# Do something&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Timer&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;t&lt;/span&gt;.&lt;span class=&quot;nv&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;()&lt;/span&gt;
+# &lt;span class=&quot;k&quot;&gt;Do&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;something&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;t&lt;/span&gt;.&lt;span class=&quot;nv&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;As a context manager:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;context manager&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Timer&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;context manager&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;:
+    # &lt;span class=&quot;k&quot;&gt;Do&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;something&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;As a decorator:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;decorator&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@&lt;span class=&quot;nv&quot;&gt;Timer&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;decorator&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;stuff&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;()&lt;/span&gt;:
+    # &lt;span class=&quot;k&quot;&gt;Do&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;something&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -467,13 +613,13 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;第4期马上结业:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.3&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
-&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -504,7 +650,27 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-01-08T08:44:57+00:00</updated>
+			<updated>2020-01-14T00:44:39+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Python - 线性回归（Linear Regression) 的 Python 实现</title>
+		<link href="https://bemself.github.io/python/Python-Linear-Regression-impl.html"/>
+		<id>https://bemself.github.io/python/Python-Linear-Regression-impl.html</id>
+		<updated>2020-01-08T00:00:00+00:00</updated>
+		<content type="html">在 Python 中如何实现线性回归？很简单，有不错的包和函数~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -524,7 +690,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -718,7 +884,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -738,7 +904,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -758,7 +924,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -899,7 +1065,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-01-08T08:44:57+00:00</updated>
+			<updated>2020-01-14T00:44:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -919,7 +1085,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-12T16:42:46+00:00</updated>
+			<updated>2020-01-14T00:45:28+00:00</updated>
 		</source>
 	</entry>
 
