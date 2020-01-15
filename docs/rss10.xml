@@ -15,13 +15,13 @@
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-15:/issue/issue-403.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/14/TimeReport20200114/" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-impl.html" />
 			<rdf:li rdf:resource="http://bambooom.github.io/2020/01/14/2019-summary/" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-11:/python-weekly/pyw-431.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/git/Git-Remove-Files-From-History.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-08:/issue/issue-402.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-impl.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-basics.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-01-08:/200108-ex-map-enum.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/General-silly-issues.html" />
@@ -503,6 +503,12 @@ AVAILABLE COMMANDS
 	<content:encoded>&lt;p&gt;从2017年4月1日开始记录时间至今, 2年9个月14天间,共计24339小时.除了按照五大类别的分类外,也尝试用内容标签来做个分析.&lt;/p&gt;
 &lt;p&gt;每个时间都会有类别,但不一定有内容. 有点意义的会标出来. 对我来讲,人和组织很重要,超过了项目, 是会在内容里标记出来的.&lt;/p&gt;</content:encoded>
 	<dc:date>2020-01-14T14:42:32+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/Python-Linear-Regression-impl.html">
+	<title>bemself: Python - 线性回归（Linear Regression) 的 Python 实现</title>
+	<link>https://bemself.github.io/python/Python-Linear-Regression-impl.html</link>
+	<content:encoded>在 Python 中如何实现线性回归？很简单，有不错的包和函数~</content:encoded>
+	<dc:date>2020-01-14T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://bambooom.github.io/2020/01/14/2019-summary/">
 	<title>bambooooooom: 2019 而立的废渣</title>
@@ -1206,12 +1212,6 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-402.md&quot;&gt;issue-402.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2020-01-08T04:42:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/python/Python-Linear-Regression-impl.html">
-	<title>bemself: Python - 线性回归（Linear Regression) 的 Python 实现</title>
-	<link>https://bemself.github.io/python/Python-Linear-Regression-impl.html</link>
-	<content:encoded>在 Python 中如何实现线性回归？很简单，有不错的包和函数~</content:encoded>
-	<dc:date>2020-01-08T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://bemself.github.io/python/Python-Linear-Regression-basics.html">
 	<title>bemself: Python 线性回归（Linear Regression) 基本理解</title>

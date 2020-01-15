@@ -485,6 +485,13 @@ AVAILABLE COMMANDS
 	<pubDate>Tue, 14 Jan 2020 14:42:32 +0000</pubDate>
 </item>
 <item>
+	<title>bemself: Python - 线性回归（Linear Regression) 的 Python 实现</title>
+	<guid>https://bemself.github.io/python/Python-Linear-Regression-impl.html</guid>
+	<link>https://bemself.github.io/python/Python-Linear-Regression-impl.html</link>
+	<description>在 Python 中如何实现线性回归？很简单，有不错的包和函数~</description>
+	<pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>bambooooooom: 2019 而立的废渣</title>
 	<guid>http://bambooom.github.io/2020/01/14/2019-summary/</guid>
 	<link>http://bambooom.github.io/2020/01/14/2019-summary/</link>
@@ -1192,13 +1199,6 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-402.md&quot;&gt;issue-402.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Wed, 08 Jan 2020 04:42:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: Python - 线性回归（Linear Regression) 的 Python 实现</title>
-	<guid>https://bemself.github.io/python/Python-Linear-Regression-impl.html</guid>
-	<link>https://bemself.github.io/python/Python-Linear-Regression-impl.html</link>
-	<description>在 Python 中如何实现线性回归？很简单，有不错的包和函数~</description>
-	<pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
 </item>
 <item>
 	<title>bemself: Python 线性回归（Linear Regression) 基本理解</title>
