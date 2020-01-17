@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/git/GIT-Common-Issues.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-15:/issue/issue-403.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/14/TimeReport20200114/" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-impl.html" />
@@ -24,11 +25,16 @@
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-08:/issue/issue-402.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-basics.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-01-08:/200108-ex-map-enum.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/python/General-silly-issues.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/git/GIT-Common-Issues.html">
+	<title>bemself: Git - Git 操作问题罗列</title>
+	<link>https://bemself.github.io/git/GIT-Common-Issues.html</link>
+	<content:encoded>持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</content:encoded>
+	<dc:date>2020-01-17T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-403.html">
 	<title>蠎周刊: Issue 403</title>
 	<link>http://weekly.pychina.org/issue/issue-403.html</link>
@@ -1380,12 +1386,6 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 &lt;li&gt;200107 2.5h 折腾&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2020-01-07T16:00:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/python/General-silly-issues.html">
-	<title>bemself: 记几个很傻的错误和思虑不周</title>
-	<link>https://bemself.github.io/python/General-silly-issues.html</link>
-	<content:encoded>连着犯了好几个错误，sigh</content:encoded>
-	<dc:date>2020-01-06T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>

@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-17T08:42:29+00:00</updated>
+	<updated>2020-01-17T16:43:10+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Git - Git 操作问题罗列</title>
+		<link href="https://bemself.github.io/git/GIT-Common-Issues.html"/>
+		<id>https://bemself.github.io/git/GIT-Common-Issues.html</id>
+		<updated>2020-01-17T00:00:00+00:00</updated>
+		<content type="html">持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-17T16:43:09+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 403</title>
@@ -523,7 +543,7 @@ AVAILABLE COMMANDS
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-17T08:42:28+00:00</updated>
+			<updated>2020-01-17T16:43:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -680,7 +700,7 @@ AVAILABLE COMMANDS
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-17T08:42:28+00:00</updated>
+			<updated>2020-01-17T16:43:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -846,7 +866,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-17T08:42:28+00:00</updated>
+			<updated>2020-01-17T16:43:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -866,7 +886,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-17T08:42:28+00:00</updated>
+			<updated>2020-01-17T16:43:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1326,7 +1346,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-17T08:42:28+00:00</updated>
+			<updated>2020-01-17T16:43:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1501,26 +1521,6 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
 			<id>https://blog.zoomquiet.io/</id>
 			<updated>2020-01-09T08:42:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">记几个很傻的错误和思虑不周</title>
-		<link href="https://bemself.github.io/python/General-silly-issues.html"/>
-		<id>https://bemself.github.io/python/General-silly-issues.html</id>
-		<updated>2020-01-06T00:00:00+00:00</updated>
-		<content type="html">连着犯了好几个错误，sigh</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-17T08:42:28+00:00</updated>
 		</source>
 	</entry>
 
