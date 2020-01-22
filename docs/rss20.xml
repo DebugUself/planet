@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Map, Filter, Reduce</title>
+	<guid>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</guid>
+	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
+	<description>最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</description>
+	<pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>li guang he</title>
 	<guid>http://liguanghe.github.io/2020/01/21/TimeReport2020/</guid>
 	<link>http://liguanghe.github.io/2020/01/21/TimeReport2020/</link>
@@ -635,13 +642,6 @@
 
 &lt;p&gt;附前几年总结: &lt;a href=&quot;https://www.douban.com/note/702384268/&quot;&gt;2018&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/650747131/&quot;&gt;2017&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/600437210/&quot;&gt;2016&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/532445213/&quot;&gt;2015&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/475347560/&quot;&gt;2014&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/329611675/&quot;&gt;2013&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/255202347/&quot;&gt;2012&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/125442027/&quot;&gt;2010&lt;/a&gt;&lt;/p&gt;</description>
 	<pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: My Struggle - 我的自怼周报 2020 01w</title>
-	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html</guid>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html</link>
-	<description>周结第二周，看看能坚持多久~</description>
-	<pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
 </item>
 
 </channel>

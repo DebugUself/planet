@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-22T08:43:49+00:00</updated>
+	<updated>2020-01-22T16:43:19+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Map, Filter, Reduce</title>
+		<link href="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html"/>
+		<id>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</id>
+		<updated>2020-01-22T00:00:00+00:00</updated>
+		<content type="html">最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-22T16:43:18+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html"></title>
@@ -42,7 +62,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-19T16:42:56+00:00</updated>
+			<updated>2020-01-22T16:43:18+00:00</updated>
 		</source>
 	</entry>
 
@@ -62,7 +82,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-19T16:42:56+00:00</updated>
+			<updated>2020-01-22T16:43:18+00:00</updated>
 		</source>
 	</entry>
 
@@ -581,7 +601,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-19T16:42:56+00:00</updated>
+			<updated>2020-01-22T16:43:18+00:00</updated>
 		</source>
 	</entry>
 
@@ -719,26 +739,6 @@
 			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
 			<id>https://bambooom.github.io/feed.xml</id>
 			<updated>2020-01-14T16:42:38+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">My Struggle - 我的自怼周报 2020 01w</title>
-		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html"/>
-		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html</id>
-		<updated>2020-01-12T00:00:00+00:00</updated>
-		<content type="html">周结第二周，看看能坚持多久~</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-19T16:42:56+00:00</updated>
 		</source>
 	</entry>
 

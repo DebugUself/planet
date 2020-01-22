@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/21/TimeReport2020/" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-02w.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/git/GIT-Common-Issues.html" />
@@ -20,11 +21,16 @@
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/14/TimeReport20200114/" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Linear-Regression-impl.html" />
 			<rdf:li rdf:resource="http://bambooom.github.io/2020/01/14/2019-summary/" />
-			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html">
+	<title>bemself: Map, Filter, Reduce</title>
+	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
+	<content:encoded>最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</content:encoded>
+	<dc:date>2020-01-22T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2020/01/21/TimeReport2020/">
 	<title>li guang he</title>
 	<link>http://liguanghe.github.io/2020/01/21/TimeReport2020/</link>
@@ -646,12 +652,6 @@
 
 &lt;p&gt;附前几年总结: &lt;a href=&quot;https://www.douban.com/note/702384268/&quot;&gt;2018&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/650747131/&quot;&gt;2017&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/600437210/&quot;&gt;2016&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/532445213/&quot;&gt;2015&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/475347560/&quot;&gt;2014&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/329611675/&quot;&gt;2013&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/255202347/&quot;&gt;2012&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/125442027/&quot;&gt;2010&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2020-01-14T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html">
-	<title>bemself: My Struggle - 我的自怼周报 2020 01w</title>
-	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-01W.html</link>
-	<content:encoded>周结第二周，看看能坚持多久~</content:encoded>
-	<dc:date>2020-01-12T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
