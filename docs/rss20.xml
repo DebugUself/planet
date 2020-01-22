@@ -300,24 +300,24 @@
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;CleverCSV&quot; src=&quot;https://raw.githubusercontent.com/alan-turing-institute/CleverCSV/eea72549195e37bd4347d87fd82bc98be2f1383d/.logo.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;这才是真正需要的东西, 特别是从 Excel 导出的 csv 们...&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;USAGE&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;clevercsv&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-h&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-v&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-V&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;command&amp;gt;&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; ... &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;USAGE&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;clevercsv&lt;/span&gt; [&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;] [&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;v&lt;/span&gt;] [&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;V&lt;/span&gt;] &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; [&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;] ... [&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;argN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;]
 
-ARGUMENTS
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;command&amp;gt;&lt;/span&gt;       The command to execute
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;arg&amp;gt;&lt;/span&gt;           The arguments of the command
+&lt;span class=&quot;nv&quot;&gt;ARGUMENTS&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;       &lt;span class=&quot;nv&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;execute&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;           &lt;span class=&quot;nv&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;arguments&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;
 
-GLOBAL OPTIONS
-  -h (--help)     Display this help message.
-  -v (--verbose)  Enable verbose mode.
-  -V (--version)  Display the application version.
+&lt;span class=&quot;nv&quot;&gt;GLOBAL&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;OPTIONS&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;nv&quot;&gt;Display&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;message&lt;/span&gt;.
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;nv&quot;&gt;Enable&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;verbose&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mode&lt;/span&gt;.
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;V&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;nv&quot;&gt;Display&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;version&lt;/span&gt;.
 
-AVAILABLE COMMANDS
-  code            Generate Python code for importing the CSV file.
-  detect          Detect the dialect of a CSV file
-  help            Display the manual of a command
-  standardize     Convert a CSV file to one that conforms to RFC-4180.
-  view            View the CSV file on the command line using TabView
+&lt;span class=&quot;nv&quot;&gt;AVAILABLE&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;COMMANDS&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt;            &lt;span class=&quot;nv&quot;&gt;Generate&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;importing&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;.
+  &lt;span class=&quot;nv&quot;&gt;detect&lt;/span&gt;          &lt;span class=&quot;nv&quot;&gt;Detect&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;dialect&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;help&lt;/span&gt;            &lt;span class=&quot;nv&quot;&gt;Display&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;manual&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;standardize&lt;/span&gt;     &lt;span class=&quot;nv&quot;&gt;Convert&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;one&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conforms&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;RFC&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4180&lt;/span&gt;.
+  &lt;span class=&quot;nv&quot;&gt;view&lt;/span&gt;            &lt;span class=&quot;nv&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;TabView&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -357,20 +357,20 @@ AVAILABLE COMMANDS
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;所以, 早就说过:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;人生苦短&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;当歌&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;人生苦短&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Python当歌&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;go 和 py 不分家咯:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gostyle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;# Start the thread &lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Call&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;time&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;gostyle&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Start the thread &lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Call&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -465,14 +465,14 @@ AVAILABLE COMMANDS
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;第4期马上结业:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
-&lt;span class=&quot;mf&quot;&gt;20.2.20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
-&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
