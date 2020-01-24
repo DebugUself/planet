@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-23:/issue/issue-404.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/21/TimeReport2020/" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-02w.html" />
@@ -25,6 +26,364 @@
 	</items>
 </channel>
 
+<item rdf:about="http://weekly.pychina.org/issue/issue-404.html">
+	<title>蠎周刊: Issue 404</title>
+	<link>http://weekly.pychina.org/issue/issue-404.html</link>
+	<content:encoded>&lt;blockquote&gt;
+&lt;p&gt;404 了啊啊啊啊...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/404&quot;&gt;PyCoder's Weekly - Issue #404&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200115 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200115 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3372/web&quot;&gt;在N皇后问题上对比 Python, Go 和 C++ (PDF)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PASCAL FUA, &lt;/li&gt;
+&lt;li&gt;KRZYSZTOF LIS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Python currently is the dominant language in the field of Machine Learning but is often criticized for being slow to perform certain tasks. In this report, we use the well-known N-queens puzzle as a benchmark to show that once compiled using the Numba compiler it becomes competitive with C++ and Go in terms of execution speed while still allowing for very fast prototyping.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一则对比&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3371/web&quot;&gt;Codemodding Python: 将 Unittest 断言声明为 Python 断言&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;HANS-WILHELM WARLO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Large codebases require continued maintenance, but it is time-consuming and cumbersome to change portions of code scattered around many files. This article shows how to write codemods to refactor Python code using its Abstract Syntax Tree—gaining far more granular control than basic regex and search-replace.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3390/web&quot;&gt;Arcade: Python 游戏框架入门&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step tutorial, you’ll learn how to use arcade, a modern Python framework for crafting games with compelling graphics and sound. Object-oriented and built for Python 3.6 and up, arcade provides you a modern set of tools for crafting great Python game experiences.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Arcade&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-23-ScreenShot%202020-01-23%2010.21.41.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3386/web&quot;&gt;创建一个简单的 Python Pip 存储库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAN-PIET MENS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“I wanted the simplest (i.e. most lightweight) possible repository capable of serving packages in such a way as that Python’s pip would be able to install them.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3370/web&quot;&gt;编写多语言脚本&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NKANAEV.GITHUB.IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python and Ruby have somewhat similar syntaxes, could you come up with a program that’s valid in both languages?&lt;/p&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;NIL&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3388/web&quot;&gt;有效运用 Matplotlib&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CHRIS MOFFITT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Now that I have taken the time to learn some of these tools and how to use them with matplotlib, I have started to see matplotlib as an indispensable tool. This post will show how I use matplotlib and provide some recommendations for users getting started”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3387/web&quot;&gt;科学 Python: 用 SciPy 进行优化&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn about the SciPy ecosystem and how it differs from the SciPy library. You’ll learn how to install SciPy using Anaconda or pip and see some of its modules. Then, you’ll focus on examples that use the clustering and optimization functionality in SciPy.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Optimization&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-23-ScreenShot%202020-01-23%2010.19.08.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3384/web&quot;&gt;Python 中的基本数据类型&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this course, you’ll learn the basic data types that are built into Python, like numbers, strings, and Booleans. You’ll also get an overview of Python’s built-in functions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3385/web&quot;&gt;CPython 中 open() 的意外结果&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAVIER HONDUVILLA COTO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Misusing Python’s open() and the interaction of CPython’s GC and UNIX semantics can lead to unexpected results.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3380/web&quot;&gt;用 Python 玩得开心&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAMES BENNETT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Writing obfuscated code for fun and…great learning experiences! ;-)&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;just&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fun&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;最重要了.
+代码混乱并不是问题, 问题是无法持续享受 Python 带来的生产力.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3382/web&quot;&gt;凡人的 Monads (在 Python)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;KNOWSUCHAGENCY.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Implementing and testing the identity monad in Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Monads&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-23-monade.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3392/web&quot;&gt;用 LLVM 和 Arrow 进行 JIT 评估 Pandas Expressions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CHRISTIAN PERONE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;LLVM 越来越强大了, 可怜的 GCC&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3373/web&quot;&gt;改善 Python 代码的5个重构技巧&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NICK THAPEN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;首先一个建议, 就是移除所有注释...
+老司机的深刻教训哪...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3375/web&quot;&gt;筛选具有多个条件的 Pandas DataFrames&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VINAY BABU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3376/web&quot;&gt;关于编写安全的 repr()&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IONEL CRISTIAN MĂRIEȘ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3378/web&quot;&gt;voice-flight-following: 根据 FSX 和 P3D 的位置数据为飞机提醒附近的城市&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/JFAYRE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3394/web&quot;&gt;pypistats: PyPI 下载统计&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PYPISTATS.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;专注系统状态的组织
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3379/web&quot;&gt;Typer: 用 Python 类型提示构建 CLI&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TIANGOLO.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;哈, 复用了 类型声明的形式, 
+来完成 CLI 参数意义的声明, 
+这...好象是对类型系统的误用?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3374/web&quot;&gt;sql2json: 运行 SQL 查询并将结果转换为 JSON&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/FSISTEMAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3391/web&quot;&gt;python-hunter: 灵活的代码跟踪工具包&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/IONELMC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个灵活的执行追踪工具:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;hunter&quot; src=&quot;https://raw.githubusercontent.com/ionelmc/python-hunter/master/docs/vars-trace.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;只是, 这样对开发是否有帮助?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3395/web&quot;&gt;CrossHair: SMT-辅助 的 Python 测试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/PSCHANELY &lt;/li&gt;
+&lt;li&gt;• Shared by Phillip Schanely&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;穿过你的黑发的我的测试&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3389/web&quot;&gt;openpilot: 开源驾驶员辅助系统&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/COMMAAI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个驾驶助理系统,&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3383/web&quot;&gt;JustCause: 比较因果推断的方法&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JUSTCAUSE.READTHEDOCS.IO &lt;/li&gt;
+&lt;li&gt;• Shared by Florian Wilhelm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3396/web&quot;&gt;Speck: 使用 Matplotlib 的艺术线条图像渲染器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/LUCASHADFIELD &lt;/li&gt;
+&lt;li&gt;• Shared by Lucas Hadfield&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3364/web&quot;&gt;⋅ Python Meeting Düsseldorf&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 23, 2020&lt;/li&gt;
+&lt;li&gt;还是德国&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3365/web&quot;&gt;⋅ PythOnRio Meetup&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 25, 2020&lt;/li&gt;
+&lt;li&gt;巴西&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3361/web&quot;&gt;⋅ Python Ho Monthly Meetup&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 26, 2020&lt;/li&gt;
+&lt;li&gt;加纳&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3359/web&quot;&gt;⋅ Inland Empire Pyladies (CA, USA)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 27, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3362/web&quot;&gt;⋅ Python Sheffield&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 28, 2020&lt;/li&gt;
+&lt;li&gt;英国&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3358/web&quot;&gt;⋅ Heidelberg Python Meetup&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 29, 2020&lt;/li&gt;
+&lt;li&gt;德国的正经会议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3360/web&quot;&gt;⋅ PiterPy Breakfast&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 29, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;专注早餐的会议&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3357/web&quot;&gt;⋅ SPb Python Drinkup&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;January 30, 2020&lt;/li&gt;
+&lt;li&gt;俄国&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以喝高的会议
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3368/web&quot;&gt;⋅ PyCascades (10% Discount)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;February 8th &amp;amp; 9th in Portland, &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OR. Get a 10% discount on your ticket courtesy of PyCoder’s with this link.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;有个 OR 的会议...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;5py ;-)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;年后第5期就来:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.2.20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3100/web&quot;&gt;从1965年到2019年，最受欢迎的编程语言 (动画)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TWITTER.COM/MARCUSBORBA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;网红小视频也出现了...&lt;/p&gt;
+&lt;p&gt;最后3秒, Python 疯狂反转一切.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 3901&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-404.html&quot;&gt;Issue 404 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-404.md&quot;&gt;issue-404.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2020-01-23T11:19:00+00:00</dc:date>
+</item>
 <item rdf:about="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html">
 	<title>bemself: Map, Filter, Reduce</title>
 	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
@@ -320,24 +679,24 @@
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;CleverCSV&quot; src=&quot;https://raw.githubusercontent.com/alan-turing-institute/CleverCSV/eea72549195e37bd4347d87fd82bc98be2f1383d/.logo.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;这才是真正需要的东西, 特别是从 Excel 导出的 csv 们...&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;USAGE&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;clevercsv&lt;/span&gt; [&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;] [&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;v&lt;/span&gt;] [&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;V&lt;/span&gt;] &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; [&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;] ... [&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;argN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;]
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;USAGE&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;clevercsv&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-h&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-v&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-V&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;command&amp;gt;&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt; ... &lt;span class=&quot;cp&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;]&lt;/span&gt;
 
-&lt;span class=&quot;nv&quot;&gt;ARGUMENTS&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;       &lt;span class=&quot;nv&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;execute&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;           &lt;span class=&quot;nv&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;arguments&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;
+ARGUMENTS
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;command&amp;gt;&lt;/span&gt;       The command to execute
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;arg&amp;gt;&lt;/span&gt;           The arguments of the command
 
-&lt;span class=&quot;nv&quot;&gt;GLOBAL&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;OPTIONS&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;nv&quot;&gt;Display&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;message&lt;/span&gt;.
-  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;nv&quot;&gt;Enable&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;verbose&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mode&lt;/span&gt;.
-  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;V&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;nv&quot;&gt;Display&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;version&lt;/span&gt;.
+GLOBAL OPTIONS
+  -h (--help)     Display this help message.
+  -v (--verbose)  Enable verbose mode.
+  -V (--version)  Display the application version.
 
-&lt;span class=&quot;nv&quot;&gt;AVAILABLE&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;COMMANDS&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt;            &lt;span class=&quot;nv&quot;&gt;Generate&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;importing&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;.
-  &lt;span class=&quot;nv&quot;&gt;detect&lt;/span&gt;          &lt;span class=&quot;nv&quot;&gt;Detect&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;dialect&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;help&lt;/span&gt;            &lt;span class=&quot;nv&quot;&gt;Display&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;manual&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;standardize&lt;/span&gt;     &lt;span class=&quot;nv&quot;&gt;Convert&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;one&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conforms&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;RFC&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4180&lt;/span&gt;.
-  &lt;span class=&quot;nv&quot;&gt;view&lt;/span&gt;            &lt;span class=&quot;nv&quot;&gt;View&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CSV&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;TabView&lt;/span&gt;
+AVAILABLE COMMANDS
+  code            Generate Python code for importing the CSV file.
+  detect          Detect the dialect of a CSV file
+  help            Display the manual of a command
+  standardize     Convert a CSV file to one that conforms to RFC-4180.
+  view            View the CSV file on the command line using TabView
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -377,20 +736,20 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;所以, 早就说过:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;人生苦短&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Python当歌&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;人生苦短&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;当歌&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;go 和 py 不分家咯:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;time&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;gostyle&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Start the thread &lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Call&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gostyle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;# Start the thread &lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Call&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -485,14 +844,14 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;第4期马上结业:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mi&quot;&gt;200112&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.2.20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
