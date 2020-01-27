@@ -5,8 +5,45 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-27T08:44:01+00:00</updated>
+	<updated>2020-01-27T16:43:49+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">法律科技思考（2）</title>
+		<link href="http://liguanghe.github.io/2020/01/27/LTCreation2/"/>
+		<id>http://liguanghe.github.io/2020/01/27/LTCreation2/</id>
+		<updated>2020-01-27T11:16:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;什么是法律科技？&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#什么是法律科技？&quot; class=&quot;headerlink&quot; title=&quot;什么是法律科技？&quot;&gt;&lt;/a&gt;什么是法律科技？&lt;/h2&gt;&lt;p&gt;法律科技是法律服务科技的简称。法律服务是一个专业但传统作坊式的作业，用科技和现金的管理引入到&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2020-01-27T16:43:34+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">持续记录的事业树片段</title>
+		<link href="http://liguanghe.github.io/2020/01/27/LsCareerTree20/"/>
+		<id>http://liguanghe.github.io/2020/01/27/LsCareerTree20/</id>
+		<updated>2020-01-27T10:48:12+00:00</updated>
+		<content type="html">&lt;p&gt;从2018年7月开始，每四周一个计划，记录行动，再回顾。到2020年2月2日满20season，翻回看看。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2020-01-27T16:43:34+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">温病条辨 - 读书摘记 1 - 伤风，方药对症，湿温，汗解，等</title>
@@ -492,7 +529,7 @@
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2020-01-21T08:42:45+00:00</updated>
+			<updated>2020-01-27T16:43:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -502,26 +539,6 @@
 		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-02w.html</id>
 		<updated>2020-01-19T00:00:00+00:00</updated>
 		<content type="html">周结第三周</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-26T16:45:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Git - Git 操作问题罗列</title>
-		<link href="https://bemself.github.io/git/GIT-Common-Issues.html"/>
-		<id>https://bemself.github.io/git/GIT-Common-Issues.html</id>
-		<updated>2020-01-17T00:00:00+00:00</updated>
-		<content type="html">持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</content>
 		<author>
 			<name>My Struggle</name>
 			<email>doituself@outlook.com</email>

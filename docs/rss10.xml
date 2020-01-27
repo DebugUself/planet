@@ -13,6 +13,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/27/LTCreation2/" />
+			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/27/LsCareerTree20/" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%85%AD%E7%BB%8F%E8%BE%A8%E8%AF%81%E8%A7%A3%E6%B8%A9%E7%97%85%E6%9D%A1%E8%BE%A9%E8%83%A1%E5%B8%8C%E6%81%95%E8%AE%B2%E4%B9%89.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-03w.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A63.html" />
@@ -21,11 +23,23 @@
 			<rdf:li rdf:resource="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/21/TimeReport2020/" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-02w.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/git/GIT-Common-Issues.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2020/01/27/LTCreation2/">
+	<title>li guang he: 法律科技思考（2）</title>
+	<link>http://liguanghe.github.io/2020/01/27/LTCreation2/</link>
+	<content:encoded>&lt;h2 id=&quot;什么是法律科技？&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#什么是法律科技？&quot; class=&quot;headerlink&quot; title=&quot;什么是法律科技？&quot;&gt;&lt;/a&gt;什么是法律科技？&lt;/h2&gt;&lt;p&gt;法律科技是法律服务科技的简称。法律服务是一个专业但传统作坊式的作业，用科技和现金的管理引入到&lt;/p&gt;</content:encoded>
+	<dc:date>2020-01-27T11:16:32+00:00</dc:date>
+</item>
+<item rdf:about="http://liguanghe.github.io/2020/01/27/LsCareerTree20/">
+	<title>li guang he: 持续记录的事业树片段</title>
+	<link>http://liguanghe.github.io/2020/01/27/LsCareerTree20/</link>
+	<content:encoded>&lt;p&gt;从2018年7月开始，每四周一个计划，记录行动，再回顾。到2020年2月2日满20season，翻回看看。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2020-01-27T10:48:12+00:00</dc:date>
+</item>
 <item rdf:about="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%85%AD%E7%BB%8F%E8%BE%A8%E8%AF%81%E8%A7%A3%E6%B8%A9%E7%97%85%E6%9D%A1%E8%BE%A9%E8%83%A1%E5%B8%8C%E6%81%95%E8%AE%B2%E4%B9%89.html">
 	<title>bemself: 温病条辨 - 读书摘记 1 - 伤风，方药对症，湿温，汗解，等</title>
 	<link>https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%85%AD%E7%BB%8F%E8%BE%A8%E8%AF%81%E8%A7%A3%E6%B8%A9%E7%97%85%E6%9D%A1%E8%BE%A9%E8%83%A1%E5%B8%8C%E6%81%95%E8%AE%B2%E4%B9%89.html</link>
@@ -425,12 +439,6 @@
 	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-02w.html</link>
 	<content:encoded>周结第三周</content:encoded>
 	<dc:date>2020-01-19T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/git/GIT-Common-Issues.html">
-	<title>bemself: Git - Git 操作问题罗列</title>
-	<link>https://bemself.github.io/git/GIT-Common-Issues.html</link>
-	<content:encoded>持续记录 Git 使用中遇到的各种问题，待后续重拾记忆~</content:encoded>
-	<dc:date>2020-01-17T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
