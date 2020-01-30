@@ -5,8 +5,68 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-01-30T08:43:19+00:00</updated>
+	<updated>2020-01-30T16:43:22+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Python - 在 VSCode 中配置和运行 Jupyter Notebook</title>
+		<link href="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html"/>
+		<id>https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html</id>
+		<updated>2020-01-30T00:00:00+00:00</updated>
+		<content type="html">一直不愿意多使用 Jupyter，因为它是在浏览器中操作。看到 VSCode 支持 Jupyter 后，立即配置使用，现在可方便多了，不需要在 VSCode 和 浏览器之间切换了</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-30T16:43:21+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Python 绘图 - Bokeh 初探</title>
+		<link href="https://bemself.github.io/python/Python-plotting-bokeh.html"/>
+		<id>https://bemself.github.io/python/Python-plotting-bokeh.html</id>
+		<updated>2020-01-30T00:00:00+00:00</updated>
+		<content type="html">一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Bokeh</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-30T16:43:21+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Python - 记录一次用 shutil 复制目录的囧</title>
+		<link href="https://bemself.github.io/python/Python-Copy-Files-Recursively.html"/>
+		<id>https://bemself.github.io/python/Python-Copy-Files-Recursively.html</id>
+		<updated>2020-01-30T00:00:00+00:00</updated>
+		<content type="html">如何将目录中的所有文件（包括子目录）复制到其他路径中？python 有几种方法，分别尝试下。教训是，复制之前最好分析下文件结构，把一些干扰项如 `.git` 过滤掉。</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-01-30T16:43:21+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 405</title>
@@ -356,7 +416,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-29T16:48:14+00:00</updated>
+			<updated>2020-01-30T16:43:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -413,7 +473,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-29T16:48:14+00:00</updated>
+			<updated>2020-01-30T16:43:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -433,7 +493,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-29T16:48:14+00:00</updated>
+			<updated>2020-01-30T16:43:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -453,7 +513,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-29T16:48:14+00:00</updated>
+			<updated>2020-01-30T16:43:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -473,7 +533,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-29T16:48:14+00:00</updated>
+			<updated>2020-01-30T16:43:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -863,7 +923,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-01-29T16:48:14+00:00</updated>
+			<updated>2020-01-30T16:43:21+00:00</updated>
 		</source>
 	</entry>
 

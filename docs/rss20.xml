@@ -8,6 +8,27 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Python - 在 VSCode 中配置和运行 Jupyter Notebook</title>
+	<guid>https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html</guid>
+	<link>https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html</link>
+	<description>一直不愿意多使用 Jupyter，因为它是在浏览器中操作。看到 VSCode 支持 Jupyter 后，立即配置使用，现在可方便多了，不需要在 VSCode 和 浏览器之间切换了</description>
+	<pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: Python 绘图 - Bokeh 初探</title>
+	<guid>https://bemself.github.io/python/Python-plotting-bokeh.html</guid>
+	<link>https://bemself.github.io/python/Python-plotting-bokeh.html</link>
+	<description>一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Bokeh</description>
+	<pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: Python - 记录一次用 shutil 复制目录的囧</title>
+	<guid>https://bemself.github.io/python/Python-Copy-Files-Recursively.html</guid>
+	<link>https://bemself.github.io/python/Python-Copy-Files-Recursively.html</link>
+	<description>如何将目录中的所有文件（包括子目录）复制到其他路径中？python 有几种方法，分别尝试下。教训是，复制之前最好分析下文件结构，把一些干扰项如 `.git` 过滤掉。</description>
+	<pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: Issue 405</title>
 	<guid>http://weekly.pychina.org/issue/issue-405.html</guid>
 	<link>http://weekly.pychina.org/issue/issue-405.html</link>

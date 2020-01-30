@@ -13,6 +13,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-plotting-bokeh.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Copy-Files-Recursively.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-29:/issue/issue-405.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E6%91%98%E8%AE%B0-%E5%85%AD%E7%BB%8F%E8%BE%A8%E8%AF%81%E8%A7%A3%E6%B8%A9%E7%97%85-%E8%83%A1%E5%B8%8C%E6%81%95%E6%B8%A9%E7%97%85%E6%9D%A1%E8%BE%A8%E8%AE%B2%E4%B9%89-(%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6%E4%B9%A6%E7%B3%BB)-%E7%AC%94%E8%AE%B0%E6%9C%AC.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/01/27/LTCreation2/" />
@@ -28,6 +31,24 @@
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html">
+	<title>bemself: Python - 在 VSCode 中配置和运行 Jupyter Notebook</title>
+	<link>https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html</link>
+	<content:encoded>一直不愿意多使用 Jupyter，因为它是在浏览器中操作。看到 VSCode 支持 Jupyter 后，立即配置使用，现在可方便多了，不需要在 VSCode 和 浏览器之间切换了</content:encoded>
+	<dc:date>2020-01-30T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/Python-plotting-bokeh.html">
+	<title>bemself: Python 绘图 - Bokeh 初探</title>
+	<link>https://bemself.github.io/python/Python-plotting-bokeh.html</link>
+	<content:encoded>一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Bokeh</content:encoded>
+	<dc:date>2020-01-30T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/Python-Copy-Files-Recursively.html">
+	<title>bemself: Python - 记录一次用 shutil 复制目录的囧</title>
+	<link>https://bemself.github.io/python/Python-Copy-Files-Recursively.html</link>
+	<content:encoded>如何将目录中的所有文件（包括子目录）复制到其他路径中？python 有几种方法，分别尝试下。教训是，复制之前最好分析下文件结构，把一些干扰项如 `.git` 过滤掉。</content:encoded>
+	<dc:date>2020-01-30T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-405.html">
 	<title>蠎周刊: Issue 405</title>
 	<link>http://weekly.pychina.org/issue/issue-405.html</link>
