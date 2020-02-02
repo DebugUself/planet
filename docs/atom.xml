@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-02-02T08:43:33+00:00</updated>
+	<updated>2020-02-02T16:44:19+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Python 绘图 - Dash</title>
+		<link href="https://bemself.github.io/python/Python-plotting-dash.html"/>
+		<id>https://bemself.github.io/python/Python-plotting-dash.html</id>
+		<updated>2020-02-02T00:00:00+00:00</updated>
+		<content type="html">一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Dash</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-02-02T16:44:19+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">什么是开放社区初探….</title>
@@ -112,7 +132,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -132,7 +152,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -152,7 +172,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -504,7 +524,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -561,7 +581,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -581,7 +601,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -601,7 +621,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -621,7 +641,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
+			<updated>2020-02-02T16:44:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -992,26 +1012,6 @@
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
 			<updated>2020-01-30T00:46:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Map, Filter, Reduce</title>
-		<link href="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html"/>
-		<id>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</id>
-		<updated>2020-01-22T00:00:00+00:00</updated>
-		<content type="html">最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T08:43:32+00:00</updated>
 		</source>
 	</entry>
 

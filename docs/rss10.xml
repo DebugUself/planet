@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-plotting-dash.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-01-31:/200131-what-is-community.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-plotting-bokeh.html" />
@@ -26,11 +27,16 @@
 			<rdf:li rdf:resource="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A63.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python,%20ml,kaggle/ML-Kaggle-Notes4Titanic.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-01-23:/issue/issue-404.html" />
-			<rdf:li rdf:resource="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/Python-plotting-dash.html">
+	<title>bemself: Python 绘图 - Dash</title>
+	<link>https://bemself.github.io/python/Python-plotting-dash.html</link>
+	<content:encoded>一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Dash</content:encoded>
+	<dc:date>2020-02-02T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://blog.zoomquiet.io/200131-what-is-community.html">
 	<title>zoom.quiet: 什么是开放社区初探….</title>
 	<link>https://blog.zoomquiet.io/200131-what-is-community.html</link>
@@ -845,12 +851,6 @@
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-404.md&quot;&gt;issue-404.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2020-01-23T11:19:00+00:00</dc:date>
-</item>
-<item rdf:about="https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html">
-	<title>bemself: Map, Filter, Reduce</title>
-	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
-	<content:encoded>最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</content:encoded>
-	<dc:date>2020-01-22T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>

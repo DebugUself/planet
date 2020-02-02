@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Python 绘图 - Dash</title>
+	<guid>https://bemself.github.io/python/Python-plotting-dash.html</guid>
+	<link>https://bemself.github.io/python/Python-plotting-dash.html</link>
+	<description>一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Dash</description>
+	<pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>zoom.quiet: 什么是开放社区初探….</title>
 	<guid>https://blog.zoomquiet.io/200131-what-is-community.html</guid>
 	<link>https://blog.zoomquiet.io/200131-what-is-community.html</link>
@@ -834,13 +841,6 @@
 &lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-404.md&quot;&gt;issue-404.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Thu, 23 Jan 2020 11:19:00 +0000</pubDate>
-</item>
-<item>
-	<title>bemself: Map, Filter, Reduce</title>
-	<guid>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</guid>
-	<link>https://bemself.github.io/python,%20java,%20lisp/Map-Filter-Reduce.html</link>
-	<description>最早知道 MapReduce 是赶时髦学大数据，后来陆续在各种语言中接触 map, reduce, filter， 一直没有什么感觉， 直到最近才联系起来，原来都一样~</description>
-	<pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
 </item>
 
 </channel>
