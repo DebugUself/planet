@@ -5,8 +5,28 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-02-03T00:45:58+00:00</updated>
+	<updated>2020-02-03T08:43:40+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">My Struggle - 我的自怼周报 2020 04w</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-04w.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-04w.html</id>
+		<updated>2020-02-03T00:00:00+00:00</updated>
+		<content type="html">周结第五周，凌乱愤怒的一周</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-02-03T08:43:40+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Python 绘图 - Dash</title>
@@ -24,7 +44,7 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -283,7 +303,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -303,7 +323,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -323,7 +343,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -675,7 +695,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -693,7 +713,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2020-02-01T08:42:31+00:00</updated>
+			<updated>2020-02-03T08:43:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -712,7 +732,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2020-02-01T08:42:31+00:00</updated>
+			<updated>2020-02-03T08:43:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -732,7 +752,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -752,7 +772,7 @@ NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -935,7 +955,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -955,377 +975,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-02T16:44:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Issue 404</title>
-		<link href="http://weekly.pychina.org/issue/issue-404.html"/>
-		<id>tag:weekly.pychina.org,2020-01-23:/issue/issue-404.html</id>
-		<updated>2020-01-23T11:19:00+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;404 了啊啊啊啊...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/404&quot;&gt;PyCoder's Weekly - Issue #404&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;200115 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;200115 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3372/web&quot;&gt;在N皇后问题上对比 Python, Go 和 C++ (PDF)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PASCAL FUA, &lt;/li&gt;
-&lt;li&gt;KRZYSZTOF LIS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Python currently is the dominant language in the field of Machine Learning but is often criticized for being slow to perform certain tasks. In this report, we use the well-known N-queens puzzle as a benchmark to show that once compiled using the Numba compiler it becomes competitive with C++ and Go in terms of execution speed while still allowing for very fast prototyping.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一则对比&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3371/web&quot;&gt;Codemodding Python: 将 Unittest 断言声明为 Python 断言&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;HANS-WILHELM WARLO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Large codebases require continued maintenance, but it is time-consuming and cumbersome to change portions of code scattered around many files. This article shows how to write codemods to refactor Python code using its Abstract Syntax Tree—gaining far more granular control than basic regex and search-replace.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3390/web&quot;&gt;Arcade: Python 游戏框架入门&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll learn how to use arcade, a modern Python framework for crafting games with compelling graphics and sound. Object-oriented and built for Python 3.6 and up, arcade provides you a modern set of tools for crafting great Python game experiences.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Arcade&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-23-ScreenShot%202020-01-23%2010.21.41.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3386/web&quot;&gt;创建一个简单的 Python Pip 存储库&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JAN-PIET MENS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“I wanted the simplest (i.e. most lightweight) possible repository capable of serving packages in such a way as that Python’s pip would be able to install them.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3370/web&quot;&gt;编写多语言脚本&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NKANAEV.GITHUB.IO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Python and Ruby have somewhat similar syntaxes, could you come up with a program that’s valid in both languages?&lt;/p&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3388/web&quot;&gt;有效运用 Matplotlib&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CHRIS MOFFITT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Now that I have taken the time to learn some of these tools and how to use them with matplotlib, I have started to see matplotlib as an indispensable tool. This post will show how I use matplotlib and provide some recommendations for users getting started”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3387/web&quot;&gt;科学 Python: 用 SciPy 进行优化&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn about the SciPy ecosystem and how it differs from the SciPy library. You’ll learn how to install SciPy using Anaconda or pip and see some of its modules. Then, you’ll focus on examples that use the clustering and optimization functionality in SciPy.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Optimization&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-23-ScreenShot%202020-01-23%2010.19.08.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3384/web&quot;&gt;Python 中的基本数据类型&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this course, you’ll learn the basic data types that are built into Python, like numbers, strings, and Booleans. You’ll also get an overview of Python’s built-in functions.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3385/web&quot;&gt;CPython 中 open() 的意外结果&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JAVIER HONDUVILLA COTO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Misusing Python’s open() and the interaction of CPython’s GC and UNIX semantics can lead to unexpected results.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3380/web&quot;&gt;用 Python 玩得开心&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JAMES BENNETT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Writing obfuscated code for fun and…great learning experiences! ;-)&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;just&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fun&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;最重要了.
-代码混乱并不是问题, 问题是无法持续享受 Python 带来的生产力.
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3382/web&quot;&gt;凡人的 Monads (在 Python)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;KNOWSUCHAGENCY.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Implementing and testing the identity monad in Python.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Monads&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-23-monade.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3392/web&quot;&gt;用 LLVM 和 Arrow 进行 JIT 评估 Pandas Expressions&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CHRISTIAN PERONE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;LLVM 越来越强大了, 可怜的 GCC&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3373/web&quot;&gt;改善 Python 代码的5个重构技巧&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NICK THAPEN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;首先一个建议, 就是移除所有注释...
-老司机的深刻教训哪...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3375/web&quot;&gt;筛选具有多个条件的 Pandas DataFrames&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;VINAY BABU&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3376/web&quot;&gt;关于编写安全的 repr()&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IONEL CRISTIAN MĂRIEȘ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3378/web&quot;&gt;voice-flight-following: 根据 FSX 和 P3D 的位置数据为飞机提醒附近的城市&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/JFAYRE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3394/web&quot;&gt;pypistats: PyPI 下载统计&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PYPISTATS.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;专注系统状态的组织
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3379/web&quot;&gt;Typer: 用 Python 类型提示构建 CLI&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TIANGOLO.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;哈, 复用了 类型声明的形式, 
-来完成 CLI 参数意义的声明, 
-这...好象是对类型系统的误用?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3374/web&quot;&gt;sql2json: 运行 SQL 查询并将结果转换为 JSON&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/FSISTEMAS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3391/web&quot;&gt;python-hunter: 灵活的代码跟踪工具包&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/IONELMC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个灵活的执行追踪工具:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;hunter&quot; src=&quot;https://raw.githubusercontent.com/ionelmc/python-hunter/master/docs/vars-trace.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;只是, 这样对开发是否有帮助?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3395/web&quot;&gt;CrossHair: SMT-辅助 的 Python 测试&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/PSCHANELY &lt;/li&gt;
-&lt;li&gt;• Shared by Phillip Schanely&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;穿过你的黑发的我的测试&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3389/web&quot;&gt;openpilot: 开源驾驶员辅助系统&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/COMMAAI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个驾驶助理系统,&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3383/web&quot;&gt;JustCause: 比较因果推断的方法&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;JUSTCAUSE.READTHEDOCS.IO &lt;/li&gt;
-&lt;li&gt;• Shared by Florian Wilhelm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3396/web&quot;&gt;Speck: 使用 Matplotlib 的艺术线条图像渲染器&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/LUCASHADFIELD &lt;/li&gt;
-&lt;li&gt;• Shared by Lucas Hadfield&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3364/web&quot;&gt;⋅ Python Meeting Düsseldorf&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 23, 2020&lt;/li&gt;
-&lt;li&gt;还是德国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3365/web&quot;&gt;⋅ PythOnRio Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 25, 2020&lt;/li&gt;
-&lt;li&gt;巴西&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3361/web&quot;&gt;⋅ Python Ho Monthly Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 26, 2020&lt;/li&gt;
-&lt;li&gt;加纳&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3359/web&quot;&gt;⋅ Inland Empire Pyladies (CA, USA)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 27, 2020&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3362/web&quot;&gt;⋅ Python Sheffield&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 28, 2020&lt;/li&gt;
-&lt;li&gt;英国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3358/web&quot;&gt;⋅ Heidelberg Python Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 29, 2020&lt;/li&gt;
-&lt;li&gt;德国的正经会议&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3360/web&quot;&gt;⋅ PiterPy Breakfast&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;January 29, 2020&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;专注早餐的会议&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3357/web&quot;&gt;⋅ SPb Python Drinkup&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;January 30, 2020&lt;/li&gt;
-&lt;li&gt;俄国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;可以喝高的会议
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3368/web&quot;&gt;⋅ PyCascades (10% Discount)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;February 8th &amp;amp; 9th in Portland, &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;OR. Get a 10% discount on your ticket courtesy of PyCoder’s with this link.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;有个 OR 的会议...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;5py ;-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
-&lt;span class=&quot;mf&quot;&gt;20.2.20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
-&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3100/web&quot;&gt;从1965年到2019年，最受欢迎的编程语言 (动画)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TWITTER.COM/MARCUSBORBA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;网红小视频也出现了...&lt;/p&gt;
-&lt;p&gt;最后3秒, Python 疯狂反转一切.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h1&gt;是也乎&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 3901&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-404.html&quot;&gt;Issue 404 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-404.md&quot;&gt;issue-404.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-03T00:45:32+00:00</updated>
+			<updated>2020-02-03T08:43:40+00:00</updated>
 		</source>
 	</entry>
 
