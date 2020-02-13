@@ -5,8 +5,476 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-02-12T16:46:03+00:00</updated>
+	<updated>2020-02-13T00:45:05+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Issue 407</title>
+		<link href="http://weekly.pychina.org/issue/issue-407.html"/>
+		<id>tag:weekly.pychina.org,2020-02-12:/issue/issue-407.html</id>
+		<updated>2020-02-12T02:42:00+00:00</updated>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Guido 老爹义劝如何正确为 Python 提贡献&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/407&quot;&gt;PyCoder's Weekly - Issue #407&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200205 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200205 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3535/web&quot;&gt;通过比较流行的项目模板了解 Python 工具的最佳实践&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JONAS KEMPER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Use Flake8, pytest, and Sphinx in your current Python project. Also evaluate pre-commit, black, and Pylint. For your next project, consider adding poetry and Dependabot.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;老爹对结果呛声指点更加实在的...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@gvanrossum&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3534/web&quot;&gt;用 Python 播放和录制声音&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You’ll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Sound&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-02-12-ScreenShot%202020-02-12%2010.28.58.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;其实吧, 通过 shell 调用专业工具来完成实际工作就好.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3527/web&quot;&gt;由 SQL 理解 Django 中的 GROUP BY&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;HAKI BENITA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Understand GROUP BY in Django ORM by comparing QuerySets and SQL side by side. If SQL is where you are most comfortable, this is the Django GROUP BY tutorial for you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3548/web&quot;&gt;用 Python 对自定义着色器的电视背光补偿&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PEKKA VÄÄNÄNEN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Extending a broken TV’s lifetime with Python code and some custom shaders. Impressive!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3553/web&quot;&gt;将Mypy应用于实际项目&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CAL PATERSON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hints and tips for getting started with Mypy and introducing it to existing projects.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3526/web&quot;&gt;Virtualenv 20.0 发布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYPA.IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3540/web&quot;&gt;用 NSA 来学习 Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TWITTER.COM/CHRIS_SWENSON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“I put in a FOIA request to the NSA for their Python training materials and got back a 400-page printout of their COMP 3321 training course. So, I scanned and OCR’d it. Here is a PDF (warning: 118 MB)”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;神人, 直接搞到了 国安内部的 Python 学习资料并 OCR 共享了出来;&lt;/p&gt;
+&lt;p&gt;然后万能的网友们友好的指出,早已在 github 发布出来了&lt;/p&gt;
+&lt;p&gt;github.com/NationalSecurityAgency/ghidra&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3524/web&quot;&gt;开始为 CPython 做贡献&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GUIDO VAN ROSSUM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;老爹终于忍不住了, 用 Dropbox 的只读文档形式发布指导:&lt;/p&gt;
+&lt;p&gt;想为 CPython 贡献?&lt;/p&gt;
+&lt;p&gt;首先得懂 C(真正的懂那种), 其次得会 git/github, 然后至少10年 Python 经验;&lt;/p&gt;
+&lt;p&gt;并强调了真相: 你将更多的在 CLI 中工作, 别想着什么 GUI 的东西了...
+以及, 文档真的都在过时, 别太相信丫们, 及时寻求帮助是好的;&lt;/p&gt;
+&lt;p&gt;现在有 7000+ 提案, 选择一个适合自己的开始, 然后, 才可能有然后.&lt;/p&gt;
+&lt;p&gt;标准协同流程就是 github 的 pull-request 流程, 得用对, 否则, 只会难为到自己.&lt;/p&gt;
+&lt;p&gt;老爹自己应该工件在 mac 中, 所以, 给出的编译过程就是用 XCode 进行的,
+只是, 吐糟-&amp;gt; 一定有各种意外,
+比如 openssl 在 macOS 中并不是默认配置.&lt;/p&gt;
+&lt;p&gt;以及, 千万别用 虚拟环境来编译, 都是坑.&lt;/p&gt;
+&lt;p&gt;有队友增补了 VSCode 中调试技巧,&lt;/p&gt;
+&lt;p&gt;最后, 老爹推荐了几个 C代码调试工具:&lt;/p&gt;
+&lt;p&gt;首先当然是简单的 &lt;code&gt;printf()&lt;/code&gt;;&lt;/p&gt;
+&lt;p&gt;然后是GDB (Linux)/lldb (Mac), Windows 中就蒙了...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以说, 对 Python 这种不小的综合工程, 想进入核心开发, 所要求的技术储备看起来并不多,
+也就2页纸的样子;
+但是, 其实, 每一项都得经过艰苦/长期的努力, 才可能自如的;
+但是, 想想当年, 老爹可真的就是单枪匹马, 独自撸出来的, 
+现在, 有这么多现成工具/资料/社区可依赖了, 当然也可以哈.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3522/web&quot;&gt;用 Python 构建 macOS 状态栏应用 (蕃茄钟)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CAMILLO VISINI &lt;/li&gt;
+&lt;li&gt;• Shared by Camillo Visini&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“On my Mac, I use the menu bar countless times per day. In this post we will go through the process of creating a custom macOS menu bar app using Python.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;macOS 环境, 总是能吸引各种精巧的实现形式,
+关键内置的自动化项目, 可以不依赖任何第三方开发库, 就能完成各种事务,
+问题是:&lt;/p&gt;
+&lt;p&gt;为什么是 Apple 公司一直在力图营造对程序猿友好的环境?&lt;/p&gt;
+&lt;p&gt;用 &lt;a href=&quot;https://github.com/jaredks/rumps&quot;&gt;jaredks/rumps&lt;/a&gt; 构造状态栏工具;
+用 &lt;a href=&quot;https://py2app.readthedocs.io/en/latest/&quot;&gt;py2app&lt;/a&gt; 来自动基于 Python 脚本生成 mac 应用;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3543/web&quot;&gt;在 Python 中实现接口&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial, you’ll explore how to use a Python interface. You’ll come to understand why interfaces are so useful and learn how to implement formal and informal interfaces in Python. You’ll also examine the differences between Python interfaces and those in other programming languages.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Interface&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-02-12-ScreenShot%202020-02-12%2009.56.19.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;给自身以及其它语言构建友好的界面.
+类的狂欢.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3549/web&quot;&gt;SciPy 1.0: Python 中科学计算的基本算法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NATURE.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3551/web&quot;&gt;用赋值表达式防止重复&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;BRETT SLATKIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An assignment expression—also known as the walrus operator—is a new syntax introduced in Python 3.8 to solve a long-standing problem with the language that can cause code duplication.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3542/web&quot;&gt;Python 命令行参数解&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python command line arguments are the key to converting your programs into useful and enticing tools that are ready to be used in the terminal of your operating system. In this step-by-step tutorial, you’ll learn their origins, standards, and basics, and how to implement them in your program.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;REALpy&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-02-12-ScreenShot%202020-02-12%2009.45.57.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;其实, CLI 指令这么复杂, 并不能解决易用性问题:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Arguments&quot; src=&quot;https://files.realpython.com/media/python_blue.37b9170f4345.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;所以, RESTful 思路也是一个可选择项哪.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3545/web&quot;&gt;并行蓝调: 当代码变慢时&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ITAMAR TURNER-TRAURING&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“As it turns out, for certain operations NumPy will parallelize operations transparently. And if you’re not careful, this can actually slow down your code.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Blues 音乐本质就是哀伤...
+代码变慢慢的本质也是...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3525/web&quot;&gt;sys.getsizeof 不是您想要的&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;NED BATCHELDER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“sys.getsizeof is almost never what you want, for two reasons: it doesn’t count all the bytes, and it counts the wrong bytes.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;所以, 编程自古以来最大的难题, 也可能是无解的难题就是:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;如何起个好名字&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;也许只有 &lt;code&gt;七枝桶&lt;/code&gt; 文字,才能真正承载永远正确的命名.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3539/web&quot;&gt;Python asyncio and await -ing 多种功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ERIC URBAN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to call await on multiple functions in Python using the asyncio package.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3523/web&quot;&gt;在 Kaggle 竞赛中作弊 (A Post-Mortem)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;KAGGLE.COM &lt;/li&gt;
+&lt;li&gt;• Shared by Python Bytes FM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Kaggle 也是个奇迹,
+以纯粹的竞赛组织,只是附加上了开源共同体的气质,
+就变成了全球 AI 代码黑洞,
+所有先进思想/模块, 都首先在此展示/传播/学习...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;赛末点&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3555/web&quot;&gt;用 YAPF 自动格式化 Python 代码&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LEI MAO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3529/web&quot;&gt;如何用 Python 检查文件是否为有效图像&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MIKE DRISCOLL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;鼠与蟒&lt;/code&gt; 这个网站一直非常有爱,
+撰写的一系列小书更加有爱,
+再次推荐.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3537/web&quot;&gt;hydra: 用于配置复杂应用程序的框架&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/FACEBOOKRESEARCH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕见 &lt;code&gt;海德拉&lt;/code&gt; 好名儿太难得,
+但是,也不能反复用哪&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3532/web&quot;&gt;cookiecutter-data-science: 执行/共享数据科学工作的项目模板&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/DRIVENDATA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3541/web&quot;&gt;pytorch3d: 用于3D数据的深度学习的可重用组件&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/FACEBOOKRESEARCH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;3D 模型本身就是数学生成的,
+对这种空间意义进行深度学习,
+那不就是对 3D 网络游戏可以进一步理解和控制-&amp;gt;自动生成?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3544/web&quot;&gt;Diagrams: 用 Python 代码生成系统架构图&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/MINGRAMMER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diagrams&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Diagram&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diagrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diagrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RDS&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;diagrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;network&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ELB&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Diagram&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Web Service&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ELB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;lb&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;web&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RDS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;userdb&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;即可生成:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Diagrams&quot; src=&quot;https://diagrams.mingrammer.com/img/web_service_diagram.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;基于 &lt;a href=&quot;https://www.graphviz.org/&quot;&gt;Graphviz&lt;/a&gt; ,
+但是, 用 Py 脚本形式, 快速生成漂亮的示意图,
+果断粉上;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3554/web&quot;&gt;opnieuw: 通用重试库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/CHANNABLE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;简洁的重试机制支持, 
+来提高系统可靠性...&lt;/p&gt;
+&lt;p&gt;嗯哼? 系统可能性就这么简单可以提高了?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3550/web&quot;&gt;Celery Director:用 Celery 管理任务和构建工作流&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/OVH &lt;/li&gt;
+&lt;li&gt;• Shared by Nicolas Crocfer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又见芹菜馅儿的好物&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3531/web&quot;&gt;donkeycar: 小型自动驾驶汽车平台&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/AUTOROPE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;donkeycar&quot; src=&quot;https://github.com/autorope/donkeycar/raw/dev/docs/assets/build_hardware/donkey2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;包含硬件的全套自动驾驶系统.&lt;/p&gt;
+&lt;p&gt;纯Python 完成.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3533/web&quot;&gt;⋅ PyCon Namibia 2020&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 18 to February 21, 2020&lt;/li&gt;
+&lt;li&gt;纳米比亚&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3538/web&quot;&gt;⋅ Open Source Festival Africa&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 20 to February 23, 2020&lt;/li&gt;
+&lt;li&gt;非洲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3521/web&quot;&gt;⋅ PyCon Belarus 2020&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 21 to February 23, 2020&lt;/li&gt;
+&lt;li&gt;白俄罗斯&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;5py &lt;/li&gt;
+&lt;li&gt;报名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;第五期已经开始报名:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.24&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.4.12&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/2019ncovmemory/nCovMemory&quot;&gt;2020新冠肺炎记忆&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;github.com/2019ncovmemory/nCovMemory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;报道、非虚构与个人叙述（持续更新） Memory of 2020 nCov: Media Coverage, Non-fiction Writings, and Individual Narratives (Continuously updating)&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可能是最考验 M$ 政府关系能力的项目,
+这个开源新闻实录项目,
+综合使用现有工具, 快速将 NCP 历史, 用普遍人的目光固化在版本历史海洋中,
+但是,万一呢? 期望大家及时, 自觉分散 clone 到全球每一个硬盘中,
+42年后, 我们才可能有真实的 snap 来回顾.&lt;/p&gt;
+&lt;p&gt;项目结构&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;archive&lt;/span&gt;                          &lt;span class=&quot;err&quot;&gt;文章的存档，目前提供&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jpg&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;格式&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;└─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jpg&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;    &lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jpg&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;    &lt;span class=&quot;err&quot;&gt;└─&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;                             &lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;格式的文章数据&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;└─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docs&lt;/span&gt;                             &lt;span class=&quot;err&quot;&gt;一个用于展示&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;README&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Github&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Page&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;template&lt;/span&gt;                         &lt;span class=&quot;n&quot;&gt;README&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;模板&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;└─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;README&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;handlebars&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;utils&lt;/span&gt;                            &lt;span class=&quot;err&quot;&gt;构建&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;README&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的工具&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;├─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;generateReadmeFromCsv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;└─&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;└─&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;README&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;                        &lt;span class=&quot;err&quot;&gt;主文档&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;)&lt;/p&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 3921&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-407.html&quot;&gt;Issue 407 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-407.md&quot;&gt;issue-407.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2020-02-13T00:43:30+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">新冠肺炎 出门打仗</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/mind-tense.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF/mind-tense.html</id>
+		<updated>2020-02-12T00:00:00+00:00</updated>
+		<content type="html">记录我神经质的出门过程</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-02-13T00:45:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">My Struggle - 我的自怼周报 2020 05w</title>
+		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-05w.html"/>
+		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-05w.html</id>
+		<updated>2020-02-12T00:00:00+00:00</updated>
+		<content type="html">周结第六周，凌乱愤怒无助的一周</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-02-13T00:45:05+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 435</title>
@@ -178,7 +646,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-10T08:45:23+00:00</updated>
+			<updated>2020-02-13T00:43:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -477,27 +945,27 @@ PyYAML(越来越常用的);&lt;/p&gt;
 &lt;p&gt;叕一个 gif 动画制造工具, 嗯哼, 这 logo 非常亲切了&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;tornado&quot; src=&quot;https://raw.githubusercontent.com/maxhumber/gif/master/examples/tornado.gif&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;使用也非常简单:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;gif&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gif&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyplot&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
 
-&lt;span class=&quot;nd&quot;&gt;@gif.frame&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scatter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ylim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scatter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ylim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;正常定义好一帧 plt 图片, 然后指定范围自动化生成就好, 比如:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;frames&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;frames&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;frames&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -585,9 +1053,9 @@ PyYAML(越来越常用的);&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;第五期已经开始报名:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;mf&quot;&gt;20.2.20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.3.1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;20.4.12&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;按时结束&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -618,7 +1086,7 @@ PyYAML(越来越常用的);&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-10T08:45:23+00:00</updated>
+			<updated>2020-02-13T00:43:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -627,7 +1095,7 @@ PyYAML(越来越常用的);&lt;/p&gt;
 		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-04w.html"/>
 		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-04w.html</id>
 		<updated>2020-02-03T00:00:00+00:00</updated>
-		<content type="html">周结第五周，凌乱愤怒的一周</content>
+		<content type="html">周结第五周</content>
 		<author>
 			<name>My Struggle</name>
 			<email>doituself@outlook.com</email>
@@ -638,658 +1106,7 @@ PyYAML(越来越常用的);&lt;/p&gt;
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-03T08:43:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Python 绘图 - Dash</title>
-		<link href="https://bemself.github.io/python/Python-plotting-dash.html"/>
-		<id>https://bemself.github.io/python/Python-plotting-dash.html</id>
-		<updated>2020-02-02T00:00:00+00:00</updated>
-		<content type="html">一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Dash</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-03T08:43:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">pythonista-weekly : Pyw 434</title>
-		<link href="http://weekly.pychina.org/python-weekly/pyw-434.html"/>
-		<id>tag:weekly.pychina.org,2020-02-01:/python-weekly/pyw-434.html</id>
-		<updated>2020-02-01T02:16:00+00:00</updated>
-		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第434期。Let us start!&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-434&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-434&lt;/a&gt;&lt;br /&gt;
-翻译：Dustyposa&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。&lt;a href=&quot;https://www.datadoghq.com/dg/apm/ts-python-error-tracking/?utm_source=Advertisement&amp;utm_medium=Advertisement&amp;utm_campaign=PythonWeekly-ErrorTshirt&quot;&gt;马上跟踪你的python应用吧！免费试用14天哦！&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;文章、教程与话题&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://engineering.linkedin.com/blog/2020/how-we-retired-python-2-and-improved-developer-happiness&quot;&gt;我们是如何让Python2退役并提高开发者幸福感的&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在2018年，&lt;code&gt;Linkedln&lt;/code&gt;开始了几个季度的努力来完全过渡到&lt;code&gt;Python 3&lt;/code&gt;代码库。经过大概两个季度的计划和两个季度的执行，我们在新产品及就产品中逐步的放弃了&lt;code&gt;Python2&lt;/code&gt;的使用。过渡由我们的&lt;code&gt;Python&lt;/code&gt;基金会团队领导，多个团队和部门扮演着不可或缺的角色，以确保过渡的相对平稳性。总的来说，这项工作需要迁移大约550个代码库(库、应用程序和服务)。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;迁移之后让人更幸福！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/&quot;&gt;71个用于日常问题的Python代码段&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;通常你谷歌的一切东西都能在这个列表中发现。向日益增多的日常问题Python代码片段列表问声好吧。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;好好好，我来了！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nanonets.com/blog/receipt-ocr/&quot;&gt;利用OCR和深度学习实现收据数字化自动化&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;收据数字化解决了从收据中自动提取信息的问题。这篇文章覆盖了收据数字化的理论，并使用了&lt;code&gt;OpenCV and Tesseract&lt;/code&gt;实现了端到端的中间件。并介绍了一些重要的使用深度学习实现收据数字化的论文。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://adamj.eu/tech/2020/01/22/djangos-field-choices-dont-constrain-your-data/&quot;&gt;Django's 选择字段不会限制你的数据&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这篇文章是一篇&lt;code&gt;PSA&lt;/code&gt;，关于&lt;code&gt;Django&lt;/code&gt;中一些不直观的&lt;code&gt;Field.choices&lt;/code&gt;工作方式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.valentinog.com/blog/django-project/&quot;&gt;如何从模版中创建一个&lt;code&gt;Django&lt;/code&gt;项目&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当默认的&lt;code&gt;Django&lt;/code&gt;项目不再够用时，&lt;code&gt;Django&lt;/code&gt;项目的模版依然是最合适的解决方案。在这篇教程中学习如何做你自己的项目模版。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2连Django&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://tirkarthi.github.io/programming/2020/01/27/python-39-changes.html&quot;&gt;Python 3.9 兼容性改变&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;随着&lt;code&gt;Python 2&lt;/code&gt;的&lt;code&gt;EoL&lt;/code&gt;与&lt;code&gt;Python 3.9&lt;/code&gt;的开发保持一致，对&lt;code&gt;Python 3.9&lt;/code&gt;所做的一些更改破坏了大量的包，因为许多弃用警告变成了错误。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;早改晚改，迟早要改。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://hubs.ly/H0mGnnr0&quot;&gt;帮助IT管理AI/ML生态系统&lt;/a&gt;
-了解戴尔和&lt;code&gt;Domino&lt;/code&gt;如何创建了一种令人耳目一新的简单方法来帮助公司获得他们需要的数据科学团队和技术，并以一种易于扩展的方式更快地运行。SPONSOR&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/o1YigyMmWq&quot;&gt;Jupyter Notebooks in the IDE&lt;/a&gt;&lt;/strong&gt; 
-Visual Studio Code vs PyCharm.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;你站哪边？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://zacs.site/blog/linear-python.html&quot;&gt;Python中的顺序任务，多进程以及IO绑定的多线程任务&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Python&lt;/code&gt;让并发变得更简单了。只需要花很少的时间就能给我的博客引擎增加多进程。在第一次体验之后，我就经常使用了。每个人都喜欢称过早的优化为万恶之源，但是从一开始就设计并发执行的程序节省了我数百小时的大数据抓取及项目处理的时间。有一点&lt;code&gt;Knuth&lt;/code&gt;的怀疑？这篇文章比较了顺序执行，多进程以及多线程用于&lt;code&gt;Python&lt;/code&gt;中&lt;code&gt;IO绑定&lt;/code&gt;的任务，附带简单的代码示例。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python&quot;&gt;如何开始使用Python中的Requests库&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在许多&lt;code&gt;web apps&lt;/code&gt;中，使用&lt;code&gt;API&lt;/code&gt;连接到各种第三方服务是很正常的。你也可以使用&lt;code&gt;API&lt;/code&gt;向你的&lt;code&gt;app&lt;/code&gt;添加功能。在这篇文章中，我们将学习允许你在&lt;code&gt;Python&lt;/code&gt;发送&lt;code&gt;HTTP&lt;/code&gt;请求的&lt;code&gt;Python Requests&lt;/code&gt;库。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;除开原理，用法的话，官方文档也不错。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb&quot;&gt;是什么让“XGBoost”如此 Extreme？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;你曾问过&lt;code&gt;&quot;XGBoost&quot;&lt;/code&gt;是如何工作的？&lt;code&gt;&quot;XGBoost&quot;&lt;/code&gt;与梯度下降有什么不同？或者甚至&lt;code&gt;Python&lt;/code&gt;中一个简单的示例。如果有过，那么你就来对了地方。&lt;code&gt;&quot;Xgboost&quot;&lt;/code&gt;是用于表格数据的最强大的机器学习工具之一。它在学习非线性决策边界方面的效率和性能使其成为行业和学术界的必备品。所以是什么让这个算法如此特殊呢？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;应用最广的算法之一。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/rmoKRqewOY&quot;&gt;使用Plotly进行交互式篮球数据可视化&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用Plotly和Plotly Express及&lt;code&gt;hexbin shot&lt;/code&gt;图分析和气泡图体育数据。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;大家都喜欢 Plotly 了？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/QtmYmA7dl0&quot;&gt;使用Python创建动画图像&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;没有&lt;code&gt;Photoshop&lt;/code&gt;?那都不是事！学习在&lt;code&gt;Python&lt;/code&gt;中从一个静态图片列表中或者视频中创建动画图像是多么简单的事。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;No PS, Use Python.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.haardiek.org/plotting-sentinel-5p-data&quot;&gt;绘制Sentinel 5P数据&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://adamj.eu/tech/2020/01/27/moving-to-django-3-field-choices-enumeration-types/&quot;&gt;移动到Django 3.0's Field.choices 枚举类型&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sourcesort.com/interview/sebastian-ramirez-fastapi&quot;&gt;从想法和经验中诞生的FastAPI&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;万物皆对象，万物皆可验。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://snarky.ca/a-quick-and-dirty-guide-on-how-to-install-packages-for-python/&quot;&gt;关于如何安装Python包的快速入门指南&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://faizanbashir.me/building-python-data-science-container-using-docker-c8e346295669&quot;&gt;使用Docker创建Python数据科学容器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://ianwhitestone.work/AWS-Serverless-Deployments-With-Github-Actions/&quot;&gt;用Github Actions 进行Python无服务部署&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://medium.com/telnyx-engineering/rip-pipenv-tried-too-hard-do-what-you-need-with-pip-tools-d500edc161d4&quot;&gt;RIP Pipenv: Tried Too Hard. Do what you need with pip-tools.&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;有趣的项目、工具和库&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/autorope/donkeycar&quot;&gt;donkeycar&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用于打造小型自驾汽车开源软硬件平台。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;犹豫就会败北，快来玩一玩。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/luigifreitas/CyberRadio&quot;&gt;CyberRadio&lt;/a&gt;&lt;/strong&gt;
-基于软件无线电的桌面调频调幅收音机。用&lt;code&gt;# cuSignal&lt;/code&gt;和&lt;code&gt;Numba&lt;/code&gt;加速。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/firmai/pandapy&quot;&gt;PandaPy&lt;/a&gt;&lt;/strong&gt;
-&lt;code&gt;PandaPy&lt;/code&gt;拥有&lt;code&gt;NumPy&lt;/code&gt;的速度和&lt;code&gt;Pandas&lt;/code&gt;的高可用性(快10到50倍)。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;各取所长。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/visionml/pytracking&quot;&gt;PyTracking&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;基于&lt;code&gt;PyTorch&lt;/code&gt;,一个用于训练和运行视觉对象跟踪器的通用python框架。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Mebus/cupp&quot;&gt;CUPP&lt;/a&gt;&lt;/strong&gt;
-通用用户密码分析器。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/nficano/yakutils&quot;&gt;Yakutils&lt;/a&gt;&lt;/strong&gt; 
-&lt;code&gt;Yakutils&lt;/code&gt;是&lt;code&gt;Python&lt;/code&gt;助手函数的又一个工具箱。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/cryzed/TrafficToll&quot;&gt;TrafficToll&lt;/a&gt;&lt;/strong&gt;
-NetLimiter-like traffic shaping for Linux.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/tenzir/threatbus&quot;&gt;ThreatBus&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;连接开源威胁情报工具的缺失环节。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/facebookresearch/pytorch3d&quot;&gt;PyTorch3D&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;PyTorch3d&lt;/code&gt;是&lt;code&gt;FAIR&lt;/code&gt;的可重用组件库，用于使用3D数据进行深度学习。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/hakanu/pervane&quot;&gt;Pervane&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;基于纯文本文件的笔记和知识库建设工具。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;个人笔记也可以试一试。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/CASES-LU/MOSP&quot;&gt;MOSP&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一个用于创建，编辑和分享&lt;code&gt;JSON&lt;/code&gt;对象的平台。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/square/pysurvival/&quot;&gt;PySurvival&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;PySurvival&lt;/code&gt;是一个开源的&lt;code&gt;Python包&lt;/code&gt;，可用于生存分析建模-用于分析或预测事件何时可能发生的建模概念。&lt;/p&gt;
-&lt;h2&gt;最近更新&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pandas.pydata.org/pandas-docs/version/1.0.0/whatsnew/v1.0.0.html&quot;&gt;Pandas 1.0.0&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是0.25.3的主要版本，包括许多API更改，新功能，增强功能和性能改进，以及大量的错误修复。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;1.0终于来了！成长速度棒棒。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;活动和网络研讨会日程&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/nycpython/events/265569547/&quot;&gt;New York Python Meetup February 2020 Meetup - New York, NY&lt;/a&gt;
-将会有以下的话题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Python并发&lt;/li&gt;
-&lt;li&gt;Benford's Law using pandas/numpy, or, Math-is-Fun-with-Python&lt;/li&gt;
-&lt;li&gt;用于生产环境的uWSGI配置 : 默认的都是错误的。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/dfwpython/events/sbnhmqybcdbjb/&quot;&gt;DFW Pythoneers February 2020 Meetup - Plano, TX&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Posa：&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;新年快乐，中国加油。&lt;/p&gt;
-&lt;p&gt;----- 分割线 -----&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-434.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23434.md&quot;&gt;issue-434.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-10T08:45:23+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">什么是开放社区初探….</title>
-		<link href="https://blog.zoomquiet.io/200131-what-is-community.html"/>
-		<id>tag:blog.zoomquiet.io,2020-01-31:/200131-what-is-community.html</id>
-		<updated>2020-01-31T08:42:24+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;_1&quot;&gt;背景&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_1&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://shimo.im/docs/KWxwgtpwGQxYv6Gw&quot;&gt;鼠年话开源-系列主题网聊&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;第6夜是俺发起的议题&lt;/li&gt;
-&lt;li&gt;没想到是个错误的议题, 几句聊明白后&lt;/li&gt;
-&lt;li&gt;引发出更加有意思的讨论…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;_2&quot;&gt;触发&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_2&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;其中追本溯源的灵魂一问, 导入一本奇书中的论述&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span class=&quot;quo&quot;&gt;‘&lt;/span&gt; 姜宁: https://github.com/open-organization-ambassadors/open-org-workbook/blob/master/open_org_workbook_1_1_5.pdf   222 页有一篇文章 community和open source community的论述,大家可以参考一下. ‘&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;span class=&quot;quo&quot;&gt;‘&lt;/span&gt; 姜宁: 里面提到一个概念,就是Open Communities 也不是绝对的Open . ‘&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;span class=&quot;quo&quot;&gt;‘&lt;/span&gt; 姜宁: open communities are a broader implementation of open source communities. ‘&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;_3&quot;&gt;快译&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_3&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;尝试将要点翻译一下…&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;什么是社区? …以往…现在互联网社区越来越重要…&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;“&lt;/span&gt;社区”是指关系;它是成员与其共享的价值和活动系统之间的连接媒介. 换句话说,这是人员,工具和其他元素相互联系和互动的方式. 这一点很重要. 社区不仅仅是一群无定形的人…&lt;/p&gt;
-&lt;p&gt;什么是开放社区?&lt;/p&gt;
-&lt;p&gt;-&amp;gt; 专门指开源技术社区了…其次,这些社区产生的源代码是”开放的”,这意味着社区和公众都可以使用和修改它. &lt;/p&gt;
-&lt;p&gt;进一步的, 开源技术社区也只是开放社区首批实例化的社区…&lt;/p&gt;
-&lt;p&gt;以往是专有软件为王, 现在开源软件在兴起…&lt;/p&gt;
-&lt;p&gt;更简单地讲,开放社区发展所遵循的共同价值观和信念不仅与它所做的事情有关,而且还与它如何做事有关. &lt;/p&gt;
-&lt;p&gt;功勋主义 是很多开源社区的核心价值观…&lt;/p&gt;
-&lt;p&gt;开放社区主要通过成员的参与进行管理,而不是由指定的社区主持人进行管理(尽管可能有一个社区主持人,其作用是根据社区的精英和其他价值观来调解纠纷或进行适度的讨论). 
-所有成员的参与都是为了使社区的目标和行为社会化. 例如,在开放社区中,围绕”协作”,”多样性”,”适应性”,”透明性”或”功勋”的价值观形成,所有成员都有责任防止和报告骚扰或任何可能破坏这些骚扰的行为价值观. &lt;/p&gt;
-&lt;h2 id=&quot;_4&quot;&gt;反思&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_4&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;6年前私人偏见是这样的:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://devrel.101.camp/2014-02/ac2-tech-community/&quot;&gt;关 乎社群:2 什么是技术社区? | DevRel | 开发者关系.思考&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;今天, 从开源技术社区开始, 逐渐获得社会认可, 进而衍生出更加宽泛的开放社区;
-对比开源技术社区, 相同的是:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;核心目标作品&lt;/li&gt;
-&lt;li&gt;开放/对等/主动的协作机制&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;问题是, 国外学术界/商界都在积累观察/参与/讨论/分析/…开源引发的开放社区协作…&lt;/p&gt;
-&lt;p&gt;而中国互联网全员关注的只是 996 福报…&lt;/p&gt;
-&lt;p&gt;那么, 作为微小的个人, 可以为之作什么?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;发起/运营/参与/服务各种开放社区&lt;/li&gt;
-&lt;li&gt;积累贡献经验, 观察/总结中国式协作技巧&lt;/li&gt;
-&lt;li&gt;切实通过实践影响到具体的一个个人&lt;/li&gt;
-&lt;li&gt;慢慢的, 传递开来, 就能形成切实的影响力以及组织/团体/社区/共同体/…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;_5&quot;&gt;原文&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_5&quot; title=&quot;Permanent link&quot;&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/open-organization-ambassadors/open-org-workbook/&quot;&gt;open-organization-ambassadors/open-org-workbook: Repository for open organization community’s workbook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;p222~224&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Introduction:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;What is community?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Heidi Hess von Ludewig&lt;/p&gt;
-&lt;p&gt;The term “community” refers to a sense of shared ownership and purpose that generates relationships of goodwill and fel- lowship between the members of a social network.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;“&lt;/span&gt;A community” is a speci c social network united according to shared values, beliefs, and goals. In recent years (and especially since the widespread adoption of internet technologies and appli- cations), the term “community” has taken on renewed importance. Communities exist wherever people can connect—face-to-face, in shared space, or even virtually, through analog or digital media (like as ham or &lt;span class=&quot;caps&quot;&gt;CB&lt;/span&gt; radio) or social networking applications (like Facebook). Social communities often center around religion, poli- tics, culture, geographical location, or interests. In professional and business realms, communities can be comprised of members who have similar knowledge, professions, or work roles (for in- stance, software coding, lawyers, or project managers). Research on communities has found that they provide support, enlarge net- works by enabling weak and strong network ties, disseminate information, and provide education and mentorship.&lt;/p&gt;
-&lt;p&gt;But they do something else, too: Communities de ne modes of behavior, beliefs, and roles, and in this way foster relationships between people. “Community” refers to the relationships; it is the connective medium between members and their shared value and activity systems. In other words, it’s the way that people, tools, and other elements relate and engage with one another. This point is important. Communities are not just amorphous globs of people&lt;/p&gt;
-&lt;p&gt;stuck together with some beliefs; they consist of relationships that develop between and among community members and elements. Those relationships are what constitute the community; the rela- tionships make possible the feeling of fellowship and positive association between members, the activities they perform, and the way they perform them.&lt;/p&gt;
-&lt;p&gt;Communities—how they’re constructed, the tools they use, how they operate—in uence the ways members connect (how they develop relationships between each other and establish relation- ships to the community at large), and the community purpose and value system is the reason those members connect. In this sense, then, the reason a community exists, how it decides to design and structure itself, the tools it decides to use, the information it dis- plays to instruct and guide members, and the people who join and participate in the community are all important considerations in building an open community, because each of these factors in u- ences the others.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What are open communities?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;So-called “open communities” are an o shoot of open source software communities. The term “open” in “open source commu- nity” has dual meanings. First, in open source communities, community participation is “open,” meaning that anyone can join the community and participate in its activities. Second, the source code these communities produce is “open,” meaning that both the community and the general public can use and modify it.&lt;/p&gt;
-&lt;p&gt;At the time open source communities were created, “open” was a very new concept—one in direct opposition to prevailing wis- dom in the software industry, where proprietary software (creation, use, and access controlled by the owners of the intellectual prop- erty) was predominant. Open source communities, therefore, were among the  rst enactment of open communities and were focused on creating software. Today, however, open communities are a broader implementation of open source communities.&lt;/p&gt;
-&lt;p&gt;While all communities function in ways that align with the beliefs and values of the group, some are more explicit and deliberately re exive about the values that guide their operation. Open communities are one example of this approach to community; they concern themselves with how a community should operate. In this way, open communities foster a particular kind of relationship and bond between its members, and—in the truest sense—encourage the development of specialized activities that are supportive of its values and beliefs. More simply, the shared values and beliefs around which an open community develops has to do not only with what it does but how it does what it does.&lt;/p&gt;
-&lt;p&gt;For example, at the heart of many open communities is the value of “meritocracy,” which members invoke to stress evaluation of ideas and work based on the intrinsic value of the work to the community and not on the value of the people performing the activ- ity. Other key attributes of an open community are transparency, inclusivity, adaptability, and collaboration. These shared qualities help spur the self-organizing nature of an open community. The rel- ative level of a community’s degree of inclusivity, adaptability, collaboration and transparency determines that community’s de- gree of “openness.”&lt;/p&gt;
-&lt;p&gt;Open communities are managed predominantly through members’ participation, rather than by a designated community moderator (though there may be a community moderator whose role is intended to mediate disputes or moderate discussions based on the meritocracy and other values of the community). All mem- bers participate in order to socialize the goals and behaviors of the community; for instance, in open communities are formed around values like “collaboration,” “diversity,” “adaptability,” “trans - parency,” or “meritocracy,” all members are responsible for preventing and reporting harassment or any behavior that might negate these values.&lt;/p&gt;
-&lt;p&gt;Since open communities are especially concerned with how they operate, they are often able to use their shared values to in- form decision-making practices and evaluate contributions. Members therefore possess a common language for working to- gether, are able to use that language and standard of behavior to participate in collaborative work, consistently model the behaviors that align with the shared values, and—perhaps most importantly— are accountable for their actions (and trust other community mem- bers to also be accountable).&lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;</content>
-		<author>
-			<name>Zoom.Quiet</name>
-			<uri>https://blog.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">zoom.quiet</title>
-			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
-			<id>https://blog.zoomquiet.io/</id>
-			<updated>2020-02-01T00:42:22+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Python - 在 VSCode 中配置和运行 Jupyter Notebook</title>
-		<link href="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html"/>
-		<id>https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html</id>
-		<updated>2020-01-30T00:00:00+00:00</updated>
-		<content type="html">一直不愿意多使用 Jupyter，因为它是在浏览器中操作。看到 VSCode 支持 Jupyter 后，立即配置使用，现在可方便多了，不需要在 VSCode 和 浏览器之间切换了</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-03T08:43:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Python 绘图 - Bokeh 初探</title>
-		<link href="https://bemself.github.io/python/Python-plotting-bokeh.html"/>
-		<id>https://bemself.github.io/python/Python-plotting-bokeh.html</id>
-		<updated>2020-01-30T00:00:00+00:00</updated>
-		<content type="html">一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Bokeh</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-03T08:43:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Python - 记录一次用 shutil 复制目录的囧</title>
-		<link href="https://bemself.github.io/python/Python-Copy-Files-Recursively.html"/>
-		<id>https://bemself.github.io/python/Python-Copy-Files-Recursively.html</id>
-		<updated>2020-01-30T00:00:00+00:00</updated>
-		<content type="html">如何将目录中的所有文件（包括子目录）复制到其他路径中？python 有几种方法，分别尝试下。教训是，复制之前最好分析下文件结构，把一些干扰项如 `.git` 过滤掉。</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-02-03T08:43:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Issue 405</title>
-		<link href="http://weekly.pychina.org/issue/issue-405.html"/>
-		<id>tag:weekly.pychina.org,2020-01-29:/issue/issue-405.html</id>
-		<updated>2020-01-29T10:18:00+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;Python 3.9.0a3 现在可用于测试&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/405&quot;&gt;PyCoder's Weekly - Issue #405&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;200129 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;200129 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3445/web&quot;&gt;用 Tkinter 进行 Python GUI 编程&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this article, you’ll learn the basics of GUI programming with Tkinter, the de-facto Python GUI framework. Master GUI programming concepts such as widgets, geometry managers, and event handlers. Then, put it all together by building two applications: a temperature converter and a text editor.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Tkinter&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.54.14.jpg&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3456/web&quot;&gt;Pythonic Code Review [2016]&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ILYA ETINGOF&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“In this article I’ll focus on my personal experience in authoring and reviewing Python code from both psychological and technical perspectives. And I’ll do so keeping in mind the ultimate goal of striking a balance between code reviews being enjoyable and technically fruitful.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;为什么总感觉私人经验比团队经验要来的靠谱?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3462/web&quot;&gt;pip 20.0 已发布&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYPA.IO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Default to doing a user install (as if --user was passed) when the main site-packages directory is not writeable and user site-packages are enabled, cache wheels built from Git requirements, and more.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;终于, 20个大版本了, 终于支持 NPM 样的本地模块支持
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3458/web&quot;&gt;Python 3.9 兼容性变更&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;KARTHIKEYAN SINGARAVELAN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“With the EoL of Python 2 being in line with development of Python 3.9 there were changes made to Python 3.9 that broke a lot of packages since many deprecation warnings became errors.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;老爹退休, Python 就开始了 Chrome 刷版本般节奏...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3465/web&quot;&gt;关于如何为 Python 安装软件包的快速入门指南&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;BRETT CANNON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“If you just want to start poking at Python and want to avoid the pitfalls to installing packages globally, it only takes 3 steps to do the right thing.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3449/web&quot;&gt;Python 3.9.0a3 现在可用于测试&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHONINSIDER.BLOGSPOT.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Changelog at the link.&lt;/p&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3442/web&quot;&gt;了解 Django: URL 引导之路&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MATT LAYMAN &lt;/li&gt;
-&lt;li&gt;• Shared by Matt Layman&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How does a Django site know where to send requests? You have to tell it! In this article you’ll look at URLs and how to let your users get to the right place.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;好文章, 就得自我推广&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3459/web&quot;&gt;RIP Pipenv: 艰难尝试后知道必须使用 pip-tools 的事儿&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NICK TIMKOVICH&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;An opinionated look at Pipenv and its future as a Python packaging tool. More about pip-tools here.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;pip 周边工具战争还没结束...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3452/web&quot;&gt;Python 模块和软件包: 简介&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;课程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this course, you’ll explore Python modules and Python packages, two mechanisms that facilitate modular programming. See how to write and import modules so you can optimize the structure of your own programs and make them more maintainable.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Modules&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.47.55.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3443/web&quot;&gt;用 Markdown 创建响应式 HTML 邮件&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CHRIS MOFFITT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This article describes how to use Python to transform a Markdown text file into a response HTML email and static page on a Pelican blog.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3451/web&quot;&gt;名为 Snek 的微小 Python&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JAKE EDGE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Snek is a version of Python targeting embedded processors developed by Keith Packard.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3448/web&quot;&gt;如何从 Python 2 移植到 Python 3&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MACIEJ URBAŃSKI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3461/web&quot;&gt;用 Github Actions 进行无服务器Python部署&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IAN WHITESTONE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;开始了, 开始了, github actions,  Azure 大客户.&lt;/p&gt;
-&lt;p&gt;简直就是 Ansible 闭源云版本...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3454/web&quot;&gt;自以为是的编码指南和 Python 最佳实践&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/REDNAFI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;嗯哼? 这也忒有自知之明了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3446/web&quot;&gt;Create Animated Images Using Python&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;YONG CUI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;基于 imageio /imageio-ffmpeg /pygifsicle&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3463/web&quot;&gt;yakutils: Python 3 辅助函数工具箱&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/NFICANO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;ya.. 开头的工具, 都很神奇的...&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;yakutils&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.35.31.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3455/web&quot;&gt;quick: 用以 Click 基于 Qt5 的 GUI 生成器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/SZSDK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;一键从 CLI 工具变成 GUI 工具.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3464/web&quot;&gt;rich: 终端中的 RTF   和精美格式&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/WILLMCGUGAN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;终端的潜力远远没嗯哼到哪&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;rich&quot; src=&quot;https://github.com/willmcgugan/rich/raw/master/imgs/log.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;当然,得在靠谱的现代终端工具中...&lt;/p&gt;
-&lt;p&gt;cmd 是毫无希望的&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3444/web&quot;&gt;text_grapher: 3D Graphics 以 Text 来渲染&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/FLETCHGRAHAM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;text_grapher&quot; src=&quot;https://github.com/fletchgraham/text_grapher/raw/master/img/cube_example.gif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;终端中的 3D 动画片&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3466/web&quot;&gt;ScalaPy: Use Python Libraries From the Comfort of Scala&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SCALAPY.DEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3460/web&quot;&gt;gitfilesplit: 将一个文件分成几个文件，保留Git历史记录&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/IDLESIGN • Shared by pythonz&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;自动拆分 git 提交, 为针对每一个文件,
-以便 历史追踪更加清晰...&lt;/p&gt;
-&lt;p&gt;当然, 也能自动堆高 push 次数, 轻松获得 KPI 
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3453/web&quot;&gt;PythonMinefield: 使用街机库编写的游戏&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/MYRMICA-HABILIS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3438/web&quot;&gt;⋅ Pravega Hackathon 2020&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 1 to February 3, 2020&lt;/li&gt;
-&lt;li&gt;??&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3441/web&quot;&gt;⋅ FOSDEM 2020: Python Dev Room&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 1 to February 2, 2020&lt;/li&gt;
-&lt;li&gt;比利时&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3433/web&quot;&gt;⋅ PyDelhi User Group Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 1, 2020&lt;/li&gt;
-&lt;li&gt;印度&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3431/web&quot;&gt;⋅ Melbourne Python Users Group, Australia&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 3, 2020&lt;/li&gt;
-&lt;li&gt;澳洲&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3435/web&quot;&gt;⋅ Dominican Republic Python User Group&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 4, 2020&lt;/li&gt;
-&lt;li&gt;非洲&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3440/web&quot;&gt;⋅ Heidelberg Python Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 5, 2020&lt;/li&gt;
-&lt;li&gt;德国&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3434/web&quot;&gt;⋅ PyRana General Body Meeting&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 5, 2020&lt;/li&gt;
-&lt;li&gt;阿尔巴尼亚 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://py.101.camp/&quot;&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;5py ;-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;(￣▽￣)&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;年后第5期就来:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;可以上线&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/wuhan2020&quot;&gt;2020 援助武汉&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;github.com/wuhan2020&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;高速完成构建/发布/传播, 以及社区联合的开源项目,
-数据不公开, 那就由人来采集再公开.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h1&gt;是也乎&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 3907&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-405.html&quot;&gt;Issue 405 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-405.md&quot;&gt;issue-405.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-10T08:45:23+00:00</updated>
+			<updated>2020-02-13T00:45:05+00:00</updated>
 		</source>
 	</entry>
 

@@ -23,6 +23,505 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>February 12, 2020</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
+
+
+<div class="entrygroup" id="tag:weekly.pychina.org,2020-02-12:/issue/issue-407.html">
+<h4><a href="http://weekly.pychina.org/issue/issue-407.html">Issue 407</a></h4>
+<div class="entry">
+<div class="content">
+<blockquote>
+<p>Guido 老爹义劝如何正确为 Python 提贡献</p>
+</blockquote>
+<p>原文: <a href="https://pycoders.com/issues/407">PyCoder's Weekly - Issue #407</a></p>
+<p><img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5" /></p>
+<ul>
+<li>200205 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
+<li>200205 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 17 分钟 完成格式转抄.</li>
+</ul>
+<hr />
+<ul>
+<li><a href="https://pycoders.com/link/3535/web">通过比较流行的项目模板了解 Python 工具的最佳实践</a><ul>
+<li>JONAS KEMPER</li>
+</ul>
+</li>
+</ul>
+<p>“Use Flake8, pytest, and Sphinx in your current Python project. Also evaluate pre-commit, black, and Pylint. For your next project, consider adding poetry and Dependabot.”</p>
+<p>(<code>是也乎:</code></p>
+<p>老爹对结果呛声指点更加实在的...</p>
+<blockquote>
+<p>@gvanrossum</p>
+</blockquote>
+<p>You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3534/web">用 Python 播放和录制声音</a><ul>
+<li>REAL PYTHON </li>
+<li>video</li>
+</ul>
+</li>
+</ul>
+<p>Learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You’ll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Sound" src="http://ydlj.zoomquiet.top/ipic/2020-02-12-ScreenShot%202020-02-12%2010.28.58.jpg" /></p>
+<p>其实吧, 通过 shell 调用专业工具来完成实际工作就好.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3527/web">由 SQL 理解 Django 中的 GROUP BY</a><ul>
+<li>HAKI BENITA</li>
+</ul>
+</li>
+</ul>
+<p>Understand GROUP BY in Django ORM by comparing QuerySets and SQL side by side. If SQL is where you are most comfortable, this is the Django GROUP BY tutorial for you.</p>
+<ul>
+<li><a href="https://pycoders.com/link/3548/web">用 Python 对自定义着色器的电视背光补偿</a><ul>
+<li>PEKKA VÄÄNÄNEN</li>
+</ul>
+</li>
+</ul>
+<p>Extending a broken TV’s lifetime with Python code and some custom shaders. Impressive!</p>
+<ul>
+<li><a href="https://pycoders.com/link/3553/web">将Mypy应用于实际项目</a><ul>
+<li>CAL PATERSON</li>
+</ul>
+</li>
+</ul>
+<p>Hints and tips for getting started with Mypy and introducing it to existing projects.</p>
+<ul>
+<li><a href="https://pycoders.com/link/3526/web">Virtualenv 20.0 发布</a><ul>
+<li>PYPA.IO</li>
+</ul>
+</li>
+</ul>
+<h2>讨论</h2>
+<blockquote>
+<p>Discussions</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/3540/web">用 NSA 来学习 Python</a><ul>
+<li>TWITTER.COM/CHRIS_SWENSON</li>
+</ul>
+</li>
+</ul>
+<p>“I put in a FOIA request to the NSA for their Python training materials and got back a 400-page printout of their COMP 3321 training course. So, I scanned and OCR’d it. Here is a PDF (warning: 118 MB)”</p>
+<p>(<code>是也乎:</code></p>
+<p>神人, 直接搞到了 国安内部的 Python 学习资料并 OCR 共享了出来;</p>
+<p>然后万能的网友们友好的指出,早已在 github 发布出来了</p>
+<p>github.com/NationalSecurityAgency/ghidra</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3524/web">开始为 CPython 做贡献</a><ul>
+<li>GUIDO VAN ROSSUM</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>老爹终于忍不住了, 用 Dropbox 的只读文档形式发布指导:</p>
+<p>想为 CPython 贡献?</p>
+<p>首先得懂 C(真正的懂那种), 其次得会 git/github, 然后至少10年 Python 经验;</p>
+<p>并强调了真相: 你将更多的在 CLI 中工作, 别想着什么 GUI 的东西了...
+以及, 文档真的都在过时, 别太相信丫们, 及时寻求帮助是好的;</p>
+<p>现在有 7000+ 提案, 选择一个适合自己的开始, 然后, 才可能有然后.</p>
+<p>标准协同流程就是 github 的 pull-request 流程, 得用对, 否则, 只会难为到自己.</p>
+<p>老爹自己应该工件在 mac 中, 所以, 给出的编译过程就是用 XCode 进行的,
+只是, 吐糟-&gt; 一定有各种意外,
+比如 openssl 在 macOS 中并不是默认配置.</p>
+<p>以及, 千万别用 虚拟环境来编译, 都是坑.</p>
+<p>有队友增补了 VSCode 中调试技巧,</p>
+<p>最后, 老爹推荐了几个 C代码调试工具:</p>
+<p>首先当然是简单的 <code>printf()</code>;</p>
+<p>然后是GDB (Linux)/lldb (Mac), Windows 中就蒙了...</p>
+<blockquote>
+<p>可以说, 对 Python 这种不小的综合工程, 想进入核心开发, 所要求的技术储备看起来并不多,
+也就2页纸的样子;
+但是, 其实, 每一项都得经过艰苦/长期的努力, 才可能自如的;
+但是, 想想当年, 老爹可真的就是单枪匹马, 独自撸出来的, 
+现在, 有这么多现成工具/资料/社区可依赖了, 当然也可以哈.</p>
+</blockquote>
+<p>)</p>
+<h2>文章,教程和嗯哼</h2>
+<blockquote>
+<p>Articles, Tutorials and Talks</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/3522/web">用 Python 构建 macOS 状态栏应用 (蕃茄钟)</a><ul>
+<li>CAMILLO VISINI </li>
+<li>• Shared by Camillo Visini</li>
+</ul>
+</li>
+</ul>
+<p>“On my Mac, I use the menu bar countless times per day. In this post we will go through the process of creating a custom macOS menu bar app using Python.”</p>
+<p>(<code>是也乎:</code></p>
+<p>macOS 环境, 总是能吸引各种精巧的实现形式,
+关键内置的自动化项目, 可以不依赖任何第三方开发库, 就能完成各种事务,
+问题是:</p>
+<p>为什么是 Apple 公司一直在力图营造对程序猿友好的环境?</p>
+<p>用 <a href="https://github.com/jaredks/rumps">jaredks/rumps</a> 构造状态栏工具;
+用 <a href="https://py2app.readthedocs.io/en/latest/">py2app</a> 来自动基于 Python 脚本生成 mac 应用;</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3543/web">在 Python 中实现接口</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>In this tutorial, you’ll explore how to use a Python interface. You’ll come to understand why interfaces are so useful and learn how to implement formal and informal interfaces in Python. You’ll also examine the differences between Python interfaces and those in other programming languages.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Interface" src="http://ydlj.zoomquiet.top/ipic/2020-02-12-ScreenShot%202020-02-12%2009.56.19.jpg" /></p>
+<p>给自身以及其它语言构建友好的界面.
+类的狂欢.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3549/web">SciPy 1.0: Python 中科学计算的基本算法</a><ul>
+<li>NATURE.COM</li>
+</ul>
+</li>
+</ul>
+<p>“In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments.”</p>
+<ul>
+<li><a href="https://pycoders.com/link/3551/web">用赋值表达式防止重复</a><ul>
+<li>BRETT SLATKIN</li>
+</ul>
+</li>
+</ul>
+<p>An assignment expression—also known as the walrus operator—is a new syntax introduced in Python 3.8 to solve a long-standing problem with the language that can cause code duplication.</p>
+<ul>
+<li><a href="https://pycoders.com/link/3542/web">Python 命令行参数解</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>Python command line arguments are the key to converting your programs into useful and enticing tools that are ready to be used in the terminal of your operating system. In this step-by-step tutorial, you’ll learn their origins, standards, and basics, and how to implement them in your program.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="REALpy" src="http://ydlj.zoomquiet.top/ipic/2020-02-12-ScreenShot%202020-02-12%2009.45.57.jpg" /></p>
+<p>其实, CLI 指令这么复杂, 并不能解决易用性问题:</p>
+<p><img alt="Arguments" src="https://files.realpython.com/media/python_blue.37b9170f4345.png" /></p>
+<p>所以, RESTful 思路也是一个可选择项哪.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3545/web">并行蓝调: 当代码变慢时</a><ul>
+<li>ITAMAR TURNER-TRAURING</li>
+</ul>
+</li>
+</ul>
+<p>“As it turns out, for certain operations NumPy will parallelize operations transparently. And if you’re not careful, this can actually slow down your code.”</p>
+<p>(<code>是也乎:</code></p>
+<p>Blues 音乐本质就是哀伤...
+代码变慢慢的本质也是...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3525/web">sys.getsizeof 不是您想要的</a><ul>
+<li>NED BATCHELDER</li>
+</ul>
+</li>
+</ul>
+<p>“sys.getsizeof is almost never what you want, for two reasons: it doesn’t count all the bytes, and it counts the wrong bytes.”</p>
+<p>(<code>是也乎:</code></p>
+<p>所以, 编程自古以来最大的难题, 也可能是无解的难题就是:</p>
+<div class="highlight"><pre><span class="err">如何起个好名字</span><span class="o">?</span>
+</pre></div>
+
+
+<p>也许只有 <code>七枝桶</code> 文字,才能真正承载永远正确的命名.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3539/web">Python asyncio and await -ing 多种功能</a><ul>
+<li>ERIC URBAN</li>
+</ul>
+</li>
+</ul>
+<p>How to call await on multiple functions in Python using the asyncio package.</p>
+<ul>
+<li><a href="https://pycoders.com/link/3523/web">在 Kaggle 竞赛中作弊 (A Post-Mortem)</a><ul>
+<li>KAGGLE.COM </li>
+<li>• Shared by Python Bytes FM</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>Kaggle 也是个奇迹,
+以纯粹的竞赛组织,只是附加上了开源共同体的气质,
+就变成了全球 AI 代码黑洞,
+所有先进思想/模块, 都首先在此展示/传播/学习...</p>
+<blockquote>
+<p>赛末点</p>
+</blockquote>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/3555/web">用 YAPF 自动格式化 Python 代码</a></p>
+<ul>
+<li>LEI MAO</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/3529/web">如何用 Python 检查文件是否为有效图像</a></p>
+<ul>
+<li>MIKE DRISCOLL</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p><code>鼠与蟒</code> 这个网站一直非常有爱,
+撰写的一系列小书更加有爱,
+再次推荐.</p>
+<p>)</p>
+<h2>好物</h2>
+<blockquote>
+<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/3537/web">hydra: 用于配置复杂应用程序的框架</a><ul>
+<li>GITHUB.COM/FACEBOOKRESEARCH</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>叕见 <code>海德拉</code> 好名儿太难得,
+但是,也不能反复用哪</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/3532/web">cookiecutter-data-science: 执行/共享数据科学工作的项目模板</a></p>
+<ul>
+<li>GITHUB.COM/DRIVENDATA</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/3541/web">pytorch3d: 用于3D数据的深度学习的可重用组件</a></p>
+<ul>
+<li>GITHUB.COM/FACEBOOKRESEARCH</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>3D 模型本身就是数学生成的,
+对这种空间意义进行深度学习,
+那不就是对 3D 网络游戏可以进一步理解和控制-&gt;自动生成?</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3544/web">Diagrams: 用 Python 代码生成系统架构图</a><ul>
+<li>GITHUB.COM/MINGRAMMER</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<div class="highlight"><pre><span class="n">from</span> <span class="n">diagrams</span> <span class="n">import</span> <span class="n">Diagram</span>
+<span class="n">from</span> <span class="n">diagrams</span><span class="p">.</span><span class="n">aws</span><span class="p">.</span><span class="n">compute</span> <span class="n">import</span> <span class="n">EC2</span>
+<span class="n">from</span> <span class="n">diagrams</span><span class="p">.</span><span class="n">aws</span><span class="p">.</span><span class="n">database</span> <span class="n">import</span> <span class="n">RDS</span>
+<span class="n">from</span> <span class="n">diagrams</span><span class="p">.</span><span class="n">aws</span><span class="p">.</span><span class="n">network</span> <span class="n">import</span> <span class="n">ELB</span>
+
+<span class="n">with</span> <span class="n">Diagram</span><span class="p">(</span><span class="s">&quot;Web Service&quot;</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="n">False</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">ELB</span><span class="p">(</span><span class="s">&quot;lb&quot;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">EC2</span><span class="p">(</span><span class="s">&quot;web&quot;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">RDS</span><span class="p">(</span><span class="s">&quot;userdb&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>即可生成:</p>
+<p><img alt="Diagrams" src="https://diagrams.mingrammer.com/img/web_service_diagram.png" /></p>
+<p>基于 <a href="https://www.graphviz.org/">Graphviz</a> ,
+但是, 用 Py 脚本形式, 快速生成漂亮的示意图,
+果断粉上;</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3554/web">opnieuw: 通用重试库</a><ul>
+<li>GITHUB.COM/CHANNABLE</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>简洁的重试机制支持, 
+来提高系统可靠性...</p>
+<p>嗯哼? 系统可能性就这么简单可以提高了?</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3550/web">Celery Director:用 Celery 管理任务和构建工作流</a><ul>
+<li>GITHUB.COM/OVH </li>
+<li>• Shared by Nicolas Crocfer</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>又见芹菜馅儿的好物</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/3531/web">donkeycar: 小型自动驾驶汽车平台</a><ul>
+<li>GITHUB.COM/AUTOROPE</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p><img alt="donkeycar" src="https://github.com/autorope/donkeycar/raw/dev/docs/assets/build_hardware/donkey2.png" /></p>
+<p>包含硬件的全套自动驾驶系统.</p>
+<p>纯Python 完成.</p>
+<p>)</p>
+<h2>📆🐍 活动/大会</h2>
+<blockquote>
+<p>Events, MeetUp 真的是全球线下活动组织中心</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/3533/web">⋅ PyCon Namibia 2020</a></p>
+<ul>
+<li>February 18 to February 21, 2020</li>
+<li>纳米比亚</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/3538/web">⋅ Open Source Festival Africa</a></p>
+<ul>
+<li>February 20 to February 23, 2020</li>
+<li>非洲</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/3521/web">⋅ PyCon Belarus 2020</a></p>
+<ul>
+<li>February 21 to February 23, 2020</li>
+<li>白俄罗斯</li>
+</ul>
+</li>
+</ul>
+<h2>DAMA</h2>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
+</blockquote>
+<ul>
+<li><strong><a href="https://py.101.camp/">蟒营 Python 入门班</a></strong><ul>
+<li>5py </li>
+<li>报名</li>
+</ul>
+</li>
+</ul>
+<p>(<code>(￣▽￣)</code>:</p>
+<p>第五期已经开始报名:</p>
+<div class="highlight"><pre><span class="mf">20.2.24</span> <span class="err">报名截止</span>
+<span class="mf">20.3.1</span>  <span class="err">正式开课</span>
+<span class="mf">20.4.12</span> <span class="err">按时结束</span>
+</pre></div>
+
+
+<p>)</p>
+<ul>
+<li><a href="https://github.com/2019ncovmemory/nCovMemory">2020新冠肺炎记忆</a><ul>
+<li>github.com/2019ncovmemory/nCovMemory</li>
+</ul>
+</li>
+</ul>
+<p>报道、非虚构与个人叙述（持续更新） Memory of 2020 nCov: Media Coverage, Non-fiction Writings, and Individual Narratives (Continuously updating)</p>
+<p>(<code>是也乎:</code></p>
+<p>可能是最考验 M$ 政府关系能力的项目,
+这个开源新闻实录项目,
+综合使用现有工具, 快速将 NCP 历史, 用普遍人的目光固化在版本历史海洋中,
+但是,万一呢? 期望大家及时, 自觉分散 clone 到全球每一个硬盘中,
+42年后, 我们才可能有真实的 snap 来回顾.</p>
+<p>项目结构</p>
+<div class="highlight"><pre><span class="err">├─</span><span class="n">archive</span>                          <span class="err">文章的存档，目前提供</span><span class="n">jpg</span><span class="err">格式</span>
+<span class="err">│</span>  <span class="err">└─</span><span class="n">jpg</span>
+<span class="err">│</span>    <span class="err">├─</span><span class="mf">1.</span><span class="n">jpg</span>
+<span class="err">│</span>    <span class="err">└─</span><span class="p">...</span>
+<span class="err">├─</span><span class="n">data</span>                             <span class="n">csv</span><span class="err">格式的文章数据</span>
+<span class="err">│</span>  <span class="err">└─</span><span class="n">data</span><span class="p">.</span><span class="n">csv</span>
+<span class="err">├─</span><span class="n">docs</span>                             <span class="err">一个用于展示</span><span class="n">README</span><span class="err">的</span> <span class="n">Github</span> <span class="n">Page</span>
+<span class="err">├─</span><span class="n">gh</span><span class="o">-</span><span class="n">page</span>
+<span class="err">├─</span><span class="n">template</span>                         <span class="n">README</span><span class="err">模板</span>
+<span class="err">│</span>  <span class="err">└─</span><span class="n">README</span><span class="p">.</span><span class="n">handlebars</span>
+<span class="err">├─</span><span class="n">utils</span>                            <span class="err">构建</span><span class="n">README</span><span class="err">的工具</span>
+<span class="err">│</span>  <span class="err">├─</span><span class="n">generateReadmeFromCsv</span><span class="p">.</span><span class="n">js</span>
+<span class="err">│</span>  <span class="err">└─</span><span class="p">...</span>
+<span class="err">└─</span><span class="n">README</span><span class="p">.</span><span class="n">md</span>                        <span class="err">主文档</span>
+</pre></div>
+
+
+<p>)</p>
+<h1>是也乎</h1>
+<blockquote>
+<p>NN 3921</p>
+</blockquote>
+<ul>
+<li>首发: <a href="http://weekly.pychina.org/issue/issue-407.html">Issue 407 ~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>修订: <a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-407.md">issue-407.md</a></li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://weekly.pychina.org/issue/issue-407.html">by Pythoneerm at February 12, 2020 02:42 AM</a>
+</p>
+</div>
+</div>
+
+
+
+</div>
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="https://bemself.github.io" title="My Struggle">bemself</a></h3>
+
+
+<div class="entrygroup" id="https://bemself.github.io/%E5%BF%83%E8%B7%AF/mind-tense.html">
+<h4><a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/mind-tense.html">新冠肺炎 出门打仗</a></h4>
+<div class="entry">
+<div class="content">
+记录我神经质的出门过程</div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF/mind-tense.html">February 12, 2020 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+
+
+<div class="entrygroup" id="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-05w.html">
+<h4><a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-05w.html">My Struggle - 我的自怼周报 2020 05w</a></h4>
+<div class="entry">
+<div class="content">
+周结第六周，凌乱愤怒无助的一周</div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-05w.html">February 12, 2020 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>February 08, 2020</h2>
 
 <div class="channelgroup">
@@ -522,27 +1021,27 @@ PyYAML(越来越常用的);</p>
 <p>叕一个 gif 动画制造工具, 嗯哼, 这 logo 非常亲切了</p>
 <p><img alt="tornado" src="https://raw.githubusercontent.com/maxhumber/gif/master/examples/tornado.gif" /></p>
 <p>使用也非常简单:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">gif</span>
-<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">gif</span>
+<span class="n">from</span> <span class="n">matplotlib</span> <span class="n">import</span> <span class="n">pyplot</span> <span class="n">as</span> <span class="n">plt</span>
 
-<span class="nd">@gif.frame</span>
-<span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+<span class="err">@</span><span class="n">gif</span><span class="p">.</span><span class="n">frame</span>
+<span class="n">def</span> <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">xlim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">ylim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
 </pre></div>
 
 
 <p>正常定义好一帧 plt 图片, 然后指定范围自动化生成就好, 比如:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+<div class="highlight"><pre><span class="n">from</span> <span class="n">random</span> <span class="n">import</span> <span class="n">randint</span>
 
 <span class="n">frames</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">):</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="k">for</span> <span class="n">_</span> <span class="n">in</span> <span class="n">range</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="n">in</span> <span class="n">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="n">in</span> <span class="n">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
     <span class="n">frame</span> <span class="o">=</span> <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-    <span class="n">frames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
+    <span class="n">frames</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
 </pre></div>
 
 
@@ -630,9 +1129,9 @@ PyYAML(越来越常用的);</p>
 </ul>
 <p>(<code>(￣▽￣)</code>:</p>
 <p>第五期已经开始报名:</p>
-<div class="highlight"><pre><span></span><span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">20</span> <span class="err">报名截止</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">3</span><span class="p">.</span><span class="mi">1</span>  <span class="err">正式开课</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">12</span> <span class="err">按时结束</span>
+<div class="highlight"><pre><span class="mf">20.2.20</span> <span class="err">报名截止</span>
+<span class="mf">20.3.1</span>  <span class="err">正式开课</span>
+<span class="mf">20.4.12</span> <span class="err">按时结束</span>
 </pre></div>
 
 
@@ -690,7 +1189,7 @@ PyYAML(越来越常用的);</p>
 <h4><a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-04w.html">My Struggle - 我的自怼周报 2020 04w</a></h4>
 <div class="entry">
 <div class="content">
-周结第五周，凌乱愤怒的一周</div>
+周结第五周</div>
 
 
 
@@ -700,745 +1199,6 @@ PyYAML(越来越常用的);</p>
 
 <p class="date">
 <a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-04w.html">February 03, 2020 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>February 02, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="https://bemself.github.io" title="My Struggle">bemself</a></h3>
-
-
-<div class="entrygroup" id="https://bemself.github.io/python/Python-plotting-dash.html">
-<h4><a href="https://bemself.github.io/python/Python-plotting-dash.html">Python 绘图 - Dash</a></h4>
-<div class="entry">
-<div class="content">
-一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Dash</div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://bemself.github.io/python/Python-plotting-dash.html">February 02, 2020 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>February 01, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
-
-
-<div class="entrygroup" id="tag:weekly.pychina.org,2020-02-01:/python-weekly/pyw-434.html">
-<h4><a href="http://weekly.pychina.org/python-weekly/pyw-434.html">pythonista-weekly : Pyw 434</a></h4>
-<div class="entry">
-<div class="content">
-<h3>欢迎阅读《pythonista周刊》第434期。Let us start!</h3>
-<blockquote>
-<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-434">https://mailchi.mp/pythonweekly/python-weekly-issue-434</a><br />
-翻译：Dustyposa</p>
-</blockquote>
-<p><strong>来自赞助商（PS：原文的赞助商）:</strong></p>
-<p>使用 <code>Datadog</code> 监控你的python指标，日志，集群分析。使用<code>Datadog</code>的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。<a href="https://www.datadoghq.com/dg/apm/ts-python-error-tracking/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=PythonWeekly-ErrorTshirt">马上跟踪你的python应用吧！免费试用14天哦！</a></p>
-<h2>文章、教程与话题</h2>
-<p><strong><a href="https://engineering.linkedin.com/blog/2020/how-we-retired-python-2-and-improved-developer-happiness">我们是如何让Python2退役并提高开发者幸福感的</a></strong></p>
-<p>在2018年，<code>Linkedln</code>开始了几个季度的努力来完全过渡到<code>Python 3</code>代码库。经过大概两个季度的计划和两个季度的执行，我们在新产品及就产品中逐步的放弃了<code>Python2</code>的使用。过渡由我们的<code>Python</code>基金会团队领导，多个团队和部门扮演着不可或缺的角色，以确保过渡的相对平稳性。总的来说，这项工作需要迁移大约550个代码库(库、应用程序和服务)。</p>
-<blockquote>
-<p>迁移之后让人更幸福！</p>
-</blockquote>
-<p><strong><a href="https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/">71个用于日常问题的Python代码段</a></strong></p>
-<p>通常你谷歌的一切东西都能在这个列表中发现。向日益增多的日常问题Python代码片段列表问声好吧。</p>
-<blockquote>
-<p>好好好，我来了！</p>
-</blockquote>
-<p><strong><a href="https://nanonets.com/blog/receipt-ocr/">利用OCR和深度学习实现收据数字化自动化</a></strong></p>
-<p>收据数字化解决了从收据中自动提取信息的问题。这篇文章覆盖了收据数字化的理论，并使用了<code>OpenCV and Tesseract</code>实现了端到端的中间件。并介绍了一些重要的使用深度学习实现收据数字化的论文。</p>
-<p><strong><a href="https://adamj.eu/tech/2020/01/22/djangos-field-choices-dont-constrain-your-data/">Django's 选择字段不会限制你的数据</a></strong></p>
-<p>这篇文章是一篇<code>PSA</code>，关于<code>Django</code>中一些不直观的<code>Field.choices</code>工作方式。</p>
-<p><strong><a href="https://www.valentinog.com/blog/django-project/">如何从模版中创建一个<code>Django</code>项目</a></strong></p>
-<p>当默认的<code>Django</code>项目不再够用时，<code>Django</code>项目的模版依然是最合适的解决方案。在这篇教程中学习如何做你自己的项目模版。</p>
-<blockquote>
-<p>2连Django</p>
-</blockquote>
-<p><strong><a href="https://tirkarthi.github.io/programming/2020/01/27/python-39-changes.html">Python 3.9 兼容性改变</a></strong></p>
-<p>随着<code>Python 2</code>的<code>EoL</code>与<code>Python 3.9</code>的开发保持一致，对<code>Python 3.9</code>所做的一些更改破坏了大量的包，因为许多弃用警告变成了错误。</p>
-<blockquote>
-<p>早改晚改，迟早要改。</p>
-</blockquote>
-<p><a href="https://hubs.ly/H0mGnnr0">帮助IT管理AI/ML生态系统</a>
-了解戴尔和<code>Domino</code>如何创建了一种令人耳目一新的简单方法来帮助公司获得他们需要的数据科学团队和技术，并以一种易于扩展的方式更快地运行。SPONSOR</p>
-<p><strong><a href="https://t.co/o1YigyMmWq">Jupyter Notebooks in the IDE</a></strong> 
-Visual Studio Code vs PyCharm.</p>
-<blockquote>
-<p>你站哪边？</p>
-</blockquote>
-<p><strong><a href="https://zacs.site/blog/linear-python.html">Python中的顺序任务，多进程以及IO绑定的多线程任务</a></strong></p>
-<p><code>Python</code>让并发变得更简单了。只需要花很少的时间就能给我的博客引擎增加多进程。在第一次体验之后，我就经常使用了。每个人都喜欢称过早的优化为万恶之源，但是从一开始就设计并发执行的程序节省了我数百小时的大数据抓取及项目处理的时间。有一点<code>Knuth</code>的怀疑？这篇文章比较了顺序执行，多进程以及多线程用于<code>Python</code>中<code>IO绑定</code>的任务，附带简单的代码示例。</p>
-<p><strong><a href="https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python">如何开始使用Python中的Requests库</a></strong></p>
-<p>在许多<code>web apps</code>中，使用<code>API</code>连接到各种第三方服务是很正常的。你也可以使用<code>API</code>向你的<code>app</code>添加功能。在这篇文章中，我们将学习允许你在<code>Python</code>发送<code>HTTP</code>请求的<code>Python Requests</code>库。</p>
-<blockquote>
-<p>除开原理，用法的话，官方文档也不错。</p>
-</blockquote>
-<p><strong><a href="https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb">是什么让“XGBoost”如此 Extreme？</a></strong></p>
-<p>你曾问过<code>"XGBoost"</code>是如何工作的？<code>"XGBoost"</code>与梯度下降有什么不同？或者甚至<code>Python</code>中一个简单的示例。如果有过，那么你就来对了地方。<code>"Xgboost"</code>是用于表格数据的最强大的机器学习工具之一。它在学习非线性决策边界方面的效率和性能使其成为行业和学术界的必备品。所以是什么让这个算法如此特殊呢？</p>
-<blockquote>
-<p>应用最广的算法之一。</p>
-</blockquote>
-<p><strong><a href="https://t.co/rmoKRqewOY">使用Plotly进行交互式篮球数据可视化</a></strong></p>
-<p>用Plotly和Plotly Express及<code>hexbin shot</code>图分析和气泡图体育数据。</p>
-<blockquote>
-<p>大家都喜欢 Plotly 了？</p>
-</blockquote>
-<p><strong><a href="https://t.co/QtmYmA7dl0">使用Python创建动画图像</a></strong> </p>
-<p>没有<code>Photoshop</code>?那都不是事！学习在<code>Python</code>中从一个静态图片列表中或者视频中创建动画图像是多么简单的事。</p>
-<blockquote>
-<p>No PS, Use Python.</p>
-</blockquote>
-<p><a href="https://blog.haardiek.org/plotting-sentinel-5p-data">绘制Sentinel 5P数据</a> </p>
-<p><a href="https://adamj.eu/tech/2020/01/27/moving-to-django-3-field-choices-enumeration-types/">移动到Django 3.0's Field.choices 枚举类型</a></p>
-<p><a href="https://sourcesort.com/interview/sebastian-ramirez-fastapi">从想法和经验中诞生的FastAPI</a></p>
-<blockquote>
-<p>万物皆对象，万物皆可验。</p>
-</blockquote>
-<p><a href="https://snarky.ca/a-quick-and-dirty-guide-on-how-to-install-packages-for-python/">关于如何安装Python包的快速入门指南</a></p>
-<p><a href="https://faizanbashir.me/building-python-data-science-container-using-docker-c8e346295669">使用Docker创建Python数据科学容器</a></p>
-<p><a href="https://ianwhitestone.work/AWS-Serverless-Deployments-With-Github-Actions/">用Github Actions 进行Python无服务部署</a></p>
-<p><a href="https://medium.com/telnyx-engineering/rip-pipenv-tried-too-hard-do-what-you-need-with-pip-tools-d500edc161d4">RIP Pipenv: Tried Too Hard. Do what you need with pip-tools.</a></p>
-<h2>有趣的项目、工具和库</h2>
-<p><strong><a href="https://github.com/autorope/donkeycar">donkeycar</a></strong></p>
-<p>用于打造小型自驾汽车开源软硬件平台。</p>
-<blockquote>
-<p>犹豫就会败北，快来玩一玩。</p>
-</blockquote>
-<p><strong><a href="https://github.com/luigifreitas/CyberRadio">CyberRadio</a></strong>
-基于软件无线电的桌面调频调幅收音机。用<code># cuSignal</code>和<code>Numba</code>加速。</p>
-<p><strong><a href="https://github.com/firmai/pandapy">PandaPy</a></strong>
-<code>PandaPy</code>拥有<code>NumPy</code>的速度和<code>Pandas</code>的高可用性(快10到50倍)。</p>
-<blockquote>
-<p>各取所长。</p>
-</blockquote>
-<p><strong><a href="https://github.com/visionml/pytracking">PyTracking</a></strong></p>
-<p>基于<code>PyTorch</code>,一个用于训练和运行视觉对象跟踪器的通用python框架。</p>
-<p><strong><a href="https://github.com/Mebus/cupp">CUPP</a></strong>
-通用用户密码分析器。</p>
-<p><strong><a href="https://github.com/nficano/yakutils">Yakutils</a></strong> 
-<code>Yakutils</code>是<code>Python</code>助手函数的又一个工具箱。</p>
-<p><strong><a href="https://github.com/cryzed/TrafficToll">TrafficToll</a></strong>
-NetLimiter-like traffic shaping for Linux.</p>
-<p><strong><a href="https://github.com/tenzir/threatbus">ThreatBus</a></strong></p>
-<p>连接开源威胁情报工具的缺失环节。</p>
-<p><strong><a href="https://github.com/facebookresearch/pytorch3d">PyTorch3D</a></strong></p>
-<p><code>PyTorch3d</code>是<code>FAIR</code>的可重用组件库，用于使用3D数据进行深度学习。</p>
-<p><strong><a href="https://github.com/hakanu/pervane">Pervane</a></strong> </p>
-<p>基于纯文本文件的笔记和知识库建设工具。</p>
-<blockquote>
-<p>个人笔记也可以试一试。</p>
-</blockquote>
-<p><strong><a href="https://github.com/CASES-LU/MOSP">MOSP</a></strong></p>
-<p>一个用于创建，编辑和分享<code>JSON</code>对象的平台。</p>
-<p><a href="https://github.com/square/pysurvival/">PySurvival</a> </p>
-<p><code>PySurvival</code>是一个开源的<code>Python包</code>，可用于生存分析建模-用于分析或预测事件何时可能发生的建模概念。</p>
-<h2>最近更新</h2>
-<p><strong><a href="https://pandas.pydata.org/pandas-docs/version/1.0.0/whatsnew/v1.0.0.html">Pandas 1.0.0</a></strong></p>
-<p>这是0.25.3的主要版本，包括许多API更改，新功能，增强功能和性能改进，以及大量的错误修复。</p>
-<blockquote>
-<p>1.0终于来了！成长速度棒棒。</p>
-</blockquote>
-<h2>活动和网络研讨会日程</h2>
-<p><a href="https://www.meetup.com/nycpython/events/265569547/">New York Python Meetup February 2020 Meetup - New York, NY</a>
-将会有以下的话题：</p>
-<ul>
-<li>Python并发</li>
-<li>Benford's Law using pandas/numpy, or, Math-is-Fun-with-Python</li>
-<li>用于生产环境的uWSGI配置 : 默认的都是错误的。</li>
-</ul>
-<p><a href="https://www.meetup.com/dfwpython/events/sbnhmqybcdbjb/">DFW Pythoneers February 2020 Meetup - Plano, TX</a></p>
-<h2>Posa：</h2>
-<blockquote>
-<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
-</blockquote>
-<p>新年快乐，中国加油。</p>
-<p>----- 分割线 -----</p>
-<blockquote>
-<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！
-</p>
-</blockquote>
-<ul>
-<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-434.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
-<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23434.md">issue-434.md</a></li>
-</ul></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="http://weekly.pychina.org/python-weekly/pyw-434.html">by Pythoneerm at February 01, 2020 02:16 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>January 31, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a></h3>
-
-
-<div class="entrygroup" id="tag:blog.zoomquiet.io,2020-01-31:/200131-what-is-community.html">
-<h4><a href="https://blog.zoomquiet.io/200131-what-is-community.html">什么是开放社区初探….</a></h4>
-<div class="entry">
-<div class="content">
-<h2 id="_1">背景<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_1" title="Permanent link">¶</a></h2>
-<p><a href="https://shimo.im/docs/KWxwgtpwGQxYv6Gw">鼠年话开源-系列主题网聊</a></p>
-<ul>
-<li>第6夜是俺发起的议题</li>
-<li>没想到是个错误的议题, 几句聊明白后</li>
-<li>引发出更加有意思的讨论…</li>
-</ul>
-<h2 id="_2">触发<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_2" title="Permanent link">¶</a></h2>
-<blockquote>
-<p>其中追本溯源的灵魂一问, 导入一本奇书中的论述</p>
-</blockquote>
-<p><span class="quo">‘</span> 姜宁: https://github.com/open-organization-ambassadors/open-org-workbook/blob/master/open_org_workbook_1_1_5.pdf   222 页有一篇文章 community和open source community的论述,大家可以参考一下. ‘</p>
-<hr />
-<p><span class="quo">‘</span> 姜宁: 里面提到一个概念,就是Open Communities 也不是绝对的Open . ‘</p>
-<hr />
-<p><span class="quo">‘</span> 姜宁: open communities are a broader implementation of open source communities. ‘</p>
-<hr />
-<h2 id="_3">快译<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_3" title="Permanent link">¶</a></h2>
-<blockquote>
-<p>尝试将要点翻译一下…</p>
-</blockquote>
-<p>什么是社区? …以往…现在互联网社区越来越重要…</p>
-<p><span class="dquo">“</span>社区”是指关系;它是成员与其共享的价值和活动系统之间的连接媒介. 换句话说,这是人员,工具和其他元素相互联系和互动的方式. 这一点很重要. 社区不仅仅是一群无定形的人…</p>
-<p>什么是开放社区?</p>
-<p>-&gt; 专门指开源技术社区了…其次,这些社区产生的源代码是”开放的”,这意味着社区和公众都可以使用和修改它. </p>
-<p>进一步的, 开源技术社区也只是开放社区首批实例化的社区…</p>
-<p>以往是专有软件为王, 现在开源软件在兴起…</p>
-<p>更简单地讲,开放社区发展所遵循的共同价值观和信念不仅与它所做的事情有关,而且还与它如何做事有关. </p>
-<p>功勋主义 是很多开源社区的核心价值观…</p>
-<p>开放社区主要通过成员的参与进行管理,而不是由指定的社区主持人进行管理(尽管可能有一个社区主持人,其作用是根据社区的精英和其他价值观来调解纠纷或进行适度的讨论). 
-所有成员的参与都是为了使社区的目标和行为社会化. 例如,在开放社区中,围绕”协作”,”多样性”,”适应性”,”透明性”或”功勋”的价值观形成,所有成员都有责任防止和报告骚扰或任何可能破坏这些骚扰的行为价值观. </p>
-<h2 id="_4">反思<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_4" title="Permanent link">¶</a></h2>
-<p>6年前私人偏见是这样的:</p>
-<p><a href="https://devrel.101.camp/2014-02/ac2-tech-community/">关 乎社群:2 什么是技术社区? | DevRel | 开发者关系.思考</a></p>
-<p>今天, 从开源技术社区开始, 逐渐获得社会认可, 进而衍生出更加宽泛的开放社区;
-对比开源技术社区, 相同的是:</p>
-<ul>
-<li>核心目标作品</li>
-<li>开放/对等/主动的协作机制</li>
-<li>…</li>
-</ul>
-<p>问题是, 国外学术界/商界都在积累观察/参与/讨论/分析/…开源引发的开放社区协作…</p>
-<p>而中国互联网全员关注的只是 996 福报…</p>
-<p>那么, 作为微小的个人, 可以为之作什么?</p>
-<ul>
-<li>发起/运营/参与/服务各种开放社区</li>
-<li>积累贡献经验, 观察/总结中国式协作技巧</li>
-<li>切实通过实践影响到具体的一个个人</li>
-<li>慢慢的, 传递开来, 就能形成切实的影响力以及组织/团体/社区/共同体/…</li>
-</ul>
-<h2 id="_5">原文<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_5" title="Permanent link">¶</a></h2>
-<p><a href="https://github.com/open-organization-ambassadors/open-org-workbook/">open-organization-ambassadors/open-org-workbook: Repository for open organization community’s workbook</a></p>
-<p>p222~224</p>
-<blockquote>
-<p>Introduction:</p>
-</blockquote>
-<p><strong>What is community?</strong></p>
-<p>Heidi Hess von Ludewig</p>
-<p>The term “community” refers to a sense of shared ownership and purpose that generates relationships of goodwill and fel- lowship between the members of a social network.</p>
-<p><span class="dquo">“</span>A community” is a speci c social network united according to shared values, beliefs, and goals. In recent years (and especially since the widespread adoption of internet technologies and appli- cations), the term “community” has taken on renewed importance. Communities exist wherever people can connect—face-to-face, in shared space, or even virtually, through analog or digital media (like as ham or <span class="caps">CB</span> radio) or social networking applications (like Facebook). Social communities often center around religion, poli- tics, culture, geographical location, or interests. In professional and business realms, communities can be comprised of members who have similar knowledge, professions, or work roles (for in- stance, software coding, lawyers, or project managers). Research on communities has found that they provide support, enlarge net- works by enabling weak and strong network ties, disseminate information, and provide education and mentorship.</p>
-<p>But they do something else, too: Communities de ne modes of behavior, beliefs, and roles, and in this way foster relationships between people. “Community” refers to the relationships; it is the connective medium between members and their shared value and activity systems. In other words, it’s the way that people, tools, and other elements relate and engage with one another. This point is important. Communities are not just amorphous globs of people</p>
-<p>stuck together with some beliefs; they consist of relationships that develop between and among community members and elements. Those relationships are what constitute the community; the rela- tionships make possible the feeling of fellowship and positive association between members, the activities they perform, and the way they perform them.</p>
-<p>Communities—how they’re constructed, the tools they use, how they operate—in uence the ways members connect (how they develop relationships between each other and establish relation- ships to the community at large), and the community purpose and value system is the reason those members connect. In this sense, then, the reason a community exists, how it decides to design and structure itself, the tools it decides to use, the information it dis- plays to instruct and guide members, and the people who join and participate in the community are all important considerations in building an open community, because each of these factors in u- ences the others.</p>
-<p><strong>What are open communities?</strong></p>
-<p>So-called “open communities” are an o shoot of open source software communities. The term “open” in “open source commu- nity” has dual meanings. First, in open source communities, community participation is “open,” meaning that anyone can join the community and participate in its activities. Second, the source code these communities produce is “open,” meaning that both the community and the general public can use and modify it.</p>
-<p>At the time open source communities were created, “open” was a very new concept—one in direct opposition to prevailing wis- dom in the software industry, where proprietary software (creation, use, and access controlled by the owners of the intellectual prop- erty) was predominant. Open source communities, therefore, were among the  rst enactment of open communities and were focused on creating software. Today, however, open communities are a broader implementation of open source communities.</p>
-<p>While all communities function in ways that align with the beliefs and values of the group, some are more explicit and deliberately re exive about the values that guide their operation. Open communities are one example of this approach to community; they concern themselves with how a community should operate. In this way, open communities foster a particular kind of relationship and bond between its members, and—in the truest sense—encourage the development of specialized activities that are supportive of its values and beliefs. More simply, the shared values and beliefs around which an open community develops has to do not only with what it does but how it does what it does.</p>
-<p>For example, at the heart of many open communities is the value of “meritocracy,” which members invoke to stress evaluation of ideas and work based on the intrinsic value of the work to the community and not on the value of the people performing the activ- ity. Other key attributes of an open community are transparency, inclusivity, adaptability, and collaboration. These shared qualities help spur the self-organizing nature of an open community. The rel- ative level of a community’s degree of inclusivity, adaptability, collaboration and transparency determines that community’s de- gree of “openness.”</p>
-<p>Open communities are managed predominantly through members’ participation, rather than by a designated community moderator (though there may be a community moderator whose role is intended to mediate disputes or moderate discussions based on the meritocracy and other values of the community). All mem- bers participate in order to socialize the goals and behaviors of the community; for instance, in open communities are formed around values like “collaboration,” “diversity,” “adaptability,” “trans - parency,” or “meritocracy,” all members are responsible for preventing and reporting harassment or any behavior that might negate these values.</p>
-<p>Since open communities are especially concerned with how they operate, they are often able to use their shared values to in- form decision-making practices and evaluate contributions. Members therefore possess a common language for working to- gether, are able to use that language and standard of behavior to participate in collaborative work, consistently model the behaviors that align with the shared values, and—perhaps most importantly— are accountable for their actions (and trust other community mem- bers to also be accountable).</p>
-<p>…</p></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://blog.zoomquiet.io/200131-what-is-community.html">by Zoom.Quiet at January 31, 2020 08:42 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>January 30, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="https://bemself.github.io" title="My Struggle">bemself</a></h3>
-
-
-<div class="entrygroup" id="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html">
-<h4><a href="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html">Python - 在 VSCode 中配置和运行 Jupyter Notebook</a></h4>
-<div class="entry">
-<div class="content">
-一直不愿意多使用 Jupyter，因为它是在浏览器中操作。看到 VSCode 支持 Jupyter 后，立即配置使用，现在可方便多了，不需要在 VSCode 和 浏览器之间切换了</div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://bemself.github.io/python/Python-run-jupyter-notebook-from-vscode.html">January 30, 2020 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-
-
-<div class="entrygroup" id="https://bemself.github.io/python/Python-plotting-bokeh.html">
-<h4><a href="https://bemself.github.io/python/Python-plotting-bokeh.html">Python 绘图 - Bokeh 初探</a></h4>
-<div class="entry">
-<div class="content">
-一个晚上听到了 N 种可视化工具以及风格，头脑发蒙，这么多该怎么选择？想到也许真应该从工具创作的渊源出发去了解背景，然后找应用场景。所以开始挨个工具了解一下，本文主要是 Bokeh</div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://bemself.github.io/python/Python-plotting-bokeh.html">January 30, 2020 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-
-
-<div class="entrygroup" id="https://bemself.github.io/python/Python-Copy-Files-Recursively.html">
-<h4><a href="https://bemself.github.io/python/Python-Copy-Files-Recursively.html">Python - 记录一次用 shutil 复制目录的囧</a></h4>
-<div class="entry">
-<div class="content">
-如何将目录中的所有文件（包括子目录）复制到其他路径中？python 有几种方法，分别尝试下。教训是，复制之前最好分析下文件结构，把一些干扰项如 `.git` 过滤掉。</div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://bemself.github.io/python/Python-Copy-Files-Recursively.html">January 30, 2020 12:00 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>January 29, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
-
-
-<div class="entrygroup" id="tag:weekly.pychina.org,2020-01-29:/issue/issue-405.html">
-<h4><a href="http://weekly.pychina.org/issue/issue-405.html">Issue 405</a></h4>
-<div class="entry">
-<div class="content">
-<blockquote>
-<p>Python 3.9.0a3 现在可用于测试</p>
-</blockquote>
-<p>原文: <a href="https://pycoders.com/issues/405">PyCoder's Weekly - Issue #405</a></p>
-<p><img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5" /></p>
-<ul>
-<li>200129 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
-<li>200129 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 17 分钟 完成格式转抄.</li>
-</ul>
-<hr />
-<ul>
-<li><a href="https://pycoders.com/link/3445/web">用 Tkinter 进行 Python GUI 编程</a><ul>
-<li>REAL PYTHON</li>
-</ul>
-</li>
-</ul>
-<p>In this article, you’ll learn the basics of GUI programming with Tkinter, the de-facto Python GUI framework. Master GUI programming concepts such as widgets, geometry managers, and event handlers. Then, put it all together by building two applications: a temperature converter and a text editor.</p>
-<p><img alt="Tkinter" src="http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.54.14.jpg" /></p>
-<ul>
-<li><a href="https://pycoders.com/link/3456/web">Pythonic Code Review [2016]</a><ul>
-<li>ILYA ETINGOF</li>
-</ul>
-</li>
-</ul>
-<p>“In this article I’ll focus on my personal experience in authoring and reviewing Python code from both psychological and technical perspectives. And I’ll do so keeping in mind the ultimate goal of striking a balance between code reviews being enjoyable and technically fruitful.”</p>
-<p>(<code>是也乎:</code></p>
-<p>为什么总感觉私人经验比团队经验要来的靠谱?</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3462/web">pip 20.0 已发布</a><ul>
-<li>PYPA.IO</li>
-</ul>
-</li>
-</ul>
-<p>Default to doing a user install (as if --user was passed) when the main site-packages directory is not writeable and user site-packages are enabled, cache wheels built from Git requirements, and more.</p>
-<p>(<code>是也乎:</code></p>
-<p>终于, 20个大版本了, 终于支持 NPM 样的本地模块支持
-)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3458/web">Python 3.9 兼容性变更</a><ul>
-<li>KARTHIKEYAN SINGARAVELAN</li>
-</ul>
-</li>
-</ul>
-<p>“With the EoL of Python 2 being in line with development of Python 3.9 there were changes made to Python 3.9 that broke a lot of packages since many deprecation warnings became errors.”</p>
-<p>(<code>是也乎:</code></p>
-<p>老爹退休, Python 就开始了 Chrome 刷版本般节奏...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3465/web">关于如何为 Python 安装软件包的快速入门指南</a><ul>
-<li>BRETT CANNON</li>
-</ul>
-</li>
-</ul>
-<p>“If you just want to start poking at Python and want to avoid the pitfalls to installing packages globally, it only takes 3 steps to do the right thing.”</p>
-<ul>
-<li><a href="https://pycoders.com/link/3449/web">Python 3.9.0a3 现在可用于测试</a><ul>
-<li>PYTHONINSIDER.BLOGSPOT.COM</li>
-</ul>
-</li>
-</ul>
-<p>Changelog at the link.</p>
-<h2>讨论</h2>
-<blockquote>
-<p>Discussions</p>
-</blockquote>
-<p>NIL</p>
-<h2>文章,教程和嗯哼</h2>
-<blockquote>
-<p>Articles, Tutorials and Talks</p>
-</blockquote>
-<ul>
-<li><a href="https://pycoders.com/link/3442/web">了解 Django: URL 引导之路</a><ul>
-<li>MATT LAYMAN </li>
-<li>• Shared by Matt Layman</li>
-</ul>
-</li>
-</ul>
-<p>How does a Django site know where to send requests? You have to tell it! In this article you’ll look at URLs and how to let your users get to the right place.</p>
-<p>(<code>是也乎:</code></p>
-<p>好文章, 就得自我推广</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3459/web">RIP Pipenv: 艰难尝试后知道必须使用 pip-tools 的事儿</a><ul>
-<li>NICK TIMKOVICH</li>
-</ul>
-</li>
-</ul>
-<p>An opinionated look at Pipenv and its future as a Python packaging tool. More about pip-tools here.</p>
-<p>(<code>是也乎:</code></p>
-<p>pip 周边工具战争还没结束...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3452/web">Python 模块和软件包: 简介</a><ul>
-<li>REAL PYTHON </li>
-<li>课程</li>
-</ul>
-</li>
-</ul>
-<p>In this course, you’ll explore Python modules and Python packages, two mechanisms that facilitate modular programming. See how to write and import modules so you can optimize the structure of your own programs and make them more maintainable.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Modules" src="http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.47.55.jpg" /></p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3443/web">用 Markdown 创建响应式 HTML 邮件</a><ul>
-<li>CHRIS MOFFITT</li>
-</ul>
-</li>
-</ul>
-<p>This article describes how to use Python to transform a Markdown text file into a response HTML email and static page on a Pelican blog.</p>
-<ul>
-<li><a href="https://pycoders.com/link/3451/web">名为 Snek 的微小 Python</a><ul>
-<li>JAKE EDGE</li>
-</ul>
-</li>
-</ul>
-<p>Snek is a version of Python targeting embedded processors developed by Keith Packard.</p>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/3448/web">如何从 Python 2 移植到 Python 3</a></p>
-<ul>
-<li>MACIEJ URBAŃSKI</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3461/web">用 Github Actions 进行无服务器Python部署</a></p>
-<ul>
-<li>IAN WHITESTONE</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>开始了, 开始了, github actions,  Azure 大客户.</p>
-<p>简直就是 Ansible 闭源云版本...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3454/web">自以为是的编码指南和 Python 最佳实践</a><ul>
-<li>GITHUB.COM/REDNAFI</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>嗯哼? 这也忒有自知之明了...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3446/web">Create Animated Images Using Python</a><ul>
-<li>YONG CUI</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>基于 imageio /imageio-ffmpeg /pygifsicle</p>
-<p>)</p>
-<h2>好物</h2>
-<blockquote>
-<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
-</blockquote>
-<ul>
-<li><a href="https://pycoders.com/link/3463/web">yakutils: Python 3 辅助函数工具箱</a><ul>
-<li>GITHUB.COM/NFICANO</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>ya.. 开头的工具, 都很神奇的...</p>
-<p><img alt="yakutils" src="http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.35.31.jpg" /></p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3455/web">quick: 用以 Click 基于 Qt5 的 GUI 生成器</a><ul>
-<li>GITHUB.COM/SZSDK</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>一键从 CLI 工具变成 GUI 工具.</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3464/web">rich: 终端中的 RTF   和精美格式</a><ul>
-<li>GITHUB.COM/WILLMCGUGAN</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>终端的潜力远远没嗯哼到哪</p>
-<p><img alt="rich" src="https://github.com/willmcgugan/rich/raw/master/imgs/log.png" /></p>
-<p>当然,得在靠谱的现代终端工具中...</p>
-<p>cmd 是毫无希望的</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3444/web">text_grapher: 3D Graphics 以 Text 来渲染</a><ul>
-<li>GITHUB.COM/FLETCHGRAHAM</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p><img alt="text_grapher" src="https://github.com/fletchgraham/text_grapher/raw/master/img/cube_example.gif" /></p>
-<p>终端中的 3D 动画片</p>
-<p>)</p>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/3466/web">ScalaPy: Use Python Libraries From the Comfort of Scala</a></p>
-<ul>
-<li>SCALAPY.DEV</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3460/web">gitfilesplit: 将一个文件分成几个文件，保留Git历史记录</a></p>
-<ul>
-<li>GITHUB.COM/IDLESIGN • Shared by pythonz</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>自动拆分 git 提交, 为针对每一个文件,
-以便 历史追踪更加清晰...</p>
-<p>当然, 也能自动堆高 push 次数, 轻松获得 KPI 
-)</p>
-<ul>
-<li><a href="https://pycoders.com/link/3453/web">PythonMinefield: 使用街机库编写的游戏</a><ul>
-<li>GITHUB.COM/MYRMICA-HABILIS</li>
-</ul>
-</li>
-</ul>
-<h2>📆🐍 活动/大会</h2>
-<blockquote>
-<p>Events, MeetUp 真的是全球线下活动组织中心</p>
-</blockquote>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/3438/web">⋅ Pravega Hackathon 2020</a></p>
-<ul>
-<li>February 1 to February 3, 2020</li>
-<li>??</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3441/web">⋅ FOSDEM 2020: Python Dev Room</a></p>
-<ul>
-<li>February 1 to February 2, 2020</li>
-<li>比利时</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3433/web">⋅ PyDelhi User Group Meetup</a></p>
-<ul>
-<li>February 1, 2020</li>
-<li>印度</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3431/web">⋅ Melbourne Python Users Group, Australia</a></p>
-<ul>
-<li>February 3, 2020</li>
-<li>澳洲</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3435/web">⋅ Dominican Republic Python User Group</a></p>
-<ul>
-<li>February 4, 2020</li>
-<li>非洲</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3440/web">⋅ Heidelberg Python Meetup</a></p>
-<ul>
-<li>February 5, 2020</li>
-<li>德国</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/3434/web">⋅ PyRana General Body Meeting</a></p>
-<ul>
-<li>February 5, 2020</li>
-<li>阿尔巴尼亚 </li>
-</ul>
-</li>
-</ul>
-<h2>DAMA</h2>
-<blockquote>
-<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
-</blockquote>
-<ul>
-<li><strong><a href="https://py.101.camp/">蟒营 Python 入门班</a></strong><ul>
-<li>5py ;-)</li>
-</ul>
-</li>
-</ul>
-<p>(<code>(￣▽￣)</code>:</p>
-<p>年后第5期就来:</p>
-<div class="highlight"><pre><span></span><span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">3</span>  <span class="err">可以上线</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">20</span> <span class="err">报名截止</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">3</span><span class="p">.</span><span class="mi">1</span>  <span class="err">正式开课</span>
-</pre></div>
-
-
-<p>)</p>
-<ul>
-<li><a href="https://github.com/wuhan2020">2020 援助武汉</a><ul>
-<li>github.com/wuhan2020</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>高速完成构建/发布/传播, 以及社区联合的开源项目,
-数据不公开, 那就由人来采集再公开.</p>
-<p>)</p>
-<h1>是也乎</h1>
-<blockquote>
-<p>NN 3907</p>
-</blockquote>
-<ul>
-<li>首发: <a href="http://weekly.pychina.org/issue/issue-405.html">Issue 405 ~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
-<li>修订: <a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-405.md">issue-405.md</a></li>
-</ul></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="http://weekly.pychina.org/issue/issue-405.html">by Pythoneerm at January 29, 2020 10:18 AM</a>
 </p>
 </div>
 </div>
@@ -1458,7 +1218,7 @@ NetLimiter-like traffic shaping for Linux.</p>
 <a href="https://bambooom.github.io/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://bambooom.github.io" class="message" title="internal server error">bambooooooom</a>
 </li>
 <li>
-<a href="https://bemself.github.io/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://bemself.github.io" class="message" title="internal server error">bemself</a>
+<a href="https://bemself.github.io/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://bemself.github.io" title="My Struggle">bemself</a>
 </li>
 <li>
 <a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" class="message" title="404: not found">junyu</a>
@@ -1485,13 +1245,13 @@ NetLimiter-like traffic shaping for Linux.</p>
 <a href="https://du.101.camp/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://du.101.camp/" title="自怼圈">自怼圈</a>
 </li>
 <li>
-<a href="http://weekly.pychina.org/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://weekly.pychina.org/" class="message" title="internal server error">蠎周刊</a>
+<a href="http://weekly.pychina.org/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a>
 </li>
 </ul>
 
 <p>
 <strong>Last updated:</strong><br>
-February 12, 2020 04:46 PM<br>
+February 13, 2020 12:45 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
