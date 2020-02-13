@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-02-13T00:45:05+00:00</updated>
+	<updated>2020-02-13T08:46:55+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -14,7 +14,7 @@
 		<id>tag:weekly.pychina.org,2020-02-12:/issue/issue-407.html</id>
 		<updated>2020-02-12T02:42:00+00:00</updated>
 		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;Guido 老爹义劝如何正确为 Python 提贡献&lt;/p&gt;
+&lt;p&gt;Guido 老爹义劝快乐的为 Python 提贡献吧&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/407&quot;&gt;PyCoder's Weekly - Issue #407&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
@@ -100,8 +100,8 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;老爹终于忍不住了, 用 Dropbox 的只读文档形式发布指导:&lt;/p&gt;
-&lt;p&gt;想为 CPython 贡献?&lt;/p&gt;
-&lt;p&gt;首先得懂 C(真正的懂那种), 其次得会 git/github, 然后至少10年 Python 经验;&lt;/p&gt;
+&lt;p&gt;想为 CPython 贡献很简单,嘦:&lt;/p&gt;
+&lt;p&gt;懂 C(真正的懂那种), 其次得用 git/github, 至少10年 Python 经验;&lt;/p&gt;
 &lt;p&gt;并强调了真相: 你将更多的在 CLI 中工作, 别想着什么 GUI 的东西了...
 以及, 文档真的都在过时, 别太相信丫们, 及时寻求帮助是好的;&lt;/p&gt;
 &lt;p&gt;现在有 7000+ 提案, 选择一个适合自己的开始, 然后, 才可能有然后.&lt;/p&gt;
@@ -432,7 +432,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-13T00:43:30+00:00</updated>
+			<updated>2020-02-13T08:44:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -646,7 +646,7 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-13T00:43:30+00:00</updated>
+			<updated>2020-02-13T08:44:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1086,7 +1086,7 @@ PyYAML(越来越常用的);&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-02-13T00:43:30+00:00</updated>
+			<updated>2020-02-13T08:44:43+00:00</updated>
 		</source>
 	</entry>
 
