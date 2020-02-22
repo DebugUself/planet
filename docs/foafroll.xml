@@ -15,7 +15,7 @@
 		<foaf:Agent>
 			<foaf:name>bambooooooom</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://bambooom.github.io">
+				<foaf:Document rdf:about="https://bambooom.github.io">
 					<dc:title>Bambooom</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
