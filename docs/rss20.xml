@@ -8,10 +8,352 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>zoom.quiet: 钩陈/ 什么是程序媛?</title>
+	<guid>https://blog.zoomquiet.io/oldtouch-codeing-lady-380s.html</guid>
+	<link>https://blog.zoomquiet.io/oldtouch-codeing-lady-380s.html</link>
+	<description>&lt;p&gt;这是大妈在 &lt;strong&gt;ZoomQuiet&lt;/strong&gt; 的第&lt;strong&gt;009&lt;/strong&gt;篇原创&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;普通程序老猿一则回忆痕迹&amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_1&quot;&gt;背景&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_1&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;蟒营™Python入门班 第6期,&amp;nbsp;已经上线开始报名了;&lt;/p&gt;
+&lt;p&gt;这个月最大的节日是 &lt;code&gt;三八.女神节&lt;/code&gt;;&lt;/p&gt;
+&lt;p&gt;所以,&amp;nbsp;很早就在琢磨如何优惠;&lt;/p&gt;
+&lt;p&gt;不过,&amp;nbsp;先得明确一个问题&amp;#8230;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_2&quot;&gt;问题&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_2&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为什么要给女生特别优惠?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;其实, 答案很明显,&amp;nbsp;从俺的社区称号都可以推理出了;&lt;/p&gt;
+&lt;p&gt;为什么, 俺是 &lt;code&gt;大妈&lt;/code&gt; 而不是 &lt;code&gt;大爷&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;民间也是, &lt;code&gt;大爷&lt;/code&gt; 总是和骂人联系在一起,
+而 &lt;code&gt;大妈&lt;/code&gt; 总是有点儿亲近+耍赖的意思.&lt;/p&gt;
+&lt;p&gt;当然是因为:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在家, 永远是 &lt;code&gt;大妈&lt;/code&gt; 在干活&lt;/li&gt;
+&lt;li&gt;大爷们总是背着手休息&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可是,&amp;nbsp;这又是为什么呢?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_3&quot;&gt;分析&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_3&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;其实, 人类一开始, 都是 &lt;strong&gt;&amp;#8220;大妈&amp;#8221;&lt;/strong&gt; 掌管家族的,&amp;nbsp;大象至今也是如此;&lt;/p&gt;
+&lt;p&gt;因为, 那时主要靠采集, 生存关键因素是食物经验, 而没有文字时,
+活的长的那个性别拥有更多经验, 由 &lt;span class=&quot;caps&quot;&gt;TA&lt;/span&gt;&amp;nbsp;来指挥部落生存机率高;&lt;/p&gt;
+&lt;p&gt;而从生理上, 因为女性拥有必须能承担两人以上同时消耗的生理结构,
+所以, 生命力更强, 从而一般也活的更长, 进而导致 &lt;strong&gt;&amp;#8220;大妈&amp;#8221;&lt;/strong&gt;&amp;nbsp;们统治家族部落;&lt;/p&gt;
+&lt;p&gt;直到人类发明了武器, 从采集变成狩猎为主要营养来源时, 男性才逐渐发挥暴发力强, 以及性格上更加激进等等优势, 接替 &lt;strong&gt;&amp;#8220;大妈&amp;#8221;&lt;/strong&gt;&amp;nbsp;们统治家族部落;&lt;/p&gt;
+&lt;p&gt;再后来, 男性通过文字以及国家制度的发明, 设计了男尊女卑的社会文化,
+才从生理优势之外,&amp;nbsp;在社会结构中注入了额外优势;&lt;/p&gt;
+&lt;p&gt;导致女性一直在人类各种社会中处于从属状态;&lt;/p&gt;
+&lt;p&gt;凡是男性不愿意干的事儿,&amp;nbsp;都是女性去干;&lt;/p&gt;
+&lt;p&gt;编程就是这种工作:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;早年, 编程中的编,&amp;nbsp;是编织的编&lt;/li&gt;
+&lt;li&gt;因为, 那时还没有磁盘发明,&amp;nbsp;连磁带都没有&lt;/li&gt;
+&lt;li&gt;录音机用的还是钢丝&amp;#8230;&lt;/li&gt;
+&lt;li&gt;而程序是通过在卡片纸上打孔, 象毛衣编织机那种结构,&amp;nbsp;再由电路转换为内存程序执行的;&lt;/li&gt;
+&lt;li&gt;但是, 在 &lt;span class=&quot;caps&quot;&gt;NASA&lt;/span&gt; 火箭系统中, 极端的温度变化,&amp;nbsp;导致无论什么纸带都无法正常工作;&lt;/li&gt;
+&lt;li&gt;所以,&amp;nbsp;只好在细线缆上通过磁环的穿过与否来记录只读程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理很简单:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;1&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-04-ScreenShot%202020-03-04%2022.45.42.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;0&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-04-ScreenShot%202020-03-04%2022.45.49.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;线选开关存储器(Core rope memory), 
+也有人叫它&amp;#8221;绳索存储器&amp;#8221;.&amp;nbsp;实际上是一个有很多磁环构成的阵列:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一根导线如果穿过了磁环则导线上的电流就会发生改变,&lt;/li&gt;
+&lt;li&gt;系统检测到这种改变后就把数据解释为1,否则就为0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;只能由女性编(织工)程人员,&amp;nbsp;按照程序的二进制字符序列编织为一组组磁环和线缆形成的程序卡;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;成品大致这样...&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-04-ScreenShot%202020-03-04%2022.43.27.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;这事儿,&amp;nbsp;男性干不了&amp;#8230;&lt;/p&gt;
+&lt;p&gt;后来, 技术进步了,但是, 依然没有男性愿意去作, 
+因为, 坐在打字机前输入程序, 太象秘书小姐了,&amp;nbsp;太娘了&amp;#8230;&lt;/p&gt;
+&lt;p&gt;所以, 那个时代的程序员,&amp;nbsp;全部是程序媛.&lt;/p&gt;
+&lt;p&gt;然后? 当然, 慢慢的, 这个行业飞速发展, 编程变成一个高大上的工作,
+然后, 男性果断又重新运用文化武器, 说女性逻辑/数学/空间想象力不足,&amp;nbsp;又重新掌握了程序员这一果然发展越来越好的职业,&lt;/p&gt;
+&lt;p&gt;于是就又变成了程序猿.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_4&quot;&gt;嗯哼&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_4&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;而实际上,&amp;nbsp;女性天生适合编程的&amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不说编程发明人就是 Ada 女神了, 也不说 &lt;span class=&quot;caps&quot;&gt;NASA&lt;/span&gt; 早期神级程序媛, 登月系统主程以及架构师 
+M.Hamilton&amp;nbsp;&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-04-ScreenShot%202020-03-04%2023.06.42.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;就回顾一下俺以往遇见过的程序媛吧:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2000,&amp;nbsp;在上海:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那时, 刚刚毕业, 又在广告公司里蹉跎了一年, 总算通过同学介绍, 凭自学的 &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; 进入上海一家软件公司;
+遇到程序媛C ,好象是复旦数学系毕业, 自学 C++;
+负责核心业务系统的开发,&amp;nbsp;而俺不过是前端小程序猿&amp;#8230;&lt;/p&gt;
+&lt;p&gt;自己用盗版 UltraEdit 编写 &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;/&lt;span class=&quot;caps&quot;&gt;JS&lt;/span&gt;/&lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt;/&lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;/&amp;#8230; 各种脚本,&amp;nbsp;只能跑在服务端;&lt;/p&gt;
+&lt;p&gt;而人家用正版 Visual Studio 高端复杂的 &lt;span class=&quot;caps&quot;&gt;IDE&lt;/span&gt;, 编写 C++&amp;nbsp;桌面产品;&lt;/p&gt;
+&lt;p&gt;那简直是仰望星空&amp;#8230;&lt;/p&gt;
+&lt;p&gt;当时, 还不以为然, 因为已经皈依了 &lt;span class=&quot;caps&quot;&gt;GNU&lt;/span&gt; ~&amp;nbsp;自由软件原教旨主义;&lt;/p&gt;
+&lt;p&gt;但是, 后来有机会联合完成一个上海交通厅的项目, 涉及一个随机出奖的功能, 
+人家, 就用一晩上自学 &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; 并设计完成了通过在一个图片所有像素中大致均匀分布中奖点的方法;&amp;nbsp;完成了指定任意数量的随机中奖.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Orz&amp;#8230;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2004,&amp;nbsp;北漂:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因为自学 Python ,又在网络中参与了啄木鸟社区的创建, 从而获得进入 &lt;span class=&quot;caps&quot;&gt;SINA&lt;/span&gt;&amp;nbsp;工作的机会;&lt;/p&gt;
+&lt;p&gt;进入刚刚重组的邮件技术部, 沉迷于 FreeBSD&amp;nbsp;的全新世界;&lt;/p&gt;
+&lt;p&gt;作的是过程改进, 结果发现, 当时整个儿 &lt;span class=&quot;caps&quot;&gt;SINA&lt;/span&gt; 免费邮箱业务是基于定制的 &lt;span class=&quot;caps&quot;&gt;POSTFIX&lt;/span&gt;,
+将2万行代码, 硬生生扩展到7万行包含业务逻辑的,&amp;nbsp;是位程序媛;&lt;/p&gt;
+&lt;p&gt;开会从来不说话, 无论什么功能,&amp;nbsp;基本上3天就能交付&amp;#8230;&lt;/p&gt;
+&lt;p&gt;继续仰望星空&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Orz&amp;#8230;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2008,&amp;nbsp;珠海:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;又因为 &lt;span class=&quot;caps&quot;&gt;SINA&lt;/span&gt; 的经历, 当时还不是集团公司的金山,&amp;nbsp;想对研发中心进行过程改进;&lt;/p&gt;
+&lt;p&gt;于是幸运的抓住机会南下;&lt;/p&gt;
+&lt;p&gt;因为不涉及具体业务系统开发, 所以, 在实习生大批进来后,&amp;nbsp;分配俺一个任务:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;教会愿意学的实习生用&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;这就是现在蟒营™开源网络课程框架的发源,&lt;/p&gt;
+&lt;p&gt;但是, 印象深的不是俺班上的学员,
+而是一位 程序媛L, 她没选择 Python , 而是坚定的去了 C++ 实习组;
+毕业 Party 时, 才知道,&amp;nbsp;原来人家的志愿就是病毒分析;&lt;/p&gt;
+&lt;p&gt;然后, 又几年过去, 她已经是病毒分析中心主任了, 现在又是两娃的妈妈;
+却坚实的掌握全球几乎所有&lt;span class=&quot;caps&quot;&gt;PC&lt;/span&gt; 病毒特征,&amp;nbsp;以及病毒制造工作室的代码特性痕迹;&lt;/p&gt;
+&lt;p&gt;而俺已经反复被创业变成 Indie Hacker&amp;nbsp;来通过网课来生存了&amp;#8230;&lt;/p&gt;
+&lt;p&gt;只能继续仰望星空&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Orz&amp;#8230;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以及, 又后来, 在技术大会, 程序媛专场作主持时,&amp;nbsp;见到全国各种领域中的程序媛,&lt;/p&gt;
+&lt;p&gt;简直仰望星空到颈断&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Orz&amp;#8230;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_5&quot;&gt;所以&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_5&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;有点不理解, 很多报名时担心自己学不会的女生,&amp;nbsp;她们的担心哪里来的&amp;#8230;&lt;/p&gt;
+&lt;p&gt;所以, 这个月 蟒营™Python入门班 第6期,&amp;nbsp;决定:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;女生报名, 一律优惠 380&amp;nbsp;元整&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;2020-02-28-101camp6py-reg-qrcode.jpg (JPEG Image, 448 × 364 pixels)&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-02-28-101camp6py-reg-qrcode.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;以此来支持 Python&amp;nbsp;界对程序媛的渴望;-)&lt;/p&gt;
+&lt;p&gt;特别是文科生也应该学编程,&amp;nbsp;理由很多,&lt;/p&gt;
+&lt;p&gt;简要列一下,大家自个儿选个顺眼的,刻到脑子里:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;让大脑二次发育&lt;/li&gt;
+&lt;li&gt;文科生会编程是件很&amp;#8217;酷&amp;#8217;的事情&lt;/li&gt;
+&lt;li&gt;知名记者曰过:&amp;#8221;我觉得写一次 Python 程序之后,文科生就不会胡写中文了.&amp;nbsp;&amp;#8220;&lt;/li&gt;
+&lt;li&gt;李笑来的&amp;#8221;把时间当做朋友&amp;#8221;中曰过:&lt;ul&gt;
+&lt;li&gt;多年以来,受影响最深的,并不是当时所学的 &lt;span class=&quot;caps&quot;&gt;BASIC&lt;/span&gt; ,或者是后来所学的 &lt;span class=&quot;caps&quot;&gt;PASCAL&lt;/span&gt; ,抑或再后来学的 C,C++&amp;nbsp;什么的;&lt;/li&gt;
+&lt;li&gt;受影响最深的是一种思考方式──在跑程序之前,要反复浏览代码,在脑子里进行预演;而不是写完程序直接跑,出错了再说.&amp;nbsp;这是节省时间提高效率的重要方式. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以,对于没有任何编程自信的好人们:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;学习&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;的&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;目标本身&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;从来不是&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;而是只有通过编程思维&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;才能理解&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;接触到的&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;真实世界的&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Cyber&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;维度&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;refer&quot;&gt;refer.&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#refer&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;豆列:&lt;a href=&quot;https://www.douban.com/doulist/119293075/&quot;&gt;蟒营™101.camp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文中链接感谢&lt;a href=&quot;https://linux.cn/static/tools/a.html&quot;&gt;&amp;#8220;文章助手&amp;#8221;的助手&lt;/a&gt; 的支持,
+(来自 &lt;a href=&quot;https://blog.zoomquiet.io/feeds/(https://linux.cn/article-11850-1.html)&quot;&gt;&lt;span class=&quot;caps&quot;&gt;LINUX&lt;/span&gt;中国&lt;/a&gt;&amp;nbsp;的小应用)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击, 将自动跳入小应用,&amp;nbsp;并复制链接到剪贴板&lt;/li&gt;
+&lt;li&gt;然后, 打开浏览器, 复制到地址栏,&amp;nbsp;就能访问了&lt;/li&gt;
+&lt;li&gt;好处,&amp;nbsp;避开了微信内置特殊浏览器的有关屏蔽策略&lt;/li&gt;
+&lt;li&gt;问题, 操作复杂了, 要打开手机上的浏览器,&amp;nbsp;如果在桌面微信则无法使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;JD&lt;/span&gt; 下单链接 -&amp;gt; 点击后再打开浏览器复制到地址栏访问 -&amp;gt;&amp;nbsp;俺能获得少许佣金:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRtSEAQbAVASWRMyFgNSE10VABcGVx1rUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgNRHFMTAhACVBldJURMcyIYHG9qd083Xj0dX1l5PXpbHGIeC2UaaxUDEwRXGFgXABU3ZRtcJUN8B1QaXBECGgRlGmsVBhsFVxlcHAcbDl0eaxICGzc%2BRQVJYlZfAV5rJTIRN2UrWyUBIkU7TFtCV0AGVUxcFQJAAlUYDkUDEgVQSV9AURNSABoLQQQiBVQaXxw%3D&quot;&gt;Head First Python(中文版) (美)巴里&amp;nbsp;中国电力出版社&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRprFQIQBVUcWREyVlgNRQQlW1dCFFlQCxxKQgFHREkdSVJKSQVJHFRXFk9FUlpGQUpLCVBaTFhbXQtWVmpSWRtbFwASAFcfa2hhbEdVTzhQYRdxE1MGSGplQAVDOmUOHjdUK1sUAxEFVhhZFwUiN1Uca0NsEgZUGloUBxEFUCtaJQIWDlcYWBAEEg5dEl0lBRIOZXAFS15yQw1PHiUyIgRlK2sVMhE3F3VcRwVGBFEbUkIEGwBQGFwRUkZVVB8IQQAbBVwaCEYCRzdXGloRCw%3D%3D&quot;&gt;奇特的一生:柳比歇夫坚持56年的&amp;#8221;时间统计法&amp;#8221;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRtTHAATD1wdWhEyFQJcHlMcBhcAVR9rUV1KWQorAlBHU0VeBUVTQg1cAAQJS14MRg1EDUtGfFcUQ0VjVld1FFktVlxWRltZAVFsSlJZHF4cBxoOUR5cFQYFUBZFBxlQU0VCTBhLXh5VFFlrQmlCYAheBFFnG3ENHlkTYVtgDE9aQw4eN1QrWxQDEQVWGFkXBSI3VRxrVGwSBlYTUhUBEDdUK1sRCxAFVxxTHQUVAlArXBULImwLRQd1RkpTECtrJQEiN2UbaxYyUGlTHwwcBxADBUxdEAYXD1RLCxUCRVNVEwgRUkIEXE9cHDIQBlQfUg%3D%3D&quot;&gt;建筑的永恒之道,[美]&amp;nbsp;C·亚历山大,中国水利水电出版社&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;3942&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;全国大会&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;TFUG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;</description>
+	<pubDate>Sun, 08 Mar 2020 07:42:00 +0000</pubDate>
+</item>
+<item>
 	<title>bemself</title>
 	<guid>https://bemself.github.io/2020-02-02-Python-plotting-dash.html</guid>
 	<link>https://bemself.github.io/2020-02-02-Python-plotting-dash.html</link>
 	<pubDate>Sat, 07 Mar 2020 16:45:14 +0000</pubDate>
+</item>
+<item>
+	<title>蠎周刊: pythonista-weekly : Pyw 439</title>
+	<guid>http://weekly.pychina.org/python-weekly/pyw-439.html</guid>
+	<link>http://weekly.pychina.org/python-weekly/pyw-439.html</link>
+	<description>&lt;h3&gt;欢迎阅读《pythonista周刊》第439期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-439&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-439&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.vettery.com/tech?utm_source=newsletter&amp;utm_medium=pythonweekly&amp;utm_term=tech&amp;utm_content=grouped&amp;utm_campaign=ad-77579&quot;&gt;python开发者都需要的Vettery&lt;/a&gt;&lt;br /&gt;
+Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tPYj3fFJGjk&quot;&gt;TensorFlow 2.0 完整教程 - 初学者的Python Neural Networks教程&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(6hm2min)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;初学者的学习如何使用&lt;code&gt;TensorFlow 2.0&lt;/code&gt;完整的教程。本课程是为Python程序员设计的，旨在提高他们在机器学习和人工智能方面的知识和技能。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2.0完整教程，终于来了！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=7tCNu4CnjVc&quot;&gt;Coding Trees in Python&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(21min)&lt;/strong&gt;
+对于数学来说，树比字符串更有用。&lt;code&gt;Thorsten Altenkirch&lt;/code&gt;教授向我们介绍了一种用&lt;code&gt;Python&lt;/code&gt;编写代码的函数方法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/kkR3puNEn8&quot;&gt;如何用机器学习技术获得更多的YouTube浏览量&lt;/a&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;在这篇文章中，我们用&lt;code&gt;YouTube&lt;/code&gt;数据应用了机器学习算法，针对如何得到更多浏览提出建议。内容将会包括端到端手机&lt;code&gt;YouTube&lt;/code&gt;数据及处理过程，针对视频标题使用&lt;code&gt;NLP&lt;/code&gt;，特征工程、构建预测决策树等等。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;UP必备技能！？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.paperspace.com/anomaly-detection-isolation-forest/&quot;&gt;Python中使用 Isolation Forest 的异常检测&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从银行欺诈到预防性的机器维护，异常检测是机器学习的非常有用且普遍的应用。&lt;code&gt;isolation forest&lt;/code&gt;算法是完成这项任务简单而强大的选择。在这篇文章中我们将会涵盖：异常检测的简介，异常检测的应用，什么是&lt;code&gt;Isolation Forest(孤独森林/隔离林)&lt;/code&gt;。在&lt;code&gt;Python&lt;/code&gt;中使用和实现&lt;code&gt;Isolation Forest&lt;/code&gt;来进行异常检测。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLlM3i4cwc8zBRQOGXuLrCLNfpVOuVLuwZ&quot;&gt;Django部署 - From Zero to Hero&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(6小节)&lt;/strong&gt;
+一系列&lt;code&gt;Django&lt;/code&gt;课程详细描述了如何部署&lt;code&gt;Django&lt;/code&gt;应用程序。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gunicorn 要站上前台了吗！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://sidsite.com/posts/implementing-naive-bayes-in-python/&quot;&gt;在Python中实现Naive Bayes(朴素贝叶斯)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章展示了如何在&lt;code&gt;Python&lt;/code&gt;中实现一个&lt;code&gt;Naive Bayes&lt;/code&gt;机器学习分类算法；从简单的原理开始实现，然后改良提升它。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://t.co/6DXxfk9bpf&quot;&gt;如何使用GitHub Actions来编写高质量的Python代码&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章与你分享了你可以如何为你的&lt;code&gt;Python&lt;/code&gt;项目设置&lt;code&gt;GitHub Actions&lt;/code&gt;工作流来保证你的代码是优雅的，符合最佳实践以及经过很好的测试。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub Actions也是开源必备的一环。&lt;/p&gt;
+&lt;p&gt;与此同时，经验当然可以应用于实际项目中！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://martinheinz.dev/blog/17&quot;&gt;自动化Python项目的各个方面&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每个项目——不论你是在&lt;code&gt;web app&lt;/code&gt;方面的工作还是数据科学或者&lt;code&gt;AI&lt;/code&gt;方面的工作——都能从配置&lt;code&gt;CI/CD&lt;/code&gt;，可以在开发中调试并针对生产环境进行优化的&lt;code&gt;Docker&lt;/code&gt;镜像中或者一些额外的代码质量工具，比如&lt;code&gt;CodeClimate or SonarCloud&lt;/code&gt;中受益。所有这些都是我们将在本文中介绍的内容，我们将看到如何将它们添加到你的&lt;code&gt;Python&lt;/code&gt;项目中！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这一定是二连！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.twilio.com/blog/building-backup-whatsapp-chatbot-python-flask-twilio&quot;&gt;Saving My Mom's Pictures&lt;/a&gt;&lt;/strong&gt;
+使用&lt;code&gt;Python，Flask，Dropbox和Twilio&lt;/code&gt;构建备份&lt;code&gt;WhatsApp&lt;/code&gt;聊天机器人。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hodovi.ch/blog/advanced-usage-python-requests-timeouts-retries-hooks/&quot;&gt;Python requests的进阶用法 - timeouts, retries, hooks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.nature.com/articles/s41598-020-60661-8&quot;&gt;将自然语言能力与学习编程语言的个体差异联系起来&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/813691/d82c2954286d2750/&quot;&gt;Python时区处理&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://adamj.eu/tech/2020/03/02/how-to-make-django-redirect-www-to-your-bare-domain/&quot;&gt;如何让Django将WWW重定向到你的Bare Domain&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://utcc.utoronto.ca/~cks/space/blog/python/Python2DroppingImpact&quot;&gt;从Linux发行版中删除Python 2的一个影响&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/QM3X05fduP&quot;&gt;关于Python字典你应该知道的15件事&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.yossarian.net/2020/03/02/Totally-ordered-enums-in-python-with-ordered_enum&quot;&gt;Python中带有ordered_enum的完全有序枚举&lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/dibsonthis/keyboard_listener&quot;&gt;keyboard_listener&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Keyboard Listener&lt;/code&gt;是一个允许你创建自定义热键（组合）或者自定义按键以及将他们绑定到&lt;code&gt;Python&lt;/code&gt;中的自定义函数上。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 精灵！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/google/fuzzbench&quot;&gt;FuzzBench&lt;/a&gt;&lt;/strong&gt; 
+&lt;code&gt;FuzzBench&lt;/code&gt;是一个免费的服务，可以在各种各样的真实基准上评估&lt;code&gt;fuzzers&lt;/code&gt;，在谷歌范围内。&lt;code&gt;FuzzBench&lt;/code&gt;的目标是使严格评估模糊研究变得无痛，并使社区更容易接受模糊研究。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;未知领域。。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/aouinizied/nfstream&quot;&gt;nfstream&lt;/a&gt;&lt;/strong&gt;
+一个灵活的网络数据分析框架。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/jwlodek/py_cui&quot;&gt;py_cui&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;受&lt;code&gt;gocui&lt;/code&gt;的启发，一个用于直观创建带有小部件的&lt;code&gt;CUI/TUI&lt;/code&gt;接口的&lt;code&gt;Python&lt;/code&gt;库。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/butuzov/deadlinks&quot;&gt;deadlinks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;检测你文档链接的健康状态。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;放死链小工具 get！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/meshy/django-schema-graph&quot;&gt;django-schema-graph&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Django-schema-graph&lt;/code&gt;可以用您的&lt;code&gt;Django&lt;/code&gt;模型生成一个彩色的图。该图是交互式的，可以方便地随意开关模型和应用程序。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;越来越完善～&lt;/p&gt;
+&lt;p&gt;图图链接&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/airaria/TextBrewer&quot;&gt;TextBrewer&lt;/a&gt; 
+基于&lt;code&gt;PyTorch&lt;/code&gt;的自然语言处理知识提取工具包。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/joegasewicz/pytask-io&quot;&gt;pytask-io&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个基于&lt;code&gt;Asyncio&lt;/code&gt;的任务队列，被设计得超易于使用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;等一段时间再来看看！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/puzzlelib/PuzzleLib&quot;&gt;PuzzleLib&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PuzzleLib&lt;/code&gt;是一个具有&lt;code&gt;CPU (Intel/AMD)&lt;/code&gt;和&lt;code&gt;GPU (NVIDIA/AMD)&lt;/code&gt;支持的高级深度学习框架。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/JohnHammond/katana&quot;&gt;Katana&lt;/a&gt;&lt;/strong&gt;
+&lt;code&gt;Python3&lt;/code&gt;中的自动&lt;code&gt;CTF&lt;/code&gt;挑战求解器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/further-reading/scrapy-gui&quot;&gt;Scrapy-GUI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个简单的，由&lt;code&gt;Qt-Webengine&lt;/code&gt;驱动的&lt;code&gt;Web&lt;/code&gt;浏览器，具有用于测试&lt;code&gt;Scrapy&lt;/code&gt;爬虫代码的内置功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Rylu12/CircleD&quot;&gt;CircleD&lt;/a&gt;&lt;/strong&gt;
+可以自动或手动检测图像中的圆形/球形物体并提供直径分布&lt;code&gt;（D10，D50，D90）&lt;/code&gt;的软件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;只能说，tql！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;最近更新&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.djangoproject.com/weblog/2020/mar/04/security-releases/&quot;&gt;Django security releases issued: 3.0.4, 2.2.11, and 1.11.29&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;活动和网络研讨会日程&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.meetup.com/sfpython/events/xkwxvqybcfbpb/&quot;&gt;San Francisco Python Meetup March 2020 - San Francisco, CA&lt;/a&gt;&lt;/strong&gt;
+将会有以下话题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PyTest: 精妙之处&lt;/li&gt;
+&lt;li&gt;提升你的 &lt;code&gt;Python Code Review&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;理解二分搜索&lt;/li&gt;
+&lt;li&gt;Being committed to GitHub&lt;/li&gt;
+&lt;li&gt;将Python 3部署到各地儿童的家中(在macOS上)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.meetup.com/austinpython/events/lgrbmqybcfbpb/&quot;&gt;Austin Python Meetup March 2020 - Austin, TX&lt;/a&gt;&lt;/strong&gt;
+将会有以下话题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在&lt;code&gt;Python&lt;/code&gt; 3中用 &lt;code&gt;asyncio&lt;/code&gt;库&lt;/li&gt;
+&lt;li&gt;A Pythonic guide to SOLID Design Principles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/267977020/&quot;&gt;PyMNtos Python Presentation Night #82 - Minneapolis, MN&lt;/a&gt;
+将会有以下话题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Big Data Genomic Project Seeks Python Packaging Help&lt;/li&gt;
+&lt;li&gt;Crop placement using linear programming optimization with Pyomo&lt;/li&gt;
+&lt;li&gt;用Google Cloud Vision API将图片转为文字 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.meetup.com/python-atlanta/events/xzzgcrybcfbqb/&quot;&gt;PyAtl Meetup March 2020 - Atlanta, GA&lt;/a&gt;&lt;/strong&gt;
+Candid Partners 将介绍他们如何使用Kafka和云计算为客户实现数据和治理过程的自动化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.meetup.com/indypy/events/hwstlrybcfbnb/&quot;&gt;IndyPy Mixer March 2020 - Fishers, IN&lt;/a&gt;&lt;/strong&gt;
+&lt;code&gt;IBM&lt;/code&gt;将举办一个关于机器学习中的偏见(以及如何消除偏见!)的研讨会。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/BoulderPython/events/lfhwmrybcfbnb/&quot;&gt;Boulder Python Meetup March 2020 - Boulder, CO&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/startupedmonton/events/dtflxjybcfbmb/&quot;&gt;Edmonton Python Meetup March 2020 - Edmonton, AB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Posa：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-439.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23439.md&quot;&gt;issue-439.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<pubDate>Sat, 07 Mar 2020 06:47:00 +0000</pubDate>
 </item>
 <item>
 	<title>bemself: Python 绘图 - Bokeh 堆叠柱状图(stacked bar)</title>
@@ -1522,508 +1864,6 @@ jianshu&amp;nbsp;是有盈收压力的,&lt;/p&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;</description>
 	<pubDate>Thu, 05 Mar 2020 07:35:00 +0000</pubDate>
-</item>
-<item>
-	<title>蠎周刊: Issue 410</title>
-	<guid>http://weekly.pychina.org/issue/issue-410.html</guid>
-	<link>http://weekly.pychina.org/issue/issue-410.html</link>
-	<description>&lt;blockquote&gt;
-&lt;p&gt;EOF不是字符&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/410&quot;&gt;PyCoder's Weekly - Issue #410&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;200304 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;200304 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3682/web&quot;&gt;Python Requests 高级用法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;DANI HODOVIC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“While it’s easy to immediately be productive with requests because of the simple API, the library also offers extensibility for advanced use cases. If you’re writing an API-heavy client or a web scraper you’ll probably need tolerance for network failures, helpful debugging traces and syntactic sugar.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3685/web&quot;&gt;EOF不是字符&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;RUSLAN SPIVAK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Do you know how an application knows when a read operation reaches the end of a file? In this interesting read, explore what EOF (end-of-file) really is by writing your own version of the Linux cat command in ANSI C, Python, Go, and JavaScript.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3688/web&quot;&gt;用 Django ORM 进行双重检查的锁定&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;LUKE PLANT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The double-checked locking pattern is useful when you need to restrict access to a certain resource to stop simultaneous process from working on it at the same time. Learn how to apply this pattern in Django using the ORM and database level locking features.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3701/web&quot;&gt;Python Bindings: 从 Python 调用 C 或 C++&lt;/a&gt; &lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;What are Python bindings? Should you use ctypes, CFFI, or a different tool? In this step-by-step tutorial, you’ll get an overview of some of the options you can use to call C or C++ code from Python.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Bindings&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-04-ScreenShot%202020-03-04%2010.47.07.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;虽然 Py 们好用又好写, 
-但是, 真正比拼的还是对 C/C++ 们的调用能力,
-毕竟这个世界底层是 C 家族的.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3671/web&quot;&gt;PyPy 状态 Blog: PyPy 和 CFFI 已迁移到 Heptapod&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MOREPYPY.BLOGSPOT.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;PyPy has moved the center of their development off Bitbucket and to the new foss.heptapod.net/pypy&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;因为 Bitbucket 凉了...
-俺的仓库也得迁移了...&lt;/p&gt;
-&lt;p&gt;foss.heptapod.net &amp;lt;- GitLab企业版, 免费使用环境...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3709/web&quot;&gt;PyCon 2020: March 2 COVID-19 下的更新&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYCON.BLOGSPOT.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“As of March 2, PyCon 2020 in Pittsburgh, PA is scheduled to happen.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;技术大会也被疫情了&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3669/web&quot;&gt;对匹兹堡 PyCon 感到兴奋的 19 个理由&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;EMILY MOREHOUSE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Pittsburgh PyCon 的宣传文案来了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3663/web&quot;&gt;调查: PyLadies对您意味着什么?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TWITTER.COM/&lt;/li&gt;
-&lt;li&gt;LOOOORENANICOLE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;被老爹点过名的品牌活动, 
-现在越来越会进行 SNS 营销了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3680/web&quot;&gt;Dictionary Union (PEP 584) 将合并入 Python 3.9&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REDDIT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;开始大讨论了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3700/web&quot;&gt;用 CMake 和 Setuptools 为 C++ 项目打包和分发 cppyy 生成的 Python绑定&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CAMILLE SCOTT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“I rewrote the cppyy CMake modules to be much more user friendly and to work using only Anaconda/PyPI packages, and to generate more feature-complete and customizable Python packages using CMake’s configure_file, while also supporting distribution of cppyy pythonization functions.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;沈游侠曰过:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;每个程序猿&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;总会去写&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;自己反复用一生的&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;makefile&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;实在是 CMake 这工具, 早已就解决了一切自动化编译问题.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3673/web&quot;&gt;从头开始的 Python 多项式回归&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;RICK WIERENGA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Polynomial regression is a core concept underlying machine learning. Learn how to build a polynomial regression model from scratch in Python by working you a real world example to predict salaries based on job position.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3679/web&quot;&gt;如何实现 Python 堆栈&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to implement a stack data structure in Python. You’ll see how to recognize when a stack is a good choice for data structures, how to decide which implementation is best for a program, and what extra considerations to make about stacks in a threading or multiprocessing environment.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;pop&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-04-ScreenShot%202020-03-04%2010.40.34.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;打年糕? 这梗用的好.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3665/web&quot;&gt;显式传递 Python 线程状态&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;VICTOR STINNER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Eric Snow has been working on solving multi-core Python via subinterpreters since 2015. In this article, core developer Victor Stinner discusses how state is passed between interpreters and summarizes his proposal for explicitly passing state to internal C function calls.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;多线程状态, 这一直是玄学问题哪...
-不过, 这也是 PL 重要的科题了...可以养活很多博士了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3683/web&quot;&gt;nbdev: 用 Jupyter 笔记本 几乎操作一切&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JEREMY HOWARD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A Python programming environment called nbdev, which allows you to create complete python packages, including tests and a rich documentation system, all in Jupyter Notebooks.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;这的确是 IPython 独立为 Jupyter 的原因,&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;smalltalk&quot; src=&quot;https://www.fast.ai/images/nbdev/smalltalk.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;不过想学 smalltalk 们代码/运行时合体, 还有距离哪&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3662/web&quot;&gt;处理旧版代码&lt;/a&gt;    &lt;ul&gt;
-&lt;li&gt;ISHA TRIPATHI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn about some of the common problems you encounter when dealing with legacy codebases and how to overcome them in an efficient way that balances delivery with code quality.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;俗称屎山.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3689/web&quot;&gt;Python 中带有 ordered_enum 的完全有序枚举&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;WILLIAM WOODRUFF&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Python’s enum.Enum does not provide ordering by default. See how ordering can be added to enums and why these orderings are useful in the first place.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;无论字典们内部数据结构多科学,
-排序, 还是日常最常见的期待.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3677/web&quot;&gt;有条件承保&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NIKITA SOBOLEV &lt;/li&gt;
-&lt;li&gt;• Shared by sobolevn&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sometimes your code has to take different paths based on the external environment. Make sure that your coverage follows it smoothly.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;爽滑的进行外部目录依赖变更..
-还是靠人的事先清醒的规划哪...
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3704/web&quot;&gt;部署机器学习模型: gRPC 和 TensorFLow 服务&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;RUBIKSCODE.NET&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to deploy TensorFlow models and consume predictions via gRPC.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕见 gPRC ... 所以, 俺一直说:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;人生苦短&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;当歌&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3670/web&quot;&gt;Pinterest 的技术堆栈演进时间表&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;STACKSHARE.IO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Plenty of Python in there…&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;从 MySQL 到 Apache Druid ,&lt;/p&gt;
-&lt;p&gt;叕一则技术栈演变故事...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3686/web&quot;&gt;用 Python 动态编程特性来测量 DNA 相似性&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ANDREW TREADWAY&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;当年, 这可是 Perl 的领域..现在也都是 Py 的了&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3668/web&quot;&gt;将元数据添加到 PDF&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;DANIEL ROY GREENFELD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;自动化批量处置 pdf 的好物&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3693/web&quot;&gt;如何将 Python 字典数据 转换为 Pandas DataFrame&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ERIK MARSJA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;非常实用哪...毕竟, 中间有 numpy 在乱来...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3707/web&quot;&gt;用 Arcade 和 Python-Banyan 进行点对点游戏&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ALAN YORINKS &lt;/li&gt;
-&lt;li&gt;• Shared by Alan Yorinks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3691/web&quot;&gt;Django Speed Handbook: 加快Django应用的速度&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;OPENFOLDER.SH &lt;/li&gt;
-&lt;li&gt;• Shared by Shibel&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;分享人, 差点儿以为是 &lt;code&gt;西贝&lt;/code&gt; ...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3672/web&quot;&gt;doit: 任务管理和自动化工具&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYDOIT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;想法很好...&lt;/p&gt;
-&lt;p&gt;可惜, 用起来太复杂了点儿...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3681/web&quot;&gt;StellarGraph: 针对图的机器学习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;STELLARGRAPH&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一则针对图形的 ML 框架,
-但是, 不是小样本的..&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3674/web&quot;&gt;cppyy: 自动 Python-C++ 绑定&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;WLAV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个 Py-&amp;gt;C++ 转换工具, 不知道靠谱卟&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3698/web&quot;&gt;Funnelplot: 用于可视化子组方差的简单漏斗图生成&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JOHNHW&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;output_6_1&quot; src=&quot;https://github.com/johnhw/funnelplot/raw/master/docs/images/output_6_1.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;神奇哪, 首次见到在 windows 平台上完成的示例, 而且老实的将错误也记录下来了:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;# load some example data&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pydataset&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;funnelplot.core&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;funnel&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# create a suitable axis&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_frame_on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# funnel plot, using 0.5% -&amp;gt; 99.5% interval&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;funnel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Caschool&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;testscr&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;county&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;percentage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;99.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;error_mode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;data&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;Users&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;John&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;Dropbox&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;devel&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;funnelplot&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;funnelplot&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;core&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;ne&quot;&gt;RuntimeWarning&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;invalid&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encountered&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true_divide&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;band&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group_size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;Users&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;John&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;Dropbox&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;devel&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;funnelplot&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;funnelplot&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;core&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;ne&quot;&gt;RuntimeWarning&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;divide&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zero&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encountered&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true_divide&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;band&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group_size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3687/web&quot;&gt;flakehell: Legacy-First Wrapper Around Flake8 Linter 使其超赞&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;WE MAKE SERVICES&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3675/web&quot;&gt;Parse: 基于 Python format() 语法的规范解析字符串&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;RICHARD JONES&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3684/web&quot;&gt;ordered_enum: Python 完全排序枚举&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;WILLIAM WOODRUFF&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3678/web&quot;&gt;napkin: Python 作为用编写 PlantUML 序列图的 DSL&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/PINETR2E&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;虽然 UML 的理想没实现, 但是, UML 图元是真正深入人心了...
-PlantUML 是非常赞的图形脚本工具, 但是, 毕竟语法很囧;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;distributed_control&quot; src=&quot;https://github.com/pinetr2e/napkin/raw/master/images/distributed_control.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;这样的图, DSL 为:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nd&quot;&gt;@napkin.seq_diagram&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;distributed_control&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'User'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Order'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;orderLine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'OrderLine'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;product&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Product'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;customer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Customer'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;calculatePrice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orderLine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;calculatePrice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;product&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getPrice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'quantity:number'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;customer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getDiscountedValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getBaseValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'value'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'discountedValue'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;嗯哼? 也没好哪儿去哪...对比:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nd&quot;&gt;@startuml&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;participant&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;participant&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;participant&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;participant&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Product&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;participant&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calculatePrice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calculatePrice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Product&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getPrice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quantity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getDiscountedValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getBaseValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;deactivate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;
-
-    &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discountedValue&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;deactivate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Customer&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;deactivate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OrderLine&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;deactivate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@enduml&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3706/web&quot;&gt;People-Detector: 照片和视频中的人物检测&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/HUMANDECODED &lt;/li&gt;
-&lt;li&gt;• Shared by Tom&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3708/web&quot;&gt;pytest-monitor: pytest插件/用于在测试会话期间分析资源使用情况&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/CFMTECH &lt;/li&gt;
-&lt;li&gt;• Shared by Jean-Sébastien Dieu&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3696/web&quot;&gt;Generate 从日期字符串生成Python strftime() 格式代码&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PYSTRFTIME.COM &lt;/li&gt;
-&lt;li&gt;• Shared by Lachlan Eagling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3667/web&quot;&gt;⋅ PyTexas 2020&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;May 16 to 17, 2020 &lt;/li&gt;
-&lt;li&gt;in Austin, &lt;/li&gt;
-&lt;li&gt;TX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3676/web&quot;&gt;⋅ HackBVICAM National Student’s Convention 2k20&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 13 to March 14, 2020&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://edu.csdn.net/huiyiCourse/detail/1159&quot;&gt;中国「远程办公」大考&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;抗击疫情，&lt;/li&gt;
-&lt;li&gt;科技公司在行动&lt;/li&gt;
-&lt;li&gt;系列&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;2020.2.29 CSDN 继续线上技术峰会,
-大妈, 吐糟完毕:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/pi7JosExERPM-zRt27bA_A&quot;&gt;拙见/ 什么是自驱力?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;现场录音-&amp;gt; &lt;a href=&quot;https://fm.101.camp/2020/csdn-soho-panel.html&quot;&gt;CSDN/远程办公大考/大妈主持/吐糟生肉版/fm.101.camp 蟒营™电台 钩陈各种值得探讨&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-410.html&quot;&gt;Issue 410 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-410  .md&quot;&gt;issue-410.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 3942&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;全国大会&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;TFUG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</description>
-	<pubDate>Wed, 04 Mar 2020 03:42:00 +0000</pubDate>
 </item>
 <item>
 	<title>蠎周刊: pythonista-weekly : Pyw 438</title>
