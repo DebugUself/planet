@@ -14,6 +14,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://bemself.github.io/2020-02-02-Python-plotting-dash.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/Python-plotting-bokeh-bar.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-02-22:/ann-imho-0.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-02-27:/oldtouch-historic-jianshu-end.html" />
 			<rdf:li rdf:resource="tag:blog.zoomquiet.io,2020-02-26:/oldtouch-historic-cpug.html" />
@@ -34,6 +35,12 @@
 	<title>bemself</title>
 	<link>https://bemself.github.io/2020-02-02-Python-plotting-dash.html</link>
 	<dc:date>2020-03-07T16:45:14+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/Python-plotting-bokeh-bar.html">
+	<title>bemself: Python 绘图 - Bokeh 堆叠柱状图(stacked bar)</title>
+	<link>https://bemself.github.io/python/Python-plotting-bokeh-bar.html</link>
+	<content:encoded>在 [Bokeh 初探](https://bemself.github.io/python/Python-plotting-bokeh.html)之后，学习使用它来做个堆叠柱状图</content:encoded>
+	<dc:date>2020-03-07T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://blog.zoomquiet.io/ann-imho-0.html">
 	<title>zoom.quiet: 公告/ 拙见</title>

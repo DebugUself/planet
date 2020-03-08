@@ -14,6 +14,13 @@
 	<pubDate>Sat, 07 Mar 2020 16:45:14 +0000</pubDate>
 </item>
 <item>
+	<title>bemself: Python 绘图 - Bokeh 堆叠柱状图(stacked bar)</title>
+	<guid>https://bemself.github.io/python/Python-plotting-bokeh-bar.html</guid>
+	<link>https://bemself.github.io/python/Python-plotting-bokeh-bar.html</link>
+	<description>在 [Bokeh 初探](https://bemself.github.io/python/Python-plotting-bokeh.html)之后，学习使用它来做个堆叠柱状图</description>
+	<pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>zoom.quiet: 公告/ 拙见</title>
 	<guid>https://blog.zoomquiet.io/ann-imho-0.html</guid>
 	<link>https://blog.zoomquiet.io/ann-imho-0.html</link>
