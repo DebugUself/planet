@@ -5,8 +5,373 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-03-25T00:44:09+00:00</updated>
+	<updated>2020-03-25T08:50:56+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Issue 413</title>
+		<link href="http://weekly.pychina.org/issue/issue-413.html"/>
+		<id>tag:weekly.pychina.org,2020-03-25:/issue/issue-413.html</id>
+		<updated>2020-03-25T06:42:00+00:00</updated>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;匹兹堡的 PyCon US 2020 被取消&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/413&quot;&gt;PyCoder's Weekly - Issue #413&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200325 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200325 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3794/web&quot;&gt;宾夕法尼亚州/匹兹堡的 PyCon US 2020 被取消&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYCON BLOG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Recently, the United States and the State of Pennsylvania have asked that large gatherings be postponed or cancelled until further notice. With that in mind, the PSF has worked to reduce financial exposure and develop a plan to provide content remotely.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;COVID-19&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-25-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.jpg?imageView2/2/w/360&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;注视之下, 终于还是怂了..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3796/web&quot;&gt;今年将推出新 pip 解析器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PSF BLOG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“The developers of pip are in the process of developing a new resolver for pip (as we announced on the PSF blog last year). We aim to roll it out later this year. As part of that work, there will be some major changes to how pip determines what to install, based on package requirements.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3804/web&quot;&gt;改进 Python 的 Pretty-Printing&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAKE EDGE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some changes are being proposed to add more customization to the pprint module in Python 3.10 or later, and while a PEP hasn’t been created yet, there are some internal discussions going on debating whether or not such a change is worthwhile and what the API might look like.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3814/web&quot;&gt;The Real Python Podcast 上线&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python programming best practices, career tips, and related software development topics.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Podcast&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-25-ScreenShot%202020-03-25%2010.47.15.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;也来了哪...&lt;/p&gt;
+&lt;p&gt;俺们的也有了哪:
+&lt;a href=&quot;https://fm.101.camp/&quot;&gt;fm.101.camp 蟒营™电台 钩陈各种值得探讨&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3809/web&quot;&gt;Python Scope &amp;amp; the LEGB Rule: 在代码中解析名称&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step tutorial, you’ll learn what scopes are, how they work, and how to use them effectively to avoid name collisions in your code. Additionally, you’ll learn how to take advantage of a Python scope to write more maintainable and less buggy code.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;LEGB&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-25-ScreenShot%202020-03-25%2010.42.53.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;LEGB 法则真的是无上真理,&lt;/p&gt;
+&lt;p&gt;但是, 官方并没约定一个固定的形式,
+所以, 导致大家都在摸索自己的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3811/web&quot;&gt;CPython 3.9.0a5 现在可用于测试&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3805/web&quot;&gt;DjangoCon Europe 2020 推迟到9月&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DJANGOPROJECT.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3792/web&quot;&gt;链式比较很屌!&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;RAYMOND HETTINGER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chained comparisons, like 0 &amp;lt; x &amp;lt; 5, are shorter, cleaner, and often faster than their more complex counterparts, such as (0 &amp;lt; x) and (x &amp;lt; 5).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3807/web&quot;&gt;数独益智盒包含平方数&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;STACK OVERFLOW&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How do you solve a Sudoku puzzle in Python? And if the puzzle has a solution, how can you tell if the solution is unique? In this Stack Overflow question, see how the z3 SMT solver can be used to answer both of these questions.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Z3 SMT 求解器...魔幻工具..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3798/web&quot;&gt;从零开始 K-Nearest Neighbors&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PHILIPP MUENS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The k-Nearest Neighbors (k-NN) algorithm is a popular machine learning algorithm for classifying data. It has several neat features, including the fact that it doesn’t require a traditional training phase. While libraries like scikit-learn offer highly optimized black box implementations of k-NN, there’s no better way to understand how something works than to build it yourself. Learn how to do just that in this article from Philipp Muens.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;From Scratch&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;和 Hand First/Awesome/... 类似, 也变成了一种流行风格了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3800/web&quot;&gt;用 Pandas 和 SQLite 搞掂大型数据集的快速子集&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ITAMAR TURNER-TRAURING&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Let’s say you have a large amount of data, too large to fit in memory, and you want to load part of it into Pandas. If you’re only going to load one specific subset a single time, you can use chunking. But what if you need to load different subsets of the data at different times? Loading the whole file each time will be slow. What you need is a searchable index, and one easy (and fast!) way to do that is with SQLite.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;SQLite 果断是 SQL 数据库中最快的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3802/web&quot;&gt;在 Python 中实现 Levenshtein 距离&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;AHMED FAWZY GAD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Levenshtein distance is a metric for measuring the “distance” between two words in terms of the number of single-character edits required to transform one word into another. In this article, you’ll learn how to implement the Levenshtein distance in Python using a dynamic programming approach.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3813/web&quot;&gt;有关 Python math 模块: 您需要知道的一切&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step tutorial, you’ll learn all about Python’s math module for higher-level mathematical functions. Whether you’re working on a scientific project, a financial application, or any other type of programming endeavor, you just can’t escape the need for math!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;math&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-25-ScreenShot%202020-03-25%2010.40.49.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3815/web&quot;&gt;Python 解释数学符号&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;AMIT CHAUDHARY&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don’t need to know a lot of math to be a successful programmer, but there are times when a little bit of math knowledge can go a long way. In this article, author Amit Chaudhary shows you how to translate various mathematical symbols into Python code.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;数学符号实在是当年数学家很的私人狂欢,
+行为艺术...&lt;/p&gt;
+&lt;p&gt;搞到现在给印刷和计算机留下多少坑哪...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3797/web&quot;&gt;如何用 Pandas read_html() 从 HTML 表格中提取数据&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ERIK MARSJA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this article, Erik Marsja shows you how to scrape HTML tables using Pandas read_html(). You’ll first see how read_html() works by reading a simple table from an HTML string. Then you’ll take it up a notch and scrape some data from Wikipedia.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;其实...还是用专业模块吧, Pandas 作更加擅长的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3822/web&quot;&gt;Twisted Matrix 实验室: Twisted 下架 Python 2.7 支持&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TWISTEDMATRIX.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“With the open-source Python community at large dropping Python 2.7 support in their projects, Twisted has decided to do the same. Twisted 20.3.0, the most recently released version, is the final release to offer Python 2.7 support.”&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;类似这种就没办法了...
+Py 2 的远去, 还是得全宇宙大力夯实才可能真正落实的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3801/web&quot;&gt;重写 Dropbox 同步引擎核心&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;DROPBOX.TECH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Dropbox engineering team shares some reflections on what it took to rewrite the Dropbox sync engine (a 4+ year project!) and how they ultimately decided to scrap their Python code and rewrite the system in Rust.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼? 现在用 Rust 来重构是政治正确了?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3812/web&quot;&gt;有关 Django 服务层更多信息&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAMES BENNETT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Follow-up to last week’s post where James discussed the drawbacks of using a service layer architecture for building Django apps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3806/web&quot;&gt;有效地使用 NumPy 的 np.arange()&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn how to use the NumPy arange() function, which is one of the routines for array creation based on numerical ranges. np.arange() returns arrays with evenly spaced values&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;NumPy&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-25-ScreenShot%202020-03-25%2009.54.11.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;NumPy 是好东西, 但是, 直接用, 还是有点儿囧的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3793/web&quot;&gt;superstring.py: 快速且内存优化的字符串库/用于重文本操作&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/BTWAEL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3820/web&quot;&gt;whynot: 用于动态决策的Python沙箱&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/ZYKLS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;项目名本身就是项目的意义...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3821/web&quot;&gt;MonkeyType: 通过收集运行时类型生成静态类型注释&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/INSTAGRAM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这个, 有点象先吃好, 看着给点儿的意思...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3816/web&quot;&gt;z3: Z3定理证明&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/Z3PROVER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Z3Overall&quot; src=&quot;https://github.com/Z3Prover/doc/raw/master/programmingz3/images/Z3Overall.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;哦哦,支持多种语言的 定理推导 语言.&lt;/p&gt;
+&lt;p&gt;M$ 研究院还是隐藏着很多神仙想法的...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3818/web&quot;&gt;python-proxy-server: AWS Lambda 上的 Python 代理服务器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;IAN WHITESTONE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Lambda&quot; src=&quot;https://ianwhitestone.work/images/free-proxy-server/architecture.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;对 Lambda 的增强支持&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3799/web&quot;&gt;stable-fluids: Jos Stam’s Stable Fluids 适用以 Python 3&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/GREGTJ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;fluids&quot; src=&quot;https://github.com/GregTJ/stable-fluids/raw/master/test.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;屌的..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3808/web&quot;&gt;itomate: 自动进行 iTerm 布局和会话设置&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/KAMRANAHMEDSE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;itomate&quot; src=&quot;https://github.com/kamranahmedse/itomate/raw/master/.github/assets/illustration.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;挺美的...只是 tmux/screen 之后,
+这种针对 iterm 的增强, 有什么使用场景?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3795/web&quot;&gt;PySimpleGUI-COVID19: 帮助分析 COVID-19 病毒传播的工具&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/PYSIMPLEGUI &lt;/li&gt;
+&lt;li&gt;• Shared by PythonistaCafe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PySimpleGUI&quot; src=&quot;https://user-images.githubusercontent.com/46163555/76657707-dc855e00-6548-11ea-89cd-7c9f6b28978a.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;GUI 框架都来蹭热点了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3810/web&quot;&gt;⋅ PyWeek Games Programming Contest (Online)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;March 22 to March 30, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.meetup.com/TensorFlow-User-Group-Zhuhai/events/269476226/&quot;&gt;TF Dev Summit viewing party 回看趴 | Meetup&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;14:00~16:00&lt;/li&gt;
+&lt;li&gt;online&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Academic-nCoV/2019-nCoV/wiki&quot;&gt;Academic-nCoV/2019-nCoV Wiki&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;nCoV 最新海外信息&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-11-ScreenShot%202020-03-11%2019.32.08.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;文科生的战斗, 虽然没办法象 wuhan2020 们那样快速组织工程师,
+先于国家完成各种实用系统;&lt;/p&gt;
+&lt;p&gt;但是, 文科生通过大量海外报道的浏览/对比/翻译/报道/...&lt;/p&gt;
+&lt;p&gt;可以帮助人们通过真实世界的反应, 来更好的理解当前状态.&lt;/p&gt;
+&lt;p&gt;而且, 一个完全没有技术基础的文科团队, 自然通过 github 完成所有协同,
+实在..感动 -&amp;gt; github 太好用了.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-413.html&quot;&gt;Issue 413 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-413.md&quot;&gt;issue-413.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 3963&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;核心组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+        &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;TFUG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2020-03-25T08:48:13+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 412</title>
@@ -356,854 +721,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-03-20T00:43:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">pythonista-weekly : Pyw 440</title>
-		<link href="http://weekly.pychina.org/python-weekly/pyw-440.html"/>
-		<id>tag:weekly.pychina.org,2020-03-15:/python-weekly/pyw-440.html</id>
-		<updated>2020-03-15T08:03:00+00:00</updated>
-		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第440期。Let us start!&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-440&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-440&lt;/a&gt;&lt;br /&gt;
-翻译：Dustyposa&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。[马上跟踪你的python应用吧！免费试用14天哦！](&lt;/p&gt;
-&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://adamj.eu/tech/2020/03/10/django-check-constraints-sum-percentage-fields/&quot;&gt;使用Django 检查约束百分比字段的总和&lt;/a&gt;&lt;/strong&gt;
-之前，我曾介绍过使用Django的CheckConstraint类来确保将带有选择项的字段限制为仅有效值。 这是另一个用例，基于我开发的应用程序。 它使用检查约束来确保代表百分比的一组字段总和为100。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.blog.pythonlibrary.org/2020/03/10/python-101-learning-about-lists/&quot;&gt;Python 101: 学习Lists&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Lists&lt;/code&gt;是&lt;code&gt;Python&lt;/code&gt;编程语言的基本数据类型。列表是一个可变序列，通常是同类型的结合。可变意味着你可以在创建一个列表之后进行改变。你也会经常看到列表中包含另外的列表。这些被称为嵌套列表。你还会看到包含各种其他数据类型的列表，例如字典、元组或对象。让我们来看看你如何创建一个列表！&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.valentinog.com/blog/python-for-js/&quot;&gt;Python for JavaScript Developers&lt;/a&gt;&lt;/strong&gt;
-为&lt;code&gt;JavaScript&lt;/code&gt;开发人员提供的&lt;code&gt;Python&lt;/code&gt;搭便车指南。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;知识迁移&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.theodo.com/2020/03/sqlalchemy-relationship-performance/&quot;&gt;以一种Performance Friendly的方式掌握 SQLAlchemy Relationships&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;让我们看看如何在SQLAlchemy关系上使用不同的加载技术来提高应用程序性能。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;关系调优第一步。&lt;/p&gt;
-&lt;p&gt;不过表的设计也很重要。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.twilio.com/blog/build-shipment-notification-service-python-flask-twilio-easypost&quot;&gt;使用Python、Flask、Twilio和EasyPost构建发货通知服务&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;随着电子商务变得越来越主流，企业现在直接向消费者发货的数量比以往任何时候都多。消费者在网上购买商品后，便想知道订单在履行过程中的位置以及何时到达，这正是&lt;code&gt;Twilio&lt;/code&gt;和&lt;code&gt;EasyPost&lt;/code&gt;派上用场的地方。在本教程中，你将看到使用&lt;code&gt;EasyPost API&lt;/code&gt; 跟踪货物的移动是多么容易，并通过&lt;code&gt;Twilio SMS API&lt;/code&gt;和&lt;code&gt;Python&lt;/code&gt;的&lt;code&gt;Flask&lt;/code&gt;框架以编程方式通知个人。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;就差 &lt;code&gt;Twilio&lt;/code&gt; and &lt;code&gt;EasyPost&lt;/code&gt;了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pythonweekly.us2.list-manage.com/track/click?u=e2e180baf855ac797ef407fc7&amp;id=7268f218a5&amp;e=57c131a127&quot;&gt;Using Pytesseract To Convert Images Into A HTML Site&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用&lt;code&gt;Google Tesseract&lt;/code&gt;将图片转为文字，然后用&lt;code&gt;Python&lt;/code&gt;将其转换为静态网站。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这是一个生意！网站生成器！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLT8WeU5lHsiRgqUP0R63wCuwL_CgWNc7W&quot;&gt;Zillow API&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(55min)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一系列视频向你展示了如何在&lt;code&gt;Python&lt;/code&gt;中使用&lt;code&gt;Zillow API&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://andyljones.com/posts/post-mortem-plotting.html&quot;&gt;Post-Mortem Python Plotting&lt;/a&gt;&lt;/strong&gt;
-修复了几个&lt;code&gt;bug&lt;/code&gt; &lt;em&gt;after&lt;/em&gt; 他们造成了崩溃。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Jupyter出错后也能debug！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.pyimagesearch.com/2020/03/09/grad-cam-visualize-class-activation-maps-with-keras-tensorflow-and-deep-learning/&quot;&gt;Grad-CAM: 使用Keras、TensorFlow和Deep Learning可视化类激活映射&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在这篇教程中，你将学习到如何用一个被叫做&lt;code&gt;Grad-CAM&lt;/code&gt;的算法来可视化类激活映射(CAM)用于&lt;code&gt;debugging&lt;/code&gt;深度神经网络。之后我们将使用&lt;code&gt;Kearas and TensorFlow&lt;/code&gt;实现&lt;code&gt;Grad-CAM&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://djangodeconstructed.com/2020/01/03/mental-models-for-class-based-views/&quot;&gt;基于类的视图的心智模型&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在这篇文章中，我们将介绍Django使用的基于类的视图的基类。你将了解基于类的视图是如何工作的，以及它们与基于功能的视图的区别。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;类视图的管理及实现方式&lt;/p&gt;
-&lt;p&gt;学习基础设计之路。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://ljvmiranda921.github.io/notebook/2020/03/06/jupyter-notebooks-in-2020/&quot;&gt;在2020如何使用Jupyter Notebooks (Part 1: 数据科学前景)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这是关于&lt;code&gt;Jupyter Notebook&lt;/code&gt;三篇博客文章中的第一篇。在这里，我将讨论数据科学的前景，以及推动我们的工具发展的力量。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=535acCxjHCI&quot;&gt;用Python and face_recognition 实现人脸识别&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png&quot; /&gt;(31min)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.alanconstantino.com/articles/water-your-plant-using-a-raspberry-pi-and-python.html&quot;&gt;用树莓派 and Python 给你的植物浇水&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;等一个给猫喂食！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://rachelbythebay.com/w/2020/03/07/costly/&quot;&gt;我们必须谈谈Python，Gunicorn，Gevent的问题&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.urbanpiper.com/how-knowing-pandas-can-boost-your-django-efficiency/&quot;&gt;了解 Pandas 如何提升你的 Django效率&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/AaronWard/covid-19-analysis&quot;&gt;covid-19-analysis&lt;/a&gt;&lt;/strong&gt;
-&lt;code&gt;Python&lt;/code&gt;的冠状病毒报告生成。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/firstlookmedia/dangerzone&quot;&gt;dangerzone&lt;/a&gt;&lt;/strong&gt;
-将有潜在危险的PDF文件、办公文档或图像转换成安全的PDF。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/ExpDev07/coronavirus-tracker-api&quot;&gt;coronavirus-tracker-api&lt;/a&gt;&lt;/strong&gt;
-用于追踪全球冠状病毒(2019-nCoV)暴发的简单、快速(&amp;lt; 200ms) API。它是用&lt;code&gt;Python&lt;/code&gt;使用&lt;code&gt;Flask&lt;/code&gt;框架编写的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/sloisel/pyptex&quot;&gt;PypTeX&lt;/a&gt;&lt;/strong&gt;
-&lt;code&gt;PypTeX&lt;/code&gt;是&lt;code&gt;LaTeX&lt;/code&gt;的&lt;code&gt;Python&lt;/code&gt;预处理器。它允许在&lt;code&gt;LaTeX&lt;/code&gt;模板文件中嵌入&lt;code&gt;Python&lt;/code&gt;代码片段。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;论文福音&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/google-research/electra&quot;&gt;ELECTRA&lt;/a&gt;&lt;/strong&gt;
-训练文本编码器作为鉴别器，而不是生成器。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Python-Markdown/markdown&quot;&gt;Python-Markdown&lt;/a&gt;&lt;/strong&gt;
-&lt;code&gt;John Gruber&lt;/code&gt;的&lt;code&gt;Markdown&lt;/code&gt;的&lt;code&gt;Python&lt;/code&gt;实现，带有扩展支持。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/max-dotpy/GUI_maker&quot;&gt;GUI_maker&lt;/a&gt;&lt;/strong&gt;
-向初学者介绍&lt;code&gt;Tkinter&lt;/code&gt;的应用程序。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GUI教程！交互更强！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/netsach/concrete-datastore&quot;&gt;concrete-datastore&lt;/a&gt;&lt;/strong&gt;
-&lt;code&gt;concrete-datastore&lt;/code&gt;是一种基于&lt;code&gt;web&lt;/code&gt;框架&lt;code&gt;Django&lt;/code&gt;的高度通用的&lt;code&gt;HTTP REST&lt;/code&gt;数据存储。它主要用作单页&lt;code&gt;web&lt;/code&gt;应用程序&lt;code&gt;(SPA)&lt;/code&gt;的&lt;code&gt;HTTP&lt;/code&gt;数据库服务器。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/sedthh/pyxelate&quot;&gt;pyxelate&lt;/a&gt;&lt;/strong&gt;
-将图像降采样为像素图像的&lt;code&gt;Python&lt;/code&gt;类。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;像素风生成器！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Posa：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;写了一个GUI发邮件小工具，下次还是用类写，更省时间。:(&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Dustyposa/goSpider/blob/master/small_projects/email_sending&quot;&gt;邮件发送及GUI&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;----- 分割线 -----&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-440.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23440.md&quot;&gt;issue-440.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2020-03-20T00:43:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">娄绍昆 中医人生 读书摘记 8</title>
-		<link href="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0,%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F/%E5%A8%84%E7%BB%8D%E6%98%86-%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F-%E8%AF%BB%E4%B9%A6%E6%91%98%E8%AE%B0%E5%8C%BB8.html"/>
-		<id>https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0,%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F/%E5%A8%84%E7%BB%8D%E6%98%86-%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F-%E8%AF%BB%E4%B9%A6%E6%91%98%E8%AE%B0%E5%8C%BB8.html</id>
-		<updated>2020-03-15T00:00:00+00:00</updated>
-		<content type="html">一些启发的摘记，具体医学知识</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-03-15T08:43:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">My Struggle - 我的自怼周报 2020 11w</title>
-		<link href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-11w.html"/>
-		<id>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-11w.html</id>
-		<updated>2020-03-15T00:00:00+00:00</updated>
-		<content type="html">周结第12周</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-03-15T08:43:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">娄绍昆 中医人生 读书摘记 7</title>
-		<link href="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0,%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F-7-%E5%8C%BB.html"/>
-		<id>https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0,%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F-7-%E5%8C%BB.html</id>
-		<updated>2020-03-14T00:00:00+00:00</updated>
-		<content type="html">一些启发的摘记，具体医学知识</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-03-15T08:43:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">娄绍昆 中医人生 读书摘记 3</title>
-		<link href="https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0,%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A8%84%E5%B0%9A%E5%9D%A4%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F-3.html"/>
-		<id>https://bemself.github.io/%E4%B8%AD%E5%8C%BB,%E7%BB%8F%E6%96%B9%E5%8C%BB%E5%AD%A6,%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0,%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%A8%84%E5%B0%9A%E5%9D%A4%E4%B8%AD%E5%8C%BB%E4%BA%BA%E7%94%9F-3.html</id>
-		<updated>2020-03-14T00:00:00+00:00</updated>
-		<content type="html">一些启发的摘记，非关具体医学知识</content>
-		<author>
-			<name>My Struggle</name>
-			<email>doituself@outlook.com</email>
-			<uri>https://bemself.github.io</uri>
-		</author>
-		<source>
-			<title type="html">My Struggle</title>
-			<subtitle type="html">This is RSS feed for my website</subtitle>
-			<link rel="self" href="https://bemself.github.io/rss.xml"/>
-			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-03-15T08:43:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Issue 411</title>
-		<link href="http://weekly.pychina.org/issue/issue-411.html"/>
-		<id>tag:weekly.pychina.org,2020-03-12:/issue/issue-411.html</id>
-		<updated>2020-03-12T03:42:00+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;2020 应该如何享用 Jupyter?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/411&quot;&gt;PyCoder's Weekly - Issue #411&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyCoder&quot; src=&quot;https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;200311 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;200311 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3749/web&quot;&gt;Post-Mortem Python 绘图&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ANDY JONES&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Who loves debugging things that only fail occasionally? Just me? Maybe you need to check out Andy Jones’ extract() function that “magically” extracts a caller’s environment into an IPython interpreter session. Mix in a little post-mortem debugging with Jupyter’s %debug magic command, and you’ll be painlessly debugging finicky code in no time.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;神奇的事后验尸, 
-&lt;code&gt;extract()&lt;/code&gt; 能将调用者环境装配人 Jupyter 进行细致的检验.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://ljvmiranda921.github.io/notebook/2020/03/06/jupyter-notebooks-in-2020/&quot;&gt;2020 年如何用 Jupyter 笔记本&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;LJ MIRANDA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this first of a three-part blog post, LJ Miranda surveys the data science landscape and discusses the forces that push data science tools to evolve.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;一个系列, 刚刚发布第一篇, 
-1: 数据科学的笔记本
-/2: 2020我的笔记本
-/3: 笔记本的未来..&lt;/p&gt;
-&lt;p&gt;是的, 笔记本从实体的, 到电脑形态, 现在又是一种可计算文档的指代了...&lt;/p&gt;
-&lt;p&gt;其实, 对 Jupyter 的发展是看好的, 但是, 对其最终产品形态不明朗,
-因为 notebook 形式非常创意的将 开发/调试/笔记/发行 很好的揉合在一起;
-唯独没对运行时有考虑...这就比较尴尬了...&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Jupyter&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-12-axis_with_jupyter_forces.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3735/web&quot;&gt;思考 psycopg3&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;DANIELE VARRAZZO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A core maintainer of the popular psycopg2 PostgreSQL adapter for Python discusses breaking changes he would like to see in a hypothetical pyscopg3 project, including better query/parameter separation, more sensible context manager behavior with connections, and async support.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;psycopg3&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-12-architecture.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;当大家大规模从 MySQL 迁移到 Pq , 各种模块就大发展起来了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3744/web&quot;&gt;Alexa Python 开发: 构建和部署 Alexa Skill&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll become an Alexa Python developer by deploying your own Alexa skill. You’ll build an application that users will interact with using voice commands to Amazon Alexa devices. Your skill will respond back with a random joke when invoked by the user!&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Alexa&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-12-ScreenShot%202020-03-12%2015.33.02.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Amazon 全家桶开发环境...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3748/web&quot;&gt;PyCon 2020 为 COVID-19 更新&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYCON.BLOGSPOT.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“PyCon continues to closely monitor the Coronavirus (also known as COVID-19) situation. As of March 6, PyCon 2020 in Pittsburgh, Pennsylvania is scheduled to take place.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;PyCon 官方还在使用 BLOGSPOT.COM,
-最早也最稳定的 blog 服务.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;讨论&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3733/web&quot;&gt;关于 Windows CPython 安装程序中的“将Python 3.X添加到PATH”复选框…&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TWITTER.COM/BITECODE_DEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;An epic Twitter thread. It’s still active almost two weeks later, with tons of heavyweights chiming in.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;哦...Windows 永远的编程之敌.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3746/web&quot;&gt;什么导致了 [*a] to Overallocate?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;STACK OVERFLOW&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Stefan Pochmann investigates memory allocation for three methods of creating a list from an iterable a: list(a), [x for x in a], and [&lt;em&gt;a]. The last method, [&lt;/em&gt;a], always overallocates memory for the list.&lt;/p&gt;
-&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3745/web&quot;&gt;Python 在 GitHub Actions&lt;/a&gt;    &lt;ul&gt;
-&lt;li&gt;HYNEK SCHLAWACK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“GitHub’s own CI called GitHub Actions has been out of closed beta for a while and offers generous free quotas and a seamless integration with the rest of the site. Let’s have a look on how to use it for an open source Python package.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;GitHub 进入 微软后, 果然必定上了云, 
-那么 AWS Lambda 对标物也就来了...&lt;/p&gt;
-&lt;p&gt;只是, 刚刚开始, 一切都会有的.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3723/web&quot;&gt;在 Python 模拟异步函数&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;DINO COSTA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As the adoption of asynchronous Python grows, the ability to reliably test asynchronous code is increasingly important. In this tutorial, Dino Costa shows you how to leverage Future objects in Python 3.7 and the AsyncMock object added in Python 3.8 to easily test asynchronous functions.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3751/web&quot;&gt;语法统一很容易 !-)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CASSIE JONES&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Syntactic unification is the process of solving equations between symbolic expressions. Unification has applications in type systems and logic programming. In this article, Cassie Jones shows you how to implement a unification algorithm in just 30 lines of Python!&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;呵..JONES, 语法问题不在系统, 而在人...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3736/web&quot;&gt;定义自己的 Python 函数&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this beginner tutorial, you’ll learn how to define and call your own Python functions. You’ll also learn about passing data to your function, and returning data from your function back to its calling environment.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3753/web&quot;&gt;从 Linux 发行版删除 Python 2 的叕一个冲击&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CHRIS SIEBENMANN &lt;/li&gt;
-&lt;li&gt;opinion&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Everyone’s insistence on getting rid of Python 2 is magically transforming all of this perfectly functional and useful Python 2 code we have from an asset to a liability. You can imagine how I feel about that.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;想正直替代 Python2 ? 还早...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3743/web&quot;&gt;理解 Django: Views 中的 Views&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MATT LAYMAN &lt;/li&gt;
-&lt;li&gt;• Shared by Matt Layman&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Django URLs expect to send a response back to a user.  Where does that response come from?  A Django view. This article looks into the fundamentals of views and how to use them in your project.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3739/web&quot;&gt;从头开始梯度下降&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PHILIPP MUENS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Gradient descent is one of the most fundamental optimization techniques used in machine learning. Learn the ins and outs of gradient descent by implementing it from scratch in Python.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Gradient Descent&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-12-ScreenShot%202020-03-12%2014.58.37.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;梯度下降来龙去脉...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3730/web&quot;&gt;咱们必须谈论这个Python/Gunicorn/Gevent/...&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;RACHELBYTHEBAY.COM &lt;/li&gt;
-&lt;li&gt;opinion&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Here’s what happens when you build around Python, Gunicorn, Gevent, and web requests instead of something more sensible.” Although pessimistic, this was an interesting read.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;一个悲观而有趣的观点...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3732/web&quot;&gt;Python 中定义 main 函式&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how Python main functions are used and some best practices to organize your code so it can be executed as a script and imported from another module.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;main&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-12-ScreenShot%202020-03-12%2014.54.48.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;真蟒, 开始加大短视频的输出了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3728/web&quot;&gt;Episode #171: PEP 614 冷却 Python Decorators&lt;/a&gt;    &lt;ul&gt;
-&lt;li&gt;PYTHON BYTES &lt;/li&gt;
-&lt;li&gt;podcast&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Real Python and PyCoder’s own David Amos guest hosts Python Bytes, talking about PEP 614, macOS menu bar apps with Python, test coverage, and more.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;真蟒 和 PyCoder 联合出品..
-不过, 是真感觉 老爹 退休后, EPE 的接受加速了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3725/web&quot;&gt;在 ZIP 压缩包中捆绑 Python 依赖项&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JÜRGEN HERMANN &lt;/li&gt;
-&lt;li&gt;• Shared by Jürgen Hermann&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Shipping dependencies for your scripts as a single file, built with shiv.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;shiv&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-12-python-shiv.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;这个实用,算是最简洁的一种发行形式了...&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;Using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pandas&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;.shiv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pandas_23b2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;…&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pandas&lt;/span&gt; 
-
-&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                                                &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;                                  &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pandas&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;                              &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python38&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zip&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;                                 &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;                     &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dynload&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;~/.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shiv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pandas_23b2bb7d64c26139950435a64d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;除了首次运行要解开和加载有点儿慢, 其它没什么不同.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/3754/web&quot;&gt;信号处理在机器学习中的应用&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;VAIDHEESWARAN ARCHANA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;好物&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3747/web&quot;&gt;enum-switch: Python 基于枚举的Switch实现&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ROBERTO ALSINA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3719/web&quot;&gt;posthog: 开发人员友好的开源产品分析&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/POSTHOG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;posthog&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-11-ScreenShot%202020-03-11%2019.50.44.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;针对开源项目的自动化分析;
-收集并可视化网站/app 的所有事件, 以便辅助决策...
-基于 Django.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3722/web&quot;&gt;karateclub: 关于图结构数据的无监督学习&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/BENEDEKROZEMBERCZKI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3731/web&quot;&gt;papermill: 参数化/可执行的分析笔记本&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/NTERACT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3729/web&quot;&gt;covid-19-analysis: 用于生成新冠趋势可视化报告的 Python 包&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/AARONWARD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;covid&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-11-ScreenShot%202020-03-11%2019.33.03.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;可以说是 wuhan2020 的模块版.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3724/web&quot;&gt;aiohttp-swagger3: 根据不同 UI 后端显示对应 Swagger 文档&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/HH-H &lt;/li&gt;
-&lt;li&gt;• Shared by hh-h&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3726/web&quot;&gt;portion: 间隔时间的数据结构和操作&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/ALEXANDREDECAN &lt;/li&gt;
-&lt;li&gt;• Shared by Alexandre Decan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3742/web&quot;&gt;pytest-responsemock: Pytest的简化请求模拟&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/IDLESIGN &lt;/li&gt;
-&lt;li&gt;• Shared by pythonz&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3717/web&quot;&gt;⋅ EuroPython 2020: Call for Proposals Now Open&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;爱尔兰&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3755/web&quot;&gt;⋅ PyMNTos&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 12, 2020&lt;/li&gt;
-&lt;li&gt;USA&lt;/li&gt;
-&lt;li&gt;明尼苏达&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyMNTos&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-11-ScreenShot%202020-03-11%2019.25.42.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;经常活动的 MeetUP, 场地也非常亲切...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3740/web&quot;&gt;⋅ Python Atlanta&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 12, 2020&lt;/li&gt;
-&lt;li&gt;USA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3720/web&quot;&gt;⋅ HackBVICAM National Student’s Convention 2k20&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 13 to March 14, 2020&lt;/li&gt;
-&lt;li&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3750/web&quot;&gt;⋅ Python Miami&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 14 to March 15, 2020&lt;/li&gt;
-&lt;li&gt;USA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3741/web&quot;&gt;⋅ DFW Pythoneers 2nd Saturday Teaching Meeting&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 14, 2020&lt;/li&gt;
-&lt;li&gt;USA,TX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/3737/web&quot;&gt;⋅ PyDelhi User Group Meetup&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;March 14, 2020&lt;/li&gt;
-&lt;li&gt;印度&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Academic-nCoV/2019-nCoV/wiki&quot;&gt;Academic-nCoV/2019-nCoV Wiki&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;github&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;nCoV 最新海外信息&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-11-ScreenShot%202020-03-11%2019.32.08.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;文科生的战斗, 虽然没办法象 wuhan2020 们那样快速组织工程师,
-先于国家完成各种实用系统;&lt;/p&gt;
-&lt;p&gt;但是, 文科生通过大量海外报道的浏览/对比/翻译/报道/...&lt;/p&gt;
-&lt;p&gt;可以帮助人们通过真实世界的反应, 来更好的理解当前状态.&lt;/p&gt;
-&lt;p&gt;而且, 一个完全没有技术基础的文科团队, 自然通过 github 完成所有协同,
-实在..感动 -&amp;gt; github 太好用了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-411.html&quot;&gt;Issue 411 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-411  .md&quot;&gt;issue-411.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 3949&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;全国大会&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;TFUG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2020-03-20T00:43:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">呢喃/ 别了和队平</title>
-		<link href="https://blog.zoomquiet.io/ann-murmur-farewell-peace-corps.html"/>
-		<id>tag:blog.zoomquiet.io,2020-03-11:/ann-murmur-farewell-peace-corps.html</id>
-		<updated>2020-03-11T15:55:00+00:00</updated>
-		<content type="html">&lt;p&gt;这是大妈在 &lt;strong&gt;ZoomQuiet&lt;/strong&gt; 的第&lt;strong&gt;010&lt;/strong&gt;篇原创&lt;/p&gt;
-&lt;h1 id=&quot;_1&quot;&gt;呢喃/ 别了和队平&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_1&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;普通程序老猿一则感叹&amp;#8230;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;_2&quot;&gt;背景&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_2&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/-Nq2bisaZy_T5fBDD-yMsw&quot;&gt;呢喃/&amp;nbsp;为什么想日历卡片连载?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分析过原因&amp;#8230;本质上只是开始逼自己每天至少 140&amp;nbsp;字的文字输出.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;_3&quot;&gt;现象&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_3&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;昨天,&amp;nbsp;被触发了一个关键词&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不知道是图片中的文字,&amp;nbsp;还是纯文本中的文字;&lt;/p&gt;
-&lt;p&gt;总之自动删除了;&lt;/p&gt;
-&lt;p&gt;然后, 看到 余晟&amp;nbsp;分享的消息:&lt;/p&gt;
-&lt;p&gt;如果你看过&amp;#8221;江城&amp;#8221;,&amp;#8221;寻路中国&amp;#8221;,&amp;#8221;再见,老北京&amp;#8221;,&amp;#8221;奇石&amp;#8221;,&amp;#8221;东北游记&amp;#8221;,&amp;#8221;长乐路&amp;#8221;中的任何一本,而且喜欢这类书,你大概应该知道他们的作者都属于同一组织:和队平(the Peace Corps). 
-和队平成立的背景是一本1958年出版的书&amp;#8221;丑陋的美国人(the Ugly Americans)&amp;#8221;,作者指出,相比苏联,美国在发展中国家&amp;#8221;接地气&amp;#8221;的工作做得不够.&amp;nbsp;所以和平队有三个目的:在&amp;#8221;感兴趣的国家&amp;#8221;提供帮助,帮助世界了解美国,帮助美国了解世界. &lt;/p&gt;
-&lt;p&gt;1996年,开始接收&amp;#8221;和队平&amp;#8221;,将他们派往涪陵,自贡等地区支援教育. 之前提到那些书的作者,比如何伟,梅英东,史明智,都是和队平员,他们在支教同时,也完成了中文的学习,之后更写出了不少优秀的作品. 
-因为各种原因,今年是&amp;#8221;和队平&amp;#8221;在中国的最后一年,许多人着实为之可惜.&amp;nbsp;如果你希望了解背后的原因,或者单纯对此事感兴趣,都可以阅读何伟在&amp;#8221;纽约客&amp;#8221;杂志上的文章. &lt;/p&gt;
-&lt;p&gt;https://www.newyorker.com/magazine/2020/03/16/the-peace-corps-breaks-ties-with-china&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;&amp;#8220;&lt;/span&gt;纽约客&amp;#8221;是一份很有格调的杂志,此文词汇量不大,凝练而克制,值得一读&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;_4&quot;&gt;快译&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_4&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&amp;#8230;该队于1993年首次来到该国&amp;#8230;总计派出一千三百多名志愿者到该国,&amp;nbsp;该机构现已活跃在六十个国家,一直被视为远离政治争端单纯的志愿者组织.&lt;/p&gt;
-&lt;p&gt;1月17日正式被通知离开该国;
-无论来国和该国,&amp;nbsp;都发文庆祝.&lt;/p&gt;
-&lt;p&gt;&amp;#8230;该队自 1961 年由 Kennedy&amp;nbsp;总统创立&amp;#8230;&lt;/p&gt;
-&lt;p&gt;&amp;#8230;小平同志对该队表示过欢迎&amp;#8230;向学生展示过从来国收到的选票&amp;#8230;&lt;/p&gt;
-&lt;p&gt;&amp;#8230;如今,包括亚当在内的27位前该国志愿者在国务院工作&amp;#8230;&lt;/p&gt;
-&lt;p&gt;&amp;#8230;一直被担心教学是情报工作的掩护&amp;#8230;&lt;/p&gt;
-&lt;p&gt;..该队表达了美国的信心:如果您将有积极性的年轻人送到偏远地区,让他们独自一人,好事就会发生&amp;#8230;&lt;/p&gt;
-&lt;p&gt;985工程&amp;#8230;反映了来国人难以掌握的战略:教育和限制可以同时进行的想法..&lt;/p&gt;
-&lt;p&gt;..在随后的时期中,该国的总体增长非常强劲,以至于和队平的人数可以用微观历史来代表. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;China&amp;nbsp;8(每支队伍都有正式编号)抵达的那一年,该国加入了世界贸易组织. &lt;/li&gt;
-&lt;li&gt;China 12&amp;nbsp;到达日,三峡大坝已经建成. &lt;/li&gt;
-&lt;li&gt;China 14&amp;nbsp;那年是北京奥运会. &lt;/li&gt;
-&lt;li&gt;&amp;#8230;从 China 1 到 China 16 ,&lt;span class=&quot;caps&quot;&gt;G.D.P.&lt;/span&gt;增加了十倍以上.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;.. 2014年,开始允许申请人指定他们想在哪个国家或地区工作,该国因此成为了梦眛以求的任务.  ..Mei Haloski..她说:&amp;#8221;我一直被指示,技能最强的人应该去该国.&amp;nbsp;&amp;#8220;&lt;/p&gt;
-&lt;p&gt;&amp;#8230;该国的战略从未改变:教育和限制并行进行,就像同一条高速公路的相反车道一样.&amp;nbsp;&amp;#8230;当今的公民通常更加宽容和了解,但是长防火墙城也比以往任何时候都更加复杂..&lt;/p&gt;
-&lt;p&gt;&amp;#8230;旧的信心也消失了.&amp;nbsp;这似乎是来国更大趋势的一部分:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;每个外国人的接触都是一种威胁,每次交换都是零和&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#8230;二十二岁的 Gabriel Exposito 进行了电话交谈,他是最后一批收到该国和平军团邀请的人之一.&lt;br /&gt;
-他在哈瓦那长大,他的学校记忆之一就是一群来国人的来访. 
-校方指示孩子们避开外国人,外国人捐赠的善款被共&lt;span class=&quot;caps&quot;&gt;CD&lt;/span&gt;官员拒之门外..&lt;/p&gt;
-&lt;p&gt;&amp;#8230;他对关闭计划的推文感到震惊,&amp;#8230;向有关工作人员抱怨:&amp;#8221;我同意你的观点,共&lt;span class=&quot;caps&quot;&gt;CD&lt;/span&gt;是一个敌对的实体.&amp;nbsp;但是,我们正在破坏他们在树立的来国人形象啊&amp;#8230;&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8230;他要求将其调任至前共产主义国家&amp;#8230;最后选择了摩尔多瓦&amp;#8230;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;_5&quot;&gt;嗯哼&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_5&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这杂志其实也在外面, 所以, 尝试全文复制过来, 摘要翻译在上,&amp;nbsp;另外有个小结尾测试收费功能.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原文还配有语音和各种漫画,推荐去查阅.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2020/03/16/the-peace-corps-breaks-ties-with-china&quot;&gt;The Peace Corps Breaks Ties with China / The New&amp;nbsp;Yorker&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The Peace Corps Breaks Ties with&amp;nbsp;China&lt;/p&gt;
-&lt;p&gt;The agency has always been viewed as removed from political spats. But the timing of the U.S.&amp;#8217;s decision seems&amp;nbsp;suspicious.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;By Peter&amp;nbsp;Hessler&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;March 9,&amp;nbsp;2020&lt;/p&gt;
-&lt;p&gt;照片&lt;/p&gt;
-&lt;p&gt;Group of people in front of a portrait of&amp;nbsp;Mao. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The author, lower left, with other China 3 volunteers in front of the Forbidden City, in Beijing, in 1996.Photograph courtesy the&amp;nbsp;author&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;On the morning of January 17th, shortly before I was scheduled to meet with a hundred and forty Peace Corps volunteers in Chengdu, the capital of Sichuan Province, there was an unexpected announcement that the China program was ending. The Peace Corps had first come to the country in 1993, and as a volunteer from the early years I had been asked to speak at an in-service training that the organization was holding in a hotel near where I live. But by the time I arrived nobody was in the mood for nostalgia. The American volunteers, most of whom were in their twenties, looked stunned; some were red-eyed from crying. At the back of the room, more than a dozen Chinese staff members stood with stoic expressions. They had given up some benefits of the Chinese system in order to work for the American agency. From the ceiling, somebody had hung a red propaganda-style banner, which proved that Americans could make their slogans every bit as tone-deaf as the ones in the People&amp;#8217;s Republic. The banner said &amp;#8220;Welcome to &lt;span class=&quot;caps&quot;&gt;IST&lt;/span&gt; 2020: Be the Tree You Wish to See in the&amp;nbsp;World.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;An American staff member greeted me with a pained look. She said something to the effect that the tree she wished to have seen was a tactful announcement, but Senators Marco Rubio and Rick Scott, of Florida, had declared the closure of the China program on Twitter. &amp;#8220;Rubio and Rick Scott wanted to take credit for it,&amp;#8221; she said&amp;nbsp;angrily.&lt;/p&gt;
-&lt;p&gt;The Peace Corps has sent more than thirteen hundred volunteers to China, and the agency, which is now active in sixty countries, has always been viewed as removed from political spats. The &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; had never ended a Peace Corps program because of a diplomatic conflict, but the timing of the decision about China seemed suspicious. The coronavirus had yet to come to widespread attention, and the Senators, who had previously expressed doubts about a Chinese trade deal, tweeted the day after President Trump signed a Phase 1 economic agreement with&amp;nbsp;China.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;&amp;#8220;&lt;/span&gt;For too long, Beijing has fooled organizations such as the World Bank and the World Trade Organization,&amp;#8221; Rubio wrote. Scott chimed in: &amp;#8220;I&amp;#8217;m glad the Peace Corps has finally come to its senses and sees Communist China for what it is: the second largest economy in the world and an adversary of the United&amp;nbsp;States.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Chinese hard-liners also celebrated. In Guanchazhe, a conservative publication, a columnist named Pan Gongyu published a commentary, &amp;#8220;Farewell, Peace Corps in China, We Won&amp;#8217;t See You Off.&amp;#8221; The title echoed &amp;#8220;Farewell, Leighton Stuart!,&amp;#8221; a famous essay that Mao Zedong wrote in August, 1949. That month, the &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; State Department had issued a white paper that, in more than a thousand tortured pages, tried to explain how America had &amp;#8220;lost&amp;#8221; China to Mao&amp;#8217;s revolutionaries: &amp;#8220;This is a frank record of an extremely complicated and most unhappy period in the life of a great country to which the United States has long been attached by ties of closest&amp;nbsp;friendship.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;In his essay, Mao derided American democracy as &amp;#8220;another name for the dictatorship of the bourgeoisie,&amp;#8221; and he celebrated the departure of John Leighton Stuart, the last &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; Ambassador to China under the Kuomintang government. For years, the isolationist essay was part of the school curriculum, and many Chinese people recognize the ending: &amp;#8220;Leighton Stuart has departed and the White Paper has arrived, very good, very good. Both events are worth&amp;nbsp;celebrating.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;In Guanchazhe, Pan described the Peace Corps&amp;#8217;s &amp;#8220;ideological and cultural export&amp;#8221; as another chapter in American failure: &amp;#8220;After twenty-seven years in China, the &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; diplomatic offices intended to &amp;#8216;raise wolves,&amp;#8217; but ended up with a litter of huskies.&amp;#8221; He concluded, &amp;#8220;The Peace Corps has departed and the U.S.-China Trade Agreement is here, very good, very good. Both events are worth&amp;nbsp;celebrating.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;In the fall of 1996, the Peace Corps sent me to teach English to college students in Fuling, a remote city on the Yangtze River. I was twenty-seven years old, and I was joined by another volunteer, Adam Meier, who was twenty-two. Not long after we arrived, a student named Richard submitted an essay to my writing class titled &amp;#8220;Why Americans Are So Casual.&amp;#8221; Richard was skinny, shy, and bespectacled. He had grown up in Fuling, and most of his classmates came from the Sichuanese countryside. At the time, China&amp;#8217;s population was more than seventy per cent rural, and only eight per cent of students went to college. Adam and I were the first Americans to live in Fuling since the Revolution. In his essay, Richard wrote, in&amp;nbsp;English:&lt;/p&gt;
-&lt;p&gt;Our foreign language teachers—Peter and Adam—came to teach us this term. It provides a good opportunity of understanding the American way of life. In my opinion, they are more casual than Chinese people. Why do I think so? I&amp;#8217;ll give you some facts to explain&amp;nbsp;this.&lt;/p&gt;
-&lt;p&gt;We were part of a Peace Corps cohort known as China 3. The agency&amp;#8217;s groups have always been numbered, perhaps because it implies a sense of mission. The Peace Corps was founded by President John F. Kennedy, in 1961—the year of Saturn 1 and Sputnik 9. In the same way that the Apollo rockets went up in sequence, each Peace Corps cohort was intended to travel to a distant land, build on the work of its predecessors, then return home. And, just like the rockets, the Peace Corps was a Cold War endeavor. It was inspired by &amp;#8220;The Ugly American,&amp;#8221; a 1958 novel that warned readers that the Soviets were doing a better job of grassroots work in the developing world. The Peace Corps had three goals: to provide useful assistance to &amp;#8220;interested countries,&amp;#8221; to improve understanding of the United States, and to help Americans understand the rest of the&amp;nbsp;world.&lt;/p&gt;
-&lt;p&gt;By the time I joined, relatively few volunteers were aware of these Cold War roots. Time had moved on, or maybe it had stopped—this was the era of &amp;#8220;The End of History and the Last Man,&amp;#8221; the 1992 book by Francis Fukuyama, who declared the triumph of Western liberal democracy. In 1996, the Peace Corps was sending volunteers to Russia, Poland, Bulgaria, and other former Soviet-bloc states that had supposedly transitioned to democracy. China was the only Communist country that accepted&amp;nbsp;volunteers.&lt;/p&gt;
-&lt;p&gt;Deng Xiaoping had welcomed the Peace Corps as part of his Reform and Opening strategy, but some Chinese officials weren&amp;#8217;t convinced that Americans should be working in remote places like Fuling. They referred to the program by a euphemism—Meizhong Youhao Zhiyuanzhe, or &amp;#8220;U.S.-China Friendship Volunteers&amp;#8221;—because the Chinese translation of &amp;#8220;Peace Corps&amp;#8221; had been tainted by years of Maoist propaganda. The first three cohorts were small, which made it easier for the government to track us. The curiosity of locals was even more intense. Richard&amp;#8217;s essay&amp;nbsp;continued:&lt;/p&gt;
-&lt;p&gt;A child wakes her parents up to look at the unused space under her bed.
-&amp;#8220;Can you come look under my bed? It seems like a complete waste of storage space.&amp;#8221;
-Cartoon by &lt;span class=&quot;caps&quot;&gt;P. C.&lt;/span&gt; Vey
-For example, when Mr. Hessler is having class, he can scratch himself casually without paying attention to what others may say. He dresses up casually, usually with his belt dropping and dangling. But, to tell you the truth, it isn&amp;#8217;t considered a good manner in China, especially in old people&amp;#8217;s&amp;nbsp;eyes.&lt;/p&gt;
-&lt;p&gt;China 3 consisted of fourteen volunteers, and, before joining, none of us had taken a single class in Chinese language, history, politics, or culture. In those days, Peace Corps applicants didn&amp;#8217;t choose their destinations. All the China 3 volunteers were white, and had almost no experience in the developing world; one, from Mississippi, had never been on an airplane before. The majority came from the Midwest or the South—Adam was from Wisconsin, and I was a Missourian. For many of us, the Peace Corps represented an inexpensive way to go&amp;nbsp;abroad.&lt;/p&gt;
-&lt;p&gt;Our students were majoring in English, another project of Reform and Opening. China was expanding compulsory English education, which created new demand for instructors; after graduation, our students would be assigned to teach in middle and high schools. But their concept of the outside world remained abstract. They had no Internet access, and the Communist Party published all their texts, including a cultural-studies book called &amp;#8220;Survey of Britain and America.&amp;#8221; A chapter about American history began, naturally enough, with China: &amp;#8220;The Indians living in America originated from Asia some 25,000 years ago.&amp;#8221; After listing some key details about the European discovery of the New World—&amp;#8221;it also opened up fresh ground for the rising bourgeoisie&amp;#8221;—the text proceeded to the founding of the United States. (&amp;#8220;The Constitution of 1787 established the dictatorship of the American bourgeoisie.&amp;#8221;) A section about contemporary society claimed that nowadays most New Englanders work in factories. (&amp;#8220;They are good at making watches and clocks.&amp;#8221;) There was some useful information about American slang. (&amp;#8220;For example, &amp;#8216;draw one&amp;#8217; or &amp;#8216;shoot one&amp;#8217; means &amp;#8216;pour a cup of coffee.&amp;#8217; &amp;#8220;) Chapter 4 covered &amp;#8220;Social&amp;nbsp;Problems&amp;#8221;:&lt;/p&gt;
-&lt;p&gt;Homosexuality is a rather strange social phenomenon that most people can hardly understand. It widely spreads. One reason for this may be the despair in marriage or love&amp;nbsp;affairs.&lt;/p&gt;
-&lt;p&gt;The chapter concluded by explaining the primary cause of homosexuality and other social&amp;nbsp;problems:&lt;/p&gt;
-&lt;p&gt;The most important reason is the capitalist system of America. In this capitalist society, although science and technology is highly advanced, some people are suffering from spiritual hollowness. Thus they start to look for things curious and&amp;nbsp;exciting.&lt;/p&gt;
-&lt;p&gt;In part to keep the students as far as possible from &amp;#8220;Survey of Britain and America,&amp;#8221; Adam and I used whatever we could find as teaching materials. We brought photographs of family to class, and we made copies of articles from American magazines. When we received our absentee ballots for the 1996 Presidential election, Adam and I each gave a lecture on the &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; political system to a section of senior students. At the end, we took out the ballots, allowed the students to inspect them, and&amp;nbsp;voted.&lt;/p&gt;
-&lt;p&gt;The students became very quiet when I handed them my ballot. We were in a small, unheated room, packed with more than forty simple wooden desks. One by one, the students examined the piece of paper. By the time I retrieved the ballot and voted for Bill Clinton, the room was so silent, and they were watching with such intensity, that my heart was racing. Not long afterward, a Peace Corps staffer in Chengdu reported that college officials had called and weren&amp;#8217;t happy about what Adam and I had done. But the college left it at that—such communication was often&amp;nbsp;indirect.&lt;/p&gt;
-&lt;p&gt;The people who were farthest away seemed the most likely to perceive a threat. Students were thrilled, whereas our Chinese colleagues were curious but guarded. College administrators were warier, but even they were proud to have foreigners on campus. Opponents of the program tended to be at the Chinese provincial or national&amp;nbsp;level.&lt;/p&gt;
-&lt;p&gt;The American reaction was the opposite. Recently, I talked with William Speidel, a Sinologist who served as the first Peace Corps China director, and he remembered the attitude of State Department officials. &amp;#8220;They were overjoyed,&amp;#8221; he said. &amp;#8220;The idea that Peace Corps had a foothold in quote-unquote Communist China was really&amp;nbsp;something.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Speidel commissioned a linguist to design a course in Mandarin, and, in remote places, a hardworking volunteer could gain fluency in only two years, the length of a Peace Corps assignment. Many volunteers had studied pedagogy as undergrads, and often they returned to teach in &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; classrooms. But there were others whose life paths were radically transformed. They became diplomats, civil servants, businesspeople, or scholars specializing in China. Today, twenty-seven former China volunteers, including Adam, work in the State Department, and there are others at organizations like &lt;span class=&quot;caps&quot;&gt;U.S.A.I.D.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Journalists and writers were also common. Michael Meyer, a China 2 volunteer from Minnesota, went on to write three books about the country. In my cohort, three of us became China correspondents and authors. All told, former volunteers have published at least eleven nonfiction books about&amp;nbsp;China.&lt;/p&gt;
-&lt;p&gt;I sometimes wondered how the situation looked to Communist intelligence analysts. In 1999, I moved to Beijing while preparing to publish my first book, about my experience in Fuling, and there was a period when I sensed that I was being watched with particular attention. There were strange encounters in my neighborhood, and a couple of former students back in the Fuling region reported being intimidated by security agents who showed up because of their connection with me. In Beijing, at a couple of government-sponsored events, Foreign Ministry officials sought me out with pointed questions: Why did you study English literature if you planned to go to China? Why did you teach in such an undeveloped&amp;nbsp;place?&lt;/p&gt;
-&lt;p&gt;They clearly worried that teaching had been a cover for intelligence work, and they seemed baffled by the Peace Corps. The organization didn&amp;#8217;t attract many people from élite backgrounds, and it paid volunteers about a hundred and twenty dollars a month. Speidel&amp;#8217;s Chinese staff had been assigned to him by the government, so there was no question that some lines of information ran straight to security, along with the likely phone taps. But nobody from Peace Corps headquarters ever told me what I should or should not teach, and staff visited Fuling only twice in two years. At its best, the Peace Corps was an expression of American confidence: if you sent motivated young people to remote places and left them alone, good things were likely to&amp;nbsp;happen.&lt;/p&gt;
-&lt;p&gt;Recently, I reminisced about the era with somebody from Fuling who is well connected in the Communist Party. He confided that the Fuling volunteers were supposed to be sent to Wanxian, another Yangtze city, whose name was eventually changed to Wanzhou. But officials were concerned that the city was too close to the construction site of the Three Gorges Dam, where Americans might learn sensitive information. So they pushed us a hundred and thirty miles upstream. Of course, I ended up writing about the dam anyway. And, after the Peace Corps finally got into Wanzhou, the organization posted a China 7 volunteer named Jake Hooker there. Despite having no Chinese background, Hooker learned the language to a remarkable level, and he proved that it didn&amp;#8217;t matter who got sent downriver. In 2008, as a reporter for the Times, Hooker won a Pulitzer Prize for exposing how rural Chinese factories were exporting toxic ingredients for use in pharmaceutical&amp;nbsp;products.&lt;/p&gt;
-&lt;p&gt;In 1998, during my last year as a volunteer, I didn&amp;#8217;t notice two national developments that later proved to be significant. One was the system of Internet restrictions that became known in English as the Great Firewall. The other was a speech delivered by President Jiang Zemin, at Peking University, on May 4, 1998. Jiang&amp;#8217;s words were hardly dynamic (&amp;#8220;the future of the motherland is infinitely glorious&amp;#8221;), but, more than twenty years later, if you say &amp;#8220;Project 985,&amp;#8221; many educated Chinese people recognize the reference to the year and the month of Jiang&amp;#8217;s speech. The President called for the development of world-class universities, and this endeavor joined Project 211—the Chinese fetish for mission-oriented numerology exceeds even that of the Peace Corps. These programs involved university expansion and improvement, and they reflected a strategy that was hard for Americans to grasp: the idea that education and restriction could proceed in&amp;nbsp;tandem.&lt;/p&gt;
-&lt;p&gt;During the period that followed, the country&amp;#8217;s over-all growth was so intense that Peace Corps cohorts could be represented by micro-histories. The year that China 8 arrived, the country joined the World Trade Organization. By China 12, the Three Gorges Dam had been completed. China 14 was the Beijing Olympics. Between China 1 and China 16, the &lt;span class=&quot;caps&quot;&gt;G.D.P.&lt;/span&gt; increased more than tenfold. When I taught in Fuling, the college had about two thousand students; by China 10, there were twenty thousand, on a brand-new&amp;nbsp;campus.&lt;/p&gt;
-&lt;p&gt;In the classroom, even smaller histories showed how the system worked at the lowest level. One of my students, a poor boy who grew up on a farm, where his family planted potatoes, corn, and tobacco, took the English name Mo. Mo&amp;#8217;s father had a third-grade education and his mother never attended school, but a village schoolteacher inspired Mo, who became the only boy from his class to test into college. In Fuling, he joined the Communist Party, and every summer he returned home to haul sixty-pound sacks of tobacco to market. When some of Mo&amp;#8217;s classmates started giving themselves English surnames, he asked Adam and me for advice, which was how he became Mo Money. (Another China 3 micro-history was the series of prominent deaths that occurred in the span of six months and that, at least in my mind, are forever connected: Tupac Shakur, Deng Xiaoping, and Biggie&amp;nbsp;Smalls.)&lt;/p&gt;
-&lt;p&gt;After graduation, Mo Money accepted a teaching job in his rural home town. Among the students was his younger brother. It was the community version of education by the bootstraps: somebody escapes the village to attend college, then returns and pulls up the others. For three years, Mo taught his brother and more than forty classmates, and his brother tested into the Fuling college, too. He entered as China 8 arrived. Of the four children in Mo Money&amp;#8217;s family, three graduated from college, and all are now middle&amp;nbsp;class.&lt;/p&gt;
-&lt;p&gt;When this happens at scale across a population of more than a billion, the effects are staggering. Mo currently teaches in a school in Chongqing, and recently I asked him what percentage of his graduating students from last year made it to university. &amp;#8220;Every one of them,&amp;#8221; he said. In terms of national statistics, the college-entrance figure—seven per cent for Mo&amp;#8217;s year—is now forty-eight per&amp;nbsp;cent.&lt;/p&gt;
-&lt;p&gt;The Peace Corps China groups started to expand with China 4, which was also the first cohort to include an African-American volunteer. There were significantly more women than men that year, and that became the general pattern. In 2014, the Peace Corps started allowing applicants to specify which country or region they wanted to work in, and China became a coveted assignment. Yung-Mei Haloski, a China 4 volunteer who later worked in recruitment and placement for the Peace Corps, told me that China was seen as a top priority. &amp;#8220;I was always directed that the people who had the most skills should go to China,&amp;#8221; she&amp;nbsp;said.&lt;/p&gt;
-&lt;p&gt;By China 17, the Peace Corps was sending between seventy and eighty volunteers per year, and the program had expanded into undeveloped parts of Gansu and Guizhou provinces. But some volunteers went to Sichuanese cities that had become much more connected and sophisticated. Chengdu acquired the nickname Gaydu, because of a relative tolerance for gay culture that would have been unimaginable during the days of &amp;#8220;Survey of Britain and America.&amp;#8221; (&amp;#8220;It widely spreads.&amp;#8221;) With China 21, the Peace Corps sent a same-sex married couple for the first&amp;nbsp;time.&lt;/p&gt;
-&lt;p&gt;A woman sits in an armchair and reads a book.
-Cartoon by Will McPhail
-In August, 2018, Jody Olsen, the Peace Corps director appointed by President Trump, came to China to celebrate the program&amp;#8217;s twenty-fifth anniversary. The Peace Corps hoped to move into even more remote places, and Olsen and Stephen Claborne, the head of the China program, met with officials in Beijing. The Chinese politely rejected the request. &amp;#8220;The message was that they were happy with it the way it was,&amp;#8221; Claborne told me&amp;nbsp;recently.&lt;/p&gt;
-&lt;p&gt;The Chinese strategy never changed: education and restriction continued in parallel, like opposite lanes of the same highway. Today&amp;#8217;s citizens are often more tolerant and aware, but the Great Firewall is also more sophisticated than ever. Many topics of civic interest, ranging from the Hong Kong protests to concentration camps that sequester Muslim Uighurs in Xinjiang, are highly censored. Even as the government became more comfortable with the Peace Corps, it restricted other organizations, and a 2017 law made it increasingly difficult for foreign &lt;span class=&quot;caps&quot;&gt;N.G.O.&lt;/span&gt;s to operate. If you connect all the micro-histories—each individual improvement in material and educational circumstance—they still don&amp;#8217;t add up to political change. Mo Money remains a member of the Communist&amp;nbsp;Party.&lt;/p&gt;
-&lt;p&gt;In 2018, during a visit to Fuling, I happened to run into my first-year student Richard. Like Mo, Richard has prospered as a high-school teacher. During our conversation, he quickly brought up the lecture about absentee ballots. &amp;#8220;That made a deep impression,&amp;#8221; he said. &amp;#8220;I&amp;#8217;ve always thought about&amp;nbsp;that.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Recently, a couple of other former students also mentioned the incident in positive terms, which surprised me. I had thought of it as a clumsy attempt by two young teachers to deal with a frustrating political environment. Even now, I can&amp;#8217;t tell exactly what lessons the students took away. I occasionally send survey questions to the people I taught, and in 2017 I asked if China should become a multiparty democracy. Out of thirty respondents, twenty-two said no. &amp;#8220;China is going well this way,&amp;#8221; one former student wrote. Others were more cynical. &amp;#8220;We already have one corrupt party, it will be much worse if we have more,&amp;#8221; one man wrote. Another student remarked, &amp;#8220;We have seen America with multi-party, but you have elected the worst president in human&amp;#8217;s&amp;nbsp;history.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Rick Scott began demanding an end to Peace Corps China in the summer of 2019. &amp;#8220;What the Peace Corps shouldn&amp;#8217;t be doing is propping up our adversaries with &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; tax dollars,&amp;#8221; the Senator said, in a statement. Such criticism had also been made in 2011, by Mike Coffman, a Republican congressman from Colorado. Scott introduced a bill that would cancel programs &amp;#8220;in hostile countries, like China,&amp;#8221; and place the Peace Corps under the oversight of the State&amp;nbsp;Department.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;VIDEO&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;THE&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;NEW&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;YORKER&lt;/span&gt;
-A Couple&amp;#8217;s Last Words to Each&amp;nbsp;Other&lt;/p&gt;
-&lt;p&gt;The agency has always functioned independently within the executive branch, in part to prevent programs from being manipulated as direct tools of foreign policy. No other senators signed on to Scott&amp;#8217;s bill, but he continued to attack the Peace Corps and China. His criticism of both seemed to be recent. Before entering politics, Scott reportedly amassed a fortune of more than two hundred million dollars as an entrepreneur in the health-care industry. In two terms as governor of Florida, from 2011 to 2019, Scott welcomed Chinese investors to the state, and he chaired Enterprise Florida, a pro-business consortium that has offices in Hong Kong, Shanghai, and Beijing. A blind trust held by the Governor included stocks with ties to Chinese&amp;nbsp;companies.&lt;/p&gt;
-&lt;p&gt;Once Scott entered the Senate, though, he became a vocal opponent of China. In response to the Senator&amp;#8217;s pressure, Claborne, the head of the China program, received an unusual request from Peace Corps headquarters. Scott wanted to analyze Peace Corps China in business terms, examining the return on investment. &amp;#8220;He was looking for things like how many volunteers came back and started businesses and created wealth because of their work in China,&amp;#8221; Claborne told&amp;nbsp;me.&lt;/p&gt;
-&lt;p&gt;Claborne worried that somebody with little understanding of the Peace Corps was being allowed to redefine how it should be valued. He also believed that Scott&amp;#8217;s point that China is now a developed nation was irrelevant. Nothing in the Peace Corps mission statement specifies that partner countries must be poor, and the agency often looks closely at the Human Development Index, which considers a range of factors, including access to education. But the Peace Corps asked Claborne to assemble materials about return on investment, which he assumed were passed on to Scott. The Senator declared himself unsatisfied, and the Peace Corps never responded&amp;nbsp;publicly.&lt;/p&gt;
-&lt;p&gt;The director, Olsen, had a long history with the agency, including time as a volunteer in Tunisia, in the nineteen-sixties. Some members of the Peace Corps community had feared that the Trump Administration would bring in an outsider to dismantle the agency, so Olsen&amp;#8217;s appointment was greeted with relief. But, when the China program was attacked, Olsen stayed&amp;nbsp;silent.&lt;/p&gt;
-&lt;p&gt;The pressure on the Peace Corps was connected to a growing anti-China sentiment. In some ways, it&amp;#8217;s reminiscent of the era of &amp;#8220;Farewell, Leighton Stuart!&amp;#8221;—a frustration that China has not followed a path that Americans would prefer. Many China specialists are concerned that the &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; is overreacting. James Millward, a Georgetown University historian who is a vocal critic of China&amp;#8217;s treatment of Uighurs, told me that he opposed cutting off the Peace Corps and other forms of engagement. He believes that the Magnitsky Act, which allows the &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; to sanction human-rights violators, should be applied to Chinese organizations and individuals who are active in the concentration camps. &amp;#8220;It&amp;#8217;s a measure that should be more directly associated with what is going on in Xinjiang, rather than keeping people from teaching English in Chengdu,&amp;#8221; he&amp;nbsp;said.&lt;/p&gt;
-&lt;p&gt;But the issue was settled quickly, behind closed doors. In November, the National Security Council held a meeting about Peace Corps China, chaired by Matthew Pottinger, the deputy national-security adviser. Pottinger is a former journalist in Beijing who subsequently joined the Marines, and he is known for his hawkish views on China. A senior official who served on the &lt;span class=&quot;caps&quot;&gt;N.S.C.&lt;/span&gt; during the Obama Administration told me that it&amp;#8217;s unheard of for a deputy-level meeting to be held about a specific volunteer program. Peace Corps China cost $4.2 million in 2018, less than the State Department spent on the International Pacific Halibut Commission. &amp;#8220;If you are deputy national-security adviser, you should have much more important issues on your plate,&amp;#8221; the official said. &amp;#8220;Think about what&amp;#8217;s happening in November. Shouldn&amp;#8217;t he be meeting on&amp;nbsp;Iran?&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The following month, Olsen submitted a letter to the Office of Management and Budget announcing that Peace Corps China would be closed. Olsen&amp;#8217;s letter noted that budgetary funds would be freed up for use in other places, mentioning three possible sites that don&amp;#8217;t currently have volunteers: the Solomon Islands, Vietnam, and Greenland. There has been speculation that these countries were named in order to appeal to various geopolitical interests within the Administration. The Solomon Islands would satisfy those hoping to counter China&amp;#8217;s influence in the Pacific, and a new program in Vietnam would fulfill the old idea of battling Communism. And Greenland because—well, because&amp;nbsp;Greenland.&lt;/p&gt;
-&lt;p&gt;The day that the closure was announced, I had dinner with one of the Peace Corps&amp;#8217;s Chinese staff members. The government no longer assigned people to these positions, and many of the thirty-plus staffers had applied hoping for better relations between China and the United States. They had largely given up the opportunity for social-security benefits in order to work for the American agency, whose status meant that some staff had difficulty applying for mortgages and credit cards. The woman I dined with asked me not to use her name, because the Peace Corps hadn&amp;#8217;t yet negotiated severance&amp;nbsp;packages.&lt;/p&gt;
-&lt;p&gt;The agency had informed staff and volunteers that China would be &amp;#8220;graduating&amp;#8221;—it was now so developed that it no longer needed Peace Corps teachers. But, the woman asked me, &amp;#8220;if that was the case, why were they trying to expand so recently?&amp;#8221; She added, &amp;#8220;It&amp;#8217;s like a divorce by one side,&amp;#8221; noting that the news came less than a week before the lunar New Year holiday. Back in the U.S., the Peace Corps had already invited scores of new volunteers to serve in the next China cohort; now those applicants had to be reassigned. Helen Lowman, a former Peace Corps regional director who organized the graduation of programs in Romania and Bulgaria in the past decade, told me that she had never heard of such an abrupt and chaotic decision to phase out a country. &amp;#8220;I probably talked to the host-country government for three years before we actually closed,&amp;#8221; she&amp;nbsp;said.&lt;/p&gt;
-&lt;p&gt;After dinner with the staff member, I met some volunteers at a hip bar called Commune. Such Communist chic wasn&amp;#8217;t part of the Chengdu landscape when I served, although other things remained recognizable as the Peace Corps experience. A couple of volunteers quietly brought their own beer in bags. For China 25, the monthly stipend was less than three hundred&amp;nbsp;dollars.&lt;/p&gt;
-&lt;p&gt;An African-American woman named Khloe Benton told me that she had been posted to a site in Gansu that had few foreign residents. &amp;#8220;It&amp;#8217;s been hard,&amp;#8221; she said. &amp;#8220;People follow me around, and they say things.&amp;#8221; But she believed that it was important for locals to meet a person of color. The Peace Corps had told volunteers that they would finish out their terms, and they tried to cheer one another&amp;nbsp;up.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;&amp;#8220;&lt;/span&gt;You know why they lied to us,&amp;#8221; another woman said, referring to the political pressure. &amp;#8220;They didn&amp;#8217;t have a&amp;nbsp;choice.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Eleven days later, the coronavirus caused the evacuation of all China volunteers. The same thing had happened with sars, in 2003, but the Peace Corps had returned the following year. This time, the program was finished—the last micro-history belonged to China 25. The volunteers had spent a little more than six months in the&amp;nbsp;country.&lt;/p&gt;
-&lt;p&gt;One official in the State Department told me there were rumors that the White House had threatened the Peace Corps with budget cuts if it didn&amp;#8217;t end the China program. When I asked Rick Scott, he said that he didn&amp;#8217;t know how the Administration had made the decision, although he described his meetings with Jody Olsen and other Peace Corps officials. &amp;#8220;I said, &amp;#8216;What I&amp;#8217;ve been told is that the volunteers who are there, they don&amp;#8217;t coördinate anything with the State Department, they don&amp;#8217;t promote American values, they don&amp;#8217;t promote capitalism,&amp;#8217; &amp;#8221; Scott said. I asked if he had received the materials about return on investment, and whether they included such information as the number of volunteers who became&amp;nbsp;diplomats.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;&amp;#8220;&lt;/span&gt;I asked the Peace Corps about that,&amp;#8221; Scott said. &amp;#8220;They didn&amp;#8217;t know of one person who had ever gone to the State Department from the Peace&amp;nbsp;Corps.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;I said that twenty-seven former China volunteers now work in the State Department, and asked if this knowledge might have changed his mind. &amp;#8220;I&amp;#8217;d have to get more information,&amp;#8221; he said, adding that the Peace Corps hadn&amp;#8217;t been forthcoming. I had no way of checking this, because the Peace Corps and Olsen ignored multiple requests for an&amp;nbsp;interview.&lt;/p&gt;
-&lt;p&gt;It occurred to me that this would have been a good follow-up lesson to our Fuling lectures about American democracy. In the nineties, we had known that the Chinese could cancel the program at any time. It had seemed a small miracle that local colleges were somehow able to communicate to high-level conservatives that Peace Corps teachers were worth the&amp;nbsp;risk.&lt;/p&gt;
-&lt;p&gt;A woman speaks in front of cameras on a romantic reality &lt;span class=&quot;caps&quot;&gt;TV&lt;/span&gt; show. 
-&amp;#8220;These days, it&amp;#8217;s nearly impossible to meet a hot sociopath the old-fashioned way.&amp;#8221;
-Cartoon by Emily Bernstein
-Twenty years later, though, the Americans had discussed nothing openly, and Peace Corps administrators must have been either so frightened or so incompetent that they hadn&amp;#8217;t defended themselves. The ideas that inspired &amp;#8220;The Ugly American&amp;#8221;—the importance of grassroots and local knowledge—had been abandoned. During our conversation, Scott acknowledged that he and his staff had not spoken with any current or former China&amp;nbsp;volunteers.&lt;/p&gt;
-&lt;p&gt;The old confidence had also vanished. It seemed part of a larger American trend: every foreign contact was a threat, every exchange was zero-sum. Instead of trusting themselves and their best models, people regressed to the paranoia of those with closed systems. In the Washington Examiner, a conservative magazine, Tom Rogan celebrated the end of Peace Corps China. When Rogan mentioned the Chinese Ministry of State Security, he probably had no idea how much he sounded like a ministry&amp;nbsp;hack:&lt;/p&gt;
-&lt;p&gt;We must thus ask how many of the more than 1,300 previous volunteers in China may have been recruited by the &lt;span class=&quot;caps&quot;&gt;MSS&lt;/span&gt; during their time there. The number is likely very small, but unlikely to be zero. How many of those volunteers then returned home to take up employment in the State Department or another &lt;span class=&quot;caps&quot;&gt;U.S.&lt;/span&gt; government&amp;nbsp;agency?&lt;/p&gt;
-&lt;p&gt;In January, I visited Fuling with my family, and one afternoon we went to the former campus. It had been abandoned after the expanded college opened, up the Yangtze. Last year, developers started tearing down the old campus in order to construct high-rise&amp;nbsp;apartments.&lt;/p&gt;
-&lt;p&gt;The classroom building was already gone, but my former apartment still stood. The library was also intact, although its doors were chained shut and many windows were broken. In front of the ruined building, a faded red banner proclaimed another tone-deaf&amp;nbsp;slogan:&lt;/p&gt;
-&lt;p&gt;Build Nationwide Civilized City and National Hygienic&amp;nbsp;Area&lt;/p&gt;
-&lt;p&gt;I Am Aware, I Participate, I Support, I Am&amp;nbsp;Satisfied&lt;/p&gt;
-&lt;p&gt;While we were there, a man called out my Chinese name. He introduced himself as a former colleague who was also visiting the campus before it was demolished. Suddenly, I recognized him—in the old days, he sometimes came to my apartment late at night to borrow banned books. In front of the shuttered library, he said, &amp;#8220;I remember reading about the Cultural Revolution.&amp;#8221; I asked if the authorities had warned him about associating with the Americans, and he smiled shyly. &amp;#8220;It wasn&amp;#8217;t that direct,&amp;#8221; he said. &amp;#8220;But we were&amp;nbsp;careful.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;I hadn&amp;#8217;t known him or his colleagues as well as I knew our students. In my first book, I mentioned the surreptitious visits from the man and a few others. I described them as &amp;#8220;shadowy figures who seemed to be groping for something that couldn&amp;#8217;t be found in&amp;nbsp;Fuling.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Twenty years later, much remained in the shadows. I didn&amp;#8217;t know what the teacher had gained from the banned books, or how my students were changed by our classes. But, as time passed, I was impressed by how much people remembered. &amp;#8220;We were all poor at that time, we were eager to learn,&amp;#8221; a student named Andi wrote recently, mentioning some school supplies that Adam had loaned her class. The accumulation of these small moments added up to something larger, but it wasn&amp;#8217;t a formal accounting. That was a teacher&amp;#8217;s confidence—confidence in his material, but also confidence in his students. They could make their own decisions about how they applied their&amp;nbsp;lessons.&lt;/p&gt;
-&lt;p&gt;One evening, I spoke by telephone with Gabriel Exposito, a twenty-two-year-old who was among the last people to receive invitations to Peace Corps China. Exposito grew up in Havana, where one of his school memories involved a visit by a group of Americans. The children were instructed to avoid the foreigners, who made a donation that was spirited away by Communist officials. Exposito&amp;#8217;s father eventually fled to Florida, where he found work as a nurse. He brought his son over from Cuba at the age of eleven. Exposito graduated cum laude from Florida State University, and when he applied to the Peace Corps he requested&amp;nbsp;China.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;&amp;#8220;&lt;/span&gt;I know what a Communist education is like,&amp;#8221; Exposito told me. &amp;#8220;I was the student who wasn&amp;#8217;t allowed to ask the hard questions. I saw the foreigners and couldn&amp;#8217;t interact with them. I wanted to be on the other side of&amp;nbsp;that.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;He was shocked to learn by tweet of the China program&amp;#8217;s closure, and as a Floridian he called the offices of Senators Rubio and Scott to complain. He told staffers, &amp;#8220;I agree with you—the Communist Party is a hostile entity. But we are breaking down the image they build of the American&amp;nbsp;people.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;He requested a reassignment to a former Communist state, and the Peace Corps offered Mongolia, the Kyrgyz Republic, and Moldova. Exposito chose Moldova. &amp;#8220;I thought, This is a former Soviet republic that&amp;#8217;s next to Ukraine,&amp;#8221; he said. &amp;#8220;It&amp;#8217;s an area that&amp;#8217;s often forgotten about.&amp;#8221; He had started studying Russian, and he hoped to eventually become either a scholar or a diplomat; I wished him the best of luck. He would have been perfect for China 26.&amp;nbsp;♦&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;_6&quot;&gt;所以&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_6&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;但行好事&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;莫问前程&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;好好学习&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;天天向上&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;这儿的 &lt;code&gt;好&lt;/code&gt;, 是四声,&amp;nbsp;自己喜欢的事儿.&lt;/p&gt;
-&lt;p&gt;什么是不惑?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从心所欲不逾距&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;也就是说, 将欲望本身进行 hacking ,&amp;nbsp;从源头清除可能触发和谐的念头.&lt;/p&gt;
-&lt;p&gt;那么,&amp;nbsp;具体怎么作呢?&lt;/p&gt;
-&lt;p&gt;这是另外一个系列的嗯哼了&amp;#8230;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;refer&quot;&gt;refer.&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#refer&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;豆列:&lt;a href=&quot;https://www.douban.com/doulist/119293075/&quot;&gt;蟒营™101.camp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;文中链接感谢&lt;a href=&quot;https://linux.cn/static/tools/a.html&quot;&gt;&amp;#8220;文章助手&amp;#8221;的助手&lt;/a&gt; 的支持,
-(来自 &lt;a href=&quot;https://blog.zoomquiet.io/feeds/(https://linux.cn/article-11850-1.html)&quot;&gt;&lt;span class=&quot;caps&quot;&gt;LINUX&lt;/span&gt;中国&lt;/a&gt;&amp;nbsp;的小应用)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;点击, 将自动跳入小应用,&amp;nbsp;并复制链接到剪贴板&lt;/li&gt;
-&lt;li&gt;然后, 打开浏览器, 复制到地址栏,&amp;nbsp;就能访问了&lt;/li&gt;
-&lt;li&gt;好处,&amp;nbsp;避开了微信内置特殊浏览器的有关屏蔽策略&lt;/li&gt;
-&lt;li&gt;问题, 操作复杂了, 要打开手机上的浏览器,&amp;nbsp;如果在桌面微信则无法使用&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;JD&lt;/span&gt; 下单链接 -&amp;gt; 点击后再打开浏览器复制到地址栏访问 -&amp;gt;&amp;nbsp;俺能获得少许佣金:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRNdEgMTDlEbXCUHEANXGlgSCxsOUysfSlpMWGVCHlBDUAxLBQNQVk4YCQQAQB1AWQkFHUVBRhkSQw9THUJVEEMFSgxUVxZPI0AOFwVRGVoWBRsOXB1rC2RaQQNlDEFhZ0NcT159dhtGKX5bUw4eN1QrWxQDEQVWGFkXBSI3VRxrVGwXBl0cXiUDIgdRElkdBxIAUxhcFwsiAFUSa35cTFs1XwNBRyI3ZRhrJTISN1YrGXsBQVcFElNCARMPAU5eEVIVD1wfDxMDFQcBTwkQVkJXUytZFAMWDg%3D%3D&quot;&gt;寻路中国&amp;amp;江城(共2册)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRtdHAARD10fXBwyFQBWGVocAxsHURJrUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgBSGFkUCxMOVR9SJXxoYQYFM3NQcAcNYlxWB1RAI0sNXXIeC2UaaxUDEwRXGFgXABU3ZRtcJUN8AVweWBUGIgZlG18cABoCVR1cEgoXAmUcWxwyeVkLRztRWkZCZStrFjIiN1UrWCVAfAZdE1gcURdSBR4JFgcUAFdLCBYFQFBUGwkQAhoEBkkOJQATBlES&quot;&gt;东北游记 (美)迈克尔·麦尔(Michael Meyer)&amp;nbsp;著&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRtSEgMWAFMZWxQyEQBXH10QCxYEUB5rUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgRSGV8TBxsDVh5eJQoRAyF6KHJwcnsBYTpqUm9nHBgrRmIeC2UaaxUDEwRXGFgXABU3ZRtcJUN8AFAeXh0yEzdVH1IXChcHXBpZFwUUN1IbUiVpTFkJex9NVlc3ZStYJTIiB2UYa1dsQAUCGAlAAhUPXU8LEAMRAgVIXkUHFVBST1gUUhMPUUxrFwMTA1w%3D&quot;&gt;长乐路 译文纪实 傅姨的快速致富计划 纪实文学&amp;nbsp;人物传记&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;#8230;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;3949&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;全国大会&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;TFUG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</content>
-		<author>
-			<name>ZoomQuiet</name>
-			<uri>https://blog.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">zoom.quiet</title>
-			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
-			<id>https://blog.zoomquiet.io/</id>
-			<updated>2020-03-24T16:43:28+00:00</updated>
+			<updated>2020-03-25T08:48:13+00:00</updated>
 		</source>
 	</entry>
 
