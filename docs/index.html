@@ -23,6 +23,159 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>March 31, 2020</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a></h3>
+
+
+<div class="entrygroup" id="tag:blog.zoomquiet.io,2020-03-31:/imho-murmur-dns-sad-story.html">
+<h4><a href="https://blog.zoomquiet.io/imho-murmur-dns-sad-story.html">呢喃/DNS之殇</a></h4>
+<div class="entry">
+<div class="content">
+<p>这是大妈在 <strong>ZoomQuiet</strong> 的第<strong>011</strong>篇原创</p>
+<blockquote>
+<p>普通程序老猿一则感叹&#8230;</p>
+</blockquote>
+<hr />
+<h2 id="_1">背景<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_1" title="Permanent link">&para;</a></h2>
+<p>自从能家庭上网,&nbsp;我们就一直和网络服务供应商在斗智斗勇;</p>
+<p>最早 瀛海威&nbsp;的互联网广告是:</p>
+<div class="highlight"><pre><span class="err">中国人离信息高速公路有多远</span>
+<span class="err">———向北</span><span class="mi">1500</span><span class="err">米</span>
+</pre></div>
+
+
+<p>现在想,&nbsp;是真的良心&#8230;</p>
+<hr />
+<h2 id="_2">现象<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>gitlab.com&nbsp;每天不同时段打开的速度完全不同</li>
+<li>github-pages&nbsp;发布的静态网站经常无法打开</li>
+<li>git pull&nbsp;工作仓库有时说仓库不存在</li>
+<li>&#8230;</li>
+</ul>
+<p>而家中的互联网接入有这么几个:</p>
+<ul>
+<li>移动宽带, 手机158套餐送的, 很多年了, 也自动升级到 500M 光纤, 配 Nighthawk R7000&nbsp;无线路由器</li>
+<li>移动宽带, 手机98套餐送的, 很多年了, 也自动升级到 300M 光纤, 原配 <span class="caps">TP</span>-Link&nbsp;无线路由器</li>
+<li>广东有线宽带, 电视台强行升级, 原配杂牌 <span class="caps">AP</span></li>
+<li>华为 mifi , 自驾旅游时用, 配置飞猫物联网流量卡,&nbsp;600G/月</li>
+</ul>
+<hr />
+<h2 id="_3">嗯哼<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_3" title="Permanent link">&para;</a></h2>
+<p>101.camp 是无意中在 naemcheap 抢到的域名, 用 github-pages 发布,
+基于 cloudflare&nbsp;进行加速.</p>
+<p>没想到除了 mifi 其它基本无法打开,&nbsp;感觉不对味儿.</p>
+<p>追查了一下, 发现, cloudflare 发布的公共 <span class="caps">DNS</span> 服务:&nbsp;1.1.1.1 </p>
+<ul>
+<li>除了 mifi 无线接入电脑后, 可以 Ping&nbsp;通</li>
+<li>其它所有 wifi 热点, 接入后,&nbsp;根本不解析</li>
+<li>这就很说明问题了&#8230;</li>
+</ul>
+<p><img alt="R7000" src="http://ydlj.zoomquiet.top/ipic/2020-03-31-cfgAP.jpg" /></p>
+<blockquote>
+<p>追查了一下国内可用公共 <span class="caps">DNS</span> 服务,&nbsp;在路由器上配置</p>
+</blockquote>
+<p><img alt="cnPUBDNS" src="http://ydlj.zoomquiet.top/ipic/2020-03-31-cnPUBDNS.jpg" /></p>
+<p>对比, 无法配置 <span class="caps">AP</span>&nbsp;的有线宽带:</p>
+<p><img alt="cnNOMDNS" src="http://ydlj.zoomquiet.top/ipic/2020-03-31-cnNOMDNS.jpg" /></p>
+<p>以及一直可以访问, 但是很慢的 mifi&nbsp;:</p>
+<p><img alt="mifi" src="http://ydlj.zoomquiet.top/ipic/2020-03-31-mifi.jpg" /></p>
+<hr />
+<h2 id="_4">所以<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#_4" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span class="err">但行好事</span>
+<span class="err">莫问前程</span>
+<span class="err">好好学习</span>
+<span class="err">天天向上</span>
+</pre></div>
+
+
+<p>这儿的 <code>好</code>, 是四声,&nbsp;自己喜欢的事儿.</p>
+<p>什么是不惑?</p>
+<blockquote>
+<p>从心所欲不逾距</p>
+</blockquote>
+<p>也就是说, 将欲望本身进行 hacking ,&nbsp;从源头清除可能触发和谐的念头.</p>
+<p>那么,&nbsp;具体怎么作呢?</p>
+<p>这是另外一个系列的嗯哼了&#8230;</p>
+<hr />
+<h2 id="refer">refer.<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#refer" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.iplaysoft.com/p/cloudflare-dns">1.1.1.1 好记牛逼 - Cloudflare 推出全球平均速度最快的 <span class="caps">DNS</span>！ - 异次元软件下载</a><ul>
+<li><a href="https://www.iplaysoft.com/news/2773">腾讯旗下 DNSPod 也推出公共 <span class="caps">DNS</span> 解析服务 Public <span class="caps">DNS</span>+ -&nbsp;异次元软件下载</a></li>
+<li><a href="https://www.iplaysoft.com/alidns.html">阿里公共 <span class="caps">DNS</span> 解析服务器 - 上网加速、无广告、无劫持、全国高速节点、低延迟响应 -&nbsp;异次元软件下载</a></li>
+</ul>
+</li>
+<li>&#8230;</li>
+<li>豆列:<a href="https://www.douban.com/doulist/119293075/">蟒营™101.camp</a></li>
+</ul>
+<p>文中链接感谢<a href="https://linux.cn/static/tools/a.html">&#8220;文章助手&#8221;的助手</a> 的支持,
+(来自 <a href="https://blog.zoomquiet.io/feeds/(https://linux.cn/article-11850-1.html)"><span class="caps">LINUX</span>中国</a>&nbsp;的小应用)</p>
+<ul>
+<li>点击, 将自动跳入小应用,&nbsp;并复制链接到剪贴板</li>
+<li>然后, 打开浏览器, 复制到地址栏,&nbsp;就能访问了</li>
+<li>好处,&nbsp;避开了微信内置特殊浏览器的有关屏蔽策略</li>
+<li>问题, 操作复杂了, 要打开手机上的浏览器,&nbsp;如果在桌面微信则无法使用</li>
+</ul>
+<p><span class="caps">JD</span> 下单链接 -&gt; 点击后再打开浏览器复制到地址栏访问 -&gt;&nbsp;俺能获得少许佣金:</p>
+<ul>
+<li><a href="https://union-click.jd.com/jdc?e=&p=AyIGZRNdEgMTDlEbXCUHEANXGlgSCxsOUysfSlpMWGVCHlBDUAxLBQNQVk4YCQQAQB1AWQkFHUVBRhkSQw9THUJVEEMFSgxUVxZPI0AOFwVRGVoWBRsOXB1rC2RaQQNlDEFhZ0NcT159dhtGKX5bUw4eN1QrWxQDEQVWGFkXBSI3VRxrVGwXBl0cXiUDIgdRElkdBxIAUxhcFwsiAFUSa35cTFs1XwNBRyI3ZRhrJTISN1YrGXsBQVcFElNCARMPAU5eEVIVD1wfDxMDFQcBTwkQVkJXUytZFAMWDg%3D%3D">寻路中国&amp;江城(共2册)</a></li>
+<li>&#8230;</li>
+</ul>
+<hr />
+<blockquote>
+<blockquote>
+<p><span class="caps">NN</span>&nbsp;3969</p>
+</blockquote>
+</blockquote>
+<p>好文笔,感叹号年度配额: <strong>1/3</strong></p>
+<p>投稿/反馈邮箱:</p>
+<div class="highlight"><pre><span class="n">askdama</span><span class="err">@</span><span class="n">googlegroups</span><span class="p">.</span><span class="n">com</span>
+</pre></div>
+
+
+<hr />
+<p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a></strong></p>
+<p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a>:</p>
+<div class="highlight"><pre><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
+<span class="err">公开课程</span><span class="p">:</span> <span class="err">蟒营</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">Mainium</span><span class="p">)</span>
+<span class="err">历史吐糟</span><span class="p">:</span> <span class="n">Chaos42</span> <span class="p">(</span><span class="err">订阅号</span> <span class="n">PythoniCamp</span><span class="p">)</span>
+
+<span class="k">as</span> <span class="err">核心组织者</span><span class="p">:</span>
+    <span class="n">PyChina</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">PyChinaOrg</span><span class="p">)</span>
+    <span class="err">本地社区</span><span class="p">:</span> 
+        <span class="n">GDG</span><span class="err">珠海</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
+        <span class="n">TFUG</span><span class="err">珠海</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
+</pre></div>
+
+
+<hr /></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://blog.zoomquiet.io/imho-murmur-dns-sad-story.html">by ZoomQuiet at March 31, 2020 04:42 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>March 29, 2020</h2>
 
 <div class="channelgroup">
@@ -34,6 +187,27 @@
 
 
 <h3><a href="https://bemself.github.io" title="My Struggle">bemself</a></h3>
+
+
+<div class="entrygroup" id="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-13w.html">
+<h4><a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-13w.html">My Struggle - 我的自怼周报 2020 13w</a></h4>
+<div class="entry">
+<div class="content">
+周结第14周</div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-13w.html">March 29, 2020 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
 
 
 <div class="entrygroup" id="https://bemself.github.io/python/Python-debug.html">
@@ -598,6 +772,42 @@ Py 2 的远去, 还是得全宇宙大力夯实才可能真正落实的...</p>
 </div>
 
 </div>
+<div class="daygroup">
+<h2>March 22, 2020</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="https://bemself.github.io" title="My Struggle">bemself</a></h3>
+
+
+<div class="entrygroup" id="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-12w.html">
+<h4><a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-12w.html">My Struggle - 我的自怼周报 2020 12w</a></h4>
+<div class="entry">
+<div class="content">
+周结第13周</div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-12w.html">March 22, 2020 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
 
 
 <div class="sidebar">
@@ -642,7 +852,7 @@ Py 2 的远去, 还是得全宇宙大力夯实才可能真正落实的...</p>
 
 <p>
 <strong>Last updated:</strong><br>
-March 31, 2020 12:43 AM<br>
+March 31, 2020 08:43 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>

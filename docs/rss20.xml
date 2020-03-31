@@ -8,6 +8,137 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>zoom.quiet: 呢喃/DNS之殇</title>
+	<guid>https://blog.zoomquiet.io/imho-murmur-dns-sad-story.html</guid>
+	<link>https://blog.zoomquiet.io/imho-murmur-dns-sad-story.html</link>
+	<description>&lt;p&gt;这是大妈在 &lt;strong&gt;ZoomQuiet&lt;/strong&gt; 的第&lt;strong&gt;011&lt;/strong&gt;篇原创&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;普通程序老猿一则感叹&amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_1&quot;&gt;背景&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_1&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;自从能家庭上网,&amp;nbsp;我们就一直和网络服务供应商在斗智斗勇;&lt;/p&gt;
+&lt;p&gt;最早 瀛海威&amp;nbsp;的互联网广告是:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;中国人离信息高速公路有多远&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;———向北&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1500&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;米&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;现在想,&amp;nbsp;是真的良心&amp;#8230;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_2&quot;&gt;现象&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_2&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;gitlab.com&amp;nbsp;每天不同时段打开的速度完全不同&lt;/li&gt;
+&lt;li&gt;github-pages&amp;nbsp;发布的静态网站经常无法打开&lt;/li&gt;
+&lt;li&gt;git pull&amp;nbsp;工作仓库有时说仓库不存在&lt;/li&gt;
+&lt;li&gt;&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而家中的互联网接入有这么几个:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;移动宽带, 手机158套餐送的, 很多年了, 也自动升级到 500M 光纤, 配 Nighthawk R7000&amp;nbsp;无线路由器&lt;/li&gt;
+&lt;li&gt;移动宽带, 手机98套餐送的, 很多年了, 也自动升级到 300M 光纤, 原配 &lt;span class=&quot;caps&quot;&gt;TP&lt;/span&gt;-Link&amp;nbsp;无线路由器&lt;/li&gt;
+&lt;li&gt;广东有线宽带, 电视台强行升级, 原配杂牌 &lt;span class=&quot;caps&quot;&gt;AP&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;华为 mifi , 自驾旅游时用, 配置飞猫物联网流量卡,&amp;nbsp;600G/月&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_3&quot;&gt;嗯哼&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_3&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;101.camp 是无意中在 naemcheap 抢到的域名, 用 github-pages 发布,
+基于 cloudflare&amp;nbsp;进行加速.&lt;/p&gt;
+&lt;p&gt;没想到除了 mifi 其它基本无法打开,&amp;nbsp;感觉不对味儿.&lt;/p&gt;
+&lt;p&gt;追查了一下, 发现, cloudflare 发布的公共 &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt; 服务:&amp;nbsp;1.1.1.1 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;除了 mifi 无线接入电脑后, 可以 Ping&amp;nbsp;通&lt;/li&gt;
+&lt;li&gt;其它所有 wifi 热点, 接入后,&amp;nbsp;根本不解析&lt;/li&gt;
+&lt;li&gt;这就很说明问题了&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&quot;R7000&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-31-cfgAP.jpg&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;追查了一下国内可用公共 &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt; 服务,&amp;nbsp;在路由器上配置&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;cnPUBDNS&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-31-cnPUBDNS.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;对比, 无法配置 &lt;span class=&quot;caps&quot;&gt;AP&lt;/span&gt;&amp;nbsp;的有线宽带:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;cnNOMDNS&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-31-cnNOMDNS.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;以及一直可以访问, 但是很慢的 mifi&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;mifi&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-03-31-mifi.jpg&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;_4&quot;&gt;所以&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#_4&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;但行好事&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;莫问前程&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;好好学习&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;天天向上&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;这儿的 &lt;code&gt;好&lt;/code&gt;, 是四声,&amp;nbsp;自己喜欢的事儿.&lt;/p&gt;
+&lt;p&gt;什么是不惑?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从心所欲不逾距&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也就是说, 将欲望本身进行 hacking ,&amp;nbsp;从源头清除可能触发和谐的念头.&lt;/p&gt;
+&lt;p&gt;那么,&amp;nbsp;具体怎么作呢?&lt;/p&gt;
+&lt;p&gt;这是另外一个系列的嗯哼了&amp;#8230;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;refer&quot;&gt;refer.&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#refer&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.iplaysoft.com/p/cloudflare-dns&quot;&gt;1.1.1.1 好记牛逼 - Cloudflare 推出全球平均速度最快的 &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt;！ - 异次元软件下载&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.iplaysoft.com/news/2773&quot;&gt;腾讯旗下 DNSPod 也推出公共 &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt; 解析服务 Public &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt;+ -&amp;nbsp;异次元软件下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.iplaysoft.com/alidns.html&quot;&gt;阿里公共 &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt; 解析服务器 - 上网加速、无广告、无劫持、全国高速节点、低延迟响应 -&amp;nbsp;异次元软件下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;#8230;&lt;/li&gt;
+&lt;li&gt;豆列:&lt;a href=&quot;https://www.douban.com/doulist/119293075/&quot;&gt;蟒营™101.camp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文中链接感谢&lt;a href=&quot;https://linux.cn/static/tools/a.html&quot;&gt;&amp;#8220;文章助手&amp;#8221;的助手&lt;/a&gt; 的支持,
+(来自 &lt;a href=&quot;https://blog.zoomquiet.io/feeds/(https://linux.cn/article-11850-1.html)&quot;&gt;&lt;span class=&quot;caps&quot;&gt;LINUX&lt;/span&gt;中国&lt;/a&gt;&amp;nbsp;的小应用)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击, 将自动跳入小应用,&amp;nbsp;并复制链接到剪贴板&lt;/li&gt;
+&lt;li&gt;然后, 打开浏览器, 复制到地址栏,&amp;nbsp;就能访问了&lt;/li&gt;
+&lt;li&gt;好处,&amp;nbsp;避开了微信内置特殊浏览器的有关屏蔽策略&lt;/li&gt;
+&lt;li&gt;问题, 操作复杂了, 要打开手机上的浏览器,&amp;nbsp;如果在桌面微信则无法使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;JD&lt;/span&gt; 下单链接 -&amp;gt; 点击后再打开浏览器复制到地址栏访问 -&amp;gt;&amp;nbsp;俺能获得少许佣金:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://union-click.jd.com/jdc?e=&amp;p=AyIGZRNdEgMTDlEbXCUHEANXGlgSCxsOUysfSlpMWGVCHlBDUAxLBQNQVk4YCQQAQB1AWQkFHUVBRhkSQw9THUJVEEMFSgxUVxZPI0AOFwVRGVoWBRsOXB1rC2RaQQNlDEFhZ0NcT159dhtGKX5bUw4eN1QrWxQDEQVWGFkXBSI3VRxrVGwXBl0cXiUDIgdRElkdBxIAUxhcFwsiAFUSa35cTFs1XwNBRyI3ZRhrJTISN1YrGXsBQVcFElNCARMPAU5eEVIVD1wfDxMDFQcBTwkQVkJXUytZFAMWDg%3D%3D&quot;&gt;寻路中国&amp;amp;江城(共2册)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;3969&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;核心组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+        &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;TFUG&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;</description>
+	<pubDate>Tue, 31 Mar 2020 04:42:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: My Struggle - 我的自怼周报 2020 13w</title>
+	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-13w.html</guid>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-13w.html</link>
+	<description>周结第14周</description>
+	<pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>bemself: Python 调试简便大法</title>
 	<guid>https://bemself.github.io/python/Python-debug.html</guid>
 	<link>https://bemself.github.io/python/Python-debug.html</link>
@@ -495,6 +626,13 @@ Py 2 的远去, 还是得全宇宙大力夯实才可能真正落实的...&lt;/p&
 
 &lt;hr /&gt;</description>
 	<pubDate>Wed, 25 Mar 2020 06:42:00 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: My Struggle - 我的自怼周报 2020 12w</title>
+	<guid>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-12w.html</guid>
+	<link>https://bemself.github.io/%E5%BF%83%E8%B7%AF,%E5%91%A8%E6%8A%A5/DM-Weekly-12w.html</link>
+	<description>周结第13周</description>
+	<pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
 </item>
 
 </channel>
