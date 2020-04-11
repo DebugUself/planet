@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-04-11T08:42:59+00:00</updated>
+	<updated>2020-04-11T16:44:54+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -928,7 +928,7 @@
 			<title type="html">zoom.quiet</title>
 			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
 			<id>https://blog.zoomquiet.io/</id>
-			<updated>2020-04-10T16:43:23+00:00</updated>
+			<updated>2020-04-11T16:43:28+00:00</updated>
 		</source>
 	</entry>
 
