@@ -5,14 +5,34 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-05-04T00:43:23+00:00</updated>
+	<updated>2020-05-04T08:43:43+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Slack 交互- bot, slash command, events, RTM 之简单区别</title>
+		<link href="https://bemself.github.io/python/slack-events-vs-slash-commands.html"/>
+		<id>https://bemself.github.io/python/slack-events-vs-slash-commands.html</id>
+		<updated>2020-05-04T08:43:42+00:00</updated>
+		<content type="html">slack 这几种交互方式有啥区别, bot 又是啥</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-05-04T08:43:42+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Python Logging 日志输出到文件</title>
 		<link href="https://bemself.github.io/python/Python-Logging.html"/>
 		<id>https://bemself.github.io/python/Python-Logging.html</id>
-		<updated>2020-05-03T16:43:01+00:00</updated>
+		<updated>2020-05-03T21:01:05+00:00</updated>
 		<content type="html">使用日志配置文件, 输出 log 到文件</content>
 		<author>
 			<name>My Struggle</name>
@@ -24,7 +44,27 @@
 			<subtitle type="html">This is RSS feed for my website</subtitle>
 			<link rel="self" href="https://bemself.github.io/rss.xml"/>
 			<id>https://bemself.github.io/rss.xml</id>
-			<updated>2020-05-03T16:43:01+00:00</updated>
+			<updated>2020-05-04T08:43:42+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">python 测试之 pytest flask app 初探</title>
+		<link href="https://bemself.github.io/python/Test-Flask-App.html"/>
+		<id>https://bemself.github.io/python/Test-Flask-App.html</id>
+		<updated>2020-05-02T21:01:05+00:00</updated>
+		<content type="html">用 pytest 测试 flask api service</content>
+		<author>
+			<name>My Struggle</name>
+			<email>doituself@outlook.com</email>
+			<uri>https://bemself.github.io</uri>
+		</author>
+		<source>
+			<title type="html">My Struggle</title>
+			<subtitle type="html">This is RSS feed for my website</subtitle>
+			<link rel="self" href="https://bemself.github.io/rss.xml"/>
+			<id>https://bemself.github.io/rss.xml</id>
+			<updated>2020-05-04T08:43:42+00:00</updated>
 		</source>
 	</entry>
 

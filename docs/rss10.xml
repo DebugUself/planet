@@ -13,18 +13,32 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://bemself.github.io/python/slack-events-vs-slash-commands.html" />
 			<rdf:li rdf:resource="https://bemself.github.io/python/Python-Logging.html" />
+			<rdf:li rdf:resource="https://bemself.github.io/python/Test-Flask-App.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-04-29:/issue/issue-418.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-04-25:/python-weekly/pyw-446.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://bemself.github.io/python/slack-events-vs-slash-commands.html">
+	<title>bemself: Slack 交互- bot, slash command, events, RTM 之简单区别</title>
+	<link>https://bemself.github.io/python/slack-events-vs-slash-commands.html</link>
+	<content:encoded>slack 这几种交互方式有啥区别, bot 又是啥</content:encoded>
+	<dc:date>2020-05-04T08:43:42+00:00</dc:date>
+</item>
 <item rdf:about="https://bemself.github.io/python/Python-Logging.html">
 	<title>bemself: Python Logging 日志输出到文件</title>
 	<link>https://bemself.github.io/python/Python-Logging.html</link>
 	<content:encoded>使用日志配置文件, 输出 log 到文件</content:encoded>
-	<dc:date>2020-05-03T16:43:01+00:00</dc:date>
+	<dc:date>2020-05-03T21:01:05+00:00</dc:date>
+</item>
+<item rdf:about="https://bemself.github.io/python/Test-Flask-App.html">
+	<title>bemself: python 测试之 pytest flask app 初探</title>
+	<link>https://bemself.github.io/python/Test-Flask-App.html</link>
+	<content:encoded>用 pytest 测试 flask api service</content:encoded>
+	<dc:date>2020-05-02T21:01:05+00:00</dc:date>
 </item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-418.html">
 	<title>蠎周刊: Issue 418</title>

@@ -8,11 +8,25 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>bemself: Slack 交互- bot, slash command, events, RTM 之简单区别</title>
+	<guid>https://bemself.github.io/python/slack-events-vs-slash-commands.html</guid>
+	<link>https://bemself.github.io/python/slack-events-vs-slash-commands.html</link>
+	<description>slack 这几种交互方式有啥区别, bot 又是啥</description>
+	<pubDate>Mon, 04 May 2020 08:43:42 +0000</pubDate>
+</item>
+<item>
 	<title>bemself: Python Logging 日志输出到文件</title>
 	<guid>https://bemself.github.io/python/Python-Logging.html</guid>
 	<link>https://bemself.github.io/python/Python-Logging.html</link>
 	<description>使用日志配置文件, 输出 log 到文件</description>
-	<pubDate>Sun, 03 May 2020 16:43:01 +0000</pubDate>
+	<pubDate>Sun, 03 May 2020 21:01:05 +0000</pubDate>
+</item>
+<item>
+	<title>bemself: python 测试之 pytest flask app 初探</title>
+	<guid>https://bemself.github.io/python/Test-Flask-App.html</guid>
+	<link>https://bemself.github.io/python/Test-Flask-App.html</link>
+	<description>用 pytest 测试 flask api service</description>
+	<pubDate>Sat, 02 May 2020 21:01:05 +0000</pubDate>
 </item>
 <item>
 	<title>蠎周刊: Issue 418</title>
