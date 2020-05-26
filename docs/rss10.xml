@@ -13,7 +13,7 @@
 
 	<items>
 		<rdf:Seq>
-			<rdf:li rdf:resource="https://bambooom.github.io/2020/05/26/github-pkg-registry/" />
+			<rdf:li rdf:resource="http://zhuzi.dev/2020/05/26/github-pkg-registry/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-05-23:/python-weekly/pyw-450.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-05-20:/issue/issue-421.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-05-16:/python-weekly/pyw-449.html" />
@@ -21,9 +21,9 @@
 	</items>
 </channel>
 
-<item rdf:about="https://bambooom.github.io/2020/05/26/github-pkg-registry/">
+<item rdf:about="http://zhuzi.dev/2020/05/26/github-pkg-registry/">
 	<title>bambooooooom: GitHub Package Registry 简单试用记录</title>
-	<link>https://bambooom.github.io/2020/05/26/github-pkg-registry/</link>
+	<link>http://zhuzi.dev/2020/05/26/github-pkg-registry/</link>
 	<content:encoded>&lt;blockquote&gt;
   &lt;p&gt;简单记录下 GitHub Package Registry 怎么用&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -85,7 +85,7 @@ That is adding a local &lt;code class=&quot;language-plaintext highlighter-rouge
 
 &lt;p&gt;You can see the package on GitHub:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://bambooom.github.io/assets/images/gh-pkg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://zhuzi.dev/assets/images/gh-pkg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;5-install-packages&quot;&gt;5. Install packages&lt;/h3&gt;
 

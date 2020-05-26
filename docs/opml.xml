@@ -2,14 +2,14 @@
 <opml version="1.1">
 	<head>
 		<title>Planet DebugUself</title>
-		<dateCreated>Tue, 26 May 2020 08:43:28 +0000</dateCreated>
-		<dateModified>Tue, 26 May 2020 08:43:28 +0000</dateModified>
+		<dateCreated>Tue, 26 May 2020 16:43:58 +0000</dateCreated>
+		<dateModified>Tue, 26 May 2020 16:43:58 +0000</dateModified>
 		<ownerName>Zoom Quiet</ownerName>
 		<ownerEmail>zoo.mquiet@gmail.com</ownerEmail>
 	</head>
 	
 	<body>
-		<outline text="bambooooooom" xmlUrl="https://bambooom.github.io/feed.xml"/>
+		<outline text="bambooooooom" xmlUrl="http://zhuzi.dev/feed.xml"/>
 		<outline text="bemself" xmlUrl="https://bemself.github.io/rss.xml"/>
 		<outline text="junyu" xmlUrl="http://blog.junyu.io/atom.xml"/>
 		<outline text="li guang he" xmlUrl="https://liguanghe.github.io/rss2.xml"/>
