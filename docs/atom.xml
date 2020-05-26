@@ -5,8 +5,136 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-05-26T00:43:20+00:00</updated>
+	<updated>2020-05-26T08:43:27+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry xml:lang="en-us">
+		<title type="html">GitHub Package Registry 简单试用记录</title>
+		<link href="https://bambooom.github.io/2020/05/26/github-pkg-registry/"/>
+		<id>https://bambooom.github.io/2020/05/26/github-pkg-registry/</id>
+		<updated>2020-05-26T00:00:00+00:00</updated>
+		<content type="html">&lt;blockquote&gt;
+  &lt;p&gt;简单记录下 GitHub Package Registry 怎么用&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bambooom/gh-pkg-demo&quot;&gt;Example Repo: gh-pkg-demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-github-package-registry&quot;&gt;How to use GitHub Package Registry&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-generate-personal-access-token&quot;&gt;1. Generate Personal Access Token&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To download and install packages from GitHub Package Registry, you need a token with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:packages&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo&lt;/code&gt; scopes.&lt;/li&gt;
+  &lt;li&gt;To upload and publish packages, you need a token with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:packages&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo&lt;/code&gt; scopes.&lt;/li&gt;
+  &lt;li&gt;To delete a package with specified version, you need a token with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete:packages&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo&lt;/code&gt; scopes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Generate the token according to your need.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-local-config-token&quot;&gt;2. Local config TOKEN&lt;/h3&gt;
+
+&lt;p&gt;Add the generated token to the local file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.npmrc&lt;/code&gt; like:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//npm.pkg.github.com/:_authToken=TOKEN
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.npmrc&lt;/code&gt; if it doesn’t exist. This is the global user config file for npm.&lt;/p&gt;
+
+&lt;p&gt;If you don’t want to set TOKEN locally, then one should log in by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm login&lt;/code&gt; command and input the info of your GitHub account with prompt like:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ npm login --registry=https://npm.pkg.github.com
+&amp;gt; Username: USERNAME
+&amp;gt; Password: TOKEN
+&amp;gt; Email: PUBLIC-EMAIL-ADDRESS
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-project-config-to-publish-to-github&quot;&gt;3. Project Config to publish to GitHub&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-a-package-using-publishconfig-in-the-packagejson-file&quot;&gt;Edit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file to specify the registry as GitHub&lt;/a&gt;.
+And also the package name must be scoped with the onwer, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@OWNER/PKG-NAME&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-diff highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gd&quot;&gt;--- &quot;name&quot;: &quot;gh-pkg-demo&quot;,
+&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ &quot;name&quot;: &quot;@bambooom/gh-pkg-demo&quot;,
++++ &quot;publishConfig&quot;: {
++++   &quot;registry&quot;: &quot;https://npm.pkg.github.com/&quot;
++++ },
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Alternative way to config the project is &lt;a href=&quot;https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-a-package-using-a-local-npmrc-file&quot;&gt;using local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file&lt;/a&gt;.
+That is adding a local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; under project root, and adding this to the file:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;registry=https://npm.pkg.github.com/OWNER
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;4-publish-packages&quot;&gt;4. Publish packages&lt;/h3&gt;
+&lt;p&gt;To publish the package to GitHub, just use the command:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ npm publish
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can see the package on GitHub:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bambooom.github.io/assets/images/gh-pkg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-install-packages&quot;&gt;5. Install packages&lt;/h3&gt;
+
+&lt;p&gt;To install packages from GitHub package registry, need a local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file to set the registry.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;registry=https://npm.pkg.github.com/OWNER
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;But if only using this setting, all package requests will go through GitHub Packages.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You also need to add the &lt;em&gt;.npmrc&lt;/em&gt; file to your project so all requests to install packages will go through GitHub Packages. When you route all package requests through GitHub Packages, you can use both scoped and unscoped packages from &lt;em&gt;npmjs.com&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So, the github package requests will do the check whether the package can be found on
+github. If not, it will go to &lt;em&gt;npmjs.com&lt;/em&gt; to search for the packages.&lt;/p&gt;
+
+&lt;p&gt;However, I found that the check request will time out randomly (may be due to GFW).
+I’d like to skip the check for those packages I want to download from &lt;em&gt;npmjs.com&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I try to change the setting in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; like this to achive this goal:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;registry=https://registry.npmjs.org/
+@OWNER:registry=https://npm.pkg.github.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;With this setting, default registry is &lt;em&gt;npmjs.com&lt;/em&gt;. Only &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@OWNER&lt;/code&gt;’s packages use the GitHub registry.&lt;/p&gt;
+
+&lt;p&gt;Then use the command to install:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install @bambooom/gh-pkg-demo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Look inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package-lock.json&lt;/code&gt;, the package is resolved by GitHub registry like:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;@bambooom/gh-pkg-demo&quot;: {
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;resolved&quot;: &quot;https://npm.pkg.github.com/download/@bambooom/gh-pkg-demo/0.0/0ec13dcce4a2f9510111a8b88957c3436a0e04633d0208aa71dfa5f7804b67ff&quot;,
+  &quot;integrity&quot;: &quot;....&quot;
+},
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;refs&quot;&gt;Refs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages#about-tokens&quot;&gt;About Tokens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages&quot;&gt;Configuring npm for use with GitHub Packages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>bambooom</name>
+			<email>zhuzi.mn@gmail.com</email>
+			<uri>https://bambooom.github.io</uri>
+		</author>
+		<source>
+			<title type="html">Bambooom</title>
+			<subtitle type="html">Personal Blog of Bambooom</subtitle>
+			<link rel="self" href="https://bambooom.github.io/feed.xml"/>
+			<id>https://bambooom.github.io/feed.xml</id>
+			<updated>2020-05-26T08:43:22+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 450</title>

@@ -23,6 +23,150 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>May 26, 2020</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="https://bambooom.github.io" title="Bambooom">bambooooooom</a></h3>
+
+
+<div class="entrygroup" id="https://bambooom.github.io/2020/05/26/github-pkg-registry/" lang="en-us">
+<h4><a href="https://bambooom.github.io/2020/05/26/github-pkg-registry/">GitHub Package Registry 简单试用记录</a></h4>
+<div class="entry">
+<div class="content">
+<blockquote>
+  <p>简单记录下 GitHub Package Registry 怎么用</p>
+</blockquote>
+
+<p><a href="https://github.com/bambooom/gh-pkg-demo">Example Repo: gh-pkg-demo</a></p>
+
+<h2 id="how-to-use-github-package-registry">How to use GitHub Package Registry</h2>
+
+<h3 id="1-generate-personal-access-token">1. Generate Personal Access Token</h3>
+
+<ul>
+  <li>To download and install packages from GitHub Package Registry, you need a token with <code class="language-plaintext highlighter-rouge">read:packages</code> and <code class="language-plaintext highlighter-rouge">repo</code> scopes.</li>
+  <li>To upload and publish packages, you need a token with <code class="language-plaintext highlighter-rouge">write:packages</code> and <code class="language-plaintext highlighter-rouge">repo</code> scopes.</li>
+  <li>To delete a package with specified version, you need a token with <code class="language-plaintext highlighter-rouge">delete:packages</code> and <code class="language-plaintext highlighter-rouge">repo</code> scopes</li>
+</ul>
+
+<p>Generate the token according to your need.</p>
+
+<h3 id="2-local-config-token">2. Local config TOKEN</h3>
+
+<p>Add the generated token to the local file <code class="language-plaintext highlighter-rouge">~/.npmrc</code> like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//npm.pkg.github.com/:_authToken=TOKEN
+</code></pre></div></div>
+
+<p>Create the file <code class="language-plaintext highlighter-rouge">~/.npmrc</code> if it doesn’t exist. This is the global user config file for npm.</p>
+
+<p>If you don’t want to set TOKEN locally, then one should log in by <code class="language-plaintext highlighter-rouge">npm login</code> command and input the info of your GitHub account with prompt like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ npm login --registry=https://npm.pkg.github.com
+&gt; Username: USERNAME
+&gt; Password: TOKEN
+&gt; Email: PUBLIC-EMAIL-ADDRESS
+</code></pre></div></div>
+
+<h3 id="3-project-config-to-publish-to-github">3. Project Config to publish to GitHub</h3>
+
+<p><a href="https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-a-package-using-publishconfig-in-the-packagejson-file">Edit the <code class="language-plaintext highlighter-rouge">package.json</code> file to specify the registry as GitHub</a>.
+And also the package name must be scoped with the onwer, <code class="language-plaintext highlighter-rouge">@OWNER/PKG-NAME</code>.</p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gd">--- "name": "gh-pkg-demo",
+</span><span class="gi">+++ "name": "@bambooom/gh-pkg-demo",
++++ "publishConfig": {
++++   "registry": "https://npm.pkg.github.com/"
++++ },
+</span></code></pre></div></div>
+
+<p>Alternative way to config the project is <a href="https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-a-package-using-a-local-npmrc-file">using local <code class="language-plaintext highlighter-rouge">.npmrc</code> file</a>.
+That is adding a local <code class="language-plaintext highlighter-rouge">.npmrc</code> under project root, and adding this to the file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>registry=https://npm.pkg.github.com/OWNER
+</code></pre></div></div>
+
+<h3 id="4-publish-packages">4. Publish packages</h3>
+<p>To publish the package to GitHub, just use the command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ npm publish
+</code></pre></div></div>
+
+<p>You can see the package on GitHub:</p>
+
+<p><img src="https://bambooom.github.io/assets/images/gh-pkg.png" alt="" /></p>
+
+<h3 id="5-install-packages">5. Install packages</h3>
+
+<p>To install packages from GitHub package registry, need a local <code class="language-plaintext highlighter-rouge">.npmrc</code> file to set the registry.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>registry=https://npm.pkg.github.com/OWNER
+</code></pre></div></div>
+
+<p>But if only using this setting, all package requests will go through GitHub Packages.</p>
+
+<blockquote>
+  <p>You also need to add the <em>.npmrc</em> file to your project so all requests to install packages will go through GitHub Packages. When you route all package requests through GitHub Packages, you can use both scoped and unscoped packages from <em>npmjs.com</em>.</p>
+</blockquote>
+
+<p>So, the github package requests will do the check whether the package can be found on
+github. If not, it will go to <em>npmjs.com</em> to search for the packages.</p>
+
+<p>However, I found that the check request will time out randomly (may be due to GFW).
+I’d like to skip the check for those packages I want to download from <em>npmjs.com</em>.</p>
+
+<p>I try to change the setting in <code class="language-plaintext highlighter-rouge">.npmrc</code> like this to achive this goal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>registry=https://registry.npmjs.org/
+@OWNER:registry=https://npm.pkg.github.com
+</code></pre></div></div>
+
+<p>With this setting, default registry is <em>npmjs.com</em>. Only <code class="language-plaintext highlighter-rouge">@OWNER</code>’s packages use the GitHub registry.</p>
+
+<p>Then use the command to install:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install @bambooom/gh-pkg-demo
+</code></pre></div></div>
+
+<p>Look inside <code class="language-plaintext highlighter-rouge">package-lock.json</code>, the package is resolved by GitHub registry like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@bambooom/gh-pkg-demo": {
+  "version": "1.0.0",
+  "resolved": "https://npm.pkg.github.com/download/@bambooom/gh-pkg-demo/0.0/0ec13dcce4a2f9510111a8b88957c3436a0e04633d0208aa71dfa5f7804b67ff",
+  "integrity": "...."
+},
+</code></pre></div></div>
+
+<h2 id="refs">Refs</h2>
+<ul>
+  <li><a href="https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages#about-tokens">About Tokens</a></li>
+  <li><a href="https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages">Configuring npm for use with GitHub Packages</a></li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://bambooom.github.io/2020/05/26/github-pkg-registry/">by bambooom (zhuzi.mn@gmail.com) at May 26, 2020 12:00 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>May 23, 2020</h2>
 
 <div class="channelgroup">
@@ -778,7 +922,7 @@ Google/Excel Sheets API Python.</p>
 
 <p>
 <strong>Last updated:</strong><br>
-May 26, 2020 12:43 AM<br>
+May 26, 2020 08:43 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
