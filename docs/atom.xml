@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-05-28T16:42:42+00:00</updated>
+	<updated>2020-05-29T00:43:19+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry xml:lang="en-us">
@@ -548,7 +548,7 @@ Experts discuss hard web production problems. 40+ talks on Django, Plone, CI/CD,
 			<title type="html">zoom.quiet</title>
 			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
 			<id>https://blog.zoomquiet.io/</id>
-			<updated>2020-05-28T16:42:32+00:00</updated>
+			<updated>2020-05-29T00:43:02+00:00</updated>
 		</source>
 	</entry>
 
