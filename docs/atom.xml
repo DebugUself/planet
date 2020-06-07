@@ -5,8 +5,153 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-06-07T00:42:21+00:00</updated>
+	<updated>2020-06-07T08:44:28+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">pythonista-weekly : Pyw 452</title>
+		<link href="http://weekly.pychina.org/python-weekly/pyw-452.html"/>
+		<id>tag:weekly.pychina.org,2020-06-06:/python-weekly/pyw-452.html</id>
+		<updated>2020-06-06T06:22:00+00:00</updated>
+		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第452期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-452&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-452&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。&lt;a href=&quot;https://www.datadoghq.com/dg/apm/python-troubleshooting/?utm_source=Advertisement&amp;utm_medium=Advertisement&amp;utm_campaign=PythonWeekly-Troubleshooting&quot;&gt;来免费试用 14 天吧！&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新鲜事&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://dabeaz-course.github.io/practical-python/Notes/Contents&quot;&gt;Python 实用编程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;David Beazley&lt;/code&gt; 在 &lt;code&gt;Creative Commons&lt;/code&gt; 下发布了他的《实用Python编程》课程。这是一个很好的资源。&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.hackster.io/sacchet/chupacarbrah-car-hacking-with-beaglebone-and-python-18f137&quot;&gt;ChupaCarBrah - Car Hacking with BeagleBone and Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;构建一个汽车黑客间谍设备，远程读取和发送 &lt;code&gt;CAN&lt;/code&gt; 命令，并跟踪 &lt;code&gt;GPS&lt;/code&gt; 位置。全部基于开源软件/硬件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/PicardParis/cherry-on-py&quot;&gt;Video summary as a service&lt;/a&gt;
+通过机器学习模型和无服务器管道，自动生成视频的视觉摘要。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2ct_kO3mCDc&quot;&gt;Using Trailing Commas in Python&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;（5min）
+在这个视频中，我讨论了在 &lt;code&gt;Python&lt;/code&gt; 数据结构中添加尾部逗号的做法。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hakibenita.com/python-dependency-injection&quot;&gt;Python 中实用的依赖注入&lt;/a&gt; 
+如果你曾经有过某天开始无缘无故地失败的测试，或者每隔几个月就无缘无故地失败一次的测试，那么你的代码可能依赖于一些不确定的东西。本文描述了 &lt;code&gt;Python&lt;/code&gt; 中依赖项注入的一种实用方法，如果正确使用该方法，可以消除不确定性并使代码更容易维护和测试。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=XOASDzIzJg8&quot;&gt;用物理学和Python模拟地球附近物体的运动&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;（16min）
+这里是一个教程，创建一个物体在地球附近运动（但不在表面）的数值计算。 在这个视频中，我使用数值计算和地球与物体之间的引力来模拟运动。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/4JxPlEHhbU&quot;&gt;我们的Python Monorepo&lt;/a&gt;
+在 &lt;code&gt;Opendoor&lt;/code&gt;，我们有不少 &lt;code&gt;Python&lt;/code&gt; 服务。最初它们分布在几个 &lt;code&gt;Git&lt;/code&gt; 仓库中，这造成了一些问题。为了消除这些问题，我们决定将所有新的 &lt;code&gt;Python&lt;/code&gt; 服务放在一个 &lt;code&gt;Git&lt;/code&gt; 仓库中，尽管这些服务仍然是独立的。这篇文章解释了对我们来说行之有效的方法，包括 &lt;code&gt;repo&lt;/code&gt; 组织、依赖性管理、代码共享和 &lt;code&gt;CI/CD&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pythonwebconference.com/&quot;&gt;RSVP for the ONLY Python Web Conference (Virtual) | June 17-19, 2020&lt;/a&gt; 
+Experts discuss hard web production problems. 40+ talks on Django, Plone, CI/CD, Containers, Serverless, REST APIs, microservices, etc. Join JetBrains and Six Feet Up to discuss what the future holds. SPONSOR&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fedoramagazine.org/use-fastapi-to-build-web-services-in-python/&quot;&gt;使用FastAPI在Python中构建Web服务&lt;/a&gt;
+&lt;code&gt;FastAPI&lt;/code&gt; 是一个现代化的 &lt;code&gt;Python&lt;/code&gt; 网络框架，它利用了最新的 &lt;code&gt;Python&lt;/code&gt; 改进的 &lt;code&gt;asyncio&lt;/code&gt;。在本文中，你将看到如何设置一个基于容器的开发环境，并使用 &lt;code&gt;FastAPI&lt;/code&gt; 实现一个小型的 &lt;code&gt;web&lt;/code&gt; 服务。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pbpython.com/sidetable.html&quot;&gt;sidetable - 在 Pandas 中创建简单的汇总表&lt;/a&gt;
+介绍一下 &lt;code&gt;sidetable&lt;/code&gt;，一个可以为你的 &lt;code&gt;DataFrames&lt;/code&gt; 建立摘要表的 &lt;code&gt;pandas&lt;/code&gt; 库。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/kq9Uffu80R&quot;&gt;一行 Python 代码从网页中抓取数据集。&lt;/a&gt;
+使用 &lt;code&gt;Python&lt;/code&gt; 从网页和下载中寻找 &lt;code&gt;API&lt;/code&gt; 端点。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/TPJOxdR1rG&quot;&gt;使用 Django Rest 框架进行批量更新&lt;/a&gt; 
+一般 &lt;code&gt;rest&lt;/code&gt; 框架端点通常设计为一次修改一个对象。但是，你经常会发现，当你需要修改数以千计的对象时，这可能会成为性能的巨大瓶颈。在这种情况下，与其对端点进行数千次调用，不如执行一次批量执行操作的调用。在本教程中，我们将向你展示如何将更新API的速度提高10倍。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/dr4PwI9h7Z&quot;&gt;3.6 million points, 1 GIF — 用Python可视化大数据n&lt;/a&gt;
+使用 &lt;code&gt;Dask&lt;/code&gt; 和 &lt;code&gt;Datashader&lt;/code&gt; 库在 &lt;code&gt;Python&lt;/code&gt; 中使用大数据创建 &lt;code&gt;GIF&lt;/code&gt; 的详细分步指南。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LHBE6Q9XlzI&quot;&gt;Python 数据科学 - 初学者的课程 (Learn Python, Pandas, NumPy, Matplotlib)&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;（12h19min）
+这门 &lt;code&gt;Python&lt;/code&gt; 数据科学课程将带你从对 &lt;code&gt;Python&lt;/code&gt; 一无所知到使用 &lt;code&gt;Pandas、NumPy和matplotlib&lt;/code&gt; 等工具用 &lt;code&gt;Python&lt;/code&gt; 编码和分析数据。这是一门实践性课程，你将一步步实践你所学的一切。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/&quot;&gt;OpenCV 社交距离检测器&lt;/a&gt;
+在本教程中，你将学习如何使用 &lt;code&gt;OpenCV&lt;/code&gt;、深度学习和计算机视觉来实现 &lt;code&gt;COVID-19&lt;/code&gt; 社交距离检测器。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fullstackdjango.com/post/django-channels-and-react-a-match-made-in-heaven&quot;&gt;Django Channels 和 React：天作之合。&lt;/a&gt;
+这篇文章将向你展示如何使用一个由 &lt;code&gt;Django channel&lt;/code&gt; 和 &lt;code&gt;React&lt;/code&gt; 以及 &lt;code&gt;Zurb Foundation&lt;/code&gt; 前端支持的 &lt;code&gt;websockets&lt;/code&gt; 后端。你将了解 &lt;code&gt;Babel&lt;/code&gt; 和 &lt;code&gt;Webpack&lt;/code&gt; 如何实现这一切，以及如何用 &lt;code&gt;Moment.js&lt;/code&gt; 很好地处理日期。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://modelpredict.com/python-dependency-management-tools&quot;&gt;Python 依赖项管理工具概述&lt;/a&gt;
+完全被管理依赖关系的工具搞糊涂了? &lt;code&gt;Pip, venv, Docker, conda, virtualenvwrapper, pipenv，……&lt;/code&gt; 你应该用哪一个?为什么我们有这么多不同的工具?他们能合作吗?这篇文章简要地描述了每个工具，为什么它被创造出来，以及它正在解决的问题。在文章的结尾，你可以找到一个表格，总结了所有的信息和人们通常使用的设置。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://martinheinz.dev/blog/24&quot;&gt;Python调试的终极指南&lt;/a&gt;
+即使你编写了清晰可读的代码，即使你使用测试覆盖你的代码，即使你是一个非常有经验的开发人员，奇怪的 &lt;code&gt;bug&lt;/code&gt; 也不可避免地会出现，你将需要以某种方式调试它们。很多人使用一堆打印语句来查看代码中发生了什么。这种方法远不是理想的，有更好的方法可以找出代码的错误所在，本文将探讨其中一些问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qK41OKaJz4k&quot;&gt;对于初学者，如何用 Tkinter GUI 在 Python 中创建文本编辑器？&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;（16min）
+本视频将向你展示如何使用 &lt;code&gt;Python&lt;/code&gt; 内置的 &lt;code&gt;GUI&lt;/code&gt; 框架 &lt;code&gt;Tkinter&lt;/code&gt; 创建简单的文本编辑器。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/VzSRAiIyjR&quot;&gt;使用PyTorch建立一站式学习网络&lt;/a&gt;
+我们如何在每个类的样本这么少的情况下建立一个深度网络？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://snarky.ca/the-many-ways-to-pass-code-to-python-from-the-terminal/&quot;&gt;从终端向Python传递代码的多种方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ml-illustrated.com/2020/05/25/run-pytorch-models-on-ios-with-coreml.html&quot;&gt;如何通过测试将 PyTorch 模型部署到 iOS 的 Core ML 中？&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dry-python/returns&quot;&gt;returns&lt;/a&gt;
+使您的函数返回有意义，有类型且安全的内容！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pytrace.com/&quot;&gt;PyTrace&lt;/a&gt;
+&lt;code&gt;Python&lt;/code&gt; 的 &lt;code&gt;Time Travel Debugging&lt;/code&gt;。曾经梦想过以相反的方向运行你的代码吗？现在这成为了可能。在记录的跟踪中检查变量、调用图和执行分支。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeinterview.netlify.app/&quot;&gt;CodeInterview&lt;/a&gt;
+一个集视频会议、协同代码编辑、远程代码执行于一体的编码面试网站。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tebelorg/RPA-Python&quot;&gt;RPA-Python&lt;/a&gt;
+Python package for RPA (robotic process automation).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/josephius/star-clustering&quot;&gt;star-clustering&lt;/a&gt;
+一种自动确定集群数量的聚类算法，工作时无需超参数微调。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/saleguas/context_menu&quot;&gt;context_menu&lt;/a&gt;
+一个用于创建和部署跨平台本地上下文菜单的 &lt;code&gt;Python&lt;/code&gt; 库。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/deepmind/acme&quot;&gt;Acme&lt;/a&gt;
+强化学习的研究框架。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/adamchainz/time-machine&quot;&gt;time-machine&lt;/a&gt;
+一个新的  &lt;code&gt;Python&lt;/code&gt; 库，用于模拟当前时间。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/AlphaMycelium/pathfinder.vim&quot;&gt;pathfinder.vim&lt;/a&gt;
+&lt;code&gt;Vim&lt;/code&gt; 插件，它提供了改善你动作的建议。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spotlightify/spotlightify&quot;&gt;Spotlightify&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Spotlightify&lt;/code&gt; 是一个基于 &lt;code&gt;GUI&lt;/code&gt; 的应用程序，旨在允许用户跨 &lt;code&gt;Windows&lt;/code&gt;，&lt;code&gt;Linux&lt;/code&gt; 和 &lt;code&gt;macOS&lt;/code&gt; 与 &lt;code&gt;Spotify Desktop&lt;/code&gt; 应用程序快速交互。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jdbit/django-auto-deploy&quot;&gt;django-auto-deploy&lt;/a&gt;
+使用一个简单的命令即可部署任意数量的 &lt;code&gt;Django&lt;/code&gt; 网站。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookresearch/detr&quot;&gt;detr&lt;/a&gt;
+End-to-End Object Detection with Transformers.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/joaoventura/pybridge-ios&quot;&gt;PyBridge-iOS&lt;/a&gt;
+在原生 &lt;code&gt;iOS&lt;/code&gt; 应用中重用 &lt;code&gt;Python&lt;/code&gt; 代码。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/itstommi/Vocab&quot;&gt;Vocab&lt;/a&gt;
+用 &lt;code&gt;Python&lt;/code&gt; 在终端上每天显示一个新词汇。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Teraskull/PyDebloatX&quot;&gt;PyDebloatX&lt;/a&gt;
+用于卸载默认 &lt;code&gt;Windows 10&lt;/code&gt; 应用程序的 &lt;code&gt;Python GUI&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/odwyersoftware/django-rename-app&quot;&gt;django-rename-app&lt;/a&gt;
+一个 &lt;code&gt;Django&lt;/code&gt; 管理命令，用于重命名现有的 &lt;code&gt;Django&lt;/code&gt; 应用程序。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dathudeptrai/TensorflowTTS&quot;&gt;TensorflowTTS&lt;/a&gt;
+&lt;code&gt;Tensorflow 2&lt;/code&gt; 的实时最先进的语音合成 。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/prettyetc/prettyetc&quot;&gt;prettyetc&lt;/a&gt;
+通过漂亮的通用界面，以可视化的方式浏览你的配置文件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/joshiemoore/snakeware&quot;&gt;snakeware&lt;/a&gt;
+一个具有完全 &lt;code&gt;Python&lt;/code&gt; 用户空间的免费 &lt;code&gt;Linux&lt;/code&gt; 发行版。&lt;/p&gt;
+&lt;h3&gt;新的版本&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.djangoproject.com/weblog/2020/jun/03/security-releases/&quot;&gt;Django security releases issued: 3.0.7 and 2.2.13&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;那些活动&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/sfpython/events/xkwxvqybcjbnb/&quot;&gt;Virtual: SF Python Presentation Night on Data&lt;/a&gt;
+将会有以下话题:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;利用 &lt;code&gt;COVID&lt;/code&gt; 数据源 &lt;code&gt;DIY&lt;/code&gt; 数据科学 &lt;/li&gt;
+&lt;li&gt;Primer on Prefect&lt;/li&gt;
+&lt;li&gt;altair_recipes: 一个 &lt;code&gt;Python&lt;/code&gt; 包，用于为网络生成必要的统计图形。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/271047663/&quot;&gt;Virtual: PyMNtos Python Presentation Night #85&lt;/a&gt;
+将会有以下话题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python Design Patterns&lt;/li&gt;
+&lt;li&gt;Elliptic-Curve Cryptography&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/austinpython/events/lgrbmqybcjbnb/&quot;&gt;Virtual: Austin Python Meetup June 2020&lt;/a&gt;
+将会有以下话题:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.9 有什么新东西&lt;/li&gt;
+&lt;li&gt;The state of NumFOCUS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-Budapest/events/270866392/&quot;&gt;Virtual: PyData Budapest Online #4 - Dataframe Evolution&lt;/a&gt;
+我们将介绍旨在改进众所周知、深受喜爱的 &lt;code&gt;pandas&lt;/code&gt; 数据框架-- &lt;code&gt;Python&lt;/code&gt; 数据生态系统的一个关键组成部分--的解决方案的演变。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Cleveland-Area-Python-Interest-Group/events/dnqfsrybcjblb/&quot;&gt;Virtual: Cleveland Python Meetup June 2020&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/startupedmonton/events/dtflxjybcjblb/&quot;&gt;Virtual: Edmonton Python Meetup June 2020&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Posa：&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-452.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23452.md&quot;&gt;issue-452.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2020-06-07T08:43:20+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 423</title>
@@ -341,135 +486,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-06-05T16:43:04+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="en-us">
-		<title type="html">GitHub Package Registry 简单试用记录</title>
-		<link href="http://zhuzi.dev/2020/05/26/github-pkg-registry/"/>
-		<id>http://zhuzi.dev/2020/05/26/github-pkg-registry/</id>
-		<updated>2020-05-26T00:00:00+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-  &lt;p&gt;简单记录下 GitHub Package Registry 怎么用&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bambooom/gh-pkg-demo&quot;&gt;Example Repo: gh-pkg-demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-use-github-package-registry&quot;&gt;How to use GitHub Package Registry&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-generate-personal-access-token&quot;&gt;1. Generate Personal Access Token&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;To download and install packages from GitHub Package Registry, you need a token with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:packages&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo&lt;/code&gt; scopes.&lt;/li&gt;
-  &lt;li&gt;To upload and publish packages, you need a token with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:packages&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo&lt;/code&gt; scopes.&lt;/li&gt;
-  &lt;li&gt;To delete a package with specified version, you need a token with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete:packages&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo&lt;/code&gt; scopes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Generate the token according to your need.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-local-config-token&quot;&gt;2. Local config TOKEN&lt;/h3&gt;
-
-&lt;p&gt;Add the generated token to the local file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.npmrc&lt;/code&gt; like:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//npm.pkg.github.com/:_authToken=TOKEN
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Create the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.npmrc&lt;/code&gt; if it doesn’t exist. This is the global user config file for npm.&lt;/p&gt;
-
-&lt;p&gt;If you don’t want to set TOKEN locally, then one should log in by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm login&lt;/code&gt; command and input the info of your GitHub account with prompt like:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ npm login --registry=https://npm.pkg.github.com
-&amp;gt; Username: USERNAME
-&amp;gt; Password: TOKEN
-&amp;gt; Email: PUBLIC-EMAIL-ADDRESS
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;3-project-config-to-publish-to-github&quot;&gt;3. Project Config to publish to GitHub&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-a-package-using-publishconfig-in-the-packagejson-file&quot;&gt;Edit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file to specify the registry as GitHub&lt;/a&gt;.
-And also the package name must be scoped with the onwer, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@OWNER/PKG-NAME&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-diff highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gd&quot;&gt;--- &quot;name&quot;: &quot;gh-pkg-demo&quot;,
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ &quot;name&quot;: &quot;@bambooom/gh-pkg-demo&quot;,
-+++ &quot;publishConfig&quot;: {
-+++   &quot;registry&quot;: &quot;https://npm.pkg.github.com/&quot;
-+++ },
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Alternative way to config the project is &lt;a href=&quot;https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-a-package-using-a-local-npmrc-file&quot;&gt;using local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file&lt;/a&gt;.
-That is adding a local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; under project root, and adding this to the file:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;registry=https://npm.pkg.github.com/OWNER
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;4-publish-packages&quot;&gt;4. Publish packages&lt;/h3&gt;
-&lt;p&gt;To publish the package to GitHub, just use the command:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ npm publish
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can see the package on GitHub:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://zhuzi.dev/assets/images/gh-pkg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;5-install-packages&quot;&gt;5. Install packages&lt;/h3&gt;
-
-&lt;p&gt;To install packages from GitHub package registry, need a local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file to set the registry.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;registry=https://npm.pkg.github.com/OWNER
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;But if only using this setting, all package requests will go through GitHub Packages.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You also need to add the &lt;em&gt;.npmrc&lt;/em&gt; file to your project so all requests to install packages will go through GitHub Packages. When you route all package requests through GitHub Packages, you can use both scoped and unscoped packages from &lt;em&gt;npmjs.com&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So, the github package requests will do the check whether the package can be found on
-github. If not, it will go to &lt;em&gt;npmjs.com&lt;/em&gt; to search for the packages.&lt;/p&gt;
-
-&lt;p&gt;However, I found that the check request will time out randomly (may be due to GFW).
-I’d like to skip the check for those packages I want to download from &lt;em&gt;npmjs.com&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I try to change the setting in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; like this to achive this goal:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;registry=https://registry.npmjs.org/
-@OWNER:registry=https://npm.pkg.github.com
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;With this setting, default registry is &lt;em&gt;npmjs.com&lt;/em&gt;. Only &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@OWNER&lt;/code&gt;’s packages use the GitHub registry.&lt;/p&gt;
-
-&lt;p&gt;Then use the command to install:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install @bambooom/gh-pkg-demo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Look inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package-lock.json&lt;/code&gt;, the package is resolved by GitHub registry like:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;@bambooom/gh-pkg-demo&quot;: {
-  &quot;version&quot;: &quot;1.0.0&quot;,
-  &quot;resolved&quot;: &quot;https://npm.pkg.github.com/download/@bambooom/gh-pkg-demo/0.0/0ec13dcce4a2f9510111a8b88957c3436a0e04633d0208aa71dfa5f7804b67ff&quot;,
-  &quot;integrity&quot;: &quot;....&quot;
-},
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;refs&quot;&gt;Refs&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages#about-tokens&quot;&gt;About Tokens&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages&quot;&gt;Configuring npm for use with GitHub Packages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>bambooom</name>
-			<email>zhuzi.mn@gmail.com</email>
-			<uri>http://zhuzi.dev</uri>
-		</author>
-		<source>
-			<title type="html">Bambooom</title>
-			<subtitle type="html">Personal Blog of Bambooom</subtitle>
-			<link rel="self" href="http://zhuzi.dev/feed.xml"/>
-			<id>http://zhuzi.dev/feed.xml</id>
-			<updated>2020-05-26T16:43:39+00:00</updated>
+			<updated>2020-06-07T08:43:20+00:00</updated>
 		</source>
 	</entry>
 
