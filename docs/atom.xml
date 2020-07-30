@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-07-30T08:43:22+00:00</updated>
+	<updated>2020-07-30T16:43:09+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">广州买房记</title>
+		<link href="http://liguanghe.github.io/2020/07/30/LsApartmentForInvestment/"/>
+		<id>http://liguanghe.github.io/2020/07/30/LsApartmentForInvestment/</id>
+		<updated>2020-07-30T15:21:32+00:00</updated>
+		<content type="html">&lt;p&gt;上篇文字烘托氛围，这篇要实际很多。讲讲选筹（挑房子）吧。&lt;/p&gt;
+&lt;h2 id=&quot;这是我能买到的最好的房子么？&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#这是我能买到的最好的房子么？&quot; class=&quot;headerlink&quot; title=&quot;这是我能买到的最好的房子么？&quot;&gt;&lt;/a&gt;这是我能买到的最&lt;/h2&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2020-07-30T16:43:04+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 431</title>
@@ -703,7 +722,7 @@ Automated testing tools and techniques you can use when building a Django applic
 		<title type="html">和房子谈恋爱</title>
 		<link href="http://liguanghe.github.io/2020/07/21/LsApartmentInLove/"/>
 		<id>http://liguanghe.github.io/2020/07/21/LsApartmentInLove/</id>
-		<updated>2020-07-21T00:42:18+00:00</updated>
+		<updated>2020-07-21T15:21:32+00:00</updated>
 		<content type="html">&lt;p&gt;最近开始有家的感觉了。&lt;/p&gt;
 &lt;p&gt;这个房子4月交钥匙给我，直到上两周才装好床、隔好墙，隔出属于我的空间，昨天给客厅装上空调。厨房加了电扇、柜灯、沥干架。在这做上了几顿饭、连着睡上几觉、客厅里跳上两天舞。虽然布置还是很简单，甚至可以说是简陋，但这就是自己的家了。&lt;/p&gt;</content>
 		<author>
@@ -714,7 +733,7 @@ Automated testing tools and techniques you can use when building a Django applic
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2020-07-21T00:42:18+00:00</updated>
+			<updated>2020-07-30T16:43:04+00:00</updated>
 		</source>
 	</entry>
 

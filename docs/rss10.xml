@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2020/07/30/LsApartmentForInvestment/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-07-29:/issue/issue-431.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-07-22:/issue/issue-430.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2020/07/21/LsApartmentInLove/" />
@@ -21,6 +22,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2020/07/30/LsApartmentForInvestment/">
+	<title>li guang he: 广州买房记</title>
+	<link>http://liguanghe.github.io/2020/07/30/LsApartmentForInvestment/</link>
+	<content:encoded>&lt;p&gt;上篇文字烘托氛围，这篇要实际很多。讲讲选筹（挑房子）吧。&lt;/p&gt;
+&lt;h2 id=&quot;这是我能买到的最好的房子么？&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#这是我能买到的最好的房子么？&quot; class=&quot;headerlink&quot; title=&quot;这是我能买到的最好的房子么？&quot;&gt;&lt;/a&gt;这是我能买到的最&lt;/h2&gt;</content:encoded>
+	<dc:date>2020-07-30T15:21:32+00:00</dc:date>
+</item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-431.html">
 	<title>蠎周刊: Issue 431</title>
 	<link>http://weekly.pychina.org/issue/issue-431.html</link>
@@ -693,7 +701,7 @@ Automated testing tools and techniques you can use when building a Django applic
 	<link>http://liguanghe.github.io/2020/07/21/LsApartmentInLove/</link>
 	<content:encoded>&lt;p&gt;最近开始有家的感觉了。&lt;/p&gt;
 &lt;p&gt;这个房子4月交钥匙给我，直到上两周才装好床、隔好墙，隔出属于我的空间，昨天给客厅装上空调。厨房加了电扇、柜灯、沥干架。在这做上了几顿饭、连着睡上几觉、客厅里跳上两天舞。虽然布置还是很简单，甚至可以说是简陋，但这就是自己的家了。&lt;/p&gt;</content:encoded>
-	<dc:date>2020-07-21T00:42:18+00:00</dc:date>
+	<dc:date>2020-07-21T15:21:32+00:00</dc:date>
 </item>
 <item rdf:about="https://du.101.camp/2020-07/recall-debuggers/">
 	<title>自怼圈: 自怼圈 2020.8.1 暑期招新</title>
