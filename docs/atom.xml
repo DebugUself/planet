@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-08-06T00:42:35+00:00</updated>
+	<updated>2020-08-06T08:43:29+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -123,7 +123,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Not with eval()&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;嫑&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;嫑&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;嫑&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;嫑&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -297,11 +297,11 @@
 &lt;/blockquote&gt;
 &lt;p&gt;101camp11py 已开始报名&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;报名&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg&quot; /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 
-    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.08.23&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.08.30&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.10.11&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -314,7 +314,7 @@
 &lt;hr /&gt;
 &lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;@googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -323,7 +323,7 @@
 &lt;hr /&gt;
 &lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -350,7 +350,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-08-05T08:43:00+00:00</updated>
+			<updated>2020-08-06T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -388,6 +388,123 @@
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
 			<updated>2020-08-02T16:42:43+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">pythonista-weekly : Pyw 460</title>
+		<link href="http://weekly.pychina.org/python-weekly/pyw-460.html"/>
+		<id>tag:weekly.pychina.org,2020-07-30:/python-weekly/pyw-460.html</id>
+		<updated>2020-07-30T06:22:00+00:00</updated>
+		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第460期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-460&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-460&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+&lt;a href=&quot;https://www.programmerweekly.com/?utm_source=pwad&amp;utm_medium=newsletter&quot;&gt;获取每周的编程量&lt;/a&gt;
+一份每周的简报，为程序员提供最好的手工策划的新闻、文章、教程、讲座、工具和库等。 &lt;a href=&quot;https://www.programmerweekly.com/?utm_source=pwad&amp;utm_medium=newsletter&quot;&gt;Join For Free&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://mtlynch.io/tinypilot/&quot;&gt;TinyPilot: Build a KVM Over IP for Under $100&lt;/a&gt;
+仅使用 &lt;code&gt;Raspberry Pi&lt;/code&gt; 和 &lt;code&gt;$ 11&lt;/code&gt; 的视频捕获适配器，你就可以创建自己的基于 &lt;code&gt;IP&lt;/code&gt; 的 &lt;code&gt;KVM&lt;/code&gt;，从而可以将键盘输入发送到远程计算机并捕获其显示。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://app.wandb.ai/authors/stenography_tf/reports/Hiding-In-Plain-Sight-Deep-Steganography--VmlldzoxNzE5NDc&quot;&gt;隐藏于众目睽睽之下，深度窃密&lt;/a&gt;
+我们能否设计一个神经网络来寻找隐藏在另一幅图像中的全尺寸彩色图像？改变学习率和其他超参数会如何影响我们的模型性能？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tonybaloney.github.io/posts/xss-exploitation-in-django.html&quot;&gt;在Django应用中的XSS漏洞问题&lt;/a&gt;
+深入剖析 &lt;code&gt;Django&lt;/code&gt; 应用中的 &lt;code&gt;XSS&lt;/code&gt; 漏洞，如何发现和修复。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/audio-handling-basics-how-to-process-audio-files-using-python-cli-jo283u3y&quot;&gt;音频处理基础知识。在命令行或Python中处理音频文件&lt;/a&gt;
+对于在语音分析、音乐信息检索和多模态数据分析领域工作的机器学习工程师来说，处理音频数据是一项必不可少的任务，但对于那些只想编辑、记录和转码声音的开发人员来说，也是必不可少的。本文展示了使用命令行工具处理音频数据的基础知识，同时也对用 &lt;code&gt;Python&lt;/code&gt; 处理声音进行了不深不浅的探讨。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://adamj.eu/tech/2020/07/27/how-to-modernize-your-django-index-definitions/&quot;&gt;How to Modernize a Django Index Definition with Zero Downtime&lt;/a&gt;
+这篇文章向你展示了一种改进的定义索引的方法，以及如何编写零宕机迁移。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mattsegal.dev/django-gunicorn-nginx-logging.html&quot;&gt;How to manage logs with Django, Gunicorn and NGINX&lt;/a&gt;
+使用 &lt;code&gt;Django&lt;/code&gt;， &lt;code&gt;Gunicorn&lt;/code&gt; 和 &lt;code&gt;NGINX&lt;/code&gt; 时可用的日志记录选项概述。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.michaelaltfield.net/2020/07/23/sphinx-rtd-github-pages-2/&quot;&gt;连续文档：托管在GitHub Pages（2/2）上阅读文档&lt;/a&gt;
+这篇文章将介绍如何将翻译(i18n)、&lt;code&gt;pdf/epub&lt;/code&gt; 构建和特定分支的版本化文档添加到用 &lt;code&gt;GitHub Pages&lt;/code&gt; 托管的 &lt;code&gt;Read-the-Docs&lt;/code&gt; 主题的 &lt;code&gt;sphinx&lt;/code&gt; 站点中，并使用GitHub的免费 &lt;code&gt;CI/CD&lt;/code&gt; 工具构建。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://janowski.dev/blog/2020/7/23/creating-do-list-app-django-drf-alpinejs-and-axios/&quot;&gt;使用Django、DRF、Alpine.Js和Axios创建一个待办事项列表应用。&lt;/a&gt;
+待办事项列表是一个非常基本的示例应用，通常作为第一个项目之一来做。在这篇文章中，我们将通过使用一些有趣的技术让它变得更加有趣。作为后端，我们将使用 &lt;code&gt;Django&lt;/code&gt; 和 &lt;code&gt;Django Rest Framework&lt;/code&gt;，以及 &lt;code&gt;Alpine.js + Axios&lt;/code&gt; 来在前端轻松地将其结合在一起。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arpitbhayani.me/blogs/slowsort&quot;&gt;Slowsort - a pessimal sorting algorithm&lt;/a&gt;
+慢排序是一种确定次优排序算法。这个算法是由 &lt;code&gt;Andrei Broder&lt;/code&gt; 和 &lt;code&gt;Jorge Stolfi&lt;/code&gt; 在他们的论文 &lt;code&gt;《Pessimal Algorithms and Simplexity Analysis》&lt;/code&gt; 中发表的，其中他们表达了一堆非常低效的算法。这些技术和算法很特别，因为它们在解决问题时从不出错，相反，它们会找到延迟成功的方法。在本文中，我们主要研究基于乘法和投降范式的慢排序算法。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.docker.com/blog/containerized-python-development-part-3/&quot;&gt;容器Python开发-第3部分&lt;/a&gt;
+在本系列的最后一部分，我们回顾了项目的开发周期，并更详细地讨论了如何应用代码更新和调试容器化 &lt;code&gt;Python&lt;/code&gt; 服务的故障。目标是分析如何加快这些开发过程中的反复阶段，从而使我们获得与本地开发类似的体验。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.tensorflow.org/2020/07/whats-new-in-tensorflow-2-3.html&quot;&gt;What's new in TensorFlow 2.3?&lt;/a&gt;
+&lt;code&gt;TensorFlow 2.3&lt;/code&gt; 已经发布! 这个版本的重点是新的工具，让你更容易加载和预处理数据，并解决输入管道瓶颈，无论你是在一台机器上工作，还是在许多机器上工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pyimagesearch.com/2020/07/27/opencv-grabcut-foreground-segmentation-and-extraction/&quot;&gt;OpenCV GrabCut: 前景分割和提取&lt;/a&gt;
+在本教程中，你将学习如何使用 &lt;code&gt;OpenCV&lt;/code&gt; 和 &lt;code&gt;GrabCut&lt;/code&gt; 来执行前景分割和提取。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://soumyadipdm.github.io/&quot;&gt;在Python Web服务中寻找内存泄漏-奋斗的故事&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.nvidia.com/blog/accelerating-tensorflow-on-a100-gpus/&quot;&gt;在NVIDIA A100 GPU上加速TensorFlow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bunniestudios.com/blog/?p=5863&quot;&gt;On Liberating My Smartwatch From Cloud Services&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://lukereichold.com/blog/posts/video-action-classification-coreml/&quot;&gt;使用Core ML构建用于人为操作的离线视频分类器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fractalideas.com/blog/sans-io-when-rubber-meets-road/&quot;&gt;Sans I/O when rubber meets the road&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/shreyashankar/gpt3-sandbox&quot;&gt;gpt3-sandbox&lt;/a&gt;
+这个项目的目标是让用户使用最新发布的 &lt;code&gt;OpenAI GPT-3 API&lt;/code&gt;，只需几行 &lt;code&gt;Python&lt;/code&gt; 就能创建酷炫的网络演示。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://engineering.linkedin.com/blog/2020/open-sourcing-detext&quot;&gt;DeText&lt;/a&gt;
+&lt;code&gt;DeText&lt;/code&gt; 是一个深度文本理解框架，用于NLP相关的排名、分类和语言生成任务。它利用深度神经网络的语义匹配来理解搜索和推荐系统中的成员意图。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/plant99/felicette&quot;&gt;felicette&lt;/a&gt;
+傻瓜式卫星图像。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/harelba/q&quot;&gt;q&lt;/a&gt;
+直接在 &lt;code&gt;CSV&lt;/code&gt; 或 &lt;code&gt;TSV&lt;/code&gt; 文件上运行 &lt;code&gt;SQL&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/odashi/latexify_py&quot;&gt;latexify_py&lt;/a&gt;
+通过 &lt;code&gt;Python&lt;/code&gt; 函数生成 &lt;code&gt;LaTeX&lt;/code&gt; 数学描述。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/python/gather-a-new-way-to-clean-notebooks/&quot;&gt;Gather&lt;/a&gt;
+&lt;code&gt;Gather&lt;/code&gt; 是一款笔记本清理工具，它可以分析和确定笔记本内必要的代码依赖关系，并进行代码清理，将这项困难、烦人、耗时的工作自动化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/iterative/shtab&quot;&gt;shtab&lt;/a&gt;
+为 &lt;code&gt;Python CLI&lt;/code&gt; 应用程序自动完成 &lt;code&gt;shell&lt;/code&gt; 标签。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jkwill87/stonky&quot;&gt;stonky&lt;/a&gt;
+用于监控股票的命令行仪表盘。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/algoasylum/pyEyeTrack&quot;&gt;PyEyeTrack&lt;/a&gt; 
+&lt;code&gt;PyEyeTrack&lt;/code&gt; 是一个基于 &lt;code&gt;python&lt;/code&gt; 的瞳孔跟踪库。该库通过商品网络摄像头追踪眼睛，并给出实时的眼睛坐标流。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/yogeshojha/rengine&quot;&gt;reNgine&lt;/a&gt; 
+&lt;code&gt;reNgine&lt;/code&gt; 是一个自动侦察框架，目的是在 &lt;code&gt;Web&lt;/code&gt; 应用的渗透测试过程中收集信息， &lt;code&gt;reNgine&lt;/code&gt; 有可定制的扫描引擎，可以用来扫描网站、端点并收集信息。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/surya-veer/movement-tracking&quot;&gt;movement-tracking&lt;/a&gt;
+&lt;code&gt;90&lt;/code&gt; 行代码，将你的脸部动作转换成键盘命令。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/singhkumarpratik/WiFi-of-house&quot;&gt;WiFi-of-house&lt;/a&gt;
+一个简单的 &lt;code&gt;Web&lt;/code&gt; 应用程序，它允许你与你的朋友和家人即时分享你的 &lt;code&gt;WiFi&lt;/code&gt; 证书。使用 &lt;code&gt;Python&lt;/code&gt;、&lt;code&gt;Flask&lt;/code&gt; 和 &lt;code&gt;Bootstrap&lt;/code&gt; 构建。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/m4rz910/NYISOData&quot;&gt;NYISOData&lt;/a&gt;
+用于对纽约独立系统运营商（NYISO）的电力系统数据进行数据分析的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/2007.13815.pdf&quot;&gt;DyPy&lt;/a&gt;
+用于模拟矩阵形式游戏的 &lt;code&gt;Python&lt;/code&gt; 库。&lt;/p&gt;
+&lt;h3&gt;新鲜事&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://discuss.python.org/t/announcement-pip-20-2-release/4863&quot;&gt;pip 20.2&lt;/a&gt;
+此次发布的亮点有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新一代依赖关系解析器的测试版已经推出。&lt;/li&gt;
+&lt;li&gt;更快的 wheel 文件安装&lt;/li&gt;
+&lt;li&gt;改进了对包含非 ASCII 文件内容的 whell 的处理。&lt;/li&gt;
+&lt;li&gt;使用并行化网络操作的更快的pip列表&lt;/li&gt;
+&lt;li&gt;已安装的软件包现在包含了关于它们是否是直接的&lt;/li&gt;
+&lt;li&gt;用户要求的（PEP 376的REQUESTED文件）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://pytorch.org/blog/pytorch-1.6-released/&quot;&gt;PyTorch 1.6&lt;/a&gt;
+&lt;code&gt;PyTorch 1.6&lt;/code&gt; 版本包括一些新的 &lt;code&gt;API&lt;/code&gt;、性能改进和剖析工具，以及对基于分布式数据并行(DDP)和远程过程调用(RPC)的分布式训练的重大更新。同时微软现在也在维护 &lt;code&gt;Windows&lt;/code&gt; 的构建和二进制文件，也将在 &lt;code&gt;GitHub&lt;/code&gt; 以及 &lt;code&gt;PyTorch Windows&lt;/code&gt; 讨论论坛上为社区提供支持。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tensorflow/tensorflow/releases&quot;&gt;TensorFlow 2.3.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;那些活动&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-SoCal/events/271952262/&quot;&gt;Virtual: PyData SoCal Meetup August 2020&lt;/a&gt;
+本次研讨会将讨论在 &lt;code&gt;CORD19&lt;/code&gt; 数据集上使用GPT2进行抽象文本总结的缺点、痛点和益处。我们将讨论可解释性如何应用于模型验证之外，以及它如何适合数据科学家的迭代工作流程，特别是NLP。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/dcpython/events/272102598/&quot;&gt;Virtual: DC Python Meetup  August 2020&lt;/a&gt;
+加入硅谷的 &lt;code&gt;python&lt;/code&gt; 专家 &lt;code&gt;Moshe Zadka&lt;/code&gt; 的组织，他将在2小时的免费培训课程中，继续他之前的培训课程，提供关于 &lt;code&gt;mocks&lt;/code&gt; 的全面培训。编写高质量的单元测试是每个软件工程师应该具备的技能。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Miami-PyLadies/events/272059618/&quot;&gt;Virtual: Miami PyLadies Meetup August 2020&lt;/a&gt;
+请听 &lt;code&gt;Claire McKay Bowen&lt;/code&gt; 博士介绍什么是 &lt;code&gt;SDC&lt;/code&gt;，调查 &lt;code&gt;SDC&lt;/code&gt; 方法是如何实施的，并涵盖目前在应用较新的 &lt;code&gt;SDC&lt;/code&gt; 方法方面的长期挑战。她将提供一些具有激励性的例子，例如目前与城市研究所和国税局合作，生成合成的报税数据，这些数据对于分析美国总统候选人的税收政策建议是非常宝贵的。&lt;/p&gt;
+&lt;h4&gt;Posa：&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-460.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23460.md&quot;&gt;issue-460.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2020-08-06T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -674,11 +791,11 @@
 &lt;/blockquote&gt;
 &lt;p&gt;101camp11py 已开始报名&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;报名&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg&quot; /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 
-    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.08.23&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.08.30&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.10.11&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -691,7 +808,7 @@
 &lt;hr /&gt;
 &lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;@googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -700,7 +817,7 @@
 &lt;hr /&gt;
 &lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -727,7 +844,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-08-05T08:43:00+00:00</updated>
+			<updated>2020-08-06T08:43:05+00:00</updated>
 		</source>
 	</entry>
 
