@@ -23,6 +23,479 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>September 02, 2020</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
+
+
+<div class="entrygroup" id="tag:weekly.pychina.org,2020-09-02:/issue/issue-436.html">
+<h4><a href="http://weekly.pychina.org/issue/issue-436.html">Issue 436</a></h4>
+<div class="entry">
+<div class="content">
+<blockquote>
+<p>请写更多惯用 Pythonic 代码</p>
+</blockquote>
+<p>原文: <a href="https://pycoders.com/issues/436">PyCoder's Weekly - Issue #436</a></p>
+<p><img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png" /></p>
+<ul>
+<li>200902 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
+<li>200902 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 37 分钟 完成格式转抄.</li>
+</ul>
+<hr />
+<ul>
+<li><a href="https://pycoders.com/link/4779/web">增强算术分配展开</a><ul>
+<li>BRETT CANNON</li>
+</ul>
+</li>
+</ul>
+<p>Augmented arithmetic assignment happen whenever you do a bit of arithmetic while also assigning a value, such as a += 1. Learn how this assignment works under the hood and how the discovery of a bug in Python lead to the conclusion that most people never use the **= operator.</p>
+<ul>
+<li><a href="https://pycoders.com/link/4755/web">通用Python数据结构 (指南)</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>In this tutorial, you’ll learn about Python’s data structures. You’ll look at several implementations of abstract data types and learn which implementations are best for your specific use cases.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Guide" src="http://ydlj.zoomquiet.top/ipic/2020-09-02-ScreenShot%202020-09-02%2012.18.36.jpg" /></p>
+<p>Python 内置数据结构真的是常讲常新哪...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4771/web">Python 依赖注入</a><ul>
+<li>JAN GIACOMELLI </li>
+<li>• Shared by Jan Giacomelli</li>
+</ul>
+</li>
+</ul>
+<p>Learn how to use dependency injection to write loosely-coupled yet highly-cohesive code.</p>
+<p>(<code>是也乎:</code></p>
+<p>一切为了 <strong>松耦合+高内聚</strong></p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4787/web">写更多惯用 Pythonic 代码</a><ul>
+<li>MARTIN HEINZ </li>
+<li>• Shared by Martin Heinz</li>
+</ul>
+</li>
+</ul>
+<p>Learn some of the idioms and conventions that can make your Python code more readable, effective, concise and reliable.</p>
+<ul>
+<li><a href="https://pycoders.com/link/4753/web">Real Python Office Hours</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>The Real Python Office Hours is a weekly hangout where members of Real Python get the chance to interact with each other as well as Real Python authors and video course instructors. Join us live on Wednesday mornings!</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Office" src="http://ydlj.zoomquiet.top/ipic/2020-09-02-ScreenShot%202020-09-02%2012.15.44.jpg" /></p>
+<p>在线开放日, 大家可以直接和 真蟒 成员交流.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4773/web">Django 安全发行版: 3.1.1/3.0.10和2.2.16</a><ul>
+<li>DJANGO SOFTWARE FOUNDATION</li>
+</ul>
+</li>
+</ul>
+<h2>探讨/吐糟</h2>
+<blockquote>
+<p>Discussions</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/4781/web">Python 3.8 f字符串支持 = 用来自记录表达式和调试</a><ul>
+<li>REDDIT</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎</code>:</p>
+<p>比如:</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
+<span class="n">user</span> <span class="o">=</span> <span class="s1">'eric_idle'</span>
+<span class="n">member_since</span> <span class="o">=</span> <span class="n">date</span><span class="p">(</span><span class="mi">1975</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+<span class="n">f</span><span class="s1">'{user=} {member_since=}'</span>
+</pre></div>
+
+
+<p>输出:</p>
+<div class="highlight"><pre><span></span><span class="ss">&quot;user='eric_idle' member_since=datetime.date(1975, 7, 31)&quot;</span>
+</pre></div>
+
+
+<p>海象语法糖之后,
+Python 将包含越来越多不会生龋齿的糖...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4777/web">Python 单行程序的吞吃蛇游戏</a><ul>
+<li>REDDIT</li>
+</ul>
+</li>
+</ul>
+<p>That’s a.... creative one-liner!</p>
+<p>(<code>是也乎:</code></p>
+<p>代码:<a href="https://github.com/tjf801/oneliners/blob/master/snake.py">oneliners/snake.py at master · tjf801/oneliners · GitHub</a></p>
+<blockquote>
+<p>(lambda pygame=<strong>import</strong>('pygame'),random=<strong>import</strong>('random'),WIDTH=800
+...
+)())())())()))()</p>
+</blockquote>
+<p>真的是只有一行,不过长达 3.18K;</p>
+<p>可以说, 将 Python 多范式特性玩到位了,
+将 Python 写成 LISP 没毛病.</p>
+<p>)</p>
+<h2>文章/教程/嗯哼</h2>
+<blockquote>
+<p>Articles, Tutorials and Talks</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/4774/web">The Real Python 播客 – Episode #24: 打包Python应用程序的选项：Wheels，Docker等</a><ul>
+<li>REAL PYTHON </li>
+<li>podcast</li>
+</ul>
+</li>
+</ul>
+<p>Have you wondered, how should I package my Python code? You’ve written the application, but now you need to distribute it to the machines it’s intended to run on. It depends on what the code is, the libraries it depends on, and with whom do you want to share it. This week on the show we have Itamar Turner-Trauring, creator of the website pythonspeed.com. We discuss his article “Options for Packaging Your Python Code: Wheels, Conda, Docker, and More,” covering the how of sharing your code.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Episode" src="http://ydlj.zoomquiet.top/ipic/2020-09-02-ScreenShot%202020-09-02%2012.12.22.jpg" /></p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4757/web">为什么没人在谈论 Pandas NamedAgg?</a><ul>
+<li>DEAN LANGSAM </li>
+<li>• Shared by Dean Langsam</li>
+</ul>
+</li>
+</ul>
+<p>The as keyword from SQL is a wonderful one. You can create a complex function on a database column, and then give it an explicit name. This name can be used later in the pipeline as a reference. pandas, even though superior to SQL in most ways, really lacked this until fairly recently. Not anymore…</p>
+<p>(<code>是也乎:</code></p>
+<p>凉凉有很多原由,
+在 Python 世界, 最大的原因就是不够 Pythonic.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4769/web">通过两个简单的例子介绍约束优化</a><ul>
+<li>ROHAN-KEKATPURE.GITHUB.IO </li>
+<li>• Shared by Rohan D. Kekatpure</li>
+</ul>
+</li>
+</ul>
+<p>Optimization algorithms are the backbone of machine learning and deep learning. Get your hands dirty by solving two classic numerical problems. You’ll learn how to translate an abstract problem into Python code, as well as how to implement a couple of optimization algorithms.</p>
+<ul>
+<li><a href="https://pycoders.com/link/4754/web">用 openpyxl 在 Python 中编辑 Excel 电子表格</a><ul>
+<li>REAL PYTHON </li>
+<li>course</li>
+</ul>
+</li>
+</ul>
+<p>In this course, you’ll learn how to handle spreadsheets in Python using the openpyxl package. You’ll learn how to manipulate Excel spreadsheets, extract information from spreadsheets, create simple or more complex spreadsheets, including adding styles, charts, and so on.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="openpyxl" src="http://ydlj.zoomquiet.top/ipic/2020-09-02-ScreenShot%202020-09-02%2011.45.35.jpg" /></p>
+<p>csv 毕竟不太香...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4775/web">如何将普通 gzip 存档转换入数据库</a><ul>
+<li>ARTEM GOLUBIN </li>
+<li>• Shared by Artem Golubin</li>
+</ul>
+</li>
+</ul>
+<p>If you have a large CSV file, you might use gzip to compress the file when you are storing it. But here’s a thought: why not compress each row of the file and concatenate them into a database of smaller files? Learn how and why you might want to do this.</p>
+<p>(<code>是也乎:</code></p>
+<p>gzip 毕竟是开源的, 实在被  Python 们玩儿透了..</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4758/web">Django 重定向</a><ul>
+<li>REAL PYTHON </li>
+<li>course</li>
+</ul>
+</li>
+</ul>
+<p>In this course, you’ll learn everything you need to know about HTTP redirects in Django. All the way from the low-level details of the HTTP protocol to the high-level way of dealing with them in Django.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Redirects" src="http://ydlj.zoomquiet.top/ipic/2020-09-02-ScreenShot%202020-09-02%2011.46.14.jpg" /></p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4783/web">应该知道的 5对 Python 魔术方法</a><ul>
+<li>YONG CUI</li>
+</ul>
+</li>
+</ul>
+<p>Magic, or “dunder,” methods are an important part of creating custom classes in Python. Learn about some commonly used magic methods by exploring hem in pairs that are frequently used together.</p>
+<ul>
+<li><a href="https://pycoders.com/link/4768/web">用 Python 和 开放飞行数据 构建自己的航班跟踪应用程序</a><ul>
+<li>GEOMATICS</li>
+</ul>
+</li>
+</ul>
+<p>Learn how to use open air traffic data to plot aircraft positions on a map and build an interactive web application using the Bokeh plotting framework.</p>
+<p>(<code>是也乎:</code></p>
+<p>Bokeh 是个好框架, 只是后来取消直接图片输出, 是个囧操作...</p>
+<p>)</p>
+<h2>好物/妙品/...</h2>
+<blockquote>
+<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/4766/web">pippi: Python 的计算机音乐</a><ul>
+<li>GITHUB.COM/LUVSOUND</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>不是创作平台, 是后期处理框架.</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/4756/web">gzipi: 用于索引 Gzip 文件以支持类似随机访问的工具</a></p>
+<ul>
+<li>GITHUB.COM/PROFOUNDNETWORKS</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/4782/web">DearPyGui: GPU 加速的 Python GUI 框架</a></p>
+<ul>
+<li>GITHUB.COM/HOFFSTADT</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/4765/web">django-newsfeed: A News-Curator and News Subscription Package for Django</a></p>
+<ul>
+<li>GITHUB.COM/SAADMK11 </li>
+<li>• Shared by Maksudul Haque</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/4760/web">hickory: Hickory, Dickory, Dock… 在命令行上进行 Python 调度!</a></p>
+<ul>
+<li>GITHUB.COM/MAXHUMBER </li>
+<li>• Shared by Max Humber</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>反正大家就是对 crontab 看不上眼,
+太难以调试了...</p>
+<p>不过, 无论什么其它方案, 都难以拼过 crontab 的稳定哪</p>
+<p>)</p>
+<h2>📆🐍 活动/大会</h2>
+<blockquote>
+<p>Events, MeetUp 真的是全球线下活动组织中心</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/4770/web">⋅ Beginner Python Study Group</a><ul>
+<li>September 9, 2020</li>
+<li>Webinar</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>zoom 提供的网络活动服务.</p>
+<p><img alt="Webinar" src="http://ydlj.zoomquiet.top/ipic/2020-09-02-ScreenShot%202020-09-02%2011.26.25.jpg" /></p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/4767/web">⋅ PyCon Taiwan 2020</a><ul>
+<li>September 5 to September 7, 2020</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>真的猛士是无视疫情的...</p>
+<p>)</p>
+<h2>DAMA</h2>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
+</blockquote>
+<p>101camp12py 正在报名</p>
+<p><img alt="报名" src="http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg" /></p>
+<div class="highlight"><pre><span></span><span class="err">课程规划</span><span class="p">:</span>
+
+    <span class="err">报名截止</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">09</span><span class="p">.</span><span class="mi">21</span>
+    <span class="err">正式开课</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">09</span><span class="p">.</span><span class="mi">27</span>
+    <span class="err">课程结束</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">11</span><span class="p">.</span><span class="mi">08</span>
+</pre></div>
+
+
+<p>详情 =&gt; <a href="https://py.101.camp/">蟒营®编程思维提高班 Python版/ 第12期</a></p>
+<h1>PS:</h1>
+<ul>
+<li>首发: <a href="http://weekly.pychina.org/issue/issue-436.html">Issue 436 ~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>修订: <a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-436.md">issue-436.md</a></li>
+</ul>
+<hr />
+<p>好文笔,感叹号年度配额: <strong>1/3</strong></p>
+<p>投稿/反馈邮箱:</p>
+<div class="highlight"><pre><span></span><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
+</pre></div>
+
+
+<p>(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
+<hr />
+<p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a></strong></p>
+<p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a>:</p>
+<div class="highlight"><pre><span></span><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
+<span class="err">公开课程</span><span class="p">:</span> <span class="err">蟒营</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">Mainium</span><span class="p">)</span>
+<span class="err">历史吐糟</span><span class="p">:</span> <span class="n">Chaos42</span> <span class="p">(</span><span class="err">订阅号</span> <span class="n">PythoniCamp</span><span class="p">)</span>
+
+<span class="k">as</span> <span class="err">创始组织者</span><span class="p">:</span>
+    <span class="n">PyChina</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">PyChinaOrg</span><span class="p">)</span>
+    <span class="err">本地社区</span><span class="p">:</span> 
+        <span class="n">GDG</span><span class="err">珠海</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
+        <span class="n">TFUG</span><span class="err">珠海</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
+</pre></div>
+
+
+<hr />
+<blockquote>
+<blockquote>
+<p>NN 4124</p>
+</blockquote>
+</blockquote>
+<p><img alt="RPP" src="http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/436" /></p></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://weekly.pychina.org/issue/issue-436.html">by Pythoneerm at September 02, 2020 03:42 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
+<h2>August 28, 2020</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
+
+
+<div class="entrygroup" id="tag:weekly.pychina.org,2020-08-28:/python-weekly/pyw-463.html">
+<h4><a href="http://weekly.pychina.org/python-weekly/pyw-463.html">pythonista-weekly : Pyw 463</a></h4>
+<div class="entry">
+<div class="content">
+<h3>欢迎阅读《pythonista周刊》第463期。Let us start!</h3>
+<blockquote>
+<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-463">https://mailchi.mp/pythonweekly/python-weekly-issue-463</a><br />
+翻译：Dustyposa</p>
+</blockquote>
+<p><strong>来自赞助商（PS：原文的赞助商）:</strong>
+<a href="https://www.programmerweekly.com/?utm_source=pwad&utm_medium=newsletter">获取每周的编程量</a>
+一份每周的简报，为程序员提供最好的手工策划的新闻、文章、教程、讲座、工具和库等。 <a href="https://www.programmerweekly.com/?utm_source=pwad&utm_medium=newsletter">Join For Free</a></p>
+<h3>文章、教程与话题</h3>
+<p><a href="https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/">Optimal Peanut Butter and Banana Sandwiches</a>
+学习如何建立一个端到端的计算机视觉程序，做一个最好的花生酱和香蕉三明治。</p>
+<p><a href="https://www.youtube.com/watch?v=-5503tXOU7A">Django数据库性能技巧</a> <img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png" />(59min)
+大多数 <code>Web</code> 应用程序的性能问题都归结为一件事：数据库。在这个演讲中，<code>Andrew Brookins</code> 将帮助你从 <code>Django</code> 应用中榨取每一点的数据库性能。</p>
+<p><a href="https://glyph.twistedmatrix.com/2020/08/never-run-python-in-your-downloads-folder.html">永远不要在下载文件夹中运行 "python"</a>
+<code>Python</code> 可以执行代码。确保它只执行您希望它执行的代码。</p>
+<p><a href="https://www.mattlayman.com/understand-django/administer-all-the-things/">管理一切事物</a>
+本文将探讨应用程序的维护者如何通过 <code>Django</code> 内置的管理工具来管理他们的数据。我们将看到如何构建管理页面和定制管理工具来帮助团队浏览他们的应用程序。</p>
+<p><a href="https://t.co/CpBYkUi5is">用Python从公共API中获取新闻和文章</a>
+让我们来探索《New York Times》、《Guardian》、《HackerNews》和其他API，为你的下一个项目收集一些新闻数据吧!</p>
+<p><a href="https://rushter.com/blog/gzip-indexing/">如何将一个普通的gzip压缩包变成一个数据库</a>
+本文演示了如何将特别制作但普通的 <code>gzip</code> 归档文件用作类似数据库的存储。它还介绍了一个 <code>Python</code> 包，并解释了它的工作原理。</p>
+<p><a href="https://www.theclickreader.com/courses/time-series-forecasting-with-tensorflow-2-0/">用TensorFlow 2.0进行时间序列预报</a>
+在本教程中，你将学习如何使用各种深度学习算法，如深度神经网络（DNN）、卷积神经网络（CNN）和循环神经网络（RNN），建立自己强大的时间序列预测模型。</p>
+<p><a href="https://www.youtube.com/watch?v=6Uu944IafNU">Python Automation 101</a> <img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png" />（11min）
+在本视频中，您将学习如何使用 <code>Python</code> 自动执行不同的操作！ 从像机器人这样的基于浏览器的 <code>Instagram</code> 开始，我们将逐步发展成为 <code>Fortnite</code> 机器人，该机器人可以在闲置模式下以 <code>24/7</code> 玩游戏。</p>
+<p><a href="https://alexdelorenzo.dev/programming/2018/12/06/numpy">使用NumPy和Rust进行优化</a>
+这是一篇关于用 <code>NumPy</code> 写的 <code>Python</code> 优化算法的快速文章，并在 <code>Rust</code> 中实现同样的代码。</p>
+<p><a href="https://jwodder.github.io/kbits/posts/pypkg-mistakes/">常见的Python打包错误</a>
+概述了在创建和构建 <code>Python</code> 软件包时常见的错误以及如何避免这些错误。</p>
+<p><a href="https://monadical.com/posts/knowledge-in-box.html">如何将人类所有的知识装进一个盒子里</a>
+我们如何利用 <code>Cython</code> 的功能来帮助简化知识打包和共享的方式，即使没有互联网也是如此。</p>
+<p><a href="https://arpitbhayani.me/blogs/lfu">Constant Time LFU</a>
+<code>LFU</code> 缓存驱逐方案最流行的实现，使用 <code>min-heap</code>，实现这三个操作的运行时间复杂度为 <code>O(log n)</code>，这使得 <code>LFU</code> 成为次优。在这篇文章中，我们将详细介绍一种巧妙的算法，它实现了 <code>LFU</code>，使所有的操作都以 <code>O(1)</code> 的运行时间复杂度发生。</p>
+<p><a href="https://leontrolski.github.io/postgres-advisory-locks.html">Postgres advisory locks for python developers</a>.</p>
+<p><a href="https://yanglinzhao.com/posts/test-elasticsearch-in-django/">在没有 Mocking 的情况下在Django中测试Elasticsearch</a></p>
+<p><a href="https://pythonspeed.com/articles/estimating-memory-usage/">估计和建模数据处理的内存需求</a></p>
+<h3>有趣的项目、工具和库</h3>
+<p><a href="https://github.com/karpathy/minGPT">minGPT</a>
+一个最小的 <code>PyTorch</code> 重新实现的 <code>OpenAI GPT（Generative Pretrained Transformer）</code> 训练。</p>
+<p><a href="https://fastmri.org/">fastMRI</a> 
+用 <code>AI</code> 加速 <code>MR</code> 成像。<code>Facebook AI Research（FAIR）</code> 和纽约大学朗格尼健康中心的合作研究项目。目的是研究如何利用人工智能使 <code>MRI</code> 扫描速度提高10倍。</p>
+<p><a href="https://github.com/axenhammer/CODAR">CODAR</a> 
+<code>CODAR</code> 是使用 <code>PyTorch</code> 构建的框架，用于分析帖子（文本/媒体）并预测帖子是否参与了网络欺凌和攻击。</p>
+<p><a href="https://github.com/microsoft/computervision-recipes">computervision-recipes</a>
+计算机视觉的最佳实践，代码示例和文档。</p>
+<p><a href="https://github.com/eerimoq/mys">mys</a>
+<code>Mys</code> 编程语言--试图创建一种类似于 <code>Python</code> 的静态类型化语言，可以快速生成二进制文件。</p>
+<p><a href="https://github.com/vinayak-mehta/present">present</a>
+一个基于终端的演示工具，具有色彩和特效。</p>
+<p><a href="https://github.com/Media-Smart/volksdep">volksdep</a>
+<code>volksdep</code> 是一个开源工具箱，用于使用 <code>TensorRT</code> 部署和加速 <code>PyTorch、Onnx</code> 和 <code>Tensorflow</code> 模型。</p>
+<p><a href="https://github.com/s0md3v/Parth">Parth</a>
+启发式漏洞参数扫描仪。</p>
+<p><a href="https://github.com/tokikanno/django-openapi">django-openapi</a>
+在 <code>Python2 + Django</code> 中实现的一个最小的 <code>FastAPI</code>，无需 <code>pydantic</code>。</p>
+<p><a href="https://github.com/blackberry/pe_tree">pe_tree</a>
+<code>Python</code> 模块，用于使用 <code>pefile</code> 和 <code>PyQt5</code> 在树状视图中查看便携式可执行文件（PE）。也可以与IDA Pro一起使用，以转储内存中的 <code>PE</code> 文件和重建导入。</p>
+<p><a href="https://github.com/giannitedesco/minotaur">Minotaur</a>
+A pythonic, asynchronous, inotify interface.</p>
+<p><a href="https://github.com/Voyz/databay">Databay</a> 
+一个 <code>Python</code> 接口，用于预定的数据传输。它方便了在预定的时间间隔内将（任何）数据从 A 传输到 B。</p>
+<p><a href="https://github.com/connorferster/handcalcs">handcalcs</a>
+用于将 <code>Python</code> 计算转换为渲染的 <code>latex</code> 的 <code>Python</code> 库。</p>
+<p><a href="https://github.com/zillow/luminaire">Luminaire</a> 
+<code>Luminaire</code> 是一个 <code>python</code> 包，为监测时间序列数据提供 <code>ML</code> 驱动的解决方案。</p>
+<h3>新活动</h3>
+<p><a href="https://www.meetup.com/PyData-Edinburgh/events/272738627/">Virtual: An overview of Named Entity Recognition in SpaCy</a>
+在处理文本数据时，一个常见的任务是识别命名主体，如公司和产品。这就是所谓的命名实体识别（NER）。本讲座将概述基于模型的NER，并重点介绍在非英语文本语料库上使用spaCy NLP库的应用。我们将讨论如何为这项任务构建数据，以及评估结果时的注意事项。</p>
+<p><a href="https://www.meetup.com/PyData-Triangle/events/272768352/">Virtual: PyData Triangle September 2020 Meetup</a>
+将会有以下话题:</p>
+<ul>
+<li>Ⅹ pounds of poo in Ⅴ loud acts</li>
+<li>Improving notebook collaboration and security with JupyterLab extensions</li>
+</ul>
+<p><a href="https://www.meetup.com/PyData-DC-Virtual/events/272644333/">Virtual: Machine Learning Infrastructure from 30,000 ft</a> </p>
+<h4>Posa：</h4>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
+</blockquote>
+<p>----- 分割线 -----</p>
+<blockquote>
+<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！</p>
+</blockquote>
+<ul>
+<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-463.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23463.md">issue-463.md</a></li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="http://weekly.pychina.org/python-weekly/pyw-463.html">by Pythoneerm at August 28, 2020 07:22 AM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>August 26, 2020</h2>
 
 <div class="channelgroup">
@@ -295,12 +768,12 @@
 </blockquote>
 <p>101camp12py 即将开始报名</p>
 <p><img alt="报名" src="http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg" /></p>
-<div class="highlight"><pre><span class="err">课程规划</span><span class="o">:</span>
+<div class="highlight"><pre><span></span><span class="err">课程规划</span><span class="p">:</span>
 
-    <span class="err">发布报名</span> <span class="mf">2020.08.31</span>
-    <span class="err">报名截止</span> <span class="mf">2020.09.21</span>
-    <span class="err">正式开课</span> <span class="mf">2020.09.27</span>
-    <span class="err">课程结束</span> <span class="mf">2020.11.08</span>
+    <span class="err">发布报名</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">08</span><span class="p">.</span><span class="mi">31</span>
+    <span class="err">报名截止</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">09</span><span class="p">.</span><span class="mi">21</span>
+    <span class="err">正式开课</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">09</span><span class="p">.</span><span class="mi">27</span>
+    <span class="err">课程结束</span> <span class="mi">2020</span><span class="p">.</span><span class="mi">11</span><span class="p">.</span><span class="mi">08</span>
 </pre></div>
 
 
@@ -313,7 +786,7 @@
 <hr />
 <p>好文笔,感叹号年度配额: <strong>1/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span class="n">askdama</span><span class="err">@</span><span class="n">googlegroups</span><span class="p">.</span><span class="n">com</span>
+<div class="highlight"><pre><span></span><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
 </pre></div>
 
 
@@ -322,7 +795,7 @@
 <hr />
 <p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a></strong></p>
 <p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a>:</p>
-<div class="highlight"><pre><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
 <span class="err">公开课程</span><span class="p">:</span> <span class="err">蟒营</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">Mainium</span><span class="p">)</span>
 <span class="err">历史吐糟</span><span class="p">:</span> <span class="n">Chaos42</span> <span class="p">(</span><span class="err">订阅号</span> <span class="n">PythoniCamp</span><span class="p">)</span>
 
@@ -350,523 +823,6 @@
 
 <p class="date">
 <a href="http://weekly.pychina.org/issue/issue-435.html">by Pythoneerm at August 26, 2020 03:42 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>August 21, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
-
-
-<div class="entrygroup" id="tag:weekly.pychina.org,2020-08-21:/python-weekly/pyw-462.html">
-<h4><a href="http://weekly.pychina.org/python-weekly/pyw-462.html">pythonista-weekly : Pyw 462</a></h4>
-<div class="entry">
-<div class="content">
-<h3>欢迎阅读《pythonista周刊》第462期。Let us start!</h3>
-<blockquote>
-<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-462">https://mailchi.mp/pythonweekly/python-weekly-issue-462</a><br />
-翻译：Dustyposa</p>
-</blockquote>
-<p><strong>来自赞助商（PS：原文的赞助商）:</strong>
-使用 <code>Datadog</code> 监控你的python指标，日志，集群分析。使用<code>Datadog</code>的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。<a href="https://www.datadoghq.com/dg/apm/python-troubleshooting/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=PythonWeekly-Troubleshooting">来免费试用 14 天吧！</a></p>
-<h3>新鲜事</h3>
-<p><a href="https://data-apis.org/blog/announcing_the_consortium/">宣布Python数据API标准联盟成立</a>
-为n维数组和数据框架制定API标准的举措。</p>
-<h3>文章、教程与话题</h3>
-<p><a href="https://notes.eatonphil.com/writing-a-simple-python-compiler.html">写一个 Python 解释器 1. hello, fibonacci</a>
-在这篇文章中，我们将用 <code>Python</code> 写一个 <code>Python</code> 转 <code>C</code> 的编译器。由于 <code>Python</code> 有一个内置的解析器库，而且一些 <code>CPython</code> 的内部结构已经暴露给了扩展编写者，所以这一点特别容易做到。</p>
-<p><a href="https://pbpython.com/plotly-look.html">再来看看 Plotly</a>
-<code>Plotly</code> 作为一个 <code>python</code> 可视化库继续发展。这篇文章涵盖了最近的一些改进，以及为什么你可能需要考虑 <code>Ploty</code> 来满足你的可视化需求。</p>
-<p><a href="https://www.youtube.com/playlist?list=PLHnSLOMOPT11njaNmENJN6p2ro9MTc7t_">Python Outlook Automation</a> <img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png" />
-如果你有兴趣学习如何用 <code>Python</code> 自动化 <code>Outlook</code> ，在这个系列中，你将学习如何创建和发送电子邮件，使用电子邮件模板，批量邮件，搜索电子邮件文件夹等。</p>
-<p><a href="https://www.pyimagesearch.com/2020/08/10/opencv-sudoku-solver-and-ocr/">OpenCV 数独求解器和OCR</a>
-在本教程中，你将使用 <code>OpenCV</code> 、深度学习和光学字符识别( <code>OCR</code> )创建一个自动数独解谜器。</p>
-<p><a href="https://www.youtube.com/watch?v=q_aTbb7XeL4">用Ray+Python轻松实现分布式计算</a> <img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png" />
-并行和分布式计算听起来很可怕，直到你尝试这个神奇的 <code>Python</code> 库。 <code>Ray</code> 使得在计算机集群上运行你的代码变得非常简单，而且对实际代码的改动也很小。快来看看吧</p>
-<p><a href="https://lincolnloop.com/blog/distributed-locking-django">Django中的分布式锁</a>
-如何确保代码块在 <code>Django</code> 中不会并发运行超过一次。</p>
-<p><a href="https://mattwestcott.co.uk/blog/structured-concurrency-in-python-with-anyio">使用AnyIO在Python中进行结构化并发</a>
-如何改进你的面条 <code>asyncio</code> 代码。</p>
-<p><a href="https://www.searchenginejournal.com/natural-language-processing-python-seo/377051/">利用Python进行自然语言处理的SEO介绍。</a>
-想为未来的搜索做准备吗？学习实用的自然语言处理( <code>NLP</code> )，同时从头开始构建一个简单的知识图谱。</p>
-<p><a href="https://rotemtam.com/2020/08/13/python-ast/">用Python分析Python代码</a>
-初涉 <code>DIY</code> 静态代码分析。</p>
-<p><a href="https://pganalyze.com/blog/postgres-row-level-security-django-python">在Python和Django中使用Postgres的行级安全性</a>
-学习如何使用 <code>Django</code> 中间件和 <code>Django</code> 信号创建和实现行级安全策略，允许限制用户访问数据库的行数。</p>
-<p><a href="https://www.osohq.com/post/authorization-flask-oso">使用 oso 为您的 Flask 应用程序添加授权</a>
-了解如何使用 <code>oso</code> 为 <code>Flask</code> 应用程序添加授权；这是一个用于授权的开源策略引擎，您可以将其嵌入应用程序中。</p>
-<p><a href="https://livecodestream.dev/post/2020-08-15-what-to-expect-in-python-39/">在Python 3.9中可以期待什么</a>
-了解 <code>Python</code> 下一个版本的新内容。</p>
-<p><a href="https://www.thedigitalcatonline.com/blog/2020/08/17/delegation-composition-and-inheritance-in-object-oriented-programming/">Delegation: composition and inheritance in object-oriented programming</a>
-这篇文章重点介绍了委派，委派的性质以及我们可以遵循的主要两个策略：组合和继承。 它还提供了 <code>Python</code> 中的示例，并展示了该语言强大的 <code>OOP</code> 实现如何为有趣的非典型解决方案打开了大门。</p>
-<p><a href="https://snarky.ca/unravelling-binary-arithmetic-operations-in-python/">在Python中解开二进制算术运算</a></p>
-<p><a href="https://lwn.net/Articles/827179/">适用于Python的“结构模式匹配”，第1部分</a></p>
-<p><a href="https://pythonspeed.com/articles/official-python-docker-image/"> 深入了解Python的官方Docker镜像</a></p>
-<p><a href="https://blog.jamesolds.me/post/xonsh-aws-example/">Xonsh: 使用Python Shell来管理AWS快照</a></p>
-<h3>有趣的项目、工具和库</h3>
-<p><a href="https://github.com/neuml/txtai">txtai</a>
-由 <code>AI</code> 驱动的搜索引擎。</p>
-<p><a href="https://github.com/orchest/orchest">Orchest</a> 
-一个用于创建数据科学管道的开源工具。</p>
-<p><a href="https://github.com/naiveHobo/InvoiceNet">InvoiceNet</a>
-深度神经网络从发票单据中提取智能信息。</p>
-<p><a href="https://github.com/gorakhargosh/watchdog">watchdog</a>
-<code>Python</code> 库和 <code>shell</code> 工具来监控文件系统事件。 </p>
-<p><a href="https://github.com/Felienne/hedy">Hedy</a>
-<code>Hedy</code> 是一门循序渐进的编程语言，旨在教授编程和 <code>Python</code> 教学。</p>
-<p><a href="https://github.com/artemisa-mx/gitutor">Gitutor</a>
-一个让 <code>Git</code> 变得简单的命令行应用。</p>
-<p><a href="https://github.com/marcelovicentegc/django-react-typescript">django-react-typescript</a>
-一个后端有 <code>Django</code>，前端有 <code>React</code> 的 <code>boilerplate</code>，等等。</p>
-<p><a href="https://github.com/datapane/datapane/">Datapane</a> 
-<code>Datapane</code> 使用 <code>Python</code> 构建可共享报表变得简单。</p>
-<p><a href="https://github.com/csxmli2016/DFDNet">DFDNet</a>
-通过深度多尺度分量字典进行盲脸修复。</p>
-<p><a href="https://github.com/jessielaf/django-scan-models">django-scan-models</a>
-<code>Django</code> 模型的验证器不可知分析器，用于前端验证。</p>
-<p><a href="https://github.com/spacesiren/spacesiren">SpaceSiren</a>
-适用于 <code>AWS</code> 的 <code>Honey</code> 令牌管理器和警报系统。</p>
-<p><a href="https://github.com/deepmind/optax">Optax</a>
-<code>Optax</code> 是一个针对 <code>JAX</code> 的梯度处理和优化库。</p>
-<p><a href="https://github.com/pibooth/pibooth">pibooth</a>
-<code>pibooth</code> 项目为 <code>Raspberry Pi</code> 提供了一个开箱即用的纯 <code>Python</code> 摄影棚应用。 </p>
-<p><a href="https://github.com/nackjicholson/aiosql">aiosql</a>
-<code>Python</code> 中的简单 <code>SQL</code>。</p>
-<h3>最近更新</h3>
-<p><a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-august-2020-release/">Python in Visual Studio Code – August 2020 Release</a>
-在此版本中，我们共解决了38个问题，其中包括：</p>
-<ul>
-<li>支持多个 <code>Python</code> 交互式窗口</li>
-<li>Pylance作为官方支持的语言服务器设置值</li>
-<li>Pylance 的智能签名帮助</li>
-</ul>
-<p><a href="https://pythoninsider.blogspot.com/2020/08/python-379-and-3612-security-updates.html">Python 3.7.9 and 3.6.12 security updates now available</a></p>
-<h4>Posa：</h4>
-<blockquote>
-<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
-</blockquote>
-<p>----- 分割线 -----</p>
-<blockquote>
-<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！</p>
-</blockquote>
-<ul>
-<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-462.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
-<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23462.md">issue-462.md</a></li>
-</ul></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="http://weekly.pychina.org/python-weekly/pyw-462.html">by Pythoneerm at August 21, 2020 07:22 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-<div class="daygroup">
-<h2>August 19, 2020</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="http://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
-
-
-<div class="entrygroup" id="tag:weekly.pychina.org,2020-08-19:/issue/issue-434.html">
-<h4><a href="http://weekly.pychina.org/issue/issue-434.html">Issue 434</a></h4>
-<div class="entry">
-<div class="content">
-<blockquote>
-<p>用 Python 分析 Python 代码</p>
-</blockquote>
-<p>原文: <a href="https://pycoders.com/issues/434">PyCoder's Weekly - Issue #434</a></p>
-<p><img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png" /></p>
-<ul>
-<li>200819 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
-<li>200819 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 37 分钟 完成格式转抄.</li>
-</ul>
-<hr />
-<ul>
-<li><a href="https://pycoders.com/link/4703/web">异步视图在 Django 3.1</a><ul>
-<li>TESTDRIVEN.IO </li>
-<li>• Shared by Michael Herman</li>
-</ul>
-</li>
-</ul>
-<p>Django 3.1 introduced support for asynchronous views, middleware, and tests. This tutorial shows you how to get started with async views.</p>
-<ul>
-<li><a href="https://pycoders.com/link/4700/web">Python 网络爬取实用指北</a><ul>
-<li>REAL PYTHON</li>
-</ul>
-</li>
-</ul>
-<p>In this tutorial, you’ll learn all about web scraping in Python. You’ll see how to parse data from websites and interact with HTML forms using tools such as Beautiful Soup and MechanicalSoup.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Web" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2012.10.11.jpg" /></p>
-<p>从 <code>美汤</code> -&gt; <strong>'呆汤'</strong></p>
-<p>都没说无头浏览器的...
-)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4681/web">Delegation: OOP 中的组合和继承</a><ul>
-<li>LEONARDO GIORDANI</li>
-</ul>
-</li>
-</ul>
-<p>Delegation is often considered one of the three pillars of object-oriented programming. Learn how to use this powerful concept in Python.</p>
-<ul>
-<li><a href="https://pycoders.com/link/4702/web">Python 数据API标准联盟官宣</a><ul>
-<li>RALF GOMMERS</li>
-</ul>
-</li>
-</ul>
-<p>Proposed by Quantsight Labs, and with initial sponsors including Intel, Microsoft, and Google Research, the consortium aims to tackle fragmentation across libraries by developing API standards for n-dimensional arrays and dataframes.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Standards" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2012.06.58.jpg" /></p>
-<p>Python 数据接口标准,
-果然在 Google 发布前, 大家先抱团了.</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4683/web">用 Python 分析 Python 代码</a><ul>
-<li>ROTEM TAMIR</li>
-</ul>
-</li>
-</ul>
-<p>Take a dip into static code analysis using abstract syntax trees and Python’s built-in ast modue.</p>
-<p>(<code>是也乎:</code></p>
-<p>这非常 PyPy</p>
-<p><img alt="ast" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2012.08.19.jpg" /></p>
-<p>很少有语言能象 Python 这样内置语法解析器的,
-AST 的功能远远没有发挥出来呢.</p>
-<p>)</p>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/4687/web">Python 3.9.0rc1 现已可用</a></p>
-<ul>
-<li>CPYTHON DEV BLOG</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/4711/web">Wing Python IDE 7.2.4 发布</a></p>
-<ul>
-<li>WINGWARE.COM</li>
-</ul>
-</li>
-</ul>
-<p>Now supports Python 3.9!</p>
-<p>(<code>是也乎:</code></p>
-<p>为什么俺见 IDE 就脑仁儿痛?</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4684/web">Python 3.7.9 and 3.6.12 安全更新现已发布</a><ul>
-<li>CPYTHON DEV BLOG</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>嗯哼? 也学习 Django 分功能领域来分形升级了?</p>
-<p>)</p>
-<h2>讨论</h2>
-<blockquote>
-<p>Discussions</p>
-</blockquote>
-<ul>
-<li><a href="https://pycoders.com/link/4715/web">对高中生有什么好 Python 项目?</a><ul>
-<li>REDDIT</li>
-</ul>
-</li>
-</ul>
-<p>Honestly, some of these ideas are good for any beginning Pythonista!</p>
-<p>(<code>是也乎:</code></p>
-<p>太多了, 从身边具体问题开始.</p>
-<p>当然, 多数图书都是以游戏为开始,其实, 这并不 COOL.</p>
-<p><a href="https://www.reddit.com/r/Python/comments/i7mmyh/im_a_teacher_help_me_choose_a_python_project_to/g22g7vr/">zoomquiet/ 1 point</a></p>
-<p>专门去吐个糟</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4695/web">在哪里可以接触到编写良好的代码?</a><ul>
-<li>REDDIT</li>
-</ul>
-</li>
-</ul>
-<p>Maybe someone needs to start a Python reading club…</p>
-<p>(<code>是也乎:</code></p>
-<p>即: 如何形成码感?</p>
-<p><a href="https://www.youtube.com/watch?v=wf-BqAjZb8M&list=PL6MIfgXkMENl3c2dn-0WSyDruxWnY6iso&index=5&t=0s">Raymond Hettinger - Beyond PEP 8 -- Best practices for beautiful intelligible code - PyCon 2015</a></p>
-<p>以及:
-<a href="https://github.com/vinta/awesome-python">vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources</a></p>
-<p>)</p>
-<h2>文章,教程和嗯哼</h2>
-<blockquote>
-<p>Articles, Tutorials and Talks</p>
-</blockquote>
-<ul>
-<li><a href="https://pycoders.com/link/4685/web">迷你 Raspberry Pi 机器人/Boston Dynamics启发的</a><ul>
-<li>ASHLEY WHITTAKER</li>
-</ul>
-</li>
-</ul>
-<p>See how one Redditor taught themselves robotics by building a miniature version of a Boston Dynamic’s robot dog “Spot” using a Raspberry Pi, C++, and Python.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Boston" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2010.57.18.jpg" /></p>
-<p>Q 的...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4701/web">识别无效 Python 语法</a><ul>
-<li>REAL PYTHON </li>
-<li>course</li>
-</ul>
-</li>
-</ul>
-<p>In this video course, you’ll see common examples of invalid syntax in Python and learn how to resolve the issue. If you’ve ever received a SyntaxError when trying to run your Python code, then this is the guide for you!</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Syntax" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2010.56.38.jpg" /></p>
-<p>初学时, 最难以忍受的错误...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4713/web">用 NetworkX 和 Matplotlib 可视化 Prim 算法</a><ul>
-<li>KYLE KIZIRIAN </li>
-<li>• Shared by Kyle Kizirian</li>
-</ul>
-</li>
-</ul>
-<p>Learn how to implement Prim’s algorithm for finding a minimum spanning tree of a network from scratch and then visualize the algorithm using the NetworkX and Matplotlib libraries.</p>
-<p>(<code>是也乎:</code></p>
-<p>总之 Graphviz 永远伟大.</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4707/web">在 Python 和 Django 中使用 Postgres 行级安全性</a><ul>
-<li>JOSH ALETTO </li>
-<li>• Shared by Manuel Weiss</li>
-</ul>
-</li>
-</ul>
-<p>This article shows how to create and implement a row level security policy with Django middleware and Django signals, giving database administrators a way to limit the rows a user can access, adding an extra layer of data protection.</p>
-<p>(<code>是也乎:</code></p>
-<p>行级安全...哗...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4709/web">Python 社区专访 Bruno Oliveira</a><ul>
-<li>REAL PYTHON</li>
-</ul>
-</li>
-</ul>
-<p>Bruno Oliveira is a core developer for pytest, the Python testing library. In this interview, we cover migrating a large codebase from C++ to Python, how to get started with pytest, and his love of Dark Souls.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Community" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2010.54.24.jpg" /></p>
-<p>何时能有中国社区访问?</p>
-<p>嗯哼, 还有中国Py社区嘛?</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4694/web">增强您的 Python 构建</a><ul>
-<li>MAN.COM</li>
-</ul>
-</li>
-</ul>
-<p>With Man Group’s PartialTesting tool, you can speed up build-times and reduce compute requirements by running only the tests that matter and ignoring those that don’t!</p>
-<ul>
-<li><a href="https://pycoders.com/link/4704/web">用 Poetry＆Poetry2nix 开发 Python: 可重现的灵活 Python 环境</a><ul>
-<li>ADAM HOESE</li>
-</ul>
-</li>
-</ul>
-<p>Learn how to use Nix to create highly reproducible Python builds that are aware of native dependencies.</p>
-<p>(<code>是也乎:</code></p>
-<p>叕一个尝试脱离 PyPi 的方案 -&gt; Nixpkgs;</p>
-<p>可惜无论从形式上还是兼容性上,
-都不是有足够吸引力的样子.</p>
-<p>)</p>
-<h2>好物</h2>
-<blockquote>
-<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
-</blockquote>
-<ul>
-<li><a href="https://pycoders.com/link/4712/web">urlify: macOS Python 应用/从剪贴板文本创建有效的文件和URL名称</a><ul>
-<li>GITHUB.COM/MIKECKENNEDY</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>Python 实现 mac 驻留应用好案例.</p>
-<p><img alt="urlify" src="http://ydlj.zoomquiet.top/ipic/2020-08-19-ScreenShot%202020-08-19%2010.44.23.jpg" /></p>
-<p>作者使用的版本形式非常同意.</p>
-<p>)</p>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/4696/web">libra: 适合所有人的 人机工程学 机器学习</a></p>
-<ul>
-<li>GITHUB.COM/PALASHIO</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/4705/web">public-apis: 在软件和 Web 开发中可用的免费 API 汇总</a></p>
-<ul>
-<li>GITHUB.COM/PUBLIC-APIS</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>放心, 多数对于我们并不存在...</p>
-<p>)</p>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/4698/web">InvoiceNet: 深度神经网络/ 可从发票 中提取智能信息</a></p>
-<ul>
-<li>GITHUB.COM/NAIVEHOBO</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/4682/web">aiosql: Python 中的简单 SQL</a></p>
-<ul>
-<li>GITHUB.COM/NACKJICHOLSON</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>真正 Py 原生 SQL 解析模块.</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4691/web">partialtesting: 仅运行更改相关的测试</a><ul>
-<li>GITHUB.COM/MAN-GROUP</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>哈? 好象代码都是原子化的一样...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4689/web">poetry2nix: 自动将 Poetry 项目转化为 Nix </a><ul>
-<li>GITHUB.COM/NIX-COMMUNITY</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>嗯哼? poetry 有次级市场了?
-)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4708/web">poetry: 令 Python 依赖管理和打包变得容易</a><ul>
-<li>GITHUB.COM/PYTHON-POETRY</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>对 pyproject.toml 的深度包装.</p>
-<p>和 pipenv 类似,
-都是对包依赖的自动化管理,
-但是, 也都没涉及到运行时环境的备份/迁移/恢复/...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4699/web">minGPT: OpenAI GPT 的最小 PyTorch 重新实现</a><ul>
-<li>GITHUB.COM/KARPATHY</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>嗯哼? 最小后效能呢?
-人家上亿参数, 最小后....</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/4680/web">itslit: 在浏览器中 发现附近的闪电谈话</a><ul>
-<li>GITHUB.COM/VINAYAK-MEHTA • Shared by Vinayak Mehta</li>
-</ul>
-</li>
-</ul>
-<h2>📆🐍 活动/大会</h2>
-<blockquote>
-<p>Events, MeetUp 真的是全球线下活动组织中心</p>
-</blockquote>
-<ul>
-<li><a href="https://pycoders.com/link/4692/web">⋅ PyCon Japan 2020 </a><ul>
-<li>(Online Conference)</li>
-<li>August 28 to August 30, 2020</li>
-</ul>
-</li>
-</ul>
-<h2>DAMA</h2>
-<blockquote>
-<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
-</blockquote>
-<p>101camp11py 报名最后4天</p>
-<p><img alt="报名" src="http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg" /></p>
-<div class="highlight"><pre><span class="err">课程规划</span><span class="o">:</span>
-
-    <span class="err">报名截止</span> <span class="mf">2020.08.23</span>
-    <span class="err">正式开课</span> <span class="mf">2020.08.30</span>
-    <span class="err">课程结束</span> <span class="mf">2020.10.11</span>
-</pre></div>
-
-
-<p>详情 =&gt; <a href="https://py.101.camp/">蟒营™ Python 入门班第11</a></p>
-<h1>PS:</h1>
-<ul>
-<li>首发: <a href="http://weekly.pychina.org/issue/issue-434.html">Issue 434 ~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
-<li>修订: <a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-434.md">issue-434.md</a></li>
-</ul>
-<hr />
-<p>好文笔,感叹号年度配额: <strong>1/3</strong></p>
-<p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span class="n">askdama</span><span class="err">@</span><span class="n">googlegroups</span><span class="p">.</span><span class="n">com</span>
-</pre></div>
-
-
-<p>(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
-<hr />
-<p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a></strong></p>
-<p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a>:</p>
-<div class="highlight"><pre><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
-<span class="err">公开课程</span><span class="p">:</span> <span class="err">蟒营</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">Mainium</span><span class="p">)</span>
-<span class="err">历史吐糟</span><span class="p">:</span> <span class="n">Chaos42</span> <span class="p">(</span><span class="err">订阅号</span> <span class="n">PythoniCamp</span><span class="p">)</span>
-
-<span class="k">as</span> <span class="err">创始组织者</span><span class="p">:</span>
-    <span class="n">PyChina</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">PyChinaOrg</span><span class="p">)</span>
-    <span class="err">本地社区</span><span class="p">:</span> 
-        <span class="n">GDG</span><span class="err">珠海</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
-        <span class="n">TFUG</span><span class="err">珠海</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
-</pre></div>
-
-
-<hr />
-<blockquote>
-<blockquote>
-<p>NN 4110</p>
-</blockquote>
-</blockquote>
-<p><img alt="RPP" src="http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/434" /></p></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="http://weekly.pychina.org/issue/issue-434.html">by Pythoneerm at August 19, 2020 03:42 AM</a>
 </p>
 </div>
 </div>
@@ -919,7 +875,7 @@ AST 的功能远远没有发挥出来呢.</p>
 
 <p>
 <strong>Last updated:</strong><br>
-September 02, 2020 12:42 AM<br>
+September 02, 2020 08:43 AM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
