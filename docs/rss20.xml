@@ -8,6 +8,104 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>蠎周刊: pythonista-weekly : Pyw 465</title>
+	<guid>http://weekly.pychina.org/python-weekly/pyw-465.html</guid>
+	<link>http://weekly.pychina.org/python-weekly/pyw-465.html</link>
+	<description>&lt;h3&gt;欢迎阅读《pythonista周刊》第465期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-465&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-465&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。&lt;a href=&quot;https://www.datadoghq.com/dg/apm/python-performance-monitoring/?utm_source=Advertisement&amp;utm_medium=Advertisement&amp;utm_campaign=PythonWeekly-Newsletter&quot;&gt;今天免费试用&lt;/a&gt;&lt;a href=&quot;https://www.datadoghq.com/dg/apm/python-performance-monitoring/?utm_source=Advertisement&amp;utm_medium=Advertisement&amp;utm_campaign=PythonWeekly-Newsletter&quot;&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新闻&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.csoonline.com/article/3574015/evilnum-group-targets-fintech-firms-with-new-python-based-rat.html&quot;&gt;Evilnum集团的目标是拥有基于Python的新RAT的金融技术公司&lt;/a&gt;
+该攻击通过模拟几个合法程序隐藏在 &lt;code&gt;Windows&lt;/code&gt; 系统中。&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GClIzqdYNr0&quot;&gt;如何使用Django和Vue.js构建简单的Twitter克隆&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;
+建立社交网络不仅是一个非常酷的项目，而且还是一个可以教给你很多新奇事物的项目。 在此视频中，我们将开始安装所需的软件，创建一个新的 &lt;code&gt;Django&lt;/code&gt; 项目，并逐步构建一个简单的 &lt;code&gt;Twitter&lt;/code&gt; 克隆。 在此视频的结尾，你将拥有一个有效的社交网络，我们将其部署到实时服务器中。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tenthousandmeters.com/blog/python-behind-the-scenes-1-how-the-cpython-vm-works/&quot;&gt;Python幕后＃1：CPython VM的工作方式&lt;/a&gt;
+本系列的第一部分，我们将深入了解 &lt;code&gt;CPython&lt;/code&gt; 的内部结构。通过这样做，我们将在更深层次上理解这门语言本身。这也是本系列的主要目标。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.miguelgrinberg.com/post/sync-vs-async-python-what-is-the-difference&quot;&gt;Sync vs. Async Python: What is the Difference?&lt;/a&gt;
+你有没有听人说过 &lt;code&gt;async Python&lt;/code&gt; 代码比 &quot;普通&quot;（或同步）&lt;code&gt;Python&lt;/code&gt; 代码快？这怎么可能呢？在本文中，我将尝试解释什么是 &lt;code&gt;async&lt;/code&gt;，以及它与普通 &lt;code&gt;Python&lt;/code&gt; 代码的区别。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/paths/introduction-python-space-exploration-nasa/&quot;&gt;探索 Python 在太空探索中的作用&lt;/a&gt;
+获取 &lt;code&gt;Python&lt;/code&gt; 的介绍，并受到启发，使用基于 &lt;code&gt;Python&lt;/code&gt; 的数据科学和机器学习进行学习、发现和创造，以帮助生成关于地球以外世界的知识。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://machinelearningmastery.com/tpot-for-automated-machine-learning-in-python/&quot;&gt;用Python实现自动机器学习的TPOT&lt;/a&gt;
+在本教程中，你将发现如何通过 &lt;code&gt;python&lt;/code&gt; 中的 &lt;code&gt;Scikit-Learn&lt;/code&gt; 机器学习算法将 &lt;code&gt;TPOT&lt;/code&gt; 用于 &lt;code&gt;AutoML&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://adamj.eu/tech/2020/09/05/what-happens-when-you-run-manage.py-test/&quot;&gt;运行 manage.py 测试时会发生什么？&lt;/a&gt;
+你可以使用 &lt;code&gt;manage.py&lt;/code&gt; 测试运行测试。 自编写测试以来，你就知道测试内部发生了什么。 但是，测试运行程序如何执行它们并将其点，&lt;code&gt;E&lt;/code&gt; 和 &lt;code&gt;F&lt;/code&gt; 放置在屏幕上？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YwhOUyTxXVE&quot;&gt;这个包是干什么的？- 第4篇：Pathlib&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;（8min）
+&lt;code&gt;pathlib&lt;/code&gt; 是标准库的一部分，可以帮助你处理文件路径。在这段视频中，我们将通过实例来探索这个库。我们还谈到了我们可以使用的不同的 &lt;code&gt;path&lt;/code&gt; 类，我们还谈到了库中不同类之间的关系。最后，我们谈谈使用该库的一些注意事项。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://amitness.com/keyphrase-extraction/&quot;&gt;无监督的关键字词提取&lt;/a&gt;
+了解从文档中自动提取代表性关键词和短语的无监督算法。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.tensorflow.org/2020/09/how-to-create-cartoonizer-with-tf-lite.html&quot;&gt;如何使用TensorFlow Lite创建一个卡通化器&lt;/a&gt;
+这是一个端到端的教程，介绍如何将 &lt;code&gt;TensorFlow&lt;/code&gt; 模型转换为 &lt;code&gt;TensorFlow Lite（TFLite）&lt;/code&gt;，并将其部署到 &lt;code&gt;Android&lt;/code&gt; 应用程序中，以对相机拍摄的图像进行卡通化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kCggyi_7pHg&quot;&gt;FastAPI介绍 - 在Python中创建API的最佳方法?&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;（25min）
+本视频介绍了 &lt;code&gt;FastAPI&lt;/code&gt; ，这是一个用于创建 &lt;code&gt;API&lt;/code&gt; 的框架，其风格与你在 &lt;code&gt;Python&lt;/code&gt; 中习惯的风格有很大不同。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/3mHJ8MqPl2&quot;&gt;从头到尾教程 - 开发和销售Python API&lt;/a&gt;
+本文描绘了从头到尾开发 &lt;code&gt;Python API&lt;/code&gt; 的图景，并在较困难的领域提供了帮助。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fastpages.fast.ai/fastcore/&quot;&gt;fastcore：一个被低估的Python库&lt;/a&gt;
+独特的 &lt;code&gt;python&lt;/code&gt; 库，可扩展 &lt;code&gt;python&lt;/code&gt; 编程语言并提供可提高生产率的实用程序。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://machinelearningmastery.com/auto-sklearn-for-automated-machine-learning-in-python/&quot;&gt;适用于Python的自动机器学习的Auto-Sklearn&lt;/a&gt;
+自动机器学习(&lt;code&gt;AutoML&lt;/code&gt;)指的是自动发现预测性建模任务中表现良好的模型的技术，几乎没有用户参与。在本教程中，您将发现如何在 &lt;code&gt;Python&lt;/code&gt; 中使用 &lt;code&gt;Scikit-Learn&lt;/code&gt; 机器学习算法的 &lt;code&gt;Auto-Sklearn for AutoML&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2020/08/demystifying-djangos-magic&quot;&gt;解读Django的魔力&lt;/a&gt;
+在这篇文章中，我们将通过了解生成的文件和文件夹的作用，来深入了解 &lt;code&gt;Django&lt;/code&gt; 给我们带来了什么，这将使我们对 &lt;code&gt;Django&lt;/code&gt; 框架有更好的理解。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/7hQTZHqUBn&quot;&gt;Next Word Prediction: A Complete Guide&lt;/a&gt;
+学习如何开发一个类似于 &lt;code&gt;Google&lt;/code&gt; 的 &lt;code&gt;Smart Compose&lt;/code&gt; 的下一个单词预测和自动完成系统。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nullprogram.com/blog/2020/09/04/&quot;&gt;在Asyncio中异步打开和关闭文件&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://packetlost.dev/magic-python-objects&quot;&gt;使用BARE定义和编码严格类型&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://lukeplant.me.uk/blog/posts/test-smarter-not-harder/&quot;&gt;更聪明的测试，而不是更难的测试&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/828486/&quot;&gt;Python的 &quot;结构模式匹配&quot;，第二部分&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tradytics/surpriver&quot;&gt;surpriver&lt;/a&gt;
+利用机器学习和异常检测，在大盘走势之前找到大盘股。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/michalc/asyncio-buffered-pipeline&quot;&gt;asyncio-buffered-pipeline&lt;/a&gt;
+实用函数，用于并行化 &lt;code&gt;Python asyncio&lt;/code&gt; 迭代器/生成器的流水线。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/twelvedata/twelvedata-python&quot;&gt;Twelve Data Python Client&lt;/a&gt;
+适用于金融市场数据流的 &lt;code&gt;Python&lt;/code&gt; 库。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/learning-at-home/hivemind&quot;&gt;Hivemind&lt;/a&gt;
+一个用于在互联网上训练大型神经网络的库。 想象一下，在来自大学，公司和志愿者的数千台计算机上培训一台大型变压器。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/almarklein/mypaas&quot;&gt;mypaas&lt;/a&gt;
+使用 &lt;code&gt;Docker、Traefik&lt;/code&gt; 和强大的分析功能运行自己的 &lt;code&gt;PaaS&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/geigi/cozy&quot;&gt;cozy&lt;/a&gt;
+一个使用 &lt;code&gt;GTK+ 3&lt;/code&gt; 的现代 &lt;code&gt;Linux&lt;/code&gt; 有声书播放器。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/xtream1101/scraperx&quot;&gt;scraperx&lt;/a&gt;
+适用于任何规模的网站或 &lt;code&gt;API&lt;/code&gt; 抓取的库。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/sowdust/tafferugli&quot;&gt;Tafferugli&lt;/a&gt; 
+&lt;code&gt;Tafferugli&lt;/code&gt; 是一个 &lt;code&gt;Twitter&lt;/code&gt; 分析框架，以 &lt;code&gt;Web&lt;/code&gt; 应用程序的形式，能够过滤、收集和分析推文。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/pygae/clifford&quot;&gt;clifford&lt;/a&gt;
+&lt;code&gt;clifford&lt;/code&gt; 是一个 &lt;code&gt;python&lt;/code&gt; 的数值几何代数（也就是 &lt;code&gt;Clifford&lt;/code&gt; 代数）包。 &lt;/p&gt;
+&lt;h3&gt;最近更新&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.djangoproject.com/weblog/2020/sep/01/security-releases/&quot;&gt;Django security releases issued: 3.1.1, 3.0.10 and 2.2.16&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新活动&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyDataNYC/events/272939560/&quot;&gt;Virtual: PyData NYC/Miami/Philly: AI Fairness &amp;amp; Healthy Data Cultures&lt;/a&gt;
+There will be following talks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to Establish a Healthy Data Culture&lt;/li&gt;
+&lt;li&gt;AI Fairness &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-Warsaw/events/268831638/&quot;&gt;PyData Warsaw #21&lt;/a&gt;
+将会有以下话题:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;二进制分类的评估指标。终极指南&lt;/li&gt;
+&lt;li&gt;AI for The Planet. 案例研究。深度学习用于亚马逊雨林的早期野火检测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Cleveland-Area-Python-Interest-Group/events/fhqrtrybcmbsb/&quot;&gt;Virtual: Cleveland Python Meetup September 2020&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Posa：&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-465.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23465.md&quot;&gt;issue-465.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<pubDate>Fri, 11 Sep 2020 08:22:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: Issue 437</title>
 	<guid>http://weekly.pychina.org/issue/issue-437.html</guid>
 	<link>http://weekly.pychina.org/issue/issue-437.html</link>
@@ -314,11 +412,11 @@
 &lt;/blockquote&gt;
 &lt;p&gt;101camp12py 正在报名&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;报名&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg&quot; /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 
-    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.09.21&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.09.27&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.11.08&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;09&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;09&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -331,7 +429,7 @@
 &lt;hr /&gt;
 &lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;@googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -340,7 +438,7 @@
 &lt;hr /&gt;
 &lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -543,15 +641,15 @@ Windows内核和用户模式模拟。&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;比如:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eric_idle&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'eric_idle'&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;member_since&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1975&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;31&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;member_since&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'{user=} {member_since=}'&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;输出:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;user='eric_idle' member_since=datetime.date(1975, 7, 31)&amp;quot;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;&amp;quot;user='eric_idle' member_since=datetime.date(1975, 7, 31)&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -738,11 +836,11 @@ Python 将包含越来越多不会生龋齿的糖...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;101camp12py 正在报名&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;报名&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg&quot; /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;课程规划&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 
-    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.09.21&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.09.27&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2020.11.08&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;报名截止&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;09&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;正式开课&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;09&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;课程结束&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;08&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -755,7 +853,7 @@ Python 将包含越来越多不会生龋齿的糖...&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;askdama&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;@googlegroups&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -764,7 +862,7 @@ Python 将包含越来越多不会生龋齿的糖...&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
