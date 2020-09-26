@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-09-26T08:44:58+00:00</updated>
+	<updated>2020-09-26T16:45:14+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -315,7 +315,7 @@ MongoDB 是什么肥四.&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-09-25T16:43:26+00:00</updated>
+			<updated>2020-09-26T16:43:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -674,7 +674,7 @@ Pandas 专心 dataframe;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-09-25T16:43:26+00:00</updated>
+			<updated>2020-09-26T16:43:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -774,7 +774,7 @@ PyCon土耳其2020不仅仅是一个演讲和演示的流。除了两个轨道�
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-09-25T16:43:26+00:00</updated>
+			<updated>2020-09-26T16:43:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -883,7 +883,7 @@ There will be following talks&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-09-25T16:43:26+00:00</updated>
+			<updated>2020-09-26T16:43:20+00:00</updated>
 		</source>
 	</entry>
 
