@@ -13,7 +13,7 @@
 
 	<items>
 		<rdf:Seq>
-			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-09-30:/issue/issue-441.html" />
+			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-10-07:/issue/issue-441.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-09-30:/issue/issue-440.html" />
 		</rdf:Seq>
 	</items>
@@ -400,7 +400,7 @@
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&quot;RPP&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/441&quot; /&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2020-10-07T04:01:11+00:00</dc:date>
+	<dc:date>2020-10-07T08:16:24+00:00</dc:date>
 </item>
 <item rdf:about="http://weekly.pychina.org/issue/issue-440.html">
 	<title>蠎周刊: Issue 440</title>
