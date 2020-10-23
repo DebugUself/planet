@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-10-23T00:43:00+00:00</updated>
+	<updated>2020-10-23T08:43:09+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -334,7 +334,7 @@ LIGHTSTEPsponsor&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-10-22T16:43:36+00:00</updated>
+			<updated>2020-10-23T16:37:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -450,7 +450,7 @@ Find functions when you can't remember their name.&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-10-22T16:43:36+00:00</updated>
+			<updated>2020-10-23T16:37:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -557,7 +557,7 @@ Nate Silver 和其他预报员一直在使用民意测验数据来预测谁将�
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-10-22T16:43:36+00:00</updated>
+			<updated>2020-10-23T16:37:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -654,7 +654,7 @@ A Usable Library for (Extractive) Question Answering on Large Datasets with BERT
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-10-22T16:43:36+00:00</updated>
+			<updated>2020-10-23T16:37:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -1054,7 +1054,7 @@ CLI 参数过于复杂又不是什么好事儿,
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-10-22T16:43:36+00:00</updated>
+			<updated>2020-10-23T16:37:19+00:00</updated>
 		</source>
 	</entry>
 
