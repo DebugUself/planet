@@ -5,8 +5,293 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-11-11T00:42:59+00:00</updated>
+	<updated>2020-11-11T08:44:20+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">Issue 446</title>
+		<link href="http://weekly.pychina.org/issue/issue-446.html"/>
+		<id>tag:weekly.pychina.org,2020-11-11:/issue/issue-446.html</id>
+		<updated>2020-11-11T03:24:22+00:00</updated>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Python 正式世界第二&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/446&quot;&gt;PyCoder's Weekly - Issue #446&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;pycoder&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201111 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201111 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5153/web&quot;&gt;在 Python 中作 Key-Driver 分析&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;BRYCE MACHER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Take a look at how statistical knowledge plays an important role in answering business questions like “What drives the winningness of candy?” Along the way you’ll learn how to do Key-Driver analysis in Python on a problem that can’t be easily solved with a call to a machine learning library.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5161/web&quot;&gt;用 Python Defaultdict 类型处理缺少的键&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step course, you’ll learn how the Python defaultdict type works and how to use it for handling missing keys when you’re working with dictionaries. You’ll also learn how to use a defaultdict to solve problems like grouping or counting the items in a sequence or collection.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Defaultdict&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-11-11-ScreenShot%202020-11-11%2010.59.25.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Defaultdict&lt;/code&gt;
+每种新类型, 都需要长久的扫盲.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5176/web&quot;&gt;机器学习的距离度量&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAIME ZORNOZA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Many machine learning algorithmns can be summarized as transforming data to n-dimensional vectors and computing similarity between points by means of some distance metric. This article explores four of these metrics—the Euclidean, Manhattan, Minkowski, and Hamming distances—and how to compute them with Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5165/web&quot;&gt;在 Python 中用 LRU 策略进行缓存&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Caching is an essential optimization technique. In this tutorial, you’ll learn how to use Python’s @lru_cache decorator to cache the results of your functions using the LRU cache strategy. This is a powerful technique you can use to leverage the power of caching in your implementations.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;LRU&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-11-11-ScreenShot%202020-11-11%2010.57.36.jpg&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Least Recently Used (LRU) strategy&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最小最新可用策略?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2&gt;探讨/吐糟&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5160/web&quot;&gt;Python 现在正式成为第二流行的编程语言&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REDDIT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这可能意味着 Python 正式进入衰退期?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5167/web&quot;&gt;复盘数据科学家的第一年&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REDDIT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5159/web&quot;&gt;用 Python 对电影评论进行情绪分类&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial, you’ll learn about sentiment analysis and how it works in Python. You’ll then build your own sentiment analysis classifier with spaCy that can predict whether a movie review is positive or negative.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Sentiment&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-11-11-ScreenShot%202020-11-11%2010.54.17.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5178/web&quot;&gt;大数定律和中心极限定理 (用 Python)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ARTI AGARWAL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Time for a Python-infused math lesson! The Law of Large Numbers and the Central Limit Theorem are fundamental concepts in statistics and machine learning. Learn how these theorems work with illustrative examples in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5179/web&quot;&gt;世界需要程序媛&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SEEMA SAHARAN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Author Seema Saharan argues that now is better than ever for women to get started in the tech industry. Learn how she got started with coding, why she enjoys it, and why women should consider learning to code. The article is full of resources to help aspiring women coders get started with Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5168/web&quot;&gt;The Real Python 播客–第34集: Python 模运算符和用 SQLite 和 SQLAlchemy 管理数据&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you ready to move beyond flat files for your data in Python? Maybe you’re not sure where to start with databases and SQL. This week on the show, David Amos returns with another batch of PyCoder’s Weekly articles and projects. We cover a Real Python article about managing data with SQLite and SQLAlchemy.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;podcast&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-11-11-ScreenShot%202020-11-11%2010.53.20.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5154/web&quot;&gt;用 10 行代码构建轻量级 Blog CMS&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;STEVEN TEY&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For small projects, many of the popular content manage systems, such as Wordpress or Medium, are overkill or potentially present significant downsides for authors. In this article, you’ll learn how to build a light-weight CMS in just a few lines of code!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..我的朋友 linus ...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Flask-FlatPages 作者的语气很民国.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5169/web&quot;&gt;Flask 中的CSRF保护&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;AMAL SHAJI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cross-Site Request Forgery (CSRF) is an attack against a web application in which the attacker attempts to trick an authenticated user into performing a malicious action. Learn how to protect against CSRF attacks in Flask projects.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5174/web&quot;&gt;学习 Python 测试自动化&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ANDY KNIGHT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python is a great language for test automation. Here’s a big list of resources to help you get started!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5172/web&quot;&gt;荷兰大气涡旋模拟的Python接口&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SCIENCEDIRECT.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python is playing an increasingle large role in research science. This article discusses how one group of researches used Python to create a high-level interface to a popular Fortran simulation library for atmospheric simulation. Although academic, the article is approachable and provides insight into the methodology and frameworks used to make C and Fortran libraries more accessible.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5151/web&quot;&gt;Monty Python 和圣杯: 空载燕子的空速&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TREVOR ENGLISH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It’s a question for the ages: “what is the airspeed velocity of an unladen swallow?” Get your Monty Python kicks and do a little math. Can you come up with a Python script that answers the question?&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这种探索非常 XKCD.
+)&lt;/p&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5158/web&quot;&gt;tinygrad: 小型 Autograd Tensory 库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/GEOHOT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You like pytorch? You like micrograd? You love tinygrad! ❤️ - geohot/tinygrad&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5170/web&quot;&gt;allennlp: 基于 PyTorch 的开源 NLP 研究库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/ALLENAI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5175/web&quot;&gt;pifuhd: 单幅图像的高分辨率 3D 数字化人类&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/FACEBOOKRESEARCH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5156/web&quot;&gt;omuse: 用于多物理和多尺度地球科学仿真的软件包&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/OMUSE-GEOSCIENCE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5166/web&quot;&gt;PyAnchor: 查找断开的链接,以便用户别点&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/ENDLESSTRAX • Shared by Ricky White&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5173/web&quot;&gt;⋅ PyCon 瑞典 2020&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November 12 to November 14, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5157/web&quot;&gt;⋅ PyCon Indonesia 2020 (在线)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November 14 to November 16, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5152/web&quot;&gt;⋅ PyHPC 2020: 9th Workshop ...(在线)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November 15 to November 16, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于 Python 的高性能和科学计算第9次讲习班&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;PyCon2020中国&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-11-04-ScreenShot%202020-11-04%2008.51.39.jpg&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PyCon2020中国&lt;ul&gt;
+&lt;li&gt;11.28~29&lt;/li&gt;
+&lt;li&gt;在线&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5113/web&quot;&gt;⋅ Python Brasil 2020&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;November 2 to November 9, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;14py&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-barnner-101camp-wx14py.png&quot; /&gt;&lt;/p&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-446.html&quot;&gt;Issue 446 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-446.md&quot;&gt;issue-446.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;askdama@googlegroups.com&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;创始组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+        &lt;span class=&quot;n&quot;&gt;GDG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;TFUG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 4194&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;RPP&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/446&quot; /&gt;&lt;/p&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>http://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>http://weekly.pychina.org/</id>
+			<updated>2020-11-11T08:43:12+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 445</title>
@@ -376,297 +661,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>http://weekly.pychina.org/</id>
-			<updated>2020-11-04T08:43:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Issue 444</title>
-		<link href="http://weekly.pychina.org/issue/issue-444.html"/>
-		<id>tag:weekly.pychina.org,2020-10-28:/issue/issue-444.html</id>
-		<updated>2020-10-28T02:36:11+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;代码隔离在Python&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/444&quot;&gt;PyCoder's Weekly - Issue #444&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;pycoder&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;201028 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;201028 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5102/web&quot;&gt;实践中的 Python: 如何使用 % 运算符?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll learn about the Python modulo operator (%). You’ll look at the mathematical concepts behind the modulo operation and how the modulo operator is used with Python’s numeric types. You’ll also see ways to use the modulo operator in your own code.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Operator&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.57.46.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;取余, 其实有很多使用技巧, 可以用在神奇的场景中完成快速计算.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5083/web&quot;&gt;CPython 加速计划&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MARK SHANNON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Core contributer Mark Shannon has a plan to increase CPython’s performance fivefold in four stages of updates.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;目标是提升五倍.&lt;/p&gt;
-&lt;p&gt;嗯哼, 这对 Python 是否算是一种内卷行为?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5092/web&quot;&gt;Python 中的代码隔离&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ARTEM GOLUBIN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How can you hide, or isolate, Python code in an application from potential bad actors? Learn several methods for doing so and why you should never run thirs party code in the same Python interpreter as your applications.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5080/web&quot;&gt;The Real Python 播客 – #32: 新 &quot;Python基础知识&quot; 好书和填补学习道路中的空白&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Do you have gaps in your Python learning path? If you’re like me, you may have followed a completely random route to learn Python. This week on the show, David Amos is here to talk about the release of the Real Python book, “Python Basics: A Practical Introduction to Python 3”. The book is designed not only to get beginners up to speed but also to help fill in the gaps many intermediate learners may still have.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Podcast&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.55.57.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;老朋友, 老程序猿.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5082/web&quot;&gt;2020年三季度 Python 软件基金会资深会员名单&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON SOFTWARE FOUNDATION&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Congratulations to all the new fellows!&lt;/p&gt;
-&lt;h2&gt;探讨/吐糟&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5106/web&quot;&gt;加速 CPython&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON-DEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mark Shannon has a plan to speed up CPython roughly 5 times over four stages. The community opines.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;等等, 私人项目? 不是 PSF 官方的?&lt;/p&gt;
-&lt;p&gt;)
-视&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5100/web&quot;&gt;youtube-dl 收到 RIAA 的 DMCA 移除要求&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REDDIT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;RIAA 是个什么组织来的?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5104/web&quot;&gt;如何用 Python 射击你自己的脚, 第一部分&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MIGUEL BRITO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you’re new to Python, you might find yourself confused by some of the situations described in this article. Learn about five mistakes you could make, why they happen, and how to fix them.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;KO&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2010.13.07.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;各种常见困惑行为以及修正.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5089/web&quot;&gt;使用 Facade Pattern 包装第三方集成&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ALY SIVJI &lt;/li&gt;
-&lt;li&gt;• Shared by Aly Sivji&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“There are many ways we can create systems with layered architecture; one of the more popular techniques is to leverage Structural Design Patterns to create explicit relationships between classes. This post explores how the Facade Pattern can be used to wrap third-party integrations to improve software design.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5084/web&quot;&gt;在 Python 中创建二进制搜索&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Binary search is a classic algorithm in computer science. In this step-by-step course, you’ll learn how to implement this algorithm in Python. You’ll learn how to leverage existing libraries as well as craft your own binary search Python implementation.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Binary&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.53.24.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;等等, 好象硅谷剧情中核心技术就是对压缩音频的搜索?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5099/web&quot;&gt;用 Python 解决序列比对问题&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JOHN LEKBERG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sequence alignment is a method of pairing elements of two sequences under some constraints. It can be used to analyze sequences of biological data, such as nucleic acid sequences. Learn how solve the sequence alignment problem in Python using a brute-force method and a more efficient method that uses dynamic programming.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5093/web&quot;&gt;通过 Real Python Slack 社区提升您的技能&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this guide, you’ll learn how to get the most out of your Real Python membership using the community Slack. You’ll learn some lesser-known features of Slack and see how to communicate your technical problems more effectively.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Slack&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.49.52.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;嗯哼? 最后还是选择了 Slack , 目测是拿到了联盟价格.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;RPY&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.52.29.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;当然, 收费的.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5105/web&quot;&gt;Python 中的高级类型&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;NIKITA SOBOLEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Higher kinded types (HKT) are a notion in type theory that can be really helpful in functional programming and typing tensors and matrices. HKTs aren’t supported yet in Python, but you can emulate them.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5098/web&quot;&gt;自动化 Photoshop&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;DAVID VAILLANCOURT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to automate Photoshop using Python and the Photoshop COM programming interface.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;毕竟对美的追求是固定的,
-又有 Py 接口, 一切就有了可能&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5090/web&quot;&gt;lambda-networks: 一种图像识别的新方法/只需较少的计算即可实现SOTA&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/LUCIDRAINS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5101/web&quot;&gt;you-get: Dumb Downloader That Scrapes the Web&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/SOIMORT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;果断复活的好工具,
-&lt;code&gt;youtube-dl&lt;/code&gt; 昨天被举报删库后, 这个同类工具就立即火了.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5091/web&quot;&gt;nbQA: 在 Jupyter NoteBook 运行任何标准的Python代码质量工具&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/NBQA-DEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/5103/web&quot;&gt;Sorting-Algorithms-Visualizer: 查看排序算法如何与 Pygame 配合使用&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/LUCASPILLA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Visualizer&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.44.32.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;叕一个算法可视化玩具,
-将算法可视化,
-对于学习和应用有什么帮助呢?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5095/web&quot;&gt;Faster-Cpython: 如何使 CPython 更快&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/MARKSHANNON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Faster&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-ScreenShot%202020-10-28%2009.42.44.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;嘴炮项目?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5081/web&quot;&gt;Super-mario-bros-PPO-pytorch: 超级马里奥兄弟的近距离策略优化（PPO）算法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/UVIPEN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5096/web&quot;&gt;⋅ SciPy Japan 2020&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;October 30 to November 3, &lt;/li&gt;
-&lt;li&gt;2020&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;SciPy 一个模块都能有年会了?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/5086/web&quot;&gt;⋅ Python Brasil 2020&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;November 2 to November 9, &lt;/li&gt;
-&lt;li&gt;2020&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;14py&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-10-28-barnner-101camp-wx14py.png&quot; /&gt;&lt;/p&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-444.html&quot;&gt;Issue 444 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-444.md&quot;&gt;issue-444.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;askdama@googlegroups.com&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;创始组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;GDG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;TFUG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NN 4180&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;RPP&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/444&quot; /&gt;&lt;/p&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>http://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="http://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>http://weekly.pychina.org/</id>
-			<updated>2020-11-04T08:43:08+00:00</updated>
+			<updated>2020-11-11T08:43:12+00:00</updated>
 		</source>
 	</entry>
 
