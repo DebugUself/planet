@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2020-12-11T00:42:38+00:00</updated>
+	<updated>2020-12-11T08:44:06+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -354,7 +354,7 @@ Bootstrap 有 github 支持, CDN 到处所有,
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2020-12-09T08:43:14+00:00</updated>
+			<updated>2020-12-11T08:43:17+00:00</updated>
 		</source>
 	</entry>
 
@@ -700,7 +700,7 @@ Bootstrap 有 github 支持, CDN 到处所有,
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2020-12-09T08:43:14+00:00</updated>
+			<updated>2020-12-11T08:43:17+00:00</updated>
 		</source>
 	</entry>
 
@@ -800,7 +800,7 @@ Build professional REST APIs with Python, Flask, Flask-RESTful, and Flask-SQLAlc
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2020-12-09T08:43:14+00:00</updated>
+			<updated>2020-12-11T08:43:17+00:00</updated>
 		</source>
 	</entry>
 
