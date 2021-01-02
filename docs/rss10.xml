@@ -14,6 +14,8 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/01/01/2020-summary/" />
+			<rdf:li rdf:resource="https://ericazhan.github.io/210101weekly.html" />
+			<rdf:li rdf:resource="https://ericazhan.github.io/201231summary.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-12-30:/issue/issue-453.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-12-17:/python-weekly/pyw-479.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-12-10:/python-weekly/pyw-478.html" />
@@ -135,6 +137,18 @@
 
 &lt;p&gt;附前几年总结: &lt;a href=&quot;https://www.douban.com/note/748964476/&quot;&gt;2019&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/702384268/&quot;&gt;2018&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/650747131/&quot;&gt;2017&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/600437210/&quot;&gt;2016&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/532445213/&quot;&gt;2015&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/475347560/&quot;&gt;2014&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/329611675/&quot;&gt;2013&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/255202347/&quot;&gt;2012&lt;/a&gt; &lt;a href=&quot;https://www.douban.com/note/125442027/&quot;&gt;2010&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2021-01-01T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://ericazhan.github.io/210101weekly.html">
+	<title>erica: 周记210101</title>
+	<link>https://ericazhan.github.io/210101weekly.html</link>
+	<content:encoded>&lt;p&gt;第六篇周记。原来现在看的各种公众号好文，在经典的书里早都讲了。得做事，得看书！&lt;/p&gt;</content:encoded>
+	<dc:date>2021-01-01T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://ericazhan.github.io/201231summary.html">
+	<title>erica: 2020年总结</title>
+	<link>https://ericazhan.github.io/201231summary.html</link>
+	<content:encoded>&lt;p&gt;2020年也结束了。从没在哪一年看过这么多的新闻。ಠ_ಠ&lt;/p&gt;</content:encoded>
+	<dc:date>2020-12-31T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-453.html">
 	<title>蠎周刊: Issue 453</title>

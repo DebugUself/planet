@@ -39,6 +39,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>erica</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://ericazhan.github.io">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>junyu</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.junyu.io/">
