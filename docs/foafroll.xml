@@ -15,7 +15,7 @@
 		<foaf:Agent>
 			<foaf:name>bambooooooom</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://bambooom.github.io">
+				<foaf:Document rdf:about="https://zhuzi.dev">
 					<dc:title>Bambooom</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
@@ -145,7 +145,7 @@
 		<foaf:Agent>
 			<foaf:name>蠎周刊</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://weekly.pychina.org/">
+				<foaf:Document rdf:about="https://weekly.pychina.org/">
 					<dc:title>蠎周刊</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
