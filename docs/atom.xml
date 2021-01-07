@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-01-06T16:44:15+00:00</updated>
+	<updated>2021-01-07T00:43:32+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">做让自己开心的事--AnythingYouWant笔记</title>
+		<link href="https://ericazhan.github.io/210107anything_you_want.html"/>
+		<id>https://ericazhan.github.io/210107anything_you_want.html</id>
+		<updated>2021-01-07T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;做让自己开心的事。最温暖的创业故事和人生智慧。活着的哲学家。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-01-07T00:43:31+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 480</title>
@@ -462,7 +481,7 @@ Deepnote is a new kind of data science notebook. Jupyter-compatible with real-ti
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-06T16:44:15+00:00</updated>
+			<updated>2021-01-07T00:43:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -608,7 +627,7 @@ Deepnote is a new kind of data science notebook. Jupyter-compatible with real-ti
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-06T16:44:15+00:00</updated>
+			<updated>2021-01-07T00:43:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -627,7 +646,7 @@ Deepnote is a new kind of data science notebook. Jupyter-compatible with real-ti
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-06T16:44:15+00:00</updated>
+			<updated>2021-01-07T00:43:31+00:00</updated>
 		</source>
 	</entry>
 
