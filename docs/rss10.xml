@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210108weekly.html" />
 			<rdf:li rdf:resource="https://ericazhan.github.io/210107anything_you_want.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-12-24:/python-weekly/pyw-480.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-06:/issue/issue-454.html" />
@@ -25,6 +26,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210108weekly.html">
+	<title>erica: 周记210108</title>
+	<link>https://ericazhan.github.io/210108weekly.html</link>
+	<content:encoded>&lt;p&gt;第七篇周记。信息无限，不要暴饮暴食。8020原则。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-01-08T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://ericazhan.github.io/210107anything_you_want.html">
 	<title>erica: 做让自己开心的事--AnythingYouWant笔记</title>
 	<link>https://ericazhan.github.io/210107anything_you_want.html</link>
