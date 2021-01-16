@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210115weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-08:/python-weekly/pyw-481.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-13:/issue/issue-455.html" />
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/01/09/bl-misogyny/" />
@@ -20,11 +21,16 @@
 			<rdf:li rdf:resource="https://ericazhan.github.io/210107anything_you_want.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2020-12-24:/python-weekly/pyw-480.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-06:/issue/issue-454.html" />
-			<rdf:li rdf:resource="https://ericazhan.github.io/210105the_4hours_workweek.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210115weekly.html">
+	<title>erica: 周记210115</title>
+	<link>https://ericazhan.github.io/210115weekly.html</link>
+	<content:encoded>&lt;p&gt;第八篇周记。学为所用。关于投资，沟通，关键决策。如果乔帮主真的按照他说的去追寻激情，他应该在一个禅修院布道。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-01-15T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/python-weekly/pyw-481.html">
 	<title>蠎周刊: pythonista-weekly : Pyw 481</title>
 	<link>https://weekly.pychina.org/python-weekly/pyw-481.html</link>
@@ -1015,12 +1021,6 @@ Deepnote is a new kind of data science notebook. Jupyter-compatible with real-ti
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&quot;RPP&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/454&quot; /&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2021-01-06T03:37:11+00:00</dc:date>
-</item>
-<item rdf:about="https://ericazhan.github.io/210105the_4hours_workweek.html">
-	<title>erica: 书摘-每周工作4小时</title>
-	<link>https://ericazhan.github.io/210105the_4hours_workweek.html</link>
-	<content:encoded>&lt;p&gt;除了老实工作几十年，熬到领退休金再去旅游世界，Tim Ferriss说还可以这样：现在起，每隔一段时间，就来个迷你退休，去某个国家生活探索学习。&lt;/p&gt;</content:encoded>
-	<dc:date>2021-01-05T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
