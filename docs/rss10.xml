@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210122weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-08:/python-weekly/pyw-482.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-20:/issue/issue-456.html" />
 			<rdf:li rdf:resource="https://ericazhan.github.io/210117Nonviolent_Communication.html" />
@@ -23,6 +24,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210122weekly.html">
+	<title>erica: 周记210122</title>
+	<link>https://ericazhan.github.io/210122weekly.html</link>
+	<content:encoded>&lt;p&gt;第九篇周记。其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-01-22T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/python-weekly/pyw-482.html">
 	<title>蠎周刊: pythonista-weekly : Pyw 482</title>
 	<link>https://weekly.pychina.org/python-weekly/pyw-482.html</link>

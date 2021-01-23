@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-01-22T16:43:14+00:00</updated>
+	<updated>2021-01-23T00:43:31+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">周记210122</title>
+		<link href="https://ericazhan.github.io/210122weekly.html"/>
+		<id>https://ericazhan.github.io/210122weekly.html</id>
+		<updated>2021-01-22T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第九篇周记。其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-01-23T00:43:30+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 482</title>
@@ -538,7 +557,7 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-18T00:43:24+00:00</updated>
+			<updated>2021-01-23T00:43:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -557,7 +576,7 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-18T00:43:24+00:00</updated>
+			<updated>2021-01-23T00:43:30+00:00</updated>
 		</source>
 	</entry>
 
