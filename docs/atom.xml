@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-01-26T16:42:59+00:00</updated>
+	<updated>2021-01-27T00:43:19+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">大师课——谈判课学习笔记</title>
+		<link href="https://ericazhan.github.io/210126MC_negociation.html"/>
+		<id>https://ericazhan.github.io/210126MC_negociation.html</id>
+		<updated>2021-01-26T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;我们每天都在谈判。每次当你想说：我想要xxx，你已经在谈判了。大叔多年在FBI工作，和绑匪危机谈判，后来退休经商，提炼出不少实用技巧，有些是意想不到的简单！&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-01-27T00:43:19+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">半小时的时间讲清买房赚钱的逻辑</title>
@@ -41,7 +60,7 @@
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-23T00:43:30+00:00</updated>
+			<updated>2021-01-27T00:43:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -575,26 +594,7 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-23T00:43:30+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">周记210115</title>
-		<link href="https://ericazhan.github.io/210115weekly.html"/>
-		<id>https://ericazhan.github.io/210115weekly.html</id>
-		<updated>2021-01-15T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;第八篇周记。学为所用。关于投资，沟通，关键决策。如果乔帮主真的按照他说的去追寻激情，他应该在一个禅修院布道。&lt;/p&gt;</content>
-		<author>
-			<name>erica</name>
-			<uri>https://ericazhan.github.io</uri>
-		</author>
-		<source>
-			<title type="html">erica</title>
-			<subtitle type="html">未来从现实生长.</subtitle>
-			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
-			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-23T00:43:30+00:00</updated>
+			<updated>2021-01-27T00:43:19+00:00</updated>
 		</source>
 	</entry>
 
