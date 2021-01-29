@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-01-28T16:44:52+00:00</updated>
+	<updated>2021-01-29T00:43:38+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">藏</title>
+		<link href="http://liguanghe.github.io/2021/01/29/NvEx/"/>
+		<id>http://liguanghe.github.io/2021/01/29/NvEx/</id>
+		<updated>2021-01-29T00:09:46+00:00</updated>
+		<content type="html">&lt;p&gt;我爱你，掺杂着90份的恨、30份的懊悔和900份曾共处的时间。&lt;br /&gt;再说不出喜欢你，用欣赏、理解和怜惜来替代。&lt;br /&gt;是这样的复杂，混合着幸福、痛和习惯。&lt;/p&gt;
+&lt;p&gt;记忆、印记、习惯，如果能轻易消失，那么爱，来的会更加容易。&lt;br /&gt;而同样的痛苦，又会紧随而至。&lt;br /&gt;&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2021-01-29T00:42:46+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 457</title>
@@ -647,7 +666,7 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2021-01-24T08:43:14+00:00</updated>
+			<updated>2021-01-29T00:42:46+00:00</updated>
 		</source>
 	</entry>
 

@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2021/01/29/NvEx/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-27:/issue/issue-457.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-22:/python-weekly/pyw-483.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-15:/python-weekly/pyw-482.html" />
@@ -24,6 +25,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2021/01/29/NvEx/">
+	<title>li guang he: 藏</title>
+	<link>http://liguanghe.github.io/2021/01/29/NvEx/</link>
+	<content:encoded>&lt;p&gt;我爱你，掺杂着90份的恨、30份的懊悔和900份曾共处的时间。&lt;br /&gt;再说不出喜欢你，用欣赏、理解和怜惜来替代。&lt;br /&gt;是这样的复杂，混合着幸福、痛和习惯。&lt;/p&gt;
+&lt;p&gt;记忆、印记、习惯，如果能轻易消失，那么爱，来的会更加容易。&lt;br /&gt;而同样的痛苦，又会紧随而至。&lt;br /&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2021-01-29T00:09:46+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-457.html">
 	<title>蠎周刊: Issue 457</title>
 	<link>https://weekly.pychina.org/issue/issue-457.html</link>
