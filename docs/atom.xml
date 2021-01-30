@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-01-29T16:43:22+00:00</updated>
+	<updated>2021-01-30T00:42:50+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -24,6 +24,25 @@
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
 			<updated>2021-01-29T00:42:46+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">周记210129</title>
+		<link href="https://ericazhan.github.io/210129weekly.html"/>
+		<id>https://ericazhan.github.io/210129weekly.html</id>
+		<updated>2021-01-29T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第十篇周记。忙装修，拍视频，听红姐的硬核活法。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-01-30T00:42:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -648,7 +667,7 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-27T00:43:19+00:00</updated>
+			<updated>2021-01-30T00:42:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -685,7 +704,7 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-27T00:43:19+00:00</updated>
+			<updated>2021-01-30T00:42:49+00:00</updated>
 		</source>
 	</entry>
 
