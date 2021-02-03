@@ -5,8 +5,26 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-02-03T08:44:18+00:00</updated>
+	<updated>2021-02-03T16:42:40+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">米洛娃</title>
+		<link href="http://liguanghe.github.io/2021/02/03/NvPuningAll/"/>
+		<id>http://liguanghe.github.io/2021/02/03/NvPuningAll/</id>
+		<updated>2021-02-03T14:00:32+00:00</updated>
+		<content type="html">&lt;h2 id=&quot;（一）婚&quot;&gt;&lt;a href=&quot;https://liguanghe.github.io/rss2.xml#（一）婚&quot; class=&quot;headerlink&quot; title=&quot;（一）婚&quot;&gt;&lt;/a&gt;（一）婚&lt;/h2&gt;&lt;p&gt;“我在森林里遇见一个小女孩，金发圆脸，笑容甜蜜，太可爱了。她跟着我回家，我安顿她住下。第二天，一开她的房门，我吓到了，女孩还&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2021-02-03T16:42:33+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 484</title>
@@ -467,7 +485,7 @@ OO 也只是可用而已.&lt;/p&gt;
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2021-01-29T00:42:46+00:00</updated>
+			<updated>2021-02-03T16:42:33+00:00</updated>
 		</source>
 	</entry>
 
