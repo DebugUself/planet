@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-02-06T00:42:53+00:00</updated>
+	<updated>2021-02-06T08:43:33+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -23,7 +23,7 @@
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-02-06T00:42:52+00:00</updated>
+			<updated>2021-02-06T08:43:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -32,7 +32,7 @@
 		<link href="https://ericazhan.github.io/210205howto_work_in_europe.html"/>
 		<id>https://ericazhan.github.io/210205howto_work_in_europe.html</id>
 		<updated>2021-02-05T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;海外生活是一种选择，没有那么好，也没那么糟。如果你想，年龄，金钱都不是大问题。分享下我的经验。&lt;/p&gt;</content>
+		<content type="html">&lt;p&gt;海外生活是一种选择，没有那么好，也没那么糟。如果你想，年龄，金钱都不是大问题，只需要很多努力和勇气。分享下我的经验。&lt;/p&gt;</content>
 		<author>
 			<name>erica</name>
 			<uri>https://ericazhan.github.io</uri>
@@ -42,7 +42,7 @@
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-02-06T00:42:52+00:00</updated>
+			<updated>2021-02-06T08:43:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -542,7 +542,7 @@ OO 也只是可用而已.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-02-06T00:42:52+00:00</updated>
+			<updated>2021-02-06T08:43:32+00:00</updated>
 		</source>
 	</entry>
 
