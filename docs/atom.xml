@@ -5,8 +5,46 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-02-05T16:43:00+00:00</updated>
+	<updated>2021-02-06T00:42:53+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">周记210205</title>
+		<link href="https://ericazhan.github.io/210205weekly.html"/>
+		<id>https://ericazhan.github.io/210205weekly.html</id>
+		<updated>2021-02-05T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第十一篇周记。装修+装修记录，以及少量的播客和诗歌。我和过去/隔着黑色的土地/我和未来/隔着无声的空气。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-02-06T00:42:52+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">问答分享：如何来欧洲生活工作</title>
+		<link href="https://ericazhan.github.io/210205howto_work_in_europe.html"/>
+		<id>https://ericazhan.github.io/210205howto_work_in_europe.html</id>
+		<updated>2021-02-05T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;海外生活是一种选择，没有那么好，也没那么糟。如果你想，年龄，金钱都不是大问题。分享下我的经验。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-02-06T00:42:52+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">米洛娃</title>
@@ -504,7 +542,7 @@ OO 也只是可用而已.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-30T00:42:49+00:00</updated>
+			<updated>2021-02-06T00:42:52+00:00</updated>
 		</source>
 	</entry>
 
@@ -1111,25 +1149,6 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
 			<updated>2021-02-03T08:43:19+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">大师课——谈判课学习笔记</title>
-		<link href="https://ericazhan.github.io/210126MC_negociation.html"/>
-		<id>https://ericazhan.github.io/210126MC_negociation.html</id>
-		<updated>2021-01-26T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;我们每天都在谈判。每次当你想说：我想要xxx，你已经在谈判了。大叔多年在FBI工作，和绑匪危机谈判，后来退休经商，提炼出不少实用技巧，有些是意想不到的简单！&lt;/p&gt;</content>
-		<author>
-			<name>erica</name>
-			<uri>https://ericazhan.github.io</uri>
-		</author>
-		<source>
-			<title type="html">erica</title>
-			<subtitle type="html">未来从现实生长.</subtitle>
-			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
-			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-01-30T00:42:49+00:00</updated>
 		</source>
 	</entry>
 

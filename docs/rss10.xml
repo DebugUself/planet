@@ -13,6 +13,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210205weekly.html" />
+			<rdf:li rdf:resource="https://ericazhan.github.io/210205howto_work_in_europe.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2021/02/03/NvPuningAll/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-29:/python-weekly/pyw-484.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-03:/issue/issue-458.html" />
@@ -21,11 +23,22 @@
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-27:/issue/issue-457.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-22:/python-weekly/pyw-483.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-01-15:/python-weekly/pyw-482.html" />
-			<rdf:li rdf:resource="https://ericazhan.github.io/210126MC_negociation.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210205weekly.html">
+	<title>erica: 周记210205</title>
+	<link>https://ericazhan.github.io/210205weekly.html</link>
+	<content:encoded>&lt;p&gt;第十一篇周记。装修+装修记录，以及少量的播客和诗歌。我和过去/隔着黑色的土地/我和未来/隔着无声的空气。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-05T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://ericazhan.github.io/210205howto_work_in_europe.html">
+	<title>erica: 问答分享：如何来欧洲生活工作</title>
+	<link>https://ericazhan.github.io/210205howto_work_in_europe.html</link>
+	<content:encoded>&lt;p&gt;海外生活是一种选择，没有那么好，也没那么糟。如果你想，年龄，金钱都不是大问题。分享下我的经验。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-05T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2021/02/03/NvPuningAll/">
 	<title>li guang he: 米洛娃</title>
 	<link>http://liguanghe.github.io/2021/02/03/NvPuningAll/</link>
@@ -1034,12 +1047,6 @@ Publicly Open Amazon AWS S3 Bucket Viewer.&lt;/p&gt;
 &lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23482.md&quot;&gt;issue-482.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded>
 	<dc:date>2021-01-27T05:00:01+00:00</dc:date>
-</item>
-<item rdf:about="https://ericazhan.github.io/210126MC_negociation.html">
-	<title>erica: 大师课——谈判课学习笔记</title>
-	<link>https://ericazhan.github.io/210126MC_negociation.html</link>
-	<content:encoded>&lt;p&gt;我们每天都在谈判。每次当你想说：我想要xxx，你已经在谈判了。大叔多年在FBI工作，和绑匪危机谈判，后来退休经商，提炼出不少实用技巧，有些是意想不到的简单！&lt;/p&gt;</content:encoded>
-	<dc:date>2021-01-26T00:00:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
