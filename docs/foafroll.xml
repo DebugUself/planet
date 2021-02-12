@@ -80,7 +80,7 @@
 		<foaf:Agent>
 			<foaf:name>mxclover</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://mxclover.link/">
+				<foaf:Document rdf:about="https://mxclover.link/">
 					<dc:title>mxclover</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
