@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210212weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-10:/issue/issue-459.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2021/02/07/LsOutputWhat/" />
 			<rdf:li rdf:resource="https://ericazhan.github.io/210205weekly.html" />
@@ -24,6 +25,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210212weekly.html">
+	<title>erica: 周记210212</title>
+	<link>https://ericazhan.github.io/210212weekly.html</link>
+	<content:encoded>&lt;p&gt;第十二篇周记。春节快乐~~  拌砂浆 + 食物反浪费 + 杂技stage&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-12T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-459.html">
 	<title>蠎周刊: Issue 459</title>
 	<link>https://weekly.pychina.org/issue/issue-459.html</link>
