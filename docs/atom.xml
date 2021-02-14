@@ -5,8 +5,26 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-02-13T16:43:42+00:00</updated>
+	<updated>2021-02-14T00:42:35+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">感知阅读&amp;lt;征服市场的人&amp;gt;</title>
+		<link href="http://liguanghe.github.io/2021/02/13/FutureInvestment/"/>
+		<id>http://liguanghe.github.io/2021/02/13/FutureInvestment/</id>
+		<updated>2021-02-12T23:21:32+00:00</updated>
+		<content type="html">&lt;p&gt;大奖章基金 西蒙斯的文艺复兴科技公司 量化投资 发展历程 计算机发展和机器学习, 模拟实际市场 对不同产品放在一个统一的模型里 和计算力相匹配 发明人也不一定能理解为什么的策略 投资人都在受市场折磨 高频交易 不可完全相信模型 掌舵人&lt;br /&gt;员工个人投资的神秘基金 相关比较&lt;/p&gt;</content>
+		<author>
+			<name>li guang he</name>
+			<uri>http://liguanghe.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">Li Guanghe's blog</title>
+			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
+			<id>https://liguanghe.github.io/rss2.xml</id>
+			<updated>2021-02-14T00:42:30+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">周记210212</title>
@@ -375,7 +393,7 @@ Python 快其实并不在运行时,
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2021-02-11T00:42:33+00:00</updated>
+			<updated>2021-02-14T00:42:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -431,7 +449,7 @@ Python 快其实并不在运行时,
 			<title type="html">Li Guanghe's blog</title>
 			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
 			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2021-02-11T00:42:33+00:00</updated>
+			<updated>2021-02-14T00:42:30+00:00</updated>
 		</source>
 	</entry>
 
