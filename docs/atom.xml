@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-02-19T16:43:10+00:00</updated>
+	<updated>2021-02-20T00:43:15+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">周记210219</title>
+		<link href="https://ericazhan.github.io/210219weekly.html"/>
+		<id>https://ericazhan.github.io/210219weekly.html</id>
+		<updated>2021-02-19T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第十三篇周记。忙着退房搬家。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-02-20T00:43:14+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 460</title>
@@ -450,7 +469,7 @@
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-02-13T00:43:32+00:00</updated>
+			<updated>2021-02-20T00:43:14+00:00</updated>
 		</source>
 	</entry>
 

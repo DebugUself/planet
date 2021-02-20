@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210219weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-17:/issue/issue-460.html" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2021/02/16/TimeReport2021/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2021/02/13/FutureInvestment/" />
@@ -22,6 +23,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210219weekly.html">
+	<title>erica: 周记210219</title>
+	<link>https://ericazhan.github.io/210219weekly.html</link>
+	<content:encoded>&lt;p&gt;第十三篇周记。忙着退房搬家。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-19T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-460.html">
 	<title>蠎周刊: Issue 460</title>
 	<link>https://weekly.pychina.org/issue/issue-460.html</link>
