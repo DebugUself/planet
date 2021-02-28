@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-02-28T08:42:28+00:00</updated>
+	<updated>2021-02-28T16:43:20+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">周记210226</title>
+		<link href="https://ericazhan.github.io/210226weekly.html"/>
+		<id>https://ericazhan.github.io/210226weekly.html</id>
+		<updated>2021-02-26T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第十四篇周记。这周被工作虐了。。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-02-28T16:43:19+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 487</title>
@@ -780,7 +799,7 @@ Py 安心作自己擅长的事儿就好.&lt;/p&gt;
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-02-20T00:43:14+00:00</updated>
+			<updated>2021-02-28T16:43:19+00:00</updated>
 		</source>
 	</entry>
 
@@ -1172,24 +1191,6 @@ Py 安心作自己擅长的事儿就好.&lt;/p&gt;
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
 			<updated>2021-02-24T08:43:06+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html"></title>
-		<link href="http://liguanghe.github.io/2021/02/16/TimeReport2021/"/>
-		<id>http://liguanghe.github.io/2021/02/16/TimeReport2021/</id>
-		<updated>2021-02-16T00:07:38+00:00</updated>
-		<content type="html">Bokeh Plot</content>
-		<author>
-			<name>li guang he</name>
-			<uri>http://liguanghe.github.io/</uri>
-		</author>
-		<source>
-			<title type="html">Li Guanghe's blog</title>
-			<link rel="self" href="https://liguanghe.github.io/rss2.xml"/>
-			<id>https://liguanghe.github.io/rss2.xml</id>
-			<updated>2021-02-16T00:42:51+00:00</updated>
 		</source>
 	</entry>
 

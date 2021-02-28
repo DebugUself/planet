@@ -13,17 +13,23 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210226weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-19:/python-weekly/pyw-487.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-12:/python-weekly/pyw-486.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-06:/python-weekly/pyw-485.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-24:/issue/issue-461.html" />
 			<rdf:li rdf:resource="https://ericazhan.github.io/210219weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-17:/issue/issue-460.html" />
-			<rdf:li rdf:resource="http://liguanghe.github.io/2021/02/16/TimeReport2021/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210226weekly.html">
+	<title>erica: 周记210226</title>
+	<link>https://ericazhan.github.io/210226weekly.html</link>
+	<content:encoded>&lt;p&gt;第十四篇周记。这周被工作虐了。。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-26T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/python-weekly/pyw-487.html">
 	<title>蠎周刊: pythonista-weekly : Pyw 487</title>
 	<link>https://weekly.pychina.org/python-weekly/pyw-487.html</link>
@@ -1117,12 +1123,6 @@ Py 安心作自己擅长的事儿就好.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&quot;RPP&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/460&quot; /&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2021-02-17T13:22:59+00:00</dc:date>
-</item>
-<item rdf:about="http://liguanghe.github.io/2021/02/16/TimeReport2021/">
-	<title>li guang he</title>
-	<link>http://liguanghe.github.io/2021/02/16/TimeReport2021/</link>
-	<content:encoded>Bokeh Plot</content:encoded>
-	<dc:date>2021-02-16T00:07:38+00:00</dc:date>
 </item>
 
 </rdf:RDF>

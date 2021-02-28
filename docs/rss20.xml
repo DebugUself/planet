@@ -8,6 +8,13 @@
 	<description>Planet DebugUself - http://planet.du.zoomquiet.us/</description>
 
 <item>
+	<title>erica: 周记210226</title>
+	<guid>https://ericazhan.github.io/210226weekly.html</guid>
+	<link>https://ericazhan.github.io/210226weekly.html</link>
+	<description>&lt;p&gt;第十四篇周记。这周被工作虐了。。&lt;/p&gt;</description>
+	<pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>蠎周刊: pythonista-weekly : Pyw 487</title>
 	<guid>https://weekly.pychina.org/python-weekly/pyw-487.html</guid>
 	<link>https://weekly.pychina.org/python-weekly/pyw-487.html</link>
@@ -1106,13 +1113,6 @@ Py 安心作自己擅长的事儿就好.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&quot;RPP&quot; src=&quot;http://ydlj.zoomquiet.top/ipic/2020-05-13-real-python-logo-square.28474fda9228.png?imageView2/2/w/460&quot; /&gt;&lt;/p&gt;</description>
 	<pubDate>Wed, 17 Feb 2021 13:22:59 +0000</pubDate>
-</item>
-<item>
-	<title>li guang he</title>
-	<guid>http://liguanghe.github.io/2021/02/16/TimeReport2021/</guid>
-	<link>http://liguanghe.github.io/2021/02/16/TimeReport2021/</link>
-	<description>Bokeh Plot</description>
-	<pubDate>Tue, 16 Feb 2021 00:07:38 +0000</pubDate>
 </item>
 
 </channel>
