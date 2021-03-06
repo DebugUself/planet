@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-03-05T16:43:18+00:00</updated>
+	<updated>2021-03-06T00:42:55+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry xml:lang="en-us">
@@ -42,6 +42,25 @@ debug 内容渲染问题的时候就必须换成 Firefox 去看看内容。&lt;/
 			<link rel="self" href="https://zhuzi.dev/feed.xml"/>
 			<id>https://zhuzi.dev/feed.xml</id>
 			<updated>2021-03-05T16:42:33+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">周记210305</title>
+		<link href="https://ericazhan.github.io/210305weekly.html"/>
+		<id>https://ericazhan.github.io/210305weekly.html</id>
+		<updated>2021-03-05T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第十五篇周记。仍然是工作超负荷的一周。体验了996酸爽。。&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-03-06T00:42:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -638,7 +657,7 @@ This release includes TensorBoard integration, and improvements on docstring rea
 			<subtitle type="html">未来从现实生长.</subtitle>
 			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
 			<id>https://zhanluyan.com/rss.xml</id>
-			<updated>2021-02-28T16:43:19+00:00</updated>
+			<updated>2021-03-06T00:42:55+00:00</updated>
 		</source>
 	</entry>
 

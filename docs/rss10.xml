@@ -14,6 +14,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/03/05/first-time-chrome-bug/" />
+			<rdf:li rdf:resource="https://ericazhan.github.io/210305weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-03-03:/issue/issue-462.html" />
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/03/04/great-suspender-toby/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-27:/python-weekly/pyw-488.html" />
@@ -47,6 +48,12 @@ debug 内容渲染问题的时候就必须换成 Firefox 去看看内容。&lt;/
 
 &lt;p&gt;整个 bug 修复过程大概 8-9 天。最后的回复是说在 89.0.4350.4 上已验证修复。
 然而当时 stable version 才 87，直到今天我才更新上 89.0.4389.72。也就是说一个很不重要的 bug 修复，基本上要等上 3 个月才会上到 stable release。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-03-05T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://ericazhan.github.io/210305weekly.html">
+	<title>erica: 周记210305</title>
+	<link>https://ericazhan.github.io/210305weekly.html</link>
+	<content:encoded>&lt;p&gt;第十五篇周记。仍然是工作超负荷的一周。体验了996酸爽。。&lt;/p&gt;</content:encoded>
 	<dc:date>2021-03-05T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-462.html">
