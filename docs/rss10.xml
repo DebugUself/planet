@@ -14,6 +14,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/03/12/face/" />
+			<rdf:li rdf:resource="https://ericazhan.github.io/210312weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-03-10:/issue/issue-463.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-02-27:/python-weekly/pyw-489.html" />
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/03/05/first-time-chrome-bug/" />
@@ -68,6 +69,12 @@
 &lt;p&gt;就算现在没有，不代表以后就没有了吧？你的脸的数据可能几十年都不会变的吧，现在就直接放弃保护好自己的信息，被泄露被盗用了之后，你之后追悔莫及的话要怎么办？整容吗？&lt;/p&gt;
 
 &lt;p&gt;我生气地激情回复了一大堆，他可能被我的回复里的情绪吓到了，最后还假惺惺地说“我个人没有倾向性，和我也没关系，你不用急赤白脸的哈”试图缓和，不好意思，这种无法反驳我又不想搞僵的态度，让我更火大了，立马拉黑。只是我比较手软，拉黑之后就取消了，只是为了移除他对我的关注，希望他别自讨没趣又回来关注我。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-03-12T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://ericazhan.github.io/210312weekly.html">
+	<title>erica: 周记210312</title>
+	<link>https://ericazhan.github.io/210312weekly.html</link>
+	<content:encoded>&lt;p&gt;第十六篇周记。仍然加班中。。&lt;/p&gt;</content:encoded>
 	<dc:date>2021-03-12T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-463.html">
