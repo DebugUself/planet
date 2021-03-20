@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210319weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-03-17:/issue/issue-464.html" />
 			<rdf:li rdf:resource="https://zhuzi.dev/2021/03/12/face/" />
 			<rdf:li rdf:resource="https://ericazhan.github.io/210312weekly.html" />
@@ -22,6 +23,12 @@
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210319weekly.html">
+	<title>erica: 周记210319</title>
+	<link>https://ericazhan.github.io/210319weekly.html</link>
+	<content:encoded>&lt;p&gt;第十七篇周记。Digital Minimalism。玩杂耍。写周记是我冥想的方式。&lt;/p&gt;</content:encoded>
+	<dc:date>2021-03-19T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-464.html">
 	<title>蠎周刊: Issue 464</title>
 	<link>https://weekly.pychina.org/issue/issue-464.html</link>
