@@ -5,8 +5,27 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-04-02T16:42:36+00:00</updated>
+	<updated>2021-04-03T00:42:33+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">周记210402</title>
+		<link href="https://ericazhan.github.io/210402weekly.html"/>
+		<id>https://ericazhan.github.io/210402weekly.html</id>
+		<updated>2021-04-02T00:00:00+00:00</updated>
+		<content type="html">&lt;p&gt;第十八篇周记。这两周不想自我提升，沉迷山河令。😭怎么这么好~&lt;/p&gt;</content>
+		<author>
+			<name>erica</name>
+			<uri>https://ericazhan.github.io</uri>
+		</author>
+		<source>
+			<title type="html">erica</title>
+			<subtitle type="html">未来从现实生长.</subtitle>
+			<link rel="self" href="https://zhanluyan.com/rss.xml"/>
+			<id>https://zhanluyan.com/rss.xml</id>
+			<updated>2021-04-03T00:42:32+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Issue 466</title>

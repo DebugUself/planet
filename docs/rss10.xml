@@ -13,12 +13,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://ericazhan.github.io/210402weekly.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-03-31:/issue/issue-466.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-03-24:/issue/issue-465.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://ericazhan.github.io/210402weekly.html">
+	<title>erica: 周记210402</title>
+	<link>https://ericazhan.github.io/210402weekly.html</link>
+	<content:encoded>&lt;p&gt;第十八篇周记。这两周不想自我提升，沉迷山河令。😭怎么这么好~&lt;/p&gt;</content:encoded>
+	<dc:date>2021-04-02T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-466.html">
 	<title>蠎周刊: Issue 466</title>
 	<link>https://weekly.pychina.org/issue/issue-466.html</link>
