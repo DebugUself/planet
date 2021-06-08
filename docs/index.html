@@ -42,15 +42,25 @@
 <div class="content">
 <p>我个人的豆瓣标记条目导出到 Notion 并同步的一套操作和工具，并不适用于所有人。并且可能还有问题没有发现。</p>
 
-<h2 id="1-使用油猴脚本一键导出看过读过听过的电影书音乐条目">1. 使用油猴脚本一键导出<code class="language-plaintext highlighter-rouge">看过/读过/听过</code>的电影、书、音乐条目</h2>
+<h2 id="1-使用油猴脚本一键导出看过读过听过玩过的电影书音乐游戏舞台剧条目">1. 使用油猴脚本一键导出<code class="language-plaintext highlighter-rouge">看过/读过/听过/玩过</code>的电影、书、音乐、游戏、舞台剧条目</h2>
 
-<p>脚本 -&gt; <a href="https://greasyfork.org/en/scripts/420999-%E8%B1%86%E7%93%A3%E8%AF%BB%E4%B9%A6-%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E6%B8%B8%E6%88%8F%E5%AF%BC%E5%87%BA%E5%B7%A5%E5%85%B7">豆瓣读书+电影+音乐+游戏导出工具</a></p>
+<p>脚本 -&gt; <a href="https://greasyfork.org/en/scripts/420999-%E8%B1%86%E7%93%A3%E8%AF%BB%E4%B9%A6-%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E6%B8%B8%E6%88%8F-%E8%88%9E%E5%8F%B0%E5%89%A7%E5%AF%BC%E5%87%BA%E5%B7%A5%E5%85%B7">豆瓣读书+电影+音乐+游戏+舞台剧导出工具</a></p>
 
-<p>是我从另外一个友邻的脚本完善修改的，安装后会在自己的豆瓣页面上看到多出三个链接：</p>
+<p>是我从另外一个友邻的脚本完善修改的，安装后会在自己的豆瓣页面上看到多出五个链接：</p>
 
-<p><img src="https://zhuzi.dev/assets/images/douban-backup-monkey-script.png" alt="" /></p>
+<p><img src="https://zhuzi.dev/assets/images/douban-backup-monkey-script.png" alt="" />
+<img src="https://zhuzi.dev/assets/images/douban-backup-monkey-script-2.png" alt="" /></p>
 
-<p>分别点击这三个链接就会分别从 <code class="language-plaintext highlighter-rouge">https://movie.douban.com/mine?status=collect</code>, <code class="language-plaintext highlighter-rouge">https://music.douban.com/mine?status=collect</code>, <code class="language-plaintext highlighter-rouge">https://book.douban.com/mine?status=collect</code> 这三个地方自动翻页去获取个人标记数据（包括评分、评分时间以及短评）并最终导出 csv 文件。每次都可能需要一点时间给脚本去翻页获取数据，中途不要关掉浏览器，也不要在这个页面上去操作什么。</p>
+<p>分别点击这五个链接就会分别从</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">https://movie.douban.com/mine?status=collect</code></li>
+  <li><code class="language-plaintext highlighter-rouge">https://music.douban.com/mine?status=collect</code></li>
+  <li><code class="language-plaintext highlighter-rouge">https://book.douban.com/mine?status=collect</code></li>
+  <li><code class="language-plaintext highlighter-rouge">https://www.douban.com/people/&lt;people&gt;/games?action=collect</code></li>
+  <li><code class="language-plaintext highlighter-rouge">https://www.douban.com/location/people/&lt;people&gt;/drama/collect</code></li>
+</ul>
+
+<p>这几个地方自动翻页去获取个人标记数据（包括评分、评分时间以及短评）并最终导出 csv 文件。每次都可能需要一点时间给脚本去翻页获取数据，中途不要关掉浏览器，也不要在这个页面上去操作什么。</p>
 
 <p>因为这三个地方不是具体条目页面，所以页面访问 limit request 并不严格，所以这样跑脚本完全不会被当做机器人而遭到封禁 IP 或要求重新登录之类的处理。
 但局限也就是这里无法准确获取更多有关条目本身的信息，比如电影条目的 IMDb 链接、制片国家，也无法精准把导演和演员之类的人名区分开。</p>
@@ -660,7 +670,7 @@ PPT 专家要的是越来越3D/抓睛 的图表效果,
 <a href="https://bemself.github.io/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://bemself.github.io" class="message" title="404: not found">bemself</a>
 </li>
 <li>
-<a href="https://zhanluyan.com/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://ericazhan.github.io" class="message" title="internal server error">erica</a>
+<a href="https://zhanluyan.com/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://ericazhan.github.io" title="">erica</a>
 </li>
 <li>
 <a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" class="message" title="internal server error">junyu</a>
@@ -669,7 +679,7 @@ PPT 专家要的是越来越3D/抓睛 的图表效果,
 <a href="https://liguanghe.github.io/rss2.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://liguanghe.github.io/" title="Li Guanghe's blog">li guang he</a>
 </li>
 <li>
-<a href="https://mxclover.link/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://mxclover.link/" class="message" title="internal server error">mxclover</a>
+<a href="https://mxclover.link/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://mxclover.link/" title="mxclover">mxclover</a>
 </li>
 <li>
 <a href="http://sumin.ink/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://sumin.ink" class="message" title="internal server error">sumin</a>
@@ -693,7 +703,7 @@ PPT 专家要的是越来越3D/抓睛 的图表效果,
 
 <p>
 <strong>Last updated:</strong><br>
-June 08, 2021 08:43 AM<br>
+June 08, 2021 04:42 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
