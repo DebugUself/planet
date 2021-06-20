@@ -13,6 +13,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://liguanghe.github.io/2021/06/19/LsInvestmentApartment2/" />
 			<rdf:li rdf:resource="http://liguanghe.github.io/2021/06/19/LsApartmentInUse/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-06-11:/python-weekly/pyw-503.html" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-06-16:/issue/issue-477.html" />
@@ -20,6 +21,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://liguanghe.github.io/2021/06/19/LsInvestmentApartment2/">
+	<title>li guang he: 半小时的时间讲清买房赚钱的逻辑2（小白篇）</title>
+	<link>http://liguanghe.github.io/2021/06/19/LsInvestmentApartment2/</link>
+	<content:encoded>&lt;p&gt;最近和20多岁的人接触比较多，结合自己过往的经验，关于房子这件事，很想多说那么一两句。&lt;br /&gt;因为超出一些人的年龄范畴和经验范畴，之前说的真蛮难被听进去的，好在最近有一个朋友听进去了，启发到我给出更容易接受的内容。&lt;/p&gt;
+&lt;p&gt;我知道房子这件事，很多人已经躺平，或者直觉觉&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-19T15:22:32+00:00</dc:date>
+</item>
 <item rdf:about="http://liguanghe.github.io/2021/06/19/LsApartmentInUse/">
 	<title>li guang he: 一个好房子的素养</title>
 	<link>http://liguanghe.github.io/2021/06/19/LsApartmentInUse/</link>
