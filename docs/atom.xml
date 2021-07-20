@@ -5,7 +5,7 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-07-20T08:42:35+00:00</updated>
+	<updated>2021-07-20T16:44:00+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
 
 	<entry>
@@ -344,7 +344,7 @@
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2021-07-14T08:43:15+00:00</updated>
+			<updated>2021-07-20T16:43:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -438,7 +438,7 @@ A library of multi-agent reinforcement learning components and systems.&lt;/p&gt
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2021-07-14T08:43:15+00:00</updated>
+			<updated>2021-07-20T16:43:14+00:00</updated>
 		</source>
 	</entry>
 
