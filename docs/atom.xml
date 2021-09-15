@@ -5,8 +5,472 @@
 	<link rel="self" href="http://planet.du.zoomquiet.us/atom.xml"/>
 	<link href="http://planet.du.zoomquiet.us/"/>
 	<id>http://planet.du.zoomquiet.us/atom.xml</id>
-	<updated>2021-09-15T00:42:33+00:00</updated>
+	<updated>2021-09-15T08:44:10+00:00</updated>
 	<generator uri="http://www.planetplanet.org/">Planet/2.0 +http://www.planetplanet.org</generator>
+
+	<entry>
+		<title type="html">pythonista-weekly : Pyw 516</title>
+		<link href="https://weekly.pychina.org/python-weekly/pyw-516.html"/>
+		<id>tag:weekly.pychina.org,2021-09-10:/python-weekly/pyw-516.html</id>
+		<updated>2021-09-15T03:15:06+00:00</updated>
+		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第516期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-516&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-516&lt;/a&gt;&lt;br /&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;来自赞助商（PS：原文的赞助商）:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.programmerweekly.com/?utm_source=pwad&amp;utm_medium=newsletter&quot;&gt;Get Your Weekly Dose of Programming&lt;/a&gt;
+A weekly newsletter featuring the best hand curated news, articles, tutorials, talks, tools and libraries etc for programmers. &lt;a href=&quot;https://www.programmerweekly.com/?utm_source=pwad&amp;utm_medium=newsletter&quot;&gt;Join For Free&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新闻&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfsHNBcclWSmVkk4LDD_EnlhrlKdWlGOakdwbt5PbaFklpHAA/viewform&quot;&gt;FlaskCon 2021 Volunteer Call&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mvanga.com/blog/deriving-guitar-theory-in-400-lines-of-python&quot;&gt;Deriving Guitar Theory in ~400 Lines of Python&lt;/a&gt;
+本文着眼于使用 &lt;code&gt;Python&lt;/code&gt; 将基本的音乐理论应用于吉他，以便推导出交替调音的和弦和音阶。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pkYVOmU3MgA&quot;&gt;Python中的数据结构和算法&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;
+对 &lt;code&gt;Python&lt;/code&gt; 中常见的数据结构（链表、堆栈、队列、图）和算法（搜索、排序、递归、动态编程）进行初学者友好的介绍。本课程将帮助你为编码面试和评测做准备。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.assemblyai.com/blog/can-podcasts-predict-the-stock-market&quot;&gt;Can Podcasts Predict the Stock Market?&lt;/a&gt;
+每个人都想知道如何预测股票市场。大家也都知道，这基本上是不可能的。在这篇文章中，我们将介绍如何将播客数据与股市数据进行比较，以及两个著名的新闻播客《The Daily》和《Up First》去年的新闻负面评价对去年股市的影响，特别是道琼斯工业平均指数、纳斯达克指数和皇家黄金。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/articles/2021/09/08/debugging-python-c-extensions-gdb&quot;&gt;Debugging Python C extensions with GDB&lt;/a&gt;
+你可以在 &lt;code&gt;Python 3.9&lt;/code&gt; 中使用C调试器来调试C扩展。了解如何使用改进的 &lt;code&gt;Python&lt;/code&gt; 调试版本和 &lt;code&gt;GNU&lt;/code&gt; 项目调试器( &lt;code&gt;GDB&lt;/code&gt; )。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.babbling.fish/elt-cookbook-python/&quot;&gt;Python for Distributed Systems&lt;/a&gt;
+如何为大数据编写可横向扩展的脚本。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linuxjournal.com/content/experimenting-python-implementation-host-identity-protocol&quot;&gt;Experimenting with Python implementation of Host Identity Protocol&lt;/a&gt;
+这篇文章描述了各种安全解决方案，&lt;code&gt;HIP&lt;/code&gt; 协议的一些实现细节，以及使用 &lt;code&gt;Python&lt;/code&gt; 语言实现的 &lt;code&gt;HIP&lt;/code&gt; 和 &lt;code&gt;IPSec&lt;/code&gt; 协议的性能。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.doppler.com/blog/environment-variables-python-django-apache-mod-wsgi-docker&quot;&gt;如何在Docker中使用Apache和mod_wsgi为Python Django应用设置环境变量&lt;/a&gt;
+找到在 &lt;code&gt;Docker&lt;/code&gt; 中为 &lt;code&gt;Python&lt;/code&gt; 应用程序使用 &lt;code&gt;Apache&lt;/code&gt; 和 &lt;code&gt;mod_wsgi&lt;/code&gt; 的环境变量的正确姿势。 &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8ZZDNd4eyVI&quot;&gt;The Double Pendulum in Python&lt;/a&gt; &lt;img alt=&quot;img&quot; src=&quot;https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png&quot; /&gt;
+学习如何用 &lt;code&gt;sympy&lt;/code&gt; 推导出双摆的微分方程组，用 &lt;code&gt;scipy&lt;/code&gt; 的 &lt;code&gt;odeint&lt;/code&gt; 函数数值解方程组，并用 &lt;code&gt;matplotlib&lt;/code&gt; 制作双摆的动画。  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://huyenchip.com//2021/09/07/a-friendly-introduction-to-machine-learning-compilers-and-optimizers.html&quot;&gt;A friendly introduction to machine learning compilers and optimizers&lt;/a&gt;
+了解编译器的工作原理可以帮助你选择正确的编译器，将你的模型带到你选择的硬件上，以及诊断性能问题和加速你的模型。这篇文章是对ML编译器的一个友好的、无障碍的介绍。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Andrew-Chen-Wang/cookiecutter-django-ec2-github&quot;&gt;GitHub Actions EC2 Blue/Green Deployment&lt;/a&gt;
+使用 &lt;code&gt;GitHub Actions&lt;/code&gt; 和 &lt;code&gt;CodeDeploy Blue/Green Deployment + EC2&lt;/code&gt; 将 &lt;code&gt;Django&lt;/code&gt; 项目部署到 &lt;code&gt;AWS&lt;/code&gt;（适用于 &lt;code&gt;Flask/FastAPI/Rails&lt;/code&gt; ）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.wrighters.io/version-control-for-jupyter-notebooks/&quot;&gt;Version control for Jupyter notebooks&lt;/a&gt;
+&lt;code&gt;Jupyter notebook&lt;/code&gt;很难进行 &lt;code&gt;diff&lt;/code&gt; 和合并，因为它们同时包含了代码和输出，但工具和实践可以使版本控制更容易。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://t.co/26M1W8Wnho&quot;&gt;An Introduction to Reinforcement Learning with OpenAI Gym, RLlib, and Google Colab&lt;/a&gt;
+强化学习（RL）的一个可能的定义是，在与环境互动时，学习如何使奖励的总和最大化的一种计算方法。虽然定义是有用的，但本教程旨在通过图像、代码和视频例子来说明什么是强化学习，并顺便介绍强化学习术语，如代理和环境。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://auth0.com/blog/state-pattern-in-python/&quot;&gt;State Pattern in Python&lt;/a&gt;
+学习使用 &lt;code&gt;Python&lt;/code&gt; 实现状态模式和有限状态机。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thehousesometimeswins.com/blog/speeding-up-jupyter-python&quot;&gt;Speeding up Python Jupyter notebooks 25x with simple concurrency, and fast AWS servers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/&quot;&gt;Logging in Python like a PRO&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sgoel.dev/posts/how-you-can-track-your-personal-finances-using-python/&quot;&gt;如何使用Python跟踪个人财务状况&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chriswedgwood.com/blog/htmx-examples-using-django-click-to-edit/&quot;&gt;HTMX Examples using Django&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://labs.quansight.org/blog/2021/07/numpy-accessibility-guidelines/&quot;&gt;Making Numpy Accessible: Guidelines and Tools&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spotify/pedalboard&quot;&gt;Pedalboard&lt;/a&gt;
+一个用于为音频添加效果的 &lt;code&gt;Python&lt;/code&gt; 库。它是由 &lt;code&gt;Spotify&lt;/code&gt; 的音频智能实验室建立的，可以在 &lt;code&gt;Python&lt;/code&gt; 和 &lt;code&gt;TensorFlow&lt;/code&gt; 中使用工作室质量的音频效果。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/waydroid/waydroid&quot;&gt;Waydroid&lt;/a&gt;
+&lt;code&gt;Waydroid&lt;/code&gt; 是一种基于容器的方法，可以在像 &lt;code&gt;Ubuntu&lt;/code&gt; 这样的普通 &lt;code&gt;GNU/Linux&lt;/code&gt; 系统上启动一个完整的 &lt;code&gt;Android&lt;/code&gt; 系统。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/wh1te909/tacticalrmm&quot;&gt;Tactical RMM&lt;/a&gt;
+一个远程监控和管理工具，用 &lt;code&gt;Django、Vue&lt;/code&gt; 和 &lt;code&gt;Go&lt;/code&gt; 构建。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookresearch/co3d&quot;&gt;co3d&lt;/a&gt;
+三维通用对象数据集的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jashandeep-sohi/webcam-filters&quot;&gt;webcam-filters&lt;/a&gt;
+在 &lt;code&gt;Linux&lt;/code&gt; 上为你的网络摄像头添加过滤器（背景模糊，等等）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/spiceai/spiceai&quot;&gt;Spice.ai&lt;/a&gt;
+&lt;code&gt;Spice.ai&lt;/code&gt; 是一个开源的、可移植的运行时间，用于训练和使用时间序列数据的深度学习的框架。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/vlakir/cleanapi&quot;&gt;CleanAPI&lt;/a&gt;
+用于制作轻量级 &lt;code&gt;REST API&lt;/code&gt; 服务的漂亮的 &lt;code&gt;Tornado&lt;/code&gt; 包装器。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/epilys/nntpserver.py&quot;&gt;nntpserver.py&lt;/a&gt;
+无依赖性的单文件 &lt;code&gt;NNTP&lt;/code&gt; 服务器库，用于开发现代的、符合 &lt;code&gt;rfc3977&lt;/code&gt; 标准的（桥梁）NNTP服务器。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/pmbaumgartner/clabel&quot;&gt;CLabel&lt;/a&gt;
+一个用于标记文本数据集群的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/alopezrivera/huracan&quot;&gt;Huracan&lt;/a&gt;
+Open source, 0-dimensional, object-oriented airbreathing engine modelling package for preliminary analysis and design of airbreathing engines, divulgation and educational purposes.&lt;/p&gt;
+&lt;h3&gt;最近更新&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://pythoninsider.blogspot.com/2021/09/python-3712-and-3615-security-updates.html&quot;&gt;Python 3.7.12 and 3.6.15 security updates now available&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pythoninsider.blogspot.com/2021/09/python-3100rc2-is-available.html&quot;&gt;Python 3.10.0rc2 is available&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;活动&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/indypy/events/276275243&quot;&gt;Virtual: IndyPy Meetup September 2021&lt;/a&gt;
+There will be a talk, Practical Python Async in 42 Lines of Code.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Cleveland-Area-Python-Interest-Group/events/fhqrtryccmbrb/&quot;&gt;Virtual: Cleveland Python Meetup September 2021&lt;/a&gt;
+There will be a talk, How to Build a Microservice in Minutes feat. Azure Durable Functions.&lt;/p&gt;
+&lt;p&gt;Posa：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;----- 分割线 -----&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-516.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23516.md&quot;&gt;issue-516.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>https://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>https://weekly.pychina.org/</id>
+			<updated>2021-09-15T08:43:10+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">PyCoder 490</title>
+		<link href="https://weekly.pychina.org/issue/issue-490.html"/>
+		<id>tag:weekly.pychina.org,2021-09-15:/issue/issue-490.html</id>
+		<updated>2021-09-15T03:14:49+00:00</updated>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;++x 和 --x 在 Python&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/490&quot;&gt;PyCoder's Weekly - Issue #490&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;pycoder&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;210915 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;210915 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7005/web&quot;&gt;实践中应用 PEP 8&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAKE EDGE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Two recent threads on the python-ideas mailing list have overlapped to a certain extent; both referred to Python’s [PEP 8] style guide, but the discussion indicates that the advice in it may have been stretched further than intended.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7034/web&quot;&gt;Python 中专家如何 Log&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GUILHERME LATROVA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn what good logging is, and how you should implement it in Python. Comes with meaningful examples and rules of thumb on what and how to log.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Log&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.38.57.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;专业log姿势&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7027/web&quot;&gt;Python新闻/ 2021年8月的新增内容是什么?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;August 2021 was an eventful month in the world of Python. In this article, you’ll get up to speed on everything that happened in the past month, including three new Python releases.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;What’s&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.37.42.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7017/web&quot;&gt;解开异步为循环&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;BRETT CANNON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python’s async for statement allows convenient iteration over asynchronous iterators. In this article you’ll see how async for loops work behind the scenes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7021/web&quot;&gt;介绍 Pedalboard: Spotify 的 Python 音频效果库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SPOTIFY ENGINEERING BLOG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;探讨/吐糟&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7026/web&quot;&gt;Black Autoformatter Core Team AMA&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REDDIT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The core team behind the popular Python autoformatter Black did an “ask me anything” (AMA) thread on Reddit.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7010/web&quot;&gt;Python 是种不良编程语言&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;MICHAEL MORENO &lt;/li&gt;
+&lt;li&gt;opinion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“I’ll say it again: Python is a bad programming language, and the only reason it’s so popular today is because Google pushed it so hard in the first decade of the 2000s.” Related discussion of this controversial article on Hacker News.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Google push golang 去了哈?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7006/web&quot;&gt;在 Python 中使用数据类&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON 
+video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One new and exciting feature that came out in Python 3.7 was the data class. A data class is a class typically containing mainly data, although there aren’t really any restrictions. With data classes, you don’t have to write boilerplate code to get proper initialization, representation, and comparisons for your objects.&lt;/p&gt;
+&lt;p&gt;Data Elixir: Data Science Newsletter
+Data Elixir is an email newsletter that keeps you on top of the tools and trends in Data Science. Covers machine learning, data visualization, analytics, and strategy. Curated weekly with top picks from around the web →
+DATA ELIXIRsponsor&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7014/web&quot;&gt;完成小型 Python 项目的优点&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you a beginner or intermediate Python programmer who has made it through some of the fundamentals? Have you tried to tackle a big project but got stuck and frustrated? Completing some small projects might be the answer. This week on the show, author Al Sweigart.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;podcast&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.33.48.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7028/web&quot;&gt;并行 Python 代码运行常见方法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;MICHAEL GALARNYK &lt;/li&gt;
+&lt;li&gt;• Shared by Michael Galarnyk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article reviews some common options for parallelizing Python code, including multiprocessing, specialized libraries, ipython parallel, and ray.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Ray&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.32.36.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Ray 的硬广,
+不过, 并行计算的前提是计算任务是原子化的&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7032/web&quot;&gt;Fibonacci 序列的 Python 指南&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explore the Fibonacci sequence in Python, which serves as an invaluable springboard into the world of recursion, and learn how to optimize recursive algorithms in the process.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7024/web&quot;&gt;Python 中压缩和存档文件的各种姿势&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;MARTIN HEINZ &lt;/li&gt;
+&lt;li&gt;• Shared by Martin Heinz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to compress, decompress, and manage archives and files with Python in all the formats you might ever need.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;其实调用 7zip 就都可以作到.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7003/web&quot;&gt;在 Python 中为 AWS Lambda 函数进行写作单元测试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;EMILY SHEA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼,&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Lambda&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.26.32.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7025/web&quot;&gt;如何用 scrapy 抓取网站&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;MATT BASS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一篇基础教程&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7016/web&quot;&gt;R vs Python: R 和 Python 之间的实际区别是什么?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SUSAN JOHNSON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;语言名称越短,越高级嘛?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7012/web&quot;&gt;Python 3.10 简化类型注释中的联合&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MIKE DRISCOLL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7007/web&quot;&gt;FastAPI With Async SQLAlchemy, SQLModel, 以及 Alembic&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MICHAEL HERMAN &lt;/li&gt;
+&lt;li&gt;• Shared by Michael Herman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;此时, 使用 FastAPI 团队全家桶就对&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7030/web&quot;&gt;openskill.py: 实现翁林贝叶斯排名&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/OPENDEBATES&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;openskill&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.21.07.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7037/web&quot;&gt;plusplus: 在 Python 中启用 ++x 和 --x 表达式&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/BORZUNOV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这是想象的伦丧,
+还是人性的扭曲?&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;plusplus&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.19.43.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;即不直观,又不逻辑,
+只是省力...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7020/web&quot;&gt;huracan: 开源飞机发动机仿真 Python 包&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/ALOPEZRIVERA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Aircraft&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.17.31.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;航空发动机模拟器...
+这家伙... Su27 走起&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7036/web&quot;&gt;klara: Python 和静态分析库的自动测试用例&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/USAGITONEKO97&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嚓...这是真神器,
+不过, 生成的代码是否真的能合理覆盖所有逻辑分叉;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7008/web&quot;&gt;Python 独立构建: 独立/高度便携的 Python 分发&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON-BUILD-STANDALONE.READTHEDOCS.IO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;WoW 真神器敠一发.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7013/web&quot;&gt;gamesbyexample: 在 Python 和其他语言中的基于文本的游戏集合&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/ASWEIGART&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7033/web&quot;&gt;pyreports: 从各种来源创建复杂的报告&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/MATTEOGUADRINI &lt;/li&gt;
+&lt;li&gt;• Shared by Matteo Guadrini&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;pyreports&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-15-ScreenShot%202021-09-15%2010.08.05.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6986/web&quot;&gt;⋅ PyCon India 2021&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 17 to September 21, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7019/web&quot;&gt;⋅ PyWeek 32 Game Jam (Virtual)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 19 to September 20, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gruns/icecream&quot;&gt;gruns/icecream: 🍦 Never use print() to debug again.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;独创 logging + debug 模块&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://space.bilibili.com/272001170/&quot;&gt;沈崴的个人空间 -  ( ゜- ゜)つロ 乾杯~ Bilibili&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;哔哩哔哩&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;老司机开新坑, 时隔10年,
+沈游侠再次开声, 值得关注:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Bilibili&quot; src=&quot;httpstp://ydlj.zoomquiet.top/ipic/2021-01-06-ScreenShot%202021-01-06%2010.14.10.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-490.html&quot;&gt;Issue 490 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-490.md&quot;&gt;issue-490.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第9个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;去年开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;[皱眉]每周新闻资讯 怎么能错过 &lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;看看有什么新东西 &lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;当有新的发现时：&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;    what f**k 还能这样玩？ 还有这东西？&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;    每周开彩蛋[吃瓜]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;askdama@googlegroups.com&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF490D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF490D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;创始组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+        &lt;span class=&quot;n&quot;&gt;GDG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;TFUG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;</content>
+		<author>
+			<name>Pythoneerm</name>
+			<uri>https://weekly.pychina.org/</uri>
+		</author>
+		<source>
+			<title type="html">蠎周刊</title>
+			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
+			<id>https://weekly.pychina.org/</id>
+			<updated>2021-09-15T08:43:10+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">pythonista-weekly : Pyw 515</title>
@@ -98,7 +562,7 @@ Instagram's experimental performance oriented greenfield implementation of Pytho
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2021-09-08T08:43:13+00:00</updated>
+			<updated>2021-09-15T08:43:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -540,2369 +1004,7 @@ Bottle 早已证明, 一个文件也可以作到很爽&lt;/p&gt;
 			<title type="html">蠎周刊</title>
 			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
 			<id>https://weekly.pychina.org/</id>
-			<updated>2021-09-08T08:43:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">呢喃s/ 20.11</title>
-		<link href="https://blog.zoomquiet.io/201101-ZoomQuiet-MurMur-collection.html"/>
-		<id>tag:blog.zoomquiet.io,2020-11-01:/201101-ZoomQuiet-MurMur-collection.html</id>
-		<updated>2021-09-04T12:52:30+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;at-202011&quot;&gt;呢喃 at 2020.11&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#at-202011&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不为什么,&amp;nbsp;就这么开始了日历卡连载&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;201101&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.001.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4184&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Btc 诞生12年了,
-引爆无数财富神话.
-当然,
-也有越来越多公司寻求30年区块链经验资深工程师了.
-这说明什么?
-无论哪个领域中的常识,
-在公众领域都是神奇无匹的机密,
-必须付费才可能知道的.
-就好象当年 U2 没被打下来之前,&amp;nbsp;也是不可能击落的Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201102&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.002.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4185&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;C919 大机项目&amp;#8230;
-讲真,延绵有百年了,
-从冯如开始,
-有自己稳定的飞行平台这一愿望从没放弃,
-只是自身积累被航空发展速度抛开太远;
-中间还被大环境放弃过一次,
-整整20年的积累完全散失;
-好在,
-嘦下决心,
-内部市场扩张足以弥补时间的错失&amp;nbsp;Orz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201103&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.003.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4186&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;史称3Q大战对中国互联网意义非常重大,
-历史上第一次对互联网可能性领先了世界;
-证明免费不等于赔钱,
-而是将未来能赚到的先花掉来赢;
-按照后来时尚说法就是:&amp;#8221;降维打击&amp;#8221;
-根本不和你在一个能级中对抗,
-而是跃迁至你根本无法理解的维度,&amp;nbsp;被屠时你亳无感觉Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201104&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.004.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4187&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;奥观海~川建国~拜振华&amp;#8230;
-反正网友创造力是无穷咯.
-只是提醒选举揭晓时,
-一定有各地骚乱,
-人在有关地区的网友千万别出门就好.
-其实,
-国际间很多关系,
-早在83年前蒋百里那本小书:国防论,
-都讲透了.
-核心观点很简单粗暴:
-中国有办法.&amp;nbsp;就这么笃定.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201105&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.005.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4188&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当年著名的png-&amp;gt;jpg设计事件,
-让世界首次知道中国网民创意无界限.
-昨天&amp;#8221;拜局已定&amp;#8221;不知道能进牛津字典否?
-生活永远高于艺术:
-被管道煤气替代的煤气瓶,
-走投无路时忽然在中东热销,
-而且定单数量越来越大,
-惊喜之下一调查:超口径自制火箭弹头用&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201106&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.006.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4189&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;救火这事儿从来不简单,
-有燃烧上百年的媒田地下火..
-海湾战争引发的油田大火更加难以扑灭;
-但是,
-办法总比问题多,
-关键现在原油开采技术越来越先进,
-对原油的处置也更加宽容;
-用各种现代材料快速封闭,
-或是用阻燃剂高速稀释..&amp;nbsp;都不影响日后重新开采.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201107&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.007.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4190&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;直觉选出来5个历史事件,
-哪个能安全嗯哼?
-只有居里夫人了,
-也有电影/传记揭示了两人一些反常家庭状态;
-但对放射性的突破性研究成果,
-足以令人忽视其它;
-人无完人,
-真要是常人,
-不会如此持着将自己给毒死.
-虽然,
-和熬夜网游过劳死基本上相同性质&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201108&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.008.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4191&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有道是:不作死不会死,
-可同时:善游者溺/善骑者堕/医不自医/&amp;#8230;
-还有理发师不理自己&amp;#8230;
-不说逻辑问题;
-单说高空挑战,
-其实这种意外和每年&amp;#8221;蜘蛛人&amp;#8221;伤亡比率没什么不同,
-关键这不是为了生存而冒险,
-只是好玩,&amp;nbsp;足以证明中国强大到人民可以无聊了Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201109&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.009.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4192&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;CDMA之母,
-这称号太宅,
-不过Hedy是真神,
-最成功跨圈玩家,
-已在逐一回刷历史名剧,
-提醒:要习惯当年慢节奏,
-欣赏黑白世界独有韵味;
-当然现在最耀娱乐明星是建国同学:
-4年前的今天当选,
-而昨天刚刚连任没戏.&amp;nbsp;美国朋友也实锤兰色州狂欢庆祝也Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201110&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.010.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4193&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;跳吧&amp;#8230;你倒是跳啊?
-当年追捕经典台词简直全人民都要用一下.
-但要是从原著西村寿行找到隔壁同类小说家大薮春彦,
-会惊讶日本社会文学开放性的.
-思维上的跃迁可以立即看到完全不同的世界;
-象复式记帐法,
-526年前由教士为查帐而发明,&amp;nbsp;却促成了现代企业诞生.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201111&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.011.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4194&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;还记得最初好象是复旦大学先提议光棍节,
-还设计了宣传画:油条+鸡蛋;
-没想到今天已经变成全球最大购物节;
-&amp;#8220;空老师&amp;#8221;生日竟然也在同一天,
-好神奇;
-国际科学与和平周同光棍节并列,
-为什么感觉在暗示了什么?
-艺术源自生活,
-生活高于艺术.&amp;nbsp;不得不相信了Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201112&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.012.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4195&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;李老爷子终其一身,
-坚持成功了一个习惯:客串自己作品的改编电影;
-以致变成一种行规,
-甚至于专门设计有3D人物可以永久乱入所有漫威影视作品,
-真.永生.
-可惜是的雨生同学,
-当年唯一的嗓音从此绝唱,
-而90之后根本无人知晓,&amp;nbsp;因为惠妹事件从媒体中被消失了.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201113&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.013.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4196&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;大学时在担心千年虫,
-各种文章满天飞;
-今天才知道,
-当年国家担心的是邪教问题,
-还专门成立针对性协会进行整治.
-即便是再20年前旅行者已经将人类目光拓展到土星环之外;
-人心,
-多数普通人最上心还是如何长命百岁,&amp;nbsp;毫不在意自己从事的可能正在危及后代生命.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201114&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.014.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4196&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;秦灭亡和联想成立同一天;
-人类历史这么短就有这么多巧合;
-只能说历史和生活一样,
-原本并没什么意义,
-完全是看解读一方如何制造意义.
-而缩小到每个人具体一生,
-无论怎么渡过,
-最要紧就是开心了;
-反正都是一天,
-是自己选择开心还是生气,&amp;nbsp;实在不行煮碗面吧.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201115&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.015.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4198&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我们计划生育政策被西方diss了半世纪,
-可有效控制住了人口增长;
-现在开放二胎,
-又是在大数据支持下快速响应;
-这其实就是民主集中制的优势,
-完全混乱中生成的有序,
-和强力设计成的有序,
-哪种好?
-并无一定之真理,&amp;nbsp;只有:&amp;#8221;实践才是检验真理的唯一标准&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201116&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.016.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4199&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;家里首台电视机12吋黑白,
-84年凭票买到的,
-苏联原装显像管,
-直到今天都能工作.
-首次夺冠时,
-真心和电影中复现一致,
-钻到别人家中硬生生看完的,
-那时并不懂规则,
-只是气氛太深刻.
-如果没有当年那种氛围的体验,
-电影夺冠中艰难反思和展望太难懂&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201117&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.017.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4200&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;平凡的世界
-触动最大只有:
-农村发展空间没有城市大,
-社会背景资源太重要,
-科学幻想可以有,可惜于事无补&amp;#8230;
-这类社会现实小说,
-还是常书欣的黑锅/余罪更加活泼,
-而且能读出希望,
-毕竟面向网友写作和面向作协是完全两种世界观了,&amp;nbsp;即:现金流对职称派Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201118&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.018.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4201&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;米奇92岁了,
-除了给世界带来无数快乐之余,
-也给世界带来史上最强悍专利诉讼军队.
-想想秦桧也许就缺少这种军队,
-不然作为宋体创始人,
-立功/言没问题,
-立德完全可以包装出来.
-不觉叕想起:巴拉巴西成功定律,
-首次以科学形式研究成功,&amp;nbsp;5条定律说透如何成功.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201119&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.019.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4202&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;29年前星球大战的公布,
-直接促成了后来&amp;#8221;战略忽悠局&amp;#8221;的成立;
-所以,
-生活永远高于艺术,
-即便是科幻小说也从来没有提出这一构想过;
-虽然有战略伪装部队,
-但最多针对战役级别,
-没想到以国家阵营为目标,
-涵盖几乎整个地球的&amp;#8221;卖拐&amp;#8221;&amp;nbsp;最终竟然忽悠成功了:-O&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201120&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.020.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4203&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;解放前最大城市不过百万人口,
-奥运前后就已有城市过千万了;
-以往只有科幻小说中描写的超级城市我们有好几个,
-问题也就接蹱而来,
-仅仅给排水就已暴露一系列大城隐患,
-谁能想得到在大城市当街被淹死的情况?
-到质变有拐点,
-一过,&amp;nbsp;情况极速恶化根本无从反应Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201121&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.021.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4204&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当初在色带打字机上养成机械键盘体验的;
-8年前相关厂商无一幸免,
-但在淘宝店中,
-老式打字机还有强劲卖气,
-只是多数并不在其功能,
-而在其外形和蕴藏的逼格;
-好在怀旧者大有人在:HanxWriter
-是影星Hanx设计发布的应用,&amp;nbsp;能将平板变成打字机,赞;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201122&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.022.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4205&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;等等?
-49年前苏联就已经领先将人造物投放到火星了?
-钢铁般的联盟真神奇.
-好象还有三进制计算机,
-命令行PS等神器&amp;#8230;
-为了给中国指出改革正确方向,
-自己以身试错,
-可惜了;
-当然,
-俺这也是后真相,
-真相带不来流量;
-媒体发现可热点真相才是正义&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201123&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.023.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4206&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;想说T碳来的,
-可惜没懂怎么回事儿;
-想说独秀的,
-突然反应过来不得穿越21年;
-那就只好说昨晚geek邦直播带货吧;
-为什么俺吐糟风观众感觉够怼,
-但自己课程没人报名?
-为什么极客viya老罗式带货却有哗哗的付费?
-想来,
-果断还是流量为王没毛病&amp;nbsp;Orz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201124&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.024.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4207&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;69年前人类最大规模快闪活动创立,
-一个多甲子以来,
-中华民族基本体魄由一套持续迭代的优秀体操保卫住了;
-但精神上并没对应体操来守护,
-霑叔的不文集,
-读来能把桌子拍碎,
-充斥浓烈洒脱,
-是真正才子游戏人间的姿态;&amp;nbsp;可惜没法象金庸那样通过故事感染全体华人;)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201125&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.025.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4208&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;英国一向热衷于折腾不着四6的东西,
-其实这才是自嘲的根源,
-当年从一介岛国通过工业革命高速变身为日不落帝国后,
-有足够资源支持所有探索,
-但是,
-科学还是有其内在逻辑的,
-不是英镑可以绕过的,
-所以,
-失败的多了,
-也就有了熟练的开解姿势,&amp;nbsp;保持心态继续.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201126&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.026.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4209&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;55年前中国刚刚开始执行第3个五年计划,
-法国就发射成功人造卫星了.
-而30年后,
-中国无论哪个国有企业一合并,
-就是全球最大;
-甚至单个游戏活跃人数比法国人口都多;
-都是中国制造形成的边际效应;
-只是,
-维护AI时代的制造地位,&amp;nbsp;就不单是人力问题了:={&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201127&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.027.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4210&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;永远的BruceLee,
-可以说是孔子之外,
-地球人最熟悉的中国人.
-单人将华人在世界的形象进行了提升,
-这是后来几亿中国工人用了30年时间才部分作到的;
-可想多伟大,
-截拳道后来的自主发展离不了几大弟子,
-而且是外国人为主.&amp;nbsp;总之比耗子尾汁要以德服人的多&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201128&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.028.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4211&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;疫情忽一年
-PyCon不略过&amp;nbsp;深圳老友五加皮.&lt;/p&gt;
-&lt;p&gt;小时贺年卡写什么很苦恼,
-后来仿照词牌写打油诗才算hold住;
-再后来见到俳句,&amp;nbsp;才明白原来当初自己乱搞也是有排面咯.&lt;/p&gt;
-&lt;p&gt;今天 PyCon2020深圳场,
-去现场,
-看能挤入直播卟?&amp;nbsp;其实主要蹭饭去Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201129&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.029.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4212&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原来60年前,
-叶绿素就已经合成出来了,
-但是,
-一直没能大规模工业应用起来?
-这在
-大卫·爱登堡/地球上的一段生命旅程
-记录片最后,
-给出拯救生物多样性中几个方案中,
-也只反复强调可在生能源;
-在中学设想过绿色瘤牛,&amp;nbsp;在动物体内用叶绿色素光合成肉更靠谱.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201130&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2011.030.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4212&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;113号元素以及其它超重元素,
-都是以往一直有预言的元素,
-只是技术能力不足,
-不足以制造;
-人类再次被自己想象力折服;
-这可能也是对环境问题不上心的底气,
-技术发展速度远远超过人类作死速度,
-那么,
-技术总是能制造足够的后悔空间/时间,&amp;nbsp;这就是人类Orz&lt;/p&gt;</content>
-		<author>
-			<name>ZoomQuiet</name>
-			<uri>https://blog.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">zoom.quiet</title>
-			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
-			<id>https://blog.zoomquiet.io/</id>
-			<updated>2021-09-14T16:42:24+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">呢喃s/ 20.10</title>
-		<link href="https://blog.zoomquiet.io/201001-ZoomQuiet-MurMur-collection.html"/>
-		<id>tag:blog.zoomquiet.io,2020-10-01:/201001-ZoomQuiet-MurMur-collection.html</id>
-		<updated>2021-09-04T12:20:23+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;at-202010&quot;&gt;呢喃 at 2020.10&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#at-202010&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不为什么,&amp;nbsp;就这么开始了日历卡连载&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;201001&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.001.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4153&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;国庆长徦是08奥运之后才推行的,
-结果现在变成习惯了;
-但是,
-基本挤成/黄金粥,周云蓬有歌专门描写这般感受.
-所以,
-多数理性同学,
-选择在家休息,
-顺便看学习以往一直没空学的.
-蟒营®编程思维提高班/13期正在报名,
-10号前报名再惠800&amp;nbsp;赶紧上车.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201002&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.002.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4154&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Timi 歌红人不红.
-中国人应该没人从没听过她的歌,
-只是极少人能反应过来是她原唱的.
-为什么呢?
-想来可能她的歌是标准下里巴人式的,
-社会各阶层都不反感的,
-同时印象也就不深;
-就象米面,
-经常吃,可也记不住到底是哪儿来的;
-Python&amp;nbsp;也是Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201003&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.003.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4155&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;双节优惠:
-10.10&amp;nbsp;前报名,再减800元&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;1. 有推荐人, 再惠 500元 (如果找不到, 可用: 大妈)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;2. 在校生, 再惠 1000元&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;3. 复读5折&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;4. 4人及以上组团(建议联系 大妈 走绿色通道.)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意: 以上优惠政策不可叠加&amp;nbsp;;-)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201004&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.004.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4156&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;武元甲,
-每次见到这名字,
-总感觉和霍元甲应该有什么关联;
-其实是越南太袓般人物,
-可在国人常识中根本不存在;
-不由想到:
-世界这么大,
-历史上那么多国族,
-每个都有其伟大人物,
-但是当今主流意识根本不会关心他们;
-为什么?&amp;nbsp;无它,一时一地格局不够.Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201005&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.005.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4157&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;禁蒙面法撞到&amp;#8221;守望者&amp;#8221;剧集的蒙面法;
-无法讽刺更多;
-好比屠同学即便获得诺奖照样拿不到院士一样,
-因为都是民主决议的;
-而决议者根本就是政治运动员不是领域专家;
-Linux 也是,
-在整个儿世界都在追求微内核时,
-Linus 同学用巨内核成就了世界&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201006&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.006.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4158&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;相比战斗民族飞机员一喝高兴了就直接穿桥洞玩,
-我飞行员要进行严密计划+训练才敢进行一次的穿越就太刻意了;
-其实普加乔夫眼镜蛇超机动本身也是一次意外随兴操作引发的,
-结果变成了所有3代战机最高机动能力检验标准飞行动作;
-所以说,&amp;nbsp;刻意永远比不过无意心流Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201007&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.007.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4150&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;万家兄弟是真神,
-完全靠自学掌握当时最先进动画技术,
-不仅自己独立完成世界顶级作品,
-还同时培养起新中国第一批..好象也是最后一批动画大师,
-然后,
-就没有然后了,
-在老一辈动画专业人士老死光后,
-中国动画就变成了雷锋的故事;
-为什么呢?&amp;nbsp;目测銭闹的Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201008&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.008.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4160&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;神钢这事儿,
-是先在 大国重工/动力之王 网络小说中知道,
-才又在日历卡中撞到的,
-所以说,
-生活永远高于艺术,
-这么作死的行为艺术,
-在没作出来前,
-没人敢想;
-只能说资本的力量可以扭曲一切人伦;
-也可以反向理解:&amp;nbsp;如果不能无视人伦也就无法赢得资本Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201009&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.009.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4161&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;美国总统获和平奖可以变成传统,
-毕竟世界纠纷大半是合众国制造的.
-想想300多年前大清都能接受外国人担当国家要职,
-现在美国反而在所有关键岗位上禁止华人进入,
-这是退化呢还是退化呢?
-当然一切还是得看自己够铁&amp;nbsp;提醒:蟒营®编程思维提高班10.1优惠最后一天&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201010&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.010.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4162&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;长徦结束今天都要上班,
-好消息是同时还是双十节,
-虽然大陆不过这节,
-但是商家们和海峡对面情绪同步;
-蟒营®编程思维提高班 Python版/13期也是,
-今天报名再优惠800元,
-如果在是在校生,
-21号前报名都能再减1000元;&amp;nbsp;毕竟学生花的都是父母钱.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201011&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.011.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4163&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;庐山升龙霸&amp;#8230;
-感谢海南摄影美术出版社,
-否则,圣斗士们可能不知何时才能进入中国少年想象空间;
-神奇在战后日本原创出漫画这一艺术体裁,
-并快速贡献出无数全新经典;
-而文化大革命之后,
-可能除了王朔,
-其它艺术领域都冇创新;&amp;nbsp;好在后来有了起点,然后呢?..&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201012&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.012.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4164&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;邱少云当年牺牲是为了以后再无必要忍受烈火;
-可惜42年后一声&amp;#8221;领导先走&amp;#8221;几百小学生一起被体验到烈士感受,
-只不过他们能哭喊,但无人能听到而已.
-对此事件的情绪周云蓬有记录在中国孩子专辑中,
-当然,
-网易云音乐中是没有&amp;#8221;中国孩子&amp;#8221;这首主打歌的&amp;#8230;&amp;nbsp;Orz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201013&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.013.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4165&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;昨天日历卡没正常发布的原因,
-当然是因为那个;
-朋友劝:
-&amp;#8230;因为早年间微博出现过&amp;#8230;的事,后边整体被添加到敏感词列表里了;
-这种&amp;#8230;少谈为上/一则意义不大/二则容易成靶子;
-已经是第4次被伟大的..自动屏蔽了;
-想知天命,
-首先就得不逾矩哪&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201014&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.014.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4166&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;10年前俄罗斯重新开始人口普查竟然用了 170亿;
-现在中国进行人口普查应该不用这么,
-几天时间调用近期所有相关数据自动统计即可,
-不用人工逐户盘查了,
-毕竟在所有人流密集处都有监控,
-出生时医疗信息也联网了,
-即使是在野外隐居,&amp;nbsp;也有资源卫星在持续观测.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201015&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.015.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4167&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;好象08之后,
-中国很少有万人***行为了,
-虽然类似广场舞的全民运动还有,
-但是不会同一时刻集中在一个地点搞事儿了;
-地球上也就只有朝鲜还保留这种专门技艺;
-当然,
-解放军内部大量人员统一调度经验还在;
-只是老百姓有更多选择,&amp;nbsp;不再热衷于大规模&amp;#8221;快闪&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201016&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.016.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4168&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;从首次核爆到潜射运载火箭用了18年,
-而从立项到核爆才用了不到5年;
-在工程上潜射要复杂困难太多;
-前者是一次性单一装置;
-而后者是一整套作战体系,
-涉及海量新设备/装置/器材/&amp;#8230;
-甚至还得先有卫星发射/遥控能力;
-脚本和系统软件类似,&amp;nbsp;想想都累Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201017&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.017.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4169&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;南开大学是周总理母校,
-今年已经101年历史了;
-学校并不是因为伟大而有吸引力,
-相反,
-因为校友的伟大才令母校有影响力;
-俺对母校没什么贡献,
-因为早被合并改名了;
-有段时间,
-中国各高校都在拼命更名,
-以便听起来很高大上值得上;
-然后各种重名&amp;nbsp;囧rz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201018&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.018.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4170&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;BBC也快百年了,
-这种国家级别媒体想活着很简单,
-嘦国家愿意,
-国民也都习惯了;
-但是,
-正是这种僵化的BBC,
-反而自我超越,
-持续爆出各种神剧;
-为什么呢?
-英国人自黑性格使然,
-对自己狠,
-才能征服世界;&amp;nbsp;历史上无敌舰队被皇国海军击败就是靠这劲儿.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201019&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.019.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4171&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;蟒营®编程思维提高班 第13期最报名后一天:&amp;nbsp;优惠政策:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;1. 有效推荐, 再惠500元/可写: 大妈获得&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;2. 在校生, 再惠 1000元/出示学生证即可&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;3. 复读/5折&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;4. 组团: 4人及以上(直接联系商议)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意: 以上优惠政策不可叠加&amp;nbsp;;-)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201020&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.020.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4172&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;王亚樵被暗杀,太吻合人设了;
-毕竟:善游者溺/善骑者堕/医不自医/&amp;#8230;
-因为:各以其所好/反自为祸;
-&amp;#8220;淮南子/原道训&amp;#8221;中早有断言;
-但却无人逃脱,
-为什么?
-现在知道这又叫幸存者偏差;
-因为擅长,
-比旁人在问题场景中呆的要久,&amp;nbsp;那么出事概率就大Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201021&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.021.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4173&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;420年前日本史上最著名/宏大之会战,
-双方一共8万人,
-还包括很多足轻;
-而刚刚google透漏扛住的最大DDOS攻击是2.54Tb/秒,
-涉及每秒6.9亿次请求,
-主要来源是 IoT 僵尸网络,
-也就是每秒策动上亿设备统一针对指定网站发出请求;&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201022&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.022.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4174&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;223年前还没飞机呢,
-降落伞就发明出来了,
-猜:从哪儿跳下来的?
-这世界到底是乐观主义者推动的多,还是悲观主义者推进的远?
-俺倾向是悲观充满主义者;
-就象编程中测试驱动类似,
-先虑败才能胜,
-若没有万全的失败处置机制,&amp;nbsp;那么乐观主义者一切创造都无法普及.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201023&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.023.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4175&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;中国造桥技术那真是传奇:
-不说古代赵州桥们了,
-毕竟建造技术并没流传下来;
-建国时大江大河上的桥还都是列强为了自身利益制造的;
-完全从零开始,
-在海归指引下,
-在集中资源办大事儿的模式下,
-不惜成本完成了几座大桥,
-过程中真正吃透技术,&amp;nbsp;积累60年才爆发.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201024&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.024.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4176&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;程序猿节,
-之前有5.12/11.11/等方案,
-随着1024克/斤的梗被人民群众理解,
-又因其它日子都被大品牌活动占用,
-10.24就变成叕一个人造节日固定下来了;
-过节值得想买点儿平时不好意买的,
-对码农而言当然是键盘,&amp;nbsp;提取老文章分享选购经验:见下文&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201025&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.025.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4177&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;昨天&amp;#8221;愤怒的香蕉&amp;#8221;在公众号发表文章/&amp;#8217;关于电影金刚川&amp;#8217;
-分享感触,才反应过来,
-是志愿军出征50周年.
-随着时间流逝,
-当年各种资料解密释放出来,
-对当年志愿军的战功就越来越不可思议:
-约等于原始人扛木棍和坦克作战哪&amp;#8230;
-怎么就打赢了?&amp;nbsp;因为输不起&amp;#8230;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201026&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.026.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4178&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;现代足球诞生157年;
-可蹴鞠在中国已经流传2300+年;
-神奇在:
-外国人总能重新发明中国首创的,
-然后,
-包装成产品重新倾销回来赚取超额利润.
-点解?
-将一种独特活动/事物,
-变成普罗大众可以享受的商品,
-这就是工业化的力量,&amp;nbsp;编程可能是下一种工业化.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201027&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.027.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4179&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不到1秒就可还原一粒魔方?
-记录达成仅是位小学生;
-只能说人类潜能无穷,
-就看如何激发了;
-这位小朋友用5年作到的,
-并不是谁都能.
-为毛?
-没有兴趣支撑,
-1万小时训练不过是学习行为表演,
-学习并没真实发生,&amp;nbsp;可是为什么我们总是难以产生对社会有益的兴趣?&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201028&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.028.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4180&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;118年前德先生由梁启超通过马克思著作介绍给中国,
-而他儿子梁思成,就是民国著名网红林徽因的老公.
-而林徽因有位族叔就是因为绝笔&amp;#8221;与妻书&amp;#8221;而闻名天下的
-&amp;#8220;黄花岗七十二烈士&amp;#8221;之一,林觉民.
-为什么起点后来禁止穿越到21年之后?&amp;nbsp;就是因为关系复杂太容易出事儿.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201029&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.029.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4180&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;老格林77岁重新上天并达成任务归来;
-但大陆企业开始下意识拒绝35岁以上软件工程师应聘;
-这是为什么呢?
-应该是一个行业主流意识的共同选择;
-但诡异在于软件行业中瘁死的都是35岁以下年青工程师;
-原因可能和那个战斗机装甲调研故事类似;
-幸存者偏差&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201030&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.030.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4182&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;飞雪连天射白鹿,
-笑书神侠倚碧鸳.
-有华人聚居之处一定有金庸小说,
-金大师以一己之力铸就
-武侠这一独有体系中华 &lt;span class=&quot;caps&quot;&gt;MEME&lt;/span&gt;/模因,
-古代儒家立言之功太稳了,
-甚至于可能是单人原创俗语最多的作家,
-侠之大者为国为民
-这句断言,&amp;nbsp;很多人以为是古代将领说的呢Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;201031&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2010.031.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4183&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;很少有明星敢于在巅峰时期退圈,
-山口百惠作到了,
-而且得遇良人一直安静结守至今;
-PyCon中国从2011年被激发开始,
-今年已经第10届了,
-疫情再复杂,
-咱们有网络,
-在线也要搞,
-所以,
-认同 Pythonic 的行者们,
-你们准备好了嘛?&amp;nbsp;同去同去&lt;/p&gt;</content>
-		<author>
-			<name>ZoomQuiet</name>
-			<uri>https://blog.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">zoom.quiet</title>
-			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
-			<id>https://blog.zoomquiet.io/</id>
-			<updated>2021-09-14T16:42:24+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">呢喃s/ 20.9</title>
-		<link href="https://blog.zoomquiet.io/200901-ZoomQuiet-MurMur-collection.html"/>
-		<id>tag:blog.zoomquiet.io,2020-09-01:/200901-ZoomQuiet-MurMur-collection.html</id>
-		<updated>2021-09-04T08:19:21+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;at-20209&quot;&gt;呢喃 at 2020.9&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#at-20209&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不为什么,&amp;nbsp;就这么开始了日历卡连载&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;200901&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.001.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4123&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原来网吧历史也有26年了,
-几乎是两代人;
-当年网吧可是高端消费;
-现在变成低端娱乐场所了.
-随着 iPad 们的发布,
-网吧更加没什么吸引力了;
-中国发展太快,
-各行各业被迫在高速发展,
-随时可能被内卷.
-怎么办?
-只有持续学习咯;&amp;nbsp;当然编程是个好开始.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200902&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.002.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4124&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;文化大革命高潮时期,
-&lt;span class=&quot;caps&quot;&gt;ATM&lt;/span&gt; 就已经开始在国外部署了.
-而我们还要30多年后才有.
-之前有程序猿梦到死后被阎罗王指派要求给生死薄作个后台系统,
-以便提高阴曹办事效率;
-可见计算机给世界带来的变化,
-远没到头.
-太多神话中的神通,&amp;nbsp;都一一在电脑协助下实现了.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200903&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.003.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4125&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;还有92年, 机器猫即将诞生;
-忍一忍我们还是能获得一只的,
-只是那么多神奇玩具是否能体验是另外一回事儿了;
-当然,
-按照奇点效应,
-很大程度上是可能实现的,
-嘦在此之前人类没有因为自己作死将地球炸没;
-嗯哼?
-Musk 计划若可行,&amp;nbsp;地球没有还有火星耍.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200904&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.004.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4126&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原来建国9年后,
-才正式宣布领海权;
-然后遭受各种挑衅,
-不得不在海礁上架高脚屋艰苦驻守;
-好在改开统一了思想,
-大国底蕴自然发力,
-不止于扩建永久性岛礁营地,
-而是干脆上绞吸式挖泥船加速自然演化过程;
-快速扩展到平方公里级别,&amp;nbsp;部署舰队什么的也很自然了.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200905&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.005.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4127&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;CocaCola 竟有101年历史了;
-原先只是卖咳嗽糖浆的小公司,
-今天是代表人类文明的最强饮料企业;
-领导了无数创新,
-其核心配方 X 也成为人类最大谜雾之一.
-一直健康成长,简直是神迹,
-怎么作到的?
-目测和那些千年株式会社类似:&amp;nbsp;不忘初心/方得始终&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200906&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.006.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4128&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在获知2000年奥运会申办失败后,
-中国立即成立08奥委会,
-用8年时间上下求索达成使命.
-而5G芯片的达成用时更加久远,
-但也没有久到23年;
-其实人类司法体系从来没有完善过,
-各种神奇故事一直在发生;
-但或是能给人以信心的可能就是,&amp;nbsp;司法在进步Orz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200907&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.007.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4129&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Google 比金山软件成立还要晚整整10年;
-但前者已在为人类而努力了,
-可金山依然为生存在和盗版软件博斗;
-这中间一定发生了什么不科学的事儿.
-对比 WePhone 创始人被自杀,
-好象明白了:
-如果中国软件工程师,
-会被这种 &lt;span class=&quot;caps&quot;&gt;PUA&lt;/span&gt;&amp;nbsp;骗到死那么&amp;#8230;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200908&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.008.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4130&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;建国时八成人口是文盲,
-而当时所谓识字就是能写出自己的姓名而已;
-66年开始大规模扫盲,
-很短时间里就将识字率提高到90%以上,
-当然还是只能写出姓名而已;
-现今拥有本科以上学历有2亿;
-其中能编程的1%左右?
-不会编程在AI时代得算文盲了吧?&amp;nbsp;学起来嗨.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200909&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.009.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4131&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;蟒营®编程思维提高班 Python版/12期教师节优惠
-还有最后42小时: 10号前报名,&amp;nbsp;再减420元&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;有推荐&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;242&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;在校生&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;元&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组团&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;人及以上&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;联系&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;直接商议&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意: 以上优惠不可叠加)&amp;nbsp;赶快报名&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200910&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.010.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4132&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;去年应景回顾:灵魂导师 &lt;span class=&quot;caps&quot;&gt;RMS&lt;/span&gt;
-https://blog.101.camp/dm/190910-rms-soul-master/
-然后就引咎辞职了&amp;#8230;
-其实打小老爸就断言俺不适合当老师;
-可世事难料现在运营网课;
-其实反转了教学和学员一起开发而已&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200911&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.011.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4133&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当年9.11时,
-正在哈尔滨出差,
-入夜微博突然炸锅,
-那时还没功夫网,
-随即就看到了外媒视频;
-第一反应是窃喜:丫世界警察终于遭报应了.
-现在随时有可能被拖入战争,&amp;nbsp;才后怕起来;&lt;/p&gt;
-&lt;p&gt;地球仅此一粒,
-&lt;span class=&quot;caps&quot;&gt;WWIII&lt;/span&gt; 必然是最后一次,
-因为不可能有然后了&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200912&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.012.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4134&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;月饼事件其实直到今天都在影响着整个中华技术圈:
-企业文化是什么?
-文化指挥技术嘛?
-技术漏洞有道德属性嘛?
-技术人为毛会贪图月饼?
-&amp;#8230;
-而飞飞团队发现 &lt;span class=&quot;caps&quot;&gt;AI&lt;/span&gt; 会歧视,
-也从旁证明,
-无论什么技术,
-终究是人来实现/执行/实施的,&amp;nbsp;无视人的属性必有问题.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200913&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.013.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4135&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;64年前5M的硬盘得上吨重,
-且体积大到装得下姚明;
-现在5T的机械硬盘也不过一罐可乐的重量,
-体积最多挤得下两包香烟;
-可以说,
-人类社会变化的速度,
-远远超过了人自己的适应速度;
-诱发各种不开心,
-怎么办?
-远离社会寻回平静,&amp;nbsp;或成为社会变化本身.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200914&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.014.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4136&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;藏獒之前有郁金香/君子兰/邮票/&amp;#8230;
-太多抄到崩盘的市场了;
-原因现在看很简单:击鼓传花,
-嘦不砸在自己手里就是白赚;
-毕竟从根儿上普通人实在没有什么投资机会;
-现在的p2p/数字币/&amp;#8230;很多也是相似故事在流通;
-如何对抗?&amp;nbsp;自己有创造活动就不易迷妄.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200915&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.015.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4137&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;一生悬命FAST,
-一个人,
-这一生,
-能真正作成一件自己想作的大事儿;
-太不容易了.
-目测南老的故事,
-以后一定有电影作品,
-这简直就是真实的红岸;
-只是,
-国内相关报道比三体的还要少;
-以及 &lt;span class=&quot;caps&quot;&gt;SETI&lt;/span&gt;@home 和 &lt;span class=&quot;caps&quot;&gt;BOINC&lt;/span&gt;&amp;nbsp;这才是更加科幻的现实.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200916&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.016.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4138&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;140年前左中堂就为中国开办了第一家现代工厂,
-仅4年就倒闭,
-完备演示了现代企业的短寿;
-老话也有曰:创业难/守业更难;
-原因很反直觉:
-创业本质上就是破坏~破坏掉旧东西,临时搞个能用的新玩意儿;&amp;nbsp;守业才是持续不断的建设~建设过程中最大的敌人却是自己呢.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200917&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.017.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4139&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;26年前,
-Musk 还没计划上火星时,
-科学家已经尝试过人类在类地球重力中长期生存的可能性,
-很小&amp;#8230;
-地球这个生物圈的形成太奇迹了,
-我们竭尽全力也难以复制一小份儿出来;
-所以有流浪地球之方案,
-原因就是基本不可能人造出再一份完美的地球生态了&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200918&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.018.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4140&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;每年有多少城市会鸣镝示警?
-在很多城市生活过,至今只在珠海听到过;
-为什么是广东小城决定不忘当年东北触发的国耻?
-你所在城市今天有拉响防空警报嘛?
-欢迎留言注明;
-另外,
-担心如果女儿问起来为什么今天要响警报?
-应该如何回答合适/合格/合理?&amp;nbsp;在线等&amp;#8230;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200919&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.019.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4141&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原来 ;-) 也有38岁了.
-益rz 就年轻的多;
-这类网络语言在所有语种中都有快速迭代,
-不过,
-应该注意到,核心主体还是英文字母,
-或是说 &lt;span class=&quot;caps&quot;&gt;ASCII&lt;/span&gt; 码,
-毕竟这是唯一不依赖任何特殊软/硬件就可以用标准键盘在所有系统中直接输入的;&amp;nbsp;文化垄断就在身边.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200920&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.020.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4142&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;蟒营®编程思维提高班 Python版/12期报名最后42小时&amp;nbsp;可用优惠:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;有推荐&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;242&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;可写&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;在校生&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;元&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组团&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;人及以上&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;联系&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;直接商议&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意: 以上优惠不可叠加)&amp;nbsp;赶快报名.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200921&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.021.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4143&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当前漂流队是真艰苦,
-而且触发原因不过是传说有国外探险队将首漂;
-深层原因不过是不自信,
-泱泱大国一条江被别人先涮过又如何?
-甚至08年奥运会这种不自信才稍稍缓解了点;
-真正消解,
-还是各种中国大爷大妈全球刷支付宝刷好的.
-所以,
-民族的才是世界的&amp;nbsp;益rz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200922&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.022.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4144&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;老友记10季236集,
-其前之后再无同等剧集出现,
-几乎一次性将现代城市中最温柔最真诚全部采集转化为最平淡的故事;
-3对青年男女10年的普通日子,
-为什么如此难以替代?
-甚至于,至今还有网课鼓吹英语技巧就是刷透背熟 friends;
-无它,克制尔&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200923&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.023.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4145&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;任天堂竟然成立131年了,
-而且电子游戏硬件制造是在人家成立快100年时才进入的领域;
-对比胡泳新书:&amp;#8221;数字位移&amp;#8221;中比对 Apple 分析 Sony 败落原因;
-不胜唏嘘,
-一个企业的所谓基因,
-说穿了就是企业文化,&amp;nbsp;文化不过是制度,约束必须关心什么而已.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200924&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.024.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4146&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;人民大会堂落成隔年,
-核动力航母就下水了,
-同时还有另外上百艘航母,
-随时可以陈列天津港外,
-轰炸天安门&amp;#8230;
-而且同年又是三年自然灾害,
-中国还无法接受援助&amp;#8230;
-就是在那种压力下,
-新中国扛过来了,
-而且现在 &lt;span class=&quot;caps&quot;&gt;GDP&lt;/span&gt; 超过世界绝大多数国家;&amp;nbsp;只能拜服.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200925&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.025.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4147&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;C网可能多数人没听说过,
-当年俺是常州网点管理员,
-专门去成都培训过;
-是有位教授用VB硬生生独立开发出来的:
-基于电话线路,专有软件,人工运维形成内容网络;
-面向企业,代为制作网站,人工/定时同步&amp;#8230;
-等于是由专用软件形成的企业黄页;&amp;nbsp;差点儿成势Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200926&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.026.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4148&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;大和银行应该是 半泽直树 故事原型吧?
-当年追剧时总感觉银行 晴天送伞雨天收伞 好象哪里有不对;
-后来接触量化交易才发现,
-这根本是最安全粗暴的保守策略;
-简直就象巴甫洛夫发现的条件反射现象一样;
-学习其实是打破先天各种条件反射,&amp;nbsp;训练出全新反射模式而已.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200927&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.027.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4149&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;32年前咱们就有潜射东风快递的能力了哪.
-怪不得那之后,
-各种国际合作就多了起来,
-也放开了国外旅游&amp;#8230;
-毕竟整个地球已经没什么力量可以简单扼制中国了.
-这也是最强大的武器只能存在于发射架上的原理.
-好象架构师也是类似这种作用;&amp;nbsp;反正有人撑,先浪起来.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200928&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.028.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4149&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;今天就是孔子诞辰2567周年;
-一个人能被纪念这么长时间,
-就是儒家倡导的立德/功/言;
-当然,还得依赖中国史官长期制度化记录,
-这样才能形成日期实证;
-这点其它多数民族根本作不到;
-可惜中华史官也是家传手艺,&amp;nbsp;现代普通人编程学习中都不知道如何作笔记Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200929&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.029.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4150&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;贺元帅的事儿不敢多谈.
-就说天宫一号,
-之前有网友猜这些给大家看的都是中国航天表面成果,
-其实早在月背建造了战备基地和Nazi太空党以及美苏在制衡;
-杨立伟们因为成绩不好才被露脸表演进展;
-这类脑洞美剧都拍出来了:
-太空部队 Space Force&amp;nbsp;益rz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200930&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.030.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4152&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;66年前,
-第一个5年计划还没结束,
-美国核动力潜艇就服役了,
-意味着至少再3年前已建造,
-又再10年前就开始设计论证&amp;#8230;
-这种科技代差,
-就象用手机去拍摄非洲土著
-幸好,
-互联网时代知识/技术流通比以往更流畅,
-嘦用心就能赶超,&amp;nbsp;其中编程实在得练Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200931&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-04-zq42-today-card-2009.031.jpeg&quot; /&gt;&lt;/p&gt;</content>
-		<author>
-			<name>ZoomQuiet</name>
-			<uri>https://blog.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">zoom.quiet</title>
-			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
-			<id>https://blog.zoomquiet.io/</id>
-			<updated>2021-09-14T16:42:24+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">呢喃s/ 20.8</title>
-		<link href="https://blog.zoomquiet.io/200801-ZoomQuiet-MurMur-collection.html"/>
-		<id>tag:blog.zoomquiet.io,2020-08-01:/200801-ZoomQuiet-MurMur-collection.html</id>
-		<updated>2021-09-04T08:02:27+00:00</updated>
-		<content type="html">&lt;h2 id=&quot;at-20208&quot;&gt;呢喃 at 2020.8&lt;a class=&quot;headerlink&quot; href=&quot;https://blog.zoomquiet.io/feeds/all.atom.xml#at-20208&quot; title=&quot;Permanent link&quot;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不为什么,&amp;nbsp;就这么开始了日历卡连载&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;200801&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.001.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/&lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4092&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;从甲午海战开始算,
-中国军队仅用了80年,
-就将科技树爬到足够高度,
-自行制造出来了核潜艇;
-这是当年水师提督丁汝昌绝对无法想象的武器,
-从只能采购英舰到自主设计建造,
-这期间付出的努力,
-普通人是无法想象的;
-却又是必须先想象才能追赶的.&amp;nbsp;故,想象力赛高.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200802&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.002.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4093&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;无论拿破仑|希特勒以及其它,
-历史反复证明过,
-西方民主并不美好万能,
-不过是人类探索至今可能是最不坏的一种.
-毕竟沉默的大多数并不能简单的聚集成一个超越所有精英的智慧体;
-当然类似 Neuralink 的脑机接口真正普及后,&amp;nbsp;也许肉脑网中能诞生人造超神?&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200803&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.003.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4094&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;151年前凡尔纳/海底两万里小说中提出的设想,
-仅仅过了89年,
-就被人类实现了.
-要知作者所在时代远洋舰还是木制的,
-而且人类第一艘潜水艇也叫&amp;#8221;鹦鹉螺&amp;#8221;号,
-都是致敬仰凡尔纳;
-If We Can Dream It, We Can Do It.&amp;nbsp;是真理.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200804&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.004.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4095&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;蟒营®编程思维提高班 Python版/11期已开始报名;
-特别优惠: 8.1.7&amp;nbsp;首周报名,再减420元;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;有推荐&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;281&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;在校生&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;元&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组团&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;人及以上&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;联系&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;直接商议&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意:&amp;nbsp;以上优惠政策不可叠加;-)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200805&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.005.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4096&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;还有多少人懂这梗?&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;&amp;quot;千钧霹雳开新宇&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;川建国一直在所有领域张贴大字报/发推;
-神奇的是和当年效能类似.
-TikTok 就将要&amp;#8230;
-嗯哼?
-可能触动有关?
-那么怀念一下最成功的天使投资者:恩格斯,&amp;nbsp;他的资助引发社会变化程度是其它所有投资人无法想象的Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200806&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.006.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt; 4097
-蟒营®编程思维提高班 Python版/11期已开始报名;
-特别优惠最后一天: 8.1.7 首周报名,&amp;nbsp;减420元;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;有推荐&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;281&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;在校生&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;元&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组团&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;人及以上&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;联系&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;直接商议&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意:&amp;nbsp;以上优惠不可叠加)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200807&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.007.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4098&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;普通人关注到斯坦尼斯拉夫,
-一般都是通过星爷的电影;
-可见专家无论多著名,
-想被大众知晓得有机缘;
-互联网好象提供了这种渠道,
-但想传播起来不比在专业领域中获得认可简单,
-毕竟互联网的记忆只有7秒,
-就看你为这7秒愿意付出多大代价了;
-故,&amp;nbsp;有趣是种奇迹.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200808&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.008.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4099&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;洪荒之力居然已经有4年历史了?
-感觉就是昨天的事儿.
-网络用语向现实加载的进程越来越快了,
-或是说 cyberspace 和真实融合越来越快了.
-以往说的网络素养也许已经落伍,
-得有编程/数据思维,
-以及对应能力.&amp;nbsp;否则被数字时代超越只能变成眷养对象Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200809&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.009.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4100&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;新加坡成立比新中国还要晩16年,
-当年作为亚洲四小龙之首可是整个中国要学习的对象.
-当然,后来大陆经济学家们终于反应过来了.
-坡村面积/人口/经济体量都不大,
-无论怎么折腾对世界影响都有限,
-而中国制造一上劲儿,
-卖什么什么便宜买什么什么贵是一定的&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200810&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.010.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4101&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;18年前中国就已经完成过 &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; 设计/制造.
-然而,
-不知道为何,
-至今,
-民用计算设备中CPU 国产化还是没迹象,
-当然,
-硬要说台湾省制造也算中国的,那没问题了.
-但是,
-稍微了解芯片工艺就知,
-仅光刻机中的步进电机制造难度都是神话级别的&amp;nbsp;Orz..&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200811&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.011.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4102&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;从斯巴达勇士到解放军,
-中间有1500多年,
-但是面对绝境时,反人性的信念以及绝然的坚持却是相同的.
-蟒营®编程思维提高班 Python版/课程中,
-学员刚接触编程,
-无法忍受任何失败,
-导致放弃;
-还是太看轻编程.
-错以为应该轻松,&amp;nbsp;改变这点,受益终身.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200812&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.012.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4103&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;物理4大神兽:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;芝诺的乌龟/&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;拉普拉斯兽/&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;麦克斯韦妖/&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;薛定谔的猫;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;全是思维实验产物,
-也证明想象力最重要,
-太多时候想不到就作不到;
-编程就比较诡异,
-编程思维所有人都具备,却都坚信自己不会,
-而开始学又不编程,
-无法忍受终端上给出的报错信息&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200813&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.013.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4104&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当年亩产放卫星,站在稻苗上的孩子今天应该是耻于谈及当年行为的.
-但是,
-现在各种编程图书/课程已经从当年21天精通XXX进化到
-&amp;#8220;XXX看这一篇就够&amp;#8221;.
-难道小编们不知道这是不可能的?
-编程只能通过编程掌握,&amp;nbsp;就象只看视频/教材而不下水不可能学会游泳一样.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200814&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.014.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4105&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;若要人不知,除非己莫为.
-731部队在华实施半个世纪后,都能找到实锤,
-可见凡是行为皆有痕迹.
-这也证明实际上根本就没&amp;#8221;隐私&amp;#8221;这种东西,
-只有成本过高而不值得探查的私人数据而已.
-隐字当动词时指隐瞒权;&amp;nbsp;但越来越多有关自己但却无法理解的数据算谁的&amp;#8221;隐私&amp;#8221;?&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200815&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.015.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4106&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;美金是49年前的今天开始名不副实的.
-但美国却是从那天开始真正腾飞的.
-原因很简单:
-那天开始,
-美国梦才真正开始被经营,
-之前单纯的追求市盈率,
-然后发现市梦率更加伟大;
-于是将货币和抵押货分离,
-而绑定为对美国的信心;&amp;nbsp;而对信心的营造比制造容易多了.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200816&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.016.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4107&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;还在用米4的举手.
-这周&amp;#8221;一往无前&amp;#8221;演讲和图书发行很是火了一下.
-而其实对于手机操作系统,
-真没什么要求,
-稳如狗就好.
-毕竟大家平时用的并不是OS,
-而是那几个日常应用而已.
-MIUI发展至今也没敢和原生安卓相差太多,
-唯一不变的还是专心发烧.&amp;nbsp;益rz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200817&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.017.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ Nn&amp;nbsp;4104&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;国家层面的三角债从改革开始用了14年才基本清理完毕.
-而普通人每天都也都被迫应对经典现实三角债:
-目标-能力-资源
-一般情况下无法短期进行提升的只有能力,
-而能快速降低要求的当然是 目标-资源 
-导致多数人一直在坠落,
-毕竟最不费事儿.&amp;nbsp;怎么破?持续学习吧&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200818&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.018.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4109&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;80年前,
-三年自然灾害期间,
-美苏先后就已部署了实用侦察卫星,
-中国无论哪种导弹都无法防止每天定期太空窥探.
-好在只有少数人知道这个事实,
-多数还在挣扎求生存.
-技术代差形成的对比就是这么魔幻.
-好在我们学习能力是无限的,
-嘦想总是能理解并追赶上&amp;nbsp;Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200819&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.019.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4110&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;未来已经来/只是不平均.
-早在13年前,
-海湾战争中武装机械人就已投入实战;
-Tesla 自动驾驶也是那年开始研发,
-真实上路已有6年;
-可见嘦进入 Cyber 世界,
-能力就能高速迭代.
-问题只是:如何将现实问题拉入电子世界?&amp;nbsp;这才是程序员真正魔力所在.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200820&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.020.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4111&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;无论孔明当年多聪明,
-也不可能想象得出1839年后,
-人类能制造出炸平整个城市的单一武器.
-正如 Clarke 第三定律所曰:
-任何足够先进的技术都无异于魔法.
-但是技术在高速发展,
-不想被超越变成生活在现代的原始人,
-只能继续学习,
-跟上时代&amp;nbsp;(￣▽￣)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200821&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.021.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4112&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;123年前 Heroin 刚刚发明时,
-是作为非处方药甚至是保健食品进行海量发售的,
-类似的作死行为还有 镭 ,
-当初如果化妆品/食品中不声明含 镭 根本卖不火.
-可见商家为了利润多么狂妄,
-人民的眼睛是多么&amp;#8221;雪亮&amp;#8221;.&amp;nbsp;毕竟人们习惯只看到自己想看到的Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200822&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.022.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4112&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;蟒营®编程思维提高班 Python版/11期
-最后42小时报名&amp;nbsp;系列优惠:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;有推荐&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;281&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;在校生&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;元&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组团&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;人及以上&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;联系&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;直接商议&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(注意: 以上优惠不可叠加;-)&amp;nbsp;报名统一全款付费,报名结束后退惠.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200823&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.023.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4114&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;蟒营®编程思维提高班 Python版/11期\
-报名最后一天;&amp;nbsp;系列优惠:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;有推荐&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;281&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;在校生&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;再减&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;元&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组团&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;人及以上&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(联系 ZoomQuiet 直接商议)
-(注意: 以上优惠不可叠加;-)&amp;nbsp;统一先全款付费,报名结束后退惠.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200824&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.024.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4115&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;世界唯一不变的就是变化了&amp;#8230;
-小时死记的太阳系9大行星,
-早已没了冥王星,
-原因在人类认知能力和装备在高速发展,
-越来越多超越自然感观的发现了,
-通过发明工具,
-人类无限拓展了感知能力.
-软件是作为倍增器而作用的,
-因为能将物质世界抽象为信息了&amp;nbsp;Orz.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200825&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.025.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4116&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Linux 系统发布整整29年了,
-可感觉不止;
-第一次知晓在97年,
-购买发行版在99年,
-首次自行安装成功却到01年了.
-真正日常使用是04到11年,
-最后还是入了 mac 教,
-各种习惯/配置倒都是从 Ubuntu 继承过来的;
-感恩 Linus&amp;nbsp;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200826&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.026.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4117&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span class=&quot;dquo&quot;&gt;&amp;#8220;&lt;/span&gt;表叔&amp;#8221;事件教育我们,
-监控继续加强,
-总有一天人类全体将置身于不间断监察之中.
-到时就算学会🐢息术也没用,
-毕竟红外/次声波等视觉外探测技术能同时进行,
-除非控制自己的潜意识以及梦境,
-否则,
-一切反社会思想都将扼杀在爆发前.&amp;nbsp;此般大同世界尔等可持否?&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200827&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.027.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4118&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;北图竟有108年历史了;
-不过多数时间并不接待普通市民而已.
-其实进入3G时代后,
-图书馆的意义已经不大了;
-google 图书计划虽然遭到抵制,
-但是已经高速完成了几千万册图书的电子化;
-有力的证明了如何解放&amp;#8221;被禁锢在无数图书中人类智慧&amp;#8221;;&amp;nbsp;难道不是?&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200828&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.028.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4119&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;刚刚刷完晨间剧:花子与安妮
-讲述儿童文学翻译家村冈花子的一生;
-很套路也很感人;
-NHK从61年开播的晨间剧一直专注挖掘大时代背景中女性形象,
-其中最熟悉的应该是阿信了.
-而类似传奇女主中国也不少,
-比如清华首位女教授,
-但为什么 &lt;span class=&quot;caps&quot;&gt;CCTV&lt;/span&gt;&amp;nbsp;无有类似剧目?&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200829&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.029.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200830&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.030.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4121&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;新中国刚刚第9年,
-前苏联援建下,就已经开始运转原子反应堆;
-记得那时看的科普读物:十万个为什么,
-其中有一卷专门论述了各种战争场景中应对知识,
-包含热核/毒气/常规轰炸/&amp;#8230;
-可见当年国际形式比今天要严峻的多;
-但冷战后,&amp;nbsp;整体世界格局还是稳定的Orz&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;200831&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-15-zq42-today-card-2008.031.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;呢喃/ &lt;span class=&quot;caps&quot;&gt;NN&lt;/span&gt;&amp;nbsp;4122&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Win98 是当年最具影响力的操作系统了,
-哪儿想到22年后,
-已有16年不用 Windows 了;
-当初原因很简单:
-各种编程资料中示例截屏都是 mac 系统的,
-基本碰不到 Windows 环境的;
-后来囧事儿越来越多,
-也就彻底绝望拥抱流畅了&amp;nbsp;Orz&lt;/p&gt;</content>
-		<author>
-			<name>ZoomQuiet</name>
-			<uri>https://blog.zoomquiet.io/</uri>
-		</author>
-		<source>
-			<title type="html">zoom.quiet</title>
-			<link rel="self" href="https://blog.zoomquiet.io/feeds/all.atom.xml"/>
-			<id>https://blog.zoomquiet.io/</id>
-			<updated>2021-09-14T16:42:24+00:00</updated>
-		</source>
-	</entry>
-
-	<entry xml:lang="en-us">
-		<title type="html">gh extension gh-noti</title>
-		<link href="https://zhuzi.dev/2021/09/04/gh-noti/"/>
-		<id>https://zhuzi.dev/2021/09/04/gh-noti/</id>
-		<updated>2021-09-04T00:00:00+00:00</updated>
-		<content type="html">&lt;p&gt;之前看到 &lt;a href=&quot;https://github.blog/2021-08-24-github-cli-2-0-includes-extensions/&quot;&gt;GitHub 的博客介绍他们的官方命令行工具 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh&lt;/code&gt; 出了个新功能&lt;/a&gt;，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh extension&lt;/code&gt;, 可以自行扩展 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh&lt;/code&gt; 工具。&lt;/p&gt;
-
-&lt;p&gt;简单看了下例子，觉得好像还挺有趣的，也不算很难，正好有想要自己用的工具，就自己尝试也写了一个 extension，
-叫 &lt;a href=&quot;https://github.com/bambooom/gh-noti&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-noti&lt;/code&gt;&lt;/a&gt;，是为了方便查看有没有 unread notifications。
-每次去点&lt;a href=&quot;https://github.com/notifications&quot;&gt;那个 Notifications 页面&lt;/a&gt;总觉得加载挺慢。&lt;/p&gt;
-
-&lt;p&gt;我本以为可以自己直接用 nodejs 随便写写就可以了，仔细看文档和例子，才发现如果希望让别人能方便使用的话，
-最好还是 bash 脚本，适用范围最广。于是，不熟练 bash 的我就地现搜加各种抄别人的代码整了出来。
-另一个非常好用的工具是 &lt;a href=&quot;https://stedolan.github.io/jq/manual/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jq&lt;/code&gt;&lt;/a&gt;，值得学习。&lt;/p&gt;
-
-&lt;h3 id=&quot;简要文档&quot;&gt;简要文档&lt;/h3&gt;
-
-&lt;p&gt;扩展安装&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gh extension &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;bambooom/gh-noti
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;用法&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;GitHub CLI] extension to check unread notifications
-
-Usage:
-    gh noti             list all unread notifications
-    gh noti &lt;span class=&quot;nb&quot;&gt;read        &lt;/span&gt;mark all notifications as &lt;span class=&quot;nb&quot;&gt;read
-    &lt;/span&gt;gh noti &lt;span class=&quot;nb&quot;&gt;read&lt;/span&gt; &amp;lt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;   mark a thread with &amp;lt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; as &lt;span class=&quot;nb&quot;&gt;read&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;有想要 mark as Done 这种功能，但是发现 GitHub 没有暴露 API，所以做不成。
-其他的功能暂时没想到。&lt;/p&gt;</content>
-		<author>
-			<name>bambooom</name>
-			<email>zhuzi.mn@gmail.com</email>
-			<uri>https://zhuzi.dev</uri>
-		</author>
-		<source>
-			<title type="html">Bambooom</title>
-			<subtitle type="html">Personal Blog of Bambooom</subtitle>
-			<link rel="self" href="https://zhuzi.dev/feed.xml"/>
-			<id>https://zhuzi.dev/feed.xml</id>
-			<updated>2021-09-04T16:42:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">pythonista-weekly : Pyw 514</title>
-		<link href="https://weekly.pychina.org/python-weekly/pyw-514.html"/>
-		<id>tag:weekly.pychina.org,2021-08-27:/python-weekly/pyw-514.html</id>
-		<updated>2021-09-01T03:36:48+00:00</updated>
-		<content type="html">&lt;h3&gt;欢迎阅读《pythonista周刊》第514期。Let us start!&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://mailchi.mp/pythonweekly/python-weekly-issue-514&quot;&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-514&lt;/a&gt;&lt;br /&gt;
-翻译：Dustyposa&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;来自赞助商（PS：原文的赞助商）:&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.programmerweekly.com/?utm_source=pwad&amp;utm_medium=newsletter&quot;&gt;Get Your Weekly Dose of Programming&lt;/a&gt;
-A weekly newsletter featuring the best hand curated news, articles, tutorials, talks, tools and libraries etc for programmers. &lt;a href=&quot;https://www.programmerweekly.com/?utm_source=pwad&amp;utm_medium=newsletter&quot;&gt;Join For Free&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://tenthousandmeters.com/blog/python-behind-the-scenes-12-how-asyncawait-works-in-python/&quot;&gt;Python的背后故事#12：Async/await在Python中的工作原理&lt;/a&gt;
-并发性本身就很难，没有哪个编程模型可以让它变得简单。不过，有些模型可以使它变得容易管理，这篇文章应该可以帮助你掌握这样一个模型-- &lt;code&gt;Python&lt;/code&gt; 的 &lt;code&gt;async/await&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://data.berkeley.edu/news/project-jupyter-celebrates-20-years-fernando-perez-reflects-how-it-started-open-sciences&quot;&gt;庆祝Jupyter项目成立20周年&lt;/a&gt;
-&lt;code&gt;Fernando Pérez&lt;/code&gt; 反思它是如何开始的，开放科学的影响和编码多样性的价值。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/dineshsonachalam/tech-courses-search-engine&quot;&gt;Tech Courses Search Engine&lt;/a&gt;
-学习如何使用 &lt;code&gt;Elasticsearch&lt;/code&gt;、&lt;code&gt;Python&lt;/code&gt;、&lt;code&gt;React+Redux&lt;/code&gt;、&lt;code&gt;Docker&lt;/code&gt; 和 &lt;code&gt;Kubernetes&lt;/code&gt; 创建一个实时技术课程搜索器。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://justdjango.com/blog/dynamic-forms-in-django-htmx&quot;&gt;Django Formsets Tutorial - Build dynamic forms with Htmx&lt;/a&gt;
-学习如何用 &lt;code&gt;Django&lt;/code&gt; 和 &lt;code&gt;Htmx&lt;/code&gt; 构建动态表单。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.zenrows.com/blog/mastering-web-scraping-in-python-scaling-to-distributed-crawling&quot;&gt;用Python掌握网络抓取技术。扩展到分布式抓取&lt;/a&gt;
-用每个域的自定义解析器建立你自己的分布式爬虫。发现新的页面并准确地存储你所需要的内容--所有这些都在300行以内。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.sonarlint.org/?utm_source=python-weekly&amp;utm_medium=paid&amp;utm_campaign=sonarlint&amp;utm_content=slhp-210826&quot;&gt;SonarLint Free and Open Source IDE Extension for Python Devs&lt;/a&gt;
-Working in VS Code, PyCharm, Visual Studio, or Eclipse? SonarLint helps you find &amp;amp; fix Code Quality and Code Security issues in your Python codebase! &lt;a href=&quot;https://www.sonarlint.org/?utm_source=python-weekly&amp;utm_medium=paid&amp;utm_campaign=sonarlint&amp;utm_content=slhp-210826&quot;&gt;Discover More&lt;/a&gt; SPONSOR&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://opensource.com/article/21/8/python-argparse&quot;&gt;用Python中的argparse解析命令行参数&lt;/a&gt;
-使用 &lt;code&gt;argparse&lt;/code&gt; 模块，在你的 &lt;code&gt;Python&lt;/code&gt; 应用程序中启用选项。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hackmd.io/@cgarciae/quantile-regression&quot;&gt;Quantile Regression&lt;/a&gt;
-一个简单的方法来估计机器学习的不确定性。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/writing-your-first-distributed-python-application-with-ray-4248ebc07f41&quot;&gt;用Ray编写你的第一个分布式Python应用程序&lt;/a&gt;
-本教程的目的是探讨。为什么要用 &lt;code&gt;Ray&lt;/code&gt; 进行并行化和分布式计算，如何开始使用 &lt;code&gt;Ray&lt;/code&gt; 以及分布式计算的权衡（计算成本、内存、I/O等）。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://medium.com/roivant-technology/building-dag-workflows-16d5c40f7789&quot;&gt;构建dag-workflows：一个Python工作流执行工具&lt;/a&gt;
-在这篇文章中，我们将走过导致建立我们自己的工作流协调工具的决策过程。我们将讨论我们的需求和目标、当前的产品状况，以及我们决定建立和开源的 &lt;code&gt;Python&lt;/code&gt; 包。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.pinecone.io/learn/locality-sensitive-hashing/&quot;&gt;Locality Sensitive Hashing (LSH): The Practical and Illustrated Guide&lt;/a&gt;
-The magic, theory, and practice of Locality Sensitive Hashing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://threeofwands.com/why-i-use-attrs-instead-of-pydantic/&quot;&gt;为什么我使用attrs而不是pydantic&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://death.andgravity.com/query-builder&quot;&gt;SQL query builder in 150 lines of Python&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.fotonixx.com/posts/design-a-camera-with-python-and-pyrayt/&quot;&gt;用Python和PyRayT设计相机：第一部分&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;有趣的项目、工具和库&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/tiangolo/sqlmodel&quot;&gt;SQLModel&lt;/a&gt;
-在 &lt;code&gt;Python&lt;/code&gt; 中的 &lt;code&gt;SQL&lt;/code&gt; 数据库，为简单性、兼容性和稳健性而设计。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/marceloprates/prettymaps&quot;&gt;prettymaps&lt;/a&gt;
-一套小型的 &lt;code&gt;Python&lt;/code&gt; 函数，用于从 &lt;code&gt;OpenStreetMap&lt;/code&gt; 数据中绘制漂亮的地图。基于 &lt;code&gt;osmnx、matplotlib&lt;/code&gt; 和 &lt;code&gt;shapely&lt;/code&gt; 库。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/mixxorz/slippers&quot;&gt;slippers&lt;/a&gt;
-在 &lt;code&gt;Django&lt;/code&gt; 中构建可重用的组件，而不需要写一行 &lt;code&gt;Python&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/electric-package-manager/electric&quot;&gt;Electric&lt;/a&gt;
-一个快速的、未来派的 &lt;code&gt;Windows&lt;/code&gt; 软件包管理器。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gitlab.com/jesseds/apav&quot;&gt;APAV&lt;/a&gt;
-APAV (Atom Probe Analysis and Visualization) 是一个用于分析和可视化原子探针断层扫描实验的 &lt;code&gt;Python&lt;/code&gt; 库。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/thomasantony/msl-apollo-entry-guidance&quot;&gt;msl-apollo-entry-guidance&lt;/a&gt;
-美国宇航局 &lt;code&gt;MSL&lt;/code&gt; 航天器使用的阿波罗进入引导算法的 &lt;code&gt;Python&lt;/code&gt; 实现。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/anishathalye/neural-hash-collider&quot;&gt;neural-hash-collider&lt;/a&gt;
-针对 &lt;code&gt;NeuralHash&lt;/code&gt; 的 &lt;code&gt;Preimage&lt;/code&gt; 攻击。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/YehLi/xmodaler&quot;&gt;X-modaler&lt;/a&gt;
-&lt;code&gt;X-modaler&lt;/code&gt; 是一个用于跨模式分析的多功能和高性能的代码库。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/IlanKalendarov/PyHook&quot;&gt;PyHook&lt;/a&gt;
-&lt;code&gt;PyHook&lt;/code&gt; 是一个用 &lt;code&gt;python&lt;/code&gt; 编写的进攻性 &lt;code&gt;API&lt;/code&gt; 钩子工具，旨在捕捉 &lt;code&gt;API&lt;/code&gt; 调用中的各种凭证。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Totoro97/NeuS&quot;&gt;NeuS&lt;/a&gt;
-一种新型的神经表面重建方法，用于从二维图像输入中高保真地重建物体和场景。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/datarootsio/fresh-coffee-listener&quot;&gt;Fresh-Coffee-Listener&lt;/a&gt;
-Using a raspberry pi, we listen to the coffee machine and count the number of coffee consumption.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gitlab.com/stavros/harbormaster&quot;&gt;Harbormaster&lt;/a&gt;
-&lt;code&gt;Harbormaster&lt;/code&gt; 是一个小工具，可以让你在一台主机上轻松部署多个 &lt;code&gt;Docker-Compose&lt;/code&gt; 应用程序。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/mwshinn/paranoidscientist&quot;&gt;paranoidscientist&lt;/a&gt;
-&lt;code&gt;Python&lt;/code&gt; 中科学软件的运行时软件验证和自动测试&lt;/p&gt;
-&lt;h3&gt;活动&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-Edinburgh/events/280303626/&quot;&gt;Virtual: PyData Edinburgh Sept 2021&lt;/a&gt;
-将会有一个讲座，在谷歌云中使用 &lt;code&gt;Kafka、Apache Beam、TFX&lt;/code&gt; 和 &lt;code&gt;Vertix AI&lt;/code&gt; 的实时 &lt;code&gt;NLP&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/PyData-Copenhagen/events/280036373/&quot;&gt;PyData Copenhagen Sept 2021&lt;/a&gt;
-将会有一个讲座，使用 &lt;code&gt;Prefect&lt;/code&gt; 在 &lt;code&gt;Python&lt;/code&gt; 中构建数据管道。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/dfwpython/events/274966443&quot;&gt;Virtaul: DFW Pythoneers Sept 2021&lt;/a&gt;
-将会有一个关于离散正态下降的讲座，它将图像处理与牛顿物理学相结合，通过模拟管理动量和速度的简化规则集，从自然界的混乱中创造出令人惊叹的视觉效果。&lt;/p&gt;
-&lt;p&gt;Posa：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(Posa私人无责任播报)  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;----- 分割线 -----&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果你发现哪里翻译有误的话，请务与我联系！感谢！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/python-weekly/pyw-514.html&quot;&gt;pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;改进: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23514.md&quot;&gt;issue-514.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>https://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>https://weekly.pychina.org/</id>
-			<updated>2021-09-08T08:43:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">PyCoder 488</title>
-		<link href="https://weekly.pychina.org/issue/issue-488.html"/>
-		<id>tag:weekly.pychina.org,2021-09-01:/issue/issue-488.html</id>
-		<updated>2021-09-01T03:36:30+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;IEEE#1 开发语言 -&amp;gt; Python&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/488&quot;&gt;PyCoder's Weekly - Issue #488&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;pycoder&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;210901 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;210901 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6935/web&quot;&gt;Python在IEEE“顶级编程语言”中排名第一&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;IEEE.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Python dominates as the de facto platform for new technologies” and “Learn Python. That’s the biggest takeaway we can give you from its continued dominance of IEEE Spectrum’s annual interactive rankings of the top programming languages. You don’t have to become a dyed-in-the-wool Pythonista, but learning the language well enough to use one of the vast number of libraries written for it is probably worth your time.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6920/web&quot;&gt;skybison: Instagram 的实验性能面向 Feenfield Python 实现&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/FACEBOOKEXPERIMENTAL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Skybison is experimental performance-oriented greenfield implementation of Python 3.8. It contains a number of performance optimizations, including: small objects; a moving GC; hidden classes; bytecode inline caching; type-specialized bytecode; an experimental template JIT.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6916/web&quot;&gt;如何在定义 Python 函数时使用可选参数&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll learn about optional arguments in Python and how to define functions with default values. You’ll also learn how to create functions that accept any number of arguments using args and kwargs.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Arguments&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-01-ScreenShot%202021-09-01%2010.42.51.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6910/web&quot;&gt;Python Project-Local 虚拟环境管理&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;HYNEK SCHLAWACK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;On UNIX-like operating systems you can have the Python equivalent of node_modules today, for every Python version, without changing your workflows.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6943/web&quot;&gt;谦虚的软件BUNDLE: Python Superpowers 2021&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;HUMBLEBUNDLE.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pick up the awesome programming potential of Python with software like Mastering PyCharm (2021 Edition) &amp;amp; Object-Oriented Programming (OOP) in Python. Pay what you want &amp;amp; support charity!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6917/web&quot;&gt;加入Pycon US 2022团队!&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYCON US&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The PyCon US organizers are looking for motivated volunteers who want to contribute their time and knowledge to make this year’s conference a great success.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6921/web&quot;&gt;Python 3.9.7 和 3.8.12 现已推出&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CPYTHON DEV BLOG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;More info in the full changelog.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;探讨/吐糟&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6923/web&quot;&gt;math.sqrt vs numpy.sqrt vs x ** 0.5 性能讨论&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TWITTER.COM/KARPATHY&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Andrej Karpathy (Director of AI at Tesla) shares an interesting performance observation on this Twitter thread that turns into a tale about accurate benchmarking. Calculating math.sqrt(1337.0) appears to be 10x faster than numpy.sqrt(1337.0). Python’s built-in square root (x ** 0.5) appears to be even faster. However, most of the performance differences seem to come from the benchmark setup, as Ishan Bhatt explains in this writeup.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6909/web&quot;&gt;Apple Silicon Transition 的 Python 数据科学家指南&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;STANLEY SEIBERT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A break down of what Apple Silicon means for Python users today, especially those doing scientific computing and data science: what works, what doesn’t, and where this might be going.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6912/web&quot;&gt;150 行 Python 完成一个 SQL 查询生成器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ANDGRAVITY.COM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“This is the fourth article in a series about writing my own SQL query builder. Today, we’ll rewrite it from scratch, explore API design, learn when to be lazy, and look at worse and better ways of doing things – all in 150 lines of Python!”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6925/web&quot;&gt;用 scikit-searn 和 train_test_split() 拆分数据集&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn why it’s important to split your dataset in supervised machine learning and how to do that with train_test_split() from the widely used scikit-learn package.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Splitting&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-01-ScreenShot%202021-09-01%2010.16.17.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6914/web&quot;&gt;用 CircuitPython 和 Python 为微控制器的约束构建&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;podcast&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Can you make a version of Python that fits within the memory constraints of a microcontroller and have it still feel like Python? That is the intention behind CircuitPython. This week on the show, Scott Shawcroft, who is the project lead for CircuitPython.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;podcast&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-01-ScreenShot%202021-09-01%2010.15.43.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6927/web&quot;&gt;在 Python 中解析: 可以使用的工具和库&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GABRIELE TOMASSETTI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“We present and compare all possible alternatives you can use to parse languages in Python. From libraries to parser generators, we present all options.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;用  Python 编译一切语言,&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6928/web&quot;&gt;Django 中的低级缓存 API&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;J-O ERIKSSON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Caching in Django can be implemented on different levels (or parts of the site). This article looks at how to use the low-level cache API in Django.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;从根儿上缓存 Django 的一切?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6930/web&quot;&gt;幕后的Python: Async/Await 如何在 Python 工作?&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;VICTOR SKVORTSOV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“The async/await pattern can be explained in a simple manner if you start from the ground up. And that’s what we’re going to do today.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6931/web&quot;&gt;用 libsqlite3 直接从 python 与 ctypes&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/MICHALC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How to use ctypes to run SQLite queries without using the built-in sqlite3 Python package, and without compiling anything.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;等等,为什么不用编译?&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;for row in query('my.db', 'SELECT * FROM my_table WHERE a = ?;', ('b',)):&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    print(row)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;成果就是可以直接用 SQL 了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6945/web&quot;&gt;Python 处理环境变量&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;BOB BELDERBOS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6947/web&quot;&gt;在 Python 中模拟直接数字频率合成器&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;NASH REILLEY&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个音频模拟项目,
-用 Python 在内存中复活前苏联独有电子变音器吧&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6941/web&quot;&gt;kmk_firmware: 由 Python 支持的 Claction 键盘&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/KMKFW&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;嗯哼? 专用键盘驱动? Python 这么任性的?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6919/web&quot;&gt;ordered: Entropy-Controlled Contexts in Python&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/HYPERC-AI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6915/web&quot;&gt;gopygo: 纯粹 Python Go 解析器, AST 以及 Unparser Library&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/UP9INC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;也就是说, 可以直接用 Py 来自动生成 Go 代码了,
-等等, Py 本身内置 AST 为什么没有 Golang 来解析 Py 代码自动生成?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6949/web&quot;&gt;cattrs: 为 attrs 提供的复杂定制类转换器&lt;/a&gt;   &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/TINCHE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6937/web&quot;&gt;msl-apollo-entry-guidance: 用 NASA 的 MSL SpaceCraft 使用的 Apollo 进入引导算法的 Python实现&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/THOMASANTONY&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;apollo&quot; src=&quot;https://ipic.zoomquiet.top/2021-09-01-ScreenShot%202021-09-01%2010.06.16.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;叕一个薅NASA 经验的项目,
-不过, 这都是60年前的数据了,
-要不是 天宫 发射成功,
-照样不会公开...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6946/web&quot;&gt;pylectronics: 在 Python 中重现数字电子产品&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/FGARCI03&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6948/web&quot;&gt;sqlmodel: Python 中的 SQL 数据库, 专为简单，兼容性和鲁棒性而设计&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/TIANGOLO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;FastAPI 团队作品,
-基于 SQLAlchemy 给出更加 Pythonic 的 SQL 使用形式.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/gruns/icecream&quot;&gt;gruns/icecream: 🍦 Never use print() to debug again.&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;github&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;独创 logging + debug 模块&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://space.bilibili.com/272001170/&quot;&gt;沈崴的个人空间 -  ( ゜- ゜)つロ 乾杯~ Bilibili&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;哔哩哔哩&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;老司机开新坑, 时隔10年,
-沈游侠再次开声, 值得关注:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Bilibili&quot; src=&quot;httpstp://ydlj.zoomquiet.top/ipic/2021-01-06-ScreenShot%202021-01-06%2010.14.10.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-488.html&quot;&gt;Issue 488 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-488.md&quot;&gt;issue-488.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;PPS:&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不觉中蟒周刊快译已经到了第9个年头&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;去年开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
-从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
-&lt;p&gt;问为什么:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;[皱眉]每周新闻资讯 怎么能错过 &lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;看看有什么新东西 &lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;当有新的发现时：&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    what f**k 还能这样玩？ 还有这东西？&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    每周开彩蛋[吃瓜]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
-很多社区贡献看起来辛苦,
-其实受益最多的,
-就是主动承担者也.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;askdama@googlegroups.com&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF488D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF488D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;创始组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;GDG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;TFUG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>https://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>https://weekly.pychina.org/</id>
-			<updated>2021-09-08T08:43:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">PyCoder 487</title>
-		<link href="https://weekly.pychina.org/issue/issue-487.html"/>
-		<id>tag:weekly.pychina.org,2021-08-25:/issue/issue-487.html</id>
-		<updated>2021-08-29T08:48:12+00:00</updated>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;pdf 发票创建好模块 ~&amp;gt; borb&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/487&quot;&gt;PyCoder's Weekly - Issue #487&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;pycoder&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;210825 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;210825 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6900/web&quot;&gt;Python’s deque : 实现有效的队列和堆栈&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll learn about Python’s deque and how to use it to perform efficient pop and append operations on both ends of your sequences. Deques are commonly used to build queues and stacks.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;deque&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.26.55.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;堆和桟可以在一起.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6878/web&quot;&gt;你不知道存在的 25 个 Pandas 函式&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;BEX T.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Did you know that you can style the pandas DataFrame output in a notebook? This listicle covers twenty-five pandas functions that you may not have heard of, including .explode(), .squeeze(), and the pandas DataFrame styler. There’s something in this article for everyone, so read it to find out how you can take your pandas skills to the next level.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;和 Python 内建模块中无数遗珠一样,
-Pandas 集成数据科学界那么多年心头好,
-不是一般教材都知道这些专用函式的...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6892/web&quot;&gt;图数据科学和 Python 以及 NetworkX&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;FEDERICO ALBANESE &lt;/li&gt;
-&lt;li&gt;• Shared by Kevin Bloch&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Graph theory network analysis can yield deep data insights that are difficult to tease out via alternative methods. Get a taste of what graph analysis can do in this quick, hands-on tutorial that uses NetworkX to create and analyze a graph.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;关键优先结合 Jupyter 从而获得科研人员青睐&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6884/web&quot;&gt;Shamika Mohanan 已加盟 PSF 作为:Packaging Project Manager&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON SOFTWARE FOUNDATION&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;探讨/吐糟&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6901/web&quot;&gt;探索 Python Math 模块&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this step-by-step course, you’ll learn all about Python’s math module for higher-level mathematical functions. Whether you’re working on a scientific project, a financial application, or any other type of programming endeavor, you just can’t escape the need for math!&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;math&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.23.43.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;令人回忆中学数学的模块...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6893/web&quot;&gt;用 Python 和 Pyrayt 设计相机&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;RYAN FRAZIER &lt;/li&gt;
-&lt;li&gt;• Shared by Ryan Frazier&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Camera lenses are more complex than you might think. If you cut open a camera to look at a cross-section, you’d see that a lens is actually made up of several smaller lenses. This article explores how camera lenses work using a new Python raytracing project called PyRayT that’s designed for designing optical systems.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyRayT&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.22.46.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;通过程序自动分析光路来完成自动对焦...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6886/web&quot;&gt;用borb创建PDF发票&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;JORIS SCHELLEKENS &lt;/li&gt;
-&lt;li&gt;• Shared by Joris Schellekens&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Creating PDFs from scratch programmatically can be a challenge. There’s a new Python project called borb that aims to simplify PDF creation. Learn how borb works and how you can use it to create a PDF invoice in this tutorial from the project’s creator.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6879/web&quot;&gt;Python’s 赋值表达 and Fixing a Botched Release to PyPI&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;podcast&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Have you started to use Python’s assignment expression in your code? Maybe you have heard them called the walrus operator. Now that the controversy over the introduction in Python 3.8 has settled down, how can you use assignment expressions effectively in your code? This week on the Real Python Podcast, David Amos is back, and he’s brought another batch of PyCoder’s Weekly articles and projects.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;podcast&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.15.04.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6899/web&quot;&gt;用 Ray 构建第一个 分布式 Python 应用程序&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TOWARDSDATASCIENCE.COM &lt;/li&gt;
-&lt;li&gt;• Shared by Michael Galarnyk&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ray is a fast, simple distributed execution framework that makes it easy to scale your applications and to leverage state of the art machine learning libraries. Using Ray, you can take Python code that runs sequentially and transform it into a distributed application with minimal code changes.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Ray&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.10.53.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;弥缝儿 ~&amp;gt; Python 传统手艺&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6882/web&quot;&gt;networkx: Python中的网络分析&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/NETWORKX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;networkx&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.09.06.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;基于 matplotlib 而不是 Graphviz ...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6898/web&quot;&gt;Quantel: Quantsel Finance API 的官方Python包装器&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/RATHERBLAND&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/6883/web&quot;&gt;paranoidscientist: Python中科学软件的运行时软件验证和自动化测试&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/MWSHINN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;科学软件,基于确定数学公式,
-所以, 才能自动测试吧?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/6897/web&quot;&gt;PyRayT: 用于光学系统设计的 几何射线 跟踪包&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/RFRAZIER716 &lt;/li&gt;
-&lt;li&gt;• Shared by Ryan Frazier&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;PyRayT&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-ScreenShot%202021-08-25%2010.07.31.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;这么专业领域一样有 Pythonic &lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/gruns/icecream&quot;&gt;gruns/icecream: 🍦 Never use print() to debug again.&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;github&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;独创 logging + debug 模块&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://space.bilibili.com/272001170/&quot;&gt;沈崴的个人空间 -  ( ゜- ゜)つロ 乾杯~ Bilibili&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;哔哩哔哩&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;老司机开新坑, 时隔10年,
-沈游侠再次开声, 值得关注:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Bilibili&quot; src=&quot;httpstp://ydlj.zoomquiet.top/ipic/2021-01-06-ScreenShot%202021-01-06%2010.14.10.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.101.camp/ts/190130-jump-into-ssl/&quot;&gt;如何持证 (SSL) 开车 — 蟒营™ 怂怼录&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;UPYUN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;私人初体验,
-现在 http/https 资源混用浏览器越来越傲娇了,
-最好有工具可以统一迁移...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-487.html&quot;&gt;Issue 487 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-487.md&quot;&gt;issue-487.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;PPS:&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不觉中蟒周刊快译已经到了第9个年头&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;去年开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
-从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
-&lt;p&gt;问为什么:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;[皱眉]每周新闻资讯 怎么能错过 &lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;看看有什么新东西 &lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;当有新的发现时：&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    what f**k 还能这样玩？ 还有这东西？&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    每周开彩蛋[吃瓜]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
-很多社区贡献看起来辛苦,
-其实受益最多的,
-就是主动承担者也.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;askdama@googlegroups.com&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF487D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF487D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;创始组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;GDG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;TFUG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</content>
-		<author>
-			<name>Pythoneerm</name>
-			<uri>https://weekly.pychina.org/</uri>
-		</author>
-		<source>
-			<title type="html">蠎周刊</title>
-			<link rel="self" href="https://weekly.pychina.org/feeds/all.atom.xml"/>
-			<id>https://weekly.pychina.org/</id>
-			<updated>2021-09-08T08:43:13+00:00</updated>
+			<updated>2021-09-15T08:43:10+00:00</updated>
 		</source>
 	</entry>
 
