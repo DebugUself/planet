@@ -13,12 +13,54 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://zhuzi.dev/2021/10/23/1367-map/" />
 			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-10-20:/issue/issue-495.html" />
-			<rdf:li rdf:resource="tag:weekly.pychina.org,2021-10-13:/issue/issue-494.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://zhuzi.dev/2021/10/23/1367-map/">
+	<title>bambooooooom: map of 13.67</title>
+	<link>https://zhuzi.dev/2021/10/23/1367-map/</link>
+	<content:encoded>&lt;p&gt;幾年前就知道這本小說，&lt;a href=&quot;https://book.douban.com/subject/25897884/&quot;&gt;陳浩基的《13.67》&lt;/a&gt;，聽說作者就是港中大畢業的，然後就一早列入了想看的列表。
+但我已經很多年沒認真看書了（說真的，不管紙質還是電子書，都看不進去，連毫無負擔的網文甚至小基文我都很久沒看過了），
+所以也一直沒有真正行動過。
+直到今年，暴君讀過之後和我說，“我看到很多香港地名，可惜都不太熟悉，如果是你的話，估計可以直接觸景生情”。
+今年我也終於重新培養出好好讀書的耐心和習慣了，又加上這個契機，我立馬去買了書回來翻。
+沒拿到書之前還在想，我也很久沒看過豎版的繁體字的書了，會不會又堅持不下去。
+當然，這個疑慮在翻開書的 10 分鐘後就蕩然無存了，大概因為其實陳浩基是在台灣出版的，
+所以他寫的文總體還是會考慮的台灣讀者的。（我不知道這麼想對不對，就我感覺文章是用普通話可以輕易讀出來的）
+以前看過在香港出版的翻譯日本作家的小說，字詞的選用就會有點香港官方中文的彆扭生硬感，絕對不像是普通話能直接讀出口的。
+就像現在如果有在看我寫的這篇，我雖然用的繁體字，但我的語言習慣依然是普通話，類似這種感受。
+說回小說，雖然我的感受是如上，但其中也有很多特殊字眼、黑話等，還是有保留濃重的粵語語感，加上還有不少注釋，有些是我也不曾了解的細節。&lt;/p&gt;
+
+&lt;p&gt;就如暴君所說，看著好多熟悉的地名，多少想象得到那個畫面，加上近期還補了兩部 tvb，非常代入感。&lt;/p&gt;
+
+&lt;p&gt;既然很多人並不特別熟悉那些街道，那我就簡單標記一下地圖，就像作者後記裡說的那樣，如果有讀者想到故事裡的地點巡禮一下，他也會非常高興。&lt;/p&gt;
+
+
+
+&lt;h1 id=&quot;01-黑與白之間的真實&quot;&gt;01 黑與白之間的真實&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;東九龍總區總部&lt;/li&gt;
+  &lt;li&gt;將軍澳和仁醫院：非真實醫院，地圖上只標出了將軍澳地鐵站所在位置&lt;/li&gt;
+  &lt;li&gt;西沙小築：會住在西貢的人，一般也都是富人，畢竟出入估計都得開車，不通地鐵，開發較少，比較原生態。案發現場的豐盈小築估計是取名自這裡的西沙小築，沒想到西貢竹洋路倒是真實存在的。&lt;/li&gt;
+  &lt;li&gt;清水灣道：會發生墜崖事件的地點具體會在哪裡我就找不出來了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;此篇故事主要發生地點是東九龍（駱小明是東九龍重案組組長），將軍澳和西貢（其實屬於新界東），是我並不熟悉的區域。最後一次去將軍澳應該就正好是疫情前去香港看了快要下線的 Joker，就是因為快要下線，排片很少，才不得不跑到比較遠的將軍澳去。&lt;/p&gt;
+
+&lt;p&gt;然後清水灣屬於富人區，清水灣沙灘是熱門景點，但我只有 07 年第一次到香港時學校組織的活動有大巴安排去看過一次，之後那麼多年一次都沒有再去過。西貢的海也很美，但我的印象裡也只去過一次還是兩次，和清水灣一樣，都屬於比較遠，交通不算方便的地方。如果喜歡或想嘗試潛水之類的，在西貢的海這邊玩一定會滿意的。&lt;/p&gt;
+
+&lt;p&gt;我屬於不愛水上運動的，我對西貢最大的印象是和朋友第一次去的時候，去到了滿記甜品的總店。是很大的一家店，外表看上去很樸素，甚至長得像深夜大排檔，而非現在在大商場裡常見的精緻甜品店（10 多年前的照片還是諾基亞 N95 拍的，實在找不到了，沒想到當時店鋪特別樸素的樣子比現在能搜到的遊客照片有意思多了）。
+因為足夠大，當時的店還特別分開了兩個區域，榴蓮區和非榴蓮區，實在受不了榴蓮味道的顧客可以選擇坐到非榴蓮區，非常有意思。當時一夥的朋友裡，只有一個人完全不能接受榴蓮，就孤零零一個人跑去坐在非榴蓮區避難了🤣&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;to be continued…&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded>
+	<dc:date>2021-10-23T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://weekly.pychina.org/issue/issue-495.html">
 	<title>蠎周刊: PyCoder 495</title>
 	<link>https://weekly.pychina.org/issue/issue-495.html</link>
@@ -435,342 +477,6 @@
 
 &lt;hr /&gt;</content:encoded>
 	<dc:date>2021-10-20T03:32:17+00:00</dc:date>
-</item>
-<item rdf:about="https://weekly.pychina.org/issue/issue-494.html">
-	<title>蠎周刊: PyCoder 494</title>
-	<link>https://weekly.pychina.org/issue/issue-494.html</link>
-	<content:encoded>&lt;blockquote&gt;
-&lt;p&gt;TIOBE曰: Python 成为 #1 &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href=&quot;https://pycoders.com/issues/494&quot;&gt;PyCoder's Weekly - Issue #494&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;pycoder&quot; src=&quot;https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;211013 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;211013 &lt;a href=&quot;http://zoomquiet.io/&quot;&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7186/web&quot;&gt;TIOBE曰: 超越 C 和 Java, Python 成为 #1 最受欢迎的编程语言 &lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;SLASHDOT.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ZDNet reports that Python “is now the most popular language, according to one popularity ranking.” “For the first time in more than 20 years we have a new leader of the pack…” the TIOBE Index announced this month. “The long-standing hegemony of Java and C is over.”&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;很久没见 SLASHDOT/. 的消息了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7177/web&quot;&gt;Python C API: 添加函数以访问 pyObject&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;VICTOR STINNER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“The PyObject structure prevents indirectly to optimize CPython. We will see why and how I prepared the C API to make this structure opaque. It took me 1 year and a half to add functions and to introduce incompatible C API changes (fear!)”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Improve Inefficient App Code With Datadog Application Performance Monitoring&lt;ul&gt;
-&lt;li&gt;DATADOG&lt;/li&gt;
-&lt;li&gt;sponsor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Datadog’s Continuous Profiler allows you to measure code performance changes over time. Quickly identify and optimize the most time- and resource-consuming parts in your application code in order to improve MTTR and enhance user experience. 
-&lt;a href=&quot;https://pycoders.com/link/7166/web&quot;&gt;Give it a try with a free trial →&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7196/web&quot;&gt;用 Pygame 在 Python 中构建小行星游戏&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this course, you’ll build a clone of the Asteroids game in Python using Pygame. Step by step, you’ll add images, input handling, game logic, sounds, and text to your program.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Pygame&quot; src=&quot;https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2011.05.21.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7185/web&quot;&gt;探索 Python 3.10 的新功能&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;podcast&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Python 3.10 is here! This week on the show, two former guests and Real Python authors return to talk about the new features and changes in Python 3.10.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;podcast&quot; src=&quot;https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2010.59.19.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Py3.10 有组织的带节奏...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7176/web&quot;&gt;Python 3.10 有什么伟大?&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TREY HUNNER &lt;/li&gt;
-&lt;li&gt;• Shared by Trey Hunner&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7178/web&quot;&gt;Guido van Rossum on 提高Python的表现&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SOFTWARE AT SCALE podcast&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;晚年就得修正年轻时挖的坑&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;探讨/吐糟&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discussions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NIL&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7181/web&quot;&gt;Representing Rational Numbers With Python Fractions&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll learn about the Fraction data type in Python, which can represent rational numbers precisely without the rounding errors in binary arithmetic. You’ll find that this is especially important in financial and other high-precision applications.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7190/web&quot;&gt;用 print() 调试的技艺&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;ADAM JOHNSON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“If you’re embarrassed at debugging with print(), please don’t be - it’s perfectly fine! Many bugs are easily tackled with just a few checks in the right places. As much as I love using a debugger, I often reach for a print() statement first.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7171/web&quot;&gt;Python’s sum() : 求 SUM 值的 Pythonic 方法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll learn how to use Python’s sum() function to add numeric values together. You also learn how to concatenate sequences, such as lists and tuples, using sum().&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;sum&quot; src=&quot;https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2010.42.37.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7170/web&quot;&gt;理解 Python 的全部, 通过 Builtins&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;TUSHAR SADHWANI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;“Python has a whole lot of builtins that are unknown to most people. This guide aims to introduce you to everything that Python has to offer, through its seemingly obscure builtins.”&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7179/web&quot;&gt;如何使用 Python 生成 pdf&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MIKE DRISCOLL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn how to create a PDF with Python and ReportLab. You’ll learn about Canvas methods, PLATYPUS, Paragraphs, Tables and more.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;很多人学 Python 就是想来操作 Word 以便生成 pdf,
-其实可以直接来的.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7174/web&quot;&gt;用 lupa 将 LUA 代码集成到 Python 应用中&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;MARTY B&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;lupa&quot; src=&quot;https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2010.37.31.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;用 Lua 替代 C 变成 Python 的拓展组件来用.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7193/web&quot;&gt;New to Python: 如何管理架构选择?&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;STEVEN LOTT&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7173/web&quot;&gt;在 Python 3.10 中查找和报告 Asyncio 错误&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SIMON WILLISON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7184/web&quot;&gt;functools.partial() 在 Django 中三种姿势&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ADAM JOHNSON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7175/web&quot;&gt;videohash: Perceptual Video Hashing&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYPI.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;对视频内容完成 HASHing&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7188/web&quot;&gt;darker: Apply Black Formatting Only in Regions Changed Since Last Commit&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYPI.ORG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;darker&quot; src=&quot;https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2011.14.43.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;叒一个综合 PEP8 工具,
-只是, 这次只是针对 git diff 来检验.
-支持各种编辑环境的嵌入.&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7172/web&quot;&gt;prospector: 检查 Python 源文件&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/PYCQA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;一个综合各种 PEP8 工具的代码检验服务...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7189/web&quot;&gt;maryjane:  只有30行 Async Python 代码的MJPEG Server&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/BOOTRINO&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;配合:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;ffmpeg -y -re -stream_loop -1 -i monster-family-2-teaser_h480p.mov -f image2 -update 1 /dev/shm/img.jpeg&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;一键完成网页电影播放...&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;maryjane&quot; src=&quot;https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2010.33.39.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pycoders.com/link/7194/web&quot;&gt;poly: 通用文本转换/处理工具&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;GITHUB.COM/3DIGITDEV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;直接从 clipboard 中完成数据处理?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7183/web&quot;&gt;⋅ PyMNTos&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;October 14, 2021&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7192/web&quot;&gt;⋅ Python Atlanta&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;October 14, 2021&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7182/web&quot;&gt;⋅ Karlsruhe Python User Group (KaPy)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;October 15, 2021&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7180/web&quot;&gt;⋅ Chattanooga Python User Group&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;October 15 to October 16, 2021&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://pycoders.com/link/7200/web&quot;&gt;⋅ deploy by DigitalOcean&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;November 16 to November 17, 2021&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/gruns/icecream&quot;&gt;gruns/icecream: 🍦 Never use print() to debug again.&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;github&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;独创 logging + debug 模块&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://space.bilibili.com/272001170/&quot;&gt;沈崴的个人空间 -  ( ゜- ゜)つロ 乾杯~ Bilibili&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;哔哩哔哩&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;老司机开新坑, 时隔10年,
-沈游侠再次开声, 值得关注:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Bilibili&quot; src=&quot;httpstp://ydlj.zoomquiet.top/ipic/2021-01-06-ScreenShot%202021-01-06%2010.14.10.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href=&quot;http://weekly.pychina.org/issue/issue-494.html&quot;&gt;Issue 494 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href=&quot;https://github.com/PyChina/weekly/blob/master/content/Issue/issue-494.md&quot;&gt;issue-494.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;PPS:&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不觉中蟒周刊快译已经到了第9个年头&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;去年开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
-从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
-&lt;p&gt;问为什么:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;[皱眉]每周新闻资讯 怎么能错过 &lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;看看有什么新东西 &lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;当有新的发现时：&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    what f**k 还能这样玩？ 还有这东西？&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    每周开彩蛋[吃瓜]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
-很多社区贡献看起来辛苦,
-其实受益最多的,
-就是主动承担者也.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;askdama@googlegroups.com&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF494D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href=&quot;https://mp.weixin.qq.com/s/N5TuRRbF494D4Q90XdDA7g&quot;&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;私自嗯哼&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZoomQuiet42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;公开课程&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;蟒营&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mainium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;历史吐糟&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Chaos42&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PythoniCamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;创始组织者&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;PyChina&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyChinaOrg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;本地社区&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;GDG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GDG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ZhuHai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;TFUG珠海&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;订阅号&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ZH_TFUG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</content:encoded>
-	<dc:date>2021-10-13T03:17:29+00:00</dc:date>
 </item>
 
 </rdf:RDF>
