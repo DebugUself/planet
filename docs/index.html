@@ -23,6 +23,352 @@
 <h1>Planet DebugUself</h1>
 
 <div class="daygroup">
+<h2>November 14, 2021</h2>
+
+<div class="channelgroup">
+
+
+
+
+
+
+
+<h3><a href="https://blog.zoomquiet.io/" title="">zoom.quiet</a></h3>
+
+
+<div class="entrygroup" id="tag:blog.zoomquiet.io,2021-11-14:/211114M1max-re-inti-MBP.html">
+<h4><a href="https://blog.zoomquiet.io/211114M1max-re-inti-MBP.html">如何安定进入 M1maxMBP</a></h4>
+<div class="entry">
+<div class="content">
+<h2 id="background">background<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#background" title="Permanent link">¶</a></h2>
+<p>13年入的 <span class="caps">MBP</span> 坑,
+当时 17吋 顶配, 在 <span class="caps">MACAO</span> 实体店拿的;
+16年初突然不可用, 
+(后来检查才发现, 是长期使用功率不匹配的电源才反复导致主板出问题)
+急忙去 <span class="caps">MACAO</span> 新授权店拿了 13吋高配(i7,4核,16G内存,512G硬盘);
+因为是主力开发/日常用机,
+就没敢一直升级系统, 10.X 系列一直用下来;</p>
+<p>到今年下半年, 明显撑不住了:</p>
+<ul>
+<li><span class="caps">OBS</span> 录制 720P 以上视频, 撑不住10分钟就崩溃</li>
+<li>腾讯会议本地录制, 30分钟的内容要转换20分钟</li>
+<li>ffmpeg 进行视频处理, 几乎都是 0.42 倍率在进行</li>
+<li>docker 容器一启动就要等待3分钟</li>
+<li>…</li>
+</ul>
+<p>如此种种已经开始干挠日常工作/学习/创作/…</p>
+<p>怎么办? 磕金/升级呗…</p>
+<blockquote>
+<p>忍了一年…</p>
+</blockquote>
+<p>去年 M1 芯片 Air 一出来就想买的,
+但是, 大家都说 M1 还不成熟, 各种软件都要等待兼容…</p>
+<p>就忍着, 一直到10月, 一下子有了 M1pre/max,
+性能又翻倍了,
+立即入手: 14吋, M1max 10核, 64G 内存, 1T 硬盘;</p>
+<p>等了快三周, 终于到手, 如何开始安定迁入?</p>
+<h2 id="goal">goal<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#goal" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>最短, 最平滑, 进入, 折腾最少</p>
+</blockquote>
+<p>日常依赖其实并不多主要就几块儿:</p>
+<ul>
+<li>终端相关:<ul>
+<li>iTerm2 为界面</li>
+<li>bash v4.4.12 配合 bash_it 定制日常环境</li>
+<li>PyENV 管理多种 Python 运行时<ul>
+<li>conda 管理 Leo 安装运行时</li>
+</ul>
+</li>
+<li><span class="caps">RVM</span> 管理多种 Ruby 运行时</li>
+<li><span class="caps">NVM</span> 管理多种 Node 运行时</li>
+<li><span class="caps">ASDF</span> 管理多种 Elixir 运行时</li>
+<li>…以及各种 AliYun/Heroku/<span class="caps">AWS</span>/…依赖CLI 管理工具</li>
+<li>特别是 HomeBrew, 管理了超过200种 <span class="caps">UNIX</span> 实用工具</li>
+</ul>
+</li>
+<li>浏览器相关:<ul>
+<li>WaterFox 安装使用传统 Firefox 插件, 以便查阅积累超过15年, <strong>30+万</strong>网页的本地资源库 ~ 基于 Scrapbook 收集管理, 但是 Firefox 56.0 版本之后不再支持原有插件体系, 只能迁移到 <code>水狐</code> 继续</li>
+<li>Vivaldi 进行日常工作管理, 因为内置 <code>树状标签管理</code> 又兼容 Chrome 扩展而且没有 Google 广告</li>
+<li>Brave 进行日常探索学习, 也兼容 Chrome 扩展</li>
+<li>Edge 进行日常资源管理, 比如团队仓库/公众号/云资源/…兼容部分 Chrome 扩展</li>
+<li>Chrome 进行日常 Google 系工具使用, 核心就是 gmail</li>
+<li>Chromium 进行日常系统测试, 专门用以走查 web 系统功能</li>
+<li>以上浏览器都需要关键拓展来确保日常最基础可用:<ul>
+<li>SwitchyOmega ~ 快速代理切换工具, 以便使用不同网络来访问有关资源</li>
+<li>The Great Suspender Original ~ 自动将不活跃标签内存回收</li>
+<li>Create Link ~ 快速形成 Markdown 格式网地址文本</li>
+<li>Choosy ~ 快速将网址丢入其它浏览器/应用中加载</li>
+<li>…</li>
+</ul>
+</li>
+<li>…以及部分终端中无头浏览器辅助进行爬虫开发</li>
+</ul>
+</li>
+<li>开发相关:<ul>
+<li>XCode ~ 获得基本编译支持</li>
+<li>Sublime Text 3 ~ 获得快速编辑支持</li>
+<li>VScode ~ 获得综合开发支持</li>
+<li>DBeaver ~ 获得数据库管理界面</li>
+<li>Docker+VirtualBox ~ 虚拟主机支持</li>
+<li>…以及其它42+以上开发支持工具</li>
+</ul>
+</li>
+<li>媒体相关:<ul>
+<li><span class="caps">IINA</span>+<span class="caps">VLC</span> 看视频</li>
+<li><span class="caps">GIMP</span>+Inkscape 进行图片处理</li>
+<li>screenflow 进行视频编辑</li>
+<li>…以及其它42+以上媒体处理工具</li>
+</ul>
+</li>
+<li>系统相关:<ul>
+<li>muCommander ~ 日常双窗口资源管理, 通过快捷键提高文件管理效率, <span class="caps">JAVA</span> 实现可运行在所有系统中, 当年从 WindowsNT 平台开始就习惯了有关操作</li>
+<li>Display Menu ~ 快速调节不同显示器分辨率</li>
+<li>Lunar+Flux ~ 快速调节所有显示器亮度/对比度/…</li>
+<li>aText ~ 快速管理自定义常用短语</li>
+<li>iPic ~ 快速上传图片到图床, 获得 markdown 格式图片引用文本</li>
+<li>Spectacle ~ 窗口布局快捷键支持工具, 可以高效安排多窗口排列</li>
+<li>Bartender ~ 从2就开始付费使用, 现在已经到 v4, 可以将 menu bar 中应用图标管理, 折叠到子菜单中…</li>
+<li>Caffeine ~ 便捷激活 mac 系统不休眠</li>
+<li>…以及其它42+以上系统增强工具</li>
+</ul>
+</li>
+<li>办公相关:<ul>
+<li>iWork ~ mac 味儿 Office</li>
+<li>OpenOffice ~ linux 味儿 Office</li>
+<li><span class="caps">WPS</span> ~ 国产味儿 office</li>
+<li>XMind+Freemind ~ 思维导图支持</li>
+<li>yED+PlantUML ~ 流程图/架构图/… <span class="caps">UML</span> 味图谱支持</li>
+<li>Axure+蓝湖 ~ 产品设计支持</li>
+<li>微信/企业微信/<span class="caps">QQ</span>/Lark/zoom.us/Slack/… ~ 工作协同用工具栈</li>
+<li>…以及其它42+以上团队协作支持工具</li>
+</ul>
+</li>
+</ul>
+<p>以及所有涉及正版软件的许可证升级/配置/采购/…</p>
+<p>还有以往形成各种工程簇, 在本地不同目录入口中, 形成的对应快速<code>软链接</code> …</p>
+<h2 id="quickly">quickly<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#quickly" title="Permanent link">¶</a></h2>
+<p>以上所有, 都人工进行重新配置的话, 目测至少得一个月, 才能陆续到位, 毕竟是以往多年尝试/配置/选择的成果;</p>
+<p>如何简洁完成呢?</p>
+<p>(周5收到, 周1 就应该全面完成迁移, 以便投入日常工作)</p>
+<p>快速尝试了几个姿势:</p>
+<ul>
+<li>人工配置, 光是安装 iTemer2 进行基本配置:<ul>
+<li>字体</li>
+<li>颜色</li>
+<li>…etc, 就用了一小时</li>
+<li>那么多常用工具逐一配置到可用, 绝对无法简单完成</li>
+</ul>
+</li>
+<li>Time Machine ~ 常规推荐操作:<ul>
+<li>以往专门配置了个 1T <span class="caps">SSD</span> 移动硬盘来进行备份</li>
+<li>先用 4小时, 完成最新一次备份, 涉及40G 数据的更新</li>
+<li>然后, 使用 <code>迁移助理</code> ~ 死活无法发现这个非法 <code>时间机器</code> ?</li>
+<li>也可能, 用 10.X 系统备份的数据, 无法识别为 12.X 系统兼容时间备份</li>
+</ul>
+</li>
+<li>rsync ~ 之前从 Windows -&gt; Linux -&gt; <span class="caps">MAC</span> 的异种系统迁移过程中立过大功<ul>
+<li>用1小时, 将所有工作数据备份到另外移动硬盘中</li>
+<li>再开始尝试同步时, 想到这只能完成数据迁移, 最耗时的应用配置并没有涉及…</li>
+</ul>
+</li>
+<li>冷静一下, 搜索官方文档, 才发现:<ul>
+<li><a href="https://support.apple.com/zh-cn/HT204350">将内容迁移到一台新的 Mac 上 - Apple 支持 (中国)</a></li>
+<li><code>迁移助理</code> 这一实用工具有三种迁移姿势:<ul>
+<li>从另一台 Mac 或是 Time Machine 备份中转送数据</li>
+<li>从一个 Window 机器获得数据</li>
+<li>发送数据到另一台 Mac</li>
+</ul>
+</li>
+<li>老rMBP 保有所有正常使用环境和应用, 新 <span class="caps">M1MBP</span> 是目标机</li>
+<li>都打开 <code>迁移助理</code> <ul>
+<li>老rMBP 选择 <code>To another Mac</code></li>
+<li>新 <span class="caps">M1MBP</span> 选择 <code>From a Mac</code></li>
+<li>并明确对传送的帐号如何处理, 俺选择-&gt;<strong>创建新帐号</strong></li>
+<li>然后点 <code>继续</code> 完成安全配对后, 即开始 <code>点对点</code> 传输</li>
+<li>当然, 要先确保在同一个网络中</li>
+</ul>
+</li>
+<li>看起来可行, 开始:   </li>
+</ul>
+</li>
+</ul>
+<p><img alt="80万文件" src="https://ipic.zoomquiet.top/2021-11-14-ScreenShot2021-11-14%2023.32.28.jpg" /></p>
+<p>嗯嗯嗯…嘦10小时等一晩上就好,</p>
+<p>果然:</p>
+<p>༄  sudo du -hs *</p>
+<div class="highlight"><pre><span></span><code><span class="err">111M    Shared</span>
+<span class="err">265G    zoomq</span>
+<span class="err">4.2G    zoomquiet</span>
+</code></pre></div>
+<p>༄  who i am</p>
+<div class="highlight"><pre><span></span><code><span class="err">zoomq    ttys004      2021-11-14 18:58</span>
+</code></pre></div>
+<p>手工尝试时, 创建用户是 <code>zoomquiet</code> 仅仅完成 iCloud 主要数据同步,
+而 <code>zoomq</code> 是从 linux 时代, 使用超过 15 年的帐号,</p>
+<p>经过一夜自动转送, 合理同步了超过 450G 数据:</p>
+<p><img alt="450+G" src="https://ipic.zoomquiet.top/2021-11-14-ScreenShot2021-11-14%2023.37.06.jpg" /></p>
+<p>进入系统后发现, 基本所有习惯操作都可用, 只有少数几个要对应配置:</p>
+<ul>
+<li>关键的 WaterFox 无法打开 Scrapbook 收集的本地网页, 以及控制界面<ul>
+<li>搜索后, 尝试安装对应 <code>Waterfox Classic 2021.10</code> 版本</li>
+<li>替代原先使用的 <code>Waterfox Classic 2019.12</code></li>
+<li>只是, 专门为 M1 芯片开发的 <code>Waterfox.G4.0.2.1.ARM</code> 却也已经放弃了 FireFox 经典 <span class="caps">XUL</span> 扩展体系, 无法安装 Scrapbook 插件</li>
+</ul>
+</li>
+<li>Python 经常崩溃, 搜索后, 手工重建有关 openssl 两个核心模块的链接即可修复</li>
+<li>HomeBrew 要对应升级, 发现有大量失败, 要求先升级 XCode<ul>
+<li>正常升级</li>
+<li>并:<ul>
+<li>$ sudo xcode-select —install</li>
+<li>$ sudo xcodebuild -license accept </li>
+</ul>
+</li>
+<li>再来, 也就都流畅完成了</li>
+</ul>
+</li>
+</ul>
+<p><img alt="12G" src="https://ipic.zoomquiet.top/2021-11-14-WechatIMG36612.jpeg" /></p>
+<p>甚至于, 原先在 老 rMBP 每次安装要编译半小时的 ffmpeg 也无缝自动完成升级:</p>
+<p><img alt="10核 ffmpeg" src="https://ipic.zoomquiet.top/2021-11-14-ScreenShot2021-11-14%2020.53.00.jpg" /></p>
+<p>这一下子就有 <code>10核降重任</code> 感觉了 ;-)</p>
+<h2 id="murmur">murmur<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#murmur" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>记要关键增补指令过程…</p>
+<p>homebrew</p>
+</blockquote>
+<p><code>$ brew update</code></p>
+<div class="highlight"><pre><span></span><code><span class="err">...</span>
+<span class="c">Error:</span>
+<span class="c">  homebrew-core is a shallow clone.</span>
+<span class="c">  homebrew-cask is a shallow clone.</span>
+<span class="err">To `brew update`, first run:</span>
+<span class="err">  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow</span>
+<span class="err">  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow</span>
+</code></pre></div>
+<blockquote>
+<p>These commands may take a few minutes to run due to the large size of the repositories.
+This restriction has been made on GitHub’s request because updating shallow
+clones is an extremely expensive operation due to the tree layout and traffic of
+Homebrew/homebrew-core and Homebrew/homebrew-cask. We don’t do this for you
+automatically to avoid repeatedly performing an expensive unshallow operation in
+<span class="caps">CI</span> systems (which should instead be fixed to not use shallow clones). Sorry for
+the inconvenience!</p>
+<p>༄  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch —unshallow</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><span class="n">remote</span><span class="o">:</span> <span class="n">Enumerating</span> <span class="n">objects</span><span class="o">:</span> <span class="mi">346864</span><span class="o">,</span> <span class="n">done</span><span class="o">.</span>
+<span class="n">remote</span><span class="o">:</span> <span class="n">Counting</span> <span class="n">objects</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">346859</span><span class="o">/</span><span class="mi">346859</span><span class="o">),</span> <span class="n">done</span><span class="o">.</span>
+<span class="n">remote</span><span class="o">:</span> <span class="n">Compressing</span> <span class="n">objects</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">151509</span><span class="o">/</span><span class="mi">151509</span><span class="o">),</span> <span class="n">done</span><span class="o">.</span>
+<span class="n">remote</span><span class="o">:</span> <span class="n">Total</span> <span class="mi">338208</span> <span class="o">(</span><span class="n">delta</span> <span class="mi">196986</span><span class="o">),</span> <span class="n">reused</span> <span class="mi">324905</span> <span class="o">(</span><span class="n">delta</span> <span class="mi">183898</span><span class="o">),</span> <span class="n">pack</span><span class="o">-</span><span class="n">reused</span> <span class="mi">0</span>
+<span class="err">接收对象中</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">338208</span><span class="sr">/338208), 93.70 MiB | 5.90 MiB/s</span><span class="o">,</span> <span class="err">完成</span><span class="o">.</span>
+<span class="err">处理</span> <span class="n">delta</span> <span class="err">中</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">196986</span><span class="o">/</span><span class="mi">196986</span><span class="o">),</span> <span class="err">完成</span> <span class="mi">7813</span> <span class="err">个本地对象</span><span class="o">.</span>
+<span class="err">来自</span> <span class="n">github</span><span class="o">.</span><span class="na">com</span><span class="o">:</span><span class="n">Homebrew</span><span class="o">/</span><span class="n">homebrew</span><span class="o">-</span><span class="n">core</span>
+   <span class="n">ef5c358418d</span><span class="o">..</span><span class="mi">5</span><span class="n">c8ec008df4</span>  <span class="n">master</span>     <span class="o">-&gt;</span> <span class="n">origin</span><span class="o">/</span><span class="n">master</span>
+</code></pre></div>
+<blockquote>
+<p>༄  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch —unshallow</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><span class="n">remote</span><span class="o">:</span> <span class="n">Enumerating</span> <span class="n">objects</span><span class="o">:</span> <span class="mi">28649</span><span class="o">,</span> <span class="n">done</span><span class="o">.</span>
+<span class="n">remote</span><span class="o">:</span> <span class="n">Counting</span> <span class="n">objects</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">25990</span><span class="o">/</span><span class="mi">25990</span><span class="o">),</span> <span class="n">done</span><span class="o">.</span>
+<span class="n">remote</span><span class="o">:</span> <span class="n">Compressing</span> <span class="n">objects</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">8663</span><span class="o">/</span><span class="mi">8663</span><span class="o">),</span> <span class="n">done</span><span class="o">.</span>
+<span class="n">remote</span><span class="o">:</span> <span class="n">Total</span> <span class="mi">20358</span> <span class="o">(</span><span class="n">delta</span> <span class="mi">14980</span><span class="o">),</span> <span class="n">reused</span> <span class="mi">17036</span> <span class="o">(</span><span class="n">delta</span> <span class="mi">11692</span><span class="o">),</span> <span class="n">pack</span><span class="o">-</span><span class="n">reused</span> <span class="mi">0</span>
+<span class="err">接收对象中</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">20358</span><span class="sr">/20358), 6.42 MiB | 6.31 MiB/s</span><span class="o">,</span> <span class="err">完成</span><span class="o">.</span>
+<span class="err">处理</span> <span class="n">delta</span> <span class="err">中</span><span class="o">:</span> <span class="mi">100</span><span class="o">%</span> <span class="o">(</span><span class="mi">14980</span><span class="o">/</span><span class="mi">14980</span><span class="o">),</span> <span class="err">完成</span> <span class="mi">1655</span> <span class="err">个本地对象</span><span class="o">.</span>
+<span class="err">来自</span> <span class="n">github</span><span class="o">.</span><span class="na">com</span><span class="o">:</span><span class="n">Homebrew</span><span class="o">/</span><span class="n">homebrew</span><span class="o">-</span><span class="n">cask</span>
+   <span class="mi">6</span><span class="n">faccf1ee4</span><span class="o">..</span><span class="mi">134</span><span class="n">f0d09b2</span>  <span class="n">master</span>     <span class="o">-&gt;</span> <span class="n">origin</span><span class="o">/</span><span class="n">master</span>
+</code></pre></div>
+<p>根据 <code>brew doctor</code> 诊断建议, 进行依赖安装时:</p>
+<blockquote>
+<p>༄  brew install aom assimp bdw-gc brotli c-ares dav1d dbus double-conversion frei0r giflib guile jemalloc leptonica libarchive libb2 libbluray libev libproxy libpthread-stubs libsamplerate libsndfile libsodium libsoxr libvidstab libx11 libxau libxcb libxdmcp libxext libxrender luajit-openresty lz4 mpdecimal mujs nghttp2 opencore-amr openjdk openjdk@8 openjpeg opusfile pybind11 rav1e rubberband speex srt tesseract uchardet vapoursynth xorgproto zeromq zimg zstd</p>
+</blockquote>
+<p>有大量报错:</p>
+<p>…</p>
+<div class="highlight"><pre><span></span><code><span class="nl">Error</span><span class="p">:</span> <span class="n">python</span><span class="mf">@3.9</span><span class="o">:</span> <span class="n">the</span> <span class="n">bottle</span> <span class="n">needs</span> <span class="n">the</span> <span class="n">Apple</span> <span class="n">Command</span> <span class="n">Line</span> <span class="n">Tools</span> <span class="n">to</span> <span class="n">be</span> <span class="n">installed</span><span class="p">.</span>
+  <span class="n">You</span> <span class="n">can</span> <span class="n">install</span> <span class="n">them</span><span class="p">,</span> <span class="k">if</span> <span class="n">desired</span><span class="p">,</span> <span class="nl">with</span><span class="p">:</span>
+    <span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">--</span><span class="n">install</span>
+
+<span class="n">You</span> <span class="n">can</span> <span class="n">try</span> <span class="n">to</span> <span class="n">install</span> <span class="n">from</span> <span class="n">source</span> <span class="nl">with</span><span class="p">:</span>
+  <span class="n">brew</span> <span class="n">install</span> <span class="o">--</span><span class="n">build</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">source</span> <span class="n">python</span><span class="mf">@3.9</span>
+<span class="n">Please</span> <span class="n">note</span> <span class="n">building</span> <span class="n">from</span> <span class="n">source</span> <span class="n">is</span> <span class="n">unsupported</span><span class="p">.</span> <span class="n">You</span> <span class="n">will</span> <span class="n">encounter</span> <span class="n">build</span>
+<span class="n">failures</span> <span class="n">with</span> <span class="n">some</span> <span class="n">formulae</span><span class="p">.</span> <span class="n">If</span> <span class="n">you</span> <span class="n">experience</span> <span class="n">any</span> <span class="n">issues</span> <span class="n">please</span> <span class="n">create</span> <span class="n">pull</span>
+<span class="n">requests</span> <span class="n">instead</span> <span class="n">of</span> <span class="n">asking</span> <span class="k">for</span> <span class="n">help</span> <span class="n">on</span> <span class="n">Homebrew</span><span class="err">'</span><span class="n">s</span> <span class="n">GitHub</span><span class="p">,</span> <span class="n">Twitter</span> <span class="n">or</span> <span class="n">any</span> <span class="n">other</span>
+<span class="n">official</span> <span class="n">channels</span><span class="p">.</span>
+
+<span class="p">...</span>
+
+<span class="nl">Error</span><span class="p">:</span> <span class="nl">gcc</span><span class="p">:</span> <span class="n">the</span> <span class="n">bottle</span> <span class="n">needs</span> <span class="n">the</span> <span class="n">Apple</span> <span class="n">Command</span> <span class="n">Line</span> <span class="n">Tools</span> <span class="n">to</span> <span class="n">be</span> <span class="n">installed</span><span class="p">.</span>
+  <span class="n">You</span> <span class="n">can</span> <span class="n">install</span> <span class="n">them</span><span class="p">,</span> <span class="k">if</span> <span class="n">desired</span><span class="p">,</span> <span class="nl">with</span><span class="p">:</span>
+    <span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">--</span><span class="n">install</span>
+
+<span class="n">You</span> <span class="n">can</span> <span class="n">try</span> <span class="n">to</span> <span class="n">install</span> <span class="n">from</span> <span class="n">source</span> <span class="nl">with</span><span class="p">:</span>
+  <span class="n">brew</span> <span class="n">install</span> <span class="o">--</span><span class="n">build</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">source</span> <span class="n">gcc</span>
+<span class="n">Please</span> <span class="n">note</span> <span class="n">building</span> <span class="n">from</span> <span class="n">source</span> <span class="n">is</span> <span class="n">unsupported</span><span class="p">.</span> <span class="n">You</span> <span class="n">will</span> <span class="n">encounter</span> <span class="n">build</span>
+<span class="n">failures</span> <span class="n">with</span> <span class="n">some</span> <span class="n">formulae</span><span class="p">.</span> <span class="n">If</span> <span class="n">you</span> <span class="n">experience</span> <span class="n">any</span> <span class="n">issues</span> <span class="n">please</span> <span class="n">create</span> <span class="n">pull</span>
+<span class="n">requests</span> <span class="n">instead</span> <span class="n">of</span> <span class="n">asking</span> <span class="k">for</span> <span class="n">help</span> <span class="n">on</span> <span class="n">Homebrew</span><span class="err">'</span><span class="n">s</span> <span class="n">GitHub</span><span class="p">,</span> <span class="n">Twitter</span> <span class="n">or</span> <span class="n">any</span> <span class="n">other</span>
+<span class="n">official</span> <span class="n">channels</span><span class="p">.</span>
+<span class="nl">Error</span><span class="p">:</span> <span class="nl">gcc</span><span class="p">:</span> <span class="n">the</span> <span class="n">bottle</span> <span class="n">needs</span> <span class="n">the</span> <span class="n">Apple</span> <span class="n">Command</span> <span class="n">Line</span> <span class="n">Tools</span> <span class="n">to</span> <span class="n">be</span> <span class="n">installed</span><span class="p">.</span>
+  <span class="n">You</span> <span class="n">can</span> <span class="n">install</span> <span class="n">them</span><span class="p">,</span> <span class="k">if</span> <span class="n">desired</span><span class="p">,</span> <span class="nl">with</span><span class="p">:</span>
+    <span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">--</span><span class="n">install</span>
+
+<span class="n">You</span> <span class="n">can</span> <span class="n">try</span> <span class="n">to</span> <span class="n">install</span> <span class="n">from</span> <span class="n">source</span> <span class="nl">with</span><span class="p">:</span>
+  <span class="n">brew</span> <span class="n">install</span> <span class="o">--</span><span class="n">build</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">source</span> <span class="n">gcc</span>
+<span class="n">Please</span> <span class="n">note</span> <span class="n">building</span> <span class="n">from</span> <span class="n">source</span> <span class="n">is</span> <span class="n">unsupported</span><span class="p">.</span> <span class="n">You</span> <span class="n">will</span> <span class="n">encounter</span> <span class="n">build</span>
+<span class="n">failures</span> <span class="n">with</span> <span class="n">some</span> <span class="n">formulae</span><span class="p">.</span> <span class="n">If</span> <span class="n">you</span> <span class="n">experience</span> <span class="n">any</span> <span class="n">issues</span> <span class="n">please</span> <span class="n">create</span> <span class="n">pull</span>
+<span class="n">requests</span> <span class="n">instead</span> <span class="n">of</span> <span class="n">asking</span> <span class="k">for</span> <span class="n">help</span> <span class="n">on</span> <span class="n">Homebrew</span><span class="err">'</span><span class="n">s</span> <span class="n">GitHub</span><span class="p">,</span> <span class="n">Twitter</span> <span class="n">or</span> <span class="n">any</span> <span class="n">other</span>
+<span class="n">official</span> <span class="n">channels</span><span class="p">.</span>
+</code></pre></div>
+<p>完成 XCode 升级后再来, 就一切顺利了 ;-)</p>
+<p>以及推荐:</p>
+<p><a href="https://github.com/exelban/stats">exelban/stats: macOS system monitor in your menu bar</a></p>
+<p>免费监察一堆传感器数值:
+<img alt="stats" src="https://ipic.zoomquiet.top/2021-11-14-ScreenShot2021-11-14%2022.51.27.jpg" /></p>
+<h2 id="timekeeping">timekeeping<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#timekeeping" title="Permanent link">¶</a></h2>
+<ul>
+<li>1.0h 尝试手工恢复</li>
+<li>1.0h 尝试 timemechine 恢复</li>
+<li>0.5h 探索其它可能</li>
+<li>1.0h 尝试 迁移助手</li>
+<li>8.0h 点对点 传输 450+G 数据+应用</li>
+<li>1.0h 尝试恢复 WaterFox 职能</li>
+<li>1.5h 尝试恢复关键工具许可证</li>
+<li>1.0h 尝试解决 Python 问题</li>
+<li>1.5h 记要/发布</li>
+<li>…</li>
+</ul>
+<p><img alt="终于基本可用" src="https://ipic.zoomquiet.top/2021-11-14-ScreenShot2021-11-14%2023.31.28.jpg" /></p>
+<h2 id="refer">refer.<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#refer" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://docs.python.org/3/using/mac.html">5. Using Python on a Mac — Python 3.10.0 documentation</a><ul>
+<li><a href="https://developer.apple.com/forums/thread/119429">My application crashed with invali… | Apple Developer Forums</a></li>
+<li><a href="https://gist.github.com/llbbl/c54f44d028d014514d5d837f64e60bac">fix missing openssl files in catalina</a></li>
+<li><a href="https://stackoverflow.com/questions/59888499/macos-catalina-python-quit-unexpectedly-error">macOS Catalina: Python Quit unexpectedly error - Stack Overflow</a></li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+<h1 id="logging">logging<a class="headerlink" href="https://blog.zoomquiet.io/feeds/all.atom.xml#logging" title="Permanent link">¶</a></h1>
+<ul>
+<li>211114 找到办法, 快速完成迁移</li>
+<li>211113 init.</li>
+</ul></div>
+
+
+
+
+
+
+
+<p class="date">
+<a href="https://blog.zoomquiet.io/211114M1max-re-inti-MBP.html">by Zoom.Quiet at November 14, 2021 03:53 PM</a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="daygroup">
 <h2>November 11, 2021</h2>
 
 <div class="channelgroup">
@@ -410,498 +756,6 @@ Typer ~ CLI 版 FastAPI, 值得享用.</p>
 </div>
 
 </div>
-<div class="daygroup">
-<h2>November 03, 2021</h2>
-
-<div class="channelgroup">
-
-
-
-
-
-
-
-<h3><a href="https://weekly.pychina.org/" title="蠎周刊">蠎周刊</a></h3>
-
-
-<div class="entrygroup" id="tag:weekly.pychina.org,2021-10-29:/python-weekly/pyw-523.html">
-<h4><a href="https://weekly.pychina.org/python-weekly/pyw-523.html">pythonista-weekly : Pyw 523</a></h4>
-<div class="entry">
-<div class="content">
-<h3>欢迎阅读《pythonista周刊》第523期。Let us start!</h3>
-<blockquote>
-<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-523">https://mailchi.mp/pythonweekly/python-weekly-issue-523</a><br />
-翻译：Dustyposa</p>
-</blockquote>
-<h3>新闻</h3>
-<p><a href="https://pycon.blogspot.com/2021/10/pycon-us-2022-call-for-proposals-is-open.html">PyCon US 2022 Call for Proposals is open!</a>
-<code>PyCon US 2022</code> 的提案征集已经正式开始，包括讲座、教程、海报和 <code>Charlas</code>。我们需要各种主题的初级、中级和高级提案。</p>
-<h3>文章、教程与话题</h3>
-<p><a href="https://gdevanla.github.io/posts/write-a-parser-combinator-in-python.html">Minimal Parser Combinator in Python</a>
-在这篇文章中，我们将学习如何从头开始建立一个最小的解析器库。这里提供的函数可以用来用更多的分析器组合器来扩展这个库。</p>
-<p><a href="https://medium.com/airbnb-engineering/meet-ottr-a-serverless-public-key-infrastructure-framework-f6580010ae0c">Meet Ottr: 一个无服务器的公钥基础设施框架</a>
-<code>Ottr</code> 是一个无服务器的公钥基础设施框架，无需使用代理就能处理端到端的证书轮换。这篇文章的目的是提供一个关于 <code>Ottr</code> 的概述，包括样本参考架构、逻辑和网络流程，并强调该解决方案的好处。</p>
-<p><a href="https://www.youtube.com/watch?v=0oSsLbh_Kv4">Django Tutorial - Create a Digital Resume with a Python Backend</a> <img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png" />
-通过建立一个数字简历网站来提高你的 <code>Django</code> 技能。我们为你提供一个免费的简历模板，你将学习如何使用 <code>Django</code> 和 <code>Python</code> 创建后台。</p>
-<p><a href="https://github.com/stong/how-to-exploit-a-double-free">How to exploit a double free</a>
-这篇文章教给你真实世界的现代二进制利用方法，也有一点关于处理器微架构的知识。你将学习如何利用 <code>double free</code> 漏洞或 <code>Use-After-Free</code> 漏洞。</p>
-<p><a href="https://lukasz.langa.pl/5d044f91-49c1-4170-aed1-62b6763e6ad0/">Python Core和Sam Gross之间关于Python GIL移除的会议记录</a>
-在一年一度的 <code>Python</code> 核心开发冲刺期间，我们与 <code>nogil</code> 的作者 <code>Sam Gross</code> 举行了一次会议， <code>nogil</code> 是 <code>Python 3.9</code> 的一个分叉，去除了 <code>GIL</code>。这是会议的一个非线性总结。</p>
-<p><a href="https://www.sonarqube.org/features/multi-languages/python/?utm_source=pythonweekly&utm_medium=paid&utm_campaign=python&utm_content=secondary-211028">用SonarQube进行Python静态代码分析</a>
-Catch tricky Bugs &amp; Vulnerabilities in your Python code with minimal configuration - with support up to Python 3.9! Includes taint analysis rules to detect injection flaws &amp; more. Download free today. SPONSOR</p>
-<p><a href="https://www.youtube.com/watch?v=t_ZNJeM1OeI">Solving For Electric Potential of Polarized Materials</a> <img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png" />
-This video shows you how to mathematically derive the potential of polarized materials, and then use sympy and scipy to assist with symbolic and numerical methods needed to solve for the potential of various objects.</p>
-<p><a href="https://www.pyimagesearch.com/2021/10/27/automatically-ocring-receipts-and-scans/">Automatically OCR’ing Receipts and Scans</a>
-在本教程中，你将学习如何使用 <code>Tesseract</code> 和 <code>OpenCV</code> 来建立一个自动收据扫描仪。我们将使用 <code>OpenCV</code> 来构建系统的实际图像处理部分。</p>
-<p><a href="https://t.co/phHaKMZDOc">SHAP: 用Python解释任何机器学习模型</a>
-<code>SHAP</code> 和 <code>Shapley</code> 值的综合指南。</p>
-<p><a href="https://searchsecurity.techtarget.com/feature/How-to-use-Python-for-privilege-escalation-in-Windows">如何在Windows中使用Python进行权限升级</a>
-渗透测试人员可以使用 <code>Python</code> 编写脚本和服务来发现安全漏洞。在本攻略中，学习如何在 <code>Windows</code> 中升级权限。</p>
-<p><a href="https://t.co/cm39GTEXfY">用Python构建你的第一个基于Mood的音乐推荐系统</a>
-使用 <code>Spotify API</code> 从头开始的基于音频的推荐。</p>
-<p><a href="https://eng.lyft.com/how-and-why-to-build-your-own-gradient-boosted-tree-package-d5157cd77298">How and why we built a custom gradient boosted-tree package</a>
-为了进行准确和快速的旅行时间预测，<code>Lyft</code> 从头开始建立了一个梯度提升树（GBT）包。与现成的软件包相比，它的训练速度较慢，但可以进行定制，以更有效地处理空间和时间，产生更少的不稳定预测。</p>
-<p><a href="https://t.co/sOt9W7jANU">我们是如何改善Python后端启动时间的？</a></p>
-<p><a href="https://blog.chiodini.org/posts/python-global/">全局语句在Python中的真正含义</a></p>
-<p><a href="https://zeninstruments.blogspot.com/2021/10/manchester-decoder-and-cassette.html">使用Arduino和Python将数据存储在卡带上（曼彻斯特差分编码)</a></p>
-<h3>有趣的项目、工具和库</h3>
-<p><a href="https://github.com/CoinAlpha/hummingbot">Hummingbot</a>
-一个开源项目，整合了集中式交易所和去中心化协议的加密货币交易。它允许用户运行一个客户端，执行加密货币的定制化、自动化交易策略。</p>
-<p><a href="https://github.com/Blankly-Finance/Blankly">Blankly</a>
-用一个软件包进行股票、加密货币和外汇交易。只需几行代码就可轻松建立、回测、交易和部署到各个交易所。</p>
-<p><a href="https://github.com/airbnb/ottr">ottr</a>
-<code>Ottr</code> 是一个用于公钥基础设施（<code>PKI</code>）的无服务器框架，提供一个强大和可扩展的方法，使用无代理的方法管理端到端的证书轮换。</p>
-<p><a href="https://github.com/byko3y/python-shared-objects">python-shared-objects</a>
-<code>CPython</code> 扩展实现了具有本地界面的共享事务性内存。</p>
-<p><a href="https://github.com/sarvjeets/lakshmi">Lakshmi</a>
-Investing library and command-line interface inspired by the Bogleheads philosophy.</p>
-<p><a href="https://github.com/OurGuru/Offline-Reverse-Image-Search">Offline-Reverse-Image-Search</a>
-这个应用程序通过为每张图片生成一个哈希值来查找重复或接近重复的图片，该哈希值存储在一个名为 <code>VP-Tree</code> 的专门数据结构中，这使得在 <code>100K</code> 的数据集上搜索图片几乎是瞬间完成。</p>
-<p><a href="https://github.com/MrH0wl/Cloudmare">Cloudmare</a>
-<code>Cloudmare</code> 是一个简单的工具，可以找到受 <code>Cloudflare</code>、<code>Sucuri</code> 或 <code>Incapsula</code> 保护的、<code>DNS</code> 配置错误的网站的起源服务器。</p>
-<p><a href="https://github.com/aliyunav/Finger">Finger</a>
-一个识别功能符号的工具。</p>
-<p><a href="https://github.com/Dvd848/pytai">pytai</a>
-一个基于 <code>Python</code> 的 <code>Kaitai Struct</code> 可视化工具和HEX查看器。 </p>
-<h3>最近更新</h3>
-<p><a href="https://pytorch.org/blog/pytorch-1.10-released/">PyTorch 1.10</a>
-PyTorch 1.10的更新主要是为了改善PyTorch的训练和性能，以及开发人员的可用性。完整的发布说明可在<a href="https://github.com/pytorch/pytorch/releases/tag/v1.10.0">这里</a>查阅。亮点包括。</p>
-<ul>
-<li>CUDA Graphs APIs are integrated to reduce CPU overheads for CUDA workloads.</li>
-<li>Several frontend APIs such as FX, torch.special, and nn.Module Parametrization, have moved from beta to stable.</li>
-<li>Support for automatic fusion in JIT Compiler expands to CPUs in addition to GPUs.</li>
-<li>Android NNAPI support is now available in beta.</li>
-</ul>
-<p><a href="https://www.pypy.org/posts/2021/10/pypy-v737-release.html">PyPy v7.3.7: bugfix release of python 3.7 and 3.8</a>
-We are releasing a PyPy 7.3.7 to fix the recent 7.3.6 release's binary incompatibility with the previous 7.3.x releases. We mistakenly added fields to PyFrameObject and PyDateTime_CAPI that broke the promise of binary compatibility, which means that c-extension wheels compiled for 7.3.5 will not work with 7.3.6 and via-versa. Please do not use 7.3.6.</p>
-<p><a href="https://www.djangoproject.com/weblog/2021/oct/25/django-40-beta-1-released/">Django 4.0 beta 1</a>
-<code>Django 4.0 beta1</code> 现在已经推出。它代表了4.0发布周期的第二阶段，是一个让你尝试 <code>Django 4.0</code> 所带来的变化的机会。</p>
-<h3>活动</h3>
-<p><a href="https://www.meetup.com/PyData-Edinburgh/events/281656721/">Virtual: PyData Edinburgh November 2021</a>
-There will be a talk, Automated Exploratory Data Analysis of Databases.</p>
-<p><a href="https://www.meetup.com/PyData-Triangle/events/281547041/">Virtual: PyData Triangle November 2021</a>
-There will be following talks</p>
-<ul>
-<li>What are you watching? A multi-faceted approach to CTV inventory identification</li>
-<li>Introducing MALTS &amp; PyMALTS</li>
-</ul>
-<p>Posa：</p>
-<blockquote>
-<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
-</blockquote>
-<p>----- 分割线 -----</p>
-<blockquote>
-<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！</p>
-</blockquote>
-<ul>
-<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-523.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
-<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23523.md">issue-523.md</a></li>
-</ul></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://weekly.pychina.org/python-weekly/pyw-523.html">by Pythoneerm at November 03, 2021 03:54 AM</a>
-</p>
-</div>
-</div>
-
-
-
-
-<div class="entrygroup" id="tag:weekly.pychina.org,2021-11-03:/issue/issue-497.html">
-<h4><a href="https://weekly.pychina.org/issue/issue-497.html">PyCoder 497</a></h4>
-<div class="entry">
-<div class="content">
-<blockquote>
-<p>zipapp 值得认真用卟?</p>
-</blockquote>
-<p>原文: <a href="https://pycoders.com/issues/497">PyCoder's Weekly - Issue #497</a></p>
-<p><img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png" /></p>
-<ul>
-<li>211103 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 13 分钟 完成快译</li>
-<li>211103 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 37 分钟 完成格式转抄.</li>
-</ul>
-<hr />
-<ul>
-<li><a href="https://pycoders.com/link/7343/web">Python 并发可行性解决方案</a><ul>
-<li>JONATHAN CORBET</li>
-</ul>
-</li>
-</ul>
-<p>“The end result thus appears to be a GIL-removal effort that has a rather better-than-average chance of making it into the CPython interpreter. That would be cause for a lot of rejoicing among Python developers. That said, a change this fundamental is unlikely to be rushed into the CPython mainline; it will take a lot of testing to convince the community that it is ready for production use.”</p>
-<p>(<code>是也乎:</code></p>
-<p>COOL,
-不过, 等等, 为什么一定要可视化?</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7320/web">Django 模板: 对 Tags and Filters 实施习惯</a><ul>
-<li>REAL PYTHON</li>
-</ul>
-</li>
-</ul>
-<p>Django templates have many built-in tags and filters to render content, but they may not meet all your needs. This tutorial covers how to write Django custom template tags and filters, including simple tags, inclusion tags, block tags, and different types of filters.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Templates" src="https://ipic.zoomquiet.top/2021-11-03-ScreenShot%202021-11-03%2011.30.31.jpg" /></p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7326/web">Python’s zipapp 模块: 构建可执行的ZIP应用程序</a><ul>
-<li>REAL PYTHON</li>
-</ul>
-</li>
-</ul>
-<p>In this step-by-step tutorial, you’ll learn what Python Zip applications are and how to create them quickly using the zipapp module from the standard library. You’ll also learn some alternative tools you can use to build this kind of application manually.</p>
-<p>(<code>是也乎:</code></p>
-<p>万千 VB 程序猿 最爱的 Python 模块了</p>
-<p><img alt="zipapp" src="https://ipic.zoomquiet.top/2021-11-03-ScreenShot%202021-11-03%2011.30.04.jpg" /></p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7339/web">Infix 运算符 (Python 配方)</a><ul>
-<li>ACTIVESTATE.COM</li>
-</ul>
-</li>
-</ul>
-<p>Python has the in operator and it would be nice to have additional infix operator like this. This recipe shows how (almost) arbitrary infix operators can be defined in vanilla Python: x |op| y or x &lt;&gt; y</p>
-<p>(<code>是也乎:</code></p>
-<p>ACTIVESTATE 公司免费公开运营几十年的 Recipe
-应该是最早最成功的贴吧以及QA 社区了</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7335/web">PSF 社区服务奖项提名</a><ul>
-<li>PYTHON.ORG</li>
-</ul>
-</li>
-</ul>
-<p>Do you know of a deserving individual who should be considered for a PSF Community Service Award? The PSF is accepting nominations for the Q4 2021 Community Service Award.</p>
-<hr />
-<h2>探讨/吐糟</h2>
-<blockquote>
-<p>Discussions</p>
-</blockquote>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/7329/web">在编码面试中/我如何修改Python字符串</a></p>
-<ul>
-<li>REDDIT</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7347/web">在 OrderedDict and dict 中关键词顺序一样嘛?</a></p>
-<ul>
-<li>STACK OVERFLOW</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7348/web">是否有一种方法可以在 Python≥3.10 中用模式匹配不等式 ?</a></p>
-<ul>
-<li>STACK OVERFLOW</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>文章/教程/嗯哼</h2>
-<blockquote>
-<p>Articles, Tutorials and Talks</p>
-</blockquote>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/7330/web">通过重构更大的函数来理解复杂代码</a></p>
-<ul>
-<li>TEST &amp; CODE </li>
-<li>podcast
-“To understand complex code, it can be helpful to remove abstractions, even if it results in larger functions. This episode walks through a process I use to refactor code that I need to debug and fix, but don’t completely understand.”</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7321/web">用 FunctionTrace 优化Python代码 </a></p>
-<ul>
-<li>MATT BRYANT</li>
-</ul>
-</li>
-</ul>
-<p>“I recently did a quick optimization pass over glyphsLib, using FunctionTrace to improve performance by ~30% in under half an hour. This is writeup of my approach, which should be mostly extensible to optimizing other codebases.”</p>
-<ul>
-<li><a href="https://pycoders.com/link/7323/web">在 Python 中读取输入和写入输出</a><ul>
-<li>REAL PYTHON</li>
-<li>course</li>
-</ul>
-</li>
-</ul>
-<p>In this introductory Python course, you’ll learn how to take user input from the keyboard with the built-in function input() and how to display output to the console with the built-in function print().</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="course" src="https://ipic.zoomquiet.top/2021-11-03-ScreenShot%202021-11-03%2011.25.28.jpg" /></p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7349/web">用 borb 在 python 中创建和操纵 pdf</a><ul>
-<li>REAL PYTHON </li>
-<li>podcast</li>
-</ul>
-</li>
-</ul>
-<p>Have you wanted to generate PDFs from your Python project? This week on the show, it’s Joris Schellekens talking about his library for creating and manipulating PDFs named borb.</p>
-<p>(<code>是也乎:</code>
-<img alt="podcast" src="https://ipic.zoomquiet.top/2021-11-03-ScreenShot%202021-11-03%2011.24.51.jpg" /></p>
-<p>borb 的广告已经嗯哼了两个月</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7332/web">Pyston Python 实现路线图</a><ul>
-<li>KEVIN MODZELEWSKI</li>
-</ul>
-</li>
-</ul>
-<p>“We’ve spent some time recently thinking about the future of Pyston, our faster implementation of Python, and wanted to share what’s on our mind.”</p>
-<p>(<code>是也乎:</code></p>
-<p>老爹另启炉灶之后的 Pyston...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7346/web">Pants 2.8 支持 PEP 517: 轻松构建 Python 本机扩展</a><ul>
-<li>BENJY WEINBERGER</li>
-</ul>
-</li>
-</ul>
-<p>Pants is a software build system. It orchestrates the various tools and steps that process your source code into deployable software.</p>
-<p>(<code>是也乎:</code></p>
-<p>新裤子乐队指定代言模块</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7336/web">PyDev of the Week: Tzu-ping Chung</a><ul>
-<li>MIKE DRISCOLL</li>
-</ul>
-</li>
-</ul>
-<p>Tzu-ping is a member of Python Packaging Authority (PyPA) and a maintainer of pip and pipx.</p>
-<ul>
-<li><a href="https://pycoders.com/link/7325/web">用 Pants and PEX 精简 Docker 构建</a><ul>
-<li>BENJY WEINBERGER</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>其实还是并行化更加需要2一些?
-反正就是越来越快, 最好不要消耗时间.</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7324/web">在 coverage.py 中进行覆盖承诺</a><ul>
-<li>NED BATCHELDER</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>覆盖测试工具自身的覆盖要求...</p>
-<p>)</p>
-<hr />
-<h2>好物/妙品/...</h2>
-<blockquote>
-<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
-</blockquote>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/7345/web">detr: 有 Transformers 的 End-to-End 对象检测 </a></p>
-<ul>
-<li>GITHUB.COM/FACEBOOKRESEARCH</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7333/web">pyhpc-benchmarks: 最受欢迎的 CPU和GPU 基准测试Python libs </a></p>
-<ul>
-<li>GITHUB.COM/DIONHAEFNER</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>强测集</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7350/web">structlog: Python的结构日志</a><ul>
-<li>STRUCTLOG.ORG</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p><img alt="structlog" src="https://ipic.zoomquiet.top/2021-11-03-ScreenShot%202021-11-03%2011.19.05.jpg" /></p>
-<p>足够可爱,
-对终端有极高要求, windows 就囧了...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7319/web">Dataconf: 具有自动 Dataclasses 解析能力的配置库</a><ul>
-<li>GITHUB.COM/ZIFEO • Shared by Teo</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>反正能自动化的, 一定会自动化</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7318/web">epilog: Docker Container Log Aggregation With Elasticsearch, Kibana, and Filebeat</a><ul>
-<li>GITHUB.COM/REDNAFI 
-• Shared by Redowan Delowar</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>ELK 虽然好, 但是, 还是应该更加简洁些...</p>
-<p>)</p>
-<ul>
-<li><a href="https://pycoders.com/link/7322/web">Closember: 当月 Close/Merge  Issues and PR 数量排名</a><ul>
-<li>CLOSEMBER.ORG</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p><img alt="Closember" src="https://ipic.zoomquiet.top/2021-11-03-ScreenShot%202021-11-03%2011.12.41.jpg" /></p>
-<p>不以 star 为荣,
-而应该以关闭 issue 为耀</p>
-<p>)</p>
-<hr />
-<h2>📆🐍 活动/大会</h2>
-<blockquote>
-<p>Events, MeetUp 真的是全球线下活动组织中心</p>
-</blockquote>
-<ul>
-<li>
-<p><a href="https://pycoders.com/link/7338/web">⋅ PyCon Chile</a></p>
-<ul>
-<li>November 5 to November 8, 2021</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7351/web">⋅ PyDelhi User Group Meetup</a></p>
-<ul>
-<li>November 6, 2021</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7337/web">⋅ Edmonton Python User Group</a></p>
-<ul>
-<li>November 8, 2021</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7342/web">⋅ IndyPy Monthly Meetup</a></p>
-<ul>
-<li>November 9, 2021</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7340/web">⋅ TuPLE (Tucson Python Language Enthusiasts)</a></p>
-<ul>
-<li>November 9, 2021</li>
-</ul>
-</li>
-<li>
-<p><a href="https://pycoders.com/link/7356/web">⋅ deploy by DigitalOcean</a></p>
-<ul>
-<li>November 16 to November 17, 2021</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>DAMA</h2>
-<blockquote>
-<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
-</blockquote>
-<ul>
-<li><a href="https://space.bilibili.com/272001170/">沈崴的个人空间 -  ( ゜- ゜)つロ 乾杯~ Bilibili</a><ul>
-<li>哔哩哔哩</li>
-</ul>
-</li>
-</ul>
-<p>(<code>是也乎:</code></p>
-<p>老司机开新坑, 时隔10年,
-沈游侠再次开声, 值得关注:</p>
-<p><img alt="Bilibili" src="httpstp://ydlj.zoomquiet.top/ipic/2021-01-06-ScreenShot%202021-01-06%2010.14.10.jpg" /></p>
-<p>)</p>
-<hr />
-<h1>PS:</h1>
-<ul>
-<li>首发: <a href="http://weekly.pychina.org/issue/issue-497.html">Issue 497 ~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
-<li>修订: <a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-497.md">issue-497.md</a></li>
-</ul>
-<h2>PPS:</h2>
-<blockquote>
-<p>不觉中蟒周刊快译已经到了第9个年头</p>
-</blockquote>
-<p>去年开始有小伙伴加入承担 <code>pythonisa</code> 周刊的翻译,
-从来没提醒过, 可就这么默默坚持下来了...</p>
-<p>问为什么:</p>
-<div class="highlight"><pre><span></span><code><span class="err">[皱眉]每周新闻资讯 怎么能错过 </span>
-<span class="err">看看有什么新东西 </span>
-<span class="err">当有新的发现时：</span>
-<span class="err">    what f**k 还能这样玩？ 还有这东西？</span>
-<span class="err">    每周开彩蛋[吃瓜]</span>
-</code></pre></div>
-
-
-<p><code>无法同意更多</code>...
-很多社区贡献看起来辛苦,
-其实受益最多的,
-就是主动承担者也.</p>
-<hr />
-<p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
-<p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="err">askdama@googlegroups.com</span>
-</code></pre></div>
-
-
-<p>(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
-<hr />
-<p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF497D4Q90XdDA7g">大妈</a></strong></p>
-<p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF497D4Q90XdDA7g">大妈</a>:</p>
-<div class="highlight"><pre><span></span><code><span class="n">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
-<span class="n">公开课程</span><span class="p">:</span> <span class="n">蟒营</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">Mainium</span><span class="p">)</span>
-<span class="n">历史吐糟</span><span class="p">:</span> <span class="n">Chaos42</span> <span class="p">(</span><span class="n">订阅号</span> <span class="n">PythoniCamp</span><span class="p">)</span>
-
-<span class="k">as</span> <span class="n">创始组织者</span><span class="p">:</span>
-    <span class="n">PyChina</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">PyChinaOrg</span><span class="p">)</span>
-    <span class="n">本地社区</span><span class="p">:</span> 
-        <span class="n">GDG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
-        <span class="n">TFUG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
-</code></pre></div>
-
-
-<hr /></div>
-
-
-
-
-
-
-
-<p class="date">
-<a href="https://weekly.pychina.org/issue/issue-497.html">by Pythoneerm at November 03, 2021 03:49 AM</a>
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
 
 
 <div class="sidebar">
@@ -910,10 +764,10 @@ There will be following talks</p>
 <h2>Subscriptions</h2>
 <ul>
 <li>
-<a href="https://zhuzi.dev/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://zhuzi.dev" class="message" title="internal server error">bambooooooom</a>
+<a href="https://zhuzi.dev/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://zhuzi.dev" title="Bambooom">bambooooooom</a>
 </li>
 <li>
-<a href="https://bemself.github.io/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://bemself.github.io" class="message" title="404: not found">bemself</a>
+<a href="https://bemself.github.io/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://bemself.github.io" class="message" title="internal server error">bemself</a>
 </li>
 <li>
 <a href="https://zhanluyan.com/rss.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://ericazhan.github.io" title="">erica</a>
@@ -922,7 +776,7 @@ There will be following talks</p>
 <a href="http://blog.junyu.io/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://blog.junyu.io/" class="message" title="internal server error">junyu</a>
 </li>
 <li>
-<a href="https://liguanghe.github.io/rss2.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://liguanghe.github.io/" class="message" title="internal server error">li guang he</a>
+<a href="https://liguanghe.github.io/rss2.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://liguanghe.github.io/" title="Li Guanghe's blog">li guang he</a>
 </li>
 <li>
 <a href="https://mxclover.link/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://mxclover.link/" title="mxclover">mxclover</a>
@@ -940,16 +794,16 @@ There will be following talks</p>
 <a href="http://www.ocselected.org/feed.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="http://www.ocselected.org/feed/index.xml" class="message" title="404: not found">开源之道</a>
 </li>
 <li>
-<a href="https://du.101.camp/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://du.101.camp/" title="自怼圈">自怼圈</a>
+<a href="https://du.101.camp/atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://du.101.camp/" class="message" title="internal server error">自怼圈</a>
 </li>
 <li>
-<a href="https://weekly.pychina.org/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://weekly.pychina.org/" title="蠎周刊">蠎周刊</a>
+<a href="https://weekly.pychina.org/feeds/all.atom.xml" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a href="https://weekly.pychina.org/" class="message" title="internal server error">蠎周刊</a>
 </li>
 </ul>
 
 <p>
 <strong>Last updated:</strong><br>
-November 14, 2021 08:42 AM<br>
+November 14, 2021 04:43 PM<br>
 <em>All times are UTC.</em><br>
 <br>
 Powered by:<br>
